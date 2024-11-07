@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExperiencesChart should render correctly with DC translations 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="headContainer"
+    >
+      <h5
+        class="title"
+      >
+        Career Cluster Wheel
+      </h5>
+      <p
+        class="text"
+      >
+        The wheel represents projects that have been completed in each career cluster. Hover over each pie slice to see details. A project may belong to multiple career clusters depending on the subject matter and task.
+      </p>
+    </div>
+    <div
+      class="chartContainer"
+    >
+      <div
+        class="recharts-responsive-container"
+        style="width: 85%; height: 400px; min-width: 0;"
+      />
+    </div>
+    <div
+      class="footerContainer"
+    >
+      <div
+        class="footerContent"
+      >
+        <div
+          class="icon icon -sm-size"
+          data-testid="icon"
+        >
+          <div />
+        </div>
+        <p
+          class="footerText"
+        >
+          Click on parts of charts to scope the filter
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ExperiencesChart should render correctly with DL translations 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="headContainer"
+    >
+      <h5
+        class="title"
+      >
+        Career Cluster Wheel
+      </h5>
+      <p
+        class="text"
+      >
+        The wheel represents projects that have been completed in each career cluster. Hover over each pie slice to see details. A project may belong to multiple career clusters depending on the subject matter and task.
+      </p>
+    </div>
+    <div
+      class="chartContainer"
+    >
+      <div
+        class="recharts-responsive-container"
+        style="width: 85%; height: 400px; min-width: 0;"
+      />
+    </div>
+    <div
+      class="footerContainer"
+    >
+      <div
+        class="footerContent"
+      >
+        <div
+          class="icon icon -sm-size"
+          data-testid="icon"
+        >
+          <div />
+        </div>
+        <p
+          class="footerText"
+        >
+          Click on parts of charts to scope the filter
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

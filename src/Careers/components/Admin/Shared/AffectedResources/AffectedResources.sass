@@ -1,0 +1,16 @@
+@import '@shared/stylesheets/config.sass'
+
+.affected-resources
+  color: $color-danger-500
+  margin-top: $m-xs
+
+  &__heading
+    margin-bottom: $m-xs
+    text-transform: capitalize
+
+  &__link
+    &#{&} // strengthen selector
+      color: $color-danger-500
+
+      &:hover
+        text-decoration: underline

@@ -1,0 +1,73 @@
+@import '@shared/stylesheets/config.sass'
+
+.listItem
+  +flex-container(row, space-between, center)
+  gap: $m-xs
+  height: 64px
+  padding: 0 $m-base
+  position: relative
+
+  +media-breakpoint-up(xxl)
+    padding: 0 $m-md
+    height: 82px
+
+  &:hover
+    background-color: $color-primary-200
+    cursor: pointer
+
+  &:not(:last-child)
+    border-bottom: 1px solid $color-neutral-200
+
+.hasNewMessage
+  background-color: $color-secondary-200
+
+.itemContent
+  flex-grow: 1
+  min-width: 0
+
+.listHeaderHeader
+  +flex-container(row, false, center)
+  color: $color-primary-500
+  margin-bottom: $m-xxxs
+
+  +media-breakpoint-up(xxl)
+    margin-bottom: $m-xxs
+
+.listItemTitle
+  font-size: $font-size-xs
+  font-weight: $font-weight-bold
+  margin: 0 $m-sm 0 0
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-sm
+
+.listItemDate
+  color: $color-font-secondary
+  font-size: $font-size-xxs
+  white-space: nowrap
+  margin-right: $m-xs
+
+.listItemMessage
+  +ellipsis-multiline(1)
+  font-size: $font-size-xxs
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-sm
+
+.labelWrapper
+  +flex-container(row)
+  column-gap: $m-sm
+
+.typeLabel
+  background-color: $color-danger-100
+  color: $color-danger-600
+  font-size: $font-size-xxs
+  padding: $m-xs $m-xxs
+  white-space: nowrap
+
+.PBL
+  background-color: $color-info-100
+  color: $color-primary-600

@@ -1,0 +1,24 @@
+@import '@shared/stylesheets/config.sass'
+
+.container
+  +flex-container(column)
+  background-color: $color-white
+  grid-area: topleft
+  position: relative
+
+  &__tabs
+    &#{&}
+      border-radius: $m-xxs
+
+  :global(.shared-table)
+    height: 100%
+
+    :global(.shared-table__table)
+      height: 100%
+
+    :global(.shared-table__body)
+      +scrollbar
+
+.heading
+  font-size: $font-size-base
+  margin: $m-sm 0 0 $m-sm

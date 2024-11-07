@@ -1,0 +1,18 @@
+@import '@shared/stylesheets/config.sass'
+
+.textEditor
+  +flex-container(column, center, flex-start)
+  color: $color-font-primary
+  width: 100%
+  
+  :global(.tox.tox-tinymce)
+    height: 300px !important
+
+.label
+  color: $color-font-secondary
+  font-size: $font-size-sm
+  margin-bottom: $m-xs
+  text-transform: capitalize
+
+
+  

@@ -1,0 +1,17 @@
+@import '@shared/stylesheets/config'
+
+$image-max-width: 340px
+
+.header
+  +flex-container(row, space-between)
+
+.image
+  max-width: $image-max-width
+  object-fit: contain
+
+.body
+  +flex-container(row, flex-start, flex-start)
+  gap: $m-base
+
+.lessons
+  margin: $m-sm 0

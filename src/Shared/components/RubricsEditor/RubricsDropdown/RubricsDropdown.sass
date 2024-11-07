@@ -1,0 +1,27 @@
+@import '@shared/stylesheets/config'
+
+.rubrics-dropdown
+    min-width: 70px
+
+    .rubrics-dropdown__menu-list
+      max-height: 200px
+      
+      &::-webkit-scrollbar
+        width: $m-xxs
+
+      &::-webkit-scrollbar-track
+        background-color: $color-primary-200
+
+      &::-webkit-scrollbar-thumb
+        background-color: $color-primary-500
+
+    .rubrics-dropdown__option
+        &--is-focused
+            background-color: $color-primary-200
+
+        &--is-selected
+            background-color: $color-primary-500
+    
+    .rubrics-dropdown__control
+      border: 1px solid $color-border
+    

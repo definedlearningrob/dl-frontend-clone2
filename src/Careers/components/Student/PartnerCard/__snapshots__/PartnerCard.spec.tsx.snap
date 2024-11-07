@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PartnerCard should render correctly 1`] = `
+<div>
+  <a
+    class="p-xs xxxl:p-x bg-white flex gap-x xxxl:gap-sm rounded-sm group/card transition-colors border border-neutral-300 focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 hover:outline hover:!outline-1 hover:bg-primary-200 hover:!outline-primary-500 hover:shadow-300"
+    href="/partner/1"
+  >
+    <div
+      class="basis-[120px] xxxl:basis-[180px] shrink-0 grow-0 overflow-hidden flex flex-col flex-1 max-h-[98px] xxxl:max-h-[115px] relative rounded-sm before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%]"
+    >
+      <img
+        class=" object-cover rounded-sm h-full w-full"
+        src="https://test.com/imageThumbnail.jpg"
+      />
+    </div>
+    <div
+      class="grow"
+    >
+      <div
+        class="flex items-center justify-between w-full"
+      >
+        <span
+          data-state="closed"
+        >
+          <h3
+            class="mb-0 mr-base line-clamp-2 text-xs"
+          >
+            Santa Rosa Medical Center
+          </h3>
+        </span>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/card:bg-white p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-base w-base"
+            />
+          </div>
+        </div>
+      </div>
+      <span
+        data-state="closed"
+      >
+        <p
+          class="line-clamp-2 text-xxs xxxl:text-xs text-font-secondary pr-xs tracking-normal leading-lg mb-xs xxxl:mb-x"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        </p>
+      </span>
+      <div
+        class="flex gap-xxs xxxl:gap-xs"
+      >
+        <div
+          class="font-medium leading-lg flex items-center group-hover/card:!bg-white bg-primary-200 text-primary-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          2 Opportunities
+        </div>
+        <div
+          class="font-medium leading-lg flex items-center group-hover/card:!bg-white bg-primary-200 text-primary-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          3 Virtual Internships
+        </div>
+        <div
+          class="font-medium leading-lg flex items-center group-hover/card:!bg-white bg-primary-200 text-primary-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          2 Courses
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+`;

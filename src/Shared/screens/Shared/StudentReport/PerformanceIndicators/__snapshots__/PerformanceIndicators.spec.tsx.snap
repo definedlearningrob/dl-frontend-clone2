@@ -1,0 +1,652 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PerformanceIndicators should render empty state when there is no data 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <div
+      class="mb-base xxxl:mb-md"
+    >
+      <h5
+        class="text-sm xxxl:text-base mb-xs xxxl:mb-sm"
+      >
+        Student Performance Indicators
+      </h5>
+      <p
+        class="text-font-secondary xxxl:text-font-primary text-xs xxxl:text-sm leading-lg xxxl:mb-base"
+      >
+        Below you can see details about performance indicators.
+      </p>
+    </div>
+    <div
+      class="py-2lg"
+    >
+      <div
+        class="flex flex-col justify-center items-center bg-white rounded-sm height-[305px] w-full"
+      >
+        <div
+          class="flex flex-col justify-center items-center mb-sm [&>*]:m-xxs"
+        >
+          <div />
+        </div>
+        <h6
+          class="mb-xs text-xs xxxl:text-sm"
+        >
+          Performance Indicators section is empty.
+        </h6>
+        <p
+          class="text-center m-0 text-xxs xxxl:text-xs"
+        >
+          Currently, there are no grades to be displayed.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PerformanceIndicators should render performance indicators charts 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <div
+      class="mb-base xxxl:mb-md"
+    >
+      <h5
+        class="text-sm xxxl:text-base mb-xs xxxl:mb-sm"
+      >
+        Student Performance Indicators 
+        <span
+          class="text-neutral-600"
+        >
+          (2)
+        </span>
+      </h5>
+      <p
+        class="text-font-secondary xxxl:text-font-primary text-xs xxxl:text-sm leading-lg xxxl:mb-base"
+      >
+        Below you can see details about performance indicators.
+      </p>
+      <div
+        class="p-xs xxxl:p-sm border border-neutral-300 rounded-sm flex gap-x items-center text-xxs xxxl:text-xs text-font-primary"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 bg-info-100 rounded-sm text-info-500 p-xs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <p
+          class="mb-0 font-medium"
+        >
+          Scores are normalized to 0-4 point scale. 
+          <a
+            href="https://support.definedlearning.com/article/228-defined-learning-updated-knowledge-base"
+            target="_blank"
+          >
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-xxs xxxl:text-xs !inline -link py-xs px-base leading-[22px] text-white"
+              data-testid="button"
+              type="button"
+            >
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Read more
+              </span>
+            </button>
+          </a>
+           about scoring in performance indicators.
+        </p>
+      </div>
+    </div>
+    <div
+      class="flex flex-col gap-sm xxxl:gap-base p-sm xxxl:p-base bg-neutral-200 rounded-sm"
+    >
+      <div
+        class="bg-white p-sm xxxl:p-base rounded-sm"
+        data-testid="performance-indicators-chart"
+      >
+        <div
+          class="flex justify-between items-center mb-xs xxxl:mb-sm"
+        >
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <h6
+              class="text-xs xxxl:text-sm mb-0"
+            >
+              Tag 1
+            </h6>
+            <span
+              class="font-medium text-xxs xxxl:text-xs text-font-secondary"
+            >
+              (
+              2 grades
+              )
+            </span>
+          </div>
+          <div
+            class="flex items-center gap-xs"
+          >
+            <span
+              class="font-medium text-xxs xxxl:text-xs text-font-secondary"
+            >
+              Average score:
+            </span>
+            <div
+              class="font-medium leading-lg flex items-center px-xs py-xxs !rounded-full bg-neutral-200 text-font-secondary p-xxxs text-xxs rounded-xs gap-xxxs"
+            >
+              3
+            </div>
+          </div>
+        </div>
+        <div
+          style="height: 155px;"
+        >
+          <div
+            class="recharts-responsive-container"
+            style="width: 100%; height: 100%; min-width: 0;"
+          />
+        </div>
+        <div
+          class="mt-xs ml-[28px]"
+        >
+          <div
+            class="h-xs border border-neutral-300 border-b-0"
+          />
+          <div
+            class="flex justify-between leading-lg text-xxs text-font-secondary font-medium"
+          >
+            <span>
+              Dec 12, 2023
+            </span>
+            <span>
+              Jan 9, 2024
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-white p-sm xxxl:p-base rounded-sm"
+        data-testid="performance-indicators-chart"
+      >
+        <div
+          class="flex justify-between items-center mb-xs xxxl:mb-sm"
+        >
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <h6
+              class="text-xs xxxl:text-sm mb-0"
+            >
+              Tag 2
+            </h6>
+            <span
+              class="font-medium text-xxs xxxl:text-xs text-font-secondary"
+            >
+              (
+              2 grades
+              )
+            </span>
+          </div>
+          <div
+            class="flex items-center gap-xs"
+          >
+            <span
+              class="font-medium text-xxs xxxl:text-xs text-font-secondary"
+            >
+              Average score:
+            </span>
+            <div
+              class="font-medium leading-lg flex items-center px-xs py-xxs !rounded-full bg-neutral-200 text-font-secondary p-xxxs text-xxs rounded-xs gap-xxxs"
+            >
+              2.5
+            </div>
+          </div>
+        </div>
+        <div
+          style="height: 155px;"
+        >
+          <div
+            class="recharts-responsive-container"
+            style="width: 100%; height: 100%; min-width: 0;"
+          />
+        </div>
+        <div
+          class="mt-xs ml-[28px]"
+        >
+          <div
+            class="h-xs border border-neutral-300 border-b-0"
+          />
+          <div
+            class="flex justify-between leading-lg text-xxs text-font-secondary font-medium"
+          >
+            <span>
+              Jan 10, 2024
+            </span>
+            <span>
+              Jan 10, 2024
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PerformanceIndicators should render skeleton when loading 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <div
+      class="mb-base xxxl:mb-md"
+    >
+      <h5
+        class="text-sm xxxl:text-base mb-xs xxxl:mb-sm"
+      >
+        Student Performance Indicators
+      </h5>
+      <p
+        class="text-font-secondary xxxl:text-font-primary text-xs xxxl:text-sm leading-lg xxxl:mb-base"
+      >
+        Below you can see details about performance indicators.
+      </p>
+      <div
+        class="p-xs xxxl:p-sm border border-neutral-300 rounded-sm flex gap-x items-center text-xxs xxxl:text-xs text-font-primary"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 bg-info-100 rounded-sm text-info-500 p-xs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <p
+          class="mb-0 font-medium"
+        >
+          Scores are normalized to 0-4 point scale. 
+          <a
+            href="https://support.definedlearning.com/article/228-defined-learning-updated-knowledge-base"
+            target="_blank"
+          >
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-xxs xxxl:text-xs !inline -link py-xs px-base leading-[22px] text-white"
+              data-testid="button"
+              type="button"
+            >
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Read more
+              </span>
+            </button>
+          </a>
+           about scoring in performance indicators.
+        </p>
+      </div>
+    </div>
+    <div
+      class="flex flex-col gap-sm xxxl:gap-base p-sm xxxl:p-base bg-neutral-200 rounded-sm"
+    >
+      <div
+        class="flex flex-col gap-xs xxxl:gap-sm bg-white p-sm xxxl:p-base rounded-sm"
+      >
+        <div
+          class="flex justify-between mb-xxs"
+        >
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <div
+              class="skeleton-rectangle skeletonRectangle !w-[160px] radius-sm height-tiny width-full-width darker animated"
+            />
+          </div>
+          <div
+            class="flex items-center gap-xs font-medium text-xxs xxxl:text-xs text-font-secondary"
+          >
+            Average score:
+            <div
+              class="skeleton-rectangle skeletonRectangle !w-base radius-sm height-extra-small width-full-width darker animated"
+            />
+          </div>
+        </div>
+        <div
+          class="flex gap-xs h-[155px]"
+        >
+          <div
+            class="flex gap-xxs"
+          >
+            <div
+              class="flex flex-col justify-between items-center text-xxs text-font-secondary font-medium leading-lg"
+            >
+              <span
+                class="relative w-full text-center after:absolute after:top-1/2 after:-right-x after:h-[1px] after:w-xs after:bg-neutral-300"
+              >
+                4
+              </span>
+              <span
+                class="relative w-full text-center after:absolute after:top-1/2 after:-right-x after:h-[1px] after:w-xs after:bg-neutral-300"
+              >
+                3
+              </span>
+              <span
+                class="relative w-full text-center after:absolute after:top-1/2 after:-right-x after:h-[1px] after:w-xs after:bg-neutral-300"
+              >
+                2
+              </span>
+              <span
+                class="relative w-full text-center after:absolute after:top-1/2 after:-right-x after:h-[1px] after:w-xs after:bg-neutral-300"
+              >
+                1
+              </span>
+              <span
+                class="relative w-full text-center after:absolute after:top-1/2 after:-right-x after:h-[1px] after:w-xs after:bg-neutral-300"
+              >
+                0
+              </span>
+            </div>
+            <div
+              class="w-[1px] ml-xxs bg-neutral-300"
+            />
+          </div>
+          <div
+            class="flex items-end gap-xs flex-1 border border-neutral-200 rounded-sm mb-xs px-xs pt-xs"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[56px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[110px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[83px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[110px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[83px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[110px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[110px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[110px] radius-md height-auto width-full-width darker animated"
+            />
+          </div>
+        </div>
+        <div
+          class="ml-[34px] mr-xs mb-[18px] h-xs border border-neutral-300 border-b-0"
+        />
+      </div>
+      <div
+        class="flex flex-col gap-xs xxxl:gap-sm bg-white p-sm xxxl:p-base rounded-sm"
+      >
+        <div
+          class="flex justify-between mb-xxs"
+        >
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <div
+              class="skeleton-rectangle skeletonRectangle !w-[160px] radius-sm height-tiny width-full-width darker animated"
+            />
+          </div>
+          <div
+            class="flex items-center gap-xs font-medium text-xxs xxxl:text-xs text-font-secondary"
+          >
+            Average score:
+            <div
+              class="skeleton-rectangle skeletonRectangle !w-base radius-sm height-extra-small width-full-width darker animated"
+            />
+          </div>
+        </div>
+        <div
+          class="flex gap-xs h-[155px]"
+        >
+          <div
+            class="flex gap-xxs"
+          >
+            <div
+              class="flex flex-col justify-between items-center text-xxs text-font-secondary font-medium leading-lg"
+            >
+              <span
+                class="relative w-full text-center after:absolute after:top-1/2 after:-right-x after:h-[1px] after:w-xs after:bg-neutral-300"
+              >
+                4
+              </span>
+              <span
+                class="relative w-full text-center after:absolute after:top-1/2 after:-right-x after:h-[1px] after:w-xs after:bg-neutral-300"
+              >
+                3
+              </span>
+              <span
+                class="relative w-full text-center after:absolute after:top-1/2 after:-right-x after:h-[1px] after:w-xs after:bg-neutral-300"
+              >
+                2
+              </span>
+              <span
+                class="relative w-full text-center after:absolute after:top-1/2 after:-right-x after:h-[1px] after:w-xs after:bg-neutral-300"
+              >
+                1
+              </span>
+              <span
+                class="relative w-full text-center after:absolute after:top-1/2 after:-right-x after:h-[1px] after:w-xs after:bg-neutral-300"
+              >
+                0
+              </span>
+            </div>
+            <div
+              class="w-[1px] ml-xxs bg-neutral-300"
+            />
+          </div>
+          <div
+            class="flex items-end gap-xs flex-1 border border-neutral-200 rounded-sm mb-xs px-xs pt-xs"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[56px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[110px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[83px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[110px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[83px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[110px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[110px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[110px] radius-md height-auto width-full-width darker animated"
+            />
+          </div>
+        </div>
+        <div
+          class="ml-[34px] mr-xs mb-[18px] h-xs border border-neutral-300 border-b-0"
+        />
+      </div>
+      <div
+        class="flex flex-col gap-xs xxxl:gap-sm bg-white p-sm xxxl:p-base rounded-sm"
+      >
+        <div
+          class="flex justify-between mb-xxs"
+        >
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <div
+              class="skeleton-rectangle skeletonRectangle !w-[160px] radius-sm height-tiny width-full-width darker animated"
+            />
+          </div>
+          <div
+            class="flex items-center gap-xs font-medium text-xxs xxxl:text-xs text-font-secondary"
+          >
+            Average score:
+            <div
+              class="skeleton-rectangle skeletonRectangle !w-base radius-sm height-extra-small width-full-width darker animated"
+            />
+          </div>
+        </div>
+        <div
+          class="flex gap-xs h-[155px]"
+        >
+          <div
+            class="flex gap-xxs"
+          >
+            <div
+              class="flex flex-col justify-between items-center text-xxs text-font-secondary font-medium leading-lg"
+            >
+              <span
+                class="relative w-full text-center after:absolute after:top-1/2 after:-right-x after:h-[1px] after:w-xs after:bg-neutral-300"
+              >
+                4
+              </span>
+              <span
+                class="relative w-full text-center after:absolute after:top-1/2 after:-right-x after:h-[1px] after:w-xs after:bg-neutral-300"
+              >
+                3
+              </span>
+              <span
+                class="relative w-full text-center after:absolute after:top-1/2 after:-right-x after:h-[1px] after:w-xs after:bg-neutral-300"
+              >
+                2
+              </span>
+              <span
+                class="relative w-full text-center after:absolute after:top-1/2 after:-right-x after:h-[1px] after:w-xs after:bg-neutral-300"
+              >
+                1
+              </span>
+              <span
+                class="relative w-full text-center after:absolute after:top-1/2 after:-right-x after:h-[1px] after:w-xs after:bg-neutral-300"
+              >
+                0
+              </span>
+            </div>
+            <div
+              class="w-[1px] ml-xxs bg-neutral-300"
+            />
+          </div>
+          <div
+            class="flex items-end gap-xs flex-1 border border-neutral-200 rounded-sm mb-xs px-xs pt-xs"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[56px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[110px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[83px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[110px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[83px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[110px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[110px] radius-md height-auto width-full-width darker animated"
+            />
+            <div
+              class="skeleton-rectangle skeletonRectangle !rounded-xxs !h-[110px] radius-md height-auto width-full-width darker animated"
+            />
+          </div>
+        </div>
+        <div
+          class="ml-[34px] mr-xs mb-[18px] h-xs border border-neutral-300 border-b-0"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

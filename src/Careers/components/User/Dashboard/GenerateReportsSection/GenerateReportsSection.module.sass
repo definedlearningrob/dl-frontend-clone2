@@ -1,0 +1,17 @@
+@import '@shared/stylesheets/config.sass'
+
+$actions-max-height: 40px
+
+.reportsSection
+  +flex-container(row, space-between, center)
+  grid-area: generate-area
+
+  :global(.teacher-dashboard__my-reports__list)
+    +flex-container(column)
+
+  :global(.entity-admin-dashboard__top-pathways-enrolled)
+    grid-area: pathways
+
+  :global(.entity-admin-dashboard__top-career-clusters-enrolled)
+    grid-area: clusters
+

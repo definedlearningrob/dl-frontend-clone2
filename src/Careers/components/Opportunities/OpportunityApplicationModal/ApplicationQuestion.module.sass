@@ -1,0 +1,27 @@
+@import '@shared/stylesheets/config.sass'
+
+$opportunity-question-width: 536px
+$textarea-height: 218px
+
+.opportunityQuestion
+  width: $opportunity-question-width
+
+.questionTitle
+  color: $color-font-primary
+  font-size: $font-size-sm
+  font-weight: $font-weight-bold
+  margin-bottom: $m-base
+
+.question
+  :global(.textarea__label)
+    color: $color-font-secondary
+    font-weight: $font-weight-regular
+    font-size: $font-size-xs
+
+  :global(.textarea__input)
+    height: $textarea-height
+    font-size: $font-size-xs
+    margin-bottom: 0
+
+  :global(.input-error-message)
+    margin-top: $m-xs

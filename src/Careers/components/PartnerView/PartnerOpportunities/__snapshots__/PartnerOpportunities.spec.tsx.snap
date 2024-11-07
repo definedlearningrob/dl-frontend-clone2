@@ -1,0 +1,1417 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PartnerOpportunities displays empty state for student when there are no opportunities 1`] = `
+<div>
+  <div
+    class="bg-white rounded-sm max-h-full flex flex-col min-h-0 grow"
+  >
+    <div
+      class="px-base py-sm"
+    >
+      <h2
+        class="text-base xxxl:text-lg mb-0"
+      >
+        Opportunities
+      </h2>
+    </div>
+    <div
+      class="w-full border border-neutral-300 h-[1px] rounded-full"
+    />
+    <div
+      class="h-full overflow-auto scrollbar"
+    >
+      <div
+        class="h-full px-base flex flex-col gap-base justify-center items-center text-center"
+      >
+        <div
+          class="w-full"
+        />
+        <div>
+          <h5
+            class="text-sm xxxl:text-base mb-xs"
+          >
+            We couldn't find any opportunities
+          </h5>
+          <p
+            class="text-sm leading-lg mb-0"
+          >
+            This partner does not have any opportunities assigned. Try again later.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PartnerOpportunities displays empty state for user when there are no opportunities 1`] = `
+<div>
+  <div
+    class="bg-white rounded-sm max-h-full flex flex-col min-h-0 grow"
+  >
+    <div
+      class="px-base py-sm"
+    >
+      <h2
+        class="text-base xxxl:text-lg mb-0"
+      >
+        Opportunities
+      </h2>
+    </div>
+    <div
+      class="w-full border border-neutral-300 h-[1px] rounded-full"
+    />
+    <div
+      class="h-full overflow-auto scrollbar"
+    >
+      <div
+        class="h-full px-base flex flex-col gap-base justify-center items-center text-center"
+      >
+        <div
+          class="w-full"
+        />
+        <div>
+          <h5
+            class="text-sm xxxl:text-base mb-xs"
+          >
+            Opportunities list is empty
+          </h5>
+          <p
+            class="text-sm leading-lg mb-0"
+          >
+            Use top-right edit button to select opportunities and assign them to the partner
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PartnerOpportunities displays opportunities for student 1`] = `
+<div>
+  <div
+    class="bg-white rounded-sm max-h-full flex flex-col min-h-0 grow"
+  >
+    <div
+      class="px-base py-sm"
+    >
+      <h2
+        class="text-base xxxl:text-lg mb-0"
+      >
+        Opportunities 
+        <span
+          class="text-neutral-600"
+        >
+          (5)
+        </span>
+      </h2>
+    </div>
+    <div
+      class="w-full border border-neutral-300 h-[1px] rounded-full"
+    />
+    <div
+      class="h-full overflow-auto scrollbar"
+    >
+      <ul
+        class="px-base py-sm grid grid-cols-3 gap-x-x gap-y-base xxxl:gap-x-base xxxl:gap-y-md"
+      >
+        <li
+          aria-label="Process Engineering Intern at Hargrove Engineers & Constructors"
+        >
+          <a
+            aria-label="Process Engineering Intern at Hargrove Engineers & Constructors"
+            class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card accepted verticalCard"
+            href="/opportunities/5"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+              >
+                <button
+                  class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                  data-testid="icon-button"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </button>
+                <img
+                  alt="Process Engineering Intern at Hargrove Engineers & Constructors"
+                  class="object-cover w-full h-full"
+                  src="https://picsum.photos/600/300"
+                />
+              </div>
+            </div>
+            <div
+              class="cardContent"
+            >
+              <section
+                class="body p-x xxxl:p-sm"
+              >
+                <div
+                  class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                >
+                  <div>
+                    <div
+                      class="kicker sm secondary !mb-xxs"
+                    >
+                      Recommended
+                    </div>
+                    <span
+                      data-state="closed"
+                    >
+                      <h6
+                        class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                      >
+                        Process Engineering Intern at Hargrove Engineers & Constructors
+                      </h6>
+                    </span>
+                  </div>
+                  <div
+                    class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-success-100 text-success-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                  >
+                    Accepted
+                  </div>
+                </div>
+                <span
+                  class="metadata"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="metadataLabel"
+                  >
+                    Type:
+                  </span>
+                  Apprenticeship
+                </span>
+                <span
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="text-font-secondary mr-xxs"
+                  >
+                    Period:
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="line-clamp-1"
+                    >
+                      Apr 1, 2024 - Jun 30, 2024
+                    </span>
+                  </span>
+                </span>
+                <span
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="text-font-secondary mr-xxs"
+                  >
+                    Deadline:
+                  </span>
+                  Mar 31, 2024
+                </span>
+              </section>
+              <div
+                class="footer px-sm py-x"
+              >
+                Learn more
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li
+          aria-label="Google Web Developer Internship"
+        >
+          <a
+            aria-label="Google Web Developer Internship"
+            class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card verticalCard"
+            href="/opportunities/1"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+              >
+                <button
+                  class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                  data-testid="icon-button"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </button>
+                <img
+                  alt="Google Web Developer Internship"
+                  class="object-cover w-full h-full"
+                  src="SvgrURL"
+                />
+              </div>
+            </div>
+            <div
+              class="cardContent"
+            >
+              <section
+                class="body p-x xxxl:p-sm"
+              >
+                <div
+                  class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                >
+                  <div>
+                    <span
+                      data-state="closed"
+                    >
+                      <h6
+                        class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                      >
+                        Google Web Developer Internship
+                      </h6>
+                    </span>
+                  </div>
+                </div>
+                <span
+                  class="metadata"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="metadataLabel"
+                  >
+                    Type:
+                  </span>
+                  Internship
+                </span>
+                <span
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="text-font-secondary mr-xxs"
+                  >
+                    Period:
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="line-clamp-1"
+                    >
+                      Feb 18, 2023 - Feb 24, 2023
+                    </span>
+                  </span>
+                </span>
+                <span
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="text-font-secondary mr-xxs"
+                  >
+                    Deadline:
+                  </span>
+                  Feb 16, 2023
+                </span>
+              </section>
+              <div
+                class="footer px-sm py-x"
+              >
+                Learn more
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li
+          aria-label="Paid Internship in Finance Team"
+        >
+          <a
+            aria-label="Paid Internship in Finance Team"
+            class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card pending verticalCard expired"
+            href="/opportunities/4"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+              >
+                <button
+                  class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                  data-testid="icon-button"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </button>
+                <img
+                  alt="Paid Internship in Finance Team"
+                  class="object-cover w-full h-full"
+                  src="https://picsum.photos/600/300"
+                />
+              </div>
+            </div>
+            <div
+              class="cardContent"
+            >
+              <section
+                class="body p-x xxxl:p-sm"
+              >
+                <div
+                  class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                >
+                  <div>
+                    <span
+                      data-state="closed"
+                    >
+                      <h6
+                        class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                      >
+                        Paid Internship in Finance Team
+                      </h6>
+                    </span>
+                  </div>
+                  <div
+                    class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-neutral-200 text-font-secondary p-xxxs text-xxs rounded-xs gap-xxxs"
+                  >
+                    Expired
+                  </div>
+                </div>
+                <span
+                  class="metadata"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="metadataLabel"
+                  >
+                    Type:
+                  </span>
+                  Job Shadow
+                </span>
+                <span
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="text-font-secondary mr-xxs"
+                  >
+                    Period:
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="line-clamp-1"
+                    >
+                      Feb 1, 2024 - Feb 28, 2024
+                    </span>
+                  </span>
+                </span>
+                <span
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="text-font-secondary mr-xxs"
+                  >
+                    Deadline:
+                  </span>
+                  Jan 29, 2024
+                </span>
+              </section>
+              <div
+                class="footer px-sm py-x"
+              >
+                Learn more
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li
+          aria-label="Internship - HR, Workday System Support"
+        >
+          <a
+            aria-label="Internship - HR, Workday System Support"
+            class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card verticalCard"
+            href="/opportunities/3"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+              >
+                <button
+                  class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                  data-testid="icon-button"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </button>
+                <img
+                  alt="Internship - HR, Workday System Support"
+                  class="object-cover w-full h-full"
+                  src="https://picsum.photos/600/300"
+                />
+              </div>
+            </div>
+            <div
+              class="cardContent"
+            >
+              <section
+                class="body p-x xxxl:p-sm"
+              >
+                <div
+                  class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                >
+                  <div>
+                    <span
+                      data-state="closed"
+                    >
+                      <h6
+                        class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                      >
+                        Internship - HR, Workday System Support
+                      </h6>
+                    </span>
+                  </div>
+                </div>
+                <span
+                  class="metadata"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="metadataLabel"
+                  >
+                    Type:
+                  </span>
+                  Internship
+                </span>
+                <span
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="text-font-secondary mr-xxs"
+                  >
+                    Period:
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="line-clamp-1"
+                    >
+                      May 5, 2024 - Jun 16, 2024
+                    </span>
+                  </span>
+                </span>
+                <span
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="text-font-secondary mr-xxs"
+                  >
+                    Deadline:
+                  </span>
+                  Apr 16, 2024
+                </span>
+              </section>
+              <div
+                class="footer px-sm py-x"
+              >
+                Learn more
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li
+          aria-label="Virtual internship"
+        >
+          <a
+            aria-label="Virtual internship"
+            class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card accepted inProgress verticalCard"
+            href="/opportunities/8"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+              >
+                <button
+                  class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                  data-testid="icon-button"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </button>
+                <img
+                  alt="Virtual internship"
+                  class="object-cover w-full h-full"
+                  src="https://picsum.photos/600/300"
+                />
+              </div>
+            </div>
+            <div
+              class="cardContent"
+            >
+              <section
+                class="body p-x xxxl:p-sm"
+              >
+                <div
+                  class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                >
+                  <div>
+                    <span
+                      data-state="closed"
+                    >
+                      <h6
+                        class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                      >
+                        Virtual internship
+                      </h6>
+                    </span>
+                  </div>
+                  <div
+                    class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-secondary-200 text-secondary-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                  >
+                    Accepted
+                  </div>
+                </div>
+                <span
+                  class="metadata"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="metadataLabel"
+                  >
+                    Type:
+                  </span>
+                  Virtual Internship
+                </span>
+                <div
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs !items-start"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="line-clamp-3 whitespace-pre-wrap"
+                    data-state="closed"
+                  >
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Pathways:
+                    </span>
+                    Animal Systems, A/V Technology & Film, Accounting, Administration and Administrative Support, Administrative Support, Agribusiness Systems, Banking Services
+                  </span>
+                </div>
+              </section>
+              <div
+                class="footer px-sm py-x"
+              >
+                Learn more
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PartnerOpportunities displays opportunities for user 1`] = `
+<div>
+  <div
+    class="bg-white rounded-sm max-h-full flex flex-col min-h-0 grow"
+  >
+    <div
+      class="px-base py-sm"
+    >
+      <h2
+        class="text-base xxxl:text-lg mb-0"
+      >
+        Opportunities 
+        <span
+          class="text-neutral-600"
+        >
+          (4)
+        </span>
+      </h2>
+    </div>
+    <div
+      class="w-full border border-neutral-300 h-[1px] rounded-full"
+    />
+    <div
+      class="h-full overflow-auto scrollbar"
+    >
+      <ul
+        class="px-base py-sm grid grid-cols-3 gap-x-x gap-y-base xxxl:gap-x-base xxxl:gap-y-md"
+      >
+        <li
+          aria-label="Google Web Developer Internship"
+        >
+          <a
+            aria-label="Google Web Developer Internship"
+            class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card verticalCard expired"
+            href="/opportunities/1"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+              >
+                <img
+                  alt="Google Web Developer Internship"
+                  class="object-cover w-full h-full"
+                  src="SvgrURL"
+                />
+              </div>
+            </div>
+            <div
+              class="cardContent"
+            >
+              <section
+                class="body p-x xxxl:p-sm"
+              >
+                <div
+                  class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                >
+                  <div>
+                    <span
+                      data-state="closed"
+                    >
+                      <h6
+                        class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                      >
+                        Google Web Developer Internship
+                      </h6>
+                    </span>
+                  </div>
+                  <div
+                    class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-neutral-200 text-font-secondary p-xxxs text-xxs rounded-xs gap-xxxs"
+                  >
+                    Expired
+                  </div>
+                </div>
+                <span
+                  class="metadata"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="metadataLabel"
+                  >
+                    Type:
+                  </span>
+                  Internship
+                </span>
+                <span
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="text-font-secondary mr-xxs"
+                  >
+                    Period:
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="line-clamp-1"
+                    >
+                      Feb 18, 2023 - Feb 24, 2023
+                    </span>
+                  </span>
+                </span>
+                <span
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="text-font-secondary mr-xxs"
+                  >
+                    Deadline:
+                  </span>
+                  Feb 16, 2023
+                </span>
+              </section>
+              <div
+                class="footer px-sm py-x"
+              >
+                View more
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li
+          aria-label="Paid Internship in Finance Team"
+        >
+          <a
+            aria-label="Paid Internship in Finance Team"
+            class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card verticalCard expired"
+            href="/opportunities/4"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+              >
+                <img
+                  alt="Paid Internship in Finance Team"
+                  class="object-cover w-full h-full"
+                  src="https://picsum.photos/600/300"
+                />
+              </div>
+            </div>
+            <div
+              class="cardContent"
+            >
+              <section
+                class="body p-x xxxl:p-sm"
+              >
+                <div
+                  class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                >
+                  <div>
+                    <div
+                      class="kicker sm secondary !mb-xxs"
+                    >
+                      Pending applications
+                    </div>
+                    <span
+                      data-state="closed"
+                    >
+                      <h6
+                        class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                      >
+                        Paid Internship in Finance Team
+                      </h6>
+                    </span>
+                  </div>
+                  <div
+                    class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-neutral-200 text-font-secondary p-xxxs text-xxs rounded-xs gap-xxxs"
+                  >
+                    Expired
+                  </div>
+                </div>
+                <span
+                  class="metadata"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="metadataLabel"
+                  >
+                    Type:
+                  </span>
+                  Job Shadow
+                </span>
+                <span
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="text-font-secondary mr-xxs"
+                  >
+                    Period:
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="line-clamp-1"
+                    >
+                      Feb 1, 2024 - Feb 28, 2024
+                    </span>
+                  </span>
+                </span>
+                <span
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="text-font-secondary mr-xxs"
+                  >
+                    Deadline:
+                  </span>
+                  Jan 29, 2024
+                </span>
+              </section>
+              <div
+                class="footer px-sm py-x"
+              >
+                View more
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li
+          aria-label="Process Engineering Intern at Hargrove Engineers & Constructors"
+        >
+          <a
+            aria-label="Process Engineering Intern at Hargrove Engineers & Constructors"
+            class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card verticalCard"
+            href="/opportunities/5"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+              >
+                <img
+                  alt="Process Engineering Intern at Hargrove Engineers & Constructors"
+                  class="object-cover w-full h-full"
+                  src="https://picsum.photos/600/300"
+                />
+              </div>
+            </div>
+            <div
+              class="cardContent"
+            >
+              <section
+                class="body p-x xxxl:p-sm"
+              >
+                <div
+                  class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                >
+                  <div>
+                    <span
+                      data-state="closed"
+                    >
+                      <h6
+                        class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                      >
+                        Process Engineering Intern at Hargrove Engineers & Constructors
+                      </h6>
+                    </span>
+                  </div>
+                </div>
+                <span
+                  class="metadata"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="metadataLabel"
+                  >
+                    Type:
+                  </span>
+                  Apprenticeship
+                </span>
+                <span
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="text-font-secondary mr-xxs"
+                  >
+                    Period:
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="line-clamp-1"
+                    >
+                      Apr 1, 2024 - Jun 30, 2024
+                    </span>
+                  </span>
+                </span>
+                <span
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="text-font-secondary mr-xxs"
+                  >
+                    Deadline:
+                  </span>
+                  Mar 31, 2024
+                </span>
+              </section>
+              <div
+                class="footer px-sm py-x"
+              >
+                View more
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li
+          aria-label="Virtual internship"
+        >
+          <a
+            aria-label="Virtual internship"
+            class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card verticalCard"
+            href="/opportunities/8"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+              >
+                <img
+                  alt="Virtual internship"
+                  class="object-cover w-full h-full"
+                  src="https://picsum.photos/600/300"
+                />
+              </div>
+            </div>
+            <div
+              class="cardContent"
+            >
+              <section
+                class="body p-x xxxl:p-sm"
+              >
+                <div
+                  class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                >
+                  <div>
+                    <span
+                      data-state="closed"
+                    >
+                      <h6
+                        class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                      >
+                        Virtual internship
+                      </h6>
+                    </span>
+                  </div>
+                </div>
+                <span
+                  class="metadata"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="metadataLabel"
+                  >
+                    Type:
+                  </span>
+                  Virtual Internship
+                </span>
+                <div
+                  class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs !items-start"
+                >
+                  <div
+                    class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  <span
+                    class="line-clamp-3 whitespace-pre-wrap"
+                    data-state="closed"
+                  >
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Pathways:
+                    </span>
+                    Animal Systems, A/V Technology & Film, Accounting, Administration and Administrative Support, Administrative Support, Agribusiness Systems, Banking Services
+                  </span>
+                </div>
+              </section>
+              <div
+                class="footer px-sm py-x"
+              >
+                View more
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PartnerOpportunities displays skeleton when loading 1`] = `
+<div>
+  <div
+    class="bg-white rounded-sm max-h-full flex flex-col min-h-0 grow"
+  >
+    <div
+      class="px-base py-sm"
+    >
+      <h2
+        class="text-base xxxl:text-lg mb-0"
+      >
+        Opportunities
+      </h2>
+    </div>
+    <div
+      class="w-full border border-neutral-300 h-[1px] rounded-full"
+    />
+    <div
+      class="h-full overflow-auto scrollbar"
+    >
+      <div
+        class="px-base py-sm grid grid-cols-3 gap-x-x gap-y-base xxxl:gap-x-base xxxl:gap-y-md"
+        data-testid="partner-opportunities-skeleton"
+      >
+        <div
+          class="skeleton-rectangle skeletonRectangle !h-[268px] xxxl:!h-[304px] radius-sm height-auto width-full-width darker animated"
+        />
+        <div
+          class="skeleton-rectangle skeletonRectangle !h-[268px] xxxl:!h-[304px] radius-sm height-auto width-full-width darker animated"
+        />
+        <div
+          class="skeleton-rectangle skeletonRectangle !h-[268px] xxxl:!h-[304px] radius-sm height-auto width-full-width darker animated"
+        />
+        <div
+          class="skeleton-rectangle skeletonRectangle !h-[268px] xxxl:!h-[304px] radius-sm height-auto width-full-width darker animated"
+        />
+        <div
+          class="skeleton-rectangle skeletonRectangle !h-[268px] xxxl:!h-[304px] radius-sm height-auto width-full-width darker animated"
+        />
+        <div
+          class="skeleton-rectangle skeletonRectangle !h-[268px] xxxl:!h-[304px] radius-sm height-auto width-full-width darker animated"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

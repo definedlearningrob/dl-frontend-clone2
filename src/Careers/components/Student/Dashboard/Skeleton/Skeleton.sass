@@ -1,0 +1,41 @@
+@import '@shared/stylesheets/config'
+
+.skeleton-dashboard-student
+  &__courses
+    &-header
+      margin-bottom: $m-xs
+
+      &:first-of-type
+        width: 160px
+
+      &:last-of-type
+        width: 320px
+
+    &-card
+      height: $course-card-height
+
+  &__progress
+    width: 100%
+
+    &-header
+      margin-bottom: $m-base
+      width: 100%
+
+    &-icon
+      &#{&}
+        &#{&}
+          fill: $color-neutral-200
+
+    &-icon-wrapper
+      &#{&}
+        &#{&}
+          background-color: $color-neutral-200
+
+      &::after
+        background-color: $color-neutral-200 !important
+
+  &__progress-item
+    width: 100%
+
+    .skeleton-rectangle
+      margin-bottom: $m-xs

@@ -1,0 +1,128 @@
+@import '@shared/stylesheets/config.sass'
+
+$image-height: 95px
+$image-height-full-hd: 140px
+
+.card
+  +flex-container(column)
+  position: relative
+  background-color: $color-white
+  border-radius: $border-radius-sm
+  border: 1px solid $color-neutral-200
+  color: $color-font-primary
+  transition: box-shadow $transition-duration
+
+  &:hover
+    box-shadow: $shadow-200
+    color: $color-font-primary
+
+    & .footerIcon
+      margin-left: $m-xs
+
+  &.disabled
+    opacity: 64%
+    cursor: default
+    pointer-events: none
+
+    &:hover
+      box-shadow: none
+
+      & .footerIcon
+        margin-left: $m-xxs
+
+.step
+  +flex-container(column, center, center)
+  position: absolute
+  top: 0
+  left: 50%
+  height: $m-md
+  width: $m-md
+  transform: translate(-50%, -50%)
+  background-color: $color-primary-200
+  border: 1px solid $color-primary-500
+  border-radius: 100%
+  color: $color-primary-500
+  font-size: $font-size-xs
+  font-weight: $font-weight-bold
+  z-index: $z-base
+
+  &.started
+    background-color: $color-secondary-200
+    border-color: $color-secondary-500
+    color: $color-secondary-500
+
+  &.done
+    background-color: $color-success-100
+    border-color: $color-success-500
+    color: $color-success-500
+
+  &.disabled
+    background-color: $color-neutral-200
+    border-color: $color-neutral-400
+    color: $color-neutral-600
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+    height: $m-lg
+    width: $m-lg
+
+.imageWrapper
+  +flex-container(column, center, center)
+  position: relative
+  background-color: $color-neutral-300
+  border-top-left-radius: $border-radius-sm
+  border-top-right-radius: $border-radius-sm
+  height: $image-height
+  overflow: hidden
+
+  &.disabled
+    &::before
+      +pseudoelement
+      background-color: $color-neutral-200
+      opacity: 48%
+
+  +media-breakpoint-up(xxxl)
+    height: $image-height-full-hd
+
+.image
+  height: 100%
+  width: 100%
+  object-fit: cover
+
+.defaultImage
+  width: 30%
+
+.name
+  +ellipsis-multiline(3)
+  font-size: $font-size-xs
+  font-weight: $font-weight-bold
+  line-height: $line-height-base
+  margin-bottom: $m-xs
+
+  &.disabled
+    color: $color-neutral-600
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+
+.progressValue
+  font-size: $font-size-xxs
+  line-height: $line-height-lg
+  margin-bottom: 0
+  text-align: end
+
+.progressBar
+  background-color: $color-primary-500
+  height: 2px
+  position: absolute
+  top: 0
+
+  &.started
+    background-color: $color-secondary-500
+
+  &.done
+    background-color: $color-success-500
+
+.footerIcon
+  margin-left: $m-xxs
+  transition: margin-left .3s

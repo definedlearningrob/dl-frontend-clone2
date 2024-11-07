@@ -1,0 +1,19 @@
+@import '@shared/stylesheets/config.sass'
+
+$scroll-button-spacing: 40px
+$scroll-button-spacing-xxl: $m-lg
+
+.cardsWrapper
+  +flex-container(column)
+  flex: 1
+  gap: $m-md
+
+.scrollTopButton
+  position: fixed
+  right: $scroll-button-spacing
+  bottom: $scroll-button-spacing
+  z-index: $z-low
+
+  +media-breakpoint-up(xxl)
+    right: $scroll-button-spacing-xxl
+    bottom: $scroll-button-spacing-xxl

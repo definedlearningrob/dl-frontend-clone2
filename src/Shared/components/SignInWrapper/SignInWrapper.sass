@@ -1,0 +1,128 @@
+@import '@shared/stylesheets/config'
+
+.signin
+  +flex-container(column, center, center)
+  background-color: $color-background
+  min-height: 100vh
+
+  &__content-wrapper
+    padding: $m-sm
+
+    a
+      padding-left: 0
+      width: fit-content
+
+  &__logo
+    display: block
+    fill: $color-primary-500
+    margin: $m-sm auto $m-base
+    width: 60%
+
+  &__heading
+    color: $color-font-primary
+    font-size: $font-size-xl
+    font-weight: $font-weight-bold
+    margin: $m-base 0
+
+  &__link
+    margin-top: $m-base
+
+  &__vendor-button
+    margin-bottom: $m-sm
+    width: 100%
+
+    .button__text
+      +flex-container(row, center, flex-start)
+      white-space: nowrap
+      flex: 0 0 40%
+
+  &__vendor-text-short
+    display: none
+
+  &__vendor-text-long
+    display: inline
+
+  &__footer
+    display: block
+    margin-top: auto
+    padding-top: $m-md
+    width: 100%
+    text-align: center
+
+    &__social-media
+
+      &-link
+        display: inline-block
+        margin: $m-xs
+        padding: $m-xs
+
+      &-icon
+        fill: $color-primary-500
+
+    &-icon
+      fill: $color-font-primary
+      margin-right: $m-base
+      display: inline-block
+
+    &__copyright-text
+      font-size: $font-size-xxs
+
+//----- media queries --------------------------------------------------------------------------------------------------
++media-breakpoint-up(md)
+  .signin
+    &__footer
+      &__copyright-text
+          font-size: $font-size-sm
+
++media-breakpoint-up(lg)
+  .signin
+    flex-direction: row
+    align-items: stretch
+
+    &__content-wrapper
+      flex: 0 1 70%
+      padding: $m-base
+
+    &__content
+      +flex-container(column, flex-start, stretch)
+      height: 100%
+      margin: 0 auto
+      max-width: $side-panel-width
+      width: 60%
+
+    &__logo
+      display: none
+
+    &__link
+      margin-top: auto
+
+    &__footer
+      display: none
+
+
++min-width-and-min-height(lg, lg)
+  .signin
+    &__content
+      padding-top: $m-lg
+
++min-width-and-max-height(lg, md)
+  .signin
+    &__vendor-actions
+      display: flex
+
+    &__vendor-button
+      +flex-container(row, center, center)
+      margin-bottom: 0
+      margin-right: $m-base
+
+      &:last-of-type
+        margin-right: 0
+
+      .button__text
+        width: fit-content
+
+    &__vendor-text-short
+      display: inline
+
+    &__vendor-text-long
+      display: none

@@ -1,0 +1,76 @@
+@import '@shared/stylesheets/config.sass'
+
+$image-height: $m-xl * 2
+$units-info-width: 180px
+
+.searchHitWrapper
+  background-color: $color-white
+  border-radius: $border-radius-xs
+  border: $border-width-xs solid $color-border
+  display: grid
+  gap: $m-x
+  height: 100%
+  padding: $m-x
+
+  :global(.ais-Highlight)
+    -webkit-box-orient: vertical
+    -webkit-line-clamp: 2
+    display: -webkit-box
+    overflow: hidden
+    text-overflow: ellipsis
+
+    & *
+      display: inline
+
+  :global(.ais-Highlight-highlighted)
+    background-color: $color-warning-500
+    font-style: normal
+
+.imageWrapper
+  border-radius: $border-radius-xs
+  height: $image-height
+  margin-bottom: $m-xs
+
+.itemName
+  font-size: $font-size-sm
+  margin-bottom: $m-xs
+
+.description
+  +flex-container(column)
+  color: $color-font-secondary
+  font-size: $font-size-xs
+  gap: $m-xs
+  margin: 0
+
+.descriptionLink
+  border-radius: $border-radius-xs
+  color: $color-primary-500
+  cursor: pointer
+  display: block
+  font-size: $font-size-xs
+  font-weight: $font-weight-medium
+  line-height: $line-height-base
+  margin-top: auto
+  padding-top: $m-xs
+  transition: background-color $transition-duration * 0.5 $transition-function
+  width: fit-content
+
+.unitName
+  +ellipsis-multiline(1)
+  font-size: $font-size-xxs
+  margin-bottom: 0
+
+.unitsSummary
+  border-radius: $border-radius-lg
+  border: $border-width-xs solid $color-background
+  padding: $m-xxs $m-xs
+
+.cardData
+  +flex-container(row, space-between, center)
+
+  :global(.shared-tooltip-portal__placeholder)
+    max-width: $units-info-width
+    white-space: pre-wrap
+
+.hidden
+  display: none

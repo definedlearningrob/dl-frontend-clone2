@@ -1,0 +1,1 @@
+export { MatomoProviderWrapper } from './MatomoProviderWrapper';

@@ -1,0 +1,20 @@
+@import '@shared/stylesheets/config.sass'
+
+$highlighted-section-height: 10px
+$highlighted-section-margin: $m-md + $highlighted-section-height $m-xxs $m-xs
+
+.highlightedSection
+  margin-top: $m-md
+  padding-left: $m-sm
+  margin-bottom: $m-xs
+
+.small
+  height: 2px
+  background-color: $color-neutral-700
+  margin: $highlighted-section-margin
+
+.highlightedSectionDivide
+  +kicker()
+  padding-left: 0
+  margin: 0
+  color: $color-neutral-700

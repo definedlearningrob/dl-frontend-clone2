@@ -1,0 +1,29 @@
+@import '@shared/stylesheets/config.sass'
+
+.assignmentHeader
+  +flex-container(row, space-between, center)
+  padding: $m-sm 0
+
+.header
+  margin: 0
+  font-size: $font-size-sm
+
+.smallHeader
+  margin: 0
+  font-size: $font-size-sm
+  font-weight: $font-weight-regular
+
+.list
+  +flex-container(column)
+  gap: $m-xs
+  composes: dashboard-scroll from global
+  height: 245px
+  overflow-y: scroll
+  position: relative
+
+.sharedSearch
+  composes: filter__search-input from global
+  padding: $m-xs
+
+.box
+  height: 245px

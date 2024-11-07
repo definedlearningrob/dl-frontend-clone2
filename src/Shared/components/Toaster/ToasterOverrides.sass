@@ -1,0 +1,20 @@
+@import '@shared/stylesheets/config.sass'
+
+.Toastify
+  &__toast
+    border-radius: $m-xs
+    font-family: inherit !important
+
+  &__toast-container
+    width: 33.33vw !important
+
+  &__close-button
+    color: $color-primary-500 !important
+    opacity: 1 !important
+
+  &__toast-icon
+    width: auto !important
+    margin-inline-end: $m-xs !important
+
+    +media-breakpoint-up(xxxl)
+      margin-inline-end: $m-sm !important

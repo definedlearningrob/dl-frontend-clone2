@@ -1,0 +1,53 @@
+@import '@shared/stylesheets/config'
+
+.dropdown-portal-options
+    border: $border-width-xs solid $color-border
+    border-radius: $border-radius-xs
+    margin-top: $m-xs
+    position: fixed
+    visibility: hidden
+    z-index: $z-highest
+
+    &.-visible
+        visibility: visible
+
+    &__lists
+        border-radius: $border-radius-xs
+        background: $color-white
+        margin: 0
+
+    &__dropdown-option
+        +flex-container(row, false, center)
+        gap: $m-xs
+        color: $color-primary-500
+        cursor: pointer
+        font-weight: $font-weight-regular
+        font-size: $font-size-xs
+        padding: $m-xs $m-sm
+        transition: color, background-color, $transition-duration * 0.5 $transition-function
+
+        &:hover
+            background-color: $color-primary-200
+
+        &:first-of-type
+            border-top-left-radius: $border-radius-sm
+            border-top-right-radius: $border-radius-sm
+
+        &:last-of-type
+            border-bottom-left-radius: $border-radius-sm
+            border-bottom-right-radius: $border-radius-sm
+
+    &__trigger
+        cursor: pointer
+
+    &__trigger-icon-wrapper
+      +flex-container(row, center, center)
+      border-radius: $border-radius-xs
+      padding: $m-xxs
+
+      &:hover
+        background-color: $color-background
+
+    &__trigger-icon
+        color: $color-primary-500
+        transform: rotate(90deg)

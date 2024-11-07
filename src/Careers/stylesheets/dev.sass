@@ -1,0 +1,3682 @@
+@use "sass:math"
+
+// to hide Reach UI warning about not imported CSS
+// https://reach.tech/styling
+@at-root :root
+    --reach-dialog: 1
+
+// src/components/layout/MainContent/MainContent.jsx
+.main-wrapper
+    background-color: $color-background
+    min-height: 100vh
+
+    +media-breakpoint-up(md)
+        margin-left: $navbar-collapse-width
+
+        &.-expanded-sidebar-left
+            margin-left: $navbar-expand-width
+
+        &.-expanded-sidebar-right
+            margin-right: $side-panel-width
+
+        &.-hide-navigation
+            margin-left: 0
+
+// src/components/layout/MainContent/MainContent.jsx
+.main-content
+    padding: $m-base
+
+    +media-breakpoint-up(xxxl)
+        padding: $m-md
+
+// CourseCard Component
+.course-card
+    background-position: center center
+    background-size: cover
+    border-radius: $border-radius-sm
+    color: $color-white
+    height: $course-card-height
+    min-height: $course-card-height
+    transition: $course-card-transition
+
+    +media-breakpoint-up(sm)
+        min-width: $course-card-width
+
+    &:hover:not(.-disabled)
+        cursor: pointer
+        transform: scale(1.1)
+
+    &:hover &__info-item:last-child
+        transform: translateX(10%)
+
+    &__button
+        +flex-container(row, flex-start, center)
+
+    &__container
+        +flex-container(column, flex-end, flex-start)
+        background: $course-card-mask
+        border-radius: $border-radius-sm
+        height: 100%
+        padding: $m-sm
+
+    &__header
+        font-size: $font-size-base
+        margin-bottom: $m-xs
+        margin-top: 0
+
+    &__icon
+        margin-right: $m-xs * 0.5
+
+        &.-button
+            margin-left: $m-xs * 0.5
+
+        &.-play
+            border: solid 2px $color-success-500
+            border-radius: 50px
+
+    &__info-item
+        +flex-container(row, flex-start, center)
+        transition: $course-card-transition
+
+        &:last-child
+            margin-left: $m-xs
+
+    &__progress-circle
+        margin-bottom: auto
+
+        &.-in-progress
+            .progress-ring__circle
+                stroke: $color-secondary-500
+
+// ProgressCircle Component
+.progress-ring
+    text
+        fill: $color-white
+        font-size: $font-size-xxs
+
+    &.-in-progress
+        .progress-ring__circle
+            stroke: $color-secondary-500
+
+.progress-ring__circle
+    stroke: $color-success-500
+    stroke-dashoffset: 130
+    transform-origin: 50% 50%
+    transform: rotate(-90deg)
+    transition: 0s stroke-dashoffset
+
+.progress-ring__circle-background
+    stroke: $color-white
+    transform-origin: 50% 50%
+    transform: rotate(-90deg)
+    transition: 0s stroke-dashoffset
+
+// src/components/Course/Lessons/Lessons.tsx
+.course-lessons
+    &__heading
+        color: $color-font-primary
+
+    &__lessons
+        display: grid
+        gap: $m-sm
+        row-gap: $m-base
+        grid-template-columns: repeat(5, 1fr)
+
+        +media-breakpoint-up(xxxl)
+            gap: $m-base
+            row-gap: $m-md
+
+// GLOBAL MODIFIERS FOR SIDEBAR ANIMATION
+.navbar
+    overflow-y: scroll
+
+.-animation-close
+    transition: $sidebar-transition-close
+
+.-animation-open
+    transition: $sidebar-transition-open
+
+// src/components/shared/UploadInput/UploadInput.jsx
+.upload-input
+    +flex-container(column, center, flex-start)
+    color: $color-font-primary
+
+    &__button
+        border-radius: $border-radius-sm
+        border: none
+        font-size: 1rem
+        margin-bottom: $m-sm
+        outline: none
+        text-transform: capitalize
+
+    &__clear
+        cursor: pointer
+
+    &__icon
+        width: 60px
+        margin-right: auto
+        margin-left: auto
+
+    &__input
+        display: none
+
+    &__label
+        color: $color-font-secondary
+        font-size: $font-size-sm
+        margin-bottom: $m-xs
+        text-transform: capitalize
+
+    &__file
+        color: $color-primary-500
+        padding: $m-sm
+        text-align: center
+        width: 150px
+
+        svg
+            fill: $color-primary-500
+
+    &__file-info
+        align-items: flex-end
+        display: flex
+        justify-content: space-between
+
+    &__file-name
+        margin-bottom: 0
+        overflow: hidden
+        text-overflow: ellipsis
+        white-space: nowrap
+        width: 100px
+
+    &__preview
+        +flex-container(row, flex-start, center)
+        background-color: $color-white
+        border-radius: $border-radius-sm
+        border: solid 1px $color-primary-500
+        margin-bottom: $m-sm
+        min-height: 100px
+        padding: $m-sm
+        width: 100%
+
+    &__progress
+        color: $color-primary-500
+        font-size: $font-size-lg
+        text-align: center
+        width: 100%
+
+// src/components/shared/ImageInput/ImageInput.jsx
+.image-input
+    +flex-container(column, center, flex-start)
+    color: $color-font-primary
+
+    &__footer-buttons
+        +media-breakpoint-up(md)
+            display: flex
+            justify-content: space-around
+            width: 100%
+
+        +media-breakpoint-up(lg)
+            display: flex
+            justify-content: center
+            width: 100%
+
+    &__image-placeholder
+        max-height: 200px
+        max-width: 200px
+
+    &__input
+        height: 0px
+        width: 0px
+        visibility: hidden
+
+    &__label
+        color: $color-font-secondary
+        font-size: $font-size-sm
+        margin-bottom: $m-xs
+        text-align: center
+        text-transform: capitalize
+        width: 200px
+
+    &__placeholder
+        +flex-container(column, center, center)
+        background-color: $color-background
+        border-radius: $border-radius-base
+        border: solid 1px $color-primary-500
+        height: 200px
+        margin-bottom: $m-sm
+        min-height: 100px
+        overflow: hidden
+        padding: $m-sm
+        width: 200px
+
+        &:hover
+            cursor: pointer
+            opacity: 0.5
+
+        svg
+            fill: $color-primary-500
+            width: 60px
+
+    &__icon-placeholder
+        color: $color-primary-500
+        font-size: $font-size-xs
+        font-weight: $font-weight-regular
+        margin-top: $m-sm
+
+    &__preview-wrapper
+        display: flex
+        max-height: 400px
+
+    &__preview
+        max-height: 100%
+        max-width: 100%
+        object-fit: contain
+
+    &__preview-button
+        margin: 0 $m-xs
+        height: 10px
+        width: 100px
+
+        +media-breakpoint-up(md)
+            width: 160px
+            height: auto
+
+        +media-breakpoint-up(lg)
+            width: 200px
+            height: auto
+
+        &.-reject
+            border: 1px solid $color-font-secondary
+
+// src/components/Dashboard/AddCourseCard/AddCourseCard.jsx
+.add-course-card
+    +flex-container(column, flex-end, center)
+    border: 2px solid $color-primary-500
+    border-radius: $border-radius-sm
+    color: $color-primary-500
+    cursor: pointer
+    font-weight: $font-weight-medium
+    height: $course-card-height
+    min-height: $course-card-height
+    transition: $course-card-transition
+
+    +media-breakpoint-up(sm)
+        min-width: $course-card-width
+
+    &:hover
+        transform: scale(1.1)
+
+    &__container
+        +flex-container(column, center, center)
+        border-radius: $border-radius-sm
+        margin-bottom: $m-md * 2
+
+    &__icon
+        +flex-container(column, center, center)
+        border-radius: $border-radius-sm
+        border: 2px solid $color-primary-500
+        fill: $color-primary-500
+        height: $m-lg + $m-xs
+        margin-bottom: $m-base * 0.5
+        width: $m-lg + $m-xs
+
+        svg
+            height: auto
+            transform: scale(1.5)
+            width: auto
+
+// src/components/Dashboard/OverallProgress
+.overall-progress
+    +flex-container(column, flex-start, flex-start)
+    color: $color-font-primary
+    height: fit-content
+    max-height: 500px
+    overflow: hidden
+    padding-bottom: 0 !important
+
+    &::after
+        box-shadow: 0 0 3px 5px $color-white
+        content: ""
+        display: block
+        left: -$m-xs * 0.5
+        position: relative
+        top: 0
+        width: calc(100% - #{$m-xs})
+        z-index: $z-lower
+
+    &__header
+        padding-bottom: $m-sm
+
+        &::after
+            box-shadow: 5px 0 3px $m-xxs $color-white
+            content: ""
+            display: block
+            left: -$m-xs
+            position: relative
+            top: $m-sm
+            width: calc(100% - #{$m-xs})
+            z-index: $z-lower
+
+    &__heading
+        font-size: $font-size-base
+        margin: 0 0 $m-xs
+
+    &__sub-heading
+        color: $color-font-secondary
+        line-height: 1.4
+        margin: 0
+
+    &__steps-container
+        overflow-y: scroll
+        padding: $m-sm 0
+        width: 100%
+
+    &__step
+        align-items: center
+        display: flex
+        font-size: $font-size-sm
+        font-weight: $font-weight-regular
+        height: 40px
+        margin-bottom: 40px
+
+        &:last-of-type
+            margin-bottom: $m-sm
+
+        .overall-progress__step-title
+            margin-bottom: $m-xs
+
+        &:last-child
+            .overall-progress__step-label
+                &::after
+                    display: none
+
+        &.-active
+            .overall-progress__step-label
+                background-color: $color-white
+                border: solid 1px $color-secondary-500
+                color: $color-secondary-500
+
+            .overall-progress__step-status
+                color: $color-secondary-500
+
+        &.-done
+
+            svg
+                fill: $color-white
+
+            .overall-progress__step-label
+                background-color: $color-success-500
+                position: relative
+
+            .overall-progress__step-title
+                display: block
+
+            .overall-progress__step-status
+                color: $color-success-500
+
+            .overall-progress__step-label::after
+                background-color: $color-success-500
+
+        &.-incomplete
+            color: $color-font-secondary
+
+    &__step-label
+        align-items: center
+        background-color: $color-background
+        border-radius: $border-radius-sm
+        display: flex
+        flex-shrink: 0
+        font-weight: $font-weight-medium
+        height: 40px
+        justify-content: center
+        margin-right: $m-md
+        position: relative
+        width: 40px
+
+        &::after
+            background-color: $color-background
+            content: ""
+            display: block
+            height: $m-base
+            left: 50%
+            position: absolute
+            top: 50px
+            width: 2px
+
+    &__step-status
+        margin: 0
+
+    &__step-title
+        font-size: $font-size-xs
+        font-weight: 700
+        margin: 0
+
+// GLOBAL BLUR STYLE MODIFIER
+.-blurred
+    height: 100vh
+    overflow: hidden
+
+    &::after
+        backdrop-filter: blur($m-xxs)
+        background-color: rgba($color-background, 0.65)
+        bottom: 0
+        content: ''
+        left: 0
+        position: absolute
+        right: 0
+        top: 0
+
+// src/components/layout/Dashboard/PortfolioProjectsCard/PortfolioProjectsCard.jsx
+.dashboard-card
+    border-radius: $border-radius-sm
+
+    &.-white
+        background-color: $color-white
+        padding: $m-base
+
+// src/components/Dashboard/RecommendedCourses/RecommendedCourses.jsx
+.dashboard-recommended
+    &__header
+        +flex-container(row, space-between, flex-start)
+        color: $color-font-primary
+        margin-bottom: $m-sm
+
+    &__heading
+        font-size: $font-size-base
+        margin: 0
+
+    &__sub-heading
+        margin-top: $m-xs
+
+    &__link
+        color: $color-primary-500
+        cursor: pointer
+        font-size: $font-size-sm
+        font-weight: $font-weight-medium
+
+    &__container
+        display: grid
+        gap: $m-sm
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+
+        +media-breakpoint-up(md)
+            gap: $m-base
+
+// src/screens/AdminApp/Lessons/Lessons.tsx
+.lessons
+    &__form-description
+        display: grid
+        gap: $m-sm
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+
+        +media-breakpoint-up(md)
+            gap: $m-base
+
+    &__item-header
+        align-items: center
+        display: flex
+        justify-content: space-between
+
+    &__item-header-actions
+        display: flex
+
+    &__item-header-buttons
+        align-items: center
+        display: grid
+        grid-auto-flow: column
+        gap: $m-sm
+
+    &__items-new-button
+        align-items: center
+        background-color: $color-success-500
+        display: flex
+        justify-content: center
+        margin:
+            top: $m-sm
+            bottom: $m-sm
+            left: auto
+
+    &__items-list
+        background-color: $color-white
+        border-radius: $border-radius-sm
+        list-style-type: none
+        margin-bottom: $m-sm
+        padding: $m-sm
+
+        &.-drag
+            background-color: lighten($color-font-secondary, 49%)
+
+    &__items-dropdown
+        height: 30px
+        justify-content: flex-start
+        width: 200px
+        margin: $m-base 0
+
+    // src/components/Admin/Lessons/Form/Items/List/AssignmentItem/AssignmentItem.jsx
+    // src/components/Admin/Lessons/Form/Items/List/ResearchLinkItem/ResearchLinkItem.jsx
+    // src/components/Admin/Lessons/Form/Items/List/TextItem/TextItem.jsx
+    // src/components/Admin/Lessons/Form/Items/List/VocabularyItem/VocabularyItem.jsx
+    &__list-item
+        +flex-container(row, space-between, center)
+        border-radius: $border-radius-sm
+        padding: $m-xs
+
+        &:hover
+            background-color: lighten($color-font-secondary, 45%)
+            cursor: pointer
+            transition: all $transition-duration $transition-function
+
+        &.-drag
+            background-color: lighten($color-font-secondary, 45%)
+
+        &__drag-icon
+            fill: $color-font-secondary
+            flex: 0 0 $icon-size
+
+        &__title
+            flex: 1 1 auto
+            margin: 0 $m-sm
+
+        &__action-buttons
+            display: flex
+
+        &__add-button
+            background-color: $color-success-500
+
+            svg
+                fill: $color-white
+
+            &:hover
+                background-color: darken($color-success-500, 5%)
+
+        &__delete-button
+            background-color: $color-danger-500
+            svg
+                fill: $color-white
+
+        &__delete-button:hover
+            background-color: darken($color-danger-500, 5%)
+
+        &__details-button
+            fill: $color-font-secondary
+            margin: 0 $m-sm
+
+        &__edit-button
+            margin: 0 $m-sm
+
+        &__remove-button
+            background-color: $color-danger-500
+
+            svg
+                fill: $color-white
+
+            &:hover
+                background-color: darken($color-danger-500, 5%)
+
+        &__type-badge
+            background-color: $color-secondary-500
+            border-radius: $border-radius-sm
+            color: $color-white
+            font-weight: $font-weight-bold
+            margin: 0 $m-sm
+            padding: $m-xs
+            text-align: center
+            width: 150px
+
+    .dropdown-options__dropdown
+        &:hover
+            background-color: $color-success-500
+            color: $color-white
+
+// Shared admin preview modal heading
+.admin-preview-modal-heading
+    background-color: $color-background
+    border-radius: $border-radius-sm
+    color: $color-font-primary
+    font-size: $font-size-base
+    font-weight: $font-weight-bold
+    margin: 0 0 $m-xs
+    padding: $m-xs $m-sm
+    width: calc(100% - #{$m-xs})
+
+// Shared/TableList
+.table-list
+    background-color: $color-white
+    border-collapse: collapse
+    border-radius: $border-radius-sm
+    font-size: $font-size-xs
+    padding: $m-md
+    text-align: left
+    width: 100%
+
+    thead
+
+        tr
+            border-bottom: 2px solid $color-border
+            color: $color-font-primary
+            margin: 0 $m-sm
+            text-align: left
+
+        th
+            font-size: $font-size-base
+            padding: $m-sm $m-xs
+
+    th, td
+        padding: $m-xs
+
+    tbody tr
+        border-bottom: 1px solid $color-border
+
+    tbody tr:last-of-type
+        border-bottom: none
+
+// Admin/Contracts
+.contracts
+    &__entities-cell
+        position: relative
+        width: 400px
+
+    &__entity-list
+        background-color: $color-white
+        left: 0
+        list-style-type: none
+        max-height: 50px
+        overflow: hidden
+        padding: 0
+        position: absolute
+        top: 0
+        width: 100%
+
+    &__entity-item
+        margin: $m-xs
+        padding-bottom: $m-xs
+        border-bottom: 1px solid $color-font-secondary
+
+        &:last-child
+            border-bottom: none
+
+    &__entity-list:hover
+        +box-shadow-300($color-black)
+        max-height: 400px
+        overflow: auto
+        padding: 0
+        scrollbar-width: none
+        z-index: $z-high
+        -ms-overflow-style: none // IE and Edge
+
+        &::-webkit-scrollbar
+            display: none
+
+    &__list
+        background-color: $color-white
+        border-radius: $border-radius-base
+
+    &__list-footer
+        margin-top: $m-md
+
+    &__sync-button
+        margin-left: auto
+        margin-top: $m-md
+        width: 200px
+
+    &__sync-button-cell
+        padding-left: $m-md
+        width: 150px
+
+// Shared switch component
+
+// Shared form divider
+.form-divider
+    border-top: 1px solid $color-primary-500
+    margin: $m-base 0
+
+// Components/Admin/Courses/Form/Lessons and all scoped
+.courses
+    &__lesson
+        +flex-container(row, space-between, center)
+        border-radius: $border-radius-sm
+        padding: $m-xs
+        width: 100%
+
+        &:hover
+            background-color: lighten($color-font-secondary, 45%)
+            cursor: pointer
+            transition: all $transition-duration $transition-function
+
+        &.-drag
+            background-color: lighten($color-font-secondary, 45%)
+
+        &.-disabled
+            background-color: lighten($color-font-secondary, 45%)
+            cursor: not-allowed
+
+        &__action-buttons
+            display: flex
+
+        &__add-button
+            background-color: $color-success-500
+
+            svg
+                fill: $color-white
+
+            &:hover
+                background-color: darken($color-success-500, 5%)
+
+        &__delete-button,
+        &__remove-button
+            background-color: $color-danger-500
+
+            svg
+                fill: $color-white
+
+            &:hover
+                background-color: darken($color-danger-500, 5%)
+
+        &__details-button
+            fill: $color-font-secondary
+            margin: 0 $m-sm
+
+        &__drag-icon
+            fill: $color-font-secondary
+            min-width: $icon-size
+
+        &__edit-button
+            margin: 0 $m-sm
+
+        &__image
+            height: 50px
+            position: relative
+            width: 50px
+
+            img
+                bottom: $m-sm
+                left: 0
+                margin: auto
+                position: absolute
+                right: 0
+                top: $m-sm
+                width: 100%
+
+        &__info
+            align-items: center
+            display: flex
+            flex: 1
+
+        &__modal-image
+            display: flex
+            height: 300px
+            justify-content: center
+            margin-bottom: $m-sm
+
+            img
+                height: 100%
+
+        &__title
+            margin: 0 $m-sm
+            margin-bottom: $m-xs
+            min-width: 150px
+
+        &__type-badge
+            background-color: $color-secondary-500
+            border-radius: $border-radius-sm
+            color: $color-white
+            font-weight: $font-weight-bold
+            margin-left: auto
+            padding: $m-xs
+            text-align: center
+            width: 250px
+
+    &__lesson-item
+        border-bottom: 1px solid $color-font-secondary
+        margin: $m-xs
+        padding-bottom: $m-xs
+
+        &:last-child
+            border-bottom: none
+
+    &__lesson-list
+        background-color: $color-white
+        left: 0
+        list-style-type: none
+        max-height: 50px
+        overflow: hidden
+        padding: 0
+        position: absolute
+        top: 0
+        width: 100%
+
+    &__lesson-list:hover
+        +box-shadow-300($color-black)
+        max-height: 400px
+        overflow: auto
+        padding: 0
+        scrollbar-width: none
+        z-index: $z-high
+        -ms-overflow-style: none /* IE and Edge */
+
+        &::-webkit-scrollbar
+            display: none
+
+    &__lessons-cell
+        position: relative
+        width: 400px
+
+    &__lessons-list
+        background-color: $color-white
+        border-radius: $border-radius-sm
+        list-style-type: none
+        margin-bottom: $m-lg
+        padding: $m-sm
+
+        &.-drag
+            background-color: lighten($color-font-secondary, 49%)
+
+    &__lessons-pagination-bar
+        background-color: $color-white
+        display: flex
+        justify-content: space-between
+        width: 100%
+
+        &__info
+            display: flex
+            margin-right: $m-sm
+
+        &__controls
+            display: flex
+
+    &__list-item-actions
+        align-items: center
+        display: flex
+        justify-content: flex-end
+
+    &__list-item-action-button
+        margin-left: $m-md
+        width: 100px
+
+    &__list-item-image
+        max-height: 100px
+        max-width: 100px
+
+// src/components/Student/Lesson/Lesson.jsx
+.student-lesson-container
+    display: flex
+    flex-direction: column
+
+// src/screens/StudentApp/Lesson/Lesson.jsx
+.lesson
+    +media-breakpoint-up(lg)
+        flex: 0 1 70%
+
+    &__outer-wrapper
+        display: flex
+        max-width: 1200px
+
+    &__course-name
+        color: $color-font-secondary
+        margin: 0 0 $m-xs
+
+    &__next
+        color: $color-white
+
+        .icon
+            margin-left: $m-xs
+
+    &__title
+        color: $color-font-primary
+        margin-top: 0
+
+    &__description
+        margin-bottom: $m-base
+
+        &:first-child .lesson__description-title
+            margin-top: 0
+
+// src/components/Student/Lesson/shared/PortfolioProjectsCard.jsx
+.lesson-item-card
+    background-color: $color-white
+    border-radius: $border-radius-sm
+    margin-bottom: $m-md
+    padding: $m-base
+
+    .embeded-content
+        ul
+            list-style-position: inside
+            list-style-type: disc
+            margin-left: $m-sm
+
+        ol
+            list-style-position: inside
+            list-style-type: decimal
+            margin-left: $m-sm
+
+        a
+            word-break: break-all
+
+    &__header
+        display: flex
+        justify-content: space-between
+
+    &__title
+        color: $color-font-primary
+        font-size: $font-size-base
+        font-weight: $font-weight-bold
+
+    &__ask-button
+        align-items: center
+        background-color: transparent
+        border: solid 1px $color-border
+        border-radius: $border-radius-sm
+        color: $color-primary-500
+        cursor: pointer
+        display: flex
+        font-size: $font-size-xs
+        font-weight: $font-weight-medium
+        padding: $m-xs
+        justify-content: center
+        outline: none
+        transition: display, margin, padding $transition-duration $transition-function
+
+        &:hover
+            padding: $m-xs $m-sm
+
+            .lesson-item-card__ask-button-text
+                display: block
+
+            .lesson-item-card__ask-button-icon
+                margin-right: $m-xs
+
+    &__ask-button-icon
+        svg
+            fill: $color-primary-500
+
+    &__ask-button-text
+        display: none
+
+// src/components/Student/Lesson/shared/Button/Button.jsx
+.lesson-item-button
+    +transition(color, border-color)
+    background-color: $color-background
+    border-radius: $border-radius-sm
+    border: 1px solid transparent
+    color: $color-primary-500
+    cursor: pointer
+    display: grid
+    fill: $color-primary-500
+    height: $lesson-item-button-size
+    min-width: $lesson-item-button-size
+    outline: none
+    place-items: center
+    transition: all $transition-duration $transition-function
+
+    &:hover
+        background-color: $color-primary-500
+        color: $color-white
+
+// GLOBAL MODIFIER - REMOVE MARGIN FROM INJECTED HTML
+.-reset-tree-margins,
+.-reset-tree-margins *
+    margin: 0
+
+// src/components/Student/Lesson/Vocabulary/Vocabulary.jsx
+.vacabulary-item
+    color: $color-font-secondary
+    line-height: $line-height-lg
+    margin-bottom: $m-xs
+
+    &:last-child
+        margin-bottom: 0
+
+    &__term
+        color: $color-primary-500
+        display: inline
+        font-weight: $font-weight-bold
+        margin: 0
+
+    &__definition
+        display: inline
+
+        *
+            display: inline
+
+// src/components/Student/Lesson/ResearchLink/ResearchLink.jsx
+.research-link-item
+    +flex-container(row, space-between, center)
+    margin-bottom: $m-sm
+
+    &:last-child
+        margin-bottom: 0
+
+    &__content
+        margin-right: $m-base
+
+    &__title
+        color: $color-font-primary
+        font-size: $font-size-base
+        font-weight: $font-weight-bold
+        margin: $m-xs 0
+
+    &__link
+        color: $color-primary-500
+        display: inline-block
+        font-weight: $font-weight-medium
+        word-break: break-all
+
+    &__source
+        color: $color-font-secondary
+        font-size: $font-size-sm
+        margin: $m-xs 0 0
+
+// src/components/Student/Lesson/Attachment/Attachment.jsx
+.attachment-item
+    color: $color-font-secondary
+    line-height: $line-height-lg
+
+    &__description
+        line-height: $line-height-base
+
+    &__file-list
+        +flex-container(column)
+        gap: $m-sm
+        margin: 0
+
+// src/components/Student/Lesson/Text/Text.jsx
+.text-item
+    &__content
+        color: $color-font-secondary
+        line-height: $line-height-lg
+
+// src/components/Student/Lesson/Video/Video.jsx
+.video-item
+    &__description
+        color: $color-font-secondary
+        font-weight: $font-weight-medium
+        line-height: $line-height-base
+
+    &__player-wrapper
+        margin-top: $m-base
+        padding-top: 56.25% // Player ratio: 100 / (1280 / 720)
+        position: relative
+
+    &__player
+        height: auto !important // override react-player style
+        left: 0
+        position: absolute
+        top: 0
+        width: 100% !important // override react-player style
+
+        video:focus
+            outline: none
+
+// src/components/Onboarding/Assessment/ContentWrapper/ProgressBar/ProgressBar.tsx
+.assessment-progress-bar
+    margin-top: $m-base * 0.5
+    width: 100%
+
+    &.-assessment
+        margin: 0 $m-md 0 0
+
+    &__range
+        background-color: $color-disabled
+        border-radius: $border-radius-sm
+        height: 2px
+        position: relative
+
+    &__indicator
+        background-color: $color-primary-500
+        border-radius: $border-radius-sm
+        height: $m-xxs
+        position: absolute
+        top: -1px
+
+    &__tooltip
+        position: absolute
+        right: 0
+        top: $m-xs
+        transform: translateX(50%)
+        min-width: 200px
+
+        +media-breakpoint-down(xs)
+            display: none
+
+// .src/components/Student/Lesson/CheckInQuestion/CheckInQuestion.jsx
+.student-check-in-question
+    +flex-container(column)
+
+    &__item
+        margin-top: $m-sm
+
+    &__text
+        color: $color-font-secondary
+        font-style: italic
+        font-weight: $font-weight-medium
+        line-height: $line-height-base
+
+    &__title
+        font-size: $font-size-base
+
+    &__status
+        display: flex
+        justify-content: space-between
+
+        &__info
+            @extend .user-student
+            +flex-container(column, center, flex-start)
+            color: $color-font-secondary
+            font-size: $font-size-sm
+            font-weight: 700
+            margin: 0
+            padding: 0
+
+            .item-status-author
+                @extend .user-student__courses-activity-modal__footer-by
+
+    &__save-button
+        align-self: flex-start
+
+// src/components/Course/GradingModalHeader/GradingModalHeader.tsx\
+.course-header
+    color: $color-font-secondary
+    fill: $color-font-secondary
+
+    &.-continue .course-header__button
+        background-color: $color-secondary-500
+        border-color: $color-secondary-500
+
+    &.-done .course-header__button
+        background-color: $color-success-500
+        border-color: $color-success-500
+
+    &__heading
+        color: $color-font-primary
+
+    &__description
+        +media-breakpoint-up(md)
+            max-width: 800px
+
+    &__categories-bar
+        +flex-container(row, flex-start, center)
+        margin-bottom: $m-xs
+        width: 100%
+
+    &__badges-wrapper
+        +flex-container(row, flex-start, center)
+        flex-wrap: wrap
+
+    &__category-badge
+        background-color: $color-white
+        border-radius: $border-radius-lg
+        color: $color-font-primary
+        font-size: $font-size-xxs
+        font-weight: $font-weight-bold
+        margin-right: $m-base * 0.5
+        padding: $m-xs * 0.5 $m-xs
+        white-space: nowrap
+
+    .modal__content
+        overflow: visible
+
+// src/components/Course/LessonCard/LessonCard.tsx
+.lesson-card
+    &.-disabled
+        position: relative
+        user-select: none
+
+        &::before
+            background-color: rgba(255, 255, 255, 0.5)
+            content: ""
+            height: 100%
+            position: absolute
+            width: 100%
+            z-index: $z-lower
+
+    .-hidden
+        opacity: 0
+
+    &.-continue .lesson-card__progress-indicator,
+    &.-continue .lesson-card__button
+        background-color: $color-secondary-500
+        border-color: $color-secondary-500
+
+        &:hover
+            background-color: darken($color-secondary-500, 5%)
+
+    &.-done .lesson-card__progress-indicator,
+    &.-done .lesson-card__button
+        background-color: $color-success-500
+        border-color: $color-success-500
+
+        &:hover
+            background-color: darken($color-success-500, 5%)
+
+    &__project-label
+        background-color: $color-success-500
+        border-bottom-left-radius: $border-radius-sm
+        border-bottom-right-radius: $border-radius-sm
+        color: $color-white
+        padding: $m-xs $m-xs * 0.5
+        position: absolute
+        right: $m-base
+        z-index: $z-base
+
+    &__image-wrapper
+        padding-bottom: 45% // aspect ratio similar with card design
+        position: relative
+
+    &__image
+        height: 100%
+        left: 0
+        object-fit: cover
+        position: absolute
+        top: 0
+        width: 100%
+
+    &__header
+        +flex-container(row, space-between, flex-start)
+        line-height: 20px
+
+    &__title
+        color: $color-font-primary
+        font-size: $font-size-sm
+        margin: 0
+
+    &__button
+        border-radius: 30px
+        cursor: pointer
+        height: fit-content
+        margin: 0 0 0 $m-sm
+        outline: none
+        padding: $m-xs $m-sm
+        text-transform: uppercase
+        transition: all 100ms $transition-function
+        width: fit-content
+
+        &.-inactive
+            cursor: not-allowed
+
+        .button__text
+            color: $color-white !important
+            font-size: $font-size-sm
+            font-weight: $font-weight-medium
+
+    &__tooltip
+        cursor: default !important
+        height: fit-content
+        z-index: $z-base
+
+        &__placeholder
+            height: 100%
+
+    &__content-wrapper
+        +flex-container(column, space-between, stretch)
+        flex: 1
+        padding: $m-sm
+
+    &__progress-bar
+        margin-top: $m-md
+        background-color: $color-background
+        border-radius: $border-radius-sm
+        height: 3px
+        position: relative
+
+    &__progress-indicator
+        border-radius: $border-radius-sm
+        background-color: $color-secondary-500
+        height: 3px
+        position: absolute
+
+// src/components/Course/GradingModalHeader/ProgressBar/ProgressBar.jsx
+.course-progress-bar
+    &.-continue .course-progress-bar__info
+        color: $color-secondary-500
+
+    &.-continue .course-progress-bar__indicator
+        background-color: $color-secondary-500
+
+    &.-done .course-progress-bar__info
+        color: $color-success-500
+
+    &.-done .course-progress-bar__indicator
+        background-color: $color-success-500
+
+    &__header
+        +flex-container(row, space-between, center)
+        margin-bottom: $m-xs
+
+    &__info
+        margin-left: auto
+
+    &__range
+        background-color: $color-disabled
+        border-radius: $border-radius-sm
+        height: 2px
+        position: relative
+
+    &__indicator
+        background-color: $color-primary-500
+        border-radius: $border-radius-sm
+        height: $m-xxs
+        position: absolute
+        top: -1px
+
+.onboarding
+    max-height: 100vh
+
+// src/screens/StudentApp/Courses/Courses.jsx
+.student-courses
+    &__list-header
+        color: $color-font-primary
+        margin-bottom: $m-sm
+        position: relative
+
+        &__filter-button
+            margin: 0
+
+            .button__text
+                align-items: center
+                display: flex
+
+            .icon
+                margin-right: $m-xs
+
+            &.-active
+                .button__text
+                    font-weight: $font-weight-bold
+
+        &__interactives
+            display: flex
+            justify-content: space-between
+            align-items: flex-start
+
+    &__list-heading
+        font-size: $font-size-base
+        margin: 0
+
+    &__list-sub-heading
+        color: $color-font-secondary
+        font-size: $font-size-base
+        font-weight: $font-weight-regular
+        margin-top: $m-xs
+
+    &__panel-filter
+        +box-shadow-300($color-black)
+        background-color: $color-white
+        margin-top: $m-xs
+        padding: $m-sm
+        position: absolute
+        right: 0
+        width: 600px
+        z-index: $z-high
+
+        &__isMiddleSchool-label
+            cursor: pointer
+            display: flex
+            padding-right: $m-md
+
+            .icon
+                margin-right: $m-xs
+
+            &.-checked-all
+                color: $color-primary-500
+
+                svg > path
+                fill: $color-primary-500
+
+        &__cluster-item
+            margin-bottom: $m-sm
+            &.-checked-all
+                color: $color-primary-500
+
+                svg > path
+                fill: $color-primary-500
+
+            &.-checked-some
+                .student-courses__panel-filter__cluster-item-label
+                    color: $color-primary-500
+
+                    svg > path
+                    fill: $color-primary-500
+
+        &__cluster-item-expander
+            align-items: center
+            cursor: pointer
+            display: flex
+            margin-left: auto
+
+        &__cluster-item-label
+            align-items: center
+            display: flex
+
+            .icon
+                margin-right: $m-xs
+
+        &__cluster-item-clickable
+            align-items: center
+            cursor: pointer
+            display: flex
+
+        &__footer-buttons
+            display: flex
+
+            .button:first-child
+                margin-right: $m-sm
+
+        &__header
+            align-items: center
+            color: $color-primary-500
+            display: flex
+            font-size: $font-size-base
+            justify-content: space-between
+
+        &__header-text
+            font-size: $font-size-base
+            margin: 0
+
+        &__list
+            max-height: 300px
+            overflow: auto
+
+            svg > path
+            fill: $color-font-primary
+
+        &__pathways
+            display: flex
+            flex-direction: column
+
+        &__pathway-item
+            align-items: center
+            display: flex
+            margin-left: $m-sm
+            margin-top: $m-sm
+
+            .icon
+                margin-right: $m-sm
+
+            &.-checked
+                color: $color-primary-500
+
+                svg > path
+                fill: $color-primary-500
+
+        &__pathway-item-label
+            align-items: center
+            cursor: pointer
+            display: flex
+
+// src/components/Student/Courses/CurrentList/CurrentList.tsx
+.student-courses-all
+    .filter__searchbar
+        width: 400px
+
+        input
+            padding: $m-sm
+            height: 50px
+            width: 400px
+
+    &__show-more
+        align-items: center
+        color: $color-primary-500
+        cursor: pointer
+        display: flex
+        font-size: $font-size-base
+        height: 60px
+        justify-content: center
+        width: 100%
+        margin-top: $m-base
+
+        .icon
+            margin-left: $m-xs
+
+    &__paging-buttons
+        display: flex
+        justify-content: center
+        margin-top: $m-base
+
+        .icon-button:first-of-type
+            margin-right: $m-base
+
+.student-courses-current
+    margin-bottom: $m-base
+
+    &__list
+        +flex-container(row, flex-start, center)
+        flex-wrap: wrap
+
+        .course-card
+            flex: 1 0 100%
+            margin-right: $m-base
+            margin-bottom: $m-base
+
+            +media-breakpoint-up(sm)
+                flex: 0 0 $course-card-width + $m-base
+
+// src/components/Onboarding/Result/Components/Components.jsx
+.onboarding-components
+    background: $color-background
+
+    &__content-wrapper
+        +flex-container(column)
+        margin: 0 auto
+        max-width: 1200px
+        min-height: 100vh
+
+// src/components/Onboarding/Result/Components/TopNavbar/TopNavbar.jsx
+.onboarding-components-top-navigation
+    +flex-container(row, space-between, center)
+    padding: $m-base
+    width: 100%
+
+    &__backward-button
+        align-items: center
+        color: $color-font-primary
+        font-weight: $font-weight-medium
+        display: flex
+        cursor: pointer
+
+    &__backward-button-icon
+        background-color: $color-white
+
+    &__backward-button-text
+        margin-left: $m-sm
+
+    &__button
+        font-size: $font-size-sm
+        font-weight: $font-weight-medium !important
+        height: $m-lg
+        margin: 0
+        width: fit-content
+
+        +media-breakpoint-up(sm)
+            min-width: 170px
+
+    &__title
+        color: $color-primary-500
+        font-weight: $font-weight-medium
+
+// src/components/Onboarding/Result/Components/BottomNavbar/BottomNavbar.jsx
+.onboarding-components-bottom-navigation
+    +flex-container(row, space-around, center)
+    font-weight: $font-weight-medium
+    margin-top: auto
+    overflow: hidden
+    padding: $m-md
+    position: relative
+
+    +media-breakpoint-up(md)
+        padding: $m-md 200px
+
+    &__link
+        z-index: $z-lower
+
+        &:first-of-type .button
+            margin-right: $m-sm
+
+    &__button
+        font-size: $font-size-sm
+        height: $m-lg
+        margin: 0
+        width: fit-content
+
+        &.-outlined
+            border-color: $color-font-primary
+            color: $color-font-primary
+            font-weight: $font-weight-medium !important
+
+        +media-breakpoint-up(sm)
+            min-width: 170px
+
+    &__background
+        background-color: $color-white
+        height: 300px
+        position: absolute
+        top: 0
+        width: 100%
+
+        +media-breakpoint-up(md)
+            border-top-left-radius: 430px
+            border-top-right-radius: 430px
+
+// src/components/Onboarding/Result/Components/Interests/Interests.jsx
+.onboarding-components-interests
+    +flex-container(column, center, center)
+    color: $color-font-secondary
+    padding: $m-sm
+
+    +media-breakpoint-up(sm)
+        padding: $m-base
+
+    +media-breakpoint-up(md)
+        padding: $m-md
+
+    &__title
+        color: $color-font-primary
+        font-family: $font-family-header
+        font-size: $font-size-2xl
+
+    &__description
+        margin: 0 0 $m-md
+        width: 100%
+
+    &__rubric
+        margin: $m-sm 0
+
+    &__rubric-item
+        margin-top: 0
+
+    &__rubric-item-title
+        display: inline-block
+        font-weight: $font-weight-bold
+        margin-right: $m-xs
+
+// src/components/Onboarding/Result/Components/WorkValues/WorkValues.jsx
+.onboarding-components-work-values
+    +flex-container(column, center, center)
+    color: $color-font-secondary
+    padding: $m-sm
+
+    +media-breakpoint-up(sm)
+        padding: $m-base
+
+    +media-breakpoint-up(md)
+        padding: $m-md
+
+    &__title
+        color: $color-font-primary
+        font-family: $font-family-header
+        font-size: $font-size-2xl
+
+    &__description
+        margin: 0 0 $m-md
+        width: 100%
+
+    &__rubric
+        margin: $m-sm 0
+
+    &__rubric-item
+        margin-top: 0
+
+    &__rubric-item-title
+        display: inline-block
+        font-weight: $font-weight-bold
+        margin-right: $m-xs
+
+// src/components/Onboarding/Result/Components/Preferences/Preferences.jsx
+.onboarding-components-study-preferences
+    +flex-container(column, center, center)
+    color: $color-font-secondary
+    padding: $m-sm
+
+    +media-breakpoint-up(sm)
+        padding: $m-base
+
+    +media-breakpoint-up(md)
+        padding: $m-md
+
+    &__title
+        color: $color-font-primary
+        font-family: $font-family-header
+        font-size: $font-size-2xl
+        line-height: 1.5
+        text-align: center
+        width: 200px
+
+    &__description
+        margin: 0 0 $m-md
+        width: 100%
+
+    &__table
+        background-color: $color-white
+        border-radius: $border-radius-sm
+        border: 1px solid $color-background
+        display: grid
+        font-size: $font-size-base
+        grid-template-columns: min-content 1fr
+        max-width: 100%
+        overflow: hidden
+
+        +media-breakpoint-up(lg)
+            margin: 0 $m-xl
+
+    &__table-row
+        display: contents
+
+        &.-table-header
+            color: $color-font-primary
+
+    &__rank-cell
+        border: 1px solid $color-background
+        padding: $m-sm
+        text-align: center
+
+    &__area-cell
+        border: 1px solid $color-background
+        padding: $m-sm $m-md
+
+    &__area-item
+        margin: 0
+
+    &__table-heading
+        margin: $m-xs 0
+
+    &__area-item-title
+        display: inline-block
+        font-weight: $font-weight-bold
+        margin-right: $m-xs
+
+// src/components/Onboarding/Result/Components/Chart/Chart.jsx
+.onboarding-chart
+    background-color: $color-white
+    border-radius: $border-radius-sm
+    padding: $m-md
+    position: relative
+    width: 100%
+
+    +media-breakpoint-up(xl)
+        width: 80%
+
+    &__title
+        color: $color-font-primary
+        margin: 0 0 $m-md
+        text-align: center
+
+    &__axis-name
+        color: $color-font-primary
+        display: none
+        left: -$m-md
+        position: absolute
+        top: 50%
+        transform: rotate(-90deg)
+
+        +media-breakpoint-up(xl)
+            display: block
+
+    &__chart-wrapper
+        color: $color-font-secondary
+        font-size: $font-size-xxs
+        position: relative
+
+        +media-breakpoint-up(xl)
+            font-size: $font-size-xs
+            margin-left: 250px
+
+    &__cartesian_grid
+        +flex-container(row)
+        height: 100%
+        position: absolute
+        width: 100%
+
+    &__axis-unit
+        border-left: 1px solid $color-disabled
+        flex: 1
+        position: relative
+
+        &:last-of-type
+            flex: 0
+
+    &__axis-unit-value
+        bottom: -$m-md
+        position: absolute
+        transform: translateX(-50%)
+
+    &__chart-bars
+        width: 100%
+
+    &__bar
+        height: $m-base
+        margin: $m-base 0
+        position: relative
+
+    &__bar-label
+        display: none
+
+        left: -$m-md
+        position: absolute
+        transform: translateX(-100%)
+        white-space: nowrap
+
+        +media-breakpoint-up(xl)
+            display: block
+
+    &__bar-color-1
+        background-color: $color-success-500
+
+    &__bar-color-2
+        background-color: $color-secondary-500
+
+    &__bar-color-3
+        background-color: $color-warning-500
+
+    &__bar-color-4
+        background-color: $color-primary-500
+
+    &__bar-color-5
+        background-color: $color-font-primary
+
+    &__bar-color-6
+        background-color: $color-font-primary
+
+    &__legend
+        margin-top: $m-lg
+
+        +media-breakpoint-up(xl)
+            display: none
+
+    &__legend-title
+        font-size: $font-size-xxs
+        font-weight: $font-weight-bold
+        line-height: 1
+        margin: 0 0 $m-sm
+
+    &__legend-items-container
+        display: flex
+        flex-wrap: wrap
+        font-size: $font-size-xxs
+        line-height: 1
+        margin: -$m-xxs
+
+    &__legend-item
+        +flex-container(row, center, center)
+        flex: fit-content
+        margin: $m-xxs
+
+    &__legend-item-icon
+        border-radius: $border-radius-xs
+        height: $m-xs
+        margin-right: $m-xxs
+        width: $m-xs
+
+    &__legend-item-label
+        margin-right: $m-xs
+
+// src/components/User/Student/CurrentCourses
+// src/components/User/Student/CoursesActivity
+// src/components/User/Student/PortfolioStudentInfo
+// src/components/User/Student/PortfolioStudentInfo
+
+.user-student
+    display: flex
+
+    &__courses-activity
+        &__header
+            color: $color-font-primary
+            font-size: $font-size-base
+            margin-bottom: $m-xs
+            margin-top: $m-base
+
+    &__courses-activity-modal
+        color: $color-font-primary
+        max-height: 80vh
+        overflow-y: auto
+
+        &__assignment-file-buttons
+            align-items: center
+            display: flex
+
+            a
+                background-color: $color-background
+                border-radius: $border-radius-sm
+                margin: 0 0 0 $m-xs
+                padding: $m-xxs
+
+        &__assignment-file-item
+            +flex-container(row, space-between, center)
+            border: solid 1px $color-border
+            border-radius: $border-radius-sm
+            margin: $m-xs 0
+            padding: $m-sm
+
+            a
+                align-items: center
+                display: flex
+
+            svg
+                fill: $color-primary-500
+
+        &__assignment-file-name
+            max-width: 480px
+            overflow: hidden
+            text-overflow: ellipsis
+            white-space: nowrap
+            margin-left: $m-xs
+
+        &__assignment-title
+            font-size: $font-size-sm
+            margin: $m-base 0 0
+
+        &__check-in-answer
+            font-style: italic
+
+        &__check-in-question
+            display: block
+            font-weight: $font-weight-bold
+            margin-bottom: $m-sm
+            margin-top: $m-lg
+
+        &__close-btn
+            +modal-close-button
+
+        &__footer
+            align-items: center
+            display: flex
+            justify-content: space-between
+            margin-top: $m-lg
+
+        &__footer-buttons
+            .button
+                font-weight: $font-weight-medium
+                height: 40px
+                margin: 0 0 0 $m-sm
+                width: 160px
+
+        &__footer-by
+            color: $color-font-primary
+            font-weight: $font-weight-regular
+            margin-left: $m-xs
+
+        &__footer-status
+            font-weight: $font-weight-bold
+
+            &.-accepted
+                color: $color-success-500
+
+            &.-for-review
+                color: $color-secondary-500
+
+            &.-rejected
+                color: $color-danger-500
+
+        &__footer-status-label
+            display: block
+            margin-bottom: $m-xs
+
+        &__header
+            display: flex
+            justify-content: space-between
+
+        &__no-input
+            border: solid 1px $color-border
+            color: $color-secondary-500
+            margin-top: $m-lg
+            padding: $m-sm
+            text-align: center
+
+        &__title
+            margin: 0 0 $m-xs 0
+            font-size: $font-size-2lg
+            font-weight: $font-weight-regular
+
+    &__courses-activity-list
+        margin-top: $m-xs
+        max-height: 500px
+        overflow: auto
+        padding: $m-sm
+
+        &__item
+            border-radius: $border-radius-sm
+            color: $color-primary-500
+            font-size: $font-size-sm
+            justify-content: space-between
+            margin-bottom: $m-xs
+            padding: $m-x
+
+            &:hover
+                background-color: $color-background
+
+            &.-extended
+                background-color: $color-background
+
+            .data-loader__loading
+                display: none
+
+        &__icons
+            display: flex
+
+            &:first-child
+                margin-left: $m-sm
+
+        &__loader
+            margin-top: $m-base
+
+        &__send-icon
+            margin-right: $m-sm
+
+        &__dropdown
+            margin-left: auto
+
+        &__more-icon
+            background-color: $color-background
+            border-radius: $border-radius-xs
+            fill: $color-primary-500
+            margin-left: auto
+            transition: background-color $transition-duration * 0.25 $transition-function
+            visibility: hidden
+
+        &__dropdown-option
+            justify-content: flex-start
+
+            span
+                margin-left: $m-xs
+
+        &__dropdown-review-marker
+            background-color: $color-secondary-500
+            border-radius: 50px
+            height: $m-xs
+            position: absolute
+            top: 10px
+            width: $m-xs
+
+        &__more-options
+            justify-content: flex-start
+            width: 150px
+
+        &__items-list-item
+            align-items: center
+            color: $color-primary-500
+            display: flex
+            font-size: $font-size-sm
+            font-weight: $font-weight-regular
+            padding: $m-sm $m-xs
+
+            &__list-item-lesson
+                +ellipsis-multiline(2)
+                text-overflow: ellipsis
+                width: 100%
+
+            &:first-of-type
+                margin-top: $m-sm
+
+            &:hover
+                background-color: $color-white
+                border-radius: $border-radius-sm
+
+                .user-student__courses-activity-list__more-icon
+                    visibility: visible
+
+                    &:hover
+                        background-color: darken($color-background, 4%)
+
+            &.-for-review
+                .user-student__courses-activity-list__list-item-date
+                    color: $color-secondary-500
+
+                .user-student__courses-activity-list__list-item-date-indicator
+                    background-color: $color-secondary-500
+                    border-radius: 50%
+                    flex: 0 0 $m-xs
+                    height: $m-xs
+                    margin-right: $m-xs
+
+                .user-student__courses-activity-list__list-item-review-button
+                    background-color: $color-secondary-500
+                    border: none
+                    border-radius: $border-radius-sm
+                    color: $color-white
+                    display: block
+                    margin-left: auto
+                    outline: none
+                    padding: $m-xs $m-sm
+
+                    &:hover
+                        cursor: pointer
+                        background-color: lighten($color-secondary-500, 5%)
+
+            .status-icon
+                margin-right: $m-xs
+
+                &.-accepted
+                    svg
+                        fill: $color-success-500
+
+                &.-not-answered
+                    svg
+                        fill: $color-primary-500
+
+                &.-not-graded, .-updated
+                    svg
+                        fill: $color-secondary-500
+
+                &.-rejected
+                    svg
+                        fill: $color-danger-500
+
+        &__label
+            align-items: center
+            cursor: pointer
+            display: flex
+            justify-content: space-between
+            font-weight: $font-weight-bold
+
+        &__list-item-date
+            align-items: center
+            color: $color-font-secondary
+            display: flex
+            font-size: $font-size-xxs
+            margin-left: $m-xs
+            margin-right: $m-xs
+
+        &__list-item-group-badge
+            background-color: $color-secondary-500
+            border-radius: $border-radius-sm
+            color: $color-white
+            font-weight: $font-weight-bold
+            font-size: $font-size-xs
+            margin-left: $m-xs
+            padding: $m-xxs
+
+        &__list-item-review-badge
+            display: none
+
+    &__courses-activity-list-wrapper
+        background-color: $color-white
+        border-radius: $border-radius-sm
+        padding: $m-xs 0
+
+    &__current-courses
+        background-color: $color-white
+        border-radius: $border-radius-sm
+        color: $color-font-primary
+        font-size: $font-size-base
+        padding: $m-base
+
+        &__assign-button
+            align-items: center
+            background-color: transparent
+            border: none
+            color: $color-primary-500
+            cursor: pointer
+            display: flex
+            font-size: $font-size-base
+            font-weight: $font-weight-bold
+            outline: none
+
+            svg
+                fill: $color-primary-500
+
+            &:hover
+                color: lighten($color-primary-500, 10%)
+
+                svg
+                    fill: lighten($color-primary-500, 10%)
+
+    &__current-courses-card
+        +flex-container(row, flex-start, center)
+        align-content: space-between
+        background-color: $color-background
+        border-left: solid $m-xxs $color-success-500
+        border-radius: $border-radius-sm
+        flex-wrap: wrap
+        flex: 1 1 46%
+        margin: $m-xs
+        padding: $m-sm
+
+        &.-not-started
+            border-left: solid $m-xxs $color-font-secondary
+
+        &.-in-progress
+            border-left: solid $m-xxs $color-secondary-500
+
+        .progress-ring
+            margin-right: $m-xs
+
+            text
+                fill: $color-font-secondary
+
+            &.-in-progress
+                text
+                    fill: $color-secondary-500
+
+        &__tooltip
+            &__placeholder
+                height: auto
+                margin-left: auto
+
+        &__icon-button
+            background-color: $color-white
+            transition: all $transition-duration $transition-function
+
+            svg
+                fill: $color-primary-500
+
+        &__title
+            flex-basis: 100%
+            font-size: $font-size-sm
+            margin: $m-base 0 0
+
+    &__current-courses-header
+        align-items: center
+        display: flex
+        justify-content: space-between
+        margin: 0 $m-xs $m-xs
+
+        &__title
+            font-size: $font-size-base
+            margin-bottom: 0
+
+    &__current-courses-list
+        display: flex
+        flex-wrap: wrap
+        margin: -$m-xs
+
+    &__main-content
+        width: 66.66%
+
+    &__no-assessment-placeholder
+        +flex-container(column, center, center)
+        background-color: $color-white
+        border-radius: $border-radius-sm
+        height: 500px
+        padding: $m-base
+        width: 500px
+
+        .avatar
+            margin: auto
+            height: 150px
+            width: 150px
+
+    &__no-assessment-wrapper
+        display: flex
+        justify-content: center
+        width: 100%
+
+    &__side-content
+        margin-left: $m-md
+        width: 33.33%
+
+// screens/UserApp/StudentAssessmentResults
+.user-student-assessment-results
+    &__pathway
+        margin-bottom: $m-md
+
+        &__name
+            font-size: $font-size-lg
+
+    &__pathways
+        color: $color-font-primary
+        padding: $m-md
+
+        &__sub-title
+            display: inline-block
+            margin-bottom: $m-md
+            text-align: center
+            width: 100%
+
+        &__title
+            color: $color-font-primary
+            font-family: $font-family-header
+            font-size: $font-size-2xl
+            margin-bottom: $m-xs
+            text-align: center
+            width: 100%
+
+// StudentApp/FinalReport
+.final-report
+    &__header
+        align-items: center
+        display: flex
+        justify-content: space-between
+        padding-bottom: $m-base
+
+        &__button
+            margin: 0
+            width: 168px
+
+            .button_text
+                align-items: center
+                display: flex
+                font-size: $font-size-xs
+
+                span
+                    margin-left: $m-xs
+            svg
+                fill: $color-primary-500
+
+    &__assessment-points-list
+        margin:
+            left: $m-xs
+            top: $m-xs
+            bottom: $m-sm
+
+    &__contents
+        display: flex
+
+    &__explored-title
+        font-size: $font-size-2xl
+        margin-top: $m-lg
+
+    &__main-content
+        background-color: $color-white
+        border-radius: $border-radius-sm
+        flex: 1 1 auto
+        min-width: 0
+
+    &__main-title
+        font-size: $font-size-xl
+
+    &__navigation
+        background: $color-white
+        border-radius: $border-radius-sm
+        color: $color-primary-500
+        font-weight: $font-weight-bold
+        height: fit-content
+        line-height: 1.5
+        padding: $m-md
+        position: sticky
+        top: $m-md + $m-xl
+
+    &__navigation-item
+
+        &:not(:last-of-type)
+            margin-bottom: $m-base
+
+        &:hover
+            cursor: pointer
+
+    &__pathways
+        +flex-container(row, center, stretch)
+        flex-wrap: wrap
+        margin: $m-sm 0
+
+    &__pathway-card
+        border-radius: $border-radius-base
+        border: solid 1px $color-border
+        flex: 0 1 350px
+        line-height: $line-height-lg
+        margin: $m-sm
+        overflow: hidden
+
+        &__content
+            padding: $m-sm
+
+        &__image
+            max-width: 100%
+            height: auto
+
+        &__title
+            margin-top: $m-xs
+            word-wrap: break-word
+            font-size: $font-size-xl
+
+    &__projects-list
+        margin-left: $m-sm
+
+        &__link
+            color: $color-primary-500
+
+    &__recommended-courses
+        margin-bottom: $m-md
+
+        &__option-label
+            font-size: $font-size-base
+
+        &__option-title
+            color: $color-primary-500
+            font-size: $font-size-base
+            max-width: 500px
+
+    &__sub-title
+        font-size: $font-size-base
+        margin:
+            bottom: $m-xxs
+            top: $m-sm
+
+    &__survey-question
+        font-weight: $font-weight-bold
+        margin-bottom: $m-xs
+
+    &__title
+        color: $color-primary-500
+        font-size: $font-size-xl
+        margin:
+            top: $m-md
+            bottom: $m-base
+
+    .onboarding-components-interests
+        padding: 0 $m-md
+
+        &__title
+            font-size: $font-size-base
+            margin: $m-sm
+            width: 100%
+
+    .onboarding-components-study-preferences
+        padding: 0 $m-md
+
+        &__title
+            font-size: $font-size-base
+            margin: $m-sm
+            text-align: left
+            width: 100%
+
+    .onboarding-components-work-values
+        padding: 0 $m-md
+
+        &__title
+            font-size: $font-size-base
+            margin: $m-sm
+            width: 100%
+
+// components/Onboarding/ProcessingAssessment
+.processing-assessment
+    align-items: center
+    display: flex
+    height: 100vh
+    justify-content: center
+
+    &__spinner
+        margin-bottom: $m-xl
+
+        &.-size-medium
+            .loading-spinner__spinner
+                height: $m-2xl
+                width: $m-2xl
+
+    &__text
+        color: $color-primary-500
+        display: block
+        font-size: $font-size-base
+        font-weight: $font-weight-medium
+        margin-bottom: $m-xxs
+        text-align: center
+
+// src/components/Student/Lesson/TableOfContent/TableOfContent.jsx
+.table-of-content
+    +flex-container(column, stretch, stretch)
+    max-height: 80vh
+    padding: $m-sm
+    flex: 0 1 30%
+    top: $m-md + $m-xl
+
+    &__title
+        color: $color-font-primary
+        font-size: $font-size-base
+        font-weight: $font-weight-bold
+        line-height: $line-height-sm
+        margin: 0 0 $m-base * 0.5
+
+        &::after
+            box-shadow: $m-xxs -2px 2px 5px $color-white
+            content: ""
+            display: block
+            left: -$m-xs * 0.5
+            position: relative
+            top: $m-base * 0.5
+            width: calc(100% - #{$m-xs})
+            z-index: $z-lower
+
+    &__list
+        height: 100%
+        margin-right: -$m-xs * 0.5
+        overflow-y: scroll
+        padding: $m-base * 0.5 $m-xs * 0.5 $m-sm 0
+
+    &__action-buttons
+        +flex-container(row, space-between, center)
+        padding-top: $m-base * 0.5
+        position: relative
+
+        &::before
+            box-shadow: 3px $m-xxs 2px $m-xs $color-white
+            content: ""
+            display: block
+            left: $m-xs * 0.5
+            position: absolute
+            top: 0
+            width: calc(100% - #{$m-sm})
+            z-index: $z-lower
+
+// src/components/Student/Lesson/TableOfContent/LessonStep/LessonStep.jsx
+.table-of-content-lesson-step
+    margin-bottom: $m-sm
+    overflow: hidden
+
+    &__button
+        +flex-container(row, flex-start, center)
+        background-color: $color-background
+        border-radius: $border-radius-sm
+        border: 2px solid transparent
+        color: $color-font-primary
+        cursor: pointer
+        line-height: $line-height-lg
+        max-height: $lesson-item-button-size
+        outline: none
+        padding: $m-xs
+        text-align: left
+        transition: background-color 0.25s ease-out, border-color 0.5s ease-out
+        width: 100%
+
+        &:hover
+            background-color: darken($color-background, 3%)
+
+    &__icon-wrapper
+        border-radius: $border-radius-sm
+        margin-right: $m-base * 0.5
+        padding: $m-xs
+
+        &.not-started
+            background-color: $color-border
+            fill: $color-primary-500
+
+        &.in-progress
+            background-color: $color-secondary-500
+            color: $color-white
+
+        &.done
+            background-color: $color-success-500
+            color: $color-white
+    &__title
+        -webkit-box-orient: vertical
+        -webkit-line-clamp: 2
+        display: -webkit-box
+        overflow: hidden
+        text-overflow: ellipsis
+
+    &__content
+        max-height: 0
+        overflow: hidden
+        transition: max-height .4s cubic-bezier(0.4, 0, 0.2, 1)
+
+        &.-active
+            height: fit-content
+            max-height: 800px
+            transition: max-height .6s cubic-bezier(0.4, 0, 0.2, 1) .4s
+
+// src/components/Student/Lesson/TableOfContent/NavigationLink/NavigationLink.jsx
+.table-of-content-navigation-link
+    +flex-container(row, flex-start, center)
+    color: $color-primary-500
+    font-size: $font-size-xs
+    font-weight: $font-weight-medium
+    margin: $m-sm $m-sm $m-base
+    text-decoration: none
+
+    &.-disabled
+        color: $color-font-secondary
+        margin-bottom: $survey-navlink-tooltip-space
+
+    &:last-of-type:not(.-disabled)
+        margin-bottom: $m-sm
+
+    &__tooltip
+        flex: 1
+
+    &__tooltip-content
+        bottom: -$survey-navlink-tooltip-space
+
+    &__tooltip-arrow
+        border-bottom: 10px solid $color-font-primary !important
+        border-top: none !important
+        height: 0
+        left: $m-base
+        top: -10px !important
+        width: 0
+
+    &__icon-wrapper
+        border-radius: $border-radius-xs
+        border: 2px solid $color-primary-500
+        display: grid
+        fill: $color-primary-500
+        height: $m-sm
+        margin-right: $m-sm
+        min-width: $m-sm
+        place-items: center
+        position: relative
+        stroke-width: 2
+
+        &.-disabled
+            border-color: $color-font-secondary
+            fill: $color-font-secondary
+
+        &.-inactive
+            background-color: $color-primary-500
+
+        &:not(.-without-connector-line)::after
+            border-left: 2px solid $color-primary-500
+            bottom: -$table-of-content-connector-spacing
+            content: ""
+            display: block
+            height: $m-base * 0.5
+            margin: $m-xs 0
+            position: absolute
+
+    &__title
+        -webkit-box-orient: vertical
+        -webkit-line-clamp: 1
+        display: -webkit-box
+        overflow: hidden
+        text-overflow: ellipsis
+
+// src/components/Student/Lesson/TableOfContent/NavigationButton/NavigationButton.jsx
+.table-of-content-nav-button
+    margin: 0
+    display: flex
+    flex: 1
+    fill: $color-primary-500
+    font-weight: $font-weight-medium !important
+
+    &.-next
+        svg
+            transform: rotate(180deg)
+
+    &:last-of-type
+        margin-left: $m-base
+
+    span
+        padding-left: $m-xs * 0.5 !important
+
+// components/shared/harmonicMenu
+.harmonic-menu
+    background-color: $color-white
+    border-radius: $border-radius-sm
+    padding: $m-sm
+
+    &__list
+        margin: 0
+        padding-top: $m-xxs
+        max-height: 500px
+        overflow: auto
+        width: 100%
+
+    &__content
+        align-items: center
+        display: flex
+        justify-content: center
+        margin: 0 $m-xs
+        max-height: 0
+        visibility: hidden
+        transition: all 0.4s ease-in-out
+
+        &.-extended
+            max-height: 99999px
+            min-height: 50px
+            visibility: visible
+
+    &__icon
+        transition: transform .6s ease
+
+        &.-extended
+            transform: rotate(180deg)
+
+    &__item
+        border-radius: $border-radius-sm
+        color: $color-font-primary
+        font-size: $font-size-sm
+        font-weight: $font-weight-bold
+        justify-content: space-between
+        max-height: 40px
+        padding: $m-xs 0
+        transition: all 0.4s ease-in-out
+
+        svg
+            fill: $color-primary-500
+
+        &.-extended
+            background-color: $color-background
+            max-height: 9999px
+            overflow: hidden
+            transition: all 0.4s ease-in-out
+
+    &__label
+        align-items: center
+        cursor: pointer
+        display: flex
+        justify-content: space-between
+        margin: 0 $m-xxs
+        overflow: hidden
+
+        &:hover
+            color: lighten($color-font-primary, 20%)
+
+            svg
+                fill: lighten($color-font-primary, 20%)
+
+                svg
+                    fill: $color-white
+
+    &__title
+        margin: 0 $m-xs
+        font-size: $font-size-base
+
+// components/User/PagingBar
+.user-paging-bar
+    align-items: center
+    display: flex
+    justify-content: flex-end
+    margin-top: $m-sm
+
+    &__page-info
+        color: $color-font-secondary
+        margin-right: $m-sm
+        font-size: $font-size-xs
+
+    &__button
+        background-color: $color-white
+        border: solid 1px $color-border
+
+        svg
+            fill: $color-primary-500
+
+        &:disabled
+            svg
+                fill: $color-border
+
+    &__button-prev
+        border-top-left-radius: $border-radius-sm
+        border-bottom-left-radius: $border-radius-sm
+        border-right: none
+
+    &__button-next
+        border-top-right-radius: $border-radius-sm
+        border-bottom-right-radius: $border-radius-sm
+
+// src/components/Onboarding/Assessment/SplashScreen/SplashScreen.tsx
+.splash-screen
+    +flex-container(column, center, center)
+    color: $color-font-secondary
+    //font-weight: $font-weight-medium
+    line-height: $line-height-lg
+    padding: $m-base
+
+    +media-breakpoint-up(sm)
+        padding: $m-lg
+
+    +media-breakpoint-up(lg)
+        padding: $m-2xl $m-lg
+
+    +min-width-and-max-height(lg, lg)
+        padding: 0 $m-base
+
+    &__content
+        margin-bottom: $m-lg
+        max-width: 1200px
+
+        +media-breakpoint-up(lg)
+            display: flex
+            margin: $m-lg 0 $m-2xl
+
+        +min-width-and-max-height(lg, lg)
+            margin: $m-md 0
+
+    &__instruction-list
+        align-self: center
+        flex: 1 0 50%
+        margin: 0
+
+        +media-breakpoint-up(lg)
+            padding-right: $m-lg
+
+    &__instruction-item
+        margin-bottom: $m-base
+
+        +media-breakpoint-up(lg)
+            margin-bottom: $m-md
+
+        +min-width-and-max-height(lg, lg)
+            margin-bottom: $m-sm
+
+    &__player
+        align-self: flex-start
+        background-color: $color-background
+        border-radius: $border-radius-sm
+        box-shadow: $splash-video-shadow
+        height: fit-content !important
+        margin: $m-lg 0
+        order: 1
+        overflow: hidden
+
+        +media-breakpoint-up(sm)
+            margin: $m-lg
+
+        +media-breakpoint-up(lg)
+            margin: 0
+
+        +min-width-and-max-height(lg, lg)
+            flex: 0 1 50%
+
+// GLOBAL LAYOUT
+.flex-container
+    display: flex
+
+//.max-container
+//    max-width: map-get($grid-breakpoints, xxl)
+
+// src/components/Messaging
+.messages
+    background-color: $color-background
+    display: flex
+    height: 100vh
+    padding-top: $desktop-header-height
+
+// src/components/Messaging/LeftPanel
+// src/components/Messaging/LeftPanel/Modal/Modal
+// src/components/Messaging/LeftPanel/ListItem
+.messages-left-panel
+    background-color: $color-background
+    max-height: calc(100vh - #{$desktop-header-height})
+    min-width: 330px
+    padding: 2px
+
+    &__header
+        +flex-container(row, space-between, center)
+        color: $color-font-primary
+        overflow: hidden
+        padding: $m-sm
+
+        &__buttons
+            +flex-container(row, flex-end, center)
+
+        &__button
+            font-size: $font-size-2xl
+            height: 44px
+            margin-bottom: 0
+            margin-left: $m-xs
+            width: 44px
+
+            .button__text
+                font-weight: $font-weight-medium
+
+            svg
+                fill: $color-primary-500
+
+        &__title
+            margin: $m-xs 0
+            max-width: 250px
+
+        .backward-button__text
+            margin-left: $m-xs
+
+    &__header-button
+        align-items: center
+        color: $color-primary-500
+        cursor: pointer
+        display: flex
+
+    &__list-item
+        border-right: 2px solid transparent
+        padding: $m-sm $m-base
+        position: relative
+
+        &:hover
+            background-color: $color-primary-200
+            cursor: pointer
+
+        &.-unread
+            background-color: $color-border
+
+            .messages-contextual-panel__list-item-unread-mark
+                visibility: visible
+
+        &.-selected
+            background-color: $color-white
+            border-color: $color-primary-500
+
+    &__list-item-header
+        align-items: center
+        color: $color-primary-500
+        display: flex
+        justify-content: space-between
+
+    &__list-item-title
+        font-size: $font-size-lg
+        font-weight: $font-weight-medium
+        margin: 0
+        max-width: 50%
+        overflow: hidden
+        text-overflow: ellipsis
+        white-space: nowrap
+
+    &__list-item-date
+        color: $color-font-secondary
+        font-size: $font-size-xs
+
+    &__list-item-message
+        color: $color-font-primary
+        display: inline-block
+        font-size: $font-size-xs
+        margin-top: $m-xs
+        max-width: 300px
+        overflow: hidden
+        text-overflow: ellipsis
+        white-space: nowrap
+
+    &__modal
+        width: 700px
+
+        &__context
+            color: $color-primary-500
+            margin-bottom: $m-md
+
+            &__announcements
+                textarea
+                    margin-top: $m-xs
+
+        &__context-info
+            display: flex
+            margin-top: $m-xs
+
+            svg
+                fill: $color-primary-500
+
+        &__context-titles
+            margin-left: $m-sm
+
+            &__announcements
+                color: $color-font-secondary
+                display: flex
+                flex-direction: column
+                margin-bottom: $m-base
+
+                span:last-of-type
+                    color: #005994
+                    font-weight: 500
+                    margin-top: $m-xs
+
+        &__context-title
+            display: block
+            font-weight: $font-weight-medium
+
+        &__context-subtitle
+            font-size: $font-size-xs
+            font-style: italic
+
+        &__header
+            align-items: center
+            color: $color-font-primary
+            display: flex
+            justify-content: space-between
+
+        &__close-btn
+            +modal-close-button
+
+        &__text-area
+            height: 200px
+            margin-top: $m-xs
+            resize: none
+            width: 100%
+
+        &__text-area-label
+            color: $color-font-secondary
+
+        &__button
+            margin-left: auto
+
+// components/Messaging/LeftPanel/ReceiverSelect
+.receiver-select
+    &__entity
+        display: block
+        color: $color-font-primary
+        font-size: $font-size-xs
+        margin-top: $m-xs
+        border: none
+        outline: none
+
+    .receiver-select__menu
+        border: solid 2px $color-border
+        border-radius: $border-radius-sm
+        box-shadow: none
+
+    &__custom-value
+        color: $color-primary-500
+        font-weight: $font-weight-medium
+
+    &__label
+        padding-bottom: $m-xs
+
+    &__value-container
+        margin-left: $m-xxs
+
+    .receiver-select__value-container--has-value
+        &:hover
+            border: none
+            box-shadow: none
+
+    .receiver-select__control
+        border: solid 2px $color-border
+        border-radius: $border-radius-sm
+        height: 40px
+        outline: none
+
+        &:hover
+            box-shadow: none
+            cursor: pointer
+
+        &--is-focused
+            border: solid 2px $color-border !important
+            border-radius: $border-radius-sm !important
+            box-shadow: none
+
+    .receiver-select__option
+        align-items: center
+        background-color: $color-white
+        cursor: pointer
+        display: flex
+        justify-content: space-between
+        padding: $m-xs $m-sm
+
+        svg
+            fill: $color-success-500
+
+        &--is-focused
+            background-color: $color-white
+
+        &--is-selected
+            background-color: $color-white
+
+        &__identity
+            color: $color-primary-500
+            display: block
+            font-size: $font-size-sm
+            font-weight: $font-weight-medium
+
+        &__entity
+            font-size: $font-size-xs
+
+// GLOBAL LAYOUT MODIFIERS
+.display-only-mobile-block
+    display: block
+
+    +media-breakpoint-up(md)
+        display: none
+
+.display-only-desktop-block
+    display: none
+
+    +media-breakpoint-up(md)
+        display: block
+
+.display-only-mobile-flex
+    display: flex !important
+
+    +media-breakpoint-up(md)
+        display: none !important
+
+.display-only-desktop-flex
+    display: none !important
+
+    +media-breakpoint-up(md)
+        display: flex !important
+
+@media all
+    .page-break
+        display: none
+
+@media print
+    .final-report__main-content
+        margin: $m-sm
+
+    .final-report__pathways
+        display: flex
+        justify-content: space-between
+        margin: $m-sm 0
+
+    .final-report__pathway-card
+        max-width: 250px
+
+    .page-break
+        display: block
+        page-break-before: always
+
+@page
+    margin: $m-base
+    size: letter
+
+// components/shared/InfiniteScrollContainer
+.infinite-scroll-container
+    display: flex
+    flex-direction: column
+    overflow: auto
+
+    &.-reverse
+        flex-direction: column-reverse
+// src/components/User/Course/AssignModal/AssignModal.jsx
+.schoolclass-assing-modal
+    .dc-async-select__menu
+        position: relative
+        z-index: $z-higher
+
+// components/User/Entity/Content/AssignPlanModal
+.assign-plan-modal
+    &__checkbox
+        margin: $m-sm 0
+
+    &__unassign-info
+        color: $color-font-primary
+        display: block
+        font-size: $font-size-base
+        margin-bottom: $m-md
+
+    &__body
+        height: 400px
+
+    .dc-async-select__menu
+        position: relative
+        z-index: 999999999999999999999
+
+// src/components/Student/Portfolio/Projects/Projects.jsx
+.portfolio-projects
+    min-width: 0
+
+    &__nav
+        +flex-container(row, flex-start, center)
+
+    &__heading
+        +flex-container(row, flex-start, center)
+        background-color: $color-white
+        border-radius: 0 $border-radius-sm $border-radius-sm $border-radius-sm
+        color: $color-primary-500
+        font-size: $font-size-sm
+        font-weight: $font-weight-regular
+        margin: 0
+        padding: $m-sm
+        width: 100%
+
+        &-type
+            cursor: pointer
+            margin-right: $m-md
+
+            &.-selected
+                font-weight: $font-weight-bold
+
+    &__action
+        border-radius: $border-radius-sm
+        font-size: $font-size-sm
+        height: 52px
+        margin-left: $m-md
+        white-space: nowrap
+        width: 170px
+
+        &-text
+            display: block
+
+        &.-placeholder
+            margin-left: 0
+
+        .button__text
+            font-weight: $font-weight-regular
+
+    &__cards
+        margin: $m-base 0
+
+    &__placeholder
+        color: $color-font-primary
+        margin: $m-xl 0
+        text-align: center
+
+    &__personal-projects-placeholder
+        +flex-container(column, center, center)
+        background-color: $color-white
+        border-radius: $border-radius-sm
+        padding: 40px
+
+    .shared-tooltip-portal__placeholder
+        overflow: hidden
+
+// src/components/Student/Portfolio/Projects/PortfolioProjectsCard/PortfolioProjectsCard.jsx
+.portfolio-project-card
+    background-color: $color-white
+    border-radius: $border-radius-sm
+    color: $color-font-primary
+    display: flex
+    flex-wrap: wrap
+    justify-content: stretch
+    margin-bottom: $m-base
+    padding: 0 0 $m-sm $m-sm
+
+    &__image-wrapper
+        border-radius: $border-radius-sm
+        flex: 1 1 250px
+        margin: $m-sm $m-sm 0 0
+        height: 170px
+        overflow: hidden
+        min-width: 200px
+
+        img
+            height: 100%
+            object-fit: cover
+            width: 100%
+
+    &__main
+        +flex-container(column, stretch, stretch)
+        flex: 1 1 50%
+        margin: $m-sm $m-sm 0 0
+
+    &__header
+        +flex-container(row, space-between, center)
+        fill: $color-font-primary
+
+    &__heading
+        font-size: $font-size-sm
+        line-height: $line-height-base
+        margin: 0
+
+    &__header-actions
+        +flex-container(row, center, center)
+
+    &__dropdown-trigger
+        &:hover
+            background-color: $color-background
+
+    &__dropdown-options
+        background-color: $color-background
+        width: fit-content
+
+        &:after
+            background-color: $color-background
+
+        .dropdown-options__lists
+            background-color: $color-background
+
+    &__dropdown-option
+        background-color: $color-background
+        color: $color-font-primary
+        justify-content: flex-start
+        padding: $m-base * 0.5 $m-sm
+
+        &:hover
+            background-color: darken($color-background, 4%)
+
+        .icon
+            margin-right: $m-xs
+
+    &__description
+        color: $color-font-primary
+        font-size: $font-size-xs
+        margin: 0 0 $m-base
+        overflow: hidden
+        text-overflow: ellipsis
+        display: -webkit-box
+        -webkit-box-orient: vertical
+        -webkit-line-clamp: 4
+        line-height: 1rem
+        max-height: 1rem * 4 //fallback
+
+        *
+            margin: 0
+            padding: 0
+
+    &__more-files-container
+        display: grid
+        gap: $m-sm
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr))
+        margin-top: auto
+
+        .shared-tooltip__content
+            white-space: nowrap
+            width: fit-content !important
+
+    &__less-files-container
+        display: grid
+        gap: $m-sm
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+        margin-top: auto
+
+        .shared-tooltip__content
+            display: none
+
+    &__file
+        +flex-container(row, flex-start, center)
+        +link-unstyled
+        background-color: $color-background
+        border-radius: $border-radius-sm
+        cursor: pointer
+        color: $color-font-primary
+        padding: $m-xs
+
+        path
+            fill: $color-primary-500 !important
+
+    &__text
+        display: inline-block
+        font-size: $font-size-xxs
+        font-weight: $font-weight-medium
+        margin-left: $m-xs * 0.5
+        overflow: hidden
+        text-overflow: ellipsis
+        white-space: nowrap
+
+    &__more-items
+        +button-unstyled
+        border-radius: $border-radius-sm
+        color: $color-primary-500
+        cursor: pointer
+        font-weight: $font-weight-medium
+        justify-self: start
+        min-width: 40px
+        padding: $m-xs
+        white-space: nowrap
+
+        &:hover
+            background-color: $color-background
+            transition: all $transition-duration * 0.5 $transition-function
+
+    &__edit-button
+        color: $color-primary-500
+
+    &__delete-button
+        &#{&} // strengthen selector
+            background-color: $color-danger-100
+            height: $m-md
+            margin-left: $m-base * 0.5
+            min-height: $m-md
+            min-width: $m-md
+            width: $m-md
+
+            path
+                fill: $color-danger-500
+
+            &:hover
+                background-color: darken($color-secondary-200, 5%)
+
+            &:disabled
+                background-color: $color-background
+
+                path
+                    fill: $color-font-secondary
+
+// src/components/Student/Portfolio/Projects/Modal/Modal.jsx
+.portfolio-project-modal
+    +media-breakpoint-up(sm)
+        padding: $m-xs
+        width: 500px
+
+    &__header
+        +flex-container(row, space-between, center)
+        margin-bottom: $m-sm
+
+    &__heading
+        color: $color-font-primary
+        font-size: $font-size-2lg
+        font-weight: $font-weight-medium
+        margin: 0
+
+    &__close-btn
+        +modal-close-button
+        margin-left: $m-base
+
+    &__file-list
+        margin: 0
+
+    &__file
+        +flex-container(row, space-between, center)
+        color: $color-primary-500
+        fill: $color-primary-500
+        font-size: $font-size-xs
+        font-weight: $font-weight-bold
+        padding: $m-sm 0
+
+        &:not(:last-of-type)
+            border-bottom: 1px solid $color-border
+
+        path
+            fill: $color-primary-500
+
+    &__link
+        +flex-container(row, flex-start, center)
+        +link-unstyled
+        cursor: pointer
+        flex: 1
+
+    &__file-text
+        display: inline-block
+        margin: 0 $m-sm
+        max-width: 150px
+
+        +media-breakpoint-up(sm)
+            max-width: 350px
+
+// src/components/Student/Portfolio/PortfolioStudentInfo/PortfolioStudentInfo.jsx
+.portfolio-student-info
+    +flex-container(column, flex-start, center)
+    color: $color-font-primary
+    height: fit-content
+    padding: $m-base
+    text-align: center
+
+    &__heading
+        font-size: $font-size-sm
+        margin: $m-sm 0 $m-xs
+
+    &__avatar
+        width: 80px
+        height: 80px
+
+        .avatar__image
+            width: 80px !important
+            height: 80px !important
+
+    &__description
+        line-height: $line-height-base
+        margin: 0
+
+// src/components/User/Student/PortfolioCard/PortfolioCard.jsx
+.student-portfolio-card
+    color: $color-font-primary
+    text-align: center
+
+    &__heading
+        font-size: $font-size-base
+        margin: 0
+
+    &__description
+        line-height: $line-height-base
+        margin: $m-sm 0
+
+    &__button
+        margin: 0
+
+        .button__text
+            font-weight: $font-weight-medium
+
+// src/screens/UserApp/StudentPortfolio
+.portfolio
+    &__showcase
+        display: grid
+        gap: $m-md
+        grid-template-columns: 3fr 1fr
+
+    &__plan
+        &__description
+            color: $color-font-primary
+            font-size: $font-size-base
+            margin-bottom: $m-base
+
+        &__evaluate-info
+            +flex-container(row, center, center)
+            background-color: $color-secondary-200
+            border-radius: $border-radius-sm
+            color: $color-secondary-500
+            gap: $m-xs
+            font-size: $font-size-sm
+            margin-top: $m-sm
+            padding: $m-base
+
+    .tabs
+        padding: 0
+
+        &__tab
+            max-width: 240px
+            overflow: hidden
+            text-overflow: ellipsis
+            white-space: nowrap
+
+// src/components/Onboarding/Assessment/Navigation/QuitModal/QuitModal.jsx
+// src/components/Student/Course/GradingModalHeader/UnenrollModal/UnenrollModal.jsx
+// src/components/User/Student/CurrentCourses/PortfolioProjectsCard/UnassignModal/UnassignModal.jsx
+.course-unenroll-modal
+    &__heading
+        font-size: $font-size-2lg
+        margin: 0
+
+    &__description
+        color: $color-font-secondary
+        margin: 0
+
+    &__button
+        margin-left: $m-base
+
+// components/Admin/Entity
+.admin-entity-wrapper
+    color: $color-font-primary
+
+    &__header
+        font-size: $font-size-2lg
+
+.admin-entity
+    background-color: $color-white
+    border-radius: $border-radius-sm
+    padding: $m-sm
+
+    &__header
+        font-size: $font-size-base
+
+    &__plans-list
+        color: $color-primary-500
+
+        &__item
+            +flex-container(row, space-between, center)
+            display: flex
+            padding: $m-xs
+
+            &:hover
+                background-color: $color-background
+                cursor: pointer
+
+            svg
+                fill: $color-danger-500
+
+        &__assign-button
+            margin-left: auto
+            width: 10%
+
+    &__plans-modal
+        &__group
+            border: solid 1px $color-border
+            border-radius: $border-radius-sm
+            margin-bottom: $m-sm
+            padding: $m-xs
+
+        &__statement
+            margin-left: $m-sm
+
+    &__settings
+        &__setting
+            +flex-container(row, space-between, center)
+            width: 50%
+
+        &__switch
+            margin-bottom: $m-sm
+
+    &__settings-modal
+        &__info
+            color: $color-primary-500
+            display: block
+            font-size: $font-size-base
+            margin-bottom: $m-sm
+
+        &__value
+            font-weight: $font-weight-bold
+
+        &__warning
+            color: $color-danger-500
+            font-size: $font-size-xxs
+            margin: $m-xs 0 0
+            visibility: hidden
+
+            &.-visible
+                visibility: visible
+
+        &__checkbox-wrapper
+            +flex-container(column)
+            gap: $m-sm
+
+// components/AdminApp/Entities
+.entities
+    color: $color-primary-500
+
+    &__filter
+        margin-bottom: $m-sm
+
+        &__search-input
+            padding: $m-sm
+
+    &__item
+        &__name
+            +cleared-button()
+            color: $color-primary-500
+            cursor: pointer
+
+// src/components/Admin/Navigation/Navigation.tsx
+.admin-nav-divider
+    +flex-container(row, flex-start, center)
+    color: $color-disabled
+    font-weight: $font-weight-medium
+    padding: 0 $m-sm
+
+    &.-small
+        .admin-nav-divider__text
+            flex: 100%
+
+    &__text
+        margin-right: $m-sm
+
+    &__line
+        background-color: lighten($color-disabled, 8%)
+        border: 0
+        flex: 1
+        height: 1px
+
+// Shared admin form styles
+.admin-form
+    border-radius: $border-radius-base
+    border: solid 1px $color-primary-500
+    margin: $m-md 0
+    padding: $m-md
+
+    &__heading
+        text-transform: capitalize
+
+    &__details-container
+        +flex-container(row)
+        gap: $m-lg
+
+    .presentation-actions
+        +flex-container(row, flex-start, center)
+
+        .button
+            margin-right: $m-base
+
+    &__details-text-inputs
+        +flex-container(column, flex-start)
+        gap: $m-xs
+        width: 100%
+        z-index: $z-lower
+
+        &.-no-image-input
+            margin: 0
+
+    &__buttons
+        display: grid
+        grid-auto-flow: column
+        gap: $m-lg
+
+    &__inputs-row
+        display: grid
+        grid-auto-flow: column
+        gap: $m-lg
+        position: relative
+        z-index: $z-lower
+        margin-bottom: $m-sm
+
+        &.-small
+            gap: $m-base
+            width: 300px
+
+        &.-selects
+            grid-template-columns: 1fr 1fr
+
+    &__details-checkbox
+        background-color: $color-white
+        border-radius: $border-radius-sm
+        padding: $m-sm
+
+    &__details-lists
+        display: grid
+        gap: $m-base
+        grid-template-columns: repeat(2, 1fr)

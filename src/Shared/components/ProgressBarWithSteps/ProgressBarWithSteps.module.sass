@@ -1,0 +1,24 @@
+@import '@shared/stylesheets/config.sass'
+
+$progress-bar-height: $m-x
+$progress-bar-height-xxxl: $m-sm
+
+.stepsWrapper
+  +flex-container(row)
+  height: $progress-bar-height
+  border-radius: $m-xs
+  overflow: hidden
+  gap: $m-xxxs
+
+  +media-breakpoint-up(xxxl)
+    height: $progress-bar-height-xxxl
+
+.step
+  background-color: $color-neutral-300
+  flex: 1
+
+.required
+  background-color: $color-primary-300
+
+.completed
+  background-color: $color-primary-500

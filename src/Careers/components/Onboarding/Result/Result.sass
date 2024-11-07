@@ -1,0 +1,384 @@
+@import '@shared/stylesheets/config'
+
+//src/components/Onboarding/Result/Result.jsx
+.assessment-result
+    background-color: $color-background
+    min-height: 100vh
+
+    &__pathway-options-wrapper
+        background-color: $color-white
+
+    &__courses
+        padding-top: $m-sm
+
+        +media-breakpoint-up(sm)
+            padding-top: $m-base
+
+    .assessment__navbar-button
+        font-size: $font-size-sm
+        height: $m-lg
+        margin: 0
+        width: fit-content
+
+// src/components/Onboarding/Result/CourseModal/CourseModal.jsx
+.assessment-result-course-modal
+    display: flex
+    flex-direction: column
+    height: 95vh
+    width: 90vw
+
+    +media-breakpoint-up(sm)
+        height: 90vh
+        width: 70vw
+
+    +media-breakpoint-up(lg)
+        width: 600px
+
+    &__image-container
+        overflow: hidden
+        height: 300px
+        +media-breakpoint-down(xl)
+            height: 250px
+
+    &__image
+        height: 100%
+        width: 100%
+        object-fit: cover
+
+    &__scroll
+        overflow-y: auto
+
+    &__content
+        display: flex
+        flex-direction: column
+        flex: 1 0 50%
+        justify-content: space-between
+        padding: $m-sm
+
+        +media-breakpoint-up(sm)
+            padding: $m-base
+
+        +media-breakpoint-up(md)
+            padding: $m-md
+
+    &__title
+        color: $color-font-primary
+        font-size: $font-size-lg
+        margin-top: 0
+
+        +media-breakpoint-up(sm)
+            font-size: $font-size-xl
+
+        +media-breakpoint-up(md)
+            font-size: $font-size-xl
+
+    &__text
+        color: $color-font-secondary
+        font-size: $font-size-xs
+
+        +media-breakpoint-up(md)
+            font-size: $font-size-sm
+
+    &__sub-title
+        color: $color-font-primary
+        font-size: $font-size-sm
+        margin: $m-base 0 $m-xs 0
+
+        +media-breakpoint-up(md)
+            font-size: $font-size-base
+
+    &__buttons
+        margin-top: $m-base
+        display: grid
+        grid-auto-flow: row
+        grid-gap: $m-sm
+
+        +media-breakpoint-up(md)
+            grid-auto-columns: 1fr
+            grid-auto-flow: column
+
+// src/components/Onboarding/Result/PathwayCard/PathwayCard.jsx
+.pathway-card
+    +flex-container(column)
+    background-color: $color-white
+    border-radius: $border-radius-s
+    color: $color-font-primary
+    cursor: pointer
+    min-height: 400px
+    text-align: left
+    transition: transform 0.2s
+    width: 100%
+
+    &__cluster-info
+        color: $color-font-primary
+        margin-bottom: $m-sm
+
+        +media-breakpoint-up(md)
+            margin-bottom: $m-md
+
+    &__content
+        +flex-container(column)
+        height: 100%
+        padding: $m-sm
+
+    &__description
+        color: $color-font-secondary
+        margin-bottom: $m-sm
+
+        +media-breakpoint-up(md)
+            margin-bottom: $m-md
+
+    &__photo-container
+        background-position: center center
+        background-size: cover
+        border-radius: $border-radius-s $border-radius-s 0 0
+        flex: 1 0 40%
+
+    &__photo
+        height: 100%
+        max-width: 100%
+        width: 100%
+
+    &__selected-label
+        background-color: $color-primary-500
+        border-radius: 100%
+        border: 3px solid $color-white
+        display: none
+        fill: $color-white
+        height: $selected-pathway-card-label-size
+        position: absolute
+        right: 0
+        transform: translate(-10%, 10%)
+        width: $selected-pathway-card-label-size
+
+        +media-breakpoint-up(md)
+            border: none
+            transform: translate(50%, -50%)
+
+        svg
+            fill: $color-white
+            height: 50%
+            width: 50%
+
+    &__select-button
+        color: $color-primary-500
+        cursor: pointer
+        display: flex
+        font-weight: $font-weight-bold
+        margin-top: auto
+
+        svg
+            fill: $color-primary-500
+
+    &__title
+        font-size: $font-size-lg
+        margin: 0 0 $m-sm
+        text-align: left
+        word-wrap: break-word
+
+    &:hover
+        transform: scale(1.1, 1.1)
+        transition: transform 0.3s
+
+    &.-selected
+        box-shadow: 0px 10px 20px #00599460
+        position: relative
+
+        .pathway-card__selected-label
+            display: grid
+            place-items: center
+
+// src/components/Onboarding/Resut/IntroSection/IntroSection.jsx
+.assessment-result-intro
+    color: $color-font-primary
+
+    margin: 0 auto
+    max-width: 1200px
+    padding: $m-sm
+
+    +media-breakpoint-up(md)
+        +flex-container(row, center, center)
+        padding: 120px $m-base
+
+    &__title
+        font-family: $font-family-header
+        font-size: $font-size-2xl
+
+    &__secondary-text
+        font-size: $font-size-base
+        margin-bottom: $m-md
+        line-height: 1.3
+
+    &__description
+        color: $color-font-secondary
+        margin-bottom: $m-lg
+        line-height: 1.3
+
+    &__actions
+
+        +media-breakpoint-up(sm)
+            +flex-container(row, flex-start, center)
+
+    &__button
+        flex-basis: 100%
+
+        +media-breakpoint-up(md)
+            width: fit-content
+
+        &.-outlined
+            border-color: $color-font-primary
+            color: $color-font-primary
+            font-weight: $font-weight-medium !important
+
+        &:first-of-type
+            margin-right: $m-md
+
+    &__text-wrapper
+
+        +media-breakpoint-up(md)
+            flex-basis: 50%
+            margin-right: $m-md
+
+    &__illustration-wrapper
+        padding: $m-md
+
+        +media-breakpoint-up(md)
+            flex-basis: 50%
+            padding: 0
+
+    &__img
+        max-width: 100%
+
+// src/components/Onboarding/Result/ComponentResult/ComponentResult.jsx
+.assessment-component-result
+    background-color: $color-white
+    border-top-left-radius: 100px
+    border-top-right-radius: 100px
+
+
+    +media-breakpoint-up(md)
+        border-top-left-radius: 200px
+        border-top-right-radius: 200px
+
+    +media-breakpoint-up(lg)
+        border-top-left-radius: 430px
+        border-top-right-radius: 430px
+
+    &__content-wrapper
+        margin: 0 auto
+        max-width: 1200px
+        padding: $m-lg $m-sm
+        padding: 60px $m-sm
+        text-align: center
+
+        +media-breakpoint-up(md)
+            padding: 120px $m-base
+
+    &__title
+        color: $color-font-primary
+        font-family: $font-family-header
+        font-size: $font-size-2xl
+
+        margin-top: 0
+
+    &__description
+        color: $color-font-secondary
+        line-height: $line-height-base
+        margin: 0 auto $m-lg
+        max-width: 600px
+        min-width: 80%
+
+    &__components-wrapper
+        +flex-container(column, center, stretch)
+
+        +media-breakpoint-up(md)
+            +flex-container(row, center, stretch)
+
+// src/components/Onboarding/Result/ComponentResult/ComponentItem/ComponentItem.jsx
+.assessment-result-component-item
+    +flex-container(column, space-between, center)
+    flex: 1 0 300px
+    margin-bottom: $m-lg
+
+    +media-breakpoint-up(md)
+        flex: 0 1 300px
+        margin-bottom: 0
+        margin-right: $m-md
+
+        &:last-of-type
+            margin-right: 0
+
+    &__name
+        color: $color-font-primary
+        font-family: $font-family-header
+        font-size: $font-size-2xl
+        margin: $m-lg 0
+
+    &__link-button-wrapper
+        align-self: stretch
+        margin-top: auto
+
+        +media-breakpoint-up(sm)
+            align-self: center
+
+    &__link-button
+        margin-bottom: 0
+
+//src/components/Onboarding/Result/PathwayOptions/PathwayOptions.jsx
+.pathway-options
+    background-color: $color-background
+    border-top-left-radius: 100px
+    border-top-right-radius: 100px
+
+    text-align: center
+
+    +media-breakpoint-up(md)
+        border-top-left-radius: 200px
+        border-top-right-radius: 200px
+
+    +media-breakpoint-up(lg)
+        border-top-left-radius: 430px
+        border-top-right-radius: 430px
+
+    &__content-wrapper
+        margin: 0 auto
+        max-width: 1200px
+        padding: $m-lg $m-sm
+        padding: 60px $m-sm
+        text-align: center
+
+        +media-breakpoint-up(md)
+            padding: 120px $m-base 60px
+
+    &__title
+        color: $color-font-primary
+        font-family: $font-family-header
+        font-size: $font-size-2xl
+
+    &__description
+        color: $color-font-secondary
+        line-height: $line-height-base
+        margin: 0 auto $m-lg
+        max-width: 600px
+        min-width: 80%
+
+    &__cards
+        align-content: stretch
+        display: grid
+        grid-gap: $m-lg
+        justify-content: center
+
+        +media-breakpoint-up(md)
+            grid-gap: $m-md
+            grid-template-columns: 1fr 1fr
+
+        +media-breakpoint-up(xl)
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
+
+    &__other-pathways-link
+        color: $color-primary-500
+        display: block
+        font-size: $font-size-lg
+        margin: $m-md auto
+        text-align: center
+        text-decoration: none

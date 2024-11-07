@@ -1,0 +1,43 @@
+@import '@shared/stylesheets/config.sass'
+
+.contextualPanel
+  +flex-container(column)
+  max-height: calc(100vh - #{$desktop-header-height})
+  overflow: auto
+  width: 100%
+
+.panelHeader
+  +flex-container(row, space-between, center)
+  border-bottom: 1px solid $color-background
+  color: $color-neutral-700
+  padding: 0 $m-base
+  flex: 0 0 80px
+  text-align: center
+
+  :global(.button)
+    +media-breakpoint-down(xl)
+      padding: $m-xxs $m-xs
+      font-size: $font-size-xs
+
+  +media-breakpoint-up(xxl)
+    padding: 0 $m-md
+    flex: 0 0 95px
+
+.panelHeaderLeft
+  +flex-container(row, false, center)
+
+.panelList
+  overflow: auto
+  margin: 0
+
+.titleWrapper
+  margin-left: $m-xs
+
+.title
+  font-size: $font-size-sm
+  font-weight: $font-weight-medium
+  margin: 0
+
+.historyButton
+  +flex-container(row, false, center)
+  gap: $m-xs

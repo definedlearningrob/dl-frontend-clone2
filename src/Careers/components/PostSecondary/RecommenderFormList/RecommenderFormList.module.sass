@@ -1,0 +1,42 @@
+@import '@shared/stylesheets/config.sass'
+
+.applicationTable
+  border: 1px solid $color-border
+  border-radius: $m-xs
+  margin-bottom: $m-base
+
+.actionContainer
+  +flex-container(row)
+  padding: $m-sm
+
+.actionName
+  flex: 0 1 100%
+
+.statusColumn
+  +flex-container(row, false, center)
+  flex: 1 0 auto
+
+.badgeWrapper
+  margin-right: 0
+
+.inProgress
+  color: $color-secondary-500
+  background-color: $color-secondary-200
+
+.completed
+  color: $color-success-500
+  background-color: $color-success-100
+
+.isRotated svg
+  transform: rotate(180deg)
+
+.tableColumn,
+.tableColumnHead
+  padding-left: 0
+
+.tableColumn
+  padding-top: $m-sm
+  padding-bottom: $m-sm
+  font-size: $font-size-xs
+  line-height: $line-height-lg
+

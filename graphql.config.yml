@@ -1,0 +1,19 @@
+projects:
+  DC_Users:
+    schema:
+      - http://localhost:4000/api/users/introspect
+  DC_Students:
+    schema:
+      - http://localhost:4000/api/students/introspect
+  DC_Public:
+    schema:
+      - http://localhost:4000/api/learning/public/introspect
+  DL_Users:
+    schema:
+      - http://localhost:4000/api/learning/users/introspect
+  DL_Students:
+    schema:
+      - http://localhost:4000/api/learning/students/introspect
+  DL_Public:
+    schema:
+      - http://localhost:4000/api/learning/public/introspect

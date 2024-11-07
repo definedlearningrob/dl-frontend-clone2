@@ -1,0 +1,974 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssignmentGrading should render correctly with submission 1`] = `
+<div>
+  <div
+    class="h-full flex flex-col"
+  >
+    <div
+      class="group/statement relative px-sm py-xs xxxl:p-base xxxl:py-sm bg-white rounded-sm transition-all cursor-pointer border border-neutral-300 mb-xs hover:bg-neutral-200 hover:border-neutral-400"
+    >
+      <h3
+        class="text-sm flex items-center justify-between mb-0"
+      >
+        Assignment name
+        <button
+          class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md"
+          data-testid="icon-button"
+          type="button"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+        </button>
+      </h3>
+    </div>
+    <div
+      class="group/statement relative px-sm py-xs xxxl:p-base xxxl:py-sm bg-white rounded-sm transition-all cursor-pointer border mb-xs border-primary-500 mb-sm xxxl:mb-x pb-base xxxl:pb-md"
+    >
+      <h3
+        class="text-sm flex items-center justify-between mb-0"
+      >
+        Files
+        <button
+          class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md"
+          data-testid="icon-button"
+          type="button"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+        </button>
+      </h3>
+      <ul
+        class="mb-base"
+      >
+        <li
+          class="user-student__courses-activity-modal__assignment-file-item"
+          data-testid="submission-file-item"
+        >
+          <a
+            href="url"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="icon -sm-size"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+            <span
+              class="user-student__courses-activity-modal__assignment-file-name"
+            >
+              filename
+            </span>
+          </a>
+          <div
+            class="user-student__courses-activity-modal__assignment-file-buttons"
+          >
+            <a
+              href="previewUrl"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                class="icon -sm-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </a>
+            <a
+              download="filename"
+              href="attachmentUrl"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                class="icon -sm-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </a>
+          </div>
+        </li>
+        <li
+          class="user-student__courses-activity-modal__assignment-file-item"
+          data-testid="submission-file-item"
+        >
+          <a
+            href="url2"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="icon -sm-size"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+            <span
+              class="user-student__courses-activity-modal__assignment-file-name"
+            >
+              filename 2
+            </span>
+          </a>
+          <div
+            class="user-student__courses-activity-modal__assignment-file-buttons"
+          >
+            <a
+              href="previewUrl2"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                class="icon -sm-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </a>
+            <a
+              download="filename 2"
+              href="attachmentUrl2"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                class="icon -sm-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="overflow-x-auto w-full"
+    >
+      <table
+        class="bg-white border-separate border-spacing-0 rounded-xs w-full table-fixed"
+        data-testid="rubric-table-builder"
+      >
+        <thead>
+          <tr>
+            <th
+              class="border border-neutral-300 p-xs xxxl:p-x text-left text-xs font-bold bg-neutral-200 w-[160px]"
+              data-testid="rubrics-reserved-cell"
+            >
+              Levels
+            </th>
+            <th
+              class="border border-neutral-300 p-xs xxxl:p-x text-xs font-bold bg-neutral-200"
+              data-testid="rubric-criteria-label"
+            >
+              <div
+                class="flex flex-col"
+              >
+                <span
+                  data-testid="rubric-criteria-label-score"
+                >
+                  1
+                </span>
+                <span
+                  data-state="closed"
+                >
+                  <div
+                    class="line-clamp-2 xxxl:line-clamp-3"
+                    data-testid="rubric-criteria-label-text"
+                  >
+                    test label
+                  </div>
+                </span>
+              </div>
+            </th>
+            <th
+              class="border border-neutral-300 p-xs xxxl:p-x text-xs font-bold bg-neutral-200"
+              data-testid="rubric-criteria-label"
+            >
+              <div
+                class="flex flex-col"
+              >
+                <span
+                  data-testid="rubric-criteria-label-score"
+                >
+                  2
+                </span>
+              </div>
+            </th>
+            <th
+              class="border border-neutral-300 p-xs xxxl:p-x text-xs font-bold bg-neutral-200"
+              data-testid="rubric-criteria-label"
+            >
+              <div
+                class="flex flex-col"
+              >
+                <span
+                  data-testid="rubric-criteria-label-score"
+                >
+                  3
+                </span>
+              </div>
+            </th>
+            <th
+              class="border border-neutral-300 p-xs xxxl:p-x text-xs font-bold bg-neutral-200"
+              data-testid="rubric-criteria-label"
+            >
+              <div
+                class="flex flex-col"
+              >
+                <span
+                  data-testid="rubric-criteria-label-score"
+                >
+                  4
+                </span>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td
+              class="border border-neutral-300 p-xs xxxl:p-x"
+              data-testid="rubric-heading"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="text-xs xxxl:text-sm font-bold text-neutral-800 mb-xs line-clamp-4"
+                  data-testid="rubric-heading-text"
+                >
+                  rubric.careerPathway.name
+                </div>
+              </span>
+              <span
+                class="leading-lg text-xxs xxxl:text-xs me-xxs"
+              >
+                Multiplier:
+              </span>
+              <span
+                class="text-neutral-800 leading-lg text-xxs xxxl:text-xs px-xxs border border-neutral-300 min-w-fit rounded-xs"
+                data-testid="rubric-heading-multiplier"
+              >
+                x1
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.careerPathway.1
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.careerPathway.2
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.careerPathway.3
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.careerPathway.4
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="border border-neutral-300 p-xs xxxl:p-x"
+              data-testid="rubric-heading"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="text-xs xxxl:text-sm font-bold text-neutral-800 mb-xs line-clamp-4"
+                  data-testid="rubric-heading-text"
+                >
+                  rubric.projectGoal.name
+                </div>
+              </span>
+              <span
+                class="leading-lg text-xxs xxxl:text-xs me-xxs"
+              >
+                Multiplier:
+              </span>
+              <span
+                class="text-neutral-800 leading-lg text-xxs xxxl:text-xs px-xxs border border-neutral-300 min-w-fit rounded-xs"
+                data-testid="rubric-heading-multiplier"
+              >
+                x1
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.projectGoal.1
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.projectGoal.2
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.projectGoal.3
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.projectGoal.4
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="border border-neutral-300 p-xs xxxl:p-x"
+              data-testid="rubric-heading"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="text-xs xxxl:text-sm font-bold text-neutral-800 mb-xs line-clamp-4"
+                  data-testid="rubric-heading-text"
+                >
+                  rubric.projectRole.name
+                </div>
+              </span>
+              <span
+                class="leading-lg text-xxs xxxl:text-xs me-xxs"
+              >
+                Multiplier:
+              </span>
+              <span
+                class="text-neutral-800 leading-lg text-xxs xxxl:text-xs px-xxs border border-neutral-300 min-w-fit rounded-xs"
+                data-testid="rubric-heading-multiplier"
+              >
+                x1
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.projectRole.1
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.projectRole.2
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.projectRole.3
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.projectRole.4
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="border border-neutral-300 p-xs xxxl:p-x"
+              data-testid="rubric-heading"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="text-xs xxxl:text-sm font-bold text-neutral-800 mb-xs line-clamp-4"
+                  data-testid="rubric-heading-text"
+                >
+                  rubric.jobProductQuality.name
+                </div>
+              </span>
+              <span
+                class="leading-lg text-xxs xxxl:text-xs me-xxs"
+              >
+                Multiplier:
+              </span>
+              <span
+                class="text-neutral-800 leading-lg text-xxs xxxl:text-xs px-xxs border border-neutral-300 min-w-fit rounded-xs"
+                data-testid="rubric-heading-multiplier"
+              >
+                x1
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.jobProductQuality.1
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.jobProductQuality.2
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.jobProductQuality.3
+              </span>
+            </td>
+            <td
+              class="group/criteria border border-neutral-300 p-xs xxxl:p-x align-top leading-lg focus:border focus:border-primary-500 hover:bg-neutral-200"
+              data-testid="rubric-criteria"
+              role="button"
+              tabindex="1"
+            >
+              <div
+                class="flex justify-between items-center mb-xs xxxl:mb-x relative"
+              >
+                <label
+                  class="radioLabel"
+                >
+                  <input
+                    class="radioInput"
+                    readonly=""
+                    tabindex="1"
+                    type="radio"
+                    value=""
+                  />
+                  <div
+                    class="radioSpan"
+                  >
+                    <span
+                      class="labelWrapper"
+                    />
+                  </div>
+                </label>
+              </div>
+              <span
+                class="text-xxs xxxl:text-xs tracking-[0.12px] text-neutral-700"
+                data-testid="rubric-criteria-text"
+              >
+                rubric.jobProductQuality.4
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div
+        class="pt-md basis-full"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AssignmentGrading should render correctly without submission 1`] = `
+<div>
+  <div
+    class="h-full flex flex-col"
+  >
+    <div
+      class="group/statement relative px-sm py-xs xxxl:p-base xxxl:py-sm bg-white rounded-sm transition-all cursor-pointer border border-neutral-300 mb-xs hover:bg-neutral-200 hover:border-neutral-400"
+    >
+      <h3
+        class="text-sm flex items-center justify-between mb-0"
+      >
+        Assignment name
+        <button
+          class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md"
+          data-testid="icon-button"
+          type="button"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+        </button>
+      </h3>
+    </div>
+    <div
+      class="text-secondary-500 p-sm text-center my-auto border"
+      data-testid="unsubmitted-input"
+    >
+      Student has not submitted any files yet.
+    </div>
+  </div>
+</div>
+`;

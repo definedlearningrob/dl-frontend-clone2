@@ -1,0 +1,14 @@
+@import '@shared/stylesheets/config.sass'
+
+.list
+  +flex-container(column)
+  gap: $m-xxs
+  border-radius: $border-radius-sm
+  &#{&}
+    margin: 0
+    padding: $m-xxs 0
+
+.loader
+  +flex-container(row, center, center)
+  margin-top: $m-sm
+  width: 100%

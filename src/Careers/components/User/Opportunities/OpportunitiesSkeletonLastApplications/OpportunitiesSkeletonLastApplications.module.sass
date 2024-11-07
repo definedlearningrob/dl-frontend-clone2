@@ -1,0 +1,26 @@
+@import '@shared/stylesheets/config.sass'
+
+$skeleton-height: 40px
+
+.wrapper
+  +flex-container(row, center, center)
+  gap: $m-sm
+  margin-bottom: $m-md
+
+.rectangleHead
+  flex: 0 0 15%
+  height: $skeleton-height
+
+  +media-breakpoint-up(xxxl)
+    flex: 0 0 10%
+
+.rectangleBody
+  flex: 0 1 60%
+  height: $skeleton-height
+
+.rectangleFooter
+  align-self: flex-start
+  flex: 1 1 12%
+  border-radius: $border-radius-sm
+
+

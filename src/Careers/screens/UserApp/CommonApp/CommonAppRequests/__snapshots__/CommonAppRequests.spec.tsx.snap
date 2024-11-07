@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommonAppRequest counselor and teacher profile forms should render skeletons when has only RecommenderInvitation 1`] = `
+<div>
+  <div
+    class="p-base pt-xs xxxl:p-md xxxl:pt-sm container"
+    id="read"
+  >
+    <div
+      class="card contentCard m-base"
+    >
+      <div
+        class="flex flex-col"
+      >
+        <div
+          class="flex mb-base justify-center"
+        >
+          <img
+            src="SvgrURL"
+          />
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <div
+            class="flex w-full justify-center pb-base"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-sm height-extra-small width-lg darker animated"
+            />
+          </div>
+          <div
+            class="flex w-full justify-center pb-base"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-sm height-extra-small width-lg darker animated"
+            />
+          </div>
+          <div
+            class="flex basis-1/2 justify-center"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-sm height-big width-lg darker animated"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

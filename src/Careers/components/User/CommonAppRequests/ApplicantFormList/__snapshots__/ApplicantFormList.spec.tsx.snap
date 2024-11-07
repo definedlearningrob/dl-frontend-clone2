@@ -1,0 +1,498 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApplicantFormList renders correctly 1`] = `
+<div>
+  <div
+    class="shared-table emptyTableWrapper"
+  >
+    <table
+      class="shared-table__table table"
+    >
+      <thead
+        class="shared-table__head shared-table__head-cols-5"
+      >
+        <tr
+          class="shared-table__row shared-table__row-0"
+        >
+          <th
+            class="shared-table__column -header-cell shared-table__column-1 tableHeadCell flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+          >
+            Form name
+          </th>
+          <th
+            class="shared-table__column -header-cell shared-table__column-2 tableHeadCell flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+          >
+            Type
+          </th>
+          <th
+            class="shared-table__column -header-cell shared-table__column-3 tableHeadCell flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+          >
+            Status
+          </th>
+          <th
+            class="shared-table__column -header-cell shared-table__column-4 tableHeadCell flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+          >
+            Deadline
+          </th>
+          <th
+            class="shared-table__column -header-cell shared-table__column-5 tableHeadCell flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+          />
+        </tr>
+      </thead>
+      <tbody
+        class="shared-table__body shared-table__body-cols-5"
+      >
+        <tr
+          class="shared-table__row shared-table__row-1 group/row tableRow"
+          data-testid="list-item"
+        >
+          <td
+            class="shared-table__column shared-table__column-1 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div>
+              <div
+                class="formName"
+              >
+                Counselor secondary report
+              </div>
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-2 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div
+              class="recommenderType"
+            >
+              Counselor
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-3 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div
+              class="font-medium leading-lg flex items-center bg-neutral-200 text-font-secondary rounded-sm p-xxs text-xs gap-xxs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex gap-xxs items-center text-font-secondary"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span>
+                    Locked
+                  </span>
+                </div>
+              </span>
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-4 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <span>
+              N/A
+            </span>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-5 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          />
+        </tr>
+        <tr
+          class="shared-table__row shared-table__row-2 group/row tableRow"
+          data-testid="list-item"
+        >
+          <td
+            class="shared-table__column shared-table__column-1 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div>
+              <div
+                class="formName"
+              >
+                Counselor optional report
+              </div>
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-2 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div
+              class="recommenderType"
+            >
+              Counselor
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-3 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div
+              class="font-medium leading-lg flex items-center bg-neutral-200 text-font-secondary rounded-sm p-xxs text-xs gap-xxs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex gap-xxs items-center text-font-secondary"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span>
+                    Locked
+                  </span>
+                </div>
+              </span>
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-4 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <span>
+              N/A
+            </span>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-5 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          />
+        </tr>
+        <tr
+          class="shared-table__row shared-table__row-3 group/row tableRow"
+          data-testid="list-item"
+        >
+          <td
+            class="shared-table__column shared-table__column-1 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div>
+              <div
+                class="kicker sm secondary before:left-0 before:top-0 before:absolute before:h-full before:w-[2px] before:bg-secondary-500 before:inline-block"
+              >
+                Deadline
+              </div>
+              <div
+                class="formName"
+              >
+                Counselor optional report 2
+              </div>
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-2 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div
+              class="recommenderType"
+            >
+              Counselor
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-3 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div
+              class="font-medium leading-lg flex items-center bg-neutral-200 text-font-secondary rounded-sm p-xxs text-xs gap-xxs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex gap-xxs items-center text-font-secondary"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span>
+                    Locked
+                  </span>
+                </div>
+              </span>
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-4 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <span
+              data-state="closed"
+            >
+              <span>
+                Nov 1, 2023
+              </span>
+            </span>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-5 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          />
+        </tr>
+        <tr
+          class="shared-table__row shared-table__row-4 group/row tableRow"
+          data-testid="list-item"
+        >
+          <td
+            class="shared-table__column shared-table__column-1 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div>
+              <div
+                class="kicker sm secondary before:left-0 before:top-0 before:absolute before:h-full before:w-[2px] before:bg-secondary-500 before:inline-block"
+              >
+                Deadline
+              </div>
+              <div
+                class="formName"
+              >
+                Counselor midyear report
+              </div>
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-2 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div
+              class="recommenderType"
+            >
+              Counselor
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-3 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div
+              class="font-medium leading-lg flex items-center bg-neutral-200 text-font-secondary rounded-sm p-xxs text-xs gap-xxs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex gap-xxs items-center text-font-secondary"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span>
+                    Locked
+                  </span>
+                </div>
+              </span>
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-4 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <span
+              data-state="closed"
+            >
+              <span>
+                Nov 2, 2023
+              </span>
+            </span>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-5 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          />
+        </tr>
+        <tr
+          class="shared-table__row shared-table__row-5 group/row tableRow"
+          data-testid="list-item"
+        >
+          <td
+            class="shared-table__column shared-table__column-1 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div>
+              <div
+                class="formName"
+              >
+                Counselor final report
+              </div>
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-2 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div
+              class="recommenderType"
+            >
+              Counselor
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-3 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div
+              class="font-medium leading-lg flex items-center bg-neutral-200 text-font-secondary rounded-sm p-xxs text-xs gap-xxs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex gap-xxs items-center text-font-secondary"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span>
+                    Locked
+                  </span>
+                </div>
+              </span>
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-4 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <span>
+              N/A
+            </span>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-5 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          />
+        </tr>
+        <tr
+          class="shared-table__row shared-table__row-6 group/row tableRow"
+          data-testid="list-item"
+        >
+          <td
+            class="shared-table__column shared-table__column-1 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div>
+              <div
+                class="formName"
+              >
+                Counselor recommendation
+              </div>
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-2 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div
+              class="recommenderType"
+            >
+              Counselor
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-3 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <div
+              class="font-medium leading-lg flex items-center bg-neutral-200 text-font-secondary rounded-sm p-xxs text-xs gap-xxs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex gap-xxs items-center text-font-secondary"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span>
+                    Locked
+                  </span>
+                </div>
+              </span>
+            </div>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-4 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          >
+            <span>
+              N/A
+            </span>
+          </td>
+          <td
+            class="shared-table__column shared-table__column-5 flex items-center relative !px-xs xxxl:!px-x first:!pl-base xxxl:first:!pl-md last:!pr-base !py-sm text-xs cursor-pointer"
+            data-testid="shared-table-column"
+          />
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div
+    class="emptyFormsMessage"
+  >
+    There are no forms
+  </div>
+</div>
+`;

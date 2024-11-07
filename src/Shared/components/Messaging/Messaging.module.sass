@@ -1,0 +1,17 @@
+@import '@shared/stylesheets/config.sass'
+
+$summed-vertical-padding-lg: 2 * $m-base
+$summed-vertical-padding-xxxl: 2 * $m-md
+
+.messages
+  background-color: $color-background
+  height: calc(100vh - #{$desktop-header-height} - #{$summed-vertical-padding-lg})
+
+  +media-breakpoint-up(xxxl)
+    height: calc(100vh - #{$desktop-header-height} - #{$summed-vertical-padding-xxxl})
+
+.messagesContent
+  +flex-container(row)
+  background: $color-white
+  border-radius: $border-radius-sm
+  height: 100%

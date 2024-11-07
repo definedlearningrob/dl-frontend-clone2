@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApplicationDetails should render correctly 1`] = `
+<div>
+  <div
+    class="flex flex-col h-full"
+  >
+    <div
+      class="details"
+    >
+      <div>
+        <h5
+          class="text-neutral-800 text-xs font-bold mb-xs leading-base xxxl:text-sm"
+        >
+          Why you want to test this?
+        </h5>
+        <p
+          class="text-neutral-700 text-xxs leading-lg mb-base xxxl:text-sm"
+        >
+          To sleep better!
+        </p>
+      </div>
+    </div>
+    <div
+      class="basis-0 pe-base xxxl:pe-md"
+    >
+      <div
+        class="flex gap-xs xxxl:gap-sm"
+      >
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] actionButton -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+          data-testid="button"
+          type="button"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Accept
+          </span>
+        </button>
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] actionButton -danger bg-danger-500 hover:bg-danger-600 outline-danger-500 border-danger-500 py-xs px-base leading-[22px] border text-white"
+          data-testid="button"
+          type="button"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Reject
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

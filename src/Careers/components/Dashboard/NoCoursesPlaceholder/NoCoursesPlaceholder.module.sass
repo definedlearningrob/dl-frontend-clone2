@@ -1,0 +1,24 @@
+@import '@shared/stylesheets/config.sass'
+
+.container
+  +flex-container(column-reverse, center, center)
+  background-color: $color-white
+
+  +media-breakpoint-up(lg)
+    +flex-container(row, flex-end, center)
+
+.header
+  font-size: $font-size-2xl
+
+.description
+  display: block
+  margin-bottom: $m-base
+
+.image
+  max-width: 100%
+
+  +media-breakpoint-up(lg)
+    max-width: 350px
+
+  +media-breakpoint-up(xl)
+    max-width: 500px

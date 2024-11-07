@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanGroupsProgressLegend component should render correctly 1`] = `
+<div>
+  <div
+    class="bg-neutral-200 p-xs xxxl:p-sm leading-lg rounded-sm mb-base xxxl:mb-md"
+  >
+    <div
+      class="flex gap-base"
+    >
+      <div
+        class="flex items-center gap-xs"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 bg-white border border-neutral-300 rounded-xs text-neutral-700 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <span
+          class="text-xs xxxl:text-sm font-medium leading-sm"
+        >
+          Not started
+        </span>
+      </div>
+      <div
+        class="flex items-center gap-xs"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 bg-white border border-neutral-300 rounded-xs text-secondary-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <span
+          class="text-xs xxxl:text-sm font-medium leading-sm"
+        >
+          In progress
+        </span>
+      </div>
+      <div
+        class="flex items-center gap-xs"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 bg-white border border-neutral-300 rounded-xs text-success-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <span
+          class="text-xs xxxl:text-sm font-medium leading-sm"
+        >
+          Completed
+        </span>
+      </div>
+      <div
+        class="flex items-center gap-xs"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 bg-white border border-neutral-300 rounded-xs text-danger-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <span
+          class="text-xs xxxl:text-sm font-medium leading-sm"
+        >
+          Not met
+        </span>
+      </div>
+      <div
+        class="flex items-center gap-xs"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 bg-white border border-neutral-300 rounded-xs text-neutral-700 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <span
+          class="text-xs xxxl:text-sm font-medium leading-sm"
+        >
+          Statements
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+@import '@shared/stylesheets/config.sass'
+
+.header
+  +flex-container(row, space-between, center)
+  padding: 0 $m-base $m-sm $m-base
+  :global(.dc-select)
+    margin-bottom: 0
+
+.heading
+  font-size: $font-size-2lg
+  margin: 0
+
+.actions
+  +flex-container(row, false, flex-start)
+  gap: $m-xs

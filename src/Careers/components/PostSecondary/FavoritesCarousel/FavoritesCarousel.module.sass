@@ -1,0 +1,46 @@
+@import '@shared/stylesheets/config.sass'
+
+$card-width: 240px
+$carousel-overlay: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0.65) 51.04%, rgba(255, 255, 255, 0) 100%)
+$icon-button-space: 20px
+
+.carouselWrapper
+  position: relative
+
+  :global(.menu-item-wrapper:not(:last-child) > :first-child)
+    margin-right: $m-sm
+
+    +media-breakpoint-up(xxxl)
+      margin-right: $m-base
+
+  :global(.menu-wrapper)
+    padding: $m-sm 0
+
+  :global(.scroll-menu-arrow)
+    +flex-container(row, center, center)
+    height: 100%
+
+    &:last-child
+      right: 0
+      background: $carousel-next-arrow-gradient
+
+      :global(.icon-button)
+        position: relative
+        left: $icon-button-space
+
+    &:first-child
+      left: 0
+      background: $carousel-prev-arrow-gradient
+
+      :global(.icon-button)
+        position: relative
+        right: $icon-button-space
+
+.carouselItem
+  width: $card-width
+  background-color: $color-white
+  border-radius: $border-radius-sm
+  height: 100%
+
+  :global(.institutionCard)
+    height: 100%

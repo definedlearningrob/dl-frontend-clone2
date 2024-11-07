@@ -1,0 +1,20 @@
+@import '@shared/stylesheets/config'
+
+.tableRow:hover
+  td
+    background-color: $color-primary-200
+
+  :global(.icon-button)
+    visibility: visible
+
+.emptyTableMessage
+  font-size: $font-size-xs
+  padding: $m-x
+  text-align: center
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+    padding: $m-sm
+
+.emptyTableWrapper
+  flex: 0 1 auto

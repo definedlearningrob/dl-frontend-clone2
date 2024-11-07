@@ -1,0 +1,568 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Career Review Survey renders correctly as a form 1`] = `
+<div>
+  <div
+    class="flex flex-col gap-base xxxl:gap-md"
+  >
+    <div
+      class="lesson-item-card !mb-0"
+    >
+      <div
+        class="flex justify-between items-center mb-md"
+      >
+        <div
+          class="flex w-full"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 bg-primary-200 rounded-sm mr-sm text-primary-500 p-xs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+          <div
+            class="text-800 border-l-2 border-neutral-200 pl-sm"
+          >
+            <span
+              class="leading-lg text-xs"
+            >
+              Test course name
+            </span>
+            <h5
+              class="leading-lg text-sm mb-0"
+            >
+              Career Review Survey
+            </h5>
+          </div>
+        </div>
+      </div>
+      <form
+        action="#"
+        class="form"
+      >
+        <div
+          class="mb-base"
+        >
+          <p
+            class="font-bold leading-base text-xs xxxl:text-base mb-sm"
+          >
+            1. Can blind people see their dreams?
+          </p>
+          <ul
+            role="group"
+          >
+            <li
+              class="list-none mb-sm last-of-type:mb-0"
+            >
+              <label
+                class="radioLabel border border-neutral-300 hover:border-neutral-600 text-neutral-700 rounded-xs cursor-pointer flex items-center leading-lg font-medium p-sm xxxl:p-base"
+              >
+                <input
+                  class="radioInput"
+                  name="Yes, definitely"
+                  type="radio"
+                  value="Yes, definitely"
+                />
+                <div
+                  class="radioSpan"
+                >
+                  <span
+                    class="labelWrapper"
+                  >
+                    Yes, definitely
+                  </span>
+                </div>
+              </label>
+            </li>
+            <li
+              class="list-none mb-sm last-of-type:mb-0"
+            >
+              <label
+                class="radioLabel border border-neutral-300 hover:border-neutral-600 text-neutral-700 rounded-xs cursor-pointer flex items-center leading-lg font-medium p-sm xxxl:p-base"
+              >
+                <input
+                  class="radioInput"
+                  name="Definitely not"
+                  type="radio"
+                  value="Definitely not"
+                />
+                <div
+                  class="radioSpan"
+                >
+                  <span
+                    class="labelWrapper"
+                  >
+                    Definitely not
+                  </span>
+                </div>
+              </label>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="mb-base"
+        >
+          <p
+            class="font-bold leading-base text-xs xxxl:text-base mb-sm"
+          >
+            2. How interested are you in the Pathway this course is a part of?
+          </p>
+          <ul
+            role="group"
+          >
+            <li
+              class="list-none mb-sm last-of-type:mb-0"
+            >
+              <div
+                class="checkbox border border-neutral-300 hover:border-neutral-600 !text-neutral-700 font-medium leading-lg rounded-xs cursor-pointer"
+              >
+                <input
+                  class="checkbox__input"
+                  data-testid="checkbox"
+                  id="checkbox-2.answers-Very Interested"
+                  tabindex="0"
+                  type="checkbox"
+                  value="Very Interested"
+                />
+                <label
+                  class="checkbox__label !p-sm xxxl:!p-base after:!left-sm xxxl:after:!left-base"
+                  for="checkbox-2.answers-Very Interested"
+                >
+                  Very Interested
+                </label>
+              </div>
+            </li>
+            <li
+              class="list-none mb-sm last-of-type:mb-0"
+            >
+              <div
+                class="checkbox border border-neutral-300 hover:border-neutral-600 !text-neutral-700 font-medium leading-lg rounded-xs cursor-pointer"
+              >
+                <input
+                  class="checkbox__input"
+                  data-testid="checkbox"
+                  id="checkbox-2.answers-Not at all Interested"
+                  tabindex="0"
+                  type="checkbox"
+                  value="Not at all Interested"
+                />
+                <label
+                  class="checkbox__label !p-sm xxxl:!p-base after:!left-sm xxxl:after:!left-base"
+                  for="checkbox-2.answers-Not at all Interested"
+                >
+                  Not at all Interested
+                </label>
+              </div>
+            </li>
+            <li
+              class="list-none mb-sm last-of-type:mb-0"
+            >
+              <div
+                class="checkbox border border-neutral-300 hover:border-neutral-600 !text-neutral-700 font-medium leading-lg rounded-xs cursor-pointer"
+              >
+                <input
+                  class="checkbox__input"
+                  data-testid="checkbox"
+                  id="checkbox-2.answers-Other"
+                  tabindex="0"
+                  type="checkbox"
+                  value="Other"
+                />
+                <label
+                  class="checkbox__label !p-sm xxxl:!p-base after:!left-sm xxxl:after:!left-base"
+                  for="checkbox-2.answers-Other"
+                >
+                  Other
+                </label>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] ml-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+          data-testid="button"
+          type="submit"
+        >
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Save
+          </span>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Career Review Survey renders correctly as a summary 1`] = `
+<div>
+  <div
+    class="flex flex-col gap-base xxxl:gap-md"
+  >
+    <div
+      class="lesson-item-card !mb-0"
+    >
+      <div
+        class="flex justify-between items-center mb-md"
+      >
+        <div
+          class="flex w-full"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 bg-primary-200 rounded-sm mr-sm text-primary-500 p-xs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+          <div
+            class="text-800 border-l-2 border-neutral-200 pl-sm"
+          >
+            <span
+              class="leading-lg text-xs"
+            >
+              Test course name
+            </span>
+            <h5
+              class="leading-lg text-sm mb-0"
+            >
+              Career Review Survey
+            </h5>
+          </div>
+        </div>
+        <div
+          class="py-xxs px-xs border border-secondary-500 rounded-full min-w-fit"
+        >
+          <span
+            data-state="closed"
+          >
+            <div
+              class="flex items-center text-secondary-500 font-medium"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 mr-xxs"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <p
+                class="mb-0 leading-lg"
+              >
+                Preview Mode
+              </p>
+            </div>
+          </span>
+        </div>
+      </div>
+      <form
+        action="#"
+        class="form"
+      >
+        <div
+          class="mb-base"
+        >
+          <p
+            class="font-bold leading-base text-xs xxxl:text-base mb-sm"
+          >
+            1. Can blind people see their dreams?
+          </p>
+          <ul
+            role="group"
+          >
+            <li
+              class="list-none mb-sm last-of-type:mb-0"
+            >
+              <label
+                class="radioLabel border border-neutral-300 hover:border-neutral-600 text-neutral-700 rounded-xs cursor-pointer flex items-center leading-lg font-medium p-sm xxxl:p-base bg-neutral-200 !cursor-not-allowed !cursor-not-allowed"
+              >
+                <input
+                  class="radioInput"
+                  disabled=""
+                  name="Yes, definitely"
+                  type="radio"
+                  value="Yes, definitely"
+                />
+                <div
+                  class="radioSpan"
+                >
+                  <span
+                    class="labelWrapper"
+                  >
+                    Yes, definitely
+                  </span>
+                </div>
+              </label>
+            </li>
+            <li
+              class="list-none mb-sm last-of-type:mb-0"
+            >
+              <label
+                class="radioLabel border border-neutral-300 hover:border-neutral-600 text-neutral-700 rounded-xs cursor-pointer flex items-center leading-lg font-medium p-sm xxxl:p-base bg-neutral-200 !cursor-not-allowed !cursor-not-allowed"
+              >
+                <input
+                  class="radioInput"
+                  disabled=""
+                  name="Definitely not"
+                  type="radio"
+                  value="Definitely not"
+                />
+                <div
+                  class="radioSpan"
+                >
+                  <span
+                    class="labelWrapper"
+                  >
+                    Definitely not
+                  </span>
+                </div>
+              </label>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="mb-base"
+        >
+          <p
+            class="font-bold leading-base text-xs xxxl:text-base mb-sm"
+          >
+            2. How interested are you in the Pathway this course is a part of?
+          </p>
+          <ul
+            role="group"
+          >
+            <li
+              class="list-none mb-sm last-of-type:mb-0"
+            >
+              <div
+                class="checkbox border border-neutral-300 hover:border-neutral-600 !text-neutral-700 font-medium leading-lg rounded-xs cursor-pointer bg-neutral-200"
+              >
+                <input
+                  class="checkbox__input"
+                  data-testid="checkbox"
+                  disabled=""
+                  id="checkbox-2.answers-Very Interested"
+                  tabindex="0"
+                  type="checkbox"
+                  value="Very Interested"
+                />
+                <label
+                  class="checkbox__label !p-sm xxxl:!p-base after:!left-sm xxxl:after:!left-base"
+                  for="checkbox-2.answers-Very Interested"
+                >
+                  Very Interested
+                </label>
+              </div>
+            </li>
+            <li
+              class="list-none mb-sm last-of-type:mb-0"
+            >
+              <div
+                class="checkbox border border-neutral-300 hover:border-neutral-600 !text-neutral-700 font-medium leading-lg rounded-xs cursor-pointer bg-neutral-200"
+              >
+                <input
+                  class="checkbox__input"
+                  data-testid="checkbox"
+                  disabled=""
+                  id="checkbox-2.answers-Not at all Interested"
+                  tabindex="0"
+                  type="checkbox"
+                  value="Not at all Interested"
+                />
+                <label
+                  class="checkbox__label !p-sm xxxl:!p-base after:!left-sm xxxl:after:!left-base"
+                  for="checkbox-2.answers-Not at all Interested"
+                >
+                  Not at all Interested
+                </label>
+              </div>
+            </li>
+            <li
+              class="list-none mb-sm last-of-type:mb-0"
+            >
+              <div
+                class="checkbox border border-neutral-300 hover:border-neutral-600 !text-neutral-700 font-medium leading-lg rounded-xs cursor-pointer bg-neutral-200"
+              >
+                <input
+                  class="checkbox__input"
+                  data-testid="checkbox"
+                  disabled=""
+                  id="checkbox-2.answers-Other"
+                  tabindex="0"
+                  type="checkbox"
+                  value="Other"
+                />
+                <label
+                  class="checkbox__label !p-sm xxxl:!p-base after:!left-sm xxxl:after:!left-base"
+                  for="checkbox-2.answers-Other"
+                >
+                  Other
+                </label>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Career Review Survey renders correctly as a summary if survey already performed 1`] = `
+<div>
+  <div
+    class="flex flex-col gap-base xxxl:gap-md"
+  >
+    <div
+      class="lesson-item-card !mb-0"
+    >
+      <div
+        class="flex justify-between items-center mb-md"
+      >
+        <div
+          class="flex w-full"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 bg-primary-200 rounded-sm mr-sm text-primary-500 p-xs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+          <div
+            class="text-800 border-l-2 border-neutral-200 pl-sm"
+          >
+            <span
+              class="leading-lg text-xs"
+            >
+              Test course name
+            </span>
+            <h5
+              class="leading-lg text-sm mb-0"
+            >
+              Career Review Survey
+            </h5>
+          </div>
+        </div>
+        <div
+          class="py-xxs px-xs border border-secondary-500 rounded-full min-w-fit"
+        >
+          <span
+            data-state="closed"
+          >
+            <div
+              class="flex items-center text-secondary-500 font-medium"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 mr-xxs"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <p
+                class="mb-0 leading-lg"
+              >
+                Preview Mode
+              </p>
+            </div>
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-base"
+      >
+        <h4
+          class="mb-xs"
+        >
+          Previous Answers
+        </h4>
+        <p
+          class="text-xs xxxl:text-sm leading-lg"
+        >
+          Here are your answers, in order to change them please retake the whole survey
+        </p>
+      </div>
+      <div
+        class="rounded-sm p-sm border border-neutral-300 bg-neutral-200 mb-base last-of-type:mb-0"
+      >
+        <h6
+          class="mb-0 mb-xs"
+        >
+          1. Can blind people see their dreams?
+        </h6>
+        <ul
+          class="list-disc pl-base marker:text-neutral-700 text-xs"
+        >
+          <li
+            class="leading-lg"
+          >
+            Yes, definitely
+          </li>
+        </ul>
+      </div>
+      <div
+        class="rounded-sm p-sm border border-neutral-300 bg-neutral-200 mb-base last-of-type:mb-0"
+      >
+        <h6
+          class="mb-0 mb-xs"
+        >
+          2. How interested are you in the Pathway this course is a part of?
+        </h6>
+        <ul
+          class="list-disc pl-base marker:text-neutral-700 text-xs"
+        >
+          <li
+            class="leading-lg"
+          >
+            Very Interested
+          </li>
+          <li
+            class="leading-lg"
+          >
+            Not at all Interested
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button
+      class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] ml-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+      data-testid="button"
+      type="button"
+    >
+      <span
+        class="items-center flex justify-center gap-xs"
+      >
+        Exit Career Survey
+      </span>
+    </button>
+  </div>
+</div>
+`;

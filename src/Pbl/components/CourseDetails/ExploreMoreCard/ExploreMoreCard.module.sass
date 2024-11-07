@@ -1,0 +1,50 @@
+@import '@shared/stylesheets/config.sass'
+$onetImageWidth: 130px
+$onetImageHeight: 60px
+
+.title
+  font-size: $font-size-sm
+  margin-bottom: $m-sm
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-base
+
+.list
+  font-size: $font-size-xs
+  line-height: $line-height-lg
+  list-style-position: outside
+  list-style-type: disc
+  padding-left: $m-sm
+  margin: 0
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-sm
+
+.listItem
+  &::marker
+    color: $color-primary-500
+
+.emptyCard
+  text-align: center
+
+.emptyCardTitle
+  margin-bottom: $m-xs
+
+.emptyCardImage
+  max-width: 100%
+
+.footerContainer
+  margin-top: $m-xs
+
+.divider
+  margin-top: $m-sm
+  margin-bottom: $m-xs
+
+.content
+  +flex-container(row, false, center)
+  gap: $m-xs
+  font-size: $font-size-xxs
+
+.onetImage
+  width: $onetImageWidth
+  height: $onetImageHeight

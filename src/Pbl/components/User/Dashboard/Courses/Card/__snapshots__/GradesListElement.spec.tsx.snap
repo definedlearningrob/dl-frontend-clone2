@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GradesListElement should renders correctly 1`] = `
+<div>
+  <li
+    class="grade"
+    data-testid="grade-list-element"
+  >
+    <p
+      class="gradeText"
+      data-testid="grade-text"
+    >
+      Grades: K-5
+    </p>
+  </li>
+</div>
+`;

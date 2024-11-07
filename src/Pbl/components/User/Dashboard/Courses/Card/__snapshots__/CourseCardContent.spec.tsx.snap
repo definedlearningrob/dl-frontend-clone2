@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CourseCardContent should renders card correctly 1`] = `
+<div>
+  <div
+    class="dashboard-course-card"
+  >
+    <div
+      class="dashboard-course-card__image-wrapper"
+    >
+      <img
+        alt="Test display name"
+        class="dashboard-course-card__image"
+        src="http://localstack.test.me"
+      />
+    </div>
+    <div
+      class="card-data"
+      data-testid="card-data"
+    >
+      <ul
+        class="gradesWrapper"
+        data-testid="grades-summary"
+      >
+        <li
+          class="grade"
+          data-testid="grade-list-element"
+        >
+          <p
+            class="gradeText"
+            data-testid="grade-text"
+          >
+            Grades: K-4
+          </p>
+        </li>
+      </ul>
+      <div
+        class="dashboard-course-card__project-summary"
+      >
+        <p
+          class="dashboard-course-card__grades-text"
+        >
+          Projects: 5
+        </p>
+      </div>
+    </div>
+    <div
+      class="dashboard-course-card__content"
+    >
+      <h6
+        class="dashboard-course-card__name"
+        data-testid="dashboard-course-item-name"
+      >
+        Test display name
+      </h6>
+      <p
+        class="dashboard-course-card__description"
+      >
+        <span
+          class="dashboard-course-card__short-description-inject"
+        >
+          short decs
+        </span>
+      </p>
+    </div>
+    <button
+      class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] dashboard-course-card__description-link -link py-xs px-base leading-[22px] text-white"
+      data-testid="description-link"
+      type="button"
+    >
+      <span
+        class="items-center flex justify-center gap-xs"
+      >
+        View
+        <div
+          class="icon dashboard-course-card__description-link-icon -xs-size"
+          data-testid="icon"
+        >
+          <div />
+        </div>
+      </span>
+    </button>
+  </div>
+</div>
+`;

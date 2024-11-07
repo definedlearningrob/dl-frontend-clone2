@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HitGrades should render correctly 1`] = `
+<div>
+  <ul
+    class="gradesSummary"
+    data-testid="grades-summary"
+  >
+    <li
+      class="grade"
+      data-testid="grade-list-element"
+    >
+      <p
+        class="gradeText"
+        data-testid="grade-text"
+      >
+        Grades: K-5
+      </p>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,26 @@
+@import '@shared/stylesheets/config'
+
+.sortable-list // to override icon-buttons styles
+    .sortable-list-item
+        +flex-container(row, space-between, center)
+        gap: $m-xs
+        border-radius: $border-radius-sm
+        color: $color-font-secondary
+        padding: $m-xs $m-sm $m-xs $m-xs
+        width: 100%
+        font-weight: $font-weight-medium
+        font-size: $font-size-xs
+
+        &:hover
+            background-color: $color-neutral-200
+            color: $color-font-primary
+            cursor: pointer
+            transition: all $transition-duration $transition-function
+
+        &.-drag
+            background-color: lighten($color-font-secondary, 45%)
+
+        &__drag-icon
+            fill: $color-font-secondary
+            min-width: $icon-size
+

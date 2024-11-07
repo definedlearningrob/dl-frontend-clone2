@@ -1,0 +1,60 @@
+@import '@shared/stylesheets/config.sass'
+
+$image-width: 460px
+$image-height: 260px
+
+.container
+  +flex-container(row)
+  flex-wrap: wrap
+  gap: $m-base
+
+  +media-breakpoint-up(xl)
+    flex-wrap: nowrap
+
+.imageWrapper
+  +flex-container(column, center, center)
+  position: relative
+  background-color: $color-neutral-300
+  border-radius: $m-xxs
+  flex: 1 0 auto
+  overflow: hidden
+  height: $image-height
+
+  +media-breakpoint-up(lg)
+    flex: 0 0 auto
+    width: $image-width
+
+.image
+  height: 100%
+  width: 100%
+  object-fit: cover
+
+.defaultImage
+  width: 30%
+
+.cardContent
+  +flex-container(column)
+  flex: 1
+
+.title
+  margin-bottom: $m-xs
+
+  +media-breakpoint-up(xxxl)
+    margin-bottom: $m-sm
+
+.description
+  color: $color-font-secondary
+  flex-grow: 1
+
+.tag
+  font-size: $font-size-xs
+  color: $color-font-secondary
+  margin-bottom: $m-xs
+
+.header
+  +flex-container(row, space-between)
+  gap: $m-xs
+
+.actions
+  +flex-container(row, flex-end, flex-start)
+  gap: $m-sm

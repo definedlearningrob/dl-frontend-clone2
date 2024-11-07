@@ -1,0 +1,34 @@
+.search-input
+  position: relative
+
+  +media-breakpoint-up(lg)
+    margin-left: $m-md
+    width: 400px
+
+  &__input
+    border-radius: $border-radius-sm
+    border: none
+    font-size: 1rem
+    margin-right: $m-base
+    border: 1px solid transparent
+    padding:
+      top: $m-xs
+      right: $m-xs
+      bottom: $m-xs
+      left: $m-xs + $icon-size
+    width: 100%
+
+    &:focus
+      border: 1px solid $color-primary-500
+      color: $color-font-primary
+
+    &::placeholder
+      color: $color-disabled
+
+  &__icon
+    left: $m-xs
+    position: absolute
+    top: $m-xs
+
+    svg
+      fill: $color-disabled

@@ -1,0 +1,10 @@
+@import '@shared/stylesheets/config'
+
+.checkInsWrapper
+  +flex-container(column, center, flex-start)
+
+.draggableContainer
+  width: 100%
+
+  [data-rbd-draggable-context-id]
+    height: fit-content !important // !important is needed to override the height of the dragged element

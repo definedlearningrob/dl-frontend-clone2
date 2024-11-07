@@ -1,0 +1,41 @@
+@import '@shared/stylesheets/config.sass'
+
+.wrapper
+  +flex-container(column)
+  gap: $m-lg
+
+  +media-breakpoint-up(xxxl)
+    gap: $m-xl
+
+.titleRectangle
+  border-radius: $border-radius-sm
+  height: $m-sm
+
+  +media-breakpoint-up(xxxl)
+    height: $m-base
+
+.rectangle
+  border-radius: $border-radius-sm
+  height: $m-lg
+
+  +media-breakpoint-up(xxxl)
+    height: $m-xl
+
+.emailRectangle
+  border-radius: $border-radius-sm
+  height: $m-base
+
+  +media-breakpoint-up(xxxl)
+    height: $m-md
+
+.headSection
+  +flex-container(column)
+  gap: $m-xs
+
+  +media-breakpoint-up(xxxl)
+    gap: $m-sm
+
+.bodySection
+  +flex-container(column)
+  gap: $m-xs
+

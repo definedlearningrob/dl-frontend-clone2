@@ -1,0 +1,105 @@
+@import '@shared/stylesheets/config.sass'
+
+$choose-account-bg: url('../../../assets/images/pbl-login-background.svg')
+$signin-form-bg: url('../../../assets/images/pbl-login-background.svg')
+
+.signin-banner
+  display: flex
+  justify-content: center
+  margin: $m-sm auto
+  width: 100%
+
+  &__logo
+    color: $color-primary-500
+    display: flex
+    margin-bottom: auto
+    max-width: $m-2xl * 2
+
+  &__heading
+    display: none
+
+  &__hint
+    display: none
+
+    &__link
+      color: $color-primary-500
+      display: block
+      margin-top: $m-base
+
+    &__nested-link
+      font-weight: $font-weight-medium
+
+  &__footer
+    display: none
+
+  &__social-media-link
+    display: inline-block
+    margin: $m-xs
+    padding: $m-xs
+
+  &__social-media-icon
+    fill: $color-primary-500
+
+  &__copyright-text
+    margin: 0
+
+  &__visit
+    display: block
+    margin-top: $m-sm
+
+//----- media queries --------------------------------------------------------------------------------------------------
++media-breakpoint-up(lg)
+  .signin-banner
+    +flex-container(column, space-between, flex-start)
+    background-color: $color-background
+    background-repeat: no-repeat
+    background-size: cover
+    border-radius: 0 $m-sm $m-sm $m-sm
+    color: $color-primary-500
+    flex: 0 0 30%
+    margin: $m-md
+    padding: $m-md
+
+    &-bg-choose-account
+      background-image: $choose-account-bg
+
+    &-bg-signin-form
+      background-color: $color-white
+      background-image: $signin-form-bg
+
+    &__heading
+      display: block
+      font-size: $font-size-xl
+
+    &__hint
+      display: block
+      font-size: $font-size-base
+
+      &__link
+        color: $color-primary-500
+
+    &__footer
+      display: block
+      margin-top: auto
+      padding: 0
+      text-align: center
+      width: 100%
+
+    &__social-media-link
+      display: inline-block
+      margin: $m-xs
+      padding: $m-xs
+
+    &__social-media-icon
+      fill: $color-primary-500
+
+    &__copyright-text
+      margin: 0
+
++media-breakpoint-up(xl)
+  .signin-banner
+    &__hint
+      font-size: $font-size-lg
+      
+    &__heading
+      font-size: $font-size-2xl

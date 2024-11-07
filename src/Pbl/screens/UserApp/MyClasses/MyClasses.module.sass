@@ -1,0 +1,14 @@
+@import '@shared/stylesheets/config.sass'
+
+.container
+  display: grid
+  grid-template-columns: 2fr 1fr
+  max-height: calc(100vh - $desktop-header-height)
+  gap: $m-sm
+
+  +media-breakpoint-up(xxl)
+    gap: $m-base
+
+.loaderWrapper
+  +flex-container(row, center, center)
+  grid-column: 1/3

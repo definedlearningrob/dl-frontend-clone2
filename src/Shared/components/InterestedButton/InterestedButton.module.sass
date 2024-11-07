@@ -1,0 +1,30 @@
+@import '@shared/stylesheets/config.sass'
+
+.iconButton
+  +flex-container(row,center,center)
+  color: $color-danger-600 !important
+  border: $border-width-xs solid $color-white
+  background-color: $color-white
+  border-radius: 50%
+  opacity: 1
+  transition: ease-in .3s
+
+  &:hover
+    background-color: $color-danger-100
+    border: $border-width-xs solid $color-danger-600
+    color: $color-danger-100
+
+.sm
+  height: $icon-size
+  width: $icon-size
+
+.md
+  height: $icon-size-md
+  width: $icon-size-md
+
+.lg
+  height: calc($icon-size-md + $m-xs)
+  width: calc($icon-size-md + $m-xs)
+
+.disabled
+  opacity: 0.3

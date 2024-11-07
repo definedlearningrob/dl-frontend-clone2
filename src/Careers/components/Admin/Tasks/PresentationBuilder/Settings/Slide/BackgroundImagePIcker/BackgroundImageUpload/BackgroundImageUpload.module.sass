@@ -1,0 +1,28 @@
+@import '@shared/stylesheets/config'
+
+$image-height: 68px
+$image-width: 120px
+
+.dropImageWrapper
+  cursor: pointer
+  font-size: $font-size-xs
+  height: $image-height
+  margin: $m-sm
+  width: $image-width
+
+  div
+    margin: 0
+    min-height: 0
+    padding: 0
+
+  [data-testid='drop-container']
+    height: $image-height
+    width: $image-width
+
+    [data-testid='icon']
+      height: 12px
+      margin-bottom: $m-xs
+      width: 14px
+
+    [data-testid='uploading-image']
+      font-size: $font-size-xxs

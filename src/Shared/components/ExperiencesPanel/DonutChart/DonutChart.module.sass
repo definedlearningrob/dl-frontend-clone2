@@ -1,0 +1,13 @@
+@import '@shared/stylesheets/config.sass'
+
+[class*='pieSegment']
+  transition: fill-opacity 0.5s
+  cursor: pointer
+  outline: none
+
+@each $color in $chart-colors
+  $i: index($chart-colors, $color)
+
+  .pieSegment-#{$i}
+    stroke: $color-white
+    fill: $color

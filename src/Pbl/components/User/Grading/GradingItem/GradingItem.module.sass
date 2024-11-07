@@ -1,0 +1,41 @@
+@import '@shared/stylesheets/config'
+
+=studentActive
+  background-color: $color-primary-200
+
+=studentActiveIcon
+  background-color: $color-white
+
+.icon
+  +studentActive
+  border-radius: 100%
+  padding: $m-xxs
+
+  svg, path
+    fill: currentColor
+
+.studentItem
+  +flex-container(row, space-between, center)
+  border-radius: $border-radius-xs
+  color: $color-primary-500
+  cursor: pointer
+  padding: $m-xxs
+  line-height: $line-height-lg
+  text-align: left
+  width: 100%
+
+  &:hover
+    +studentActive
+
+    .icon
+      +studentActiveIcon
+
+.studentItemActive
+  +studentActive
+
+  .icon
+    +studentActiveIcon
+
+.states
+  +flex-container(row)
+  gap: $m-xxs

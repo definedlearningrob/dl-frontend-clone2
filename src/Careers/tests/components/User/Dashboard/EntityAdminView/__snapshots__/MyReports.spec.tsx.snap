@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDashboardEntityAdminViewMyReports renders properly 1`] = `
+<div>
+  <div
+    class="skeleton-dashboard__my-reports flex flex-col -vertical"
+  >
+    <h4
+      class="text-base mb-base"
+    >
+      Summary
+    </h4>
+    <div
+      class="flex flex-col gap-y-sm flex-1"
+    >
+      <div
+        class="flex flex-1 items-center justify-center p-x rounded-sm border border-neutral-300"
+      >
+        <div
+          class="skeleton-rectangle skeletonRectangle skeleton-dashboard__my-reports-icon radius-md height-auto width-full-width darker animated"
+        />
+        <div
+          class="skeleton-dashboard__my-reports-right ml-sm flex-1"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle mb-x leading-lg radius-md height-auto width-lg darker animated"
+          />
+          <div
+            class="skeleton-rectangle skeletonRectangle leading-lg radius-md height-auto width-sm darker animated"
+          />
+        </div>
+      </div>
+      <div
+        class="flex flex-1 items-center justify-center p-x rounded-sm border border-neutral-300"
+      >
+        <div
+          class="skeleton-rectangle skeletonRectangle skeleton-dashboard__my-reports-icon radius-md height-auto width-full-width darker animated"
+        />
+        <div
+          class="skeleton-dashboard__my-reports-right ml-sm flex-1"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle mb-x leading-lg radius-md height-auto width-lg darker animated"
+          />
+          <div
+            class="skeleton-rectangle skeletonRectangle leading-lg radius-md height-auto width-sm darker animated"
+          />
+        </div>
+      </div>
+      <div
+        class="flex flex-1 items-center justify-center p-x rounded-sm border border-neutral-300"
+      >
+        <div
+          class="skeleton-rectangle skeletonRectangle skeleton-dashboard__my-reports-icon radius-md height-auto width-full-width darker animated"
+        />
+        <div
+          class="skeleton-dashboard__my-reports-right ml-sm flex-1"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle mb-x leading-lg radius-md height-auto width-lg darker animated"
+          />
+          <div
+            class="skeleton-rectangle skeletonRectangle leading-lg radius-md height-auto width-sm darker animated"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,22 @@
+@import '@shared/stylesheets/config.sass'
+
+.metadata
+  +flex-container(row, flex-start, center)
+  font-size: $font-size-xxs
+
+  &:not(:last-child)
+    margin-bottom: $m-xxs
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-xs
+
+.metadataIcon
+  color: $color-font-secondary
+  margin-right: $m-xxs
+
+  +media-breakpoint-up(xxxl)
+    margin-right: $m-xs
+
+.metadataLabel
+  color: $color-font-secondary
+  margin-right: $m-xxs

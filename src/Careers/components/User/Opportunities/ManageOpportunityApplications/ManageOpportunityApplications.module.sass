@@ -1,0 +1,102 @@
+@import '@shared/stylesheets/config.sass'
+
+.container
+  display: grid
+  grid-template-columns: 50% 50%
+  grid-template-rows: minmax(50px, min-content) 1fr
+  background: $color-white
+  border-radius: $border-radius-sm
+  height: $container-height
+
+  +media-breakpoint-up(xxxl)
+    height: $container-height-xxxl
+
+.topSection
+  padding: $m-sm $m-base
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-base $m-md
+
+.section
+  padding: $m-base
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-md
+
+.details,
+.applicationList
+  overflow: hidden
+
+.details
+ padding-right: 0
+
+.applicationListHeader,
+.applicationList
+  border-right: 1px solid $color-neutral-300
+
+.applicationListHeader
+  border-bottom: 1px solid $color-neutral-300
+
+.applicationListHeader
+  +flex-container(row, space-between, center)
+  column-gap: $m-md
+
+.noApplications,
+.applicationListHeaderWithoutApplication
+  grid-column: 1 / span 2
+
+.applicationListHeaderWithoutApplication
+  border-right: none
+
+.sectionHeading
+  font-size: $font-size-sm
+  margin-bottom: $m-xxs
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-base
+
+.contentWrapper,
+.tooltip
+  min-width: 0
+
+.descriptionWrapper
+  +flex-container(row, flex-start, center)
+  gap: $m-xs
+
+.link,
+.description
+  font-size: $font-size-xs
+
+.description
+  white-space: nowrap
+
+.searchInput
+  flex: 0 1 340px
+
+.emptyApplicationListWrapper
+  +flex-container(column, center, center)
+  height: 100%
+
+.link
+  +ellipsis
+  font-weight: 500
+  line-height: $line-height-lg
+  color: $color-primary-500
+  text-decoration: none
+  position: relative
+
+  &:after
+    +pseudoelement
+    background: $color-neutral-300
+    border-radius: 100%
+    width: 4px
+    height: 4px
+    right: -10px
+    left: inherit
+    top: 7px
+
+  &:hover
+    color: $color-primary-600
+
+.collapsibleLink
+  display: block

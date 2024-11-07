@@ -1,0 +1,30 @@
+@import '@shared/stylesheets/config.sass'
+
+.listItem
+  +flex-container(column)
+  margin-bottom: $m-sm + $m-xxs
+
+  svg
+    color: $color-primary-500
+
+.checkbox
+  display: inline-block
+  margin: 0
+  padding: 0
+
+.listContent
+  +flex-container(row, flex-start, center)
+
+.students
+  font-size: $font-size-sm
+  font-weight: $font-weight-regular
+  line-height: $line-height-lg
+  margin-left: $m-lg
+  margin-top: $m-xs
+
+.studentItem:after
+  content: ','
+  margin-right: $m-xs
+
+.studentItem:last-of-type:after
+  content: none

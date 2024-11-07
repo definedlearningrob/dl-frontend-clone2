@@ -1,0 +1,12 @@
+@import '@shared/stylesheets/config'
+
+.rubrics-form
+  &__button
+    max-width: 160px
+
+  &__buttons
+    +flex-container(row, flex-end)
+    margin-top: $m-sm
+
+    & > * + * //spacer
+      margin-left: $m-sm

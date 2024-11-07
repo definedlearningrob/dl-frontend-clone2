@@ -1,0 +1,169 @@
+@import '@shared/stylesheets/config.sass'
+
+$shared-slide-bg-color: #FFF7EE
+$search-input-height: 37px
+$search-input-width: 240px
+
+.header-desktop
+  +flex-container(row, flex-end, center)
+  background-color: $color-background
+  height: $desktop-header-height
+  max-height: $desktop-header-height
+  padding: $m-xs $m-base
+  position: sticky
+  top: 0
+  width: 100%
+  z-index: $z-highest
+  gap: $m-base
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-xs $m-md
+
+  &__impersonating-label
+    display: block
+    font-size: $font-size-xs
+
+  &__impersonate-button.button
+    margin-left: $m-base
+
+    .button__text
+      color: $color-secondary-500
+
+    &:hover
+      +box-shadow-300($color-black)
+
+  &.-flat
+    background-color: $color-white
+    border-bottom: 1px solid $color-border-disabled
+    box-shadow: none
+
+  &.-hide-header
+    display: none
+
+  &.-with-impersonate
+    background-color: $color-secondary-500
+
+    .header-desktop__user-dropdown-section
+      color: $color-white
+      cursor: default
+
+    .header-desktop__user-dropdown-button
+      cursor: default
+      text-align: left
+
+  &__user-dropdown-section
+    +flex-container(row, flex-start, center)
+    color: $color-font-secondary
+    cursor: pointer
+    gap: $m-xs
+    position: relative
+    white-space: nowrap
+
+    &__content
+      +box-shadow-200($color-font-primary)
+      background-color: $color-white
+      border-radius: $border-radius-sm
+      color: $color-font-primary
+      font-weight: $font-weight-medium
+      margin: 0
+      padding: $m-xxs
+      position: absolute
+      right: 0
+      top: calc(100% + $m-xxs + $m-xs)
+      z-index: $z-higher
+
+      li
+        align-items: center
+        border-radius: $border-radius-xs * 2
+        display: flex
+        padding: $m-base * 0.5
+        width: 100%
+
+        button
+          height: $m-base
+          margin: 0 $m-xs 0 0
+          pointer-events: none
+          width: $m-base
+
+        &:hover
+          background-color: $color-background
+          transition: background-color $transition-duration * 0.5 $transition-function
+
+  &__saving-status
+    +flex-container(row, space-evenly, center)
+
+    p
+      color: $color-success-500
+      margin: 0
+
+    .icon svg
+      fill: $color-success-500
+
+    &.-saving > p
+      color: $color-primary-500
+
+  .divider
+    background-color: $color-border
+    border-radius: $border-radius-xs
+    height: 40px
+    margin: 0 $m-base
+    width: 1px
+
+  &__user-dropdown-button
+    +flex-container(row, flex-start, center)
+    background: none
+    border: none
+    color: inherit
+    cursor: pointer
+    font: inherit
+    font-size: $font-size-xs
+    font-weight: $font-weight-medium
+    outline: none
+    padding: 0
+    white-space: nowrap
+
+    &.-dropdown-active
+      color: $color-primary-500
+
+      .icon
+        background-color: $color-white
+        border-radius: $border-radius-xs
+
+      svg
+        fill: $color-primary-500
+
+    &:hover
+      color: $color-primary-500
+
+      svg
+        fill: $color-primary-500
+
+  &__dropdown-icon
+    margin-left: $m-xs
+
+  .text-input
+    padding-right: $m-md
+    position: relative
+    width: $search-input-width
+
+    .text-input__input
+      border-bottom-right-radius: 0
+      border-top-right-radius: 0
+      height: $search-input-height
+      padding-top: 0
+      padding-bottom: 0
+      font-size: $font-size-xs
+
+  &__search-button
+    +flex-container(row, center, center)
+    background-color: $color-primary-500
+    border-bottom-right-radius: $border-radius-sm
+    border-top-right-radius: $border-radius-sm
+    color: $color-white
+    height: 100%
+    position: absolute
+    right: 1px
+    width: $m-md
+
+    &:hover
+      background-color: $color-primary-500

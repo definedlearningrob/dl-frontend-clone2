@@ -1,0 +1,29 @@
+@import '@shared/stylesheets/config.sass'
+
+.statusText
+  color: $color-secondary-500
+  font-size: $font-size-base
+  font-weight: $font-weight-bold
+
+.draft
+  color: $color-secondary-500
+
+.published
+  color: $color-primary-500
+
+.editingRow
+  +flex-container(row, space-between, flex-end)
+  margin-top: $m-base
+
+.copiesButton:disabled
+  pointer-events: none
+
+.switch
+  margin-top: $m-sm
+
+.grading
+  +flex-container(column, flex-start, flex-start)
+  border-top: 2px solid $color-background
+  gap: $m-xs
+  margin-top: $m-base
+  padding: $m-base

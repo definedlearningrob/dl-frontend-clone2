@@ -1,0 +1,375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation render correctly while teacher has no access to reports 1`] = `
+<div>
+  <nav>
+    <div
+      class="relative"
+    >
+      <span
+        data-state="closed"
+      >
+        <a
+          aria-current="page"
+          class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item text-primary-500 bg-primary-200"
+          data-testid="navigation-item-home"
+          href="/"
+        >
+          <div
+            class="icon -xs-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+          <span
+            class="font-medium truncate text opacity-0"
+          >
+            Home
+          </span>
+        </a>
+      </span>
+    </div>
+    <div
+      class="relative"
+    >
+      <span
+        data-state="closed"
+      >
+        <a
+          class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+          data-testid="navigation-item-myProjects"
+          href="/my-projects"
+        >
+          <div
+            class="icon -xs-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+          <span
+            class="font-medium truncate text opacity-0"
+          >
+            My Projects
+          </span>
+        </a>
+      </span>
+    </div>
+    <div
+      class="relative"
+    >
+      <span
+        data-state="closed"
+      >
+        <a
+          class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+          data-testid="navigation-item-myClasses"
+          href="/my-classes"
+        >
+          <div
+            class="icon -xs-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+          <span
+            class="font-medium truncate text opacity-0"
+          >
+            My Classes
+          </span>
+        </a>
+      </span>
+    </div>
+    <div
+      class="relative"
+    >
+      <span
+        data-state="closed"
+      >
+        <a
+          class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+          data-testid="navigation-item-messaging"
+          href="/messages"
+        >
+          <div
+            class="icon -xs-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+          <span
+            class="font-medium truncate text opacity-0"
+          >
+            Messages
+          </span>
+        </a>
+      </span>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`Navigation render correctly while there is only Career Exploration report available 1`] = `
+<div>
+  <nav>
+    <div
+      class="relative"
+    >
+      <span
+        data-state="closed"
+      >
+        <a
+          aria-current="page"
+          class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item text-primary-500 bg-primary-200"
+          data-testid="navigation-item-home"
+          href="/"
+        >
+          <div
+            class="icon -xs-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+          <span
+            class="font-medium truncate text opacity-0"
+          >
+            Home
+          </span>
+        </a>
+      </span>
+    </div>
+    <div
+      class="relative"
+    >
+      <span
+        data-state="closed"
+      >
+        <a
+          class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+          data-testid="navigation-item-reports"
+          href="/reports/career-exploration"
+        >
+          <div
+            class="icon -xs-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+          <span
+            class="font-medium truncate text opacity-0"
+          >
+            Goals & Reports
+          </span>
+        </a>
+      </span>
+    </div>
+    <div
+      class="relative"
+    >
+      <span
+        data-state="closed"
+      >
+        <a
+          class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+          data-testid="navigation-item-myProjects"
+          href="/my-projects"
+        >
+          <div
+            class="icon -xs-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+          <span
+            class="font-medium truncate text opacity-0"
+          >
+            My Projects
+          </span>
+        </a>
+      </span>
+    </div>
+    <div
+      class="relative"
+    >
+      <span
+        data-state="closed"
+      >
+        <a
+          class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+          data-testid="navigation-item-myClasses"
+          href="/my-classes"
+        >
+          <div
+            class="icon -xs-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+          <span
+            class="font-medium truncate text opacity-0"
+          >
+            My Classes
+          </span>
+        </a>
+      </span>
+    </div>
+    <div
+      class="relative"
+    >
+      <span
+        data-state="closed"
+      >
+        <a
+          class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+          data-testid="navigation-item-messaging"
+          href="/messages"
+        >
+          <div
+            class="icon -xs-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+          <span
+            class="font-medium truncate text opacity-0"
+          >
+            Messages
+          </span>
+        </a>
+      </span>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`Navigation renders correctly 1`] = `
+<div>
+  <nav>
+    <div
+      class="relative"
+    >
+      <span
+        data-state="closed"
+      >
+        <a
+          aria-current="page"
+          class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item text-primary-500 bg-primary-200"
+          data-testid="navigation-item-home"
+          href="/"
+        >
+          <div
+            class="icon -xs-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+          <span
+            class="font-medium truncate text opacity-0"
+          >
+            Home
+          </span>
+        </a>
+      </span>
+    </div>
+    <div
+      class="relative"
+    >
+      <span
+        data-state="closed"
+      >
+        <a
+          class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+          data-testid="navigation-item-reports"
+          href="/reports"
+        >
+          <div
+            class="icon -xs-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+          <span
+            class="font-medium truncate text opacity-0"
+          >
+            Goals & Reports
+          </span>
+        </a>
+      </span>
+    </div>
+    <div
+      class="relative"
+    >
+      <span
+        data-state="closed"
+      >
+        <a
+          class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+          data-testid="navigation-item-myProjects"
+          href="/my-projects"
+        >
+          <div
+            class="icon -xs-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+          <span
+            class="font-medium truncate text opacity-0"
+          >
+            My Projects
+          </span>
+        </a>
+      </span>
+    </div>
+    <div
+      class="relative"
+    >
+      <span
+        data-state="closed"
+      >
+        <a
+          class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+          data-testid="navigation-item-myClasses"
+          href="/my-classes"
+        >
+          <div
+            class="icon -xs-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+          <span
+            class="font-medium truncate text opacity-0"
+          >
+            My Classes
+          </span>
+        </a>
+      </span>
+    </div>
+    <div
+      class="relative"
+    >
+      <span
+        data-state="closed"
+      >
+        <a
+          class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+          data-testid="navigation-item-messaging"
+          href="/messages"
+        >
+          <div
+            class="icon -xs-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+          <span
+            class="font-medium truncate text opacity-0"
+          >
+            Messages
+          </span>
+        </a>
+      </span>
+    </div>
+  </nav>
+</div>
+`;

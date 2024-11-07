@@ -1,0 +1,23 @@
+@import '@shared/stylesheets/config.sass'
+
+$skeleton-min-width: 191px
+$skeleton-height: 359px
+$skeleton-height-xxl: 384px
+
+.skeletonContainer
+  +scrollbar
+  height: 100%
+  display: grid
+  gap: $m-base
+  grid-template-columns: repeat(auto-fill, minmax($skeleton-min-width, 1fr))
+  padding-right: $m-x
+
+  +media-breakpoint-up(xxxl)
+    gap: $m-md
+    padding-right: $m-base
+
+.skeletonWrapper
+  height: $skeleton-height !important
+
+  +media-breakpoint-up(xxxl)
+    height: $skeleton-height-xxl !important

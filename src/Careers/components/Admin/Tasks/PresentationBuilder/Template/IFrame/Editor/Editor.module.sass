@@ -1,0 +1,67 @@
+@import '@shared/stylesheets/config'
+
+$preview-iframe-height: 300px
+$preview-iframe-width: 500px
+
+.textContainer
+  color: $color-font-primary
+  margin-bottom: $m-lg
+
+.iframeWrapper
+  +flex-container(row, center, center)
+  cursor: default
+
+  iframe
+    width: 100%
+
+.iconWrapper
+  +flex-container(column, center, center)
+  background-color: $color-background
+  cursor: pointer
+  font-size: $font-size-sm
+  min-height: 450px
+  min-width: 800px
+  position: relative
+  top: -$m-lg
+
+  iframe
+    height: 100%
+    position: absolute
+
+  p
+    margin: $m-xs 0 !important
+
+.icon
+  color: $color-white
+  height: 200px
+  width: 300px
+
+  path
+    fill: $color-white
+
+.selectedContent
+  border-radius: $border-radius-xs
+  border: 2px dashed $color-primary-600
+  padding: $m-xs
+
+.hiddenBackground
+  background-color: transparent
+
+.switchButtons
+  +flex-container(row, flex-end, center)
+  margin-top: -$m-xl
+
+.links
+  left: 0
+  margin-top: $m-sm
+  position: absolute
+  right: 0
+
+.hidden
+  visibility: hidden
+
+.button
+  background-color: $color-white !important
+
+.scriptView
+  color: $color-font-primary !important

@@ -1,0 +1,62 @@
+@import '@shared/stylesheets/config.sass'
+
+$icon-column-width: 60px
+$default-project-columns: 3fr 120px 180px 60px
+$assigned-projects-columns: 3fr $icon-column-width 120px 150px 60px
+
+.paginationBar
+  +flex-container(row, flex-end, center)
+
+.tableHeading
+  font-size: $font-size-base
+  margin: $m-sm 0 0 $m-sm
+
+.createdOnCell
+  +flex-container(row, center, center)
+
+.name
+  margin-bottom: 0
+  color: $color-primary-500
+  font-family: $font-family-body
+  font-size: $font-size-xs
+  font-weight: $font-weight-bold
+  line-height: $line-height-lg
+  letter-spacing: 0.01em
+
+.tag
+  font-family: $font-family-body
+  font-weight: $font-weight-bold
+  font-size: $font-size-xxxs
+  line-height: $line-height-sm
+  text-transform: uppercase
+  letter-spacing: 0.1em
+  color: $color-secondary-500
+  white-space: nowrap
+
+.withTag
+  border-left: 2px solid $color-secondary-500
+  margin: -$m-sm
+  padding: $m-sm
+
+.listBody
+  grid-template-columns: $default-project-columns !important
+
+  td
+    +flex-container(row, flex-start,center)
+    font-size: $font-size-xs
+    line-height: $line-height-lg
+
+.listHeader
+  grid-template-columns: $default-project-columns !important
+
+  th
+    color: #5B6486
+    font-weight: $font-weight-medium
+    font-size: $font-size-xs
+    line-height: $line-height-lg
+
+.assignListBody
+  @extend .listBody
+
+.assignListHeader
+  @extend .listHeader

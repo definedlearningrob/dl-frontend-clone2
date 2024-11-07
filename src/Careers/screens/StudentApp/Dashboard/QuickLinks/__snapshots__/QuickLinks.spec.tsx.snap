@@ -1,0 +1,587 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuickLinks with disabled assessment should render only one link 1`] = `
+<div>
+  <h5
+    class="text-sm xxxl:text-base mb-sm"
+  >
+    Highlights
+  </h5>
+  <ul
+    class="flex flex-col gap-sm"
+  >
+    <li>
+      <a
+        class="flex gap-x !border !border-neutral-300 rounded-sm items-start leading-lg text-xs group/link hover:!border-primary-500 hover:!bg-primary-200 p-x"
+        href="/career-review-survey"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 bg-primary-200 rounded-sm group-hover/link:bg-white text-primary-500 bg-primary-200 p-xs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <div
+          class="text-font-primary font-medium tracking-normal grow flex flex-col gap-xxs xxxl:gap-xs self-center"
+        >
+          <h5
+            class="mb-0 font-medium leading-base text-xs"
+          >
+            Career review survey
+          </h5>
+        </div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm self-start group-hover/link:bg-white text-primary-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a
+        class="flex gap-x !border !border-neutral-300 rounded-sm items-start leading-lg text-xs group/link hover:!border-primary-500 hover:!bg-primary-200 p-x"
+        href="/final-report"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 bg-primary-200 rounded-sm group-hover/link:bg-white text-primary-500 bg-primary-200 p-xs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <div
+          class="text-font-primary font-medium tracking-normal grow flex flex-col gap-xxs xxxl:gap-xs self-center"
+        >
+          <h5
+            class="mb-0 font-medium leading-base text-xs"
+          >
+            Final Report
+          </h5>
+        </div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm self-start group-hover/link:bg-white text-primary-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`QuickLinks with enabled assessment with assessment in-progress should render all links 1`] = `
+<div>
+  <h5
+    class="text-sm xxxl:text-base mb-sm"
+  >
+    Highlights
+  </h5>
+  <ul
+    class="flex flex-col gap-sm"
+  >
+    <li>
+      <a
+        class="flex gap-x !border !border-neutral-300 rounded-sm items-start leading-lg text-xs group/link hover:!border-primary-500 hover:!bg-primary-200 p-x"
+        href="/choose-pathway"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 bg-primary-200 rounded-sm group-hover/link:bg-white text-primary-500 bg-primary-200 p-xs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <div
+          class="text-font-primary font-medium tracking-normal grow flex flex-col gap-xxs xxxl:gap-xs self-center"
+        >
+          <h5
+            class="mb-0 font-medium leading-base text-xs"
+          >
+            Assessment recommendations
+          </h5>
+        </div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm self-start group-hover/link:bg-white text-primary-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a
+        class="flex gap-x !border !border-neutral-300 rounded-sm items-start leading-lg text-xs group/link hover:!border-primary-500 hover:!bg-primary-200 p-x"
+        href="/onboarding"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 bg-primary-200 rounded-sm group-hover/link:bg-white text-primary-500 bg-primary-200 p-xs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <div
+          class="text-font-primary font-medium tracking-normal grow flex flex-col gap-xxs xxxl:gap-xs self-center"
+        >
+          <h5
+            class="mb-0 font-medium leading-base text-xs"
+          >
+            Continue assessment
+          </h5>
+          <p
+            class="mb-0 font-regular leading-base text-xxs"
+          >
+            Last updated: Sep 1, 2021
+          </p>
+        </div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm self-start group-hover/link:bg-white text-primary-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a
+        class="flex gap-x !border !border-neutral-300 rounded-sm items-start leading-lg text-xs group/link hover:!border-primary-500 hover:!bg-primary-200 p-x"
+        href="/career-review-survey"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 bg-primary-200 rounded-sm group-hover/link:bg-white text-primary-500 bg-primary-200 p-xs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <div
+          class="text-font-primary font-medium tracking-normal grow flex flex-col gap-xxs xxxl:gap-xs self-center"
+        >
+          <h5
+            class="mb-0 font-medium leading-base text-xs"
+          >
+            Career review survey
+          </h5>
+        </div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm self-start group-hover/link:bg-white text-primary-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a
+        class="flex gap-x !border !border-neutral-300 rounded-sm items-start leading-lg text-xs group/link hover:!border-primary-500 hover:!bg-primary-200 p-x"
+        href="/final-report"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 bg-primary-200 rounded-sm group-hover/link:bg-white text-primary-500 bg-primary-200 p-xs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <div
+          class="text-font-primary font-medium tracking-normal grow flex flex-col gap-xxs xxxl:gap-xs self-center"
+        >
+          <h5
+            class="mb-0 font-medium leading-base text-xs"
+          >
+            Final Report
+          </h5>
+        </div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm self-start group-hover/link:bg-white text-primary-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`QuickLinks with enabled assessment with completed assessment should render all links 1`] = `
+<div>
+  <h5
+    class="text-sm xxxl:text-base mb-sm"
+  >
+    Highlights
+  </h5>
+  <ul
+    class="flex flex-col gap-sm"
+  >
+    <li>
+      <a
+        class="flex gap-x !border !border-neutral-300 rounded-sm items-start leading-lg text-xs group/link hover:!border-primary-500 hover:!bg-primary-200 p-x"
+        href="/choose-pathway"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 bg-primary-200 rounded-sm group-hover/link:bg-white text-primary-500 bg-primary-200 p-xs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <div
+          class="text-font-primary font-medium tracking-normal grow flex flex-col gap-xxs xxxl:gap-xs self-center"
+        >
+          <h5
+            class="mb-0 font-medium leading-base text-xs"
+          >
+            Assessment recommendations
+          </h5>
+        </div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm self-start group-hover/link:bg-white text-primary-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a
+        class="flex gap-x !border !border-neutral-300 rounded-sm items-start leading-lg text-xs group/link hover:!border-primary-500 hover:!bg-primary-200 p-x"
+        href="/onboarding"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 bg-primary-200 rounded-sm group-hover/link:bg-white text-primary-500 bg-primary-200 p-xs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <div
+          class="text-font-primary font-medium tracking-normal grow flex flex-col gap-xxs xxxl:gap-xs self-center"
+        >
+          <h5
+            class="mb-0 font-medium leading-base text-xs"
+          >
+            Retake assessment
+          </h5>
+          <p
+            class="mb-0 font-regular leading-base text-xxs"
+          >
+            Last updated: Sep 1, 2021
+          </p>
+        </div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm self-start group-hover/link:bg-white text-primary-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a
+        class="flex gap-x !border !border-neutral-300 rounded-sm items-start leading-lg text-xs group/link hover:!border-primary-500 hover:!bg-primary-200 p-x"
+        href="/career-review-survey"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 bg-primary-200 rounded-sm group-hover/link:bg-white text-primary-500 bg-primary-200 p-xs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <div
+          class="text-font-primary font-medium tracking-normal grow flex flex-col gap-xxs xxxl:gap-xs self-center"
+        >
+          <h5
+            class="mb-0 font-medium leading-base text-xs"
+          >
+            Career review survey
+          </h5>
+        </div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm self-start group-hover/link:bg-white text-primary-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a
+        class="flex gap-x !border !border-neutral-300 rounded-sm items-start leading-lg text-xs group/link hover:!border-primary-500 hover:!bg-primary-200 p-x"
+        href="/final-report"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 bg-primary-200 rounded-sm group-hover/link:bg-white text-primary-500 bg-primary-200 p-xs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <div
+          class="text-font-primary font-medium tracking-normal grow flex flex-col gap-xxs xxxl:gap-xs self-center"
+        >
+          <h5
+            class="mb-0 font-medium leading-base text-xs"
+          >
+            Final Report
+          </h5>
+        </div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm self-start group-hover/link:bg-white text-primary-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`QuickLinks with enabled assessment with not completed assessment should render assessment and survey links 1`] = `
+<div>
+  <h5
+    class="text-sm xxxl:text-base mb-sm"
+  >
+    Highlights
+  </h5>
+  <ul
+    class="flex flex-col gap-sm"
+  >
+    <li>
+      <a
+        class="flex gap-x !border !border-neutral-300 rounded-sm items-start leading-lg text-xs group/link hover:!border-primary-500 hover:!bg-primary-200 p-x"
+        href="/onboarding/assessment/step/1/question/1"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 bg-primary-200 rounded-sm group-hover/link:bg-white text-primary-500 bg-primary-200 p-xs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <div
+          class="text-font-primary font-medium tracking-normal grow flex flex-col gap-xxs xxxl:gap-xs self-center"
+        >
+          <h5
+            class="mb-0 font-medium leading-base text-xs"
+          >
+            Take the assessment
+          </h5>
+        </div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm self-start group-hover/link:bg-white text-primary-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a
+        class="flex gap-x !border !border-neutral-300 rounded-sm items-start leading-lg text-xs group/link hover:!border-primary-500 hover:!bg-primary-200 p-x"
+        href="/career-review-survey"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 bg-primary-200 rounded-sm group-hover/link:bg-white text-primary-500 bg-primary-200 p-xs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <div
+          class="text-font-primary font-medium tracking-normal grow flex flex-col gap-xxs xxxl:gap-xs self-center"
+        >
+          <h5
+            class="mb-0 font-medium leading-base text-xs"
+          >
+            Career review survey
+          </h5>
+        </div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm self-start group-hover/link:bg-white text-primary-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a
+        class="flex gap-x !border !border-neutral-300 rounded-sm items-start leading-lg text-xs group/link hover:!border-primary-500 hover:!bg-primary-200 p-x"
+        href="/final-report"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 bg-primary-200 rounded-sm group-hover/link:bg-white text-primary-500 bg-primary-200 p-xs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <div
+          class="text-font-primary font-medium tracking-normal grow flex flex-col gap-xxs xxxl:gap-xs self-center"
+        >
+          <h5
+            class="mb-0 font-medium leading-base text-xs"
+          >
+            Final Report
+          </h5>
+        </div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm self-start group-hover/link:bg-white text-primary-500 p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+`;

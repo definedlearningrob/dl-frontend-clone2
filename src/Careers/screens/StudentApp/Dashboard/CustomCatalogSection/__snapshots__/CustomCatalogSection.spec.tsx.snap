@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomCatalogSection should render correctly 1`] = `
+<div>
+  <div
+    class="bg-white p-sm xxxl:p-md h-full rounded-sm flex flex-col"
+  >
+    <img
+      alt="custom-catalog"
+      class="rounded-sm mb-sm max-h-[116px] xxxl:max-h-[186px] w-full object-cover"
+      src="null"
+    />
+    <h5
+      class="text-xs text-font-primary mb-xs xxxl:mb-sm"
+    >
+      Test DC Catalog
+    </h5>
+    <p
+      class="text-xxs xxxl:text-sm text-font-secondary leading-lg line-clamp-6 xxxl:line-clamp-[7] mb-sm xxxl:mb-base"
+    >
+      Test description, test description, test description, test description, test description, test description, test description, test description, test description, test description, test description, test description.
+    </p>
+    <a
+      class="mt-auto"
+      href="/catalog"
+    >
+      <button
+        class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] w-full -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+        data-testid="button"
+        type="button"
+      >
+        <span
+          class="items-center flex justify-center gap-xs"
+        >
+          View catalog
+        </span>
+      </button>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`CustomCatalogSection should render skeleton correctly 1`] = `
+<div>
+  <div
+    class="bg-white p-sm xxxl:p-md h-full rounded-sm flex flex-col"
+  >
+    <div
+      class="h-[116px] xxxl:h-[186px] mb-sm shrink-0"
+    >
+      <div
+        class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+      />
+    </div>
+    <div
+      class="mb-xs xxxl:mb-sm"
+    >
+      <div
+        class="skeleton-rectangle skeletonRectangle radius-sm height-tiny width-full-width darker animated"
+      />
+    </div>
+    <div
+      class="h-full mb-sm xxxl:mb-base"
+    >
+      <div
+        class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+      />
+    </div>
+    <div>
+      <div
+        class="skeleton-rectangle skeletonRectangle radius-sm height-base width-full-width darker animated"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CustomCatalogSection shouldn't render anything when there are no catalogs assigned 1`] = `<div />`;

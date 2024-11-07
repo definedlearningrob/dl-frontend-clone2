@@ -1,0 +1,41 @@
+@import '@shared/stylesheets/config.sass'
+
+.messagesMainPanel
+  +flex-container(column)
+  width: 100%
+
+.headerWrapper
+  +flex-container(row, false, center)
+  flex: 0 0 80px
+  padding: 0 $m-base
+  border-bottom: 1px solid $color-background
+
+  :global(.button .-text-icon__text)
+    padding: 0
+    font-size: $font-size-xs
+
+  +media-breakpoint-up(xxl)
+    flex: 0 0 95px
+    padding: 0 $m-md
+
+.backwardButton
+  margin-bottom: $m-xs
+
+.headerTitle
+  +ellipsis-multiline(2)
+  margin: 0
+  font-size: $font-size-sm
+  color: $color-primary-500
+
+.headerSubTitle
+  color: $color-font-secondary
+  font-size: $font-size-xs
+
+.messagesWrapper
+  +scrollbar()
+  padding: $m-xs 0
+  flex-grow: 1
+  overflow: auto
+
+.inputWrapper
+  padding: $m-sm

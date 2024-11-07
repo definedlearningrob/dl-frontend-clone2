@@ -1,0 +1,17 @@
+@import '@shared/stylesheets/config.sass'
+
+.unreadMark
+  background-color: $color-secondary-500
+  border-radius: 50%
+  height: $m-xxs
+  left: 10px
+  position: absolute
+  visibility: hidden
+  width: $m-xxs
+
+  +media-breakpoint-up(xxl)
+    width: $m-xs
+    height: $m-xs
+
+.visible
+  visibility: visible

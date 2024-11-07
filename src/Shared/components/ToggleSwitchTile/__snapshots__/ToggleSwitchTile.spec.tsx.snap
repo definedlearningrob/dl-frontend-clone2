@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleSwitchTile should render the section correctly 1`] = `
+<div>
+  <section
+    class="flex justify-between items-center gap-xs transition-colors border border-neutral-300 rounded-xs hover:border-neutral-400 !border-primary-500 bg-primary-200 p-sm xxxl:p-base"
+  >
+    <div
+      class="flex items-start flex-grow flex-shrink-0 basis-0 gap-sm"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm transition-colors bg-white p-xs"
+          data-testid="icon"
+        >
+          <svg />
+        </div>
+      </div>
+      <div
+        class="leading-lg"
+      >
+        <span
+          class="text-xs xxxl:text-sm"
+        >
+          Some text about the setting
+        </span>
+      </div>
+    </div>
+    <label
+      class="switch"
+    >
+      <div
+        class="content"
+      >
+        <input
+          checked=""
+          class="switchInput"
+          data-testid="setting-switch"
+          name="setting"
+          role="switch"
+          type="checkbox"
+        />
+        <span
+          class="slider"
+        />
+      </div>
+    </label>
+  </section>
+</div>
+`;

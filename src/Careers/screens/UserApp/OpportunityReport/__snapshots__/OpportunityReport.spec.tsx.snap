@@ -1,0 +1,1084 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OpportunityReport should render correctly 1`] = `
+<div>
+  <div
+    class="p-base xxxl:p-md"
+    id="read"
+  >
+    <div
+      class="pb-xs mb-xs xxxl:mb-sm sticky top-lg z-high bg-neutral-200"
+    >
+      <div
+        class="flex justify-between items-center"
+      >
+        <h4
+          class="text-base xxxl:text-lg mb-0"
+        >
+          Opportunities Report
+        </h4>
+        <div
+          class="flex gap-sm"
+        >
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+            data-testid="button"
+            type="button"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Change filters
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col gap-base xxxl:gap-md"
+    >
+      <div
+        class="card"
+      >
+        <div>
+          <h5
+            class="mb-xs xxxl:mb-sm text-sm xxxl:text-base"
+          >
+            Summary
+          </h5>
+          <div
+            class="mb-sm xxxl:mb-base text-xs xxxl:text-sm leading-lg"
+          >
+            Below you can see an overview of 
+            <div
+              class="inline"
+              data-state="closed"
+            >
+              <span
+                class="text-primary-500 font-medium cursor-default"
+              >
+                all grade levels
+              </span>
+            </div>
+             including 
+            <div
+              class="inline"
+              data-state="closed"
+            >
+              <span
+                class=""
+              >
+                324 students
+              </span>
+            </div>
+             in 
+            <div
+              class="inline"
+              data-state="closed"
+            >
+              <span
+                class=""
+              >
+                2023/2024
+              </span>
+            </div>
+            , with a specific focus on 
+            <div
+              class="inline"
+              data-state="closed"
+            >
+              <span
+                class="text-primary-500 font-medium cursor-default"
+              >
+                all teachers
+              </span>
+            </div>
+            , 
+            <div
+              class="inline"
+              data-state="closed"
+            >
+              <span
+                class="text-primary-500 font-medium cursor-default"
+              >
+                all schools
+              </span>
+            </div>
+             and 
+            <div
+              class="inline"
+              data-state="closed"
+            >
+              <span
+                class="text-primary-500 font-medium cursor-default"
+              >
+                all classes
+              </span>
+            </div>
+            .
+          </div>
+          <h5
+            class="mb-xs xxxl:mb-sm text-sm xxxl:text-base"
+          >
+            Statistics
+          </h5>
+          <p
+            class="mb-xs xxxl:mb-sm text-xs xxxl:text-sm leading-lg flex items-center"
+          >
+            An overview of the number of opportunities and virtual internships.
+          </p>
+          <div
+            class="flex w-1/2 mx-auto rounded-sm border border-neutral-300 [&_div]:border-r [&_div]:border-neutral-300 [&_div:last-child]:border-none overflow-hidden"
+          >
+            <div
+              class="flex-1"
+            >
+              <h6
+                class="p-sm text-xxs xxxl:text-xs font-bold bg-neutral-200 mb-0 whitespace-nowrap border-b border-b-neutral-300"
+              >
+                Opportunities
+              </h6>
+              <div
+                class="bg-white px-sm py-xs text-xs xxxl:text-sm text-center font-medium"
+              >
+                444
+              </div>
+            </div>
+            <div
+              class="flex-1"
+            >
+              <h6
+                class="p-sm text-xxs xxxl:text-xs font-bold bg-neutral-200 mb-0 whitespace-nowrap border-b border-b-neutral-300"
+              >
+                Virtual Internships
+              </h6>
+              <div
+                class="bg-white px-sm py-xs text-xs xxxl:text-sm text-center font-medium"
+              >
+                26
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="col-span-2 text-center border border-neutral-300 rounded-sm p-base xxxl:p-md"
+        >
+          <h6
+            class="text-xs xxxl:text-sm mb-xs"
+          >
+            Opportunity Applications
+          </h6>
+          <p
+            class="text-xxs xxxl:text-xs italic leading-lg xxxl:mb-base"
+          >
+            Below you can see the number of applications grouped by opportunity types.
+          </p>
+          <div
+            class="recharts-responsive-container"
+            style="width: 100%; height: 126px; min-width: 0;"
+          />
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="border border-neutral-300 rounded-sm p-base xxxl:p-md text-center"
+        >
+          <h6
+            class="text-xs xxxl:text-sm mb-xs"
+          >
+            Opportunity Applications
+          </h6>
+          <p
+            class="text-xxs xxxl:text-xs italic leading-lg xxxl:mb-base"
+          >
+            Below you can see number of applications grouped by clusters.
+          </p>
+          <div
+            class="recharts-responsive-container"
+            style="width: 100%; height: 82px; min-width: 0; min-height: 150px;"
+          />
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="mb-sm xxxl:mb-base flex justify-between items-end"
+        >
+          <div
+            class="flex flex-col gap-xs"
+          >
+            <h5
+              class="inline me-xs text-sm xxxl:text-base mb-0"
+            >
+              Full Data 
+              <span
+                class="text-neutral-600"
+              >
+                (3 results)
+              </span>
+            </h5>
+            <p
+              class="text-neutral-700 text-xs xxxl:text-sm mb-0"
+            >
+              Below you can see all collected data about opportunity applications.
+            </p>
+          </div>
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+            data-testid="button"
+            type="button"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Download CSV
+            </span>
+          </button>
+        </div>
+        <div
+          class="border border-neutral-300 rounded-sm mb-base"
+        >
+          <div
+            class="flex gap-sm items-center bg-neutral-200 px-sm py-xs xxxl:px-base xxxl:py-x rounded-t-sm"
+          >
+            <label
+              class="flex flex-col items-start text-font-primary w-full !w-[300px] xxxl:!w-[320px] gap-xxxs"
+            >
+              <div
+                class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs flex-row-reverse"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[14px]"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <span
+                  class="flex gap-xxs grow"
+                >
+                  <input
+                    class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[14px] text-xxs"
+                    placeholder="Search by student name or student ID"
+                    type="text"
+                  />
+                </span>
+              </div>
+            </label>
+            <label
+              class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+              data-testid="clusters-select"
+            >
+              
+              <div
+                class="min-w-[240px] css-b62m3t-container"
+              >
+                <span
+                  class="css-1f43avz-a11yText-A11yText"
+                  id="react-select-2-live-region"
+                />
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  class="css-1f43avz-a11yText-A11yText"
+                  role="log"
+                />
+                <div
+                  class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                >
+                  <div
+                    class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+                  >
+                    <div
+                      class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                      id="react-select-2-placeholder"
+                    >
+                      Search by clusters or pathways
+                    </div>
+                    <div
+                      class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                      data-value=""
+                    >
+                      <input
+                        aria-activedescendant=""
+                        aria-autocomplete="list"
+                        aria-describedby="react-select-2-placeholder"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        autocapitalize="none"
+                        autocomplete="off"
+                        autocorrect="off"
+                        class="select__input"
+                        id="select-input-clusterAndPathway"
+                        role="combobox"
+                        spellcheck="false"
+                        style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                        tabindex="0"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                  >
+                    <div
+                      aria-hidden="true"
+                      class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <input
+                    name="clusterAndPathway"
+                    type="hidden"
+                    value=""
+                  />
+                </div>
+              </div>
+            </label>
+          </div>
+          <div
+            class="border border-neutral-300 rounded-b-sm h-[512px] xxxl:h-[576px] overflow-auto"
+          >
+            <div
+              class="overflow-hidden flex flex-col h-full min-h-0"
+            >
+              <div
+                class="grow z-lowest scrollbar"
+              >
+                <table
+                  class="w-full table-fixed overflow-auto"
+                >
+                  <thead
+                    class="sticky top-0 bg-white z-lower tableHead"
+                  >
+                    <tr>
+                      <th
+                        class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                        colspan="1"
+                        style="width: 60px;"
+                      >
+                        <div
+                          class=""
+                        >
+                          ID
+                        </div>
+                      </th>
+                      <th
+                        class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                        colspan="1"
+                        style="width: 80px;"
+                      >
+                        <div
+                          class=""
+                        >
+                          Name
+                        </div>
+                      </th>
+                      <th
+                        class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                        colspan="1"
+                        style="width: 50px;"
+                      >
+                        <div
+                          class=""
+                        >
+                          Grade Level
+                        </div>
+                      </th>
+                      <th
+                        class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                        colspan="1"
+                        style="width: 150px;"
+                      >
+                        <div
+                          class=""
+                        >
+                          Opportunity Name
+                        </div>
+                      </th>
+                      <th
+                        class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                        colspan="1"
+                        style="width: 85px;"
+                      >
+                        <div
+                          class=""
+                        >
+                          Opportunity Type
+                        </div>
+                      </th>
+                      <th
+                        class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                        colspan="1"
+                        style="width: 80px;"
+                      >
+                        <div
+                          class=""
+                        >
+                          Clusters
+                        </div>
+                      </th>
+                      <th
+                        class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                        colspan="1"
+                        style="width: 80px;"
+                      >
+                        <div
+                          class=""
+                        >
+                          Pathways
+                        </div>
+                      </th>
+                      <th
+                        class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                        colspan="1"
+                        style="width: 65px;"
+                      >
+                        <div
+                          class=""
+                        >
+                          Is favorite?
+                        </div>
+                      </th>
+                      <th
+                        class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                        colspan="1"
+                        style="width: 80px;"
+                      >
+                        <div
+                          class=""
+                        >
+                          Application Status
+                        </div>
+                      </th>
+                      <th
+                        class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                        colspan="1"
+                        style="width: 80px;"
+                      >
+                        <div
+                          class=""
+                        >
+                          Application Deadline
+                        </div>
+                      </th>
+                      <th
+                        class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                        colspan="1"
+                        style="width: 80px;"
+                      >
+                        <div
+                          class=""
+                        >
+                          Check-ins submitted
+                        </div>
+                      </th>
+                      <th
+                        class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                        colspan="1"
+                        style="width: 90px;"
+                      >
+                        <div
+                          class=""
+                        >
+                          Assignments submitted
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr
+                      class="group/row border-b border-neutral-300 transition-colors"
+                      tabindex="-1"
+                    >
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          242424
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="break-words"
+                        >
+                          Amanda Brown
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        3
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          Test
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        Virtual Internship
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            data-state="closed"
+                          >
+                            <div
+                              class="font-medium leading-lg flex items-center whitespace-nowrap bg-neutral-200 text-font-secondary p-xxxs text-xxs rounded-xs gap-xxxs"
+                            >
+                              2 clusters
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            data-state="closed"
+                          >
+                            <div
+                              class="font-medium leading-lg flex items-center whitespace-nowrap bg-neutral-200 text-font-secondary p-xxxs text-xxs rounded-xs gap-xxxs"
+                            >
+                              2 pathways
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md flex justify-center"
+                      />
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          Accepted
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          N/A
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          0/0
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          3/6
+                        </span>
+                      </td>
+                    </tr>
+                    <tr
+                      class="group/row border-b border-neutral-300 transition-colors"
+                      tabindex="-1"
+                    >
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        />
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="break-words"
+                        >
+                          Jon James
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        7
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          Test 2
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        Virtual Internship
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            data-state="closed"
+                          >
+                            <div
+                              class="font-medium leading-lg flex items-center whitespace-nowrap bg-neutral-200 text-font-secondary p-xxxs text-xxs rounded-xs gap-xxxs"
+                            >
+                              2 clusters
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            data-state="closed"
+                          >
+                            <div
+                              class="font-medium leading-lg flex items-center whitespace-nowrap bg-neutral-200 text-font-secondary p-xxxs text-xxs rounded-xs gap-xxxs"
+                            >
+                              2 pathways
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md flex justify-center"
+                      />
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          Accepted
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          N/A
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          0/0
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          0/0
+                        </span>
+                      </td>
+                    </tr>
+                    <tr
+                      class="group/row border-b border-neutral-300 transition-colors"
+                      tabindex="-1"
+                    >
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        />
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="break-words"
+                        >
+                          Jon James
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        7
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          molestias
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        Practicum
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            data-state="closed"
+                          >
+                            <div
+                              class="font-medium leading-lg flex items-center whitespace-nowrap bg-neutral-200 text-font-secondary p-xxxs text-xxs rounded-xs gap-xxxs"
+                            >
+                              2 clusters
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            data-state="closed"
+                          >
+                            <div
+                              class="font-medium leading-lg flex items-center whitespace-nowrap bg-neutral-200 text-font-secondary p-xxxs text-xxs rounded-xs gap-xxxs"
+                            >
+                              2 pathways
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md flex justify-center"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 p-xs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          Accepted
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          01/01/2055
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          N/A
+                        </span>
+                      </td>
+                      <td
+                        class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                      >
+                        <span
+                          class="truncate block max-w-fit"
+                          data-state="closed"
+                        >
+                          N/A
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div
+                class="flex justify-between px-base py-xs xxxl:px-md"
+              >
+                <div
+                  class="flex items-center gap-sm"
+                >
+                  <span
+                    class="text-xxs xxxl:text-xs text-font-secondary"
+                  >
+                    Results: 1 - 3 of 3
+                  </span>
+                  <div
+                    class="selectContainer pageSizeSelect"
+                  >
+                    <label
+                      class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+                    >
+                      <div
+                        class=" css-b62m3t-container"
+                      >
+                        <span
+                          class="css-1f43avz-a11yText-A11yText"
+                          id="react-select-3-live-region"
+                        />
+                        <span
+                          aria-atomic="false"
+                          aria-live="polite"
+                          aria-relevant="additions text"
+                          class="css-1f43avz-a11yText-A11yText"
+                          role="log"
+                        />
+                        <div
+                          class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                        >
+                          <div
+                            class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--has-value css-1fdsijx-ValueContainer"
+                          >
+                            <div
+                              class="!m-0 !leading-[22px] h-[22px] select__single-value css-1dimb5e-singleValue"
+                            >
+                              25
+                            </div>
+                            <div
+                              class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                              data-value=""
+                            >
+                              <input
+                                aria-activedescendant=""
+                                aria-autocomplete="list"
+                                aria-expanded="false"
+                                aria-haspopup="true"
+                                aria-label="Select page size"
+                                autocapitalize="none"
+                                autocomplete="off"
+                                autocorrect="off"
+                                class="select__input"
+                                id="react-select-3-input"
+                                role="combobox"
+                                spellcheck="false"
+                                style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                                tabindex="0"
+                                type="text"
+                                value=""
+                              />
+                            </div>
+                          </div>
+                          <div
+                            class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                          >
+                            <div
+                              aria-hidden="true"
+                              class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                            >
+                              <div
+                                class="flex"
+                              >
+                                <div
+                                  class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 text-neutral-800"
+                                  data-testid="icon"
+                                >
+                                  <div
+                                    class="h-sm w-sm"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <div
+                  class="flex items-center gap-sm"
+                >
+                  <button
+                    class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !text-primary-500 !font-regular !gap-xxs !p-xs hover:!shadow-none -default bg-white text-font-primary hover:bg-primary-200 outline-primary-500 border-white hover:border-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+                    data-testid="button"
+                    disabled=""
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="items-center flex justify-center gap-xs"
+                    >
+                      Prev
+                    </span>
+                  </button>
+                  <nav
+                    aria-label="Table pagination"
+                  >
+                    <ul
+                      class="flex gap-xs"
+                    >
+                      <li>
+                        <button
+                          class="w-md py-xs text-center rounded-xxs text-xs xxxl:text-sm hover:bg-primary-200 bg-primary-200 text-primary-500"
+                        >
+                          1
+                        </button>
+                      </li>
+                    </ul>
+                  </nav>
+                  <button
+                    class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !text-primary-500 !font-regular !gap-xxs !p-xs hover:!shadow-none -default bg-white text-font-primary hover:bg-primary-200 outline-primary-500 border-white hover:border-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs flex-row-reverse border"
+                    data-testid="button"
+                    disabled=""
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="items-center flex justify-center gap-xs"
+                    >
+                      Next
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

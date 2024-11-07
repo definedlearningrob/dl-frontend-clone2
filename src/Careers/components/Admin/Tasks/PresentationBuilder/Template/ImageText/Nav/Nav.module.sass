@@ -1,0 +1,66 @@
+@import '@shared/stylesheets/config'
+
+$nav-img-height: 200px
+$nav-img-width: 350px
+
+.imageTextContainer
+  display: flex
+  flex-direction: column
+  margin: $m-base
+
+.left
+  flex-direction: row
+
+.right
+  flex-direction: row-reverse
+
+.texts
+  max-height: 200px
+  max-width: 600px
+  margin: auto
+  overflow: hidden
+
+.imageWrapper
+  +flex-container(row, center, center)
+  cursor: default
+
+.iconWrapper
+  +flex-container(row, center, center)
+  background-color: $color-background
+  border: 2px dashed transparent
+  border-radius: $border-radius-xs
+  cursor: pointer
+  display: flex
+  margin-bottom: $m-xs
+  margin-top: -$m-lg
+  max-height: $nav-img-height
+  max-width: $nav-img-width
+  min-height: $nav-img-height
+  min-width: $nav-img-width
+  padding: $m-2xl
+
+.left,
+.right
+  .iconWrapper
+    min-height: 300px
+    min-width: 250px
+
+  .texts
+    max-height: 350px
+
+.icon
+  color: $color-white
+  height: 200px
+  width: 300px
+
+.fill
+  background-position: center center
+  background-size: cover
+
+.contain
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: contain
+
+.links
+  margin-top: $m-sm

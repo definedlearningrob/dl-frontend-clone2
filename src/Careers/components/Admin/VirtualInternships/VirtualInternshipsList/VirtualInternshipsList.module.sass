@@ -1,0 +1,46 @@
+@import '@shared/stylesheets/config.sass'
+
+$table-grid-template: 1fr 224px 184px 224px 154px
+$table-grid-template-xxxl: 1fr 272px 232px 272px 180px
+
+.name
+  color: $color-neutral-700
+
+.table
+  height: 100%
+
+.tableBody, .tableHead
+  grid-template-columns: $table-grid-template
+
+  +media-breakpoint-up(xxxl)
+    grid-template-columns: $table-grid-template-xxxl
+
+.tableHeadCell
+  +flex-container(row, false, center)
+  font-size: $font-size-sm
+  font-weight: $font-weight-bold
+  padding: 0 0 0 $m-xs
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+    padding: 0 0 $m-sm 0
+
+.tableBodyCell
+  +flex-container(row, false, center)
+  font-size: $font-size-xs
+  padding: $m-xs
+
+.emptyTableWrapper
+  flex: 0 1 auto
+
+.emptyTableMessage
+  font-size: $font-size-xs
+  padding: $m-x
+  text-align: center
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+    padding: $m-sm
+
+.pathwaysWrapper
+  +ellipsis-multiline(1)

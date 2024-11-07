@@ -1,0 +1,49 @@
+@import '@shared/stylesheets/config'
+
+.titleWrapper
+  :global(.presentation-textcontainer)
+    margin-left: 0 !important
+    margin-right: 0 !important
+    margin-bottom: $m-md !important
+
+.contentWrapper
+  flex: 1 0 50%
+
+.onDark
+  background-color: $color-white !important
+  border-color: $color-primary-500
+
+.btnWrapper
+  align-self: center
+
+.textWrapper
+  height: 100%
+
+  &:global(.presentation-textcontainer)
+    margin: 0!important
+    height: 100%
+
+.noMargin
+  h4
+    margin-bottom: 0
+
+.description
+  height: 100%
+
+.button
+  white-space: nowrap
+  width: 100%
+
+.selectedOnDark
+  border-color: $color-white
+
+.selectedOnLight
+  border-color: $color-primary-500
+
+.alignLeft
+  text-align: left
+
+.flex
+  +flex-container(row, space-between, stretch)
+  margin-bottom: $m-sm
+  gap: $m-sm

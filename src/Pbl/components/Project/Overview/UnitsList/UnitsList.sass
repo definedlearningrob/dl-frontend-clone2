@@ -1,0 +1,27 @@
+@import '@shared/stylesheets/config.sass'
+
+.user-project-overview-units
+  &__list
+    line-height: $line-height-sm
+
+    &.-truncated
+      -webkit-box-orient: vertical
+      -webkit-line-clamp: 2
+      display: -webkit-box
+      overflow: hidden
+      text-overflow: ellipsis
+
+      & *
+        display: inline
+
+  &__item
+    color: $color-primary-500
+    display: inline
+
+    &:not(:first-of-type)
+      &::before
+        content: ', '
+
+  &__button
+    color: $color-primary-500
+    font-weight: $font-weight-medium

@@ -1,0 +1,49 @@
+@import '@shared/stylesheets/config.sass'
+
+.container
+  +flex-container(column)
+  border: $border-width-xs solid $color-border-disabled
+  border-radius: $border-radius-sm
+  padding: $m-sm
+  gap: $m-xs
+
+.iconWrapper
+  background-color: $color-neutral-200
+  border-radius: $border-radius-xs
+  padding: $m-xs
+  width: fit-content
+
+.icon
+  width: $icon-size-xs
+  height: $icon-size-xs
+
+  +media-breakpoint-up(xxl)
+    width: $icon-size
+    height: $icon-size
+
+.title
+  +flex-container(row, flex-start, center)
+  margin: 0
+  font-size: $font-size-xs
+  gap: $m-base
+
+  &::first-letter
+    text-transform: uppercase
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-base
+
+.titleItem
+  position: relative
+  &:not(:first-child)::before
+    +pseudoelement
+    width: $m-xs
+    height: $m-xs
+    background-color: $color-neutral-300
+    border-radius: 50%
+    margin: auto 0
+    left: -$m-sm
+
+.content
+  color: $color-font-secondary
+  font-size: $font-size-xs

@@ -1,0 +1,43 @@
+@import '@shared/stylesheets/config'
+
+.wrapper
+  +flex-container(row, false, center)
+
+.teamIconWrapper
+  background-color: $color-primary-200
+  border-radius: $border-radius-sm
+  flex-shrink: 0
+  margin-right: $m-xs
+  padding: $m-xs
+
+  +media-breakpoint-up(xxl)
+    margin-right: $m-sm
+
+.teamIcon
+  height: $m-sm
+  width: $m-sm
+
+  +media-breakpoint-up(xxl)
+    height: $m-base
+    width: $m-base
+
+  path
+    fill: $color-primary-600
+
+.teamName
+  +ellipsis-multiline(2)
+  margin-bottom: 0
+  margin-right: $m-xl
+  font-size: $font-size-xs
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-sm
+
+.memberCount
+  font-size: $font-size-xxxs
+  margin-bottom: 0
+  color: $color-neutral-700
+  text-transform: uppercase
+  font-weight: $font-weight-bold
+
+

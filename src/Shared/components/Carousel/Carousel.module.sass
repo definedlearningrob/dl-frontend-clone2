@@ -1,0 +1,83 @@
+@import '@shared/stylesheets/config'
+
+$fade-width: 100px
+
+.leftArrowWrapper
+  &::after
+    bottom: 0
+    content: ''
+    position: absolute
+    left: -$m-base
+    top: 0
+    width: $fade-width
+    z-index: $z-higher
+
+    +media-breakpoint-up(xxxl)
+      left: -$m-md
+
+.rightArrowWrapper
+  &::after
+    border-bottom-left-radius: $m-xs
+    border-bottom-right-radius: $m-xs
+    bottom: 0
+    content: ''
+    position: absolute
+    right: -$m-base
+    top: 0
+    width: $fade-width
+    z-index: $z-higher
+
+    +media-breakpoint-up(xxxl)
+      right: -$m-md
+
+.whiteBackgroundRight
+  &::after
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(240, 242, 247, 0.67) 66.15%, rgba(240, 242, 247, 0) 100%)
+
+.neutralBackgroundRight
+  &::after
+    background: linear-gradient(270deg, #F0F2F7 0%, rgba(240, 242, 247, 0.67) 66.15%, rgba(240, 242, 247, 0) 100%)
+
+.whiteBackgroundLeft
+  &::after
+    background: linear-gradient(270deg, rgba(240, 242, 247, 0) 0%, rgba(240, 242, 247, 0.67) 66.15%,  #FFFFFF 100%)
+
+.neutralBackgroundLeft
+  &::after
+    background: linear-gradient(270deg, rgba(240, 242, 247, 0) 0%, rgba(240, 242, 247, 0.67) 66.15%,  #F0F2F7 100%)
+
+.list
+  position: relative
+
+  & :global
+    .menu-wrapper
+      padding:
+        bottom: $m-sm
+        top: $m-sm
+
+    .menu-item-wrapper:not(:last-child) > :first-child
+      margin-right: $m-base
+
+    .menu-wrapper--inner
+      +flex-container(row, flex-start, stretch)
+
+    .scroll-menu-arrow
+      &--disabled
+        visibility: hidden
+
+    .horizontal-menu
+      position: relative
+
+    .scroll-menu-arrow:first-child
+      left: 0
+      position: absolute
+      z-index: $z-highest
+      top: $m-sm
+      bottom: $m-sm
+
+    .scroll-menu-arrow:last-child
+      position: absolute
+      right: 0
+      z-index: $z-higher
+      top: $m-sm
+      bottom: $m-sm

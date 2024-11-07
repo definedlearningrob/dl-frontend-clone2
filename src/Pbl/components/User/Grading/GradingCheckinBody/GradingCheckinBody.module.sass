@@ -1,0 +1,29 @@
+@import '@shared/stylesheets/config'
+
+.card
+  +flex-container(column)
+  margin-top: $m-sm
+
+.cardBody
+  +flex-container(column)
+  gap: $m-base
+  padding: $m-base
+
+.cardFooter
+  border-top: 1px solid $color-neutral-300
+  padding: $m-base
+
+.checkinAnswerWrapper
+  border: 1px solid $color-background
+  border-radius: $border-radius-sm
+  padding: $m-sm
+
+.checkinAnswer
+  display: block
+  margin-top: $m-xs
+
+.statusContainer
+  +flex-container(row, space-between)
+
+.emptyContainer
+  +flex-container(row, center, center)

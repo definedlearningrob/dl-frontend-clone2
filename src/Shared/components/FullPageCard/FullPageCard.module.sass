@@ -1,0 +1,32 @@
+@import '@shared/stylesheets/config.sass'
+
+$card-sm-max-width: 800px
+$card-md-max-width: 1048px
+$card-lg-max-width: 1200px
+
+.wrapper
+  +flex-container(row, center, center)
+
+.card
+  background-color: $color-white
+  border-radius: $border-radius-sm
+  height: 90%
+  max-width: 90%
+  overflow-y: auto
+  overflow-x: hidden
+  padding: $m-md
+  width: 100%
+
+.cardSmall
+  +media-breakpoint-up(md)
+    max-width: $card-sm-max-width
+
+.cardMedium
+  +media-breakpoint-up(md)
+    max-width: $card-md-max-width
+
+.cardLarge
+  +media-breakpoint-up(md)
+    max-width: $card-lg-max-width
+
+

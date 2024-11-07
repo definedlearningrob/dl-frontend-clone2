@@ -1,0 +1,27 @@
+@import '@shared/stylesheets/config'
+
+$badge-height: 19px
+$badge-width: 28px
+
+.badgeWrapper
+  +flex-container(row, flex-start, center)
+  color: $color-font-primary
+  margin-bottom: $m-sm
+
+.badgeText
+  font-size: $font-size-lg
+  font-weight: $font-weight-bold
+  line-height: $line-height-base
+  margin-bottom: 0
+  margin-right: $m-xs
+
+.badge
+  background-color: $color-neutral-300
+  border-radius: $border-radius-base
+  font-size: $font-size-xxs
+  font-weight: $font-weight-regular
+  height: $badge-height
+  line-height: $line-height-base
+  padding: $m-xxxs $m-xs
+  text-align: center
+  width: $badge-width

@@ -1,0 +1,116 @@
+.messages-left-panel__modal__rich-text-area
+    .tox.tox-tinymce
+        background-color: $color-white
+        border: solid 2px $color-border
+        border-radius: $m-sm
+        height: 220px
+        margin-top: $m-xxs
+        width: 100%
+
+        .tox-editor-container
+            .tox-editor-header
+                .tox-toolbar-overlord
+                    .tox-toolbar__primary
+                        background-color: $color-white
+                        border-bottom: solid 1px $color-border
+
+                        .tox-toolbar__group
+                            position: relative
+                            text-align: center
+
+                            &:after
+                                content: ''
+                                height: 60%
+                                width: 1px
+                                position: absolute
+                                right: 0
+                                top: $m-xs
+                                background-color: $color-background
+
+                            &:last-of-type:after
+                                display: none
+
+                            .tox-split-button
+                                &:hover,
+                                &:active,
+                                &:focus
+                                    background-color: $color-background
+                                    box-shadow: 0 0 0 1px $color-background inset
+                                    color: $color-primary-500
+
+                                    .tox-split-button__chevron
+                                        background-color: $color-background
+                                        color: $color-primary-500
+
+                                        svg
+                                            fill: $color-primary-500
+
+                                        &:hover,
+                                        &:active,
+                                        &:focus
+                                            background-color: $color-background
+                                            color: $color-primary-500
+
+                                .tox-split-button__chevron
+                                    &:hover,
+                                    &:active,
+                                    &:focus
+                                        background-color: $color-background
+                                        color: $color-primary-500
+
+                                        svg
+                                            fill: $color-primary-500
+
+                                .tox-tbtn--enabled
+                                    svg
+                                        fill: $color-primary-500
+
+                            .tox-tbtn.tox-tbtn--enabled,
+                                background-color: $color-background
+                                color: $color-white
+
+                                .tox-icon
+                                    svg
+                                        fill: $color-primary-500
+
+                            .tox-tbtn
+                                color: $color-font-primary
+
+                                &:hover,
+                                &:active,
+                                &:focus
+                                    background-color: $color-background
+                                    color: $color-primary-500
+
+                                    .tox-icon
+                                        svg
+                                            fill: $color-primary-500
+
+                                .tox-icon
+                                    svg
+                                        fill: $color-font-primary
+
+                            .tox-tbtn--select
+                                &:hover,
+                                &:active,
+                                &:focus
+                                    background-color: $color-background
+                                    color: $color-primary-500
+
+                                    .tox-tbtn__select-chevron
+                                        svg
+                                            fill: $color-primary-500
+
+        .tox-toolbar__overflow
+            .tox-toolbar__group
+                .tox-split-button
+                    &:hover,
+                    &:active,
+                    &:focus
+                        background-color: $color-background
+                        color: $color-primary-500
+
+                    .tox-tbtn
+                        .tox-icon.tox-tbtn__icon-wrap
+                            svg
+                                fill: $color-primary-500

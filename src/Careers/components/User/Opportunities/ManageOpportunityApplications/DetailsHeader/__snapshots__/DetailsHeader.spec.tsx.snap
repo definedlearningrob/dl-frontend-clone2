@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsHeader should render correctly 1`] = `
+<div>
+  <div
+    class="flex justify-between items-center col-gap-md py-sm px-base border-b border-b-neutral-300 xxxl:py-base xxxl:px-md"
+  >
+    <div>
+      <h4
+        class="text-sm mb-xxs xxxl:text-base"
+      >
+        Application Details
+      </h4>
+      <div
+        class="flex items-center gap-xs"
+      >
+        <a
+          class="inline-block"
+          href="/students/123/portfolio"
+        >
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] link -link py-xs px-base leading-[22px] text-white"
+            data-testid="button"
+            type="button"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Applicant Student 1
+            </span>
+          </button>
+        </a>
+        <div
+          class="h-xxs w-xxs bg-neutral-300 rounded-lg"
+        />
+        <span
+          class="whitespace-nowrap text-xs"
+        >
+          <span
+            class="inline"
+            data-state="closed"
+          >
+            May 1, 2023
+          </span>
+        </span>
+      </div>
+    </div>
+    <button
+      aria-label="Send Message"
+      class="icon-button -primary -size-md -square p-xs"
+      data-testid="icon-button"
+      type="button"
+    >
+      <div
+        class="icon icon-button__icon -sm-size"
+        data-testid="icon"
+      >
+        <div />
+      </div>
+    </button>
+  </div>
+</div>
+`;

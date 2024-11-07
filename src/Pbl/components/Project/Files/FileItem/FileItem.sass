@@ -1,0 +1,23 @@
+@import '@shared/stylesheets/config.sass'
+
+.user-project-file-item
+  &__icon
+    path
+      fill: $color-primary-500
+
+
+  &__button
+    +button-unstyled
+    background-color: $color-background
+    border-radius: $border-radius-xs
+    cursor: pointer
+    display: grid
+    fill: $color-primary-500
+    height: $m-md
+    margin-left: auto
+    place-items: center
+    transition: all $transition-duration $transition-function
+    flex: 0 0 $m-md
+
+    &:hover
+      background-color: $color-border-hover

@@ -1,0 +1,25 @@
+@import '@shared/stylesheets/config'
+
+.textarea
+  textarea
+    margin: 0
+
+.formActions
+  +flex-container(row, space-between, center)
+  gap: $m-xs
+
+.formInfo
+  +flex-container(row, flex-start, center)
+  background-color: $color-secondary-200
+  border-radius: $border-radius-xs
+  font-size: $font-size-xs
+  gap: $m-xxs
+  padding: $m-xxs $m-xs
+
+.formInfoIcon
+  display: inline-block
+  color: $color-warning-500
+
+.formButtons
+  +flex-container(row)
+  gap: $m-xs

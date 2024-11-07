@@ -1,0 +1,64 @@
+@import '@shared/stylesheets/config.sass'
+
+.skeleton-dashboard
+  padding: $m-xs
+
+  &__my-reports
+    &-item
+      +flex-container(row, center, center)
+
+    &-icon
+      &#{&}
+        &#{&}
+          border-radius: $border-radius-sm
+          height: 48px
+          width: 48px
+
+    &.-horizontal
+      display: flex
+      flex: 1
+
+      .skeleton-dashboard__my-reports-item:not(:first-of-type)
+        margin-left: $m-sm
+
+.skeleton-sidebar
+  +flex-container(column)
+  +box-shadow-200($color-font-primary)
+  height: 100vh
+  overflow-x: hidden
+  position: fixed
+  width: $navbar-expand-width
+  top: 0
+  z-index: $z-higher
+
+  &__logo-icon
+    +flex-container(row, center, center)
+    cursor: pointer
+    height: $m-md + $m-xs
+    margin: $m-sm 0 $m-md
+    padding: 0 $m-sm
+    width: $navbar-expand-width
+
+  &__item
+    margin-bottom: $m-xs
+
+    .skeleton-rectangle
+      background-color: $color-neutral-200
+      border-radius: 0
+      height: $m-lg + $m-xs
+
+  &__footer
+    display: grid
+    gap: $m-xs
+    grid-template-rows: 1fr 1fr 1fr
+    margin: auto $m-xs $m-base $m-xs
+
+.skeleton-header
+  &__user
+    display: grid
+    gap: $m-xxs
+    grid-template-rows: 1fr 1fr
+
+    .skeleton-rectangle
+      padding: $m-xxs
+      width: 100px

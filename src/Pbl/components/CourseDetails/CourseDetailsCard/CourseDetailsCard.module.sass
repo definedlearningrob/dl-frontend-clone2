@@ -1,0 +1,53 @@
+@import '@shared/stylesheets/config.sass'
+
+$max-card-height: 400px
+
+.card
+  max-height: $max-card-height
+  overflow: auto
+
+  &::-webkit-scrollbar
+    width: $m-xxs
+    height: $m-xxs
+
+  &::-webkit-scrollbar-track
+    background-color: transparent
+
+  &::-webkit-scrollbar-thumb
+    background-color: $color-neutral-300
+    border-radius: $border-radius-xs
+
+  &::-webkit-scrollbar-corner
+    background-color: transparent
+
+.cardIconWrapper
+  background-color: $color-neutral-200
+  border-radius: $border-radius-sm
+  padding: $m-xs
+
+.cardIcon
+  color: $color-primary-500
+
+.cardHeader
+  flex-direction: column
+  gap: $m-base
+
+.cardTitle
+  font-size: $font-size-xs
+  margin-bottom: $m-xs
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-sm
+
+.cardContent
+  color: $color-font-primary
+  font-size: $font-size-xxs
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-xs
+
+.emptyCard
+  text-align: center
+
+.emptyCardImage
+  max-width: 50%

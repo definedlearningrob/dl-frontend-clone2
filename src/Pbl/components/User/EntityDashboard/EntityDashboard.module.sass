@@ -1,0 +1,10 @@
+@import '@shared/stylesheets/config.sass'
+
+$header-height: 142px
+
+.adminDashboard
+  display: grid
+  grid: auto-flow / 1fr 2fr
+  grid-template-rows: calc(100vh - $header-height)
+  gap: $m-base
+

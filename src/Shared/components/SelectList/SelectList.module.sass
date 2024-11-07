@@ -1,0 +1,96 @@
+@import '@shared/stylesheets/config.sass'
+
+$menu-height: 200px
+$chip-height: 32px
+$chip-gap: $m-xxs
+
+.label
+  display: inline-block
+  color: $color-neutral-700
+  font-size: $font-size-xs
+  margin-bottom: $m-xs
+
+.errorMessage
+  color: $color-danger-500
+  font-size: $font-size-xxs
+  margin: $m-xxs 0 0
+  line-height: $line-height-sm
+
+.inputError
+  border-color: $color-danger-500 !important
+
+.checkbox
+  margin-bottom: 0
+
+.removeIcon
+  color: $color-primary-500
+  cursor: pointer
+
+.avatar
+  outline: 1px solid $color-neutral-300
+  border-radius: $border-radius-lg
+  flex: 0
+
+.inputWrapper
+  +flex-container(row, stretch, center)
+  +scrollbar
+  flex-wrap: wrap
+  gap: $chip-gap
+  max-height: calc(3 * $chip-height + 4 * $chip-gap) // 3 rows + gaps
+  padding: $m-xs
+  cursor: text
+
+.filledInputWrapper
+  padding: $m-xxs
+
+.controlWrapper
+  margin-bottom: $m-sm
+
+.searchIcon
+  color: $color-neutral-400
+  margin-right: $m-xs
+
+.selectWrapper
+  :global
+    .select__menu
+      border: none
+      border-radius: 0 !important
+      box-shadow: none !important
+      height: $menu-height
+      position: static
+
+    .select__menu-list
+      +scrollbar
+
+    .select__value-container
+      padding: 0 !important
+
+    .select__multi-value
+      +flex-container(row, flex-start, center)
+      gap: $m-xxs
+      background-color: $color-neutral-200
+      border-radius: $border-radius-sm
+      margin: 0
+      padding: $m-xxs
+      cursor: default
+      height: $chip-height
+
+    .select__multi-value__label
+      color: $color-neutral-800
+      font-size: $font-size-xs
+      padding: 0
+
+    .select__multi-value__remove
+      padding: 0
+      cursor: pointer
+      flex-shrink: 0
+      flex-basis: $m-base
+
+      &:hover
+        background-color: transparent
+        svg
+          fill: $color-white !important
+
+    :global(.select__option--is-disabled)
+      background-color: $color-background
+

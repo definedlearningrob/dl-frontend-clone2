@@ -1,0 +1,68 @@
+@import '@shared/stylesheets/config.sass'
+
+.accordionList
+  margin-bottom: $m-xs
+
+.button
+  +flex-container(row, flex-start, center)
+  +button-unstyled
+  border-radius: $border-radius-xs
+  color: $color-primary-500
+  padding: $m-xxs
+  transition: background-color $transition-duration * 0.5 $transition-function
+  width: 100%
+
+.buttonDisabled
+  color: $color-font-primary
+  cursor: default
+
+.item
+  +flex-container(row, space-between, center)
+  border: 1px solid $color-border
+  border-radius: $border-radius-xs
+  color: $color-primary-500
+  margin-top: $m-xs
+  padding: $m-xxs
+
+.clearIcon
+  color: $color-danger-500
+  padding: 0
+
+.extensionIcon
+  margin-right: $m-xs
+  padding: $m-xxs $m-xxs $m-xxs 0 
+
+  &#{&}
+    border-radius: $border-radius-xs
+    cursor: pointer
+
+  path
+    fill: $color-primary-500
+
+.extensionHeader
+  margin-left: $m-xxs
+
+.assignButton
+  margin-top: $m-xs
+  width: 100%
+  &#{&}
+    padding: $m-xxs
+
+.icon
+  fill: $color-primary-500
+  margin-left: $m-xs
+
+.iconActive
+  transform: rotate(180deg)
+
+.iconDisabled
+  fill: $color-font-primary
+
+.list
+  margin: 0
+  max-height: 0
+  overflow: hidden
+  transition: max-height $transition-duration * 0.5 $transition-function
+
+.listActive
+  max-height: fit-content

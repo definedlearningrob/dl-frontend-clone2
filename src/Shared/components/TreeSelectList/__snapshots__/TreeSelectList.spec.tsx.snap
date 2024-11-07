@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TreeSelectList renders correctly with selected values 1`] = `
+<div>
+  <div
+    class="mb-sm"
+  >
+    <label
+      class="flex gap-xxs text-xs leading-lg mb-xs"
+      for="tree-select-input"
+    >
+      Label
+    </label>
+    <div
+      class="flex items-center flex-wrap gap-xs bg-white transition-colors border rounded-sm max-h-[122px] scrollbar border-neutral-300 hover:border-neutral-400 focus-within:!border-primary-500 px-xs py-xxs"
+    >
+      <div
+        class="flex gap-xxs items-center p-xxs rounded-xs bg-neutral-200"
+        data-testid="selected-value-chip"
+      >
+        <div
+          class="flex items-center gap-xs"
+        >
+          <div
+            class="rounded-full outline outline-1 outline-neutral-300"
+          >
+            <div
+              class="avatar"
+              data-testid="avatar-image"
+            >
+              <div
+                class="avatar__image sb-avatar"
+                style="display: inline-block; vertical-align: middle; width: 24px; height: 24px; border-radius: 100%; font-family: Helvetica, Arial, sans-serif;"
+              >
+                <div
+                  class="avatar__image sb-avatar__text"
+                  style="width: 24px; height: 24px; line-height: initial; text-align: center; color: rgb(106, 110, 124); background: rgb(252, 252, 252); border-radius: 100%;"
+                  title="Jennifer Fox"
+                >
+                  <div
+                    style="display: table; table-layout: fixed; width: 100%; height: 100%;"
+                  >
+                    <span
+                      style="display: table-cell; vertical-align: middle; font-size: 100%; white-space: nowrap;"
+                    >
+                      <span />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span
+            class="whitespace-nowrap text-xs text-font-secondary"
+          >
+            Jennifer Fox
+          </span>
+        </div>
+        <span
+          data-state="closed"
+        >
+          <button
+            aria-label="Remove Jennifer Fox"
+            class="icon-button !p-0"
+            data-testid="icon-button"
+            type="button"
+          >
+            <div
+              class="icon icon-button__icon"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+          </button>
+        </span>
+      </div>
+      <div
+        class="flex gap-xxs items-center p-xxs rounded-xs bg-neutral-200"
+        data-testid="selected-value-chip"
+      >
+        <div
+          class="flex items-center gap-xs"
+        >
+          <div
+            class="rounded-full outline outline-1 outline-neutral-300"
+          >
+            <div
+              class="avatar"
+              data-testid="avatar-image"
+            >
+              <div
+                class="avatar__image sb-avatar"
+                style="display: inline-block; vertical-align: middle; width: 24px; height: 24px; border-radius: 100%; font-family: Helvetica, Arial, sans-serif;"
+              >
+                <div
+                  class="avatar__image sb-avatar__text"
+                  style="width: 24px; height: 24px; line-height: initial; text-align: center; color: rgb(106, 110, 124); background: rgb(252, 252, 252); border-radius: 100%;"
+                  title="Amy Smith"
+                >
+                  <div
+                    style="display: table; table-layout: fixed; width: 100%; height: 100%;"
+                  >
+                    <span
+                      style="display: table-cell; vertical-align: middle; font-size: 100%; white-space: nowrap;"
+                    >
+                      <span />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span
+            class="whitespace-nowrap text-xs text-font-secondary"
+          >
+            Amy Smith
+          </span>
+        </div>
+        <span
+          data-state="closed"
+        >
+          <button
+            aria-label="Remove Amy Smith"
+            class="icon-button !p-0"
+            data-testid="icon-button"
+            type="button"
+          >
+            <div
+              class="icon icon-button__icon"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+          </button>
+        </span>
+      </div>
+      <input
+        class="flex-1 min-w-[25%] outline-none text-xs placeholder:text-font-secondary"
+        id="tree-select-input"
+        placeholder=""
+        value=""
+      />
+    </div>
+  </div>
+  <ul
+    class="h-[280px] scrollbar"
+  >
+    <li
+      aria-label="Calculus"
+      class="flex items-center gap-xs py-xs pr-xs w-full border-b border-neutral-300 cursor-pointer focus-visible:bg-primary-200 focus-within:bg-primary-200"
+      style="padding-left: 8px;"
+    >
+      <span
+        data-state="closed"
+      >
+        <button
+          aria-label="Expand"
+          class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base "
+          data-testid="icon-button"
+          type="button"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+        </button>
+      </span>
+      <div
+        class="flex items-center"
+      >
+        <div
+          class="checkbox"
+        >
+          <input
+            class="checkbox__input"
+            data-testid="checkbox"
+            tabindex="0"
+            type="checkbox"
+          />
+          <label
+            class="checkbox__label"
+          />
+        </div>
+        <div
+          class="flex items-center gap-xs"
+        >
+          Calculus
+        </div>
+      </div>
+    </li>
+    <li
+      aria-label="Statistics"
+      class="flex items-center gap-xs py-xs pr-xs w-full border-b border-neutral-300 cursor-pointer focus-visible:bg-primary-200 focus-within:bg-primary-200 bg-primary-200"
+      style="padding-left: 8px;"
+    >
+      <span
+        data-state="closed"
+      >
+        <button
+          aria-label="Expand"
+          class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base "
+          data-testid="icon-button"
+          type="button"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+        </button>
+      </span>
+      <div
+        class="flex items-center"
+      >
+        <div
+          class="checkbox"
+        >
+          <input
+            checked=""
+            class="checkbox__input"
+            data-testid="checkbox"
+            tabindex="0"
+            type="checkbox"
+          />
+          <label
+            class="checkbox__label -checked"
+          />
+        </div>
+        <div
+          class="flex items-center gap-xs"
+        >
+          Statistics
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

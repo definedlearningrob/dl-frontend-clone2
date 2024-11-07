@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InstitutionApplicationActions with commonApp disabled should remove direct application if already created 1`] = `
+<div>
+  <div
+    class="border border-neutral-300 p-sm w-fit rounded-sm"
+  >
+    <div
+      class="flex items-center gap-xs mb-sm"
+    >
+      <div
+        class="bg-primary-200 rounded-md w-fit"
+      >
+        <div
+          class="icon mb-0 text-primary-500 -sm-size"
+          data-testid="icon"
+        >
+          <div
+            class="!w-sm !h-sm"
+          />
+        </div>
+      </div>
+      <p
+        class="!mb-0 text-primary-500 text-xs font-medium leading-lg"
+      >
+        You have added this institution to your application list.
+      </p>
+    </div>
+    <button
+      class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+      data-testid="button"
+      type="button"
+    >
+      <span
+        class="items-center flex justify-center gap-xs"
+      >
+        Remove application
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`InstitutionApplicationActions with commonApp enabled with is applied as false should render correctly 1`] = `
+<div>
+  <a
+    href="https://null"
+    target="_blank"
+  >
+    <button
+      class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+      data-testid="button"
+      type="button"
+    >
+      <span
+        class="items-center flex justify-center gap-xs"
+      >
+        Direct application
+      </span>
+    </button>
+  </a>
+</div>
+`;
+
+exports[`InstitutionApplicationActions with commonApp enabled with is applied as true should render correctly 1`] = `
+<div>
+  <div
+    class="border border-neutral-300 p-sm w-fit rounded-sm"
+  >
+    <div
+      class="flex items-center gap-xs mb-sm"
+    >
+      <div
+        class="bg-primary-200 rounded-md w-fit"
+      >
+        <div
+          class="icon mb-0 text-primary-500 -sm-size"
+          data-testid="icon"
+        >
+          <div
+            class="!w-sm !h-sm"
+          />
+        </div>
+      </div>
+      <p
+        class="!mb-0 text-primary-500 text-xs font-medium leading-lg"
+      >
+        You have added this institution to your application list.
+      </p>
+    </div>
+    <button
+      class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] ml-md px-xs py-sm -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+      data-testid="button"
+      type="button"
+    >
+      <span
+        class="items-center flex justify-center gap-xs"
+      >
+        See progress
+      </span>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+@import '@shared/stylesheets/config.sass'
+
+$xxxl-opportunity-preview-width: 307px
+$opportunity-preview-width: 247px
+
+.opportunityPreview
+  width: $opportunity-preview-width
+
+  +media-breakpoint-up(xxxl)
+    width: $xxxl-opportunity-preview-width
+
+// INFO: this is temporary solution and will be removed afetr replacing image picker component
+.imagePickerWrapper
+  :global(.image-input__placeholder)
+    width: 100%

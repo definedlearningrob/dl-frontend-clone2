@@ -1,0 +1,36 @@
+@import '@shared/stylesheets/config.sass'
+
+.classroomContainer
+  +flex-container(row, center, center)
+  border-radius: $m-xs
+  border: 1px solid $color-primary-500
+  color: $color-primary-500
+  margin-top: $m-sm
+  padding: $m-sm $m-md
+
+.link
+  border: 1px $color-border solid
+  border-radius: $border-radius-sm
+  display: grid
+  grid-template-columns: 4fr 1fr
+  margin-top: $m-sm
+  position: relative
+
+  $link: &
+
+  :global(.text-input__input)
+    border: 0 !important
+    color: $color-primary-500
+    padding:
+      left: $m-sm
+      right: $m-sm
+
+    &:focus
+      border: 0
+      #{$link}
+        border: 1px solid $color-primary-500
+
+    &:hover
+      border: 0
+      #{$link}
+        border: 1px solid $color-border-hover

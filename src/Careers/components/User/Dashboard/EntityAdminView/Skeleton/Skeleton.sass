@@ -1,0 +1,48 @@
+@import '@shared/stylesheets/config.sass'
+
+.skeleton-dashboard-entity
+  &__info
+    overflow: hidden
+
+    .skeleton-rectangle
+      margin-bottom: $m-base
+
+  &__tables
+    &.-with-padding
+      padding: $m-base
+    
+    &.-without-margin
+      &#{&}
+        padding: 0 $m-base $m-base $m-base
+
+    .skeleton-rectangle
+      margin-bottom: $m-xs
+    
+    &-header
+      +flex-container(row, space-between, flex-start)
+
+    &-heading
+      &#{&}
+        width: 10%
+
+    &-search
+      height: $m-lg
+      &#{&}
+        border-radius: $border-radius-sm
+
+    &-labels
+      display: grid
+      grid-template-columns: 2fr repeat(4,1fr)
+      margin-top: $m-base
+    
+    &-items
+      margin-top: $m-base
+      overflow: hidden
+
+    &-item
+      display: grid
+      grid-template-columns: 2fr repeat(4,1fr)
+      margin-bottom: $m-sm
+
+      &-name
+        padding: $m-sm

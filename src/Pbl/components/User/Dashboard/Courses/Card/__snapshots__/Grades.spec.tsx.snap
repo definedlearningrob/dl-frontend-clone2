@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grades should renders correctly 1`] = `
+<div>
+  <ul
+    class="gradesWrapper"
+    data-testid="grades-summary"
+  >
+    <li
+      class="grade"
+      data-testid="grade-list-element"
+    >
+      <p
+        class="gradeText"
+        data-testid="grade-text"
+      >
+        Grades: 2-4
+      </p>
+    </li>
+  </ul>
+</div>
+`;

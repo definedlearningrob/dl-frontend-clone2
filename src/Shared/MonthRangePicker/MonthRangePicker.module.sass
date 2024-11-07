@@ -1,0 +1,48 @@
+@import '@shared/stylesheets/config.sass'
+
+.monthRangePicker
+  :global(.react-datepicker-wrapper)
+    width: 100%
+    z-index: 1
+
+  :global(.react-datepicker__header)
+    background-color: $color-white !important
+    border-bottom: none
+
+  :global(.react-datepicker__header .react-datepicker__header--custom)
+    padding: $m-xs 0 0 0
+
+  :global(.react-datepicker__month-container)
+    background-color: $color-white !important
+
+  :global(.react-datepicker__monthPicker)
+    margin: $m-x
+
+  :global(.react-datepicker__month-text--keyboard-selected:hover)
+    color: $color-white
+
+  :global(.react-datepicker__month-text--keyboard-selected)
+    color: $color-white
+
+  :global(.react-datepicker__month .react-datepicker__month-text)
+    padding: $m-xs
+
+  :global(.react-datepicker__month-text--range-start)
+    background-color: $color-primary-500 !important
+    color: $color-white !important
+
+  :global(.react-datepicker__month-text--range-end)
+    background-color: $color-primary-500 !important
+    color: $color-white !important
+
+  :global(.react-datepicker__month-text--in-range)
+    background-color: $color-primary-200
+    color: $color-neutral-800
+
+  :global(.react-datepicker__month-text--in-selecting-range)
+    background-color: $color-primary-200
+    color: $color-neutral-800
+
+  :global(.react-datepicker__month-text--in-selecting-range:hover)
+    background-color: $color-primary-500
+    color: $color-white

@@ -1,0 +1,37 @@
+@import '@shared/stylesheets/config.sass'
+
+.selectChip
+  +flex-container(row)
+  align-items: center
+  background-color: $color-primary-500
+  border-radius: $border-radius-sm
+  color: $color-white
+  font-size: $font-size-xs
+  padding: $m-xxs $m-xs
+  overflow: hidden
+
+  :global(.select__multi-value__label)
+    color: $color-white
+    font-size: $font-size-xs
+    padding: 0
+
+.selectMultiValue
+  +flex-container(row)
+  align-self: stretch
+  margin: 0
+  overflow: hidden
+
+.selectContainer
+  +flex-container(column)
+  gap: $m-xs
+  position: relative
+
+.label
+  color: $color-font-secondary
+  font-size: $font-size-xs
+
+.optionItem
+  padding: $m-xs $m-md
+
+  &:hover
+    background-color: $color-primary-200

@@ -1,0 +1,101 @@
+@import '@shared/stylesheets/config'
+
+.creatable-select
+  border: none
+  cursor: pointer
+  margin-bottom: $m-sm
+
+  &__menu
+    border-radius: $m-xs !important
+    border: none
+    overflow: hidden
+    background-color: $color-white !important
+    +sidebar-shadow($color-font-primary)
+
+  &__menu-list
+    padding: 0 !important
+
+  &__control
+    box-shadow: 0 0 0 1px $color-border inset
+    border: none !important
+    border-radius: $m-xs !important
+    color: $color-font-secondary
+    cursor: pointer !important
+    background-color: $color-white !important
+
+    &:hover
+      box-shadow: 0 0 0 1px $color-border-hover inset !important
+
+    &.select__control--is-focused
+      box-shadow: 0 0 0 1px $color-primary-500 inset !important
+
+    &--is-disabled
+      background-color: $color-neutral-200 !important
+
+  &__value-container
+    padding: $m-x $m-sm !important
+    font-size: $font-size-sm
+
+  &__input-container
+    margin: 0 !important
+    padding: 0 !important
+    line-height: $m-base
+
+  &__placeholder
+    color: $color-neutral-400 !important
+
+  &__option
+    cursor: pointer !important
+
+    &--is-focused
+      background-color: $color-primary-200 !important
+
+    &--is-selected
+      background-color: $color-white !important
+      color: $color-primary-500 !important
+
+    &--is-disabled
+      cursor: not-allowed !important
+
+  &__label
+    color: $color-font-secondary
+    display: inline-block
+    font-size: $font-size-sm
+    margin-bottom: $m-xs
+    text-transform: capitalize
+
+  &__single-value
+    color: $color-font-primary !important
+
+    &--is-disabled
+      color: $color-neutral-400 !important
+
+  &__indicator-separator
+    background-color: $color-border !important
+
+  &__dropdown-indicator
+    color: $color-font-primary !important
+
+  &.-lg
+    & .select__value-container
+      padding: $m-sm !important
+
+  &.-sm
+    & .select__value-container
+      font-size: $font-size-xs
+      padding: $m-xs !important
+
+    & .select__control
+      min-height: 0
+
+  &.-xs
+    & .select__value-container
+      font-size: $font-size-xxs
+      padding: $m-xs !important
+
+    & .select__control
+      min-height: 0
+
+  &.-xs, .-multi
+    & .select__value-container
+      padding: $m-xxs !important

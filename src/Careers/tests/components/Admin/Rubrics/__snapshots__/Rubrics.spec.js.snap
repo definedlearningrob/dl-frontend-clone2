@@ -1,0 +1,2790 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminAppRubricEdit Header hide [Display name input, Duplicate button, Archive button] for users different than SYSTEM_ADMIN 1`] = `
+<div>
+  <div
+    class="Toastify"
+  />
+  <div
+    class="p-base pt-xs xxxl:p-md xxxl:pt-sm"
+    id="read"
+  >
+    <h2
+      class="text-sm mb-sm"
+    >
+      Edit rubric
+    </h2>
+    <div
+      class="card"
+    >
+      <div
+        class="rubrics-builder__header"
+        data-testid="rubric-header"
+      >
+        <h5
+          class="text-xs xxxl:text-sm"
+        >
+          Main information
+        </h5>
+      </div>
+      <div
+        class="mb-sm xxxl:mb-base flex flex-col gap-sm"
+      >
+        <div
+          class="flex w-full gap-sm items-start"
+        >
+          <label
+            class="flex flex-col items-start text-font-primary w-full basis-1/2 gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              <span
+                class="text-danger-600 mr-xxs"
+              >
+                *
+              </span>
+              <div
+                class="injected-content"
+              >
+                Name
+              </div>
+            </div>
+            <div
+              class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+            >
+              <span
+                class="flex gap-xxs grow"
+              >
+                <input
+                  aria-label="Name"
+                  aria-required="true"
+                  class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                  data-testid="rubric-name-input"
+                  id="Name"
+                  name="name"
+                  placeholder="Type here..."
+                  type="text"
+                  value="New rubric"
+                />
+              </span>
+            </div>
+          </label>
+        </div>
+        <div
+          class="relative"
+        >
+          <div
+            class="text-editor"
+            data-testid="rubric-description-input"
+            labelclass="!text-xs"
+          >
+            <label
+              class="flex flex-col gap-xs w-full"
+            >
+              <div
+                class="text-font-primary leading-lg flex gap-xxxs text-xs"
+              >
+                <span
+                  class="text-danger-600 mr-xxs"
+                >
+                  *
+                </span>
+                Description
+                <span
+                  data-state="closed"
+                >
+                  <span
+                    class="p-xs shadow-md no-underline rounded-full bg-secondary-200 text-xxs border-secondary-500 text-secondary-500 ml-xs border"
+                  >
+                    <span
+                      class="mr-xxs inline-flex align-middle"
+                    >
+                      <div
+                        class="icon -xs-size"
+                        data-testid="icon"
+                      >
+                        <div />
+                      </div>
+                    </span>
+                    AI Assist
+                  </span>
+                </span>
+              </div>
+              <textarea
+                id="Description"
+                name="Description"
+                style="visibility: hidden;"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mb-sm xxxl:mb-base"
+      >
+        <h6>
+          Rubric
+        </h6>
+        <div
+          class="overflow-x-auto rubricEditor"
+        >
+          <table
+            class="w-full border-collapse table-auto border border-neutral-300"
+            data-testid="rubric-table-builder"
+          >
+            <caption
+              class="sr-only"
+            >
+              Rubric editor: New rubric
+            </caption>
+            <thead>
+              <tr>
+                <th
+                  data-testid="rubrics-reserved-cell"
+                >
+                  <span
+                    class="font-bold"
+                  >
+                    Levels
+                  </span>
+                </th>
+                <th
+                  class="max-w-[145px] xxxl:max-w-[200px]"
+                  data-testid="rubric-criteria-label"
+                >
+                  <div
+                    class="mb-xs relative pt-x xxxl:pt-base"
+                  >
+                    <div>
+                      <label
+                        class="block text-neutral-700 !leading-lg text-xxs xxxl:text-xs mb-xxxs before:content-[\\"*\\"] before:pe-xxs before:text-danger-600"
+                        for="score"
+                      >
+                        Score
+                      </label>
+                      <div
+                        class="flex items-center justify-between gap-xs rounded-sm p-xxs bg-white shadow-input"
+                      >
+                        <button
+                          aria-label="Decrease"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          disabled=""
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                        <input
+                          class="bg-white outline-none min-w-0 text-center text-font-secondary leading-sm text-xs xxxl:text-sm"
+                          id="Score"
+                          inputmode="numeric"
+                          required=""
+                          role="input"
+                          value="1"
+                        />
+                        <button
+                          aria-label="Increase"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="absolute right-0 top-0"
+                    >
+                      <span
+                        data-state="closed"
+                      >
+                        <button
+                          aria-label="Delete"
+                          class="icon-button -size-xs -square deleteButton ms-auto !bg-white hover:!bg-danger-100"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <label
+                      class="flex flex-col items-start text-font-primary w-full gap-xxxs"
+                    >
+                      <div
+                        class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                      >
+                        <div
+                          class="injected-content"
+                        >
+                          Name
+                        </div>
+                      </div>
+                      <div
+                        class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                      >
+                        <span
+                          class="flex gap-xxs grow"
+                        >
+                          <input
+                            aria-label="Name"
+                            class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[14px] text-xxs"
+                            id="Name"
+                            name="displayName"
+                            placeholder="Enter rubric name..."
+                            type="text"
+                            value="Test criteria label 1"
+                          />
+                        </span>
+                      </div>
+                    </label>
+                  </div>
+                </th>
+                <th
+                  class="max-w-[145px] xxxl:max-w-[200px]"
+                  data-testid="rubric-criteria-label"
+                >
+                  <div
+                    class="mb-xs relative pt-x xxxl:pt-base"
+                  >
+                    <div>
+                      <label
+                        class="block text-neutral-700 !leading-lg text-xxs xxxl:text-xs mb-xxxs before:content-[\\"*\\"] before:pe-xxs before:text-danger-600"
+                        for="score"
+                      >
+                        Score
+                      </label>
+                      <div
+                        class="flex items-center justify-between gap-xs rounded-sm p-xxs bg-white shadow-input"
+                      >
+                        <button
+                          aria-label="Decrease"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                        <input
+                          class="bg-white outline-none min-w-0 text-center text-font-secondary leading-sm text-xs xxxl:text-sm"
+                          id="Score"
+                          inputmode="numeric"
+                          required=""
+                          role="input"
+                          value="2"
+                        />
+                        <button
+                          aria-label="Increase"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="absolute right-0 top-0"
+                    >
+                      <span
+                        data-state="closed"
+                      >
+                        <button
+                          aria-label="Delete"
+                          class="icon-button -size-xs -square deleteButton ms-auto !bg-white hover:!bg-danger-100"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <label
+                      class="flex flex-col items-start text-font-primary w-full gap-xxxs"
+                    >
+                      <div
+                        class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                      >
+                        <div
+                          class="injected-content"
+                        >
+                          Name
+                        </div>
+                      </div>
+                      <div
+                        class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                      >
+                        <span
+                          class="flex gap-xxs grow"
+                        >
+                          <input
+                            aria-label="Name"
+                            class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[14px] text-xxs"
+                            id="Name"
+                            name="displayName"
+                            placeholder="Enter rubric name..."
+                            type="text"
+                            value=""
+                          />
+                        </span>
+                      </div>
+                    </label>
+                  </div>
+                </th>
+                <th
+                  class="w-[80px]"
+                  data-testid="rubric-new-column"
+                  role="button"
+                >
+                  <span
+                    class="rubrics-builder__new-cell"
+                  >
+                    + 
+                    New
+                  </span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  class="p-x align-middle max-w-[145px] group relative"
+                  data-testid="rubric-heading"
+                >
+                  <div>
+                    <span
+                      data-state="closed"
+                    >
+                      <div
+                        class="heading text-xs xxxl:text-sm font-bold text-neutral-800 mb-xs"
+                        data-testid="rubric-heading-text"
+                      >
+                        Test heading 1
+                      </div>
+                    </span>
+                    <div>
+                      <span
+                        class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                      >
+                        Multiplier:
+                      </span>
+                      <span
+                        class="text-neutral-800 leading-lg text-xxs xxxl:text-xs px-xxs border border-neutral-300 min-w-fit rounded-xs"
+                        data-testid="rubric-heading-multiplier"
+                      >
+                        x1
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    aria-expanded="false"
+                    aria-haspopup="menu"
+                    aria-label="Test heading 1 - actions"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs rounded-sm transition-colors bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs"
+                    data-state="closed"
+                    data-testid="icon-button"
+                    id="radix-trigger"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      />
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      />
+                    </label>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="p-x align-middle max-w-[145px] group relative"
+                  data-testid="rubric-heading"
+                >
+                  <div>
+                    <span
+                      data-state="closed"
+                    >
+                      <div
+                        class="heading text-xs xxxl:text-sm font-bold text-neutral-800 mb-xs"
+                        data-testid="rubric-heading-text"
+                      >
+                        Test heading 2
+                      </div>
+                    </span>
+                    <div>
+                      <span
+                        class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                      >
+                        Multiplier:
+                      </span>
+                      <span
+                        class="text-neutral-800 leading-lg text-xxs xxxl:text-xs px-xxs border border-neutral-300 min-w-fit rounded-xs"
+                        data-testid="rubric-heading-multiplier"
+                      >
+                        x2
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    aria-expanded="false"
+                    aria-haspopup="menu"
+                    aria-label="Test heading 2 - actions"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs rounded-sm transition-colors bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs"
+                    data-state="closed"
+                    data-testid="icon-button"
+                    id="radix-trigger"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      />
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      />
+                    </label>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="rubrics-builder__heading -center"
+                  data-testid="rubric-new-row"
+                  role="button"
+                >
+                  <span
+                    class="rubrics-builder__new-cell"
+                  >
+                    + 
+                    New
+                  </span>
+                </td>
+                <td
+                  class="rubrics-builder__fake-cell"
+                  colspan="2"
+                />
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div
+        class="affected-resources"
+      >
+        <h4
+          class="affected-resources__heading"
+        >
+          Affected products
+        </h4>
+        <div
+          data-testid="affected-resources"
+        >
+          <a
+            class="affected-resources__link"
+            href="/admin/products?showId=1"
+          >
+            test
+          </a>
+        </div>
+      </div>
+      <div
+        class="affected-resources"
+      >
+        <h4
+          class="affected-resources__heading"
+        >
+          Affected assignments
+        </h4>
+        <div
+          data-testid="affected-resources"
+        >
+          <a
+            class="affected-resources__link"
+            href="/admin/lesson-items/assignments/1"
+          >
+            test
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AdminAppRubricEdit RubricsBuilder renders table properly with 2 cells provided 1`] = `
+<div>
+  <div
+    class="Toastify"
+  />
+  <div
+    class="p-base pt-xs xxxl:p-md xxxl:pt-sm"
+    id="read"
+  >
+    <h2
+      class="text-sm mb-sm"
+    >
+      Edit rubric
+    </h2>
+    <div
+      class="card"
+    >
+      <div
+        class="rubrics-builder__header"
+        data-testid="rubric-header"
+      >
+        <h5
+          class="text-xs xxxl:text-sm"
+        >
+          Main information
+        </h5>
+        <div
+          class="flex gap-xxs"
+        >
+          <span
+            data-state="closed"
+          >
+            <button
+              aria-label="Duplicate"
+              class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md rubrics-builder__duplicate"
+              data-testid="rubric-duplicate-button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-base w-base"
+                  />
+                </div>
+              </div>
+            </button>
+          </span>
+          <span
+            data-state="closed"
+          >
+            <button
+              aria-label="Archive"
+              class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md"
+              data-testid="rubric-archive-button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-base w-base"
+                  />
+                </div>
+              </div>
+            </button>
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-sm xxxl:mb-base flex flex-col gap-sm"
+      >
+        <div
+          class="flex w-full gap-sm items-start"
+        >
+          <label
+            class="flex flex-col items-start text-font-primary w-full basis-1/2 gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              <span
+                class="text-danger-600 mr-xxs"
+              >
+                *
+              </span>
+              <div
+                class="injected-content"
+              >
+                Name
+              </div>
+            </div>
+            <div
+              class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+            >
+              <span
+                class="flex gap-xxs grow"
+              >
+                <input
+                  aria-label="Name"
+                  aria-required="true"
+                  class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                  data-testid="rubric-name-input"
+                  id="Name"
+                  name="name"
+                  placeholder="Type here..."
+                  type="text"
+                  value="New filled rubric"
+                />
+              </span>
+            </div>
+          </label>
+          <label
+            class="flex flex-col items-start text-font-primary w-full basis-1/2 gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              <div
+                class="injected-content"
+              >
+                Display name
+              </div>
+              <span
+                class="text-font-secondary ml-xxxs"
+              >
+                (optional)
+              </span>
+            </div>
+            <div
+              class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+            >
+              <span
+                class="flex gap-xxs grow"
+              >
+                <input
+                  aria-label="Display name"
+                  aria-required="false"
+                  class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                  data-testid="rubric-displayname-input"
+                  id="Display name"
+                  name="displayName"
+                  placeholder="Type here..."
+                  type="text"
+                  value="Display Name"
+                />
+              </span>
+            </div>
+          </label>
+        </div>
+        <div
+          class="relative"
+        >
+          <div
+            class="text-editor"
+            data-testid="rubric-description-input"
+            labelclass="!text-xs"
+          >
+            <label
+              class="flex flex-col gap-xs w-full"
+            >
+              <div
+                class="text-font-primary leading-lg flex gap-xxxs text-xs"
+              >
+                <span
+                  class="text-danger-600 mr-xxs"
+                >
+                  *
+                </span>
+                Description
+                <span
+                  data-state="closed"
+                >
+                  <span
+                    class="p-xs shadow-md no-underline rounded-full bg-secondary-200 text-xxs border-secondary-500 text-secondary-500 ml-xs border"
+                  >
+                    <span
+                      class="mr-xxs inline-flex align-middle"
+                    >
+                      <div
+                        class="icon -xs-size"
+                        data-testid="icon"
+                      >
+                        <div />
+                      </div>
+                    </span>
+                    AI Assist
+                  </span>
+                </span>
+              </div>
+              <textarea
+                id="Description"
+                name="Description"
+                style="visibility: hidden;"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mb-sm xxxl:mb-base"
+      >
+        <h6>
+          Rubric
+        </h6>
+        <div
+          class="overflow-x-auto rubricEditor"
+        >
+          <table
+            class="w-full border-collapse table-auto border border-neutral-300"
+            data-testid="rubric-table-builder"
+          >
+            <caption
+              class="sr-only"
+            >
+              Rubric editor: New filled rubric
+            </caption>
+            <thead>
+              <tr>
+                <th
+                  data-testid="rubrics-reserved-cell"
+                >
+                  <span
+                    class="font-bold"
+                  >
+                    Levels
+                  </span>
+                </th>
+                <th
+                  class="max-w-[145px] xxxl:max-w-[200px]"
+                  data-testid="rubric-criteria-label"
+                >
+                  <div
+                    class="mb-xs relative pt-x xxxl:pt-base"
+                  >
+                    <div>
+                      <label
+                        class="block text-neutral-700 !leading-lg text-xxs xxxl:text-xs mb-xxxs before:content-[\\"*\\"] before:pe-xxs before:text-danger-600"
+                        for="score"
+                      >
+                        Score
+                      </label>
+                      <div
+                        class="flex items-center justify-between gap-xs rounded-sm p-xxs bg-white shadow-input"
+                      >
+                        <button
+                          aria-label="Decrease"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          disabled=""
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                        <input
+                          class="bg-white outline-none min-w-0 text-center text-font-secondary leading-sm text-xs xxxl:text-sm"
+                          id="Score"
+                          inputmode="numeric"
+                          required=""
+                          role="input"
+                          value="1"
+                        />
+                        <button
+                          aria-label="Increase"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="absolute right-0 top-0"
+                    >
+                      <span
+                        data-state="closed"
+                      >
+                        <button
+                          aria-label="Delete"
+                          class="icon-button -size-xs -square deleteButton ms-auto !bg-white hover:!bg-danger-100"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <label
+                      class="flex flex-col items-start text-font-primary w-full gap-xxxs"
+                    >
+                      <div
+                        class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                      >
+                        <div
+                          class="injected-content"
+                        >
+                          Name
+                        </div>
+                      </div>
+                      <div
+                        class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                      >
+                        <span
+                          class="flex gap-xxs grow"
+                        >
+                          <input
+                            aria-label="Name"
+                            class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[14px] text-xxs"
+                            id="Name"
+                            name="displayName"
+                            placeholder="Enter rubric name..."
+                            type="text"
+                            value=""
+                          />
+                        </span>
+                      </div>
+                    </label>
+                  </div>
+                </th>
+                <th
+                  class="max-w-[145px] xxxl:max-w-[200px]"
+                  data-testid="rubric-criteria-label"
+                >
+                  <div
+                    class="mb-xs relative pt-x xxxl:pt-base"
+                  >
+                    <div>
+                      <label
+                        class="block text-neutral-700 !leading-lg text-xxs xxxl:text-xs mb-xxxs before:content-[\\"*\\"] before:pe-xxs before:text-danger-600"
+                        for="score"
+                      >
+                        Score
+                      </label>
+                      <div
+                        class="flex items-center justify-between gap-xs rounded-sm p-xxs bg-white shadow-input"
+                      >
+                        <button
+                          aria-label="Decrease"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                        <input
+                          class="bg-white outline-none min-w-0 text-center text-font-secondary leading-sm text-xs xxxl:text-sm"
+                          id="Score"
+                          inputmode="numeric"
+                          required=""
+                          role="input"
+                          value="2"
+                        />
+                        <button
+                          aria-label="Increase"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="absolute right-0 top-0"
+                    >
+                      <span
+                        data-state="closed"
+                      >
+                        <button
+                          aria-label="Delete"
+                          class="icon-button -size-xs -square deleteButton ms-auto !bg-white hover:!bg-danger-100"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <label
+                      class="flex flex-col items-start text-font-primary w-full gap-xxxs"
+                    >
+                      <div
+                        class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                      >
+                        <div
+                          class="injected-content"
+                        >
+                          Name
+                        </div>
+                      </div>
+                      <div
+                        class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                      >
+                        <span
+                          class="flex gap-xxs grow"
+                        >
+                          <input
+                            aria-label="Name"
+                            class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[14px] text-xxs"
+                            id="Name"
+                            name="displayName"
+                            placeholder="Enter rubric name..."
+                            type="text"
+                            value="Criteria label 2 - filled"
+                          />
+                        </span>
+                      </div>
+                    </label>
+                  </div>
+                </th>
+                <th
+                  class="w-[80px]"
+                  data-testid="rubric-new-column"
+                  role="button"
+                >
+                  <span
+                    class="rubrics-builder__new-cell"
+                  >
+                    + 
+                    New
+                  </span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  class="p-x align-middle max-w-[145px] group relative"
+                  data-testid="rubric-heading"
+                >
+                  <div>
+                    <span
+                      data-state="closed"
+                    >
+                      <div
+                        class="heading text-xs xxxl:text-sm font-bold text-neutral-800 mb-xs"
+                        data-testid="rubric-heading-text"
+                      >
+                        Filled rubrics heading 1
+                      </div>
+                    </span>
+                    <div
+                      class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                    >
+                      Statements: 0
+                    </div>
+                    <div
+                      class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                    >
+                      Performance Indicators: 0
+                    </div>
+                    <div>
+                      <span
+                        class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                      >
+                        Multiplier:
+                      </span>
+                      <span
+                        class="text-neutral-800 leading-lg text-xxs xxxl:text-xs px-xxs border border-neutral-300 min-w-fit rounded-xs"
+                        data-testid="rubric-heading-multiplier"
+                      >
+                        x1
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    aria-expanded="false"
+                    aria-haspopup="menu"
+                    aria-label="Filled rubrics heading 1 - actions"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs rounded-sm transition-colors bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs"
+                    data-state="closed"
+                    data-testid="icon-button"
+                    id="radix-trigger"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      >
+                        Test criterion 1
+                      </textarea>
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      />
+                    </label>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="p-x align-middle max-w-[145px] group relative"
+                  data-testid="rubric-heading"
+                >
+                  <div>
+                    <span
+                      data-state="closed"
+                    >
+                      <div
+                        class="heading text-xs xxxl:text-sm font-bold text-neutral-800 mb-xs"
+                        data-testid="rubric-heading-text"
+                      >
+                        Filled rubrics heading 2
+                      </div>
+                    </span>
+                    <div
+                      class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                    >
+                      Statements: 0
+                    </div>
+                    <div
+                      class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                    >
+                      Performance Indicators: 0
+                    </div>
+                    <div>
+                      <span
+                        class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                      >
+                        Multiplier:
+                      </span>
+                      <span
+                        class="text-neutral-800 leading-lg text-xxs xxxl:text-xs px-xxs border border-neutral-300 min-w-fit rounded-xs"
+                        data-testid="rubric-heading-multiplier"
+                      >
+                        x2
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    aria-expanded="false"
+                    aria-haspopup="menu"
+                    aria-label="Filled rubrics heading 2 - actions"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs rounded-sm transition-colors bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs"
+                    data-state="closed"
+                    data-testid="icon-button"
+                    id="radix-trigger"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      />
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      >
+                        Test criterion 2
+                      </textarea>
+                    </label>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="rubrics-builder__heading -center"
+                  data-testid="rubric-new-row"
+                  role="button"
+                >
+                  <span
+                    class="rubrics-builder__new-cell"
+                  >
+                    + 
+                    New
+                  </span>
+                </td>
+                <td
+                  class="rubrics-builder__fake-cell"
+                  colspan="2"
+                />
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div
+        class="affected-resources"
+      >
+        <h4
+          class="affected-resources__heading"
+        >
+          Affected products
+        </h4>
+        <div
+          data-testid="affected-resources"
+        >
+          <a
+            class="affected-resources__link"
+            href="/admin/products?showId=1"
+          >
+            test
+          </a>
+        </div>
+      </div>
+      <div
+        class="affected-resources"
+      >
+        <h4
+          class="affected-resources__heading"
+        >
+          Affected assignments
+        </h4>
+        <div
+          data-testid="affected-resources"
+        >
+          <a
+            class="affected-resources__link"
+            href="/admin/lesson-items/assignments/1"
+          >
+            test
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AdminAppRubricEdit RubricsBuilder renders table properly with no cells created 1`] = `
+<div>
+  <div
+    class="Toastify"
+  />
+  <div
+    class="p-base pt-xs xxxl:p-md xxxl:pt-sm"
+    id="read"
+  >
+    <h2
+      class="text-sm mb-sm"
+    >
+      Edit rubric
+    </h2>
+    <div
+      class="card"
+    >
+      <div
+        class="rubrics-builder__header"
+        data-testid="rubric-header"
+      >
+        <h5
+          class="text-xs xxxl:text-sm"
+        >
+          Main information
+        </h5>
+        <div
+          class="flex gap-xxs"
+        >
+          <span
+            data-state="closed"
+          >
+            <button
+              aria-label="Duplicate"
+              class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md rubrics-builder__duplicate"
+              data-testid="rubric-duplicate-button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-base w-base"
+                  />
+                </div>
+              </div>
+            </button>
+          </span>
+          <span
+            data-state="closed"
+          >
+            <button
+              aria-label="Archive"
+              class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md"
+              data-testid="rubric-archive-button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-base w-base"
+                  />
+                </div>
+              </div>
+            </button>
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-sm xxxl:mb-base flex flex-col gap-sm"
+      >
+        <div
+          class="flex w-full gap-sm items-start"
+        >
+          <label
+            class="flex flex-col items-start text-font-primary w-full basis-1/2 gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              <span
+                class="text-danger-600 mr-xxs"
+              >
+                *
+              </span>
+              <div
+                class="injected-content"
+              >
+                Name
+              </div>
+            </div>
+            <div
+              class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+            >
+              <span
+                class="flex gap-xxs grow"
+              >
+                <input
+                  aria-label="Name"
+                  aria-required="true"
+                  class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                  data-testid="rubric-name-input"
+                  id="Name"
+                  name="name"
+                  placeholder="Type here..."
+                  type="text"
+                  value="New rubric"
+                />
+              </span>
+            </div>
+          </label>
+          <label
+            class="flex flex-col items-start text-font-primary w-full basis-1/2 gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              <div
+                class="injected-content"
+              >
+                Display name
+              </div>
+              <span
+                class="text-font-secondary ml-xxxs"
+              >
+                (optional)
+              </span>
+            </div>
+            <div
+              class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+            >
+              <span
+                class="flex gap-xxs grow"
+              >
+                <input
+                  aria-label="Display name"
+                  aria-required="false"
+                  class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                  data-testid="rubric-displayname-input"
+                  id="Display name"
+                  name="displayName"
+                  placeholder="Type here..."
+                  type="text"
+                  value="Display Name"
+                />
+              </span>
+            </div>
+          </label>
+        </div>
+        <div
+          class="relative"
+        >
+          <div
+            class="text-editor"
+            data-testid="rubric-description-input"
+            labelclass="!text-xs"
+          >
+            <label
+              class="flex flex-col gap-xs w-full"
+            >
+              <div
+                class="text-font-primary leading-lg flex gap-xxxs text-xs"
+              >
+                <span
+                  class="text-danger-600 mr-xxs"
+                >
+                  *
+                </span>
+                Description
+                <span
+                  data-state="closed"
+                >
+                  <span
+                    class="p-xs shadow-md no-underline rounded-full bg-secondary-200 text-xxs border-secondary-500 text-secondary-500 ml-xs border"
+                  >
+                    <span
+                      class="mr-xxs inline-flex align-middle"
+                    >
+                      <div
+                        class="icon -xs-size"
+                        data-testid="icon"
+                      >
+                        <div />
+                      </div>
+                    </span>
+                    AI Assist
+                  </span>
+                </span>
+              </div>
+              <textarea
+                id="Description"
+                name="Description"
+                style="visibility: hidden;"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mb-sm xxxl:mb-base"
+      >
+        <h6>
+          Rubric
+        </h6>
+        <div
+          class="overflow-x-auto rubricEditor"
+        >
+          <table
+            class="w-full border-collapse table-auto border border-neutral-300"
+            data-testid="rubric-table-builder"
+          >
+            <caption
+              class="sr-only"
+            >
+              Rubric editor: New rubric
+            </caption>
+            <thead>
+              <tr>
+                <th
+                  data-testid="rubrics-reserved-cell"
+                >
+                  <span
+                    class="font-bold"
+                  >
+                    Levels
+                  </span>
+                </th>
+                <th
+                  class="max-w-[145px] xxxl:max-w-[200px]"
+                  data-testid="rubric-criteria-label"
+                >
+                  <div
+                    class="mb-xs relative pt-x xxxl:pt-base"
+                  >
+                    <div>
+                      <label
+                        class="block text-neutral-700 !leading-lg text-xxs xxxl:text-xs mb-xxxs before:content-[\\"*\\"] before:pe-xxs before:text-danger-600"
+                        for="score"
+                      >
+                        Score
+                      </label>
+                      <div
+                        class="flex items-center justify-between gap-xs rounded-sm p-xxs bg-white shadow-input"
+                      >
+                        <button
+                          aria-label="Decrease"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          disabled=""
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                        <input
+                          class="bg-white outline-none min-w-0 text-center text-font-secondary leading-sm text-xs xxxl:text-sm"
+                          id="Score"
+                          inputmode="numeric"
+                          required=""
+                          role="input"
+                          value="1"
+                        />
+                        <button
+                          aria-label="Increase"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="absolute right-0 top-0"
+                    >
+                      <span
+                        data-state="closed"
+                      >
+                        <button
+                          aria-label="Delete"
+                          class="icon-button -size-xs -square deleteButton ms-auto !bg-white hover:!bg-danger-100"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <label
+                      class="flex flex-col items-start text-font-primary w-full gap-xxxs"
+                    >
+                      <div
+                        class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                      >
+                        <div
+                          class="injected-content"
+                        >
+                          Name
+                        </div>
+                      </div>
+                      <div
+                        class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                      >
+                        <span
+                          class="flex gap-xxs grow"
+                        >
+                          <input
+                            aria-label="Name"
+                            class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[14px] text-xxs"
+                            id="Name"
+                            name="displayName"
+                            placeholder="Enter rubric name..."
+                            type="text"
+                            value="Test criteria label 1"
+                          />
+                        </span>
+                      </div>
+                    </label>
+                  </div>
+                </th>
+                <th
+                  class="max-w-[145px] xxxl:max-w-[200px]"
+                  data-testid="rubric-criteria-label"
+                >
+                  <div
+                    class="mb-xs relative pt-x xxxl:pt-base"
+                  >
+                    <div>
+                      <label
+                        class="block text-neutral-700 !leading-lg text-xxs xxxl:text-xs mb-xxxs before:content-[\\"*\\"] before:pe-xxs before:text-danger-600"
+                        for="score"
+                      >
+                        Score
+                      </label>
+                      <div
+                        class="flex items-center justify-between gap-xs rounded-sm p-xxs bg-white shadow-input"
+                      >
+                        <button
+                          aria-label="Decrease"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                        <input
+                          class="bg-white outline-none min-w-0 text-center text-font-secondary leading-sm text-xs xxxl:text-sm"
+                          id="Score"
+                          inputmode="numeric"
+                          required=""
+                          role="input"
+                          value="2"
+                        />
+                        <button
+                          aria-label="Increase"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="absolute right-0 top-0"
+                    >
+                      <span
+                        data-state="closed"
+                      >
+                        <button
+                          aria-label="Delete"
+                          class="icon-button -size-xs -square deleteButton ms-auto !bg-white hover:!bg-danger-100"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <label
+                      class="flex flex-col items-start text-font-primary w-full gap-xxxs"
+                    >
+                      <div
+                        class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                      >
+                        <div
+                          class="injected-content"
+                        >
+                          Name
+                        </div>
+                      </div>
+                      <div
+                        class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                      >
+                        <span
+                          class="flex gap-xxs grow"
+                        >
+                          <input
+                            aria-label="Name"
+                            class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[14px] text-xxs"
+                            id="Name"
+                            name="displayName"
+                            placeholder="Enter rubric name..."
+                            type="text"
+                            value=""
+                          />
+                        </span>
+                      </div>
+                    </label>
+                  </div>
+                </th>
+                <th
+                  class="w-[80px]"
+                  data-testid="rubric-new-column"
+                  role="button"
+                >
+                  <span
+                    class="rubrics-builder__new-cell"
+                  >
+                    + 
+                    New
+                  </span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  class="p-x align-middle max-w-[145px] group relative"
+                  data-testid="rubric-heading"
+                >
+                  <div>
+                    <span
+                      data-state="closed"
+                    >
+                      <div
+                        class="heading text-xs xxxl:text-sm font-bold text-neutral-800 mb-xs"
+                        data-testid="rubric-heading-text"
+                      >
+                        Test heading 1
+                      </div>
+                    </span>
+                    <div
+                      class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                    >
+                      Statements: 0
+                    </div>
+                    <div
+                      class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                    >
+                      Performance Indicators: 0
+                    </div>
+                    <div>
+                      <span
+                        class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                      >
+                        Multiplier:
+                      </span>
+                      <span
+                        class="text-neutral-800 leading-lg text-xxs xxxl:text-xs px-xxs border border-neutral-300 min-w-fit rounded-xs"
+                        data-testid="rubric-heading-multiplier"
+                      >
+                        x1
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    aria-expanded="false"
+                    aria-haspopup="menu"
+                    aria-label="Test heading 1 - actions"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs rounded-sm transition-colors bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs"
+                    data-state="closed"
+                    data-testid="icon-button"
+                    id="radix-trigger"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      />
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      />
+                    </label>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="p-x align-middle max-w-[145px] group relative"
+                  data-testid="rubric-heading"
+                >
+                  <div>
+                    <span
+                      data-state="closed"
+                    >
+                      <div
+                        class="heading text-xs xxxl:text-sm font-bold text-neutral-800 mb-xs"
+                        data-testid="rubric-heading-text"
+                      >
+                        Test heading 2
+                      </div>
+                    </span>
+                    <div
+                      class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                    >
+                      Statements: 0
+                    </div>
+                    <div
+                      class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                    >
+                      Performance Indicators: 0
+                    </div>
+                    <div>
+                      <span
+                        class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                      >
+                        Multiplier:
+                      </span>
+                      <span
+                        class="text-neutral-800 leading-lg text-xxs xxxl:text-xs px-xxs border border-neutral-300 min-w-fit rounded-xs"
+                        data-testid="rubric-heading-multiplier"
+                      >
+                        x2
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    aria-expanded="false"
+                    aria-haspopup="menu"
+                    aria-label="Test heading 2 - actions"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs rounded-sm transition-colors bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs"
+                    data-state="closed"
+                    data-testid="icon-button"
+                    id="radix-trigger"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      />
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      />
+                    </label>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="rubrics-builder__heading -center"
+                  data-testid="rubric-new-row"
+                  role="button"
+                >
+                  <span
+                    class="rubrics-builder__new-cell"
+                  >
+                    + 
+                    New
+                  </span>
+                </td>
+                <td
+                  class="rubrics-builder__fake-cell"
+                  colspan="2"
+                />
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div
+        class="affected-resources"
+      >
+        <h4
+          class="affected-resources__heading"
+        >
+          Affected products
+        </h4>
+        <div
+          data-testid="affected-resources"
+        >
+          <a
+            class="affected-resources__link"
+            href="/admin/products?showId=1"
+          >
+            test
+          </a>
+        </div>
+      </div>
+      <div
+        class="affected-resources"
+      >
+        <h4
+          class="affected-resources__heading"
+        >
+          Affected assignments
+        </h4>
+        <div
+          data-testid="affected-resources"
+        >
+          <a
+            class="affected-resources__link"
+            href="/admin/lesson-items/assignments/1"
+          >
+            test
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AdminAppRubricEdit renders with correct values 1`] = `
+<div>
+  <div
+    class="Toastify"
+  />
+  <div
+    class="p-base pt-xs xxxl:p-md xxxl:pt-sm"
+    id="read"
+  >
+    <h2
+      class="text-sm mb-sm"
+    >
+      Edit rubric
+    </h2>
+    <div
+      class="card"
+    >
+      <div
+        class="rubrics-builder__header"
+        data-testid="rubric-header"
+      >
+        <h5
+          class="text-xs xxxl:text-sm"
+        >
+          Main information
+        </h5>
+        <div
+          class="flex gap-xxs"
+        >
+          <span
+            data-state="closed"
+          >
+            <button
+              aria-label="Duplicate"
+              class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md rubrics-builder__duplicate"
+              data-testid="rubric-duplicate-button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-base w-base"
+                  />
+                </div>
+              </div>
+            </button>
+          </span>
+          <span
+            data-state="closed"
+          >
+            <button
+              aria-label="Archive"
+              class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md"
+              data-testid="rubric-archive-button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-base w-base"
+                  />
+                </div>
+              </div>
+            </button>
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-sm xxxl:mb-base flex flex-col gap-sm"
+      >
+        <div
+          class="flex w-full gap-sm items-start"
+        >
+          <label
+            class="flex flex-col items-start text-font-primary w-full basis-1/2 gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              <span
+                class="text-danger-600 mr-xxs"
+              >
+                *
+              </span>
+              <div
+                class="injected-content"
+              >
+                Name
+              </div>
+            </div>
+            <div
+              class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+            >
+              <span
+                class="flex gap-xxs grow"
+              >
+                <input
+                  aria-label="Name"
+                  aria-required="true"
+                  class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                  data-testid="rubric-name-input"
+                  id="Name"
+                  name="name"
+                  placeholder="Type here..."
+                  type="text"
+                  value="New rubric"
+                />
+              </span>
+            </div>
+          </label>
+          <label
+            class="flex flex-col items-start text-font-primary w-full basis-1/2 gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              <div
+                class="injected-content"
+              >
+                Display name
+              </div>
+              <span
+                class="text-font-secondary ml-xxxs"
+              >
+                (optional)
+              </span>
+            </div>
+            <div
+              class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+            >
+              <span
+                class="flex gap-xxs grow"
+              >
+                <input
+                  aria-label="Display name"
+                  aria-required="false"
+                  class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                  data-testid="rubric-displayname-input"
+                  id="Display name"
+                  name="displayName"
+                  placeholder="Type here..."
+                  type="text"
+                  value="Display Name"
+                />
+              </span>
+            </div>
+          </label>
+        </div>
+        <div
+          class="relative"
+        >
+          <div
+            class="text-editor"
+            data-testid="rubric-description-input"
+            labelclass="!text-xs"
+          >
+            <label
+              class="flex flex-col gap-xs w-full"
+            >
+              <div
+                class="text-font-primary leading-lg flex gap-xxxs text-xs"
+              >
+                <span
+                  class="text-danger-600 mr-xxs"
+                >
+                  *
+                </span>
+                Description
+                <span
+                  data-state="closed"
+                >
+                  <span
+                    class="p-xs shadow-md no-underline rounded-full bg-secondary-200 text-xxs border-secondary-500 text-secondary-500 ml-xs border"
+                  >
+                    <span
+                      class="mr-xxs inline-flex align-middle"
+                    >
+                      <div
+                        class="icon -xs-size"
+                        data-testid="icon"
+                      >
+                        <div />
+                      </div>
+                    </span>
+                    AI Assist
+                  </span>
+                </span>
+              </div>
+              <textarea
+                id="Description"
+                name="Description"
+                style="visibility: hidden;"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mb-sm xxxl:mb-base"
+      >
+        <h6>
+          Rubric
+        </h6>
+        <div
+          class="overflow-x-auto rubricEditor"
+        >
+          <table
+            class="w-full border-collapse table-auto border border-neutral-300"
+            data-testid="rubric-table-builder"
+          >
+            <caption
+              class="sr-only"
+            >
+              Rubric editor: New rubric
+            </caption>
+            <thead>
+              <tr>
+                <th
+                  data-testid="rubrics-reserved-cell"
+                >
+                  <span
+                    class="font-bold"
+                  >
+                    Levels
+                  </span>
+                </th>
+                <th
+                  class="max-w-[145px] xxxl:max-w-[200px]"
+                  data-testid="rubric-criteria-label"
+                >
+                  <div
+                    class="mb-xs relative pt-x xxxl:pt-base"
+                  >
+                    <div>
+                      <label
+                        class="block text-neutral-700 !leading-lg text-xxs xxxl:text-xs mb-xxxs before:content-[\\"*\\"] before:pe-xxs before:text-danger-600"
+                        for="score"
+                      >
+                        Score
+                      </label>
+                      <div
+                        class="flex items-center justify-between gap-xs rounded-sm p-xxs bg-white shadow-input"
+                      >
+                        <button
+                          aria-label="Decrease"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          disabled=""
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                        <input
+                          class="bg-white outline-none min-w-0 text-center text-font-secondary leading-sm text-xs xxxl:text-sm"
+                          id="Score"
+                          inputmode="numeric"
+                          required=""
+                          role="input"
+                          value="1"
+                        />
+                        <button
+                          aria-label="Increase"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="absolute right-0 top-0"
+                    >
+                      <span
+                        data-state="closed"
+                      >
+                        <button
+                          aria-label="Delete"
+                          class="icon-button -size-xs -square deleteButton ms-auto !bg-white hover:!bg-danger-100"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <label
+                      class="flex flex-col items-start text-font-primary w-full gap-xxxs"
+                    >
+                      <div
+                        class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                      >
+                        <div
+                          class="injected-content"
+                        >
+                          Name
+                        </div>
+                      </div>
+                      <div
+                        class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                      >
+                        <span
+                          class="flex gap-xxs grow"
+                        >
+                          <input
+                            aria-label="Name"
+                            class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[14px] text-xxs"
+                            id="Name"
+                            name="displayName"
+                            placeholder="Enter rubric name..."
+                            type="text"
+                            value="Test criteria label 1"
+                          />
+                        </span>
+                      </div>
+                    </label>
+                  </div>
+                </th>
+                <th
+                  class="max-w-[145px] xxxl:max-w-[200px]"
+                  data-testid="rubric-criteria-label"
+                >
+                  <div
+                    class="mb-xs relative pt-x xxxl:pt-base"
+                  >
+                    <div>
+                      <label
+                        class="block text-neutral-700 !leading-lg text-xxs xxxl:text-xs mb-xxxs before:content-[\\"*\\"] before:pe-xxs before:text-danger-600"
+                        for="score"
+                      >
+                        Score
+                      </label>
+                      <div
+                        class="flex items-center justify-between gap-xs rounded-sm p-xxs bg-white shadow-input"
+                      >
+                        <button
+                          aria-label="Decrease"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                        <input
+                          class="bg-white outline-none min-w-0 text-center text-font-secondary leading-sm text-xs xxxl:text-sm"
+                          id="Score"
+                          inputmode="numeric"
+                          required=""
+                          role="input"
+                          value="2"
+                        />
+                        <button
+                          aria-label="Increase"
+                          class="icon-button -size-xs -square text-primary-500 hover:!bg-primary-200"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="absolute right-0 top-0"
+                    >
+                      <span
+                        data-state="closed"
+                      >
+                        <button
+                          aria-label="Delete"
+                          class="icon-button -size-xs -square deleteButton ms-auto !bg-white hover:!bg-danger-100"
+                          data-testid="icon-button"
+                          type="button"
+                        >
+                          <div
+                            class="icon icon-button__icon -xs-size"
+                            data-testid="icon"
+                          >
+                            <div />
+                          </div>
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <label
+                      class="flex flex-col items-start text-font-primary w-full gap-xxxs"
+                    >
+                      <div
+                        class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                      >
+                        <div
+                          class="injected-content"
+                        >
+                          Name
+                        </div>
+                      </div>
+                      <div
+                        class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                      >
+                        <span
+                          class="flex gap-xxs grow"
+                        >
+                          <input
+                            aria-label="Name"
+                            class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[14px] text-xxs"
+                            id="Name"
+                            name="displayName"
+                            placeholder="Enter rubric name..."
+                            type="text"
+                            value=""
+                          />
+                        </span>
+                      </div>
+                    </label>
+                  </div>
+                </th>
+                <th
+                  class="w-[80px]"
+                  data-testid="rubric-new-column"
+                  role="button"
+                >
+                  <span
+                    class="rubrics-builder__new-cell"
+                  >
+                    + 
+                    New
+                  </span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  class="p-x align-middle max-w-[145px] group relative"
+                  data-testid="rubric-heading"
+                >
+                  <div>
+                    <span
+                      data-state="closed"
+                    >
+                      <div
+                        class="heading text-xs xxxl:text-sm font-bold text-neutral-800 mb-xs"
+                        data-testid="rubric-heading-text"
+                      >
+                        Test heading 1
+                      </div>
+                    </span>
+                    <div
+                      class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                    >
+                      Statements: 0
+                    </div>
+                    <div
+                      class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                    >
+                      Performance Indicators: 0
+                    </div>
+                    <div>
+                      <span
+                        class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                      >
+                        Multiplier:
+                      </span>
+                      <span
+                        class="text-neutral-800 leading-lg text-xxs xxxl:text-xs px-xxs border border-neutral-300 min-w-fit rounded-xs"
+                        data-testid="rubric-heading-multiplier"
+                      >
+                        x1
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    aria-expanded="false"
+                    aria-haspopup="menu"
+                    aria-label="Test heading 1 - actions"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs rounded-sm transition-colors bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs"
+                    data-state="closed"
+                    data-testid="icon-button"
+                    id="radix-trigger"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      />
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      />
+                    </label>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="p-x align-middle max-w-[145px] group relative"
+                  data-testid="rubric-heading"
+                >
+                  <div>
+                    <span
+                      data-state="closed"
+                    >
+                      <div
+                        class="heading text-xs xxxl:text-sm font-bold text-neutral-800 mb-xs"
+                        data-testid="rubric-heading-text"
+                      >
+                        Test heading 2
+                      </div>
+                    </span>
+                    <div
+                      class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                    >
+                      Statements: 0
+                    </div>
+                    <div
+                      class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                    >
+                      Performance Indicators: 0
+                    </div>
+                    <div>
+                      <span
+                        class="leading-lg text-xxs xxxl:text-xs me-xxs"
+                      >
+                        Multiplier:
+                      </span>
+                      <span
+                        class="text-neutral-800 leading-lg text-xxs xxxl:text-xs px-xxs border border-neutral-300 min-w-fit rounded-xs"
+                        data-testid="rubric-heading-multiplier"
+                      >
+                        x2
+                      </span>
+                    </div>
+                  </div>
+                  <button
+                    aria-expanded="false"
+                    aria-haspopup="menu"
+                    aria-label="Test heading 2 - actions"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs rounded-sm transition-colors bg-white rounded-xs invisible group-hover:!visible group-hover:bg-white absolute top-xs right-xs"
+                    data-state="closed"
+                    data-testid="icon-button"
+                    id="radix-trigger"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      />
+                    </label>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="flex flex-col gap-xs"
+                  >
+                    <label
+                      class="flex flex-col gap-xs"
+                    >
+                      <textarea
+                        class="textarea__input !mb-0 !mb-0 text-xxs xxxl:text-xs leading-lg h-[126px]"
+                        data-testid="rubric-criteria-input"
+                        placeholder="Type here..."
+                      />
+                    </label>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="rubrics-builder__heading -center"
+                  data-testid="rubric-new-row"
+                  role="button"
+                >
+                  <span
+                    class="rubrics-builder__new-cell"
+                  >
+                    + 
+                    New
+                  </span>
+                </td>
+                <td
+                  class="rubrics-builder__fake-cell"
+                  colspan="2"
+                />
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div
+        class="affected-resources"
+      >
+        <h4
+          class="affected-resources__heading"
+        >
+          Affected products
+        </h4>
+        <div
+          data-testid="affected-resources"
+        >
+          <a
+            class="affected-resources__link"
+            href="/admin/products?showId=1"
+          >
+            test
+          </a>
+        </div>
+      </div>
+      <div
+        class="affected-resources"
+      >
+        <h4
+          class="affected-resources__heading"
+        >
+          Affected assignments
+        </h4>
+        <div
+          data-testid="affected-resources"
+        >
+          <a
+            class="affected-resources__link"
+            href="/admin/lesson-items/assignments/1"
+          >
+            test
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

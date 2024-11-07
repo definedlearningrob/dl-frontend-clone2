@@ -1,0 +1,28 @@
+@import '@shared/stylesheets/config'
+
+.icon
+  path
+    fill: $color-font-primary
+
+.label
+  display: flex
+  gap: $m-xxs
+  margin-bottom: 0
+
+.input
+  height: 0
+  visibility: hidden
+  width: 0
+
+.hidden
+  display: none
+
+.inputHeader
+  +flex-container(row, space-between, flex-start)
+
+.clear
+  color: $color-danger-500
+
+.urlLabel
+  display: inline-block
+  margin-top: $m-sm

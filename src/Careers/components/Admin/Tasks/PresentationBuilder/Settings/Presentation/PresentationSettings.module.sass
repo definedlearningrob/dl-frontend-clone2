@@ -1,0 +1,66 @@
+@import '@shared/stylesheets/config'
+
+$button-status-height: 36px
+$cabin-sketch-img: url("https://s3.amazonaws.com/media-p.slid.es/uploads/1485050/images/8083804/blue-slide-background-wide.jpg")
+
+.presentationStatus
+  color: $color-secondary-500
+  font-size: $font-size-sm
+  font-weight: $font-weight-bold
+  text-transform: capitalize
+
+.fonts
+  +flex-container(row, flex-start, center)
+  flex-wrap: wrap
+  gap: $m-xs
+  margin-top: $m-sm
+
+.font
+  +flex-container(column, center, center)
+  border-radius: $border-radius-xs
+  border: 1px solid $color-border
+  cursor: pointer
+  height: 72px
+  min-width: 104px
+  padding: $m-sm
+  user-select: none
+
+.fontTitle
+  font-size: $font-size-base
+  font-weight: $font-weight-regular
+  margin-bottom: 0
+
+.fontDescription
+  font-family: $font-family-body
+  font-size: $font-size-xxs
+  margin-bottom: 0
+
+.selectedFont
+  border-color: $color-primary-500
+
+.roboto
+  font-family: Roboto Mono
+
+  *
+    font-family: Roboto Mono
+
+.lora
+  font-family: $font-family-header
+
+.cabinSketch
+  font-family: Cabin Sketch
+  background-image: $cabin-sketch-img
+  background-size: cover
+  padding: $m-xxs $m-sm
+  justify-content: space-around
+
+  .fontTitle, .fontDescription
+    border: 1px solid #000
+    background-color: white
+    border-radius: $border-radius-s
+    padding: 0 $m-xs
+
+  .fontTitle
+    color: #fff
+    background-color: #444
+

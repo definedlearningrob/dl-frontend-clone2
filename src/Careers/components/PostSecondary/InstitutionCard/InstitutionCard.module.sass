@@ -1,0 +1,17 @@
+@import '@shared/stylesheets/config.sass'
+
+$description-max-width: 800px
+
+.cardSectionsWrapper
+  +flex-container(column)
+  gap: $m-md
+
+.title
+  font-size: $font-size-sm
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-base
+
+.description
+  margin-bottom: 0
+  max-width: $description-max-width

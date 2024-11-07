@@ -1,0 +1,19 @@
+@import '@shared/stylesheets/config.sass'
+
+.heading
+  font-size: $font-size-base
+  margin: 0
+
+.subHeading
+  color: $color-font-secondary
+  font-size: $font-size-base
+  margin-top: $m-xs
+
+.coursesWrapper
+  display: grid
+  gap: $m-sm
+  grid-template-columns: repeat(auto-fit, minmax($course-card-width, 1fr))
+  margin-top: $m-sm
+
+  +media-breakpoint-up(md)
+    gap: $m-base

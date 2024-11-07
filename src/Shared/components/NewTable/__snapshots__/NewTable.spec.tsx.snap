@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewTable renders a table with correct data 1`] = `
+<div>
+  <div
+    class="overflow-hidden flex flex-col h-full min-h-0"
+  >
+    <div
+      class="grow z-lowest scrollbar"
+    >
+      <table
+        class="w-full table-fixed overflow-auto"
+      >
+        <thead
+          class="sticky top-0 bg-white z-lower tableHead"
+        >
+          <tr>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 150px;"
+            >
+              <div
+                class=""
+              >
+                Name
+              </div>
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 150px;"
+            >
+              <div
+                class=""
+              >
+                Email
+              </div>
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 150px;"
+            >
+              <div
+                class=""
+              >
+                Age
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="group/row border-b border-neutral-300 transition-colors hover:bg-primary-200"
+            tabindex="-1"
+          >
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              Jon Doe
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              jon.doe@test.com
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              20
+            </td>
+          </tr>
+          <tr
+            class="group/row border-b border-neutral-300 transition-colors hover:bg-primary-200"
+            tabindex="-1"
+          >
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              Allison Adams
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              allison.adams@test.com
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              30
+            </td>
+          </tr>
+          <tr
+            class="group/row border-b border-neutral-300 transition-colors hover:bg-primary-200"
+            tabindex="-1"
+          >
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              James Lebron
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              james.lebron@test.com
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              17
+            </td>
+          </tr>
+          <tr
+            class="group/row border-b border-neutral-300 transition-colors hover:bg-primary-200"
+            tabindex="-1"
+          >
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              Mary Jordan
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              mary.jordan@test.com
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              23
+            </td>
+          </tr>
+          <tr
+            class="group/row border-b border-neutral-300 transition-colors hover:bg-primary-200"
+            tabindex="-1"
+          >
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              Cheryl Kozey
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              cheryl.kozey@test.com
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              41
+            </td>
+          </tr>
+          <tr
+            class="group/row border-b border-neutral-300 transition-colors hover:bg-primary-200"
+            tabindex="-1"
+          >
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              Brad Upton
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              brad.upton@test.com
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              32
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      class="flex justify-between px-base py-xs xxxl:px-md"
+    >
+      <div
+        class="flex items-center gap-sm"
+      >
+        <span
+          class="text-xxs xxxl:text-xs text-font-secondary"
+        >
+          Results: 1 - 25 of 30
+        </span>
+        <div
+          class="selectContainer pageSizeSelect"
+        >
+          <label
+            class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+          >
+            <div
+              class=" css-b62m3t-container"
+            >
+              <span
+                class="css-1f43avz-a11yText-A11yText"
+                id="react-select-2-live-region"
+              />
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                class="css-1f43avz-a11yText-A11yText"
+                role="log"
+              />
+              <div
+                class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+              >
+                <div
+                  class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--has-value css-1fdsijx-ValueContainer"
+                >
+                  <div
+                    class="!m-0 !leading-[22px] h-[22px] select__single-value css-1dimb5e-singleValue"
+                  >
+                    25
+                  </div>
+                  <div
+                    class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                    data-value=""
+                  >
+                    <input
+                      aria-activedescendant=""
+                      aria-autocomplete="list"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      aria-label="Select page size"
+                      autocapitalize="none"
+                      autocomplete="off"
+                      autocorrect="off"
+                      class="select__input"
+                      id="react-select-2-input"
+                      role="combobox"
+                      spellcheck="false"
+                      style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                      tabindex="0"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                >
+                  <div
+                    aria-hidden="true"
+                    class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 text-neutral-800"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </label>
+        </div>
+      </div>
+      <div
+        class="flex items-center gap-sm"
+      >
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !text-primary-500 !font-regular !gap-xxs !p-xs hover:!shadow-none -default bg-white text-font-primary hover:bg-primary-200 outline-primary-500 border-white hover:border-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+          data-testid="button"
+          disabled=""
+          type="button"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Prev
+          </span>
+        </button>
+        <nav
+          aria-label="Table pagination"
+        >
+          <ul
+            class="flex gap-xs"
+          >
+            <li>
+              <button
+                class="w-md py-xs text-center rounded-xxs text-xs xxxl:text-sm hover:bg-primary-200 bg-primary-200 text-primary-500"
+              >
+                1
+              </button>
+            </li>
+            <li>
+              <button
+                class="w-md py-xs text-center rounded-xxs text-xs xxxl:text-sm hover:bg-primary-200"
+              >
+                2
+              </button>
+            </li>
+            <li>
+              <button
+                class="w-md py-xs text-center rounded-xxs text-xs xxxl:text-sm hover:bg-primary-200"
+              >
+                3
+              </button>
+            </li>
+          </ul>
+        </nav>
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !text-primary-500 !font-regular !gap-xxs !p-xs hover:!shadow-none -default bg-white text-font-primary hover:bg-primary-200 outline-primary-500 border-white hover:border-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs flex-row-reverse border"
+          data-testid="button"
+          type="button"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Next
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

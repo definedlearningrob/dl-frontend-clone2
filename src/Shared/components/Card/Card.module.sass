@@ -1,0 +1,31 @@
+@import '@shared/stylesheets/config.sass'
+
+.card
+  background-color: $color-white
+  border-radius: $border-radius-sm
+  color: $color-font-primary
+  padding: $m-base
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-md
+
+.roundedCorners
+  border-radius: $border-radius-sm
+
+.titleSmall
+  font-size: $font-size-sm
+
+.titleMedium
+  font-size: $font-size-base
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-lg
+
+.titleLarge
+  font-size: $font-size-lg
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-xl
+
+.withoutPadding
+  padding: 0

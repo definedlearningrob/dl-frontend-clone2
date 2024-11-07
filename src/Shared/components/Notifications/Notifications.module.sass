@@ -1,0 +1,74 @@
+@import '@shared/stylesheets/config.sass'
+
+$notifications-list-height: 500px
+
+.loading
+  +flex-container(column, center)
+  height: 100%
+
+.trigger
+  position: relative
+
+.triggerButton
+  color: $color-font-secondary
+
+.activeTrigger
+  color: $color-primary-500
+
+.notificationDropdown
+  +box-shadow-300($color-black)
+  background-color: $color-white
+  width: 350px
+  border-radius: $border-radius-sm
+  margin-top: $m-xs
+  z-index: $z-highest
+  position: relative
+
+  &:focus
+    outline: none
+
+  &:after
+    background-color: $color-white
+    content: ''
+    height: 15px
+    position: absolute
+    right: $m-x
+    top: -$m-xxs
+    transform: rotate(45deg) skew(-10deg, -10deg)
+    width: 15px
+    z-index: $z-negative
+
+.unreadLabel
+  +flex-container(row, center, center)
+  border: $border-width-xs solid $color-background
+  background-color: $color-danger-500
+  border-radius: $border-radius-s
+  color: $color-white
+  font-size: $font-size-xxxs
+  font-weight: $font-weight-bold
+  height: $m-sm
+  padding: $m-xxs
+  position: absolute
+  right: 0
+  text-align: center
+  top: 0
+
+.optionsWrapper
+  height: $notifications-list-height
+  overflow: auto
+
+.dropdownHeader
+  +flex-container(row, space-between, center)
+  color: $color-font-primary
+  font-size: $font-size-sm
+  font-weight: $font-weight-medium
+  padding: $m-sm
+
+  &:hover
+    cursor: default
+
+.readAll
+  color: $color-primary-500
+
+  &:hover
+    cursor: pointer

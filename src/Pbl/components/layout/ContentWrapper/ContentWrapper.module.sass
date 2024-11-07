@@ -1,0 +1,29 @@
+@import '@shared/stylesheets/config'
+
+.wrapper
+  background-color: $color-background
+  min-height: 100vh
+
+  +media-breakpoint-up(md)
+    margin-left: $navbar-collapse-width
+
+.isExpanded
+  margin-left: $navbar-expand-width
+
+.hideNavigation
+  margin-left: 0
+
+.presentationFullscreenMode
+  .header-desktop,
+  .back-button-wrapper
+    display: none
+
+.animationClose
+  transition: $sidebar-transition-close
+
+.animationOpen
+  transition: $sidebar-transition-open
+
+:global(.lti)
+    .wrapper
+        margin-left: 0

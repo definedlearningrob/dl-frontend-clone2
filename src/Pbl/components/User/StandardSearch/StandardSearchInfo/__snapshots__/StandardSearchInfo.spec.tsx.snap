@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StandardSearchInfo should render correctly 1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="iconWrapper"
+    >
+      <div
+        class="icon icon -sm-size"
+        data-testid="icon"
+      >
+        <div />
+      </div>
+    </div>
+    <p
+      class="text"
+    >
+      If a standard is not shown, there are currently no projects that align to that standard.
+    </p>
+  </div>
+</div>
+`;

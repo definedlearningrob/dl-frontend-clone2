@@ -1,0 +1,81 @@
+.tox.tox-tinymce
+    background-color: $color-white
+    border-radius: $m-sm
+    border: solid 1px $color-border
+    color: $color-font-secondary
+    font:
+        weight: $font-weight-regular
+        family: $font-family-body
+    margin-top: $m-xxs
+    width: 100%
+
+    .tox-statusbar
+        display: none
+
+    .tox-toolbar
+        &__primary
+            background-color: $color-white
+
+        &__group
+            border: none !important
+            position: relative
+            text-align: center
+
+            &:after
+                background-color: $color-border
+                content: ''
+                height: 60%
+                position: absolute
+                right: 0
+                top: $m-xs
+                width: 1px
+
+            &:last-of-type:after
+                display: none
+
+    .tox-split-button
+        &:hover,
+        &:active,
+        &:focus
+            background-color: $color-background
+            box-shadow: 0 0 0 1px $color-background inset
+            color: $color-primary-500
+
+            .tox-tbtn
+                svg
+                    fill: $color-primary-500
+
+    .tox-tbtn
+        color: $color-font-primary
+        cursor: pointer
+
+        &:hover
+            background-color: $color-background
+            color: $color-primary-500
+
+            .tox-icon
+                svg
+                    fill: $color-primary-500
+
+        .tox-icon
+            svg
+                fill: $color-font-primary
+
+    .tox-tbtn--select
+        &:hover,
+        &:active,
+        &:focus
+            background-color: $color-background
+            color: $color-primary-500
+
+            .tox-tbtn__select-chevron
+                svg
+                    fill: $color-primary-500
+
+    .tox-tbtn--enabled
+        background-color: $color-background
+        color: $color-primary-500
+
+        .tox-icon
+            svg
+                fill: $color-primary-500

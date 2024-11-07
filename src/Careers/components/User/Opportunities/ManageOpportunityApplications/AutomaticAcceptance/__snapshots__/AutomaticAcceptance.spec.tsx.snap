@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutomaticAcceptance should render correctly when rejected 1`] = `
+<div>
+  <div
+    class="flex justify-center items-center h-full"
+  >
+    <div
+      class="flex flex-col justify-center items-center bg-white rounded-sm height-[305px] w-full"
+    >
+      <div
+        class="flex flex-col justify-center items-center mb-sm [&>*]:m-xxs"
+      >
+        <div />
+      </div>
+      <h6
+        class="mb-xs"
+      >
+        Automatic acceptance option is on
+      </h6>
+      <div
+        class="w-[380px]"
+      >
+        <p
+          class="text-center text-xs leading-lg"
+        >
+          All students will be automatically accepted as long as there are available slots in the opportunity. Remember that you can still change it manually.
+        </p>
+        <div
+          class="border-neutral-300 border rounded-sm p-sm flex items-center mb-sm"
+        >
+          <div
+            class="avatar me-xs"
+            data-testid="avatar-image"
+          >
+            <div
+              class="avatar__image sb-avatar"
+              style="display: inline-block; vertical-align: middle; width: 32px; height: 32px; border-radius: 100%; font-family: Helvetica, Arial, sans-serif;"
+            >
+              <div
+                class="avatar__image sb-avatar__text"
+                style="width: 32px; height: 32px; line-height: initial; text-align: center; color: rgb(116, 122, 136); background: rgb(240, 242, 247); border-radius: 100%;"
+                title="Applicant Student 1"
+              >
+                <div
+                  style="display: table; table-layout: fixed; width: 100%; height: 100%;"
+                >
+                  <span
+                    style="display: table-cell; vertical-align: middle; font-size: 100%; white-space: nowrap;"
+                  >
+                    <span />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span
+            class="font-medium text-xs me-auto"
+          >
+            Applicant Student 1
+          </span>
+          <div
+            class="font-medium leading-lg flex items-center bg-danger-100 text-danger-500 rounded-sm p-xxs text-xs gap-xxs"
+          >
+            Rejected
+          </div>
+        </div>
+        <div
+          class="flex justify-center"
+        >
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -link py-xs px-base leading-[22px] text-white"
+            data-testid="button"
+            type="button"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 me-xs"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              Change to Accepted
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

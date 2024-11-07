@@ -1,0 +1,132 @@
+@import '@shared/stylesheets/config.sass'
+
+$list-height: 450px
+$loader-height: 100px
+$arrow-background-height: 60px
+$pending-marker-width: 2px
+$actions-column-width: 136px
+
+.applications
+  +scrollbar
+  height: 100% !important
+  position: relative
+
+  :global(.shared-table__head),
+  :global(.shared-table__body)
+    grid-template-columns: 1fr minmax(min-content, 0.5fr) minmax(min-content, 0.5fr) minmax(min-content, 0.5fr) $actions-column-width
+
+    +media-breakpoint-up(xxxl)
+      grid-template-columns: 2fr repeat(3, 1fr) $actions-column-width
+
+.headerWrapper
+  padding: $m-base $m-base 0 $m-base
+
+  +media-breakpoint-up(xxl)
+    padding: $m-md $m-md 0 $m-md
+
+.header
+  +flex-container(row, space-between, center)
+
+.heading
+  margin-bottom: 0
+
+.tableColumn
+  +flex-container(row, flex-start, center)
+  position: relative
+  padding-left: $m-base
+  padding-right: $m-base
+  background-color: inherit
+
+  +media-breakpoint-up(xxl)
+    padding-right: $m-md
+    padding-left: $m-md
+
+.buttonWrapper
+  display: none
+
+.tableHead
+  @extend .tableColumn
+  font-size: $font-size-xs
+  font-weight: $font-weight-medium
+  line-height: $line-height-lg
+
+.tableRow
+  cursor: pointer
+
+  &:hover
+    background-color: $color-primary-200
+
+    .buttonWrapper
+      display: block
+
+    :global(.action)
+      visibility: visible !important
+
+.pendingLabel:before
+  background-color: $color-secondary-500
+  content: ''
+  display: inline-block
+  height: 100%
+  left: 0
+  position: absolute
+  top: 0
+  width: $pending-marker-width
+
+.name
+  color: $color-primary-500
+  font-weight: $font-weight-bold
+
+.statusLabel
+  background-color: $color-neutral-200
+  color: $color-neutral-700
+  padding: $m-xxs
+  border-radius: $m-xs
+  line-height: $line-height-lg
+  font-weight: $font-weight-medium
+
+.statusColumn
+  +flex-container(row, false, center)
+  flex: 1 0 auto
+
+.directButton
+  padding: 0
+  width: $m-base
+  height: $m-base
+  border-radius: $m-xxs
+
+.badgeWrapper
+  margin-right: $m-xxs
+
+.inProgress
+  color: $color-secondary-500
+  background-color: $color-secondary-200
+
+.completed
+  color: $color-success-500
+  background-color: $color-success-100
+
+.proceedApplicationInfo
+  font-size: $font-size-xs
+  line-height: $line-height-lg
+
+.mainButton
+  padding: 0
+
+.iconWrapper
+  border-radius: $border-radius-xs
+  background-color: $color-info-100
+  color: $color-info-500
+  margin-left: $m-sm
+  margin-right: auto
+
+.infoIcon
+  cursor: pointer
+  color: $color-primary-500
+
+.loaderContainer
+  +flex-container(row, center, center)
+  height: $loader-height
+
+.refreshButton
+  height: 40px !important
+  width: 40px !important

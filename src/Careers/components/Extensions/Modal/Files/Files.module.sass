@@ -1,0 +1,12 @@
+@import '@shared/stylesheets/config.sass'
+
+.wrapper 
+  h4
+    margin: 0
+    font-size: $font-size-base
+    
+:global(.accordion__button)
+  &#{&}
+    border: 1px solid $color-border
+  &:global(.-active)
+    border-color: transparent

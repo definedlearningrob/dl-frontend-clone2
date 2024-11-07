@@ -1,0 +1,40 @@
+@import '@shared/stylesheets/config.sass'
+
+.entity-admin-dashboard-users
+    &__name-container
+        +flex-container(row, flex-start, center)
+
+    &__name
+        margin-left: $m-sm
+
+    &__role-badge
+        border-radius: $border-radius-xs
+        padding: $m-xs
+        width: fit-content
+
+        &.-admin
+            background-color: $color-secondary-200
+            color: $color-secondary-500
+
+        &.-teacher
+            background-color: $color-primary-200
+            color: $color-primary-500
+
+    &__entity-container
+        color: $color-primary-500
+        cursor: pointer
+
+    &__entity-parent
+        font-size: $font-size-xxs
+
+    &__entity-name
+        display: block
+        
+    &__link
+        +link-unstyled
+        +flex-container(row, flex-start, center)
+        color: $color-primary-500 !important
+    
+    &__link-icon
+        fill: $color-primary-500
+        margin-left: $m-xxs

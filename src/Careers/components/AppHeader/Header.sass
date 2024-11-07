@@ -1,0 +1,229 @@
+@import '@shared/stylesheets/config.sass'
+
+.header-desktop
+  +flex-container(row, flex-end, center)
+  background-color: $color-background
+  height: $desktop-header-height
+  max-height: $desktop-header-height
+  padding: $m-xs $m-base
+  position: sticky
+  top: 0
+  width: 100%
+  z-index: $z-highest
+  gap: $m-base
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-xs $m-md
+
+  &__shared-slide-info
+    +flex-container(row, center, flex-start)
+    background-color: $color-secondary-200
+    color: $color-secondary-500
+    font-size: $font-size-xs
+    gap: $m-xs
+    margin-left: 234px
+    padding: $m-xs
+    word-wrap: break-word
+
+  &.-hide-header
+    display: none
+
+  &__impersonating-label
+    display: block
+    font-size: $font-size-xs
+
+  &__impersonate-button.button
+    margin-left: $m-base
+
+    .button__text
+      color: $color-secondary-500
+
+    &:hover
+      +box-shadow-300($color-black)
+
+  &__notification-button
+    color: $color-font-secondary
+
+    &.-active
+      color: $color-primary-500
+
+    &:hover
+      color: $color-primary-500
+
+  &__saving-status
+    +flex-container(row, space-evenly, center)
+
+    .icon svg
+      fill: $color-success-500
+
+    &.-saving
+      p
+        color: $color-primary-500
+
+      .icon svg
+        animation-duration: 2000ms
+        animation-iteration-count: infinite
+        animation-name: spin
+        animation-timing-function: linear
+        fill: $color-success-500
+
+    &.-pending > p
+      color: $color-primary-500
+
+  &__saved-icon
+    color: $color-success-500
+
+  &__user-dropdown-section
+    +flex-container(row, flex-start, center)
+    color: $color-font-secondary
+    cursor: pointer
+    gap: $m-xs
+    position: relative
+    white-space: nowrap
+
+    &__content
+      +box-shadow-200($color-font-primary)
+      background-color: $color-white
+      border-radius: $border-radius-sm
+      color: $color-font-primary
+      font-weight: $font-weight-medium
+      margin: 0
+      padding: $m-xxs
+      position: absolute
+      right: 0
+      top: calc(100% + $m-xxs + $m-xs)
+      z-index: $z-higher
+
+      li
+        align-items: center
+        border-radius: $border-radius-xs * 2
+        display: flex
+        padding: $m-base * 0.5
+        width: 100%
+
+        button
+          color: $color-font-primary
+          height: $m-md
+          margin: 0 $m-xs 0 0
+          pointer-events: none
+          width: $m-md
+
+        &:hover
+          background-color: $color-background
+          transition: background-color $transition-duration * 0.5 $transition-function
+
+  &__user-dropdown-button
+    +flex-container(row, flex-start, center)
+    background: none
+    border: none
+    color: inherit
+    cursor: pointer
+    font: inherit
+    font-size: $font-size-xs
+    font-weight: $font-weight-medium
+    outline: none
+    padding: 0
+    white-space: nowrap
+
+    &.-dropdown-active
+      color: $color-primary-500
+      fill: $color-primary-500
+
+      .icon
+        background-color: $color-white
+        border-radius: $border-radius-xs
+
+  &__dropdown-icon
+    margin-left: $m-xs
+    width: $icon-size
+
+  &.-with-impersonate
+    background-color: $color-secondary-500
+
+    .header-desktop__user-dropdown-section
+      color: $color-white
+      cursor: default
+
+    .header-desktop__user-dropdown-button
+      cursor: default
+      text-align: left
+
+  .announcements-dropdown
+    .dropdown-options
+      +box-shadow-300($color-black)
+      margin: $m-xs 0 $m-xl + $m-xs
+      width: $notifications-dropdown-width
+
+      &__dropdown
+        background-color: $color-white
+        border-left: 2px solid transparent
+        height: auto
+        margin-bottom: 1px
+        transition: all 0.3s ease-in-out
+
+        &:hover
+          border-color: $color-primary-500
+
+      .-read
+        background-color: $color-white
+
+    .icon-container
+      background-color: $color-background
+      border-radius: 50%
+      height: $m-md + $m-xs
+      margin: 0 $m-xs 0 0
+      padding: $m-x $m-xs
+      width: $m-md + $m-xs
+
+    .container
+      height: 100%
+      position: relative
+      text-align: left
+      width: 100%
+
+    .notifications-dropdown
+      &__option-body
+        +ellipsis-multiline(2)
+        color: $color-font-primary
+        line-break: anywhere
+        line-height: $line-height-lg
+        min-height: 70%
+
+        &__author
+          margin-right: $m-xxs
+          color: $color-primary-500
+
+  .divider
+    background-color: $color-border
+    border-radius: $border-radius-xs
+    height: 40px
+    margin: 0 $m-base
+    width: 1px
+
+.presentation-builder-dropdown-button
+  background-color: $color-white
+  border: 1px solid $color-primary-500
+  border-radius: $border-radius-xs
+  height: 24px
+  margin-left: $m-xs
+  width: 24px
+
+  &:hover
+    background-color: $color-white !important
+
+  svg
+    fill: $color-primary-600
+
+//----- media queries --------------------------------------------------------------------------------------------------
+
+
+@media (display-mode: fullscreen)
+  .-presentation-fullscreen-mode
+    .header-desktop,
+    .back-button-wrapper
+      display: none
+
+.notifications-wrapper
+  +flex-container(row, false, center)
+  margin-right: $m-md
+  gap: $m-base

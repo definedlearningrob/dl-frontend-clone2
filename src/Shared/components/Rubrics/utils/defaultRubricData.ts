@@ -1,0 +1,112 @@
+export const defaultRubricData = {
+  headings: [
+    { id: 'heading-1', name: 'rubric.careerPathway.name', multiplier: 1 },
+    { id: 'heading-2', name: 'rubric.projectGoal.name', multiplier: 1 },
+    { id: 'heading-3', name: 'rubric.projectRole.name', multiplier: 1 },
+    { id: 'heading-4', name: 'rubric.jobProductQuality.name', multiplier: 1 },
+  ],
+  criteriaLabels: [
+    { displayName: 'test label', id: 'criteria-label-1', score: 1 },
+    { displayName: null, id: 'criteria-label-2', score: 2 },
+    { displayName: null, id: 'criteria-label-3', score: 3 },
+    { displayName: null, id: 'criteria-label-4', score: 4 },
+  ],
+  criterias: [
+    {
+      id: 'criteria-1-1',
+      rubricCriteriaLabelId: 'criteria-label-1',
+      rubricHeadingId: 'heading-1',
+      text: 'rubric.careerPathway.1',
+    },
+    {
+      id: 'criteria-1-2',
+      rubricCriteriaLabelId: 'criteria-label-2',
+      rubricHeadingId: 'heading-1',
+      text: 'rubric.careerPathway.2',
+    },
+    {
+      id: 'criteria-1-3',
+      rubricCriteriaLabelId: 'criteria-label-3',
+      rubricHeadingId: 'heading-1',
+      text: 'rubric.careerPathway.3',
+    },
+    {
+      id: 'criteria-1-4',
+      rubricCriteriaLabelId: 'criteria-label-4',
+      rubricHeadingId: 'heading-1',
+      text: 'rubric.careerPathway.4',
+    },
+    {
+      id: 'criteria-2-1',
+      rubricCriteriaLabelId: 'criteria-label-1',
+      rubricHeadingId: 'heading-2',
+      text: 'rubric.projectGoal.1',
+    },
+    {
+      id: 'criteria-2-2',
+      rubricCriteriaLabelId: 'criteria-label-2',
+      rubricHeadingId: 'heading-2',
+      text: 'rubric.projectGoal.2',
+    },
+    {
+      id: 'criteria-2-3',
+      rubricCriteriaLabelId: 'criteria-label-3',
+      rubricHeadingId: 'heading-2',
+      text: 'rubric.projectGoal.3',
+    },
+    {
+      id: 'criteria-2-4',
+      rubricCriteriaLabelId: 'criteria-label-4',
+      rubricHeadingId: 'heading-2',
+      text: 'rubric.projectGoal.4',
+    },
+    {
+      id: 'criteria-3-1',
+      rubricCriteriaLabelId: 'criteria-label-1',
+      rubricHeadingId: 'heading-3',
+      text: 'rubric.projectRole.1',
+    },
+    {
+      id: 'criteria-3-2',
+      rubricCriteriaLabelId: 'criteria-label-2',
+      rubricHeadingId: 'heading-3',
+      text: 'rubric.projectRole.2',
+    },
+    {
+      id: 'criteria-3-3',
+      rubricCriteriaLabelId: 'criteria-label-3',
+      rubricHeadingId: 'heading-3',
+      text: 'rubric.projectRole.3',
+    },
+    {
+      id: 'criteria-3-4',
+      rubricCriteriaLabelId: 'criteria-label-4',
+      rubricHeadingId: 'heading-3',
+      text: 'rubric.projectRole.4',
+    },
+    {
+      id: 'criteria-4-1',
+      rubricCriteriaLabelId: 'criteria-label-1',
+      rubricHeadingId: 'heading-4',
+      text: 'rubric.jobProductQuality.1',
+    },
+    {
+      id: 'criteria-4-2',
+      rubricCriteriaLabelId: 'criteria-label-2',
+      rubricHeadingId: 'heading-4',
+      text: 'rubric.jobProductQuality.2',
+    },
+    {
+      id: 'criteria-4-3',
+      rubricCriteriaLabelId: 'criteria-label-3',
+      rubricHeadingId: 'heading-4',
+      text: 'rubric.jobProductQuality.3',
+    },
+    {
+      id: 'criteria-4-4',
+      rubricCriteriaLabelId: 'criteria-label-4',
+      rubricHeadingId: 'heading-4',
+      text: 'rubric.jobProductQuality.4',
+    },
+  ],
+};

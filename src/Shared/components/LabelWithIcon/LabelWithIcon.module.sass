@@ -1,0 +1,30 @@
+@import '@shared/stylesheets/config'
+
+.label
+  +flex-container(row, center, center)
+  gap: $m-xxs
+  color: $color-neutral-700
+  font-size: $m-x
+  font-weight: $font-weight-medium
+  position: relative
+
+  &:not(:last-child):after
+    +pseudoelement
+    left: inherit
+    right: -$m-xs
+    top: 50%
+    transform: translateY(-50%)
+    width: $m-xxs
+    height: $m-xxs
+    border-radius: 50%
+    background-color: $color-neutral-300
+
+.labelDark
+  color: $color-neutral-800
+
+.iconWrapper
+  +flex-container(row, center, center)
+
+  svg
+    width: $m-sm
+    height: $m-sm

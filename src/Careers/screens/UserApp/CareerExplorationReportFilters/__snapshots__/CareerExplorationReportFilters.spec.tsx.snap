@@ -1,0 +1,751 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CareerPathwayReportFilters should be initialized with correct value 1`] = `
+<div>
+  <div
+    class="p-base xxxl:p-md h-[theme(layout.containerHeight)]"
+    id="read"
+  >
+    <div
+      class="card h-full"
+    >
+      <div
+        class="flex gap-2lg h-full"
+      >
+        <div
+          class="relative w-[320px] xxxl:w-[520px] self-stretch"
+        >
+          <img
+            class="w-full h-full object-cover rounded-sm bg-gradient-neutral"
+            src="career_pathway.jpeg"
+          />
+          <div
+            class="bg-gradient-neutral absolute inset-0 rounded-sm"
+          />
+        </div>
+        <div
+          class="flex flex-col flex-1"
+        >
+          <h2
+            class="text-base xxxl:text-2lg mb-xs xxxl:mb-sm"
+          >
+            Career Exploration Report
+          </h2>
+          <p
+            class="text-xs xxxl:text-sm mb-sm xxxl:mb-base"
+          >
+            Fill in all the required fields below in particular order to generate the report
+          </p>
+          <div
+            class="flex gap-sm xxxl:gap-base flex-1"
+          >
+            <div
+              class="pt-[29px]"
+            >
+              <div
+                class="p-xs rounded-sm font-medium text-sm xxxl:text-base xxxl:p-x bg-success-500 text-white"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-xxxs rounded-sm flex-1 m-auto my-xs bg-success-500"
+                style="height: 21px;"
+              />
+              <div
+                class="p-xs rounded-sm font-medium text-sm xxxl:text-base xxxl:p-x bg-success-500 text-white"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-xxxs rounded-sm flex-1 m-auto my-xs bg-success-500"
+                style="height: 21px;"
+              />
+              <div
+                class="p-xs rounded-sm font-medium text-sm xxxl:text-base xxxl:p-x bg-success-500 text-white"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-xxxs rounded-sm flex-1 m-auto my-xs bg-success-500"
+                style="height: 21px;"
+              />
+              <div
+                class="p-xs rounded-sm font-medium text-sm xxxl:text-base xxxl:p-x bg-success-500 text-white"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-xxxs rounded-sm flex-1 m-auto my-xs bg-success-500"
+                style="height: 21px;"
+              />
+              <div
+                class="p-xs rounded-sm font-medium text-sm xxxl:text-base xxxl:p-x bg-success-500 text-white"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex-1 flex flex-col gap-xs xxxl:gap-sm"
+            >
+              <label
+                class="flex flex-col leading-lg min-w-[120px] gap-xs"
+                data-testid="report-filters-select-entities"
+              >
+                <div
+                  class="text-font-primary leading-lg flex gap-xxxs text-xs !text-font-secondary opacity-50"
+                >
+                  Schools
+                </div>
+                <div
+                  class="select--is-disabled css-3iigni-container"
+                >
+                  <span
+                    class="css-1f43avz-a11yText-A11yText"
+                    id="react-select-2-live-region"
+                  />
+                  <span
+                    aria-atomic="false"
+                    aria-live="polite"
+                    aria-relevant="additions text"
+                    class="css-1f43avz-a11yText-A11yText"
+                    role="log"
+                  />
+                  <div
+                    aria-disabled="true"
+                    class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 opacity-50 !bg-neutral-200 !border-neutral-400 select__control select__control--is-disabled css-16xfy0z-control"
+                  >
+                    <div
+                      class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--is-multi select__value-container--has-value css-3w2yfm-ValueContainer"
+                    >
+                      <div
+                        class="!bg-neutral-200 !rounded-xs p-xxs py-xxxs !m-0 select__multi-value select__multi-value--is-disabled css-1p3m7a8-multiValue"
+                      >
+                        <div
+                          class="flex gap-xxs items-center min-w-0 bg-neutral-300"
+                          data-testid="select-chip"
+                        >
+                          <div
+                            class="!p-0 !text-font-primary min-w-0 !text-xs !leading-base select__multi-value__label css-wsp0cs-MultiValueGeneric"
+                          >
+                            All
+                          </div>
+                          <div
+                            aria-label="Remove All"
+                            class="!p-0 hover:!bg-danger-600 !rounded-xs overflow-hidden basis-sm shrink-0 select__multi-value__remove css-12a83d4-MultiValueRemove"
+                            role="button"
+                          >
+                            <div
+                              class="flex"
+                            >
+                              <div
+                                class="flex align-center justify-center grow-0 shrink-0 text-font-primary hover:text-white"
+                                data-testid="icon"
+                              >
+                                <div
+                                  class="h-sm w-sm"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-1h01tm3-Input"
+                        data-value=""
+                      >
+                        <input
+                          aria-activedescendant=""
+                          aria-autocomplete="list"
+                          aria-expanded="false"
+                          aria-haspopup="true"
+                          autocapitalize="none"
+                          autocomplete="off"
+                          autocorrect="off"
+                          class="select__input"
+                          disabled=""
+                          id="select-input-entities"
+                          role="combobox"
+                          spellcheck="false"
+                          style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                          tabindex="0"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                    >
+                      <div
+                        aria-hidden="true"
+                        class="select__indicator select__loading-indicator css-pogzpp-loadingIndicator"
+                      >
+                        <span
+                          class="css-1xtdfmb-LoadingDot"
+                        />
+                        <span
+                          class="css-zoievk-LoadingDot"
+                        />
+                        <span
+                          class="css-x748d8-LoadingDot"
+                        />
+                      </div>
+                      <div
+                        aria-hidden="true"
+                        class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 text-neutral-800"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </label>
+              <label
+                class="flex flex-col leading-lg min-w-[120px] gap-xs"
+                data-testid="report-filters-select-gradeLevels"
+              >
+                <div
+                  class="text-font-primary leading-lg flex gap-xxxs text-xs !text-font-secondary opacity-50"
+                >
+                  Grade Levels
+                </div>
+                <div
+                  class="select--is-disabled css-3iigni-container"
+                >
+                  <span
+                    class="css-1f43avz-a11yText-A11yText"
+                    id="react-select-3-live-region"
+                  />
+                  <span
+                    aria-atomic="false"
+                    aria-live="polite"
+                    aria-relevant="additions text"
+                    class="css-1f43avz-a11yText-A11yText"
+                    role="log"
+                  />
+                  <div
+                    aria-disabled="true"
+                    class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 opacity-50 !bg-neutral-200 !border-neutral-400 select__control select__control--is-disabled css-16xfy0z-control"
+                  >
+                    <div
+                      class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--is-multi select__value-container--has-value css-3w2yfm-ValueContainer"
+                    >
+                      <div
+                        class="!bg-neutral-200 !rounded-xs p-xxs py-xxxs !m-0 select__multi-value select__multi-value--is-disabled css-1p3m7a8-multiValue"
+                      >
+                        <div
+                          class="flex gap-xxs items-center min-w-0 bg-neutral-300"
+                          data-testid="select-chip"
+                        >
+                          <div
+                            class="!p-0 !text-font-primary min-w-0 !text-xs !leading-base select__multi-value__label css-wsp0cs-MultiValueGeneric"
+                          >
+                            All
+                          </div>
+                          <div
+                            aria-label="Remove All"
+                            class="!p-0 hover:!bg-danger-600 !rounded-xs overflow-hidden basis-sm shrink-0 select__multi-value__remove css-12a83d4-MultiValueRemove"
+                            role="button"
+                          >
+                            <div
+                              class="flex"
+                            >
+                              <div
+                                class="flex align-center justify-center grow-0 shrink-0 text-font-primary hover:text-white"
+                                data-testid="icon"
+                              >
+                                <div
+                                  class="h-sm w-sm"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <input
+                        aria-activedescendant=""
+                        aria-autocomplete="list"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        aria-readonly="true"
+                        class="css-mohuvp-dummyInput-DummyInput"
+                        disabled=""
+                        id="select-input-gradeLevels"
+                        inputmode="none"
+                        role="combobox"
+                        tabindex="0"
+                        value=""
+                      />
+                    </div>
+                    <div
+                      class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                    >
+                      <div
+                        aria-hidden="true"
+                        class="select__indicator select__loading-indicator css-pogzpp-loadingIndicator"
+                      >
+                        <span
+                          class="css-1xtdfmb-LoadingDot"
+                        />
+                        <span
+                          class="css-zoievk-LoadingDot"
+                        />
+                        <span
+                          class="css-x748d8-LoadingDot"
+                        />
+                      </div>
+                      <div
+                        aria-hidden="true"
+                        class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 text-neutral-800"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </label>
+              <label
+                class="flex flex-col leading-lg min-w-[120px] gap-xs"
+                data-testid="report-filters-select-users"
+              >
+                <div
+                  class="text-font-primary leading-lg flex gap-xxxs text-xs !text-font-secondary opacity-50"
+                >
+                  Teachers
+                </div>
+                <div
+                  class="select--is-disabled css-3iigni-container"
+                >
+                  <span
+                    class="css-1f43avz-a11yText-A11yText"
+                    id="react-select-4-live-region"
+                  />
+                  <span
+                    aria-atomic="false"
+                    aria-live="polite"
+                    aria-relevant="additions text"
+                    class="css-1f43avz-a11yText-A11yText"
+                    role="log"
+                  />
+                  <div
+                    aria-disabled="true"
+                    class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 opacity-50 !bg-neutral-200 !border-neutral-400 select__control select__control--is-disabled css-16xfy0z-control"
+                  >
+                    <div
+                      class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--is-multi select__value-container--has-value css-3w2yfm-ValueContainer"
+                    >
+                      <div
+                        class="!bg-neutral-200 !rounded-xs p-xxs py-xxxs !m-0 select__multi-value select__multi-value--is-disabled css-1p3m7a8-multiValue"
+                      >
+                        <div
+                          class="flex gap-xxs items-center min-w-0 bg-neutral-300"
+                          data-testid="select-chip"
+                        >
+                          <div
+                            class="!p-0 !text-font-primary min-w-0 !text-xs !leading-base select__multi-value__label css-wsp0cs-MultiValueGeneric"
+                          >
+                            All
+                          </div>
+                          <div
+                            aria-label="Remove All"
+                            class="!p-0 hover:!bg-danger-600 !rounded-xs overflow-hidden basis-sm shrink-0 select__multi-value__remove css-12a83d4-MultiValueRemove"
+                            role="button"
+                          >
+                            <div
+                              class="flex"
+                            >
+                              <div
+                                class="flex align-center justify-center grow-0 shrink-0 text-font-primary hover:text-white"
+                                data-testid="icon"
+                              >
+                                <div
+                                  class="h-sm w-sm"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-1h01tm3-Input"
+                        data-value=""
+                      >
+                        <input
+                          aria-activedescendant=""
+                          aria-autocomplete="list"
+                          aria-expanded="false"
+                          aria-haspopup="true"
+                          autocapitalize="none"
+                          autocomplete="off"
+                          autocorrect="off"
+                          class="select__input"
+                          disabled=""
+                          id="select-input-users"
+                          role="combobox"
+                          spellcheck="false"
+                          style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                          tabindex="0"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                    >
+                      <div
+                        aria-hidden="true"
+                        class="select__indicator select__loading-indicator css-pogzpp-loadingIndicator"
+                      >
+                        <span
+                          class="css-1xtdfmb-LoadingDot"
+                        />
+                        <span
+                          class="css-zoievk-LoadingDot"
+                        />
+                        <span
+                          class="css-x748d8-LoadingDot"
+                        />
+                      </div>
+                      <div
+                        aria-hidden="true"
+                        class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 text-neutral-800"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </label>
+              <span
+                data-state="closed"
+              >
+                <label
+                  class="flex flex-col leading-lg min-w-[120px] gap-xs"
+                  data-testid="report-filters-select-schoolClasses"
+                >
+                  <div
+                    class="text-font-primary leading-lg flex gap-xxxs text-xs !text-font-secondary opacity-50"
+                  >
+                    Classes
+                  </div>
+                  <div
+                    class="select--is-disabled css-3iigni-container"
+                  >
+                    <span
+                      class="css-1f43avz-a11yText-A11yText"
+                      id="react-select-5-live-region"
+                    />
+                    <span
+                      aria-atomic="false"
+                      aria-live="polite"
+                      aria-relevant="additions text"
+                      class="css-1f43avz-a11yText-A11yText"
+                      role="log"
+                    />
+                    <div
+                      aria-disabled="true"
+                      class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 opacity-50 !bg-neutral-200 !border-neutral-400 select__control select__control--is-disabled css-16xfy0z-control"
+                    >
+                      <div
+                        class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--is-multi select__value-container--has-value css-3w2yfm-ValueContainer"
+                      >
+                        <div
+                          class="!bg-neutral-200 !rounded-xs p-xxs py-xxxs !m-0 select__multi-value select__multi-value--is-disabled css-1p3m7a8-multiValue"
+                        >
+                          <div
+                            class="flex gap-xxs items-center min-w-0 bg-neutral-300"
+                            data-testid="select-chip"
+                          >
+                            <div
+                              class="!p-0 !text-font-primary min-w-0 !text-xs !leading-base select__multi-value__label css-wsp0cs-MultiValueGeneric"
+                            >
+                              All
+                            </div>
+                            <div
+                              aria-label="Remove All"
+                              class="!p-0 hover:!bg-danger-600 !rounded-xs overflow-hidden basis-sm shrink-0 select__multi-value__remove css-12a83d4-MultiValueRemove"
+                              role="button"
+                            >
+                              <div
+                                class="flex"
+                              >
+                                <div
+                                  class="flex align-center justify-center grow-0 shrink-0 text-font-primary hover:text-white"
+                                  data-testid="icon"
+                                >
+                                  <div
+                                    class="h-sm w-sm"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-1h01tm3-Input"
+                          data-value=""
+                        >
+                          <input
+                            aria-activedescendant=""
+                            aria-autocomplete="list"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            autocapitalize="none"
+                            autocomplete="off"
+                            autocorrect="off"
+                            class="select__input"
+                            disabled=""
+                            id="select-input-schoolClasses"
+                            role="combobox"
+                            spellcheck="false"
+                            style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                            tabindex="0"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                      >
+                        <div
+                          aria-hidden="true"
+                          class="select__indicator select__loading-indicator css-pogzpp-loadingIndicator"
+                        >
+                          <span
+                            class="css-1xtdfmb-LoadingDot"
+                          />
+                          <span
+                            class="css-zoievk-LoadingDot"
+                          />
+                          <span
+                            class="css-x748d8-LoadingDot"
+                          />
+                        </div>
+                        <div
+                          aria-hidden="true"
+                          class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 text-neutral-800"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-base w-base"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </label>
+              </span>
+              <label
+                class="flex flex-col leading-lg min-w-[120px] gap-xs"
+              >
+                <div
+                  class="text-font-primary leading-lg flex gap-xxxs text-xs"
+                >
+                  School Year
+                </div>
+                <div
+                  class=" css-b62m3t-container"
+                >
+                  <span
+                    class="css-1f43avz-a11yText-A11yText"
+                    id="react-select-6-live-region"
+                  />
+                  <span
+                    aria-atomic="false"
+                    aria-live="polite"
+                    aria-relevant="additions text"
+                    class="css-1f43avz-a11yText-A11yText"
+                    role="log"
+                  />
+                  <div
+                    class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                  >
+                    <div
+                      class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--has-value css-1fdsijx-ValueContainer"
+                    >
+                      <div
+                        class="!m-0 !leading-[22px] h-[22px] select__single-value css-1dimb5e-singleValue"
+                      >
+                        2023 / 2024
+                      </div>
+                      <input
+                        aria-activedescendant=""
+                        aria-autocomplete="list"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        aria-readonly="true"
+                        class="css-mohuvp-dummyInput-DummyInput"
+                        id="select-input-schoolYear"
+                        inputmode="none"
+                        role="combobox"
+                        tabindex="0"
+                        value=""
+                      />
+                    </div>
+                    <div
+                      class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                    >
+                      <div
+                        aria-hidden="true"
+                        class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 text-neutral-800"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <input
+                    name="schoolYear"
+                    type="hidden"
+                    value="2023"
+                  />
+                </div>
+              </label>
+            </div>
+          </div>
+          <span
+            class="block w-fit"
+            data-state="closed"
+          >
+            <a
+              href="/reports/career-exploration/report"
+            >
+              <button
+                class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] self-start -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+                data-testid="button"
+                type="button"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <span
+                  class="items-center flex justify-center gap-xs"
+                >
+                  Generate report
+                </span>
+              </button>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

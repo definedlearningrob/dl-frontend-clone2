@@ -1,0 +1,27 @@
+@import '@shared/stylesheets/config'
+
+.products
+  align-items: flex-start
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  justify-items: center
+  width: 100%
+
+.description
+  height: 100%
+  margin-bottom: $m-sm
+
+  :global
+    .presentation-textcontainer
+      +flex-container(column, center)
+      align-content: center
+      height: 100%
+      justify-content: center
+      max-height: 50px
+      overflow: hidden
+
+      p
+        margin: 0
+
+.title
+  grid-column: 1 / 3

@@ -1,0 +1,26 @@
+@import '@shared/stylesheets/config.sass'
+
+.internshipProgress
+  +flex-container(column)
+  height: 100%
+
+.title
+  font-size: $font-size-sm
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-lg
+
+.lessonsWrapper
+  +scrollbar
+  +media-breakpoint-up(xxxl)
+  height: max-content
+  margin-bottom: $m-sm
+
+  +media-breakpoint-up(xxxl)
+    margin-bottom: $m-base
+
+.diplomaWrapper
+  padding: $m-base 0
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-md 0

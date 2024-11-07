@@ -1,0 +1,49 @@
+@import '@shared/stylesheets/config.sass'
+
+$imageWidth: 320px
+$buttonMinWidth: 180px
+$summaryMaxWidth: 820px
+
+.imageWrapper
+  flex: 0 0 auto
+  width: 100%
+
+  +media-breakpoint-up(lg)
+    width: $imageWidth
+
+.image
+  height: auto
+  width: 100%
+  object-fit: contain
+  border-radius: $m-xs
+
+.courseSummaryContent
+  +flex-container(column)
+  max-width: $summaryMaxWidth
+
+.codeBadge
+  background-color: $color-neutral-200
+  border-radius: $border-radius-lg
+  font-size: $font-size-xxs
+  margin-bottom: $m-xs
+  padding: $m-xxs $m-xs
+  width: fit-content
+
+.buttonsWrapper
+  +flex-container(row, flex-start, flex-end)
+  gap: $m-xs
+  flex: 1
+  flex-wrap: wrap
+
+  +media-breakpoint-up(sm)
+    gap: $m-base
+
+  +media-breakpoint-up(lg)
+    flex-wrap: nowrap
+
+.button
+  min-width: $buttonMinWidth
+
+  +media-breakpoint-up(sm)
+    width: fit-content
+

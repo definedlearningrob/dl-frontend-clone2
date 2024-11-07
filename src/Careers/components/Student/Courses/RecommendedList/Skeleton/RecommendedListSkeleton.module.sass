@@ -1,0 +1,14 @@
+@import '@shared/stylesheets/config'
+
+.skeletonList
+  +flex-container(row)
+  gap: $m-base
+
+  :global
+    .recommended-card-skeleton
+      align-items: stretch
+      height: 100%
+
+    .recommended-card-skeleton__container
+      align-self: stretch
+      min-height: 200px

@@ -1,0 +1,121 @@
+@import '@shared/stylesheets/config.sass'
+
+.icon-button
+  +flex-container(row,center, center)
+  +transition(background-color, color)
+  background-color: transparent
+  border-radius: 100%
+  border: none
+  cursor: pointer
+  outline: none
+  padding: $m-xxs
+
+  &:hover
+    background-color: $color-white
+    color: $color-primary-500
+
+  &:disabled
+    opacity: 0.5
+    cursor: not-allowed
+
+    &:hover
+      background-color: $color-disabled
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-xs
+
+  //----- color versions -----------------------------------------------------------------------------------------------
+  &.-primary
+    background-color: $color-primary-500
+    color: $color-white
+    fill: $color-white
+
+    &:hover
+      background-color: $color-primary-500
+
+    &:disabled
+      opacity: 0.5
+      cursor: not-allowed
+
+  &.-primary-outlined
+    +transition(background-color)
+    background-color: transparent
+    outline: 1px solid $color-primary-500
+    color: $color-primary-500
+
+    &:hover
+      border-color: $color-primary-500
+      background-color: $color-primary-200
+
+  &.-base
+    background-color: $color-white
+    color: $color-primary-500
+
+    &:hover
+      background-color: $color-primary-200
+
+    &:disabled
+      opacity: 0.5
+      cursor: not-allowed
+
+  &.-danger
+    background-color: $color-danger-500
+    color: $color-white
+    fill: $color-white
+
+    &:hover
+      background-color: lighten($color-danger-500, 5)
+      color: $color-white
+
+    &:disabled
+      opacity: 0.5
+      cursor: not-allowed
+
+  &.-danger
+    background-color: $color-white
+    color: $color-danger-500
+    fill: $color-danger-500
+
+  &.-danger-outlined
+    +transition(background-color)
+    background-color: transparent
+    outline: 1px solid $color-danger-500
+    color: $color-danger-500
+
+    &:hover
+      border-color: $color-danger-500
+      background-color: $color-danger-100
+
+  &.-secondary
+    background-color: $color-white
+    color: $color-font-secondary
+    fill: $color-font-secondary
+
+    &:hover
+      background-color: $color-primary-200
+
+    &:disabled
+      opacity: 0.5
+      cursor: not-allowed
+
+  &.-secondary-outlined
+    +transition(background-color)
+    background-color: transparent
+    outline: 1px solid $color-font-secondary
+    color: $color-font-secondary
+
+    &:hover
+      border-color: $color-font-secondary
+      background-color: $color-neutral-200
+
+  //----- sizes --------------------------------------------------------------------------------------------------------
+  &.-size-xs
+    height: $m-base
+    width: $m-base
+
+    +media-breakpoint-up(xxxl)
+      height: $m-md
+      width: $m-md
+
+  &.-square
+    border-radius: $border-radius-sm

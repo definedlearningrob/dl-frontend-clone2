@@ -1,0 +1,24 @@
+@import '@shared/stylesheets/config.sass'
+
+.leftPanel
+  border-right: 1px solid $color-border-disabled
+  flex: 0 0 356px
+  max-height: calc(100vh - #{$desktop-header-height})
+
+  +media-breakpoint-up(xxl)
+    flex: 0 0 455px
+
+  ul
+    margin: 0
+
+.panelHeader
+  +flex-container(row, space-between, center)
+  border-bottom: 1px solid $color-background
+  color: $color-font-primary
+  overflow: hidden
+  padding: 0 $m-sm
+  flex: 0 0 80px
+
+  +media-breakpoint-up(xxl)
+    padding: 0 $m-md
+    flex: 0 0 95px

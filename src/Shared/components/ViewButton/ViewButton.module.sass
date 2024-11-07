@@ -1,0 +1,15 @@
+@import '@shared/stylesheets/config'
+
+.button
+  +flex-container(row-reverse)
+  gap: $m-xxs
+  //important until we have proper button type for those kind of situations
+  text-decoration: none !important
+  width: fit-content
+
+  :global
+    .button__text
+      font-size: $font-size-xs
+
+      +media-breakpoint-up(xxl)
+        font-size: $font-size-sm

@@ -1,0 +1,174 @@
+@import '@shared/stylesheets/config.sass'
+
+.choose-account
+  background-color: $color-background
+  min-height: 100vh
+
+  &__content
+    +flex-container(column, flex-start, stretch)
+    min-height: 100vh
+
+    &-wrapper
+      +flex-container(row, center, center)
+      margin: 0 auto
+      padding: 0 $m-sm
+      min-height: 100vh
+
+  &__card
+    +flex-container(row, flex-start, center)
+    background: $color-white
+    border: 2px solid transparent
+    border-radius: $border-radius-sm
+    cursor: pointer
+    margin-bottom: $m-sm
+    padding: $m-base * 0.5
+
+    &-content
+      +flex-container(row, flex-start, center)
+
+    &-icon
+      border-radius: $m-xs
+      border: 1px solid $color-primary-500
+      color: $color-primary-500
+      fill: $color-primary-500
+      margin-right: $m-sm
+      padding: $m-xs
+
+    &-info
+      color: $color-font-secondary
+      font-size: $font-size-xxs
+
+    &-title
+      color: $color-font-primary
+      display: block
+      font-weight: $font-weight-bold
+
+  &__welcome
+    text-align: center
+
+    &-header
+      color: $color-font-primary
+      font-size: $font-size-base
+      font-weight: $font-weight-bold
+      margin-bottom: $m-md
+
+  &__title
+    color: $color-font-primary
+    display: none
+
+  &__login-help
+    display: none
+
+  &__logo
+    display: block
+    fill: $color-primary-500
+    margin: $m-lg auto
+    width: 50vw
+
+  &__link
+    font-size: $font-size-sm
+    text-align: center
+
+  &__footer
+    display: block
+    margin-top: auto
+    padding-top: $m-md
+    text-align: center
+    width: 100%
+    
+    &__copyright-text
+      font-size: $font-size-xxs
+
+    &__social-media
+      
+      &-link
+        display: inline-block
+        margin: $m-xs
+        padding: $m-xs
+      
+      &-icon
+        fill: $color-primary-500
+
+    &-icon
+      display: inline-block
+      fill: $color-font-primary
+      margin-right: $m-base
+
+  &__logo
+    display: flex
+    max-width: 60%
+
+//----- media queries --------------------------------------------------------------------------------------------------
++media-breakpoint-up(md)
+  .choose-account
+    &__welcome
+      &-header
+        font-size: $font-size-base
+
+    &__footer
+      &__copyright-text
+        font-size: $font-size-sm
+
++media-breakpoint-up(lg)
+  .choose-account
+    display: flex
+
+    &__card
+      &-icon
+        border-radius: $m-sm
+        margin-right: $m-md
+        padding: $m-sm
+
+      &-info
+        font-size: $font-size-lg
+
+      &-title
+        font-size: $font-size-lg
+        margin-bottom: $m-base * 0.5
+
+    &__welcome
+      display: none
+
+    &__title
+      display: inherit
+      font-size: $font-size-3xl
+      margin: $m-md auto
+
+    &__login-help
+      display: inherit
+
+    &__link
+      font-size: $font-size-base
+      margin-top: auto
+
+    &__logo
+      display: none
+
+    &__footer
+      display: none
+
+    &__content
+      min-height: auto
+
+      &-wrapper
+        min-height: auto
+
++media-breakpoint-up(sm)
+  .choose-account
+    &__card
+      margin-bottom: $m-base
+
++min-width-and-min-height(xl, md)
+  .choose-account
+    &__card
+      padding: $m-md
+
+      &:hover
+        background-color: transparent
+        border: 2px solid $color-primary-500
+
+        .choose-account__card-icon
+          background-color: $color-primary-500
+          border: 1px solid $color-white
+          color: $color-white
+          fill: $color-white

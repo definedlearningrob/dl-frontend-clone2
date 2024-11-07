@@ -1,0 +1,25 @@
+@import '@shared/stylesheets/config.sass'
+
+.institutionName
+  +flex-container(row)
+  color: $color-primary-500
+  fill: $color-primary-500
+  font-size: $font-size-xs
+  font-weight: $font-weight-medium
+  gap: $m-xs
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+
+.institutionIcon * path
+  fill: $color-primary-500
+
+.listElement
+  color: $color-font-secondary
+  font-size: $font-size-xxs
+  font-weight: $font-weight-regular
+  padding: $m-xs
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-xs
+    font-weight: $font-weight-medium

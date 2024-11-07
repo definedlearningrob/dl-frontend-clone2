@@ -1,0 +1,15 @@
+@import '@shared/stylesheets/config.sass'
+
+.head
+  +flex-container(row, space-between, center)
+  margin-bottom: $m-md
+
+.title
+  margin-bottom: 0
+  font-size: $font-size-sm
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-base
+
+.teamsList
+  +scrollbar

@@ -1,0 +1,58 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+  .scrollbar {
+    @apply overflow-auto;
+  }
+
+  .scrollbar::-webkit-scrollbar {
+    width: theme(spacing.xs);
+    height: theme(spacing.xxs);
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: theme(colors.neutral.400);
+    border-radius: theme(borderRadius.sm);
+  }
+
+  .scrollbar::-webkit-scrollbar-corner {
+    background-color: theme(colors.transparent);
+  }
+
+  .injected-content ul {
+    list-style-position: inside;
+    list-style-type: disc;
+    margin-left: theme(spacing.sm);
+    margin-bottom: theme(spacing.sm);
+    line-height: theme(lineHeight.lg);
+  }
+
+  .injected-content ul ul {
+    list-style-type: circle
+  }
+
+  .injected-content ol {
+    list-style-position: inside;
+    list-style-type: decimal;
+    margin-left: theme(spacing.sm);
+    line-height: theme(lineHeight.lg);
+  }
+
+  .injected-content a {
+    word-break: break-all
+  }
+
+  .injected-content pre {
+    line-height: theme(lineHeight.lg);
+  }
+
+  .injected-content > *:last-child {
+    margin-bottom: 0;
+  }
+}

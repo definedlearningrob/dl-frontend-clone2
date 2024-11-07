@@ -1,0 +1,26 @@
+@import '@shared/stylesheets/config'
+
+$text-spacing: 0.01em
+
+.headerContainer
+  color: $color-font-primary
+  margin-bottom: $m-base
+  margin-top: $m-base
+  user-select: none
+  width: 100%
+
+.headerBottom
+  +flex-container(row, space-between, center)
+  gap: $m-sm
+  width: 100%
+
+.text
+  font-size: $font-size-sm
+  font-weight: $font-weight-regular
+  letter-spacing: $text-spacing
+  line-height: $line-height-lg
+  margin-bottom: 0
+
+
+.trigger
+  white-space: nowrap

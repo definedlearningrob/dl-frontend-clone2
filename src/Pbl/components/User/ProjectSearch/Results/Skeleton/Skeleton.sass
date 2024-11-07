@@ -1,0 +1,65 @@
+@import '@shared/stylesheets/config.sass'
+
+@keyframes loading
+  0%
+    transform: skewX(-10deg) translateX(-100%)
+  100% 
+    transform: skewX(-10deg) translateX(200%)
+
+.skeleton
+  display: grid
+  gap: $m-md
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr))
+  margin: 0
+  width: 100%
+
+.skeleton-element
+  background-color: $color-white
+  border-radius: $border-radius-xs
+  border: 1px solid $color-border
+  display: grid
+  grid-auto-rows: 1fr
+  height: 300px
+  overflow: hidden
+  padding: $m-base * 0.5
+  position: relative
+
+  &:before
+    content: ''
+    position: absolute
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent)
+    width: 50%
+    height: 100%
+    top: 0
+    left: 0
+    animation: loading 1.3s infinite
+
+  &__image-wrapper
+    +flex-container(row, center, center)
+    border-radius: $border-radius-xs
+    background-color: $color-disabled
+    flex: 0 0 125px
+    height: $m-xl * 2
+    margin-bottom: $m-xs
+    overflow: hidden
+
+  &__placeholder
+    background-color: $color-disabled
+    height: 15px
+    margin: 2px 0
+
+  &__placeholder-xs
+    @extend .skeleton-element__placeholder
+    width: 20%
+
+  &__placeholder-sm
+    @extend .skeleton-element__placeholder
+    width: 40%
+
+  &__placeholder-md
+    @extend .skeleton-element__placeholder
+    width: 60%
+
+  &__placeholder-lg
+    @extend .skeleton-element__placeholder
+    width: 100%

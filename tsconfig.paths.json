@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@dc/images/*": ["src/Careers/assets/images/*"],
+      "@dc/layout/*": ["src/Careers/components/layout/*"],
+      "@dc/mocks/*": ["cypress/e2e/DC/mocks/*"],
+      "@dc/shared/*": ["src/Careers/components/shared/*"],
+      "@dc/styles/*": ["src/Careers/stylesheets/*"],
+      "@dc/svg/*": ["src/Careers/assets/icons/*"],
+      "@dc/*": ["src/Careers/*"],
+      "@pbl/images/*": ["src/Pbl/assets/images/*"],
+      "@pbl/layout/*": ["src/Pbl/components/layout/*"],
+      "@pbl/shared/*": ["src/Pbl/components/shared/*"],
+      "@pbl/styles/*": ["src/Pbl/stylesheets/*"],
+      "@pbl/svg/*": ["src/Pbl/assets/icons/*"],
+      "@pbl/*": ["src/Pbl/*"],
+      "@shared/svg/*": ["src/Shared/assets/icons/*"],
+      "@shared/*": ["src/Shared/*"],
+      "@graphql/*": ["src/__generated__/*"]
+    }
+  }
+}

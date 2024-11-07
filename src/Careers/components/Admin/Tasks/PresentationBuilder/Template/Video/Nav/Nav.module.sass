@@ -1,0 +1,66 @@
+@import '@shared/stylesheets/config'
+
+$preview-video-height: 300px
+$preview-video-width: 500px
+
+.textContainer
+  position: relative
+  top: -64px
+
+.videoWrapper
+  +flex-container(row, center, center)
+  cursor: pointer
+
+  video
+    width: 100%
+
+.iconWrapper
+  +flex-container(column, center, center)
+  background-color: $color-background
+  cursor: pointer
+  display: flex
+  font-size: $font-size-xs
+  max-height: $preview-video-height
+  max-width: $preview-video-width
+  min-height: $preview-video-height
+  min-width: $preview-video-width
+  position: relative
+  pointer-events: none
+  top: -64px
+
+  div
+    position: absolute
+
+  p
+    margin: $m-xs 0 !important
+
+.icon
+  height: 100px
+  width: 150px
+
+  path
+    fill: $color-white
+
+.hiddenBackground
+  background-color: transparent
+
+.switchButtons
+  +flex-container(row, flex-end, center)
+  margin-right: 128px
+  position: absolute
+  right: 0
+  top: -54px
+
+.hidden
+  visibility: hidden
+
+.scriptWrapper
+  max-width: 90%
+  max-height: 80%
+  overflow: hidden
+
+.button
+  background-color: $color-white !important
+
+.scriptView
+  color: $color-font-primary !important

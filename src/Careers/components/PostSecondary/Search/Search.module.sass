@@ -1,0 +1,45 @@
+@import '@shared/stylesheets/config.sass'
+
+// TODO: to adjust during inputs implementation!
+$button-height: 40px
+
+.heading
+  font-size: $m-sm
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-base
+
+.description
+  font-size: $font-size-xs
+  line-height: $line-height-lg
+  color: $color-neutral-700
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-sm
+
+.searchButtonWrapper
+  max-width: min-content
+  height: $button-height
+  flex-grow: 1
+
+.searchButton
+  height: $button-height
+  width: 100%
+  :global(.icon.button__icon)
+    margin: 0 !important
+
+.iconMode
+  padding: $m-xs !important
+  min-width: 0 !important
+
+.label
+  :global(.input-error-message)
+    display: none
+  :global(.select__value-container)
+    padding: $m-xs $m-sm !important
+  :global(.dc-select__label)
+    display: block
+    line-height: $line-height-sm
+    font-size: $font-size-xs
+  :global(.select)
+    margin-bottom: 0

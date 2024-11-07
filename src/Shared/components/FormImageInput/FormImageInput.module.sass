@@ -1,0 +1,55 @@
+@import '@shared/stylesheets/config'
+
+.imageInputWrapper
+  +flex-container(column, center, flex-start)
+  color: $color-font-primary
+
+.imageInputLabel
+  color: $color-font-secondary
+  font-size: $font-size-sm
+  margin-bottom: $m-xs
+  text-align: center
+  text-transform: capitalize
+  width: 200px
+
+.imageInputPlaceholder
+  +flex-container(column, center, center)
+  background-color: $color-background
+  border-radius: $border-radius-base
+  border: solid 1px $color-primary-500
+  color: $color-primary-500
+  height: 200px
+  margin-bottom: $m-sm
+  min-height: 100px
+  overflow: hidden
+  padding: $m-sm
+  width: 200px
+
+  :global(.icon)
+    +flex-container(row, center, center)
+    margin-bottom: 16px
+
+    svg
+     fill: $color-primary-500
+     width: 60px
+
+  &:hover
+   cursor: pointer
+   opacity: 0.5
+
+.imageInputImagePlaceholder
+  max-height: 200px
+  max-width: 200px
+
+.imageInput
+  height: 0
+  width: 0
+  visibility: hidden
+
+.imageInputErrorMessage
+  color: $color-danger-500
+  font-size: $font-size-xs
+  height: $m-sm
+  margin:
+    bottom: $m-sm
+    top: -$m-x

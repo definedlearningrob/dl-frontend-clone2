@@ -1,0 +1,1 @@
+export { UpdatePersonalProjectModal } from './UpdatePersonalProjectModal';

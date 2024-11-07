@@ -1,0 +1,30 @@
+@import '@shared/stylesheets/config.sass'
+  
+.rubricButton
+  padding: $m-sm 0 $m-base !important
+  font-size: $font-size-xs
+
+  &:hover
+    text-decoration: none !important
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+
+.rubricButtonText
+  margin: 0 $m-xxs 0 $m-xs
+
+.dropdownIcon
+  transition: transform .6s ease
+
+.activeDropdownIcon
+  transform: rotate(90deg)
+
+.rubricContent
+  max-height: 0
+  overflow: hidden
+  transition: max-height 0.4s ease-in-out
+
+.expandedRubricContent
+  height: fit-content
+  max-height: 200vh
+  margin-bottom: $m-sm

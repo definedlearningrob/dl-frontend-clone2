@@ -1,0 +1,16 @@
+@import '@shared/stylesheets/config.sass'
+
+.libraryWrapper
+  +flex-container(column)
+  height: calc(100vh - #{$desktop-header-height} - 2 * #{$m-base})
+
+  +media-breakpoint-up(xxxl)
+    height: calc(100vh - #{$desktop-header-height} - 2 * #{$m-md})
+
+.wrapper
+  +flex-container(column)
+  flex: 1
+  gap: $m-sm
+
+  +media-breakpoint-up(lg)
+    flex-direction: row

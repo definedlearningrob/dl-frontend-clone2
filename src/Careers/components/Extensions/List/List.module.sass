@@ -1,0 +1,16 @@
+@import '@shared/stylesheets/config.sass'
+
+.grid
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+  gap: $m-md
+
+.list
+  min-height: 0 //for Firefox
+  padding: 0 $m-base
+
+  &::-webkit-scrollbar
+    width: 6px
+
+  &::-webkit-scrollbar-thumb
+    background-color: $color-primary-600

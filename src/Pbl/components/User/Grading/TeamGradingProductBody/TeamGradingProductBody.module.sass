@@ -1,0 +1,47 @@
+@import '@shared/stylesheets/config'
+
+.card
+  +flex-container(column)
+  gap: $m-base
+  margin-top: $m-sm
+
+.cardBody
+  +flex-container(column)
+  gap: $m-base
+
+.cardFooter
+  border-top: 1px solid $color-neutral-300
+  margin-right: -$m-base
+  margin-left: -$m-base
+  padding: $m-base $m-base 0
+
+.emptyContainer
+  +flex-container(row, center, center)
+
+.lastSubmissionDate
+  color: $color-font-secondary
+  font-size: $font-size-xs
+
+@media print
+  body
+    margin: 0 !important
+
+  html:not(.print-pdf) body
+    margin: 0 !important
+
+  html:not(.print-pdf) h5
+    font-size: $font-size-sm !important
+    margin-bottom: $m-xs
+
+  html:not(.print-pdf) p
+    font-size: $font-size-xxs !important
+    margin-bottom: $m-xxs
+
+  *
+    font-size: $font-size-xxs !important
+
+  .rubricWrapper
+    padding: $m-sm !important
+
+    button
+      display: none !important

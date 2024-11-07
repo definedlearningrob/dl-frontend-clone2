@@ -1,0 +1,9 @@
+@import '@shared/stylesheets/config'
+
+.school-class-list-item  
+    &__actions
+        +flex-container(row, flex-end, center)
+
+    &__button 
+        &#{&} // strengthen selector
+            width: 100px

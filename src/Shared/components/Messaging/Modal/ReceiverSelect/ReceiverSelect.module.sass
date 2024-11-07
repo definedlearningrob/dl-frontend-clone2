@@ -1,0 +1,36 @@
+@import '@shared/stylesheets/config.sass'
+
+.select
+  :global(.dc-async-select__value-container)
+    height: 56px
+    padding: $m-xs $m-sm !important
+
+.entity
+  display: block
+  color: $color-font-primary
+  font-size: $font-size-xs
+  margin-top: $m-xs
+  border: none
+  outline: none
+
+.wrapper
+  padding-bottom: $m-sm
+
+.label
+  color: $color-font-secondary
+  gap: $m-xs
+
+.teamReceiverWrapper
+  +flex-container(row, false, center)
+  border: $border-width-xs solid $color-neutral-400
+  border-radius: $m-xs
+  background-color: $color-neutral-200
+  color: $color-primary-500
+  padding: $m-xs $m-sm
+  gap: $m-xs
+
+.receiverIconWrapper
+  +flex-container(row)
+  background-color: $color-white
+  padding: $m-xs
+  border-radius: 50%

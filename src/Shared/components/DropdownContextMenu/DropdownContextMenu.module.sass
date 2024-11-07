@@ -1,0 +1,16 @@
+@import '@shared/stylesheets/config.sass'
+
+$dropdown-menu-content-min-width: 180px
+
+.DropdownMenuContent
+  box-shadow: 0 $m-xxs $m-xs rgba(69, 76, 102, 0.1)
+  min-width: $dropdown-menu-content-min-width
+
+  :global([role='menuitem'])
+    &:first-of-type
+      border-top-left-radius: $m-xs
+      border-top-right-radius: $m-xs
+
+    &:last-of-type
+      border-bottom-left-radius: $m-xs
+      border-bottom-right-radius: $m-xs

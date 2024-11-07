@@ -1,0 +1,47 @@
+@import '@shared/stylesheets/config.sass'
+  
+.lessonCard
+  border-radius: $border-radius-sm
+  padding: $m-base
+
+  p
+    font-size: $font-size-xs
+
+  ul
+    list-style-position: inside
+    list-style-type: disc
+    margin-left: $m-sm
+
+  ul ul
+    list-style-type: circle
+
+  ol
+    list-style-position: inside
+    list-style-type: decimal
+    margin-left: $m-sm
+
+  a
+    word-break: break-all
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-md  
+
+    p
+      font-size: $font-size-sm
+
+.cardHeader
+  +flex-container(row, space-between, center)
+  margin-bottom: $m-base
+
+.cardWithDescriptionHeader
+  margin-bottom: $m-xs
+
+.cardTitle
+  font-size: $font-size-sm
+  margin-bottom: 0
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-base
+  
+.cardDescription
+  margin-bottom: $m-base

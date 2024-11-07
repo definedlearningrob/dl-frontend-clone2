@@ -1,0 +1,38 @@
+@import '@shared/stylesheets/config.sass'
+
+$innerContainerHeight: 390px
+$containerMinHeight: 440px
+
+.main
+  padding: $m-base
+
+
+.wrapper
+  +flex-container(column)
+  max-height: calc(95vh - $m-xl)
+  min-height: $containerMinHeight
+  background-color: $color-white
+  border-radius: $border-radius-sm
+  padding: $m-md
+
+.title
+  align-self: center
+
+.container
+  +flex-container(column)
+  flex: 1
+  overflow: auto
+
+.main
+  margin: 0 auto
+
++media-breakpoint-up(xl)
+  .error
+    width: 60%
+
++media-breakpoint-up(xxl)
+  .main
+    width: 70%
+
+  .error
+    width: 70%

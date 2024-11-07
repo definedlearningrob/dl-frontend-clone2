@@ -1,0 +1,27 @@
+@import '@shared/stylesheets/config.sass'
+
+.layout
+  display: flex
+  flex-direction: column-reverse
+
+  +media-breakpoint-up(md)
+    flex-direction: row
+
+.left
+  background-color: $color-white
+  border-radius: $border-radius-sm
+  flex: 2
+  padding: $m-base
+
+.right
+  flex: 1
+  margin-bottom: $m-sm
+
+  +media-breakpoint-up(md)
+    margin-left: $m-sm
+    max-width: 400px
+
+.description
+  margin-top: $m-sm
+  font-size: $font-size-base
+  word-break: break-word

@@ -1,0 +1,65 @@
+@import '@shared/stylesheets/config.sass'
+
+.courseCard
+  position: relative
+  background-size: cover
+  border-radius: $border-radius-sm
+  color: $color-white
+  height: 100%
+  min-height: 170px
+  min-width: $recommended-card-min-width
+  text-decoration: none
+  transition: $course-card-transition
+
+  &:hover
+    filter: brightness(110%)
+
+.container
+  +flex-container(column, flex-end, flex-start)
+  gap: $m-xs
+  background: $recommended-card-mask
+  border-radius: $border-radius-sm
+  height: 100%
+  padding: $m-sm
+  transition: all $transition-duration $transition-function
+  width: 100%
+
+.highlightedCard
+  background: $course-card-mask
+  
+.header
+  +flex-container(column, flex-end, flex-start)
+  flex: 1
+  font-size: $font-size-base
+  margin: 0
+  min-height: $m-md * 2
+  white-space: break-spaces
+  letter-spacing: .2px
+
+.tooltip
+  padding: $m-sm
+  text-align: center
+  width: 300px
+
+.additionalInfo
+  +flex-container(row, flex-start, center)
+  color: $color-warning-500
+  fill: $color-warning-500
+  font-size: $font-size-sm
+  font-weight: $font-weight-medium
+
+.additionalInfoIcon
+  margin-right: $m-xs
+
+.button
+  +flex-container(row, flex-start, center)
+  color: $color-white
+  fill: $color-white
+  font-weight: $font-weight-medium
+  text-transform: capitalize
+
+  &:hover
+    cursor: pointer
+
+.buttonIcon
+  margin-left: $m-xs * 0.5

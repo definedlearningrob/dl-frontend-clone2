@@ -1,0 +1,30 @@
+@import '@shared/stylesheets/config.sass'
+
+$button-size: 40px
+
+.container
+  +flex-container(row, space-between, center)
+  border: solid 1px $color-border
+  border-radius: $border-radius-sm
+  padding: $m-sm
+
+  &:hover
+    border-color: $color-primary-500
+
+.label
+  color: $color-font-primary
+  display: block
+  margin-bottom: $m-xs
+
+.input
+  border: none
+  height: 100%
+  outline: none
+  resize: none
+  width: 100%
+  background-color: $color-white
+
+.button
+  margin-left: $m-xs
+  height: $button-size
+  width: $button-size

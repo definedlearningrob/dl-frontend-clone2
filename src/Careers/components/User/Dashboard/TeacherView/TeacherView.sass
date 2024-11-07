@@ -1,0 +1,375 @@
+@import '@shared/stylesheets/config'
+
+$reports-container-max-height: 450px
+
+.teacher-dashboard
+  +flex-container(column)
+
+  &__top
+    display: grid
+    gap: $m-base
+    grid-template-areas: "classes classes activity"
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: minmax(auto, 600px)
+    margin-bottom: $m-base
+
+  &__bottom
+    background-color: $color-white
+    border-radius: $border-radius-sm
+    display: grid
+    gap: $m-md
+    grid-template-areas: "generate-area generate-area generate-area" "reports pathways clusters"
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: max-content 1fr
+    height: $reports-container-max-height
+    padding: $m-md
+
+  &__classes
+    grid-area: classes
+
+  &__my-reports
+    grid-area: reports
+
+  &__top-pathways-enrolled
+    grid-area: pathways
+
+  &__top-career-clusters-enrolled
+    grid-area: clusters
+
+  &__welcome
+    margin-bottom: $m-base
+
+  &__welcome-link
+    text-decoration: underline
+    text-underline-offset: 1px
+
+  &__user-heading
+    color: $color-font-primary
+    font-size: $font-size-2lg
+    margin: 0 0 $m-sm
+
+  &__classes
+    +flex-container(column)
+    background-color: $color-white
+    border-radius: $border-radius-sm
+    overflow: hidden
+    position: relative
+
+    &:before
+      background: linear-gradient(360deg, $color-white, rgba($color-white, .25))
+      border-bottom-left-radius: $m-xs
+      border-bottom-right-radius: $m-xs
+      bottom: 0
+      content: ''
+      height: $m-base
+      left: 0
+      position: absolute
+      right: 0
+      z-index: $z-higher
+
+    &__heading
+      color: $color-font-primary
+      font-size: $font-size-base
+      margin: 0
+      padding: $m-base $m-base 0
+
+    &__table-header
+      border-bottom: 1px solid $color-border
+      color: $color-neutral-700
+      display: contents
+      display: grid
+      font-size: $font-size-xs
+      font-weight: $font-weight-medium
+      grid-template-columns: 2fr 1fr 1fr 1fr 1fr
+
+    .table-cell-1,
+    .table-cell-2,
+    .table-cell-3,
+    .table-cell-4,
+    .table-cell-5
+      background-color: inherit
+      color: $color-neutral-700
+      padding-bottom: $m-sm
+      padding-right: $m-sm
+      padding-top: $m-sm
+      text-align: right
+
+      &:not(.teacher-dashboard__classes__header-cell)
+        border-top: $border-width-xs solid $color-border
+
+    .table-cell-1
+      padding-left: $m-base
+      text-align: left
+
+    &__scroll-container
+      +flex-container(column)
+      overflow: auto
+
+    &__list
+      composes: dashboard-scroll from global
+      display: grid
+      grid-template-columns: 2fr 1fr 1fr 1fr 1fr
+      margin: $m-xxs -$m-xxs 0 0
+      overflow-y: auto
+      padding: 0
+
+    &__list-item
+      cursor: pointer
+      display: contents
+      user-select: none
+
+      .dropdown-portal-container
+        display: none
+
+      &:hover
+        background-color: #EBF5FE
+
+        .dropdown-portal-container
+          background-color: $color-white
+          display: block
+
+          &:hover
+            .dropdown-portal-options__trigger-icon-wrapper
+              background-color: $color-white
+
+    &__name-cell
+      color: $color-primary-500
+
+      &.-grading
+        border-left: 1px solid $color-secondary-500
+
+    &__review-indicator
+      color: $color-secondary-500
+      font-size: $font-size-sm * 0.5
+      font-weight: $font-weight-regular
+      line-height: 10px
+      margin: -$m-xs 0 0
+
+    &__entity-name
+      color: $color-primary-600
+      font-size: $font-size-xs
+      font-weight: $font-weight-regular
+      margin: 0
+
+    &__class-name
+      +flex-container(row, flex-start, center)
+      color: $color-primary-600
+      font-size: $font-size-sm
+      font-weight: $font-weight-bold
+      margin: 0
+
+    &__student-cell,
+    &__assessments-cell
+      +flex-container(row, flex-end, center)
+      color: $color-font-primary
+      font-weight: $font-weight-regular
+      white-space: nowrap
+
+    &__courses-cell
+      +flex-container(row, flex-end, center)
+      font-weight: $font-weight-regular
+
+    &__progress-circle
+      text
+        fill: $color-font-primary
+
+      &.-not-started
+        text
+          fill: $color-primary-500
+
+      &.-in-progress
+        text
+          fill: $color-secondary-500
+
+      &.-completed
+        text
+          fill: $color-primary-500
+
+      .progress-ring__circle-background
+        stroke: $color-background
+
+    &__actions-cell
+      +flex-container(row, flex-end, center)
+
+    &__link
+      +flex-container(row, flex-start, center)
+      color: $color-primary-500
+      cursor: pointer
+      fill: $color-primary-500
+      font-weight: $font-weight-medium
+      padding-right: $m-xs
+      white-space: nowrap
+
+      .icon
+        margin-left: $m-x
+
+    &__announcement-button
+      background-color: $color-primary-200
+      color: $color-primary-500
+      flex: 0 0 auto
+
+      &:hover
+        background-color: $color-neutral-300
+
+  &__top-career-clusters-enrolled
+    +flex-container(column)
+    background-color: $color-white
+    border-radius: $border-radius-sm
+    color: $color-font-primary
+    overflow: hidden
+
+    &__heading
+      font-size: $font-size-base
+      margin: 0 0 $m-base
+      padding: 0
+
+    &__list
+      border-radius: $border-radius-sm
+      border: $border-width-xs solid $color-border-disabled
+      height: 100%
+      margin: 0
+      overflow-y: auto
+      padding: $m-base $m-base 0 $m-base
+
+    &__stat
+      margin-bottom: $m-base
+
+    &__stat-name
+      font-size: $font-size-xs
+      margin: 0 0 $m-xs
+
+    &__stat-bar
+      +flex-container(row, flex-start, center)
+      color: $color-primary-500
+
+    &__stat-indicator
+      background-color: $color-primary-500
+      border-radius: $border-radius-xs
+      flex: 1 0 $m-xs
+      height: $m-sm
+      margin-right: $m-xs
+
+    &__placeholder
+      +flex-container(row, center, center)
+      border-radius: $border-radius-sm
+      border: $border-width-xs solid $color-border-disabled
+      height: 100%
+      text-align: center
+
+  &__top-pathways-enrolled
+    +flex-container(column)
+    color: $color-font-primary
+    overflow: hidden
+
+    &__heading
+      font-size: $font-size-base
+      margin: 0 0 $m-base
+      padding: 0
+
+    &__list
+      border-radius: $border-radius-sm
+      border: $border-width-xs solid $color-border-disabled
+      height: 100%
+      margin: 0
+      overflow-y: auto
+      padding: $m-base $m-base 0 $m-base
+
+    &__stat
+      font-weight: $font-weight-medium
+      margin-bottom: $m-base
+
+    &__stat-name
+      font-size: $font-size-xs
+      margin: 0 0 $m-xs
+
+    &__stat-bar
+      +flex-container(row, flex-start, center)
+      color: $color-secondary-500
+
+    &__stat-indicator
+      background-color: $color-secondary-500
+      border-radius: $border-radius-xs
+      flex: 1 0 $m-xs
+      height: $m-sm
+      margin-right: $m-xs
+
+    &__placeholder
+      +flex-container(row, center, center)
+      border-radius: $border-radius-sm
+      border: $border-width-xs solid $color-border-disabled
+      height: 100%
+      text-align: center
+
+  &__my-reports
+    +flex-container(column)
+    color: $color-font-primary
+    overflow: auto
+
+    &__header
+      +flex-container(row, space-between, center)
+      margin: 0 0 $m-base
+
+    &__link
+      +flex-container(row, center, center)
+      color: $color-primary-500
+      cursor: pointer
+
+    &__list
+      display: grid
+      gap: $m-sm
+      grid-auto-rows: auto
+      grid-template-columns: repeat(3, 1fr)
+      height: 100%
+      margin: 0
+
+      &.-vertical
+        display: flex
+        flex-direction: column
+
+    &__item
+      +flex-container(row, flex-start, center)
+      border-radius: $border-radius-sm
+      border: 1px solid $color-border
+      padding: $m-base * 0.5
+      flex: 1
+
+    &__icon-wrapper
+      border-radius: $border-radius-sm
+      display: grid
+      flex: 0 0 auto
+      height: $m-lg
+      margin-right: $m-sm
+      place-items: center
+      width: $m-lg
+
+      &.-success-theme
+        background-color: $color-success-100
+        color: $color-success-500
+
+      &.-primary-theme
+        background-color: $color-primary-200
+        color: $color-primary-500
+
+      &.-secondary-theme
+        background-color: $color-secondary-200
+        color: $color-secondary-500
+
+    &__item-name
+      color: $color-font-secondary
+      font-size: $font-size-xs
+      margin: 0
+
+    &__item-value
+      color: $color-primary-500
+      font-size: $font-size-base
+      margin-top: $m-xs
+
+//----- media queries --------------------------------------------------------------------------------------------------
++media-breakpoint-up(xxl)
+  .teacher-dashboard
+    &__left
+      gap: $m-md
+      margin-right: $m-md
+
+    &__welcome
+      margin-bottom: $m-md

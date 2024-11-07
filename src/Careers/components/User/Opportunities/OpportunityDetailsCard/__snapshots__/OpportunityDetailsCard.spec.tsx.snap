@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OpportunityDetailsCard should render correctly 1`] = `
+<div>
+  <div
+    class="card flex gap-base p-base xxxl:p-md"
+    data-testid="opportunity-summary-card"
+  >
+    <div
+      class="shrink-0 grow-0 basis-[min-content] min-w-[180px] xxxl:min-w-[240px] max-h-[180px] xxxl:max-h-[240px] flex justify-center"
+    >
+      <img
+        class="object-cover rounded-sm max-w-full max-h-full m-auto"
+        src="http://localstack.lvh.me:4566/dev-bucket/images/opportunities/tree=1"
+      />
+    </div>
+    <div
+      class="flex flex-col grow gap-sm"
+    >
+      <div>
+        <h3
+          class="text-sm mb-xs xxxl:text-lg xxxl:mb-sm"
+        >
+          Virtula Intern Ship 
+        </h3>
+        <div
+          class="flex flex-col gap-xxs"
+        >
+          <div
+            class="flex items-center gap-xxs xxxl:gap-xs text-font-secondary leading-lg whitespace-pre-wrap text-xxs xxxl:text-sm"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="font-medium"
+            >
+              Type:
+            </span>
+            Virtual Internship
+          </div>
+          <div
+            class="flex items-center gap-xxs xxxl:gap-xs text-font-secondary leading-lg whitespace-pre-wrap text-xxs xxxl:text-sm"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="font-medium"
+            >
+              Pathway:
+            </span>
+            <span
+              data-state="closed"
+            >
+              <span
+                class="line-clamp-1 cursor-pointer"
+              >
+                A/V Technology & Film
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="flex gap-xs xxxl:gap-sm"
+        >
+          <a
+            href="/opportunities/6/virtual-internship/123"
+          >
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+              data-testid="button"
+              type="button"
+            >
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Show internship
+              </span>
+            </button>
+          </a>
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+            data-testid="button"
+            type="button"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Recommend
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

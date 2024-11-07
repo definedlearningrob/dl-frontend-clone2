@@ -1,0 +1,48 @@
+@import '@shared/stylesheets/config.sass'
+
+.shared-tooltip-portal
+  background-color: $color-white
+  border-radius: $border-radius-sm
+  font-size: $font-size-xxs
+  max-width: 600px
+  box-shadow: 0 $m-xs $m-sm rgba(69,76,102,0.2)
+  padding: $m-sm
+  position: fixed
+  z-index: $z-highest * $z-highest
+  visibility: hidden
+
+  &.-visible
+    visibility: visible
+
+  &.-dark
+    background-color: $color-font-primary
+    color: $color-white
+
+    .shared-tooltip-portal__arrow
+      &.-top
+        border-top-color: $color-font-primary
+
+      &.-bottom
+        border-bottom-color: $color-font-primary
+
+  &__arrow
+    position: absolute
+
+    &.-top
+      border-left: 10px solid transparent
+      border-right: 10px solid transparent
+      border-top: 10px solid $color-white
+      bottom: -$m-xs
+      left: 50%
+      transform: translateX(-50%)
+
+    &.-bottom
+      border-bottom: 10px solid $color-white
+      border-left: 10px solid transparent
+      border-right: 10px solid transparent
+      left: 50%
+      top: -$m-xs
+      transform: translateX(-50%)
+
+  &__placeholder
+    cursor: pointer

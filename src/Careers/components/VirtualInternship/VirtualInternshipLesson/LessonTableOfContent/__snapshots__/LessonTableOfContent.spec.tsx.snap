@@ -1,0 +1,360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LessonTableOfContent displays table of content with current lesson expanded 1`] = `
+<div>
+  <div
+    class="card lessonCard"
+    data-testid="lesson-element-card"
+  >
+    <div
+      class="cardHeader"
+    >
+      <div
+        class="flex items-center gap-x xxxl:gap-sm"
+      >
+        <h5
+          class="cardTitle"
+        >
+          Virtual Internship content
+        </h5>
+      </div>
+    </div>
+    <div
+      class="container"
+      data-testid="lesson-progress-list"
+    >
+      <div
+        class="group bg-neutral-200 p-xs rounded-sm mb-xs xxxl:mb-x last:!mb-0"
+        data-testid="lesson-progress-item"
+      >
+        <span
+          data-state="closed"
+        >
+          <div
+            class="flex items-center gap-xs cursor-pointer xxxl:gap-x"
+          >
+            <div
+              class="statusWrapper bg-neutral-300 p-xs rounded-xxs !bg-success-500"
+            >
+              <div
+                class="icon text-primary-500 !text-white -xs-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </div>
+            <div
+              class="flex text-primary-500 gap-xxs leading-lg text-xs xxxl:text-sm !text-success-500"
+            >
+              <span>
+                1. 
+              </span>
+              <span>
+                Career Cluster: Business Management & Administration
+              </span>
+            </div>
+          </div>
+        </span>
+      </div>
+      <div
+        class="group bg-neutral-200 p-xs rounded-sm mb-xs xxxl:mb-x last:!mb-0"
+        data-testid="lesson-progress-item"
+      >
+        <span
+          data-state="closed"
+        >
+          <div
+            class="flex items-center gap-xs cursor-pointer xxxl:gap-x"
+          >
+            <div
+              class="statusWrapper bg-neutral-300 p-xs rounded-xxs !bg-secondary-500"
+            >
+              <div
+                class="icon text-primary-500 !text-white -xs-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </div>
+            <div
+              class="flex text-primary-500 gap-xxs leading-lg text-xs xxxl:text-sm !text-secondary-500"
+            >
+              <span>
+                2. 
+              </span>
+              <span>
+                Career Pathway: Marketing Research
+              </span>
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <a
+              class="lessonItem"
+              href="/opportunities/1/virtual-internship/lesson/6?section=2-CheckInGroup"
+            >
+              <div
+                class="checkbox checkbox"
+              >
+                <input
+                  checked=""
+                  class="checkbox__input"
+                  data-testid="checkbox"
+                  readonly=""
+                  tabindex="-1"
+                  type="checkbox"
+                />
+                <label
+                  class="checkbox__label -checked"
+                />
+              </div>
+              <span>
+                Lesson 2 Check-ins
+              </span>
+            </a>
+            <a
+              class="lessonItem"
+              href="/opportunities/1/virtual-internship/lesson/6?section=3-CheckInGroup"
+            >
+              <div
+                class="checkbox checkbox"
+              >
+                <input
+                  class="checkbox__input"
+                  data-testid="checkbox"
+                  readonly=""
+                  tabindex="-1"
+                  type="checkbox"
+                />
+                <label
+                  class="checkbox__label"
+                />
+              </div>
+              <span>
+                Lesson 2 Check-ins 2
+              </span>
+            </a>
+          </div>
+        </span>
+      </div>
+      <div
+        class="group bg-neutral-200 p-xs rounded-sm mb-xs xxxl:mb-x last:!mb-0"
+        data-testid="lesson-progress-item"
+      >
+        <span
+          data-state="closed"
+        >
+          <div
+            class="flex items-center gap-xs cursor-pointer xxxl:gap-x"
+          >
+            <div
+              class="statusWrapper bg-neutral-300 p-xs rounded-xxs"
+            >
+              <div
+                class="icon text-primary-500 !text-font-secondary group-hover:!text-primary-500 -xs-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </div>
+            <div
+              class="flex text-primary-500 gap-xxs leading-lg text-xs xxxl:text-sm !text-font-secondary group-hover:!text-primary-500"
+            >
+              <span>
+                3. 
+              </span>
+              <span>
+                Supply Clerk
+              </span>
+            </div>
+          </div>
+        </span>
+      </div>
+      <div
+        class="group bg-neutral-200 p-xs rounded-sm mb-xs xxxl:mb-x last:!mb-0"
+        data-testid="lesson-progress-item"
+      >
+        <span
+          data-state="closed"
+        >
+          <div
+            class="flex items-center gap-xs cursor-pointer xxxl:gap-x"
+          >
+            <div
+              class="statusWrapper bg-neutral-300 p-xs rounded-xxs !bg-success-500"
+            >
+              <div
+                class="icon text-primary-500 !text-white -xs-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </div>
+            <div
+              class="flex text-primary-500 gap-xxs leading-lg text-xs xxxl:text-sm !text-success-500"
+            >
+              <span>
+                4. 
+              </span>
+              <span>
+                Career Roadmap - Overview, Education, and Personal Budgeting: Supply Clerks
+              </span>
+            </div>
+          </div>
+        </span>
+      </div>
+      <div
+        class="group bg-neutral-200 p-xs rounded-sm mb-xs xxxl:mb-x last:!mb-0"
+        data-testid="lesson-progress-item"
+      >
+        <span
+          data-state="closed"
+        >
+          <div
+            class="flex items-center gap-xs cursor-pointer xxxl:gap-x"
+          >
+            <div
+              class="statusWrapper bg-neutral-300 p-xs rounded-xxs"
+            >
+              <div
+                class="icon text-primary-500 !text-font-secondary group-hover:!text-primary-500 -xs-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </div>
+            <div
+              class="flex text-primary-500 gap-xxs leading-lg text-xs xxxl:text-sm !text-font-secondary group-hover:!text-primary-500"
+            >
+              <span>
+                5. 
+              </span>
+              <span>
+                Experience Opportunity
+              </span>
+            </div>
+          </div>
+        </span>
+      </div>
+      <div
+        class="group bg-neutral-200 p-xs rounded-sm mb-xs xxxl:mb-x last:!mb-0"
+        data-testid="lesson-progress-item"
+      >
+        <span
+          data-state="closed"
+        >
+          <div
+            class="flex items-center gap-xs cursor-pointer xxxl:gap-x"
+          >
+            <div
+              class="statusWrapper bg-neutral-300 p-xs rounded-xxs"
+            >
+              <div
+                class="icon text-primary-500 !text-font-secondary group-hover:!text-primary-500 -xs-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </div>
+            <div
+              class="flex text-primary-500 gap-xxs leading-lg text-xs xxxl:text-sm !text-font-secondary group-hover:!text-primary-500"
+            >
+              <span>
+                6. 
+              </span>
+              <span>
+                Post secondary lesson
+              </span>
+            </div>
+          </div>
+        </span>
+      </div>
+      <div
+        class="group bg-neutral-200 p-xs rounded-sm mb-xs xxxl:mb-x last:!mb-0"
+        data-testid="lesson-progress-item"
+      >
+        <span
+          data-state="closed"
+        >
+          <div
+            class="flex items-center gap-xs cursor-pointer xxxl:gap-x"
+          >
+            <div
+              class="statusWrapper bg-neutral-300 p-xs rounded-xxs"
+            >
+              <div
+                class="icon text-primary-500 !text-font-secondary group-hover:!text-primary-500 -xs-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </div>
+            <div
+              class="flex text-primary-500 gap-xxs leading-lg text-xs xxxl:text-sm !text-font-secondary group-hover:!text-primary-500"
+            >
+              <span>
+                7. 
+              </span>
+              <span>
+                Career Review Survey
+              </span>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      class="progressButtons"
+    >
+      <button
+        class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] progressButton -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] border"
+        data-testid="button"
+        type="button"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <span
+          class="items-center flex justify-center gap-xs"
+        >
+          Previous
+        </span>
+      </button>
+      <button
+        class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] progressButton -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] flex-row-reverse border"
+        data-testid="button"
+        disabled=""
+        type="button"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+        <span
+          class="items-center flex justify-center gap-xs"
+        >
+          Next
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

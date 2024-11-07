@@ -1,0 +1,58 @@
+@import '@shared/stylesheets/config.sass'
+
+$search-section-max-height: 200px
+$section-max-height: 500px
+
+.verticalList
+  padding-right: $m-xxs !important
+
+.content
+  overflow: auto
+  min-height: 100%
+  max-height: 100%
+  padding: $m-base
+  display: grid
+  gap: $m-base
+  grid-template-columns: 1fr 340px
+  grid-template-rows: min-content minmax(200px, 1fr)
+
+  +media-breakpoint-up(xxxl)
+    grid-template-columns: 2fr 1fr
+    gap: $m-md
+    padding: $m-md
+
+  & .futureListSection,
+  & .favoritesSection,
+  & .applicationsSection
+    background-color: $color-white
+    padding: $m-base
+    border-radius: $border-radius-sm
+
+    +media-breakpoint-up(xxxl)
+      padding: $m-md
+
+.searchSection
+  background-color: $color-white
+  padding: $m-base
+  border-radius: $border-radius-base
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-md
+
+.applicationsEnabled
+  grid-template-rows: repeat(3, 1fr)
+
+.futureListSection
+  @extend .verticalList
+  min-width: 0
+  grid-row: span 2
+  height: 100%
+
+.favoritesSection
+  min-width: 0
+  padding-bottom: $m-sm !important
+
+.applicationsSection
+  grid-column: span 2
+  &#{&}
+    padding: 0 0 $m-xs 0 !important

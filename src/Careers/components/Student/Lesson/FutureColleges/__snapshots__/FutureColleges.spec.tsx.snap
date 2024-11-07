@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FutureColleges should render correctly 1`] = `
+<div>
+  <div
+    class="card bg-neutral-200 radius-md p-md gap-md"
+  >
+    <div
+      class="xxxl:flex gap-md"
+    >
+      <div
+        class="width-fit mb-base"
+      >
+        <img
+          data-testid="collages-and-future-image"
+          src="SvgrURL"
+        />
+      </div>
+      <div
+        class="flex-1"
+      >
+        <h4>
+          Colleges & Future
+        </h4>
+        <p
+          class="text-sm font-regular leading-lg mb-base"
+        >
+          Find associated colleges, universities, trade programs, bootcamps and more with this course.
+        </p>
+        <a
+          href="/post-secondary/search?keyword='Preschool Teachers, Except Special Education'&location=ALASKA"
+          target="_blank"
+        >
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] border"
+            data-testid="button"
+            type="button"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              See colleges & futures
+            </span>
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

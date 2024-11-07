@@ -1,0 +1,58 @@
+@import '@shared/stylesheets/config.sass'
+
+.displayNameWithMargin
+  margin-left: $m-xs
+
+.header
+  color: $color-primary-500
+
+.link
+  +flex-container(row, space-between, center)
+  border-radius: $border-radius-sm
+  color: $color-font-primary
+  padding: $m-xs + $m-xxs
+  position: relative
+
+  &:hover
+    color: $color-primary-500
+
+    .icon
+      color: $color-primary-500
+
+    .enterIcon
+      visibility: visible
+
+    .highlight
+      background-color: #EEF7FF
+      border-top-right-radius: $border-radius-sm
+      border-bottom-right-radius: $border-radius-sm
+
+.linkContent
+  z-index: $z-base
+
+.icon
+  display: inline-block
+
+  svg path
+    fill: currentColor
+
+.enterIcon
+  visibility: hidden
+  z-index: $z-base
+
+.highlight
+  position: absolute
+  height: 100%
+  width: 1920px
+  left: -500px
+  z-index: $z-negative
+
+  &:hover
+    background-color: #EEF7FF
+    border-top-right-radius: $border-radius-sm
+    border-bottom-right-radius: $border-radius-sm  
+
+.nestedList
+  border-left: 1px solid $color-border
+  margin-left: $m-sm
+

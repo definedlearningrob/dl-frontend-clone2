@@ -1,0 +1,40 @@
+@import '@shared/stylesheets/config'
+
+@keyframes loading
+  0%
+    transform: skewX(-10deg) translateX(-100%)
+  100% 
+    transform: skewX(-10deg) translateX(200%)
+
+.recommended-card
+  position: relative
+
+  &__tooltip
+    padding: $m-sm
+    text-align: center
+    width: 300px
+
+.recommended-card-skeleton
+  opacity: 0.5
+
+  &__container
+    position: relative
+
+    &::after
+      animation: loading 1.3s infinite
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent)
+      content: ''
+      height: 100%
+      left: 0
+      position: absolute
+      width: 100%
+      top: 0
+
+  .skeleton-rectangle:not(:last-of-type)
+    margin-bottom: $m-sm
+
+  &__header
+    width: 100%
+  
+  &__button
+    width: 100%

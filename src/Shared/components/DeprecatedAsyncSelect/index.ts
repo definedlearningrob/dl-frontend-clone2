@@ -1,0 +1,1 @@
+export { DeprecatedAsyncSelect } from './DeprecatedAsyncSelect';

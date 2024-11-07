@@ -1,0 +1,42 @@
+@import '@shared/stylesheets/config.sass'
+
+$max-card-width: 380px
+$max-card-width-xxl: 535px
+$common-icon-width: 118px
+
+.container
+  +flex-container(row, center, center)
+  height: calc(100vh - $desktop-header-height)
+
+.skeletonCard
+  +flex-container(column)
+  height: calc(100% - 40px)
+
+.card
+  height: auto !important
+  padding: 0 !important
+  margin-bottom: $m-md
+
+.cardHeader
+  +flex-container(row, space-between, center)
+  padding: $m-base $m-base
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-md $m-md
+
+.cardTitle
+  font-size: $font-size-sm
+  margin: 0
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-base
+
+.icon
+  width: $common-icon-width
+
+.verticalDivider
+  border: 1px solid $color-neutral-300
+  height: 25%
+
+.rotate
+  animation: spin 2s infinite linear

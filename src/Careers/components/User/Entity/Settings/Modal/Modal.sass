@@ -1,0 +1,49 @@
+@import '@shared/stylesheets/config.sass'
+
+.entity-settings
+  &__modal .modal
+    &__content
+      width: 1200px
+
+    &__header
+      font-weight: $font-weight-regular
+      font-size: $font-size-2lg
+
+      .icon-button
+        background-color: $color-white
+
+        svg
+          fill: $color-primary-500
+
+    &__footer > .button
+      margin-right: auto
+
+  &__section
+    +flex-container(row, space-between, center)
+    padding: $m-base
+    border: 1px solid $color-neutral-300
+    border-radius: $border-radius-xs
+    margin: $m-base 0
+    font-weight: $font-weight-regular
+    font-size: $font-size-base
+
+    &__left
+      +flex-container(column, center, flex-start)
+
+      &__paragraph
+        display: flex
+        line-height: 1.5
+        margin-bottom: $m-sm
+        margin-top: 0
+
+        .info-icon
+          fill: #06508F
+          width: 13px
+          margin-left: $m-xxs
+
+      span
+        font-size: $font-size-sm
+
+    &.-active
+      background-color: $color-primary-200
+      border: 1px solid $color-primary-500

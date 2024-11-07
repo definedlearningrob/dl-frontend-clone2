@@ -1,0 +1,58 @@
+@import '@shared/stylesheets/config'
+
+.skeleton-dashboard-teacher
+  &__classes
+    padding: $m-base
+
+    .skeleton-rectangle
+      margin-bottom: $m-xs
+
+    &-item
+      align-items: strech
+      display: flex
+      justify-content: space-between
+      margin-top: $m-base
+
+      &-left
+        display: grid
+        gap: $m-lg
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr
+        width: 80%
+
+      &-right
+        height: 100%
+
+  &__activity
+    .skeleton-rectangle
+      margin-bottom: $m-xs
+
+    &-item
+      display: flex
+      margin-bottom: $m-sm
+
+      &-icon
+        &#{&}
+          border-radius: $border-radius-xs
+          height: 50px
+          width: 50px
+
+      &-text
+        margin-left: $m-base
+        width: 100%
+
+      &-date
+        margin-left: $m-base
+
+      &-date-rectangle
+        &#{&}
+          width: 40px
+
+  &__reports
+    display: flex
+    height: 100%
+    justify-content: space-between
+    margin-top: $m-sm
+
+    .skeleton-rectangle
+      height: 100%
+      width: 30%

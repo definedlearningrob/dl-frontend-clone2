@@ -1,0 +1,72 @@
+@import '@shared/stylesheets/config.sass'
+.entity-admin-dashboard-tables__table
+    .-users
+        .shared-table__column-1 
+            padding: 0
+
+.entity-admin-dashboard-users
+    &__name-container
+        +flex-container(row, flex-start, center)
+        height: 100%
+        padding: $m-sm
+
+        &.-grading-needed
+            border-left: 2px solid $color-secondary-500
+
+    &__name
+        margin-left: $m-sm
+        position: relative
+
+    &__grading-needed
+        color: $color-secondary-500
+        font-size: $font-size-xxs
+        left: 0
+        position: absolute
+        top: -$m-x
+        white-space: nowrap
+
+    &__role-badge
+        border-radius: $border-radius-xs
+        padding: $m-xs
+        width: fit-content
+
+        &.-admin
+            background-color: $color-secondary-200
+            color: $color-secondary-500
+
+        &.-teacher
+            background-color: $color-primary-200
+            color: $color-primary-500
+
+    &__entity-container
+        color: $color-primary-500
+        cursor: pointer
+
+    &__entity-parent
+        font-size: $font-size-xxs
+
+    &__entity-name
+        display: block
+
+    &__link
+        +link-unstyled
+        +flex-container(row, flex-start, center)
+        color: $color-primary-500 !important
+        margin-right: $m-sm
+
+    &__link-icon
+        fill: $color-primary-500
+        margin-left: $m-xxs
+
+    &__tooltip
+
+        &__placeholder
+            display: inline-block
+
+    &__report-button
+        visibility: hidden
+
+.shared-table__row:hover
+    .entity-admin-dashboard-users__report-button
+        visibility: visible
+

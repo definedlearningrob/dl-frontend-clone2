@@ -1,0 +1,33 @@
+@import '@shared/stylesheets/config.sass'
+
+.system-admin-view
+    +flex-container(column)
+    background-color: $color-white
+    border-radius: $border-radius-sm
+    padding: $m-base
+
+    &__header
+        +flex-container(row, space-between, center)
+        padding: 0 0 0
+
+        .tabs
+            padding-left: 0
+            padding-top: 0
+
+    &__filter
+        border-radius: $border-radius-sm
+        flex: 0 1 50%
+        overflow: hidden
+
+    &__spinner
+        +flex-container(row, center, center)
+        height: 75vh
+
+    &__pagination-bar
+        +flex-container(row, flex-end, center)
+
+    .shared-table__table
+        height: 75vh
+
+    .shared-empty-placeholder
+        height: 75vh

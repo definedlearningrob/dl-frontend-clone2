@@ -1,0 +1,28 @@
+@import '@shared/stylesheets/config.sass'
+
+.wrapper
+  +flex-container(row, center, center)
+  background-color: $color-white
+  border-radius: $border-radius-s $border-radius-xs $border-radius-s $border-radius-s
+  max-width: 60%
+  padding: $m-base
+  position: absolute
+  right: $m-sm
+  top: $m-sm
+  z-index: $z-base
+
+.header
+  +flex-container(row, flex-start, center)
+  margin-bottom: $m-base
+
+.headerText
+  font-weight: $font-weight-bold
+  margin-left: $m-xs
+
+.infoIcon
+  background-color: $color-warning-100
+  border-radius: $border-radius-xs
+  color: $color-warning-500
+
+.paragraph
+  margin: 0 $m-sm 0 0

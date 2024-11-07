@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssessmentSummary should display loading state 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <h5
+      class="mb-xs xxxl:mb-sm text-sm xxxl:text-base"
+    >
+      Overall
+    </h5>
+    <div
+      class="mb-sm xxxl:mb-base text-xs xxxl:text-sm leading-lg"
+    >
+      Below you can see an overview of 
+      <div
+        class="inline"
+        data-state="closed"
+      >
+        <span
+          class="text-primary-500 font-medium cursor-default"
+        >
+          2 grade levels
+        </span>
+      </div>
+       including 
+      <div
+        class="inline"
+        data-state="closed"
+      >
+        <span
+          class=""
+        >
+          0 students
+        </span>
+      </div>
+       in 
+      <div
+        class="inline"
+        data-state="closed"
+      >
+        <span
+          class=""
+        >
+          2023/2024
+        </span>
+      </div>
+      , with a specific focus on 
+      <div
+        class="inline"
+        data-state="closed"
+      >
+        <span
+          class="text-primary-500 font-medium cursor-default"
+        >
+          3 teachers
+        </span>
+      </div>
+      , 
+      <div
+        class="inline"
+        data-state="closed"
+      >
+        <span
+          class="text-primary-500 font-medium cursor-default"
+        >
+          1 school
+        </span>
+      </div>
+       and 
+      <div
+        class="inline"
+        data-state="closed"
+      >
+        <span
+          class="text-primary-500 font-medium cursor-default"
+        >
+          1 class
+        </span>
+      </div>
+      .
+    </div>
+    <div
+      class="flex gap-sm xxxl:gap-base p-sm xxxl:p-base rounded-sm bg-neutral-200"
+    >
+      <div
+        class="flex items-center justify-center flex-1 !h-[110px] xxxl:!h-[148px]"
+      >
+        <div
+          class="loading-spinner -color-primary -size-small"
+          data-testid="loading-spinner"
+        >
+          <div
+            class="loading-spinner__spinner"
+          >
+            <div
+              class="loading-spinner__cube -first"
+            />
+            <div
+              class="loading-spinner__cube -second"
+            />
+            <div
+              class="loading-spinner__cube -third"
+            />
+            <div
+              class="loading-spinner__cube -fourth"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex items-center justify-center flex-1 !h-[110px] xxxl:!h-[148px]"
+      >
+        <div
+          class="loading-spinner -color-primary -size-small"
+          data-testid="loading-spinner"
+        >
+          <div
+            class="loading-spinner__spinner"
+          >
+            <div
+              class="loading-spinner__cube -first"
+            />
+            <div
+              class="loading-spinner__cube -second"
+            />
+            <div
+              class="loading-spinner__cube -third"
+            />
+            <div
+              class="loading-spinner__cube -fourth"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AssessmentSummary should render correctly 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <h5
+      class="mb-xs xxxl:mb-sm text-sm xxxl:text-base"
+    >
+      Overall
+    </h5>
+    <div
+      class="mb-sm xxxl:mb-base text-xs xxxl:text-sm leading-lg"
+    >
+      Below you can see an overview of 
+      <div
+        class="inline"
+        data-state="closed"
+      >
+        <span
+          class="text-primary-500 font-medium cursor-default"
+        >
+          2 grade levels
+        </span>
+      </div>
+       including 
+      <div
+        class="inline"
+        data-state="closed"
+      >
+        <span
+          class=""
+        >
+          676 students
+        </span>
+      </div>
+       in 
+      <div
+        class="inline"
+        data-state="closed"
+      >
+        <span
+          class=""
+        >
+          2023/2024
+        </span>
+      </div>
+      , with a specific focus on 
+      <div
+        class="inline"
+        data-state="closed"
+      >
+        <span
+          class="text-primary-500 font-medium cursor-default"
+        >
+          3 teachers
+        </span>
+      </div>
+      , 
+      <div
+        class="inline"
+        data-state="closed"
+      >
+        <span
+          class="text-primary-500 font-medium cursor-default"
+        >
+          1 school
+        </span>
+      </div>
+       and 
+      <div
+        aria-describedby="radix-5"
+        class="inline"
+        data-state="delayed-open"
+      >
+        <span
+          class="text-primary-500 font-medium cursor-default"
+        >
+          1 class
+        </span>
+      </div>
+      .
+    </div>
+    <div
+      class="flex gap-sm xxxl:gap-base p-sm xxxl:p-base rounded-sm bg-neutral-200"
+    >
+      <div
+        class="flex-1 flex flex-col gap-xs xxxl:gap-x p-sm xxxl:p-base bg-white rounded-sm"
+        data-testid="assessment-summary-item"
+        style="opacity: 1; transform: none;"
+      >
+        <h6
+          class="text-xs xxxl:text-sm mb-0"
+        >
+          Taken assessments
+        </h6>
+        <div
+          class="flex items-center gap-xs"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 rounded-xs border border-neutral-300 text-secondary-500 p-xxs"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          <span
+            class="text-2lg xxxl:text-2xl font-bold"
+          >
+            300
+          </span>
+        </div>
+        <span
+          class="text-xxs xxxl:text-xs text-font-secondary leading-lg italic"
+        >
+          Students who have started filling out an assessment.
+        </span>
+      </div>
+      <div
+        class="flex-1 flex flex-col gap-xs xxxl:gap-x p-sm xxxl:p-base bg-white rounded-sm"
+        data-testid="assessment-summary-item"
+        style="opacity: 1; transform: none;"
+      >
+        <h6
+          class="text-xs xxxl:text-sm mb-0"
+        >
+          Completed assessments
+        </h6>
+        <div
+          class="flex items-center gap-xs"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 rounded-xs border border-neutral-300 text-success-500 p-xxs"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          <span
+            class="text-2lg xxxl:text-2xl font-bold"
+          >
+            124
+          </span>
+        </div>
+        <span
+          class="text-xxs xxxl:text-xs text-font-secondary leading-lg italic"
+        >
+          Students who have completed an assessment.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

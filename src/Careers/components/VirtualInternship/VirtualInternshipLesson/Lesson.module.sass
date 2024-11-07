@@ -1,0 +1,45 @@
+@import '@shared/stylesheets/config.sass'
+
+.contentWrapper
+  display: grid
+  grid-template-columns: 2fr 1fr
+  gap: $m-base
+
+  +media-breakpoint-up(xxxl)
+    gap: $m-md
+
+.resourceName
+  color: $color-font-secondary
+  font-size: $font-size-xs
+  line-height: $line-height-lg
+  letter-spacing: 0.01em
+  margin-bottom: $m-xs
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+
+.lessonName
+  font-size: $font-size-base
+  margin-bottom: $m-sm
+
+  +media-breakpoint-up(xxxl)
+    margin-bottom: $m-base
+
+.lessonItems
+  +flex-container(column)
+  gap: $m-base
+
+  +media-breakpoint-up(xxxl)
+    gap: $m-md
+
+.presentationsWrapper
+  +flex-container(column)
+  gap: $m-base
+  margin-bottom: $m-base
+
+  +media-breakpoint-up(xxxl)
+    gap: $m-md
+    margin-bottom: $m-md
+
+.progressWrapper
+  grid-column-start: 2

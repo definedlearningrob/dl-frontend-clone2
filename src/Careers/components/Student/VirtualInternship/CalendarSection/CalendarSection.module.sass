@@ -1,0 +1,76 @@
+@import '@shared/stylesheets/config.sass'
+
+.heading
+  margin-bottom: $m-sm
+
+  +media-breakpoint-up(xxxl)
+    margin-bottom: $m-base
+
+.progressBar
+  margin-bottom: $m-xxs
+
+.completedLabel
+  font-size: $font-size-xs
+  line-height: $line-height-lg
+  color: $color-neutral-700
+  margin-bottom: $m-base
+
+  +media-breakpoint-up(xxxl)
+    margin-bottom: $m-md
+
+.counter
+  color: $color-primary-500
+  font-weight: $font-weight-medium
+
+.topLessonList
+  margin-bottom: $m-base
+
+.experienceOpportunity
+  border-radius: $border-radius-sm
+  background-color: $color-neutral-200
+  padding: $m-base
+  margin-bottom: $m-md
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-md
+
+.isAnyLessonSelected
+  background: transparent !important
+  border: 1px solid $color-neutral-300
+
+.experienceOpportunityHeading
+  margin-bottom: $m-xs
+  font-size: $font-size-sm
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-base
+
+.experienceOpportunityHeaderWrapper
+  +flex-container(row, space-between, center)
+  margin-bottom: $m-base
+
+  +media-breakpoint-up(xxxl)
+    margin-bottom: $m-md
+
+.experienceOpportunityDescription
+  font-size: $font-size-xs
+  margin-bottom: 0
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+
+.postExperienceHeading
+  margin-bottom: $m-sm
+
+  +media-breakpoint-up(xxxl)
+    margin-bottom: $m-base
+
+.settingsButton
+  border-radius: $m-xxs
+  border: 1px solid $color-primary-500
+
+  &:hover
+    background-color: $color-primary-200
+
+  svg
+    fill: $color-primary-500

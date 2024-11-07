@@ -1,0 +1,47 @@
+@import '@shared/stylesheets/config.sass'
+
+.dashboard-switch
+  align-self: center
+  margin: $m-sm
+  width: fit-content
+  background-color: $color-primary-200
+  padding: $m-xs
+
+  &.-open
+    .dashboard-switcher__chevron-icon
+      transform: rotate(180deg)
+
+  .dashboard-switch__button.dashboard-switch__button
+    +button-unstyled
+    +flex-container(row, center, center)
+    background-color: $color-background
+    border-radius: $border-radius-xs
+    color: $color-primary-500
+    transition: background-color $transition-duration * 0.5 $transition-function
+
+    path
+      fill: $color-primary-500
+
+    &:hover
+      background-color: darken($color-background, 3%)
+
+  &__text-wrapper
+    margin: 0 $m-sm !important
+    text-align: left
+
+  &__main-text
+    font-size: $font-size-xs
+    font-weight: $font-weight-bold
+
+  &__secondary-text
+    font-size: $font-size-xxs
+    text-transform: capitalize
+
+  .dashboard-switch__list.dashboard-switch__list
+    +box-shadow-300($color-black)
+    cursor: default
+    margin-top: 0
+    width: 100%
+
+    &::after
+      display: none

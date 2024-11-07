@@ -1,0 +1,10 @@
+@import '@shared/stylesheets/config.sass'
+
+$base-height: calc(100vh - $desktop-header-height)
+
+.mainContent
+  height: $base-height
+  padding-top: $m-xs !important
+
+  +media-breakpoint-up(xxxl)
+    padding-top: $m-md !important

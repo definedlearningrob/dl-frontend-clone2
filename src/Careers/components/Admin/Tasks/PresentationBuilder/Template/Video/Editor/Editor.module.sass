@@ -1,0 +1,70 @@
+@import '@shared/stylesheets/config'
+
+$wrapper-width: 800px
+
+.textContainer
+  color: $color-font-primary
+
+.videoWrapper
+  +flex-container(row, center, center)
+  cursor: default
+
+  &.selectedContent
+    padding: $m-xs
+    border-style: dashed
+    border-radius: $border-radius-sm
+
+.iconWrapper
+  +flex-container(column, center, center)
+  background-color: $color-background
+  color: $color-font-primary
+  cursor: pointer
+  font-size: $font-size-sm
+  max-width: $wrapper-width
+  min-height: 450px
+  min-width: $wrapper-width
+  position: relative
+
+  div
+    position: absolute
+
+  p
+    margin: $m-xs 0 !important
+
+.icon
+  height: 200px
+  width: 300px
+
+  path
+    fill: $color-white
+
+.selectedContent
+  border: 2px dashed $color-primary-600
+  border-radius: $border-radius-xs
+  padding: $m-xs
+
+.progressWrapper
+  margin: auto
+  width: 550px
+
+.hiddenBackground
+  background-color: transparent
+
+.switchButtons
+  +flex-container(row, flex-end, center)
+  margin-top: -$m-xl
+
+.links
+  left: 0
+  margin-top: $m-sm
+  position: absolute
+  right: 0
+
+.hidden
+  visibility: hidden
+
+.button
+  background-color: $color-white !important
+
+.scriptView
+  color: $color-font-primary !important

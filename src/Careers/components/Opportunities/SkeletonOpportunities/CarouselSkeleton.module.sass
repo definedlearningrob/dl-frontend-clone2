@@ -1,0 +1,22 @@
+@import '@shared/stylesheets/config.sass'
+
+$fullHD-opportunity-card-width: 307px
+$laptop-opportunity-card-width: 265px
+$fullHD-opportunity-card-height: 310px
+$laptop-opportunity-card-height: 268px
+
+.skeletonContainer
+  display: grid
+  gap: $m-sm
+  grid-template-columns: repeat(auto-fill, $laptop-opportunity-card-width)
+  margin-top: $m-sm
+
+  +media-breakpoint-up(xxxl)
+    grid-template-columns: repeat(auto-fill, minmax($laptop-opportunity-card-width, $fullHD-opportunity-card-width))
+    gap: $m-base
+
+  .skeleton
+    height: $laptop-opportunity-card-height
+
+    +media-breakpoint-up(xxxl)
+      height: $fullHD-opportunity-card-height

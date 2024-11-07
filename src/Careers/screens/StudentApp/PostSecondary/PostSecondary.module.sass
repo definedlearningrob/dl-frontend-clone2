@@ -1,0 +1,18 @@
+@import '@shared/stylesheets/config.sass'
+
+$base-height: calc(100vh - $desktop-header-height)
+$content-height: calc(100vh - $desktop-header-height - $m-base)
+$content-height-xxl: calc(100vh - $desktop-header-height - $m-md)
+
+.loader
+  +flex-container(column, center, center)
+  margin-top: $desktop-header-height
+  height: $content-height
+
+  +media-breakpoint-up(xxl)
+    height: $content-height-xxl
+
+.mainContent
+  height: $base-height
+  padding: 0 !important
+

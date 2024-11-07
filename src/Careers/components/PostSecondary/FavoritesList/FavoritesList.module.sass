@@ -1,0 +1,14 @@
+@import '@shared/stylesheets/config.sass'
+
+.favouritesList
+  +scrollbar
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+  grid-auto-rows: min-content
+  gap: $m-sm
+  height: 100%
+  padding-right: $m-x
+
+  +media-breakpoint-up(xxl)
+    padding-right: $m-base
+    gap: $m-base

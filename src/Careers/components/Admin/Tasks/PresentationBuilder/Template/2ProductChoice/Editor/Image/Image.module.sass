@@ -1,0 +1,47 @@
+@import '@shared/stylesheets/config'
+
+$icon-wrapper-height: 220px
+$icon-wrapper-width: 400px
+
+.imageWrapper
+  +flex-container(row, center, center)
+  cursor: default
+  border: 2px dashed transparent
+  padding: $m-xxs
+  border-radius: $border-radius-sm
+
+.iconWrapper
+  +flex-container(row, center, center)
+  background-color: $color-background
+  border: 2px dashed transparent
+  border-radius: $border-radius-xs
+  cursor: pointer
+  margin-bottom: $m-xs
+  max-height: $icon-wrapper-height
+  max-width: $icon-wrapper-width
+  min-height: $icon-wrapper-height
+  min-width: $icon-wrapper-width
+  padding: $m-xs
+
+.icon
+  height: 50%
+  width: 50%
+
+.selectedContent
+  border-color: $color-primary-600
+
+.fill
+  background-position: center center
+  background-size: cover
+
+.contain
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: contain
+
+.progressWrapper
+  margin: auto
+  width: 550px
+
+.hiddenBackground
+  background-color: transparent

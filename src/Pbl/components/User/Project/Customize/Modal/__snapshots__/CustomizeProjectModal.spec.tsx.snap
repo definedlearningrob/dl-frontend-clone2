@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Customize Project Modal should render correctly 1`] = `
+<div
+  aria-label="Modal"
+  aria-modal="true"
+  class="dialogContent modal bg-white flex flex-col shadow-300 pb-base xxxl:pb-md overflow-hidden my-[40px] xxxl:my-[80px] transition-[width] duration-500 ease-in-out rounded-sm outline-none w-[800px]"
+  data-reach-dialog-content=""
+  data-state="open"
+  role="dialog"
+  tabindex="-1"
+>
+  <form
+    action="#"
+  >
+    <div
+      class="modal__header flex flex-row justify-between items-start px-base xxxl:px-md pt-base relative text-neutral-800 xxxl:pt-md xxxl:pb-0 mb-sm"
+      data-testid="modal-header"
+    >
+      <h4
+        class="modal__heading mb-0 text-lg"
+        data-testid="modal-heading"
+      >
+        Create a duplicate of Project name
+      </h4>
+      <button
+        aria-label="Modal close"
+        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md"
+        data-testid="modal-close-button"
+        type="button"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0"
+            data-testid="icon"
+          >
+            <div
+              class="h-base w-base"
+            />
+          </div>
+        </div>
+      </button>
+    </div>
+    <div
+      class="modal__body grow text-font-primary leading-base scrollbar overflow-y-auto overflow-x-hidden py-0 px-base xxxl:px-md mb-sm xxxl:mb-base max-h-[60vh]"
+      data-testid="modal-body"
+    >
+      <p>
+        To customize a project a copy needs to be created. Your customized projects are available in the "My Projects" section. To begin, please name your copy below.
+      </p>
+      <label
+        class="flex flex-col items-start text-font-primary w-full gap-xs"
+      >
+        <div
+          class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+        >
+          <span
+            class="flex gap-xxs grow"
+          >
+            <input
+              class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+              name="name"
+              placeholder="Project name Copy 03/22/2023"
+              type="text"
+              value="Project name Copy 03/22/2023"
+            />
+          </span>
+        </div>
+      </label>
+    </div>
+    <div
+      class="modal__footer flex items-center gap-xs xxxl:gap-sm justify-end py-0 px-base xxxl:px-md"
+      data-testid="modal-footer"
+    >
+      <button
+        class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] border"
+        data-testid="button"
+        type="button"
+      >
+        <span
+          class="items-center flex justify-center gap-xs"
+        >
+          Cancel
+        </span>
+      </button>
+      <button
+        class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] acceptButton -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+        data-testid="button"
+        type="submit"
+      >
+        <span
+          class="items-center flex justify-center gap-xs"
+        >
+          Begin customization
+        </span>
+      </button>
+    </div>
+  </form>
+</div>
+`;

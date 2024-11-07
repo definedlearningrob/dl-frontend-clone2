@@ -1,0 +1,5 @@
+export enum RUBRIC_TYPE {
+  VIEWER = 'VIEWER',
+  GRADER = 'GRADER',
+  PREVIEW = 'PREVIEW',
+}

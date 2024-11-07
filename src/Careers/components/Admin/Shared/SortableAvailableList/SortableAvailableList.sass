@@ -1,0 +1,21 @@
+@import '@shared/stylesheets/config'
+
+.sortable-list
+    background-color: $color-white
+    border-radius: $border-radius-sm
+    list-style-type: none
+    margin-bottom: $m-lg
+    padding: $m-sm
+
+    &.-available
+        height: $filtering-list-height
+        overflow-y: scroll
+
+    &.-drag
+        background-color: lighten($color-font-secondary, 49%)
+
+    &.-errored
+        margin-bottom: $m-sm
+
+    &__error
+        margin-bottom: $m-lg

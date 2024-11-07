@@ -1,0 +1,23 @@
+@import '@shared/stylesheets/config.sass'
+
+.text-editor
+  +flex-container(column, center, flex-start)
+  color: $color-font-primary !important
+  width: 100%
+
+  &__label
+    color: $color-font-secondary
+    font-size: $font-size-xs
+    text-transform: capitalize
+
+  .tox.tox-tinymce
+    border: none !important
+
+  .tox-edit-area__iframe
+    background-color: $color-white !important
+
+  .tox-editor-container
+    border-radius: $m-sm !important
+    border: solid 1px $color-border !important
+    visibility: visible !important
+    z-index: $z-high !important

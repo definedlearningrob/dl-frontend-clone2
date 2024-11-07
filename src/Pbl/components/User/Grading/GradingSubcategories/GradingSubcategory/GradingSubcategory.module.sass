@@ -1,0 +1,12 @@
+@import '@shared/stylesheets/config'
+
+.list
+  +flex-container(column)
+  gap: $m-xxs
+
+  li:first-of-type
+    margin-top: $m-xs
+
+.header
+  +flex-container(row, space-between, center)
+  cursor: pointer

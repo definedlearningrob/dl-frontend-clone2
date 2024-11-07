@@ -1,0 +1,2525 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditPortfolioContent should edit all personal info 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <header
+      class="w-full pb-sm xxxl:pb-md flex gap-md bg-neutral-200 z-higher sticky pt-base xxxl:pt-md"
+    >
+      <div
+        class="w-1/3 flex items-end"
+      >
+        <h1
+          class="text-base xxxl:text-lg mb-0 leading-base"
+        >
+          Edit Portfolio
+        </h1>
+      </div>
+    </header>
+    <main
+      class="flex flex-col sm:flex-row gap-base xxxl:gap-md"
+    >
+      <div
+        class="flex flex-col gap-base xxxl:gap-md flex-[6_6_0%]"
+      >
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex gap-base xxxl:gap-md"
+        >
+          <div
+            class="w-[180px] xxxl:w-[240px] shrink-0"
+          >
+            <div
+              class="bg-center bg-cover bg-white flex items-center justify-center group rounded-sm cursor-pointer border-2 border-dashed border-neutral-300 hover:bg-neutral-200 hover:border-primary-500 relative p-0 pt-[50%] text-center text-xs xxxl:text-sm !p-0 !pt-[100%] !rounded-full fillBackground"
+              data-testid="drop-container"
+              tabindex="0"
+            >
+              <div
+                class="absolute inset-0"
+              >
+                <input
+                  accept="image/*"
+                  autocomplete="off"
+                  data-testid="drop-zone-input"
+                  id="drop-zone-input-undefined"
+                  style="display: none;"
+                  tabindex="-1"
+                  type="file"
+                />
+                <div
+                  class="flex flex-col justify-center items-center h-full p-sm"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 p-xs mb-xs text-primary-500 bg-primary-200 rounded-full group-hover:bg-white p-sm"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-base w-base"
+                      />
+                    </div>
+                  </div>
+                  <p
+                    class="text-primary-500 m-0 z-lowest"
+                  >
+                    Drop or 
+                    <span
+                      class="text-primary-500 underline"
+                    >
+                      choose file
+                    </span>
+                     to upload
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full"
+          >
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Personal Information
+            </h2>
+            <p
+              class="text-font-secondary"
+            >
+              Update your personal information
+            </p>
+            <div
+              class="flex flex-col gap-sm mb-base xxxl:mb-md"
+            >
+              <label
+                class="flex flex-col items-start text-font-primary w-full gap-xs"
+              >
+                <div
+                  class="text-font-primary leading-lg flex gap-xxxs text-xs"
+                >
+                  <span
+                    class="text-danger-600 mr-xxs"
+                  >
+                    *
+                  </span>
+                  <div
+                    class="injected-content"
+                  >
+                    Display Name
+                  </div>
+                </div>
+                <div
+                  class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                >
+                  <span
+                    class="flex gap-xxs grow"
+                  >
+                    <input
+                      aria-label="Display Name"
+                      aria-required="true"
+                      class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                      id="Display Name"
+                      name="name"
+                      placeholder="Type here..."
+                      type="text"
+                      value="Amanda Jewess- Test Name"
+                    />
+                  </span>
+                </div>
+              </label>
+              <div
+                class="flex flex-col gap-xs"
+              >
+                <label
+                  class="flex flex-col gap-xs"
+                >
+                  <div
+                    class="text-font-primary leading-lg flex gap-xxxs text-xs"
+                  >
+                    Bio-note
+                  </div>
+                  <textarea
+                    class="textarea__input !mb-0 !p-xs h-[205px] xxxl:h-[185px] leading-lg text-xs xxxl:text-sm font-regular"
+                    id="Bio-note"
+                    name="bio"
+                    placeholder="Type here..."
+                  >
+                    test bio
+                  </textarea>
+                </label>
+              </div>
+            </div>
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Contacts and links
+            </h2>
+            <p
+              class="text-font-secondary"
+            >
+              Select type and add value
+            </p>
+            <ul
+              class="flex flex-col gap-xs"
+            >
+              <li
+                class="flex flex-1 items-center"
+              >
+                <label
+                  class="flex flex-col items-start text-font-primary w-full flex-1 mr-sm gap-xs"
+                >
+                  <div
+                    class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px] group-focus-within:!text-font-secondary !text-font-primary"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="flex gap-xxs grow"
+                    >
+                      <input
+                        class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                        name="contactLinks[0].value"
+                        placeholder="Email address..."
+                        type="text"
+                        value="mail@test.com"
+                      />
+                    </span>
+                  </div>
+                </label>
+                <label
+                  class="switch me-xs"
+                >
+                  <span
+                    class="text-xs"
+                  >
+                    Hide
+                  </span>
+                  <div
+                    class="content"
+                  >
+                    <input
+                      checked=""
+                      class="switchInput"
+                      role="switch"
+                      type="checkbox"
+                    />
+                    <span
+                      class="slider"
+                    />
+                  </div>
+                  <span
+                    class="label"
+                  >
+                    Show
+                  </span>
+                </label>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md opacity-50 !cursor-default hover:bg-transparent !opacity-0"
+                    data-testid="icon-button"
+                    disabled=""
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </li>
+              <li
+                class="flex flex-1 items-center"
+              >
+                <label
+                  class="flex flex-col items-start text-font-primary w-full flex-1 mr-sm gap-xs"
+                >
+                  <div
+                    class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px] group-focus-within:!text-font-secondary !text-font-primary"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="flex gap-xxs grow"
+                    >
+                      <input
+                        class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                        name="contactLinks[1].value"
+                        placeholder="Phone number..."
+                        type="text"
+                        value="1234567890"
+                      />
+                    </span>
+                  </div>
+                </label>
+                <label
+                  class="switch me-xs"
+                >
+                  <span
+                    class="text-xs"
+                  >
+                    Hide
+                  </span>
+                  <div
+                    class="content"
+                  >
+                    <input
+                      checked=""
+                      class="switchInput"
+                      role="switch"
+                      type="checkbox"
+                    />
+                    <span
+                      class="slider"
+                    />
+                  </div>
+                  <span
+                    class="label"
+                  >
+                    Show
+                  </span>
+                </label>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md opacity-50 !cursor-default hover:bg-transparent !opacity-0"
+                    data-testid="icon-button"
+                    disabled=""
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </li>
+              <li
+                class="flex flex-1 items-center"
+              >
+                <label
+                  class="flex flex-col items-start text-font-primary w-full flex-1 mr-sm gap-xs"
+                >
+                  <div
+                    class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px] group-focus-within:!text-font-secondary !text-font-primary"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="flex gap-xxs grow"
+                    >
+                      <input
+                        class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                        name="contactLinks[2].value"
+                        placeholder="LinkedIn account..."
+                        type="text"
+                        value="linkedin.com"
+                      />
+                    </span>
+                  </div>
+                </label>
+                <label
+                  class="switch me-xs"
+                >
+                  <span
+                    class="text-xs"
+                  >
+                    Hide
+                  </span>
+                  <div
+                    class="content"
+                  >
+                    <input
+                      checked=""
+                      class="switchInput"
+                      role="switch"
+                      type="checkbox"
+                    />
+                    <span
+                      class="slider"
+                    />
+                  </div>
+                  <span
+                    class="label"
+                  >
+                    Show
+                  </span>
+                </label>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md opacity-50 !cursor-default hover:bg-transparent !opacity-0"
+                    data-testid="icon-button"
+                    disabled=""
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </li>
+              <span
+                class="w-fit !mt-sm"
+                data-state="closed"
+              >
+                <button
+                  class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+                  data-testid="button"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="items-center flex justify-center gap-xs"
+                  >
+                    Add new
+                  </span>
+                </button>
+              </span>
+            </ul>
+          </div>
+        </section>
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex gap-base xxxl:gap-md"
+          id="Experience"
+        >
+          <div
+            class="w-[180px] xxxl:w-[240px] shrink-0"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 !text-neutral-800 bg-neutral-200 mb-sm rounded-xs p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Experience
+            </h2>
+            <p
+              class="text-xs xxxl:text-sm text-font-secondary break-words"
+            >
+              Add your experience, include work, volunteer, achievements...etc.
+            </p>
+          </div>
+          <div
+            class="grow"
+          >
+            <ul>
+              <div
+                class="flex flex-col justify-center items-center bg-white rounded-sm height-[305px] w-full"
+              >
+                <div
+                  class="flex flex-col justify-center items-center mb-sm [&>*]:m-xxs"
+                >
+                  <div />
+                </div>
+                <h6
+                  class="mb-xs"
+                >
+                  Experience section is empty.
+                </h6>
+                <p
+                  class="text-center m-0 whitespace-pre-line"
+                >
+                  You haven't added any Experience yet.
+You can do this by button below.
+                </p>
+              </div>
+            </ul>
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] mt-base mx-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+              data-testid="button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Add new
+              </span>
+            </button>
+          </div>
+        </section>
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex gap-base xxxl:gap-md"
+          id="Education"
+        >
+          <div
+            class="w-[180px] xxxl:w-[240px] shrink-0"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 !text-neutral-800 bg-neutral-200 mb-sm rounded-xs p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Education
+            </h2>
+            <p
+              class="text-xs xxxl:text-sm text-font-secondary break-words"
+            >
+              Add your education
+            </p>
+          </div>
+          <div
+            class="grow"
+          >
+            <ul>
+              <div
+                class="flex flex-col justify-center items-center bg-white rounded-sm height-[305px] w-full"
+              >
+                <div
+                  class="flex flex-col justify-center items-center mb-sm [&>*]:m-xxs"
+                >
+                  <div />
+                </div>
+                <h6
+                  class="mb-xs"
+                >
+                  Education section is empty.
+                </h6>
+                <p
+                  class="text-center m-0 whitespace-pre-line"
+                >
+                  You haven't added any Education yet.
+You can do this by button below.
+                </p>
+              </div>
+            </ul>
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] mt-base mx-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+              data-testid="button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Add new
+              </span>
+            </button>
+          </div>
+        </section>
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex gap-base xxxl:gap-md"
+          id="Extra-Curriculars"
+        >
+          <div
+            class="w-[180px] xxxl:w-[240px] shrink-0"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 !text-neutral-800 bg-neutral-200 mb-sm rounded-xs p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Extra-Curriculars
+            </h2>
+            <p
+              class="text-xs xxxl:text-sm text-font-secondary break-words"
+            >
+              Add your extra-curriculars, include sports, clubs, organizations...etc.
+            </p>
+          </div>
+          <div
+            class="grow"
+          >
+            <ul>
+              <div
+                class="flex flex-col justify-center items-center bg-white rounded-sm height-[305px] w-full"
+              >
+                <div
+                  class="flex flex-col justify-center items-center mb-sm [&>*]:m-xxs"
+                >
+                  <div />
+                </div>
+                <h6
+                  class="mb-xs"
+                >
+                  Extra-Curriculars section is empty.
+                </h6>
+                <p
+                  class="text-center m-0 whitespace-pre-line"
+                >
+                  You haven't added any Extra-Curriculars yet.
+You can do this by button below.
+                </p>
+              </div>
+            </ul>
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] mt-base mx-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+              data-testid="button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Add new
+              </span>
+            </button>
+          </div>
+        </section>
+      </div>
+      <div
+        class="flex flex-col flex-[3_3_0%] sticky top-lg self-start"
+      >
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex flex-col"
+        >
+          <h2
+            class="text-base mb-base"
+          >
+            Settings
+          </h2>
+          <div
+            class="bg-neutral-100 border rounded-xs flex p-x xxxl:p-base gap-xs xxxl:gap-sm justify-between transition-colors border-neutral-300 hover:border-neutral-400 mb-base cursor-pointer"
+          >
+            <div
+              class="flex items-center gap-xs xxxl:gap-sm"
+            >
+              <div
+                class="self-start"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm bg-primary-200 text-primary-500 p-xs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h6
+                  class="text-xs xxxl:text-sm mb-xxs"
+                >
+                  Add highlighted projects
+                </h6>
+                <p
+                  class="text-xs xxxl:text-sm leading-base mb-0"
+                >
+                  When enabled, you have an option to add some highlighted projects.
+                </p>
+              </div>
+            </div>
+            <label
+              class="switch"
+            >
+              <div
+                class="content"
+              >
+                <input
+                  class="switchInput"
+                  name="highlightedProjectsEnabled"
+                  role="switch"
+                  type="checkbox"
+                />
+                <span
+                  class="slider"
+                />
+              </div>
+            </label>
+          </div>
+          <a
+            href="/portfolio/edit?preview=true"
+          >
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] mb-xs xxxl:mb-sm w-full -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] border"
+              data-testid="button"
+              type="button"
+            >
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Preview
+              </span>
+            </button>
+          </a>
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+            data-testid="button"
+            type="submit"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Save
+            </span>
+          </button>
+        </section>
+      </div>
+    </main>
+  </form>
+</div>
+`;
+
+exports[`EditPortfolioContent should render Badges section 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <header
+      class="w-full pb-sm xxxl:pb-md flex gap-md bg-neutral-200 z-higher sticky pt-base xxxl:pt-md"
+    >
+      <div
+        class="w-1/3 flex items-end"
+      >
+        <h1
+          class="text-base xxxl:text-lg mb-0 leading-base"
+        >
+          Edit Portfolio
+        </h1>
+      </div>
+    </header>
+    <main
+      class="flex flex-col sm:flex-row gap-base xxxl:gap-md"
+    >
+      <div
+        class="flex flex-col gap-base xxxl:gap-md flex-[6_6_0%]"
+      >
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex gap-base xxxl:gap-md"
+        >
+          <div
+            class="w-[180px] xxxl:w-[240px] shrink-0"
+          >
+            <div
+              class="bg-center bg-cover bg-white flex items-center justify-center group rounded-sm cursor-pointer border-2 border-dashed border-neutral-300 hover:bg-neutral-200 hover:border-primary-500 relative p-0 pt-[50%] text-center text-xs xxxl:text-sm !p-0 !pt-[100%] !rounded-full fillBackground"
+              data-testid="drop-container"
+              tabindex="0"
+            >
+              <div
+                class="absolute inset-0"
+              >
+                <input
+                  accept="image/*"
+                  autocomplete="off"
+                  data-testid="drop-zone-input"
+                  id="drop-zone-input-undefined"
+                  style="display: none;"
+                  tabindex="-1"
+                  type="file"
+                />
+                <div
+                  class="flex flex-col justify-center items-center h-full p-sm"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 p-xs mb-xs text-primary-500 bg-primary-200 rounded-full group-hover:bg-white p-sm"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-base w-base"
+                      />
+                    </div>
+                  </div>
+                  <p
+                    class="text-primary-500 m-0 z-lowest"
+                  >
+                    Drop or 
+                    <span
+                      class="text-primary-500 underline"
+                    >
+                      choose file
+                    </span>
+                     to upload
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full"
+          >
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Personal Information
+            </h2>
+            <p
+              class="text-font-secondary"
+            >
+              Update your personal information
+            </p>
+            <div
+              class="flex flex-col gap-sm mb-base xxxl:mb-md"
+            >
+              <label
+                class="flex flex-col items-start text-font-primary w-full gap-xs"
+              >
+                <div
+                  class="text-font-primary leading-lg flex gap-xxxs text-xs"
+                >
+                  <span
+                    class="text-danger-600 mr-xxs"
+                  >
+                    *
+                  </span>
+                  <div
+                    class="injected-content"
+                  >
+                    Display Name
+                  </div>
+                </div>
+                <div
+                  class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                >
+                  <span
+                    class="flex gap-xxs grow"
+                  >
+                    <input
+                      aria-label="Display Name"
+                      aria-required="true"
+                      class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                      id="Display Name"
+                      name="name"
+                      placeholder="Type here..."
+                      type="text"
+                      value="Amanda Jewess"
+                    />
+                  </span>
+                </div>
+              </label>
+              <div
+                class="flex flex-col gap-xs"
+              >
+                <label
+                  class="flex flex-col gap-xs"
+                >
+                  <div
+                    class="text-font-primary leading-lg flex gap-xxxs text-xs"
+                  >
+                    Bio-note
+                  </div>
+                  <textarea
+                    class="textarea__input !mb-0 !p-xs h-[205px] xxxl:h-[185px] leading-lg text-xs xxxl:text-sm font-regular"
+                    id="Bio-note"
+                    name="bio"
+                    placeholder="Type here..."
+                  />
+                </label>
+              </div>
+            </div>
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Contacts and links
+            </h2>
+            <p
+              class="text-font-secondary"
+            >
+              Select type and add value
+            </p>
+            <ul
+              class="flex flex-col gap-xs"
+            >
+              <li
+                class="flex flex-1 items-center"
+              >
+                <label
+                  class="flex flex-col items-start text-font-primary w-full flex-1 mr-sm gap-xs"
+                >
+                  <div
+                    class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px]"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="flex gap-xxs grow"
+                    >
+                      <input
+                        class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                        name="contactLinks[0].value"
+                        placeholder="Email address..."
+                        type="text"
+                        value=""
+                      />
+                    </span>
+                  </div>
+                </label>
+                <label
+                  class="switch me-xs"
+                >
+                  <span
+                    class="text-xs"
+                  >
+                    Hide
+                  </span>
+                  <div
+                    class="content"
+                  >
+                    <input
+                      checked=""
+                      class="switchInput"
+                      role="switch"
+                      type="checkbox"
+                    />
+                    <span
+                      class="slider"
+                    />
+                  </div>
+                  <span
+                    class="label"
+                  >
+                    Show
+                  </span>
+                </label>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md opacity-50 !cursor-default hover:bg-transparent !opacity-0"
+                    data-testid="icon-button"
+                    disabled=""
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </li>
+              <li
+                class="flex flex-1 items-center"
+              >
+                <label
+                  class="flex flex-col items-start text-font-primary w-full flex-1 mr-sm gap-xs"
+                >
+                  <div
+                    class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px]"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="flex gap-xxs grow"
+                    >
+                      <input
+                        class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                        name="contactLinks[1].value"
+                        placeholder="Phone number..."
+                        type="text"
+                        value=""
+                      />
+                    </span>
+                  </div>
+                </label>
+                <label
+                  class="switch me-xs"
+                >
+                  <span
+                    class="text-xs"
+                  >
+                    Hide
+                  </span>
+                  <div
+                    class="content"
+                  >
+                    <input
+                      checked=""
+                      class="switchInput"
+                      role="switch"
+                      type="checkbox"
+                    />
+                    <span
+                      class="slider"
+                    />
+                  </div>
+                  <span
+                    class="label"
+                  >
+                    Show
+                  </span>
+                </label>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md opacity-50 !cursor-default hover:bg-transparent !opacity-0"
+                    data-testid="icon-button"
+                    disabled=""
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </li>
+              <li
+                class="flex flex-1 items-center"
+              >
+                <label
+                  class="flex flex-col items-start text-font-primary w-full flex-1 mr-sm gap-xs"
+                >
+                  <div
+                    class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px]"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="flex gap-xxs grow"
+                    >
+                      <input
+                        class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                        name="contactLinks[2].value"
+                        placeholder="LinkedIn account..."
+                        type="text"
+                        value=""
+                      />
+                    </span>
+                  </div>
+                </label>
+                <label
+                  class="switch me-xs"
+                >
+                  <span
+                    class="text-xs"
+                  >
+                    Hide
+                  </span>
+                  <div
+                    class="content"
+                  >
+                    <input
+                      checked=""
+                      class="switchInput"
+                      role="switch"
+                      type="checkbox"
+                    />
+                    <span
+                      class="slider"
+                    />
+                  </div>
+                  <span
+                    class="label"
+                  >
+                    Show
+                  </span>
+                </label>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md opacity-50 !cursor-default hover:bg-transparent !opacity-0"
+                    data-testid="icon-button"
+                    disabled=""
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </li>
+              <span
+                class="w-fit !mt-sm"
+                data-state="closed"
+              >
+                <button
+                  class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+                  data-testid="button"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="items-center flex justify-center gap-xs"
+                  >
+                    Add new
+                  </span>
+                </button>
+              </span>
+            </ul>
+          </div>
+        </section>
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex gap-base xxxl:gap-md"
+          id="Experience"
+        >
+          <div
+            class="w-[180px] xxxl:w-[240px] shrink-0"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 !text-neutral-800 bg-neutral-200 mb-sm rounded-xs p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Experience
+            </h2>
+            <p
+              class="text-xs xxxl:text-sm text-font-secondary break-words"
+            >
+              Add your experience, include work, volunteer, achievements...etc.
+            </p>
+          </div>
+          <div
+            class="grow"
+          >
+            <ul>
+              <div
+                class="flex flex-col justify-center items-center bg-white rounded-sm height-[305px] w-full"
+              >
+                <div
+                  class="flex flex-col justify-center items-center mb-sm [&>*]:m-xxs"
+                >
+                  <div />
+                </div>
+                <h6
+                  class="mb-xs"
+                >
+                  Experience section is empty.
+                </h6>
+                <p
+                  class="text-center m-0 whitespace-pre-line"
+                >
+                  You haven't added any Experience yet.
+You can do this by button below.
+                </p>
+              </div>
+            </ul>
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] mt-base mx-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+              data-testid="button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Add new
+              </span>
+            </button>
+          </div>
+        </section>
+        <div
+          class="w-full h-xl -my-md bg-white flex justify-center items-center px-base"
+        >
+          <div
+            class="divider w-full"
+          />
+        </div>
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex gap-base xxxl:gap-md"
+          id="Badges"
+        >
+          <div
+            class="w-[180px] xxxl:w-[240px] shrink-0"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 !text-neutral-800 bg-neutral-200 mb-sm rounded-xs p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Badges
+            </h2>
+            <p
+              class="text-xs xxxl:text-sm text-font-secondary break-words"
+            >
+              You gain different badges by completed lessons. Select that you want to display.
+            </p>
+          </div>
+          <div
+            class="grow"
+          >
+            <ul
+              class="grid grid-cols-3 xxxl:grid-cols-4 gap-sm"
+            >
+              <button
+                class="group w-full h-full relative p-sm flex flex-col items-center border border-solid rounded-sm gap-xs text-center bg-primary-200 border-primary-500"
+                data-state="closed"
+                role="list-item"
+                type="button"
+              >
+                <div
+                  class="absolute top-xs left-xs"
+                >
+                  <div
+                    class="checkbox"
+                  >
+                    <input
+                      checked=""
+                      class="checkbox__input"
+                      data-testid="checkbox"
+                      readonly=""
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <label
+                      class="checkbox__label -checked"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="relative w-lg h-lg"
+                >
+                  <img
+                    class="object-cover h-full mx-auto"
+                    src="http://localstack.lvh.me"
+                  />
+                </div>
+                <div
+                  class="text-neutral-800 leading-lg text-xs line-clamp-2 break-all"
+                >
+                  Test Badge
+                </div>
+              </button>
+              <button
+                class="group w-full h-full relative p-sm flex flex-col items-center border border-solid rounded-sm gap-xs text-center bg-primary-200 border-primary-500"
+                data-state="closed"
+                role="list-item"
+                type="button"
+              >
+                <div
+                  class="absolute top-xs left-xs"
+                >
+                  <div
+                    class="checkbox"
+                  >
+                    <input
+                      checked=""
+                      class="checkbox__input"
+                      data-testid="checkbox"
+                      readonly=""
+                      tabindex="-1"
+                      type="checkbox"
+                    />
+                    <label
+                      class="checkbox__label -checked"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="relative w-lg h-lg"
+                >
+                  <img
+                    class="object-cover h-full mx-auto"
+                    src="http://localstack.lvh.me"
+                  />
+                </div>
+                <div
+                  class="text-neutral-800 leading-lg text-xs line-clamp-2 break-all"
+                >
+                  Test Badge
+                </div>
+              </button>
+            </ul>
+          </div>
+        </section>
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex gap-base xxxl:gap-md"
+          id="Education"
+        >
+          <div
+            class="w-[180px] xxxl:w-[240px] shrink-0"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 !text-neutral-800 bg-neutral-200 mb-sm rounded-xs p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Education
+            </h2>
+            <p
+              class="text-xs xxxl:text-sm text-font-secondary break-words"
+            >
+              Add your education
+            </p>
+          </div>
+          <div
+            class="grow"
+          >
+            <ul>
+              <div
+                class="flex flex-col justify-center items-center bg-white rounded-sm height-[305px] w-full"
+              >
+                <div
+                  class="flex flex-col justify-center items-center mb-sm [&>*]:m-xxs"
+                >
+                  <div />
+                </div>
+                <h6
+                  class="mb-xs"
+                >
+                  Education section is empty.
+                </h6>
+                <p
+                  class="text-center m-0 whitespace-pre-line"
+                >
+                  You haven't added any Education yet.
+You can do this by button below.
+                </p>
+              </div>
+            </ul>
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] mt-base mx-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+              data-testid="button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Add new
+              </span>
+            </button>
+          </div>
+        </section>
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex gap-base xxxl:gap-md"
+          id="Extra-Curriculars"
+        >
+          <div
+            class="w-[180px] xxxl:w-[240px] shrink-0"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 !text-neutral-800 bg-neutral-200 mb-sm rounded-xs p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Extra-Curriculars
+            </h2>
+            <p
+              class="text-xs xxxl:text-sm text-font-secondary break-words"
+            >
+              Add your extra-curriculars, include sports, clubs, organizations...etc.
+            </p>
+          </div>
+          <div
+            class="grow"
+          >
+            <ul>
+              <div
+                class="flex flex-col justify-center items-center bg-white rounded-sm height-[305px] w-full"
+              >
+                <div
+                  class="flex flex-col justify-center items-center mb-sm [&>*]:m-xxs"
+                >
+                  <div />
+                </div>
+                <h6
+                  class="mb-xs"
+                >
+                  Extra-Curriculars section is empty.
+                </h6>
+                <p
+                  class="text-center m-0 whitespace-pre-line"
+                >
+                  You haven't added any Extra-Curriculars yet.
+You can do this by button below.
+                </p>
+              </div>
+            </ul>
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] mt-base mx-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+              data-testid="button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Add new
+              </span>
+            </button>
+          </div>
+        </section>
+      </div>
+      <div
+        class="flex flex-col flex-[3_3_0%] sticky top-lg self-start"
+      >
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex flex-col"
+        >
+          <h2
+            class="text-base mb-base"
+          >
+            Settings
+          </h2>
+          <div
+            class="bg-neutral-100 border rounded-xs flex p-x xxxl:p-base gap-xs xxxl:gap-sm justify-between transition-colors border-neutral-300 hover:border-neutral-400 mb-base cursor-pointer"
+          >
+            <div
+              class="flex items-center gap-xs xxxl:gap-sm"
+            >
+              <div
+                class="self-start"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm bg-primary-200 text-primary-500 p-xs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h6
+                  class="text-xs xxxl:text-sm mb-xxs"
+                >
+                  Add highlighted projects
+                </h6>
+                <p
+                  class="text-xs xxxl:text-sm leading-base mb-0"
+                >
+                  When enabled, you have an option to add some highlighted projects.
+                </p>
+              </div>
+            </div>
+            <label
+              class="switch"
+            >
+              <div
+                class="content"
+              >
+                <input
+                  class="switchInput"
+                  name="highlightedProjectsEnabled"
+                  role="switch"
+                  type="checkbox"
+                />
+                <span
+                  class="slider"
+                />
+              </div>
+            </label>
+          </div>
+          <a
+            href="/portfolio/edit?preview=true"
+          >
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] mb-xs xxxl:mb-sm w-full -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] border"
+              data-testid="button"
+              type="button"
+            >
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Preview
+              </span>
+            </button>
+          </a>
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+            data-testid="button"
+            type="submit"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Save
+            </span>
+          </button>
+        </section>
+      </div>
+    </main>
+  </form>
+</div>
+`;
+
+exports[`EditPortfolioContent should render initial state correctly 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <header
+      class="w-full pb-sm xxxl:pb-md flex gap-md bg-neutral-200 z-higher sticky pt-base xxxl:pt-md"
+    >
+      <div
+        class="w-1/3 flex items-end"
+      >
+        <h1
+          class="text-base xxxl:text-lg mb-0 leading-base"
+        >
+          Edit Portfolio
+        </h1>
+      </div>
+    </header>
+    <main
+      class="flex flex-col sm:flex-row gap-base xxxl:gap-md"
+    >
+      <div
+        class="flex flex-col gap-base xxxl:gap-md flex-[6_6_0%]"
+      >
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex gap-base xxxl:gap-md"
+        >
+          <div
+            class="w-[180px] xxxl:w-[240px] shrink-0"
+          >
+            <div
+              class="bg-center bg-cover bg-white flex items-center justify-center group rounded-sm cursor-pointer border-2 border-dashed border-neutral-300 hover:bg-neutral-200 hover:border-primary-500 relative p-0 pt-[50%] text-center text-xs xxxl:text-sm !p-0 !pt-[100%] !rounded-full fillBackground"
+              data-testid="drop-container"
+              tabindex="0"
+            >
+              <div
+                class="absolute inset-0"
+              >
+                <input
+                  accept="image/*"
+                  autocomplete="off"
+                  data-testid="drop-zone-input"
+                  id="drop-zone-input-undefined"
+                  style="display: none;"
+                  tabindex="-1"
+                  type="file"
+                />
+                <div
+                  class="flex flex-col justify-center items-center h-full p-sm"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 p-xs mb-xs text-primary-500 bg-primary-200 rounded-full group-hover:bg-white p-sm"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-base w-base"
+                      />
+                    </div>
+                  </div>
+                  <p
+                    class="text-primary-500 m-0 z-lowest"
+                  >
+                    Drop or 
+                    <span
+                      class="text-primary-500 underline"
+                    >
+                      choose file
+                    </span>
+                     to upload
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full"
+          >
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Personal Information
+            </h2>
+            <p
+              class="text-font-secondary"
+            >
+              Update your personal information
+            </p>
+            <div
+              class="flex flex-col gap-sm mb-base xxxl:mb-md"
+            >
+              <label
+                class="flex flex-col items-start text-font-primary w-full gap-xs"
+              >
+                <div
+                  class="text-font-primary leading-lg flex gap-xxxs text-xs"
+                >
+                  <span
+                    class="text-danger-600 mr-xxs"
+                  >
+                    *
+                  </span>
+                  <div
+                    class="injected-content"
+                  >
+                    Display Name
+                  </div>
+                </div>
+                <div
+                  class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                >
+                  <span
+                    class="flex gap-xxs grow"
+                  >
+                    <input
+                      aria-label="Display Name"
+                      aria-required="true"
+                      class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                      id="Display Name"
+                      name="name"
+                      placeholder="Type here..."
+                      type="text"
+                      value="Amanda Jewess"
+                    />
+                  </span>
+                </div>
+              </label>
+              <div
+                class="flex flex-col gap-xs"
+              >
+                <label
+                  class="flex flex-col gap-xs"
+                >
+                  <div
+                    class="text-font-primary leading-lg flex gap-xxxs text-xs"
+                  >
+                    Bio-note
+                  </div>
+                  <textarea
+                    class="textarea__input !mb-0 !p-xs h-[205px] xxxl:h-[185px] leading-lg text-xs xxxl:text-sm font-regular"
+                    id="Bio-note"
+                    name="bio"
+                    placeholder="Type here..."
+                  />
+                </label>
+              </div>
+            </div>
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Contacts and links
+            </h2>
+            <p
+              class="text-font-secondary"
+            >
+              Select type and add value
+            </p>
+            <ul
+              class="flex flex-col gap-xs"
+            >
+              <li
+                class="flex flex-1 items-center"
+              >
+                <label
+                  class="flex flex-col items-start text-font-primary w-full flex-1 mr-sm gap-xs"
+                >
+                  <div
+                    class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px]"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="flex gap-xxs grow"
+                    >
+                      <input
+                        class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                        name="contactLinks[0].value"
+                        placeholder="Email address..."
+                        type="text"
+                        value=""
+                      />
+                    </span>
+                  </div>
+                </label>
+                <label
+                  class="switch me-xs"
+                >
+                  <span
+                    class="text-xs"
+                  >
+                    Hide
+                  </span>
+                  <div
+                    class="content"
+                  >
+                    <input
+                      checked=""
+                      class="switchInput"
+                      role="switch"
+                      type="checkbox"
+                    />
+                    <span
+                      class="slider"
+                    />
+                  </div>
+                  <span
+                    class="label"
+                  >
+                    Show
+                  </span>
+                </label>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md opacity-50 !cursor-default hover:bg-transparent !opacity-0"
+                    data-testid="icon-button"
+                    disabled=""
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </li>
+              <li
+                class="flex flex-1 items-center"
+              >
+                <label
+                  class="flex flex-col items-start text-font-primary w-full flex-1 mr-sm gap-xs"
+                >
+                  <div
+                    class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px]"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="flex gap-xxs grow"
+                    >
+                      <input
+                        class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                        name="contactLinks[1].value"
+                        placeholder="Phone number..."
+                        type="text"
+                        value=""
+                      />
+                    </span>
+                  </div>
+                </label>
+                <label
+                  class="switch me-xs"
+                >
+                  <span
+                    class="text-xs"
+                  >
+                    Hide
+                  </span>
+                  <div
+                    class="content"
+                  >
+                    <input
+                      checked=""
+                      class="switchInput"
+                      role="switch"
+                      type="checkbox"
+                    />
+                    <span
+                      class="slider"
+                    />
+                  </div>
+                  <span
+                    class="label"
+                  >
+                    Show
+                  </span>
+                </label>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md opacity-50 !cursor-default hover:bg-transparent !opacity-0"
+                    data-testid="icon-button"
+                    disabled=""
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </li>
+              <li
+                class="flex flex-1 items-center"
+              >
+                <label
+                  class="flex flex-col items-start text-font-primary w-full flex-1 mr-sm gap-xs"
+                >
+                  <div
+                    class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px]"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="flex gap-xxs grow"
+                    >
+                      <input
+                        class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                        name="contactLinks[2].value"
+                        placeholder="LinkedIn account..."
+                        type="text"
+                        value=""
+                      />
+                    </span>
+                  </div>
+                </label>
+                <label
+                  class="switch me-xs"
+                >
+                  <span
+                    class="text-xs"
+                  >
+                    Hide
+                  </span>
+                  <div
+                    class="content"
+                  >
+                    <input
+                      checked=""
+                      class="switchInput"
+                      role="switch"
+                      type="checkbox"
+                    />
+                    <span
+                      class="slider"
+                    />
+                  </div>
+                  <span
+                    class="label"
+                  >
+                    Show
+                  </span>
+                </label>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md opacity-50 !cursor-default hover:bg-transparent !opacity-0"
+                    data-testid="icon-button"
+                    disabled=""
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </li>
+              <span
+                class="w-fit !mt-sm"
+                data-state="closed"
+              >
+                <button
+                  class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+                  data-testid="button"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="items-center flex justify-center gap-xs"
+                  >
+                    Add new
+                  </span>
+                </button>
+              </span>
+            </ul>
+          </div>
+        </section>
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex gap-base xxxl:gap-md"
+          id="Experience"
+        >
+          <div
+            class="w-[180px] xxxl:w-[240px] shrink-0"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 !text-neutral-800 bg-neutral-200 mb-sm rounded-xs p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Experience
+            </h2>
+            <p
+              class="text-xs xxxl:text-sm text-font-secondary break-words"
+            >
+              Add your experience, include work, volunteer, achievements...etc.
+            </p>
+          </div>
+          <div
+            class="grow"
+          >
+            <ul>
+              <div
+                class="flex flex-col justify-center items-center bg-white rounded-sm height-[305px] w-full"
+              >
+                <div
+                  class="flex flex-col justify-center items-center mb-sm [&>*]:m-xxs"
+                >
+                  <div />
+                </div>
+                <h6
+                  class="mb-xs"
+                >
+                  Experience section is empty.
+                </h6>
+                <p
+                  class="text-center m-0 whitespace-pre-line"
+                >
+                  You haven't added any Experience yet.
+You can do this by button below.
+                </p>
+              </div>
+            </ul>
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] mt-base mx-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+              data-testid="button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Add new
+              </span>
+            </button>
+          </div>
+        </section>
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex gap-base xxxl:gap-md"
+          id="Education"
+        >
+          <div
+            class="w-[180px] xxxl:w-[240px] shrink-0"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 !text-neutral-800 bg-neutral-200 mb-sm rounded-xs p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Education
+            </h2>
+            <p
+              class="text-xs xxxl:text-sm text-font-secondary break-words"
+            >
+              Add your education
+            </p>
+          </div>
+          <div
+            class="grow"
+          >
+            <ul>
+              <div
+                class="flex flex-col justify-center items-center bg-white rounded-sm height-[305px] w-full"
+              >
+                <div
+                  class="flex flex-col justify-center items-center mb-sm [&>*]:m-xxs"
+                >
+                  <div />
+                </div>
+                <h6
+                  class="mb-xs"
+                >
+                  Education section is empty.
+                </h6>
+                <p
+                  class="text-center m-0 whitespace-pre-line"
+                >
+                  You haven't added any Education yet.
+You can do this by button below.
+                </p>
+              </div>
+            </ul>
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] mt-base mx-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+              data-testid="button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Add new
+              </span>
+            </button>
+          </div>
+        </section>
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex gap-base xxxl:gap-md"
+          id="Extra-Curriculars"
+        >
+          <div
+            class="w-[180px] xxxl:w-[240px] shrink-0"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 !text-neutral-800 bg-neutral-200 mb-sm rounded-xs p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <h2
+              class="text-sm xxxl:text-base mb-xs"
+            >
+              Extra-Curriculars
+            </h2>
+            <p
+              class="text-xs xxxl:text-sm text-font-secondary break-words"
+            >
+              Add your extra-curriculars, include sports, clubs, organizations...etc.
+            </p>
+          </div>
+          <div
+            class="grow"
+          >
+            <ul>
+              <div
+                class="flex flex-col justify-center items-center bg-white rounded-sm height-[305px] w-full"
+              >
+                <div
+                  class="flex flex-col justify-center items-center mb-sm [&>*]:m-xxs"
+                >
+                  <div />
+                </div>
+                <h6
+                  class="mb-xs"
+                >
+                  Extra-Curriculars section is empty.
+                </h6>
+                <p
+                  class="text-center m-0 whitespace-pre-line"
+                >
+                  You haven't added any Extra-Curriculars yet.
+You can do this by button below.
+                </p>
+              </div>
+            </ul>
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] mt-base mx-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+              data-testid="button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Add new
+              </span>
+            </button>
+          </div>
+        </section>
+      </div>
+      <div
+        class="flex flex-col flex-[3_3_0%] sticky top-lg self-start"
+      >
+        <section
+          class="bg-white shadow-md p-base rounded-sm xxxl:p-md flex flex-col"
+        >
+          <h2
+            class="text-base mb-base"
+          >
+            Settings
+          </h2>
+          <div
+            class="bg-neutral-100 border rounded-xs flex p-x xxxl:p-base gap-xs xxxl:gap-sm justify-between transition-colors border-neutral-300 hover:border-neutral-400 mb-base cursor-pointer"
+          >
+            <div
+              class="flex items-center gap-xs xxxl:gap-sm"
+            >
+              <div
+                class="self-start"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm bg-primary-200 text-primary-500 p-xs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h6
+                  class="text-xs xxxl:text-sm mb-xxs"
+                >
+                  Add highlighted projects
+                </h6>
+                <p
+                  class="text-xs xxxl:text-sm leading-base mb-0"
+                >
+                  When enabled, you have an option to add some highlighted projects.
+                </p>
+              </div>
+            </div>
+            <label
+              class="switch"
+            >
+              <div
+                class="content"
+              >
+                <input
+                  class="switchInput"
+                  name="highlightedProjectsEnabled"
+                  role="switch"
+                  type="checkbox"
+                />
+                <span
+                  class="slider"
+                />
+              </div>
+            </label>
+          </div>
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] mb-xs xxxl:mb-sm w-full -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] border"
+            data-testid="button"
+            disabled=""
+            type="button"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Preview
+            </span>
+          </button>
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+            data-testid="button"
+            type="submit"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Save
+            </span>
+          </button>
+        </section>
+      </div>
+    </main>
+  </form>
+</div>
+`;
+
+exports[`EditPortfolioContent should render skeletons correctly 1`] = `
+<div>
+  <div
+    class="w-full flex flex-col"
+  >
+    <header
+      class="w-full pb-sm xxxl:pb-md flex gap-md bg-neutral-200 z-higher sticky pt-base xxxl:pt-md"
+    >
+      <div
+        class="w-1/3 flex items-end"
+      >
+        <h1
+          class="text-base xxxl:text-lg mb-0 leading-base"
+        >
+          Edit Portfolio
+        </h1>
+      </div>
+    </header>
+    <div
+      class="flex gap-base xxxl:gap-md w-full"
+    >
+      <div
+        class="basis-2/3 !h-[799px]"
+      >
+        <div
+          class="skeleton-rectangle skeletonRectangle mb-base xxxl:mb-md radius-sm height-full-height width-full-width darker animated"
+        />
+        <div
+          class="skeleton-rectangle skeletonRectangle !h-[750px] radius-sm height-auto width-full-width darker animated"
+        />
+      </div>
+      <div
+        class="basis-1/3"
+      >
+        <div
+          class="skeleton-rectangle skeletonRectangle !h-[303px] xxxl:!h-[341px] radius-sm height-auto width-full-width darker animated"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

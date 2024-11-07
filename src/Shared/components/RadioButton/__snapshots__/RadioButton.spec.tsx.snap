@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButton should render correctly with passed children 1`] = `
+<div>
+  <label
+    class="radioLabel"
+  >
+    <input
+      class="radioInput"
+      name="radio name"
+      type="radio"
+      value="radio value"
+    />
+    <div
+      class="radioSpan"
+    >
+      <span
+        class="labelWrapper"
+      >
+        Radio label
+      </span>
+    </div>
+  </label>
+</div>
+`;

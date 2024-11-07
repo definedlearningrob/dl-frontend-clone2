@@ -1,0 +1,13 @@
+@import '@shared/stylesheets/config.sass'
+
+.studentsGrid
+  +scrollbar
+  display: grid
+  gap: $m-sm
+  grid-template-columns: repeat(4, 1fr)
+  padding-right: $m-base
+
+  +media-breakpoint-up(xxxl)
+    padding-right: $m-md
+    gap: $m-base
+    grid-template-columns: repeat(5, 1fr)

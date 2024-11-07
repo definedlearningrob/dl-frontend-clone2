@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch should render correctly 1`] = `
+<div>
+  <label
+    class="switch"
+  >
+    <div
+      class="content"
+    >
+      <input
+        class="switchInput"
+        role="switch"
+        type="checkbox"
+      />
+      <span
+        class="slider"
+      />
+    </div>
+    <span
+      class="label"
+    >
+      Switch label
+    </span>
+  </label>
+</div>
+`;

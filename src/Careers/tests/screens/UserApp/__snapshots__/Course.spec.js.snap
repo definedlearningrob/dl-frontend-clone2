@@ -1,0 +1,663 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserAppCourse when visited in Admin app does not show school class assign/unassign buttons 1`] = `
+<div>
+  <div
+    class="p-base pt-xs xxxl:p-md xxxl:pt-sm"
+    id="read"
+  >
+    <section
+      class="course"
+    >
+      <section
+        class="course-header"
+      >
+        <div
+          class="course-header__categories-bar"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle course-skeleton__badge radius-md height-auto width-sm darker animated"
+          />
+        </div>
+        <div
+          class="skeleton-rectangle skeletonRectangle course-skeleton__title radius-md height-auto width-sm darker animated"
+        />
+        <div
+          class="course-skeleton__description-wrapper"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle course-skeleton__description radius-md height-auto width-sm darker animated"
+          />
+          <div
+            class="skeleton-rectangle skeletonRectangle course-skeleton__description radius-md height-auto width-sm darker animated"
+          />
+        </div>
+        <div
+          class="my-base flex gap-base"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle !w-[180px] radius-sm height-big width-sm darker animated"
+          />
+          <div
+            class="skeleton-rectangle skeletonRectangle !w-[120px] radius-sm height-big width-sm darker animated"
+          />
+        </div>
+      </section>
+      <section
+        class="course-lessons"
+      >
+        <div
+          class="skeleton-rectangle skeletonRectangle course-skeleton__heading radius-md height-auto width-full-width darker animated"
+        />
+        <div
+          class="course-lessons__lessons"
+        >
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="lesson-card -start"
+          >
+            <div
+              class="lesson-card__image-wrapper"
+            >
+              <div
+                class="skeleton-rectangle skeletonRectangle course-skeleton__image radius-md height-auto width-full-width darker animated"
+              />
+            </div>
+            <div
+              class="lesson-card__content-wrapper"
+            >
+              <div
+                class="lesson-card__header"
+              >
+                <div
+                  class="skeleton-rectangle skeletonRectangle lesson-card__title radius-md height-auto width-md darker animated"
+                />
+                <div
+                  class="skeleton-rectangle skeletonRectangle course-skeleton__show-btn radius-md height-auto width-sm darker animated"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`UserAppCourse when visited in User app renders with "Assign To Class" and "Unassign Class" buttons 1`] = `
+<div>
+  <div
+    class="p-base pt-xs xxxl:p-md xxxl:pt-sm"
+    id="read"
+  >
+    <section
+      class="course"
+    >
+      <section
+        class="course-header"
+      >
+        <div
+          class="course-header__categories-bar"
+        >
+          <div
+            class="course-header__badges-wrapper"
+          >
+            <div
+              class="course-header__category-badge"
+            >
+              <span>
+                some pathway
+              </span>
+            </div>
+          </div>
+        </div>
+        <h3
+          class="course-header__heading"
+        >
+          First course
+        </h3>
+        <p
+          class="course-header__description"
+        >
+          some desc
+        </p>
+        <div
+          class="my-base flex gap-base"
+        >
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] w-[180px] -secondary bg-secondary-500 hover:bg-secondary-600 outline-secondary-500 border-secondary-500 py-xs px-base leading-[22px] border text-white"
+            data-testid="button"
+            type="button"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Grading
+            </span>
+          </button>
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] w-[180px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+            data-testid="button"
+            type="button"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Assign to class
+            </span>
+          </button>
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] w-[180px] -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] border"
+            data-testid="button"
+            type="button"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Unassign class
+            </span>
+          </button>
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] w-[180px] whitespace-nowrap -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] border"
+            data-testid="create-share-link"
+            type="button"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Create share link
+            </span>
+          </button>
+        </div>
+      </section>
+      <section
+        class="course-lessons"
+      >
+        <h3
+          class="course-lessons__heading"
+        >
+          Lessons
+        </h3>
+        <div
+          class="course-lessons__lessons"
+        />
+      </section>
+    </section>
+  </div>
+</div>
+`;

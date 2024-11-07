@@ -1,0 +1,855 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioPlans as teacher renders correctly 1`] = `
+<div>
+  <div
+    class="flex flex-col gap-sm xxxl:gap-base"
+  >
+    <div
+      class="flex gap-sm items-center bg-white rounded-sm py-sm px-base xxxl:py-base xxxl:px-md"
+    >
+      <div
+        class="skeleton-rectangle skeletonRectangle !w-[44px] !h-[44px] rounded-full radius-md height-auto width-full-width darker animated"
+      />
+      <div
+        class="flex flex-col gap-xxs flex-1"
+      >
+        <div
+          class="skeleton-rectangle skeletonRectangle radius-md height-extra-small width-sm darker animated"
+        />
+        <div
+          class="skeleton-rectangle skeletonRectangle radius-md height-auto width-sm darker animated"
+        />
+      </div>
+    </div>
+    <div
+      class="card"
+    >
+      <div
+        class="skeleton-rectangle skeletonRectangle mb-base xxxl:mb-md radius-sm height-large width-full-width darker animated"
+      />
+      <div
+        class="py-xs px-sm xxxl:py-sm xxxl:px-md bg-neutral-200 rounded-sm xxxl:max-w-[1200px] mb-base"
+      >
+        <div
+          class="flex gap-base"
+        >
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-white border border-neutral-300 rounded-xs text-neutral-700 p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="text-xs xxxl:text-sm font-medium leading-sm"
+            >
+              Not started
+            </span>
+          </div>
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-white border border-neutral-300 rounded-xs text-secondary-500 p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="text-xs xxxl:text-sm font-medium leading-sm"
+            >
+              In progress
+            </span>
+          </div>
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-white border border-neutral-300 rounded-xs text-success-500 p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="text-xs xxxl:text-sm font-medium leading-sm"
+            >
+              Completed
+            </span>
+          </div>
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-white border border-neutral-300 rounded-xs text-danger-500 p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="text-xs xxxl:text-sm font-medium leading-sm"
+            >
+              Not met
+            </span>
+          </div>
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-white border border-neutral-300 rounded-xs text-neutral-700 p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="text-xs xxxl:text-sm font-medium leading-sm"
+            >
+              Locked
+            </span>
+          </div>
+        </div>
+      </div>
+      <ul
+        class="flex flex-col gap-sm xxxl:gap-base"
+      >
+        <div
+          class="skeleton-rectangle skeletonRectangle !h-[100px] xxxl:max-w-[1200px] radius-sm height-auto width-full-width darker animated"
+        />
+        <div
+          class="skeleton-rectangle skeletonRectangle !h-[100px] xxxl:max-w-[1200px] radius-sm height-auto width-full-width darker animated"
+        />
+        <div
+          class="skeleton-rectangle skeletonRectangle !h-[100px] xxxl:max-w-[1200px] radius-sm height-auto width-full-width darker animated"
+        />
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PortfolioPlans renders correctly 1`] = `
+<div>
+  <div
+    class="flex flex-col gap-sm xxxl:gap-base"
+  >
+    <div
+      class="flex gap-sm justify-between bg-white rounded-sm py-sm px-base xxxl:py-base xxxl:px-md"
+      data-testid="plans-header"
+    >
+      <div
+        class="flex gap-sm"
+      >
+        <div
+          class="recharts-wrapper"
+          role="region"
+          style="position: relative; cursor: default; width: 44px; height: 44px;"
+        >
+          <svg
+            class="recharts-surface"
+            cx="50%"
+            cy="50%"
+            height="44"
+            style="width: 100%; height: 100%;"
+            viewBox="0 0 44 44"
+            width="44"
+          >
+            <title />
+            <desc />
+            <defs>
+              <clippath
+                id="recharts1-clip"
+              >
+                <rect
+                  height="44"
+                  width="44"
+                  x="0"
+                  y="0"
+                />
+              </clippath>
+            </defs>
+            <g
+              class="recharts-layer recharts-polar-angle-axis"
+            >
+              <path
+                class="recharts-polygon angleAxis"
+                cx="22"
+                cy="22"
+                d="M22,-4.399999999999999L37.51753066052129,0.6419513485013901L47.10789203019205,13.84195134850139L47.10789203019205,30.158048651498614L37.51753066052129,43.358048651498606L22,48.4L6.482469339478714,43.358048651498606L-3.107892030192051,30.158048651498614L-3.1078920301920547,13.841951348501393L6.4824693394787065,0.6419513485013901L21.999999999999996,-4.399999999999999L22,-4.399999999999999Z"
+                fill="none"
+                orientation="outer"
+                radius="26.4"
+              />
+              <g
+                class="recharts-layer recharts-polar-angle-axis-ticks"
+              >
+                <g
+                  class="recharts-layer recharts-polar-angle-axis-tick"
+                >
+                  <line
+                    class="angleAxis"
+                    cx="22"
+                    cy="22"
+                    fill="none"
+                    orientation="outer"
+                    radius="26.4"
+                    x1="22"
+                    x2="22.000000000000004"
+                    y1="-4.399999999999999"
+                    y2="-12.399999999999999"
+                  />
+                </g>
+                <g
+                  class="recharts-layer recharts-polar-angle-axis-tick"
+                >
+                  <line
+                    class="angleAxis"
+                    cx="22"
+                    cy="22"
+                    fill="none"
+                    orientation="outer"
+                    radius="26.4"
+                    x1="37.51753066052129"
+                    x2="42.219812678861075"
+                    y1="0.6419513485013901"
+                    y2="-5.8301846064981895"
+                  />
+                </g>
+                <g
+                  class="recharts-layer recharts-polar-angle-axis-tick"
+                >
+                  <line
+                    class="angleAxis"
+                    cx="22"
+                    cy="22"
+                    fill="none"
+                    orientation="outer"
+                    radius="26.4"
+                    x1="47.10789203019205"
+                    x2="54.71634416055328"
+                    y1="13.84195134850139"
+                    y2="11.36981539350181"
+                  />
+                </g>
+                <g
+                  class="recharts-layer recharts-polar-angle-axis-tick"
+                >
+                  <line
+                    class="angleAxis"
+                    cx="22"
+                    cy="22"
+                    fill="none"
+                    orientation="outer"
+                    radius="26.4"
+                    x1="47.10789203019205"
+                    x2="54.71634416055328"
+                    y1="30.158048651498614"
+                    y2="32.63018460649819"
+                  />
+                </g>
+                <g
+                  class="recharts-layer recharts-polar-angle-axis-tick"
+                >
+                  <line
+                    class="angleAxis"
+                    cx="22"
+                    cy="22"
+                    fill="none"
+                    orientation="outer"
+                    radius="26.4"
+                    x1="37.51753066052129"
+                    x2="42.219812678861075"
+                    y1="43.358048651498606"
+                    y2="49.83018460649819"
+                  />
+                </g>
+                <g
+                  class="recharts-layer recharts-polar-angle-axis-tick"
+                >
+                  <line
+                    class="angleAxis"
+                    cx="22"
+                    cy="22"
+                    fill="none"
+                    orientation="outer"
+                    radius="26.4"
+                    x1="22"
+                    x2="22.000000000000004"
+                    y1="48.4"
+                    y2="56.4"
+                  />
+                </g>
+                <g
+                  class="recharts-layer recharts-polar-angle-axis-tick"
+                >
+                  <line
+                    class="angleAxis"
+                    cx="22"
+                    cy="22"
+                    fill="none"
+                    orientation="outer"
+                    radius="26.4"
+                    x1="6.482469339478714"
+                    x2="1.7801873211389285"
+                    y1="43.358048651498606"
+                    y2="49.83018460649819"
+                  />
+                </g>
+                <g
+                  class="recharts-layer recharts-polar-angle-axis-tick"
+                >
+                  <line
+                    class="angleAxis"
+                    cx="22"
+                    cy="22"
+                    fill="none"
+                    orientation="outer"
+                    radius="26.4"
+                    x1="-3.107892030192051"
+                    x2="-10.716344160553277"
+                    y1="30.158048651498614"
+                    y2="32.63018460649819"
+                  />
+                </g>
+                <g
+                  class="recharts-layer recharts-polar-angle-axis-tick"
+                >
+                  <line
+                    class="angleAxis"
+                    cx="22"
+                    cy="22"
+                    fill="none"
+                    orientation="outer"
+                    radius="26.4"
+                    x1="-3.1078920301920547"
+                    x2="-10.716344160553284"
+                    y1="13.841951348501393"
+                    y2="11.369815393501813"
+                  />
+                </g>
+                <g
+                  class="recharts-layer recharts-polar-angle-axis-tick"
+                >
+                  <line
+                    class="angleAxis"
+                    cx="22"
+                    cy="22"
+                    fill="none"
+                    orientation="outer"
+                    radius="26.4"
+                    x1="6.4824693394787065"
+                    x2="1.7801873211389214"
+                    y1="0.6419513485013901"
+                    y2="-5.830184606498186"
+                  />
+                </g>
+                <g
+                  class="recharts-layer recharts-polar-angle-axis-tick"
+                >
+                  <line
+                    class="angleAxis"
+                    cx="22"
+                    cy="22"
+                    fill="none"
+                    orientation="outer"
+                    radius="26.4"
+                    x1="21.999999999999996"
+                    x2="21.999999999999993"
+                    y1="-4.399999999999999"
+                    y2="-12.399999999999999"
+                  />
+                </g>
+              </g>
+            </g>
+            <circle
+              class="fill-neutral-200"
+              cx="22"
+              cy="22"
+              r="18"
+            />
+            <g
+              class="recharts-layer recharts-area fill-neutral-400"
+            >
+              <g
+                class="recharts-layer recharts-radial-bar-background"
+              >
+                <path
+                  class="recharts-sector recharts-radial-bar-background-sector"
+                  cx="22"
+                  cy="22"
+                  d="M 22,-0.14999999999999858
+    A 22.15,22.15,0,
+    1,1,
+    21.999613409570706,-0.14999999662635943
+  L 21.99968322274078,3.8500000027644035
+            A 18.15,18.15,0,
+            1,0,
+            22,3.8500000000000014 Z"
+                  fill="#B0B5C9"
+                  fill-opacity="1"
+                  name="progress"
+                  role="img"
+                />
+              </g>
+              <g
+                class="recharts-layer recharts-radial-bar-sectors"
+              >
+                <g
+                  class="recharts-layer"
+                />
+              </g>
+            </g>
+            <text
+              class="text-xxs font-medium fill-font-secondary"
+              dominant-baseline="middle"
+              text-anchor="middle"
+              x="22"
+              y="24"
+            >
+              0/5
+            </text>
+          </svg>
+        </div>
+        <div>
+          <h4
+            class="text-base xxxl:text-lg mb-xxs"
+          >
+            Goals: Plan
+          </h4>
+          <div
+            class="flex items-center gap-xxs xxxl:gap-xs text-xxs xxxl:text-xs leading-lg"
+          >
+            <span
+              class="text-primary-500 font-medium"
+            >
+              Bruce Wayne
+            </span>
+            <div
+              class="w-xxs h-xxs rounded-full bg-neutral-300"
+            />
+            <span>
+              2 student plans
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex items-center gap-xs xxxl:gap-sm"
+      >
+        <label
+          class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+        >
+          <div
+            class="w-[240px] xxxl:w-[320px] css-b62m3t-container"
+          >
+            <span
+              class="css-1f43avz-a11yText-A11yText"
+              id="react-select-2-live-region"
+            />
+            <span
+              aria-atomic="false"
+              aria-live="polite"
+              aria-relevant="additions text"
+              class="css-1f43avz-a11yText-A11yText"
+              role="log"
+            />
+            <div
+              class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+            >
+              <div
+                class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--has-value css-1fdsijx-ValueContainer"
+              >
+                <div
+                  class="!m-0 !leading-[22px] h-[22px] select__single-value css-1dimb5e-singleValue"
+                >
+                  Defined Portrait of a Graduate
+                </div>
+                <div
+                  class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                  data-value=""
+                >
+                  <input
+                    aria-activedescendant=""
+                    aria-autocomplete="list"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    autocapitalize="none"
+                    autocomplete="off"
+                    autocorrect="off"
+                    class="select__input"
+                    id="react-select-2-input"
+                    role="combobox"
+                    spellcheck="false"
+                    style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                    tabindex="0"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+              >
+                <div
+                  aria-hidden="true"
+                  class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 text-neutral-800"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </label>
+        <a
+          href="/reports/student-progress/48"
+        >
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+            data-testid="button"
+            type="button"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Goals: Progress report
+            </span>
+          </button>
+        </a>
+      </div>
+    </div>
+    <div
+      class="card"
+    >
+      <div
+        class="injected-content mb-base xxxl:mb-md text-xs xxxl:text-sm"
+      >
+        <p>
+          <img
+            height="57"
+            src="https://picsum.photos/600/300"
+            style="display: block; margin-left: auto; margin-right: auto;"
+            width="795"
+          />
+        </p>
+        
+
+        <p>
+          Defined has collaboratively constructed our Portrait of a Graduate which identifies competencies that can be practiced and supported through the utilization of Defined Learning and Defined Careers. This profile serves as our vision for teaching and learning and reinforces our beliefs through the performance tasks created and instructional processes supported.
+        </p>
+      </div>
+      <div
+        class="py-xs px-sm xxxl:py-sm xxxl:px-md bg-neutral-200 rounded-sm xxxl:max-w-[1200px] mb-base"
+      >
+        <div
+          class="flex gap-base"
+        >
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-white border border-neutral-300 rounded-xs text-neutral-700 p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="text-xs xxxl:text-sm font-medium leading-sm"
+            >
+              Not started
+            </span>
+          </div>
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-white border border-neutral-300 rounded-xs text-secondary-500 p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="text-xs xxxl:text-sm font-medium leading-sm"
+            >
+              In progress
+            </span>
+          </div>
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-white border border-neutral-300 rounded-xs text-success-500 p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="text-xs xxxl:text-sm font-medium leading-sm"
+            >
+              Completed
+            </span>
+          </div>
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-white border border-neutral-300 rounded-xs text-danger-500 p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="text-xs xxxl:text-sm font-medium leading-sm"
+            >
+              Not met
+            </span>
+          </div>
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-white border border-neutral-300 rounded-xs text-neutral-700 p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="text-xs xxxl:text-sm font-medium leading-sm"
+            >
+              Locked
+            </span>
+          </div>
+        </div>
+      </div>
+      <ul
+        class="flex flex-col gap-sm xxxl:gap-base"
+      >
+        <li
+          aria-label="Career Readiness"
+          class="overflow-hidden group p-base xxxl:p-md rounded-sm bg-white xxxl:max-w-[1200px] transition-all border border-neutral-300 focus-within:border-primary-500 plan-group hover:bg-neutral-200 hover:border-neutral-400"
+          data-id="98"
+        >
+          <div
+            class="relative"
+            role="button"
+          >
+            <div
+              class="flex gap-xs xxxl:gap-sm mb-xs xxxl:mb-sm mr-lg"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 outline outline-1 outline-neutral-300 bg-white rounded-xs !h-fit text-secondary-500 p-xxs"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <h5
+                class="mb-0 text-sm xxxl:text-base leading-lg max-w-[680px] xxxl:max-w-[840px]"
+              >
+                Career Readiness
+              </h5>
+            </div>
+            <button
+              class="icon-button -size-sm transition-colors !bg-white xxxl:!p-xxs !border !border-solid !rounded-xs !border-white focus-visible:!border-primary-500 absolute right-0 top-0 group-hover:text-primary-500"
+              data-testid="icon-button"
+              type="button"
+            >
+              <div
+                class="icon icon-button__icon -sm-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </button>
+            <div
+              class="text-neutral-700 ml-md xxxl:ml-lg max-w-[680px] xxxl:max-w-[840px] text-xs xxxl:text-sm [&_p:last-child]:mb-0"
+            >
+              <p>
+                Students are aware of and prepared for career opportunities.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li
+          aria-label="Academic Knowledge & Skills"
+          class="overflow-hidden group p-base xxxl:p-md rounded-sm bg-white xxxl:max-w-[1200px] transition-all border border-neutral-300 focus-within:border-primary-500 plan-group hover:bg-neutral-200 hover:border-neutral-400"
+          data-id="99"
+        >
+          <div
+            class="relative"
+            role="button"
+          >
+            <div
+              class="flex gap-xs xxxl:gap-sm mb-xs xxxl:mb-sm mr-lg"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 outline outline-1 outline-neutral-300 bg-white rounded-xs !h-fit text-font-secondary p-xxs"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <h5
+                class="mb-0 text-sm xxxl:text-base leading-lg max-w-[680px] xxxl:max-w-[840px]"
+              >
+                Academic Knowledge & Skills
+              </h5>
+            </div>
+            <button
+              class="icon-button -size-sm transition-colors !bg-white xxxl:!p-xxs !border !border-solid !rounded-xs !border-white focus-visible:!border-primary-500 absolute right-0 top-0 group-hover:text-primary-500"
+              data-testid="icon-button"
+              type="button"
+            >
+              <div
+                class="icon icon-button__icon -sm-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </button>
+            <div
+              class="text-neutral-700 ml-md xxxl:ml-lg max-w-[680px] xxxl:max-w-[840px] text-xs xxxl:text-sm [&_p:last-child]:mb-0"
+            >
+              <p>
+                Students have met content standards for key subject areas. 
+              </p>
+            </div>
+          </div>
+        </li>
+        <li
+          aria-label="Social & Emotional Learning"
+          class="overflow-hidden group p-base xxxl:p-md rounded-sm bg-white xxxl:max-w-[1200px] transition-all border border-neutral-300 focus-within:border-primary-500 plan-group hover:bg-neutral-200 hover:border-neutral-400"
+          data-id="100"
+        >
+          <div
+            class="relative"
+            role="button"
+          >
+            <div
+              class="flex gap-xs xxxl:gap-sm mb-xs xxxl:mb-sm mr-lg"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 outline outline-1 outline-neutral-300 bg-white rounded-xs !h-fit text-font-secondary p-xxs"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <h5
+                class="mb-0 text-sm xxxl:text-base leading-lg max-w-[680px] xxxl:max-w-[840px]"
+              >
+                Social & Emotional Learning
+              </h5>
+            </div>
+            <button
+              class="icon-button -size-sm transition-colors !bg-white xxxl:!p-xxs !border !border-solid !rounded-xs !border-white focus-visible:!border-primary-500 absolute right-0 top-0 group-hover:text-primary-500"
+              data-testid="icon-button"
+              type="button"
+            >
+              <div
+                class="icon icon-button__icon -sm-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </button>
+            <div
+              class="text-neutral-700 ml-md xxxl:ml-lg max-w-[680px] xxxl:max-w-[840px] text-xs xxxl:text-sm [&_p:last-child]:mb-0"
+            >
+              <p>
+                Students understand themselves, make good choices, and maintain relationships with others.  
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

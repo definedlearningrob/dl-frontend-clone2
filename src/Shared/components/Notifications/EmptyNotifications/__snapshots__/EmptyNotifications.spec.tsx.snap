@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyNotifications should render with announcement type passed 1`] = `
+<div>
+  <div
+    class="emptyState"
+  >
+    <img
+      alt="emptyStateText"
+      class="emptyStateImage"
+      src="notification-empty.png"
+    />
+    <p
+      class="emptyStateText"
+    >
+      No announcements yet!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`EmptyNotifications should render with no type passed 1`] = `
+<div>
+  <div
+    class="emptyState"
+  >
+    <img
+      alt="emptyStateText"
+      class="emptyStateImage"
+      src="notification-empty.png"
+    />
+    <p
+      class="emptyStateText"
+    >
+      No notifications yet!
+    </p>
+  </div>
+</div>
+`;

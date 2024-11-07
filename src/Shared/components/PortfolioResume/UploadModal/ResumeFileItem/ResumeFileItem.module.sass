@@ -1,0 +1,80 @@
+@import '@shared/stylesheets/config.sass'
+
+.item
+  +flex-container(column, center, stretch)
+  border-radius: $border-radius-sm
+  border: 1px solid $color-border
+  margin: $m-base 0
+  min-height: $m-md * 2
+  padding: $m-sm $m-sm $m-x
+
+.wrapper
+  +flex-container(row, flex-start, center)
+
+.info
+  +flex-container(row, space-between, center)
+  color: $color-primary-500
+  fill: $color-primary-500
+  font-weight: $font-weight-regular
+  margin-right: auto
+  transition: all $transition-duration $transition-function
+
+.success
+  color: $color-success-500
+
+  path
+    fill: $color-success-500
+
+.loadingSpinner
+  margin-right: $m-xs
+
+.name
+  color: inherit
+  font-size: $font-size-xs
+  margin: 0 $m-xs
+  text-decoration: none
+  word-break: break-all
+
+  &:hover
+    color: inherit
+
+.button
+  background-color: $color-background
+  height: $m-md
+  min-width: $m-md
+  width: $m-md
+
+  &:hover
+    background-color: $color-border-hover
+
+  path
+    fill: $color-primary-500
+
+.buttonCancel
+  background-color: $color-secondary-200
+
+  &:hover
+    background-color: darken($color-secondary-200, 5%)
+
+  path
+    fill: $color-danger-500
+
+    &.-disabled
+      background-color: $color-background
+
+      svg
+        fill: $color-font-secondary
+
+      &:hover
+        transform: translateY(-1px)
+        background-color: $color-border-hover
+
+.progressContainer
+  border-radius: $border-radius-xs
+  margin-top: $m-sm
+  overflow: hidden
+
+.progressIndicator
+  background-color: $color-primary-500
+  height: 2px
+  width: 0

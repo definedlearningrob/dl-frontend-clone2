@@ -1,0 +1,1463 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OpportunitiesList should display data in the table 1`] = `
+<div>
+  <div
+    class="overflow-hidden flex flex-col h-full min-h-0"
+  >
+    <div
+      class="grow z-lowest scrollbar"
+    >
+      <table
+        class="w-full table-fixed overflow-auto"
+      >
+        <thead
+          class="sticky top-0 bg-white z-lower tableHead"
+        >
+          <tr>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 86px;"
+            >
+              <div
+                class=""
+              >
+                Image
+              </div>
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 264px;"
+            >
+              <div
+                class=""
+              >
+                Opportunity Name
+              </div>
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 40px;"
+            >
+              <div
+                class=""
+              />
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 130px;"
+            >
+              <div
+                class=""
+              >
+                Type
+              </div>
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 120px;"
+            >
+              <div
+                class=""
+              >
+                Partner
+              </div>
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 120px;"
+            >
+              <div
+                class=""
+              >
+                Pathways
+              </div>
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 200px;"
+            >
+              <div
+                class=""
+              >
+                Dates
+              </div>
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 56px;"
+            >
+              <div
+                class=""
+              />
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="group/row border-b border-neutral-300 transition-colors cursor-pointer hover:bg-primary-200"
+            tabindex="0"
+          >
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md relative"
+            >
+              <div
+                class="max-h-[56px] max-w-[54px] xxxl:max-w-[86px] overflow-hidden flex items-center rounded-xs"
+              >
+                <img
+                  class="rounded-xs max-h-[54px] xxxl:max-h-[86px] mx-auto h-full object-contain"
+                  src="SvgrURL"
+                />
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <span
+                class="truncate block max-w-fit"
+                data-state="closed"
+              >
+                <div>
+                  <div
+                    class="text-primary-500 font-bold text-xxs xxxl:text-xs truncate"
+                  >
+                    Opportunity 1
+                  </div>
+                </div>
+              </span>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <span
+                class="block w-fit"
+                data-state="closed"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-full bg-neutral-200 group-hover/row:bg-white transition-colors p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+              </span>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="font-medium leading-lg flex items-center !text-xxs xxxl:!text-xs w-fit group-hover/row:!bg-white bg-primary-200 text-primary-500 rounded-sm p-xxs text-xs gap-xxs"
+              >
+                Practicum
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              Opportunity partner
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <span
+                class="line-clamp-2"
+                data-state="closed"
+              >
+                Animal Systems
+              </span>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="flex flex-col gap-xxxs"
+              >
+                <span
+                  class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                  data-state="closed"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="whitespace-nowrap"
+                  >
+                    Sep 1, 2023
+                  </span>
+                   -
+                  <span
+                    class="whitespace-nowrap"
+                  >
+                    Oct 4, 2023
+                  </span>
+                </span>
+                <span
+                  class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                  data-state="closed"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  Aug 15, 2023
+                </span>
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 text-primary-500 hidden group-hover/row:block ml-auto"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-base w-base"
+                  />
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="group/row border-b border-neutral-300 transition-colors cursor-pointer hover:bg-primary-200"
+            tabindex="0"
+          >
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md relative"
+            >
+              <div
+                class="max-h-[56px] max-w-[54px] xxxl:max-w-[86px] overflow-hidden flex items-center rounded-xs"
+              >
+                <img
+                  class="rounded-xs w-full"
+                  src="SvgrURL"
+                />
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <span
+                class="truncate block max-w-fit"
+                data-state="closed"
+              >
+                <div>
+                  <div
+                    class="text-primary-500 font-bold text-xxs xxxl:text-xs truncate"
+                  >
+                    Opportunity 2
+                  </div>
+                </div>
+              </span>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            />
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="font-medium leading-lg flex items-center !text-xxs xxxl:!text-xs w-fit group-hover/row:!bg-white bg-primary-200 text-primary-500 rounded-sm p-xxs text-xs gap-xxs"
+              >
+                Other
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              -
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <span
+                class="line-clamp-2"
+                data-state="closed"
+              >
+                Natural Resources Systems, Power, Plant Systems
+              </span>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="flex flex-col gap-xxxs"
+              >
+                <span
+                  class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                  data-state="closed"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="whitespace-nowrap"
+                  >
+                    Apr 1, 2023
+                  </span>
+                   -
+                  <span
+                    class="whitespace-nowrap"
+                  >
+                    May 1, 2023
+                  </span>
+                </span>
+                <span
+                  class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                  data-state="closed"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  Mar 15, 2023
+                </span>
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 text-primary-500 hidden group-hover/row:block ml-auto"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-base w-base"
+                  />
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="group/row border-b border-neutral-300 transition-colors cursor-pointer hover:bg-primary-200"
+            tabindex="0"
+          >
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md relative"
+            >
+              <div
+                class="max-h-[56px] max-w-[54px] xxxl:max-w-[86px] overflow-hidden flex items-center rounded-xs"
+              >
+                <img
+                  class="rounded-xs w-full"
+                  src="SvgrURL"
+                />
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <span
+                class="truncate block max-w-fit"
+                data-state="closed"
+              >
+                <div>
+                  <div
+                    class="text-primary-500 font-bold text-xxs xxxl:text-xs truncate"
+                  >
+                    Opportunity 3
+                  </div>
+                </div>
+              </span>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            />
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="font-medium leading-lg flex items-center !text-xxs xxxl:!text-xs w-fit group-hover/row:!bg-white bg-primary-200 text-primary-500 rounded-sm p-xxs text-xs gap-xxs"
+              >
+                Apprenticeship
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              Opportunity partner 2
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <span
+                class="line-clamp-2"
+                data-state="closed"
+              >
+                Animal Systems, Power
+              </span>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="flex flex-col gap-xxxs"
+              >
+                <span
+                  class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                  data-state="closed"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="whitespace-nowrap"
+                  >
+                    Sep 1, 2023
+                  </span>
+                   -
+                  <span
+                    class="whitespace-nowrap"
+                  >
+                    Oct 4, 2023
+                  </span>
+                </span>
+                <span
+                  class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                  data-state="closed"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  Aug 15, 2023
+                </span>
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 text-primary-500 hidden group-hover/row:block ml-auto"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-base w-base"
+                  />
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+        <tr
+          class="border-b border-neutral-300 last:border-b-0"
+        >
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+        </tr>
+        <tr
+          class="border-b border-neutral-300 last:border-b-0"
+        >
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+        </tr>
+        <tr
+          class="border-b border-neutral-300 last:border-b-0"
+        >
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`OpportunitiesList with canManageOpportunities set as true should display data in the table 1`] = `
+<div>
+  <div
+    class="overflow-hidden flex flex-col h-full min-h-0"
+  >
+    <div
+      class="grow z-lowest scrollbar"
+    >
+      <table
+        class="w-full table-fixed overflow-auto"
+      >
+        <thead
+          class="sticky top-0 bg-white z-lower tableHead"
+        >
+          <tr>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 86px;"
+            >
+              <div
+                class=""
+              >
+                Image
+              </div>
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 264px;"
+            >
+              <div
+                class=""
+              >
+                Opportunity Name
+              </div>
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 40px;"
+            >
+              <div
+                class=""
+              />
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 130px;"
+            >
+              <div
+                class=""
+              >
+                Type
+              </div>
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 120px;"
+            >
+              <div
+                class=""
+              >
+                Partner
+              </div>
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 120px;"
+            >
+              <div
+                class=""
+              >
+                Pathways
+              </div>
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 200px;"
+            >
+              <div
+                class=""
+              >
+                Dates
+              </div>
+            </th>
+            <th
+              class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+              colspan="1"
+              style="width: 56px;"
+            >
+              <div
+                class=""
+              />
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="group/row border-b border-neutral-300 transition-colors cursor-pointer hover:bg-primary-200"
+            tabindex="0"
+          >
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md relative"
+            >
+              <div
+                class="max-h-[56px] max-w-[54px] xxxl:max-w-[86px] overflow-hidden flex items-center rounded-xs"
+              >
+                <img
+                  class="rounded-xs max-h-[54px] xxxl:max-h-[86px] mx-auto h-full object-contain"
+                  src="SvgrURL"
+                />
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <span
+                class="truncate block max-w-fit"
+                data-state="closed"
+              >
+                <div>
+                  <div
+                    class="text-primary-500 font-bold text-xxs xxxl:text-xs truncate"
+                  >
+                    Opportunity 1
+                  </div>
+                </div>
+              </span>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <span
+                class="block w-fit"
+                data-state="closed"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-full bg-neutral-200 group-hover/row:bg-white transition-colors p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+              </span>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="font-medium leading-lg flex items-center !text-xxs xxxl:!text-xs w-fit group-hover/row:!bg-white bg-primary-200 text-primary-500 rounded-sm p-xxs text-xs gap-xxs"
+              >
+                Practicum
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              Opportunity partner
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <span
+                class="line-clamp-2"
+                data-state="closed"
+              >
+                Animal Systems
+              </span>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="flex flex-col gap-xxxs"
+              >
+                <span
+                  class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                  data-state="closed"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="whitespace-nowrap"
+                  >
+                    Sep 1, 2023
+                  </span>
+                   -
+                  <span
+                    class="whitespace-nowrap"
+                  >
+                    Oct 4, 2023
+                  </span>
+                </span>
+                <span
+                  class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                  data-state="closed"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  Aug 15, 2023
+                </span>
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="ml-auto w-fit"
+              >
+                <div
+                  class="dropdown-portal-container"
+                >
+                  <div
+                    class="dropdown-portal-options__trigger opacity-0 group-hover/row:opacity-100 group-focus/row:opacity-100 focus-within:opacity-100"
+                    data-testid="dropdown-trigger-container"
+                  >
+                    <button
+                      aria-label="Actions"
+                      class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  text-primary-500 !bg-white"
+                      data-testid="icon-button"
+                      type="button"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="group/row border-b border-neutral-300 transition-colors cursor-pointer hover:bg-primary-200"
+            tabindex="0"
+          >
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md relative"
+            >
+              <div
+                class="absolute top-0 left-0 bottom-0 w-xxxs bg-secondary-500"
+              />
+              <div
+                class="max-h-[56px] max-w-[54px] xxxl:max-w-[86px] overflow-hidden flex items-center rounded-xs"
+              >
+                <img
+                  class="rounded-xs w-full"
+                  src="SvgrURL"
+                />
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <span
+                class="truncate block max-w-fit"
+                data-state="closed"
+              >
+                <div>
+                  <div
+                    class="kicker sm secondary !mb-xxs"
+                  >
+                    Pending applications
+                  </div>
+                  <div
+                    class="text-primary-500 font-bold text-xxs xxxl:text-xs truncate"
+                  >
+                    Opportunity 2
+                  </div>
+                </div>
+              </span>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            />
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="font-medium leading-lg flex items-center !text-xxs xxxl:!text-xs w-fit group-hover/row:!bg-white bg-primary-200 text-primary-500 rounded-sm p-xxs text-xs gap-xxs"
+              >
+                Other
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              -
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <span
+                class="line-clamp-2"
+                data-state="closed"
+              >
+                Natural Resources Systems, Power, Plant Systems
+              </span>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="flex flex-col gap-xxxs"
+              >
+                <span
+                  class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                  data-state="closed"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="whitespace-nowrap"
+                  >
+                    Apr 1, 2023
+                  </span>
+                   -
+                  <span
+                    class="whitespace-nowrap"
+                  >
+                    May 1, 2023
+                  </span>
+                </span>
+                <span
+                  class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                  data-state="closed"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  Mar 15, 2023
+                </span>
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="ml-auto w-fit"
+              >
+                <div
+                  class="dropdown-portal-container"
+                >
+                  <div
+                    class="dropdown-portal-options__trigger opacity-0 group-hover/row:opacity-100 group-focus/row:opacity-100 focus-within:opacity-100"
+                    data-testid="dropdown-trigger-container"
+                  >
+                    <button
+                      aria-label="Actions"
+                      class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  text-primary-500 !bg-white"
+                      data-testid="icon-button"
+                      type="button"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr
+            class="group/row border-b border-neutral-300 transition-colors cursor-pointer hover:bg-primary-200"
+            tabindex="0"
+          >
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md relative"
+            >
+              <div
+                class="max-h-[56px] max-w-[54px] xxxl:max-w-[86px] overflow-hidden flex items-center rounded-xs"
+              >
+                <img
+                  class="rounded-xs w-full"
+                  src="SvgrURL"
+                />
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <span
+                class="truncate block max-w-fit"
+                data-state="closed"
+              >
+                <div>
+                  <div
+                    class="text-primary-500 font-bold text-xxs xxxl:text-xs truncate"
+                  >
+                    Opportunity 3
+                  </div>
+                </div>
+              </span>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            />
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="font-medium leading-lg flex items-center !text-xxs xxxl:!text-xs w-fit group-hover/row:!bg-white bg-primary-200 text-primary-500 rounded-sm p-xxs text-xs gap-xxs"
+              >
+                Apprenticeship
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              Opportunity partner 2
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <span
+                class="line-clamp-2"
+                data-state="closed"
+              >
+                Animal Systems, Power
+              </span>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="flex flex-col gap-xxxs"
+              >
+                <span
+                  class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                  data-state="closed"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="whitespace-nowrap"
+                  >
+                    Sep 1, 2023
+                  </span>
+                   -
+                  <span
+                    class="whitespace-nowrap"
+                  >
+                    Oct 4, 2023
+                  </span>
+                </span>
+                <span
+                  class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                  data-state="closed"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  Aug 15, 2023
+                </span>
+              </div>
+            </td>
+            <td
+              class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+            >
+              <div
+                class="ml-auto w-fit"
+              >
+                <div
+                  class="dropdown-portal-container"
+                >
+                  <div
+                    class="dropdown-portal-options__trigger opacity-0 group-hover/row:opacity-100 group-focus/row:opacity-100 focus-within:opacity-100"
+                    data-testid="dropdown-trigger-container"
+                  >
+                    <button
+                      aria-label="Actions"
+                      class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  text-primary-500 !bg-white"
+                      data-testid="icon-button"
+                      type="button"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+        <tr
+          class="border-b border-neutral-300 last:border-b-0"
+        >
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+        </tr>
+        <tr
+          class="border-b border-neutral-300 last:border-b-0"
+        >
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+        </tr>
+        <tr
+          class="border-b border-neutral-300 last:border-b-0"
+        >
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+          <td
+            class="p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+          >
+            <div
+              class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+`;

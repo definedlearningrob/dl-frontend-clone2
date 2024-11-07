@@ -1,0 +1,85 @@
+@import '@shared/stylesheets/config.sass'
+
+$icon-width: $m-base
+$input-with-icon-padding: $icon-width + $m-sm
+$input-with-icon-padding-xxxl: $icon-width + $m-sm * 2
+
+.input-error-message
+  color: $color-danger-500
+  font-size: $font-size-xs
+  margin:
+    bottom: $m-sm
+    top: -$m-x
+
+.text-input
+  +flex-container(column, center, flex-start)
+  color: $color-font-primary
+  gap: $m-xs
+
+  &__input
+    +transition(border, color)
+    background-color: $color-white
+    border-radius: $border-radius-sm
+    box-shadow: 0 0 0 1px $color-border inset
+    color: $color-font-primary
+    outline: none
+    width: 100%
+    line-height: $m-base
+    padding: $m-sm
+
+    &.-xs
+      padding: $m-xs
+      font-size: $font-size-xxs
+      line-height: $font-size-sm
+
+    &.-sm
+      padding: $m-xs
+      font-size: $font-size-xs
+
+    &.-start-icon
+      padding-left: $input-with-icon-padding-xxxl
+
+      &.-sm, &.-xs
+        padding-left: $input-with-icon-padding
+
+    &.-end-icon
+      padding-right: $input-with-icon-padding-xxxl
+
+      &.-sm, &.-xs
+        padding-right: $input-with-icon-padding
+
+    &:hover
+      box-shadow: 0 0 0 1px $color-border-hover inset
+
+    &:focus
+      box-shadow: 0 0 0 1px $color-primary-500 inset
+      color: $color-font-primary
+
+    &::placeholder
+      color: $color-neutral-400
+
+  &__label
+    color: $color-font-secondary
+    font-size: $font-size-xs
+
+    &.-xs
+      font-size: $font-size-xxs
+      margin-bottom: $m-xxxs
+
+  &__icon
+    color: $color-neutral-400
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+
+    &.-start
+      left: $m-xs
+
+      &.-input-md
+        left: $m-sm
+
+    &.-end
+      right: $m-xs
+
+      &.-input-md
+        right: $m-sm

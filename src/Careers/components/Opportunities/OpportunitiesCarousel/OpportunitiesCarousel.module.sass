@@ -1,0 +1,53 @@
+@import '@shared/stylesheets/config.sass'
+
+$fullHD-opportunity-card-width: 307px
+$laptop-opportunity-card-width: 265px
+$icon-button-space: 20px
+
+.opportunitiesCarousel
+  background-color: $color-white
+  border-radius: $border-radius-sm
+  padding: $m-base
+
+  :global(.left-arrow)
+    &:after
+      background: $carousel-prev-arrow-gradient!important
+
+  :global(.right-arrow)
+    &:after
+      background: $carousel-next-arrow-gradient !important
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-md
+
+  :global(.menu-wrapper)
+    padding: 0 !important
+
+  :global(.scroll-menu-arrow)
+    +flex-container(row, center, center)
+    height: 100%
+    top: 0 !important
+
+.cardHeader
+  margin-bottom: $m-xxs
+
+  +media-breakpoint-up(xxxl)
+    margin-bottom: $m-xs
+
+.opportunitiesCounter
+  color: $color-neutral-600
+
+.subHeading
+  color: $color-neutral-700
+  margin-bottom: $m-base
+
+.opportunityCard
+  width: $laptop-opportunity-card-width
+  margin-right: $m-x !important
+
+  +media-breakpoint-up(xxxl)
+    width: $fullHD-opportunity-card-width
+    margin-right: $m-base !important
+
+.emptyState
+  +flex-container(column, center, center)

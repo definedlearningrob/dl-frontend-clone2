@@ -1,0 +1,31 @@
+@import '@shared/stylesheets/config.sass'
+
+.loaderWrapper
+  height: 100%
+  +flex-container(column ,center, center)
+
+.content
+  height: 100%
+  display: grid
+  column-gap: $m-base
+  grid-template-columns: 2fr 1fr
+
+  +media-breakpoint-up(xxxl)
+    column-gap: $m-md
+
+.detailsContainer
+  +flex-container(column)
+  gap: $m-sm
+  height: 100%
+  min-height: 0
+
+  +media-breakpoint-up(xxxl)
+    gap: $m-md
+
+.relatedOpportunities
+  grid-column-start: 2
+  grid-column-end: 3
+  padding: $m-base
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-md

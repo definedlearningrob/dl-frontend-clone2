@@ -1,0 +1,22 @@
+@import '@shared/stylesheets/config.sass'
+
+.tabs
+  +flex-container(row, center, center)
+  gap: 20px
+
+.tab
+  border-bottom: 2px solid transparent
+  font-size: $font-size-base
+  padding: $m-sm
+  transition: border-color, color 0.2s ease-in-out
+
+.selected
+  border-bottom-color: $color-primary-500
+  color: $color-primary-500
+
+.single
+  border-bottom: none
+  color: $color-primary-200
+
+.transparent
+  background-color: transparent

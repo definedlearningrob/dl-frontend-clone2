@@ -1,0 +1,96 @@
+@import '@shared/stylesheets/config.sass'
+
+.pagination
+    &__next-page
+        +flex-container(row, flex-start, center)
+        background-color: $color-white
+        border: none
+        color: $color-primary-500
+        cursor: pointer
+        margin: $m-xs
+        outline: none
+
+        &:disabled
+            color: $color-disabled
+
+            svg
+                fill: $color-disabled
+
+        svg
+            fill: $color-primary-500
+
+    &__paging-slider
+        display: flex
+
+    &__paging-slider-item
+        line-height: $m-base
+        margin: 0 $m-xs
+        min-width: $m-base
+        border-radius: $m-xxs
+        text-align: center
+
+    &__paging-slider-page
+        &.-active
+            background-color: #F0F2F7
+            color: $color-primary-500
+
+        &:hover
+            cursor: pointer
+
+    // Select styling - lot of importants
+    &__per-page
+        +flex-container(row, flex-start, center)
+        color: $color-font-primary
+        cursor: pointer
+        margin: $m-xs
+
+        &__control
+            border: none !important
+            box-shadow: none !important
+            width: 50px
+
+        &__indicator
+            padding: 0 !important
+
+            svg
+                fill: $color-primary-500
+
+        &__indicator-separator
+            display: none
+
+        &__option
+            font-family: 'Monstserrat', sans-serif
+
+            &--is-focused
+                background-color: lighten($color-primary-500, 65%) !important
+
+            &--is-selected
+                background-color: $color-primary-500 !important
+
+        &__single-value
+            color: $color-primary-500 !important
+            font-family: 'Monstserrat', sans-serif
+            padding: 0
+
+        &__value-container
+            +flex-container(row, center)
+            padding: 0 !important
+
+    &__prev-page
+        +flex-container(row, flex-start, center)
+        background-color: $color-white
+        border: none
+        color: $color-primary-500
+        cursor: pointer
+        margin: $m-xs
+        outline: none
+
+        &:disabled
+            color: $color-disabled
+
+            svg
+                fill: $color-disabled
+
+        svg
+            fill: $color-primary-500
+

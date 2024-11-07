@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Step 4 - post-assessment career review survey should render info page correctly 1`] = `
+<div>
+  <section
+    class="flex flex-col pt-base xxxl:pt-[150px] items-center"
+  >
+    <h2
+      class="text-font-primary text-2lg mb-sm"
+    >
+      Section 4: Career Review Survey
+    </h2>
+    <p
+      class="text-center text-base xxxl:w-1/2 mb-lg"
+    >
+      Goal: Assess your knowledge of career options, opportunities, and planning for the future.
+    </p>
+    <div
+      class="max-w-[1200px] flex"
+    >
+      <div
+        class="splash-screen__player"
+        data-testid="splash-video-player"
+        style="width: 640px; height: 360px;"
+      />
+      <ol
+        class="splash-screen__instruction-list"
+      >
+        <li
+          class="splash-screen__instruction-item leading-lg text-font-secondary"
+        >
+          1. In this section, you will be asked to answer 5 questions. The questions you will encounter are displayed in a variety of formats.
+        </li>
+        <li
+          class="splash-screen__instruction-item leading-lg text-font-secondary"
+        >
+          2. Click the “Next Question” button to proceed. You will complete this process 5 times.
+        </li>
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] min-w-[200px] w-fit mx-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+          data-testid="button"
+          id="splash-screen-button"
+          type="button"
+        >
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Begin
+          </span>
+        </button>
+      </ol>
+    </div>
+  </section>
+</div>
+`;

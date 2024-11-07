@@ -1,0 +1,1310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserAppStudentCourses renders current courses list properly 1`] = `
+<div>
+  <div
+    class="p-base xxxl:p-md !pt-xs xxxl:!pt-sm min-h-[theme(layout.containerHeight)] flex flex-col"
+    id="read"
+  >
+    <div
+      class="card mb-base xxxl:mb-md"
+    >
+      <h2
+        class="text-sm xxxl:text-base mb-xxs xxxl:mb-xs"
+      >
+        Current Career Courses 
+        <span
+          class="text-font-secondary"
+        >
+          (3)
+        </span>
+      </h2>
+      <div
+        class="text-xs xxxl:text-sm mb-sm"
+      >
+        A listing of courses student is currently enrolled in.
+      </div>
+      <ul>
+        <div
+          class="list [&_.menu-wrapper]:!py-0 [&_.scroll-menu-arrow]:!top-0 [&_.scroll-menu-arrow]:!bottom-0 [&_.menu-item-wrapper.menu-item-wrapper:not(:last-child)>:first-child]:!mr-sm xxxl:[&_.menu-item-wrapper.menu-item-wrapper:not(:last-child)>:first-child]:!mr-base"
+        >
+          <div
+            class="horizontal-menu"
+            style="align-items: center; display: flex; user-select: none;"
+          >
+            <div
+              class="scroll-menu-arrow scroll-menu-arrow--disabled"
+            >
+              <div
+                class="left-arrow relative h-full flex items-center leftArrowWrapper whiteBackgroundLeft"
+              >
+                <button
+                  class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md arrow"
+                  data-testid="icon-button"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-base w-base"
+                      />
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div
+              class="menu-wrapper"
+              style="overflow: hidden; user-select: none;"
+            >
+              <div
+                class="menu-wrapper--inner"
+                style="transform: translate3d(0px, 0, 0); transition: transform 0.4s; white-space: nowrap; text-align: left;"
+              >
+                <div
+                  class="menu-item-wrapper "
+                  role="button"
+                  style="display: inline-block;"
+                  tabindex="0"
+                >
+                  <li
+                    class="h-[180px] xxxl:h-[268px] w-[240px] xxxl:w-[356px]"
+                  >
+                    <a
+                      href="/courses/1"
+                    >
+                      <div
+                        aria-label="Course 1"
+                        class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+                        role="none"
+                      >
+                        <img
+                          class="w-full h-full object-cover"
+                          src="someUrl"
+                        />
+                        <div
+                          class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md"
+                        >
+                          <div
+                            class="relative h-full flex flex-col justify-end"
+                          >
+                            <div>
+                              <div
+                                class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-center"
+                              >
+                                <div
+                                  class="border border-white rounded-full overflow-hidden"
+                                >
+                                  <div
+                                    class="flex"
+                                  >
+                                    <div
+                                      class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                                      data-testid="icon"
+                                    >
+                                      <div
+                                        class="h-base w-base"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="flex flex-col"
+                                >
+                                  <div
+                                    class="w-fit"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <span
+                              data-state="closed"
+                            >
+                              <div
+                                class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                              >
+                                <div
+                                  class="flex"
+                                >
+                                  <div
+                                    class="flex align-center justify-center grow-0 shrink-0"
+                                    data-testid="icon"
+                                  >
+                                    <div
+                                      class="h-sm w-sm"
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                                >
+                                  Pathway 1
+                                </div>
+                              </div>
+                            </span>
+                            <span
+                              data-state="closed"
+                            >
+                              <span
+                                data-testid="text-highlighter"
+                              >
+                                <h5
+                                  class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                                >
+                                  Course 1
+                                </h5>
+                              </span>
+                            </span>
+                            <div
+                              class="w-full overflow-hidden"
+                              style="height: 0px; transform: translateY(16px) translateZ(0);"
+                            >
+                              <div
+                                class="pt-xxs flex items-center gap-xs"
+                              >
+                                <div
+                                  class="ms-auto"
+                                >
+                                  <span
+                                    class="min-w-0"
+                                    data-state="closed"
+                                  >
+                                    <div
+                                      class="flex"
+                                    >
+                                      <div
+                                        class="flex align-center justify-center grow-0 shrink-0 text-white"
+                                        data-testid="icon"
+                                      >
+                                        <div
+                                          class="h-base w-base"
+                                        />
+                                      </div>
+                                    </div>
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+                <div
+                  class="menu-item-wrapper "
+                  role="button"
+                  style="display: inline-block;"
+                  tabindex="0"
+                >
+                  <li
+                    class="h-[180px] xxxl:h-[268px] w-[240px] xxxl:w-[356px]"
+                  >
+                    <a
+                      href="/courses/2"
+                    >
+                      <div
+                        aria-label="Course 2"
+                        class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+                        role="none"
+                      >
+                        <img
+                          class="w-full h-full object-cover"
+                          src="someUrl"
+                        />
+                        <div
+                          class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md"
+                        >
+                          <div
+                            class="relative h-full flex flex-col justify-end"
+                          >
+                            <div>
+                              <div
+                                class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-center"
+                              >
+                                <div
+                                  class="border border-white rounded-full overflow-hidden"
+                                >
+                                  <div
+                                    class="flex"
+                                  >
+                                    <div
+                                      class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                                      data-testid="icon"
+                                    >
+                                      <div
+                                        class="h-base w-base"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="flex flex-col"
+                                >
+                                  <div
+                                    class="w-fit"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <span
+                              data-state="closed"
+                            >
+                              <div
+                                class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                              >
+                                <div
+                                  class="flex"
+                                >
+                                  <div
+                                    class="flex align-center justify-center grow-0 shrink-0"
+                                    data-testid="icon"
+                                  >
+                                    <div
+                                      class="h-sm w-sm"
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                                >
+                                  Pathway 2
+                                </div>
+                              </div>
+                            </span>
+                            <span
+                              data-state="closed"
+                            >
+                              <span
+                                data-testid="text-highlighter"
+                              >
+                                <h5
+                                  class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                                >
+                                  Course 2
+                                </h5>
+                              </span>
+                            </span>
+                            <div
+                              class="w-full overflow-hidden"
+                              style="height: 0px; transform: translateY(16px) translateZ(0);"
+                            >
+                              <div
+                                class="pt-xxs flex items-center gap-xs"
+                              >
+                                <div
+                                  class="ms-auto"
+                                >
+                                  <span
+                                    class="min-w-0"
+                                    data-state="closed"
+                                  >
+                                    <div
+                                      class="flex"
+                                    >
+                                      <div
+                                        class="flex align-center justify-center grow-0 shrink-0 text-white"
+                                        data-testid="icon"
+                                      >
+                                        <div
+                                          class="h-base w-base"
+                                        />
+                                      </div>
+                                    </div>
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+                <div
+                  class="menu-item-wrapper "
+                  role="button"
+                  style="display: inline-block;"
+                  tabindex="0"
+                >
+                  <li
+                    class="h-[180px] xxxl:h-[268px] w-[240px] xxxl:w-[356px]"
+                  >
+                    <a
+                      href="/courses/3"
+                    >
+                      <div
+                        aria-label="Course 3"
+                        class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+                        role="none"
+                      >
+                        <img
+                          class="w-full h-full object-cover"
+                          src="someUrl"
+                        />
+                        <div
+                          class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md"
+                        >
+                          <div
+                            class="relative h-full flex flex-col justify-end"
+                          >
+                            <div>
+                              <div
+                                class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-center"
+                              >
+                                <div
+                                  class="border border-white rounded-full overflow-hidden"
+                                >
+                                  <div
+                                    class="flex"
+                                  >
+                                    <div
+                                      class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                                      data-testid="icon"
+                                    >
+                                      <div
+                                        class="h-base w-base"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="flex flex-col"
+                                >
+                                  <div
+                                    class="w-fit"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <span
+                              data-state="closed"
+                            >
+                              <div
+                                class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                              >
+                                <div
+                                  class="flex"
+                                >
+                                  <div
+                                    class="flex align-center justify-center grow-0 shrink-0"
+                                    data-testid="icon"
+                                  >
+                                    <div
+                                      class="h-sm w-sm"
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                                >
+                                  Pathway 2
+                                </div>
+                              </div>
+                            </span>
+                            <span
+                              data-state="closed"
+                            >
+                              <span
+                                data-testid="text-highlighter"
+                              >
+                                <h5
+                                  class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                                >
+                                  Course 3
+                                </h5>
+                              </span>
+                            </span>
+                            <div
+                              class="w-full overflow-hidden"
+                              style="height: 0px; transform: translateY(16px) translateZ(0);"
+                            >
+                              <div
+                                class="pt-xxs flex items-center gap-xs"
+                              >
+                                <div
+                                  class="ms-auto"
+                                >
+                                  <span
+                                    class="min-w-0"
+                                    data-state="closed"
+                                  >
+                                    <div
+                                      class="flex"
+                                    >
+                                      <div
+                                        class="flex align-center justify-center grow-0 shrink-0 text-white"
+                                        data-testid="icon"
+                                      >
+                                        <div
+                                          class="h-base w-base"
+                                        />
+                                      </div>
+                                    </div>
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div
+              class="scroll-menu-arrow scroll-menu-arrow--disabled"
+            >
+              <div
+                class="right-arrow relative h-full flex items-center rightArrowWrapper whiteBackgroundRight"
+              >
+                <button
+                  class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md arrow"
+                  data-testid="icon-button"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-base w-base"
+                      />
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <div
+      class="card grow flex flex-col"
+    >
+      <div
+        class="mb-base border-b border-neutral-300"
+      >
+        <h2
+          class="text-sm xxxl:text-base mb-xxs xxxl:mb-xs"
+        >
+          All available courses within Defined Careers
+        </h2>
+        <div
+          class="text-xs xxxl:text-sm mb-sm"
+        >
+          All available career courses organized by career clusters and pathways.
+        </div>
+      </div>
+      <div
+        class="mb-sm xxxl:mb-base"
+      >
+        <div
+          class="flex items-end gap-sm"
+        >
+          <label
+            class="flex flex-col items-start text-font-primary w-full flex-1 min-w-0 gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              <div
+                class="injected-content"
+              >
+                Search:
+              </div>
+            </div>
+            <div
+              class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs flex-row-reverse"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px]"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-base w-base"
+                  />
+                </div>
+              </div>
+              <span
+                class="flex gap-xxs grow"
+              >
+                <input
+                  aria-label="Search:"
+                  class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                  id="Search:"
+                  minlength="3"
+                  placeholder="Search for courses..."
+                  type="text"
+                />
+              </span>
+            </div>
+          </label>
+          <div
+            class="flex-1 min-w-0"
+          >
+            <label
+              class="flex flex-col leading-lg min-w-[120px] gap-xs"
+              data-testid="clusters-select"
+            >
+              <div
+                class="text-font-primary leading-lg flex gap-xxxs text-xs"
+              >
+                Cluster and pathway:
+              </div>
+              <div
+                class="flex-1 min-w-0 css-b62m3t-container"
+              >
+                <span
+                  class="css-1f43avz-a11yText-A11yText"
+                  id="react-select-2-live-region"
+                />
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  class="css-1f43avz-a11yText-A11yText"
+                  role="log"
+                />
+                <div
+                  class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                >
+                  <div
+                    class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+                  >
+                    <div
+                      class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                      id="react-select-2-placeholder"
+                    >
+                      Show All
+                    </div>
+                    <div
+                      class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                      data-value=""
+                    >
+                      <input
+                        aria-activedescendant=""
+                        aria-autocomplete="list"
+                        aria-describedby="react-select-2-placeholder"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        autocapitalize="none"
+                        autocomplete="off"
+                        autocorrect="off"
+                        class="select__input"
+                        id="select-input-clusterAndPathway"
+                        role="combobox"
+                        spellcheck="false"
+                        style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                        tabindex="0"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                  >
+                    <div
+                      aria-hidden="true"
+                      class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-base w-base"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <input
+                    name="clusterAndPathway"
+                    type="hidden"
+                    value=""
+                  />
+                </div>
+              </div>
+            </label>
+          </div>
+          <div
+            class="flex-1 min-w-0"
+          >
+            <label
+              class="flex flex-col leading-lg min-w-[120px] gap-xs"
+            >
+              <div
+                class="text-font-primary leading-lg flex gap-xxxs text-xs"
+              >
+                Grade level:
+              </div>
+              <div
+                class=" css-b62m3t-container"
+              >
+                <span
+                  class="css-1f43avz-a11yText-A11yText"
+                  id="react-select-3-live-region"
+                />
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  class="css-1f43avz-a11yText-A11yText"
+                  role="log"
+                />
+                <div
+                  class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                >
+                  <div
+                    class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container css-1fdsijx-ValueContainer"
+                  >
+                    <div
+                      class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                      id="react-select-3-placeholder"
+                    >
+                      Show All
+                    </div>
+                    <div
+                      class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                      data-value=""
+                    >
+                      <input
+                        aria-activedescendant=""
+                        aria-autocomplete="list"
+                        aria-describedby="react-select-3-placeholder"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        autocapitalize="none"
+                        autocomplete="off"
+                        autocorrect="off"
+                        class="select__input"
+                        id="react-select-3-input"
+                        role="combobox"
+                        spellcheck="false"
+                        style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                        tabindex="0"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                  >
+                    <div
+                      aria-hidden="true"
+                      class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-base w-base"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </label>
+          </div>
+          <div
+            class="flex-1 min-w-0"
+          >
+            <label
+              class="flex flex-col leading-lg min-w-[120px] gap-xs"
+            >
+              <div
+                class="text-font-primary leading-lg flex gap-xxxs text-xs"
+              >
+                Collection:
+              </div>
+              <div
+                class=" css-b62m3t-container"
+              >
+                <span
+                  class="css-1f43avz-a11yText-A11yText"
+                  id="react-select-4-live-region"
+                />
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  class="css-1f43avz-a11yText-A11yText"
+                  role="log"
+                />
+                <div
+                  class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                >
+                  <div
+                    class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+                  >
+                    <div
+                      class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                      id="react-select-4-placeholder"
+                    >
+                      Show All
+                    </div>
+                    <input
+                      aria-activedescendant=""
+                      aria-autocomplete="list"
+                      aria-describedby="react-select-4-placeholder"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      aria-readonly="true"
+                      class="css-mohuvp-dummyInput-DummyInput"
+                      id="select-input-collectionsSelect"
+                      inputmode="none"
+                      role="combobox"
+                      tabindex="0"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                  >
+                    <div
+                      aria-hidden="true"
+                      class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-base w-base"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <input
+                    name="collectionsSelect"
+                    type="hidden"
+                    value=""
+                  />
+                </div>
+              </div>
+            </label>
+          </div>
+          <span
+            class="invisible"
+            data-state="closed"
+          >
+            <button
+              aria-label="Clear all"
+              class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-primary-500 text-primary-500 hover:bg-primary-200 outline-primary-500  w-[40px] h-[40px]"
+              data-testid="icon-button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-base w-base"
+                  />
+                </div>
+              </div>
+            </button>
+          </span>
+        </div>
+      </div>
+      <div
+        class="grow flex flex-col justify-between"
+      >
+        <div
+          class="grid grid-cols-[repeat(4,_minmax(min-content,_1fr))] xxxl:grid-cols-[repeat(4,_minmax(min-content,_1fr))] gap-sm xxxl:gap-base"
+        >
+          <div
+            class="h-[180px] xxxl:h-[268px]"
+          >
+            <a
+              href="/courses/1"
+            >
+              <div
+                aria-label="Course 1"
+                class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+                role="none"
+              >
+                <img
+                  class="w-full h-full object-cover"
+                  src="someUrl"
+                />
+                <div
+                  class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md before:absolute before:right-0 before:bottom-0 before:h-0 before:w-0 before:border-b-[32px] before:border-l-[32px] xxxl:before:border-b-[48px] xxxl:before:border-l-[48px] before:border-[transparent_transparent_#EBC500_transparent] group-hover/card:before:translate-x-full before:transition-transform"
+                >
+                  <div
+                    class="relative h-full flex flex-col justify-end"
+                  >
+                    <div>
+                      <div
+                        class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-start"
+                      >
+                        <div
+                          class="border border-white rounded-full overflow-hidden"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-base w-base"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="flex flex-col gap-xs xxxl:gap-x"
+                        >
+                          <div
+                            class="w-fit"
+                          >
+                            <div
+                              class="font-medium leading-lg flex items-center bg-primary-200 text-primary-500 rounded-full px-xxs py-xxxs text-xxs gap-xxxs"
+                            >
+                              Career
+                            </div>
+                          </div>
+                          <span
+                            class="text-xxxs xxxl:text-xs font-bold text-warning-500 uppercase"
+                          >
+                            Recommended
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <span
+                      data-state="closed"
+                    >
+                      <div
+                        class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                        >
+                          Pathway 1
+                        </div>
+                      </div>
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <span
+                        data-testid="text-highlighter"
+                      >
+                        <h5
+                          class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                        >
+                          Course 1
+                        </h5>
+                      </span>
+                    </span>
+                    <div
+                      class="w-full overflow-hidden"
+                      style="height: 0px; transform: translateY(16px) translateZ(0);"
+                    >
+                      <div
+                        class="pt-xxs flex items-center gap-xs"
+                      >
+                        <span
+                          class="min-w-0"
+                          data-state="closed"
+                        >
+                          <h6
+                            class="mb-0 font-medium text-xs xxxl:text-base leading-lg truncate text-warning-500"
+                          >
+                            95% match
+                          </h6>
+                        </span>
+                        <div
+                          class="ms-auto"
+                        >
+                          <span
+                            class="min-w-0"
+                            data-state="closed"
+                          >
+                            <div
+                              class="flex"
+                            >
+                              <div
+                                class="flex align-center justify-center grow-0 shrink-0 text-white"
+                                data-testid="icon"
+                              >
+                                <div
+                                  class="h-base w-base"
+                                />
+                              </div>
+                            </div>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="h-[180px] xxxl:h-[268px]"
+          >
+            <div
+              aria-label="Course 7"
+              class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+              role="button"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="someUrl"
+              />
+              <div
+                class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md before:absolute before:right-0 before:bottom-0 before:h-0 before:w-0 before:border-b-[32px] before:border-l-[32px] xxxl:before:border-b-[48px] xxxl:before:border-l-[48px] before:border-[transparent_transparent_#EBC500_transparent] group-hover/card:before:translate-x-full before:transition-transform"
+              >
+                <div
+                  class="relative h-full flex flex-col justify-end"
+                >
+                  <div>
+                    <div
+                      class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-start"
+                    >
+                      <div
+                        class="border border-white rounded-full overflow-hidden"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col gap-xs xxxl:gap-x"
+                      >
+                        <div
+                          class="w-fit"
+                        >
+                          <div
+                            class="font-medium leading-lg flex items-center bg-primary-200 text-primary-500 rounded-full px-xxs py-xxxs text-xxs gap-xxxs"
+                          >
+                            Career
+                          </div>
+                        </div>
+                        <span
+                          class="text-xxxs xxxl:text-xs font-bold text-warning-500 uppercase"
+                        >
+                          Recommended
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <div
+                      class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                      >
+                        Pathway 1
+                      </div>
+                    </div>
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      data-testid="text-highlighter"
+                    >
+                      <h5
+                        class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                      >
+                        Course 7
+                      </h5>
+                    </span>
+                  </span>
+                  <div
+                    class="w-full overflow-hidden"
+                    style="height: 0px; transform: translateY(16px) translateZ(0);"
+                  >
+                    <div
+                      class="pt-xxs flex items-center gap-xs"
+                    >
+                      <span
+                        class="min-w-0"
+                        data-state="closed"
+                      >
+                        <h6
+                          class="mb-0 font-medium text-xs xxxl:text-base leading-lg truncate text-warning-500"
+                        >
+                          90% match
+                        </h6>
+                      </span>
+                      <div
+                        class="ms-auto"
+                      >
+                        <span
+                          class="min-w-0"
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-white"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-base w-base"
+                              />
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="h-[180px] xxxl:h-[268px]"
+          >
+            <div
+              aria-label="Course 8"
+              class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+              role="button"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="someUrl"
+              />
+              <div
+                class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md before:absolute before:right-0 before:bottom-0 before:h-0 before:w-0 before:border-b-[32px] before:border-l-[32px] xxxl:before:border-b-[48px] xxxl:before:border-l-[48px] before:border-[transparent_transparent_#EBC500_transparent] group-hover/card:before:translate-x-full before:transition-transform"
+              >
+                <div
+                  class="relative h-full flex flex-col justify-end"
+                >
+                  <div>
+                    <div
+                      class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-start"
+                    >
+                      <div
+                        class="border border-white rounded-full overflow-hidden"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col gap-xs xxxl:gap-x"
+                      >
+                        <div
+                          class="w-fit"
+                        >
+                          <div
+                            class="font-medium leading-lg flex items-center bg-primary-200 text-primary-500 rounded-full px-xxs py-xxxs text-xxs gap-xxxs"
+                          >
+                            Career
+                          </div>
+                        </div>
+                        <span
+                          class="text-xxxs xxxl:text-xs font-bold text-warning-500 uppercase"
+                        >
+                          Recommended
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <div
+                      class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                      >
+                        Pathway 1
+                      </div>
+                    </div>
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      data-testid="text-highlighter"
+                    >
+                      <h5
+                        class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                      >
+                        Course 8
+                      </h5>
+                    </span>
+                  </span>
+                  <div
+                    class="w-full overflow-hidden"
+                    style="height: 0px; transform: translateY(16px) translateZ(0);"
+                  >
+                    <div
+                      class="pt-xxs flex items-center gap-xs"
+                    >
+                      <span
+                        class="min-w-0"
+                        data-state="closed"
+                      >
+                        <h6
+                          class="mb-0 font-medium text-xs xxxl:text-base leading-lg truncate text-warning-500"
+                        >
+                          85% match
+                        </h6>
+                      </span>
+                      <div
+                        class="ms-auto"
+                      >
+                        <span
+                          class="min-w-0"
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-white"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-base w-base"
+                              />
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="student-courses-all__paging-buttons"
+        >
+          <button
+            class="icon-button -primary"
+            data-testid="icon-button"
+            disabled=""
+            type="button"
+          >
+            <div
+              class="icon icon-button__icon"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+          </button>
+          <button
+            class="icon-button -primary"
+            data-testid="icon-button"
+            disabled=""
+            type="button"
+          >
+            <div
+              class="icon icon-button__icon"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

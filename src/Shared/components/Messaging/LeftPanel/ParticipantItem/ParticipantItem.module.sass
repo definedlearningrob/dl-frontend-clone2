@@ -1,0 +1,83 @@
+@import '@shared/stylesheets/config.sass'
+
+.item
+  +flex-container(column, center)
+  border-right: 2px solid transparent
+  padding: 0 $m-sm
+  height: 64px
+  position: relative
+
+  :global(.unreadMark)
+    left: $m-xxxs + $m-xxs
+
+    +media-breakpoint-up(xxl)
+      left: $m-x
+
+  +media-breakpoint-up(xxl)
+    padding: $m-sm $m-md
+    height: 82px
+
+  &:hover
+    background-color: $color-primary-200
+    cursor: pointer
+
+    .teamIconWrapper
+      background-color: $color-white
+
+.unreadItem
+  background-color: $color-border
+
+.unreadMark
+  visibility: visible
+
+.selectedItem
+  background-color: $color-white
+  border-color: $color-primary-500
+
+.hasNewMessage
+  background-color: $color-secondary-200
+
+.itemHeader
+  +flex-container(row, space-between, center)
+  color: $color-primary-500
+  margin-bottom: $m-xxs
+
+.labelWrapper
+  +flex-container(row, center, center)
+
+.teamIconWrapper
+  +flex-container(row, center, center)
+  width: $m-base
+  height: $m-base
+  background-color: $color-primary-200
+  border-radius: 50%
+  margin-right: $m-xxs
+  transition: background-color $transition-duration * 0.5 $transition-function
+
+.itemTitle
+  font-size: $font-size-xs
+  font-weight: $font-weight-bold
+  margin: 0 $m-sm 0 0
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-sm
+
+.itemDate
+  color: $color-font-secondary
+  font-size: $font-size-xxs
+  flex-shrink: 0
+
+.itemMessage
+  color: $color-font-primary
+  display: inline-block
+  font-size: $font-size-xs
+  max-width: 100%
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-sm

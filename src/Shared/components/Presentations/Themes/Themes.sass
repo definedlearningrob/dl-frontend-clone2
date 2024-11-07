@@ -1,0 +1,52 @@
+@import '@shared/stylesheets/config'
+
+h1, h2, h3,
+h4, h5, h6
+  @extend %headings !optional
+
+$shadow: drop-shadow(rgba(0, 0, 0, 0.5) 2px 2px 4px)
+$heading-bg: #444
+
+
+.theme
+  &__cabinSketch
+    .presentation
+      &__image
+        border: 1px solid
+        border-radius: $border-radius-sm
+        filter: $shadow
+
+      &__video
+        background-color: $color-black
+        border: $m-xxs solid $color-black
+        border-radius: $border-radius-sm
+        filter: $shadow
+
+        video
+          border-radius: $border-radius-sm
+          max-width: 100%
+          max-height: 100%
+
+    .presentation-textcontainer
+      background-color: $color-white
+      border-radius: $border-radius-sm
+      border: 1px solid $color-black
+      filter: $shadow
+      margin: $m-xs
+      padding: $m-xs
+
+    .slides-list
+      &_element
+        .reveal
+          .slides
+            section
+              .titleContainer
+                .presentation-textcontainer
+                  color: $color-white
+
+    .titleContainer
+      .presentation-textcontainer
+        background-color: $heading-bg
+
+        *
+          color: $color-white

@@ -1,0 +1,3446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OpportunityScreen display correctly if any partners are assigned 1`] = `
+<div>
+  <h4
+    class="opportunitiesHeading"
+  >
+    Work-Based Learning Opportunities
+  </h4>
+  <div
+    class="flex flex-col gap-base xxxl:gap-md grow"
+  >
+    <div
+      class="flex gap-base xxxl:gap-md h-[412px] xxxl:h-[643px]"
+    >
+      <div
+        class="basis-[512px] xxxl:basis-[640px] shrink-0"
+      >
+        <div
+          class="card h-full !px-0 flex flex-col"
+        >
+          <div
+            class="pl-base xxxl:pl-md"
+          >
+            <h3
+              class="text-sm xxxl:text-base mb-xxs xxxl:mb-xs"
+            >
+              Interested and Current 
+              <span
+                class="text-neutral-600"
+              >
+                (7)
+              </span>
+            </h3>
+            <div
+              class="text-neutral-700 mb-sm xxxl:mb-base"
+            >
+              All In-progress and marks at Interesting opportunities
+            </div>
+          </div>
+          <div
+            class="flex flex-col overflow-auto scrollbar pl-base xxxl:pl-md pr-sm xxxl:pr-md py-xs min-h-0 flex flex-col gap-x xxxl:gap-sm "
+          >
+            <a
+              aria-label="Internship 0"
+              class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card flex p-xs xxxl:p-x gap-x xxxl:gap-sm shrink-0 min-h-[104px] xxxl:min-h-[136px]"
+              href="/opportunities/1"
+            >
+              <div
+                class="relative w-[120px] xxxl:w-[180px]"
+              >
+                <div
+                  class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] rounded-sm absolute inset-0 flex items-center w-full h-full"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                  <img
+                    alt="Internship 0"
+                    class="w-full"
+                    src="http:/example.com/example.png"
+                  />
+                </div>
+              </div>
+              <div
+                class="cardContent"
+              >
+                <section
+                  class="body mb-xxs xxxl:mb-xs"
+                >
+                  <div
+                    class="flex justify-between gap-xxs mb-xxs xxxl:mb-xs"
+                  >
+                    <div>
+                      <span
+                        data-state="closed"
+                      >
+                        <h6
+                          class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                        >
+                          Internship 0
+                        </h6>
+                      </span>
+                    </div>
+                  </div>
+                  <span
+                    class="metadata"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="metadataLabel"
+                    >
+                      Type:
+                    </span>
+                    Apprenticeship
+                  </span>
+                  <div
+                    class="metadata"
+                  >
+                    <span
+                      class="min-w-0 flex"
+                      data-state="closed"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="metadataLabel"
+                      >
+                        Partner:
+                      </div>
+                      <div
+                        class="truncate"
+                      >
+                        Test Partner Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                      </div>
+                    </span>
+                  </div>
+                  <span
+                    class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                  >
+                    <div
+                      class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Period:
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <span
+                        class="line-clamp-1"
+                      >
+                        Jul 27, 2023 - Aug 4, 2023
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                  >
+                    <div
+                      class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Deadline:
+                    </span>
+                    Jul 26, 2023
+                  </span>
+                </section>
+                <div
+                  class="footer !bg-white !border-none "
+                >
+                  Learn more
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a
+              aria-label="Internship 1"
+              class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card pending flex p-xs xxxl:p-x gap-x xxxl:gap-sm shrink-0 min-h-[104px] xxxl:min-h-[136px] expired"
+              href="/opportunities/2"
+            >
+              <div
+                class="relative w-[120px] xxxl:w-[180px]"
+              >
+                <div
+                  class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] rounded-sm absolute inset-0 flex items-center w-full h-full"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                  <img
+                    alt="Internship 1"
+                    class="w-full"
+                    src="http:/example.com/example.png"
+                  />
+                </div>
+              </div>
+              <div
+                class="cardContent"
+              >
+                <section
+                  class="body mb-xxs xxxl:mb-xs"
+                >
+                  <div
+                    class="flex justify-between gap-xxs mb-xxs xxxl:mb-xs"
+                  >
+                    <div>
+                      <span
+                        data-state="closed"
+                      >
+                        <h6
+                          class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                        >
+                          Internship 1
+                        </h6>
+                      </span>
+                    </div>
+                    <div
+                      class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-neutral-200 text-font-secondary p-xxxs text-xxs rounded-xs gap-xxxs"
+                    >
+                      Expired
+                    </div>
+                  </div>
+                  <span
+                    class="metadata"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="metadataLabel"
+                    >
+                      Type:
+                    </span>
+                    Internship
+                  </span>
+                  <span
+                    class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                  >
+                    <div
+                      class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Period:
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <span
+                        class="line-clamp-1"
+                      >
+                        Mar 5, 2023 - Mar 30, 2023
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                  >
+                    <div
+                      class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Deadline:
+                    </span>
+                    Feb 23, 2023
+                  </span>
+                </section>
+                <div
+                  class="footer !bg-white !border-none "
+                >
+                  Learn more
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a
+              aria-label="Internship 2"
+              class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card pending flex p-xs xxxl:p-x gap-x xxxl:gap-sm shrink-0 min-h-[104px] xxxl:min-h-[136px]"
+              href="/opportunities/3"
+            >
+              <div
+                class="relative w-[120px] xxxl:w-[180px]"
+              >
+                <div
+                  class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] rounded-sm absolute inset-0 w-full h-full"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                  <img
+                    alt="Internship 2"
+                    class="h-full mx-auto object-cover"
+                    src="http:/example.com/example.png"
+                  />
+                </div>
+              </div>
+              <div
+                class="cardContent"
+              >
+                <section
+                  class="body mb-xxs xxxl:mb-xs"
+                >
+                  <div
+                    class="flex justify-between gap-xxs mb-xxs xxxl:mb-xs"
+                  >
+                    <div>
+                      <span
+                        data-state="closed"
+                      >
+                        <h6
+                          class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                        >
+                          Internship 2
+                        </h6>
+                      </span>
+                    </div>
+                    <div
+                      class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-info-100 text-info-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                    >
+                      Pending
+                    </div>
+                  </div>
+                  <span
+                    class="metadata"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="metadataLabel"
+                    >
+                      Type:
+                    </span>
+                    Internship
+                  </span>
+                  <span
+                    class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                  >
+                    <div
+                      class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Period:
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <span
+                        class="line-clamp-1"
+                      >
+                        Mar 5, 2100 - Mar 30, 2100
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                  >
+                    <div
+                      class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Deadline:
+                    </span>
+                    Feb 23, 2100
+                  </span>
+                </section>
+                <div
+                  class="footer !bg-white !border-none "
+                >
+                  Learn more
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a
+              aria-label="Internship 3"
+              class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card accepted flex p-xs xxxl:p-x gap-x xxxl:gap-sm shrink-0 min-h-[104px] xxxl:min-h-[136px]"
+              href="/opportunities/4"
+            >
+              <div
+                class="relative w-[120px] xxxl:w-[180px]"
+              >
+                <div
+                  class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] rounded-sm absolute inset-0 w-full h-full"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                  <img
+                    alt="Internship 3"
+                    class="h-full mx-auto object-cover"
+                    src="http:/example.com/example.png"
+                  />
+                </div>
+              </div>
+              <div
+                class="cardContent"
+              >
+                <section
+                  class="body mb-xxs xxxl:mb-xs"
+                >
+                  <div
+                    class="flex justify-between gap-xxs mb-xxs xxxl:mb-xs"
+                  >
+                    <div>
+                      <span
+                        data-state="closed"
+                      >
+                        <h6
+                          class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                        >
+                          Internship 3
+                        </h6>
+                      </span>
+                    </div>
+                    <div
+                      class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-success-100 text-success-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                    >
+                      Accepted
+                    </div>
+                  </div>
+                  <span
+                    class="metadata"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="metadataLabel"
+                    >
+                      Type:
+                    </span>
+                    Internship
+                  </span>
+                  <span
+                    class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                  >
+                    <div
+                      class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Period:
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <span
+                        class="line-clamp-1"
+                      >
+                        Mar 5, 2100 - Mar 30, 2100
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                  >
+                    <div
+                      class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Deadline:
+                    </span>
+                    Feb 23, 2100
+                  </span>
+                </section>
+                <div
+                  class="footer !bg-white !border-none "
+                >
+                  Learn more
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a
+              aria-label="Internship 4"
+              class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card notAccepted flex p-xs xxxl:p-x gap-x xxxl:gap-sm shrink-0 min-h-[104px] xxxl:min-h-[136px]"
+              href="/opportunities/15"
+            >
+              <div
+                class="relative w-[120px] xxxl:w-[180px]"
+              >
+                <div
+                  class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] rounded-sm absolute inset-0 w-full h-full"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                  <img
+                    alt="Internship 4"
+                    class="h-full mx-auto object-cover"
+                    src="http:/example.com/example.png"
+                  />
+                </div>
+              </div>
+              <div
+                class="cardContent"
+              >
+                <section
+                  class="body mb-xxs xxxl:mb-xs"
+                >
+                  <div
+                    class="flex justify-between gap-xxs mb-xxs xxxl:mb-xs"
+                  >
+                    <div>
+                      <span
+                        data-state="closed"
+                      >
+                        <h6
+                          class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                        >
+                          Internship 4
+                        </h6>
+                      </span>
+                    </div>
+                    <div
+                      class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-danger-100 text-danger-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                    >
+                      Not accepted
+                    </div>
+                  </div>
+                  <span
+                    class="metadata"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="metadataLabel"
+                    >
+                      Type:
+                    </span>
+                    Internship
+                  </span>
+                  <span
+                    class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                  >
+                    <div
+                      class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Period:
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <span
+                        class="line-clamp-1"
+                      >
+                        Mar 5, 2100 - Mar 30, 2100
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                  >
+                    <div
+                      class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Deadline:
+                    </span>
+                    Feb 23, 2100
+                  </span>
+                </section>
+                <div
+                  class="footer !bg-white !border-none "
+                >
+                  Learn more
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a
+              aria-label="Internship 5"
+              class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card inProgress flex p-xs xxxl:p-x gap-x xxxl:gap-sm shrink-0 min-h-[104px] xxxl:min-h-[136px]"
+              href="/opportunities/16"
+            >
+              <div
+                class="relative w-[120px] xxxl:w-[180px]"
+              >
+                <div
+                  class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] rounded-sm absolute inset-0 flex items-center w-full h-full"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                  <img
+                    alt="Internship 5"
+                    class="w-full"
+                    src="http:/example.com/example.png"
+                  />
+                </div>
+              </div>
+              <div
+                class="cardContent"
+              >
+                <section
+                  class="body mb-xxs xxxl:mb-xs"
+                >
+                  <div
+                    class="flex justify-between gap-xxs mb-xxs xxxl:mb-xs"
+                  >
+                    <div>
+                      <span
+                        data-state="closed"
+                      >
+                        <h6
+                          class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                        >
+                          Internship 5
+                        </h6>
+                      </span>
+                    </div>
+                    <div
+                      class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-secondary-200 text-secondary-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                    >
+                      In-progress
+                    </div>
+                  </div>
+                  <span
+                    class="metadata"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="metadataLabel"
+                    >
+                      Type:
+                    </span>
+                    Internship
+                  </span>
+                  <span
+                    class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                  >
+                    <div
+                      class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Period:
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <span
+                        class="line-clamp-1"
+                      >
+                        Mar 5, 2100 - Mar 30, 2100
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                  >
+                    <div
+                      class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Deadline:
+                    </span>
+                    Feb 23, 2100
+                  </span>
+                </section>
+                <div
+                  class="footer !bg-white !border-none "
+                >
+                  Continue
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a
+              aria-label="Internship 6"
+              class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card completed flex p-xs xxxl:p-x gap-x xxxl:gap-sm shrink-0 min-h-[104px] xxxl:min-h-[136px]"
+              href="/opportunities/17"
+            >
+              <div
+                class="relative w-[120px] xxxl:w-[180px]"
+              >
+                <div
+                  class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] rounded-sm absolute inset-0 flex items-center w-full h-full"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                  <img
+                    alt="Internship 6"
+                    class="w-full"
+                    src="http:/example.com/example.png"
+                  />
+                </div>
+              </div>
+              <div
+                class="cardContent"
+              >
+                <section
+                  class="body mb-xxs xxxl:mb-xs"
+                >
+                  <div
+                    class="flex justify-between gap-xxs mb-xxs xxxl:mb-xs"
+                  >
+                    <div>
+                      <span
+                        data-state="closed"
+                      >
+                        <h6
+                          class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                        >
+                          Internship 6
+                        </h6>
+                      </span>
+                    </div>
+                    <div
+                      class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-success-100 text-success-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                    >
+                      Completed
+                    </div>
+                  </div>
+                  <span
+                    class="metadata"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="metadataLabel"
+                    >
+                      Type:
+                    </span>
+                    Internship
+                  </span>
+                  <span
+                    class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                  >
+                    <div
+                      class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Period:
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <span
+                        class="line-clamp-1"
+                      >
+                        Mar 5, 2100 - Mar 30, 2100
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                  >
+                    <div
+                      class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text-font-secondary mr-xxs"
+                    >
+                      Deadline:
+                    </span>
+                    Feb 23, 2100
+                  </span>
+                </section>
+                <div
+                  class="footer !bg-white !border-none "
+                >
+                  Learn more
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grow"
+      >
+        <div
+          class="card h-full !px-0 flex flex-col"
+        >
+          <div
+            class="pl-base xxxl:pl-md"
+          >
+            <h3
+              class="text-sm xxxl:text-base mb-xxs xxxl:mb-xs"
+            >
+              Partners 
+              <span
+                class="text-neutral-600"
+              >
+                (3)
+              </span>
+            </h3>
+            <div
+              class="text-neutral-700 mb-sm xxxl:mb-base"
+            >
+              Find your opportunity with our partners.
+            </div>
+          </div>
+          <div
+            class="flex flex-col overflow-auto scrollbar pl-base xxxl:pl-md pr-sm xxxl:pr-md py-xs min-h-0 flex flex-col gap-x xxxl:gap-sm "
+          >
+            <a
+              class="p-xs xxxl:p-x bg-white flex gap-x xxxl:gap-sm rounded-sm group/card transition-colors border border-neutral-300 focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 hover:outline hover:!outline-1 hover:bg-primary-200 hover:!outline-primary-500 hover:shadow-300"
+              href="/partner/3"
+            >
+              <div
+                class="basis-[120px] xxxl:basis-[180px] shrink-0 grow-0 overflow-hidden flex flex-col flex-1 max-h-[98px] xxxl:max-h-[115px] relative rounded-sm before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%]"
+              >
+                <img
+                  class=" object-cover rounded-sm h-full w-full"
+                  src="http://test.com/image.jpeg"
+                />
+              </div>
+              <div
+                class="grow"
+              >
+                <div
+                  class="flex items-center justify-between w-full"
+                >
+                  <span
+                    data-state="closed"
+                  >
+                    <h3
+                      class="mb-0 mr-base line-clamp-2 text-xs"
+                    >
+                      Santa
+                    </h3>
+                  </span>
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/card:bg-white p-xxs"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-base w-base"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <span
+                  data-state="closed"
+                >
+                  <p
+                    class="line-clamp-2 text-xxs xxxl:text-xs text-font-secondary pr-xs tracking-normal leading-lg mb-xs xxxl:mb-x"
+                  >
+                    Lipsum
+                  </p>
+                </span>
+                <div
+                  class="flex gap-xxs xxxl:gap-xs"
+                />
+              </div>
+            </a>
+            <a
+              class="p-xs xxxl:p-x bg-white flex gap-x xxxl:gap-sm rounded-sm group/card transition-colors border border-neutral-300 focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 hover:outline hover:!outline-1 hover:bg-primary-200 hover:!outline-primary-500 hover:shadow-300"
+              href="/partner/4"
+            >
+              <div
+                class="basis-[120px] xxxl:basis-[180px] shrink-0 grow-0 overflow-hidden flex flex-col flex-1 max-h-[98px] xxxl:max-h-[115px] relative rounded-sm before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%]"
+              >
+                <img
+                  class=" object-cover rounded-sm h-full w-full"
+                  src="http://test.com/image.jpeg"
+                />
+              </div>
+              <div
+                class="grow"
+              >
+                <div
+                  class="flex items-center justify-between w-full"
+                >
+                  <span
+                    data-state="closed"
+                  >
+                    <h3
+                      class="mb-0 mr-base line-clamp-2 text-xs"
+                    >
+                      Santa Rosa Medical Center
+                    </h3>
+                  </span>
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/card:bg-white p-xxs"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-base w-base"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <span
+                  data-state="closed"
+                >
+                  <p
+                    class="line-clamp-2 text-xxs xxxl:text-xs text-font-secondary pr-xs tracking-normal leading-lg mb-xs xxxl:mb-x"
+                  >
+                    Lorem Ipsum
+                  </p>
+                </span>
+                <div
+                  class="flex gap-xxs xxxl:gap-xs"
+                >
+                  <div
+                    class="font-medium leading-lg flex items-center group-hover/card:!bg-white bg-primary-200 text-primary-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    2 Opportunities
+                  </div>
+                  <div
+                    class="font-medium leading-lg flex items-center group-hover/card:!bg-white bg-primary-200 text-primary-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    2 Courses
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a
+              class="p-xs xxxl:p-x bg-white flex gap-x xxxl:gap-sm rounded-sm group/card transition-colors border border-neutral-300 focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 hover:outline hover:!outline-1 hover:bg-primary-200 hover:!outline-primary-500 hover:shadow-300"
+              href="/partner/24"
+            >
+              <div
+                class="basis-[120px] xxxl:basis-[180px] shrink-0 grow-0 overflow-hidden flex flex-col flex-1 max-h-[98px] xxxl:max-h-[115px] relative rounded-sm before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%]"
+              >
+                <img
+                  class=" object-cover rounded-sm h-full w-full"
+                  src="http://test.com/image.jpeg"
+                />
+              </div>
+              <div
+                class="grow"
+              >
+                <div
+                  class="flex items-center justify-between w-full"
+                >
+                  <span
+                    data-state="closed"
+                  >
+                    <h3
+                      class="mb-0 mr-base line-clamp-2 text-xs"
+                    >
+                      Test name
+                    </h3>
+                  </span>
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/card:bg-white p-xxs"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-base w-base"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <span
+                  data-state="closed"
+                >
+                  <p
+                    class="line-clamp-2 text-xxs xxxl:text-xs text-font-secondary pr-xs tracking-normal leading-lg mb-xs xxxl:mb-x"
+                  >
+                    Ipsum lorem
+                  </p>
+                </span>
+                <div
+                  class="flex gap-xxs xxxl:gap-xs"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card xxxl:p-md"
+    >
+      <h5
+        class="title sticky top-sm mb-xxs xxxl:mb-xs"
+      >
+        All Opportunities
+      </h5>
+      <p
+        class="relative text-font-secondary pb-sm border-b mb-0 border-neutral-300"
+      >
+        All available opportunities searchable by career cluster, pathway, and type.
+      </p>
+      <div
+        class="pt-base px-base xxxl:px-md -mx-base xxxl:-mx-md mb-base top-[theme(variables.headerHeight)] transition-all duration-200 ease-in flex flex-col bg-white sticky z-lower"
+      >
+        <div
+          class="flex items-end gap-sm xxxl:gap-base"
+        >
+          <div
+            class="flex items-end gap-xs xxxl:gap-sm grow"
+          >
+            <div
+              class="relative grow shrink basis-[220px] xxxl:basis-[380px]"
+            >
+              <label
+                class="flex flex-col items-start text-font-primary w-full gap-xxxs"
+              >
+                <div
+                  class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                >
+                  <div
+                    class="injected-content"
+                  >
+                    Search:
+                  </div>
+                </div>
+                <div
+                  class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs flex-row-reverse"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[14px]"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="flex gap-xxs grow"
+                  >
+                    <input
+                      aria-label="Search:"
+                      class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[14px] text-xxs"
+                      id="Search:"
+                      placeholder="Search opportunity..."
+                      type="text"
+                      value=""
+                    />
+                  </span>
+                </div>
+              </label>
+            </div>
+            <div
+              class="grow shrink basis-[140px] xxxl:basis-[220px]"
+            >
+              <label
+                class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+              >
+                <div
+                  class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                >
+                  Type:
+                </div>
+                <div
+                  class=" css-b62m3t-container"
+                >
+                  <span
+                    class="css-1f43avz-a11yText-A11yText"
+                    id="react-select-20-live-region"
+                  />
+                  <span
+                    aria-atomic="false"
+                    aria-live="polite"
+                    aria-relevant="additions text"
+                    class="css-1f43avz-a11yText-A11yText"
+                    role="log"
+                  />
+                  <div
+                    class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                  >
+                    <div
+                      class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+                    >
+                      <div
+                        class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                        id="react-select-20-placeholder"
+                      >
+                        Show All
+                      </div>
+                      <div
+                        class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                        data-value=""
+                      >
+                        <input
+                          aria-activedescendant=""
+                          aria-autocomplete="list"
+                          aria-describedby="react-select-20-placeholder"
+                          aria-expanded="false"
+                          aria-haspopup="true"
+                          autocapitalize="none"
+                          autocomplete="off"
+                          autocorrect="off"
+                          class="select__input"
+                          id="select-input-opportunityType"
+                          role="combobox"
+                          spellcheck="false"
+                          style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                          tabindex="0"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                    >
+                      <div
+                        aria-hidden="true"
+                        class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <input
+                      name="opportunityType"
+                      type="hidden"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </label>
+            </div>
+            <div
+              class="grow shrink basis-[140px] xxxl:basis-[220px]"
+            >
+              <label
+                class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+              >
+                <div
+                  class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                >
+                  Partner:
+                </div>
+                <div
+                  class=" css-b62m3t-container"
+                >
+                  <span
+                    class="css-1f43avz-a11yText-A11yText"
+                    id="react-select-21-live-region"
+                  />
+                  <span
+                    aria-atomic="false"
+                    aria-live="polite"
+                    aria-relevant="additions text"
+                    class="css-1f43avz-a11yText-A11yText"
+                    role="log"
+                  />
+                  <div
+                    class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                  >
+                    <div
+                      class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+                    >
+                      <div
+                        class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                        id="react-select-21-placeholder"
+                      >
+                        Show All
+                      </div>
+                      <div
+                        class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                        data-value=""
+                      >
+                        <input
+                          aria-activedescendant=""
+                          aria-autocomplete="list"
+                          aria-describedby="react-select-21-placeholder"
+                          aria-expanded="false"
+                          aria-haspopup="true"
+                          autocapitalize="none"
+                          autocomplete="off"
+                          autocorrect="off"
+                          class="select__input"
+                          id="select-input-partner"
+                          role="combobox"
+                          spellcheck="false"
+                          style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                          tabindex="0"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                    >
+                      <div
+                        aria-hidden="true"
+                        class="select__indicator select__loading-indicator css-pogzpp-loadingIndicator"
+                      >
+                        <span
+                          class="css-1xtdfmb-LoadingDot"
+                        />
+                        <span
+                          class="css-zoievk-LoadingDot"
+                        />
+                        <span
+                          class="css-x748d8-LoadingDot"
+                        />
+                      </div>
+                      <div
+                        aria-hidden="true"
+                        class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <input
+                      name="partner"
+                      type="hidden"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </label>
+            </div>
+            <div
+              class="grow shrink basis-[140px] xxxl:basis-[220px]"
+            >
+              <label
+                class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+                data-testid="clusters-select"
+              >
+                <div
+                  class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                >
+                  Cluster and pathway:
+                </div>
+                <div
+                  class=" css-b62m3t-container"
+                >
+                  <span
+                    class="css-1f43avz-a11yText-A11yText"
+                    id="react-select-22-live-region"
+                  />
+                  <span
+                    aria-atomic="false"
+                    aria-live="polite"
+                    aria-relevant="additions text"
+                    class="css-1f43avz-a11yText-A11yText"
+                    role="log"
+                  />
+                  <div
+                    class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                  >
+                    <div
+                      class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+                    >
+                      <div
+                        class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                        id="react-select-22-placeholder"
+                      >
+                        Show All
+                      </div>
+                      <div
+                        class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                        data-value=""
+                      >
+                        <input
+                          aria-activedescendant=""
+                          aria-autocomplete="list"
+                          aria-describedby="react-select-22-placeholder"
+                          aria-expanded="false"
+                          aria-haspopup="true"
+                          autocapitalize="none"
+                          autocomplete="off"
+                          autocorrect="off"
+                          class="select__input"
+                          id="select-input-clusterAndPathway"
+                          role="combobox"
+                          spellcheck="false"
+                          style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                          tabindex="0"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                    >
+                      <div
+                        aria-hidden="true"
+                        class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <input
+                      name="clusterAndPathway"
+                      type="hidden"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+          <div
+            class="flex items-end gap-xs xxxl:gap-sm"
+          >
+            <button
+              aria-label="Tags"
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !p-xs -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs flex-row-reverse border"
+              data-testid="button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Tags
+              </span>
+            </button>
+            <div
+              class="invisible"
+            >
+              <span
+                data-state="closed"
+              >
+                <button
+                  aria-label="Clear all"
+                  class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-primary-500 text-primary-500 hover:bg-primary-200 outline-primary-500  w-md h-md"
+                  data-testid="icon-button"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-base w-base"
+                      />
+                    </div>
+                  </div>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        class="list"
+      >
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+  <button
+    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] bg-primary-500 text-white hover:bg-primary-600 outline-primary-500 w-md h-md !rounded-full scrollTopButton"
+    data-testid="icon-button"
+    type="button"
+  >
+    <div
+      class="flex"
+    >
+      <div
+        class="flex align-center justify-center grow-0 shrink-0"
+        data-testid="icon"
+      >
+        <div
+          class="h-base w-base"
+        />
+      </div>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`OpportunityScreen should render card in Favourites carousel should render properly 1`] = `
+<div>
+  <h4
+    class="opportunitiesHeading"
+  >
+    Work-Based Learning Opportunities
+  </h4>
+  <div
+    class="flex flex-col gap-base xxxl:gap-md grow"
+  >
+    <div
+      class="opportunitiesCarousel"
+    >
+      <h5
+        class="cardHeader"
+      >
+        Current and Favorites
+        <span
+          class="opportunitiesCounter"
+        >
+           (
+          7
+          )
+        </span>
+      </h5>
+      <p
+        class="subHeading"
+      >
+        All In-progress and favorited opportunities
+      </p>
+      <div
+        class="list"
+      >
+        <div
+          class="horizontal-menu"
+          style="align-items: center; display: flex; user-select: none;"
+        >
+          <div
+            class="scroll-menu-arrow scroll-menu-arrow--disabled"
+          >
+            <div
+              class="left-arrow relative h-full flex items-center leftArrowWrapper neutralBackgroundLeft"
+            >
+              <button
+                class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md arrow"
+                data-testid="icon-button"
+                type="button"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div
+            class="menu-wrapper"
+            style="overflow: hidden; user-select: none;"
+          >
+            <div
+              class="menu-wrapper--inner"
+              style="transform: translate3d(0px, 0, 0); transition: transform 0s; white-space: nowrap; text-align: left;"
+            >
+              <div
+                class="menu-item-wrapper "
+                role="button"
+                style="display: inline-block;"
+                tabindex="0"
+              >
+                <a
+                  aria-label="Internship 0"
+                  class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card opportunityCard verticalCard"
+                  href="/opportunities/1"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <div
+                      class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+                    >
+                      <button
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                      <img
+                        alt="Internship 0"
+                        class="object-cover w-full h-full"
+                        src="http:/example.com/example.png"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="cardContent"
+                  >
+                    <section
+                      class="body p-x xxxl:p-sm"
+                    >
+                      <div
+                        class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                      >
+                        <div>
+                          <span
+                            data-state="closed"
+                          >
+                            <h6
+                              class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                            >
+                              Internship 0
+                            </h6>
+                          </span>
+                        </div>
+                      </div>
+                      <span
+                        class="metadata"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                        <span
+                          class="metadataLabel"
+                        >
+                          Type:
+                        </span>
+                        Apprenticeship
+                      </span>
+                      <div
+                        class="metadata"
+                      >
+                        <span
+                          class="min-w-0 flex"
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-sm w-sm"
+                              />
+                            </div>
+                          </div>
+                          <div
+                            class="metadataLabel"
+                          >
+                            Partner:
+                          </div>
+                          <div
+                            class="truncate"
+                          >
+                            Test Partner Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                          </div>
+                        </span>
+                      </div>
+                      <span
+                        class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                      >
+                        <div
+                          class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                          data-testid="icon"
+                        >
+                          <div />
+                        </div>
+                        <span
+                          class="text-font-secondary mr-xxs"
+                        >
+                          Period:
+                        </span>
+                        <span
+                          data-state="closed"
+                        >
+                          <span
+                            class="line-clamp-1"
+                          >
+                            Jul 27, 2023 - Aug 4, 2023
+                          </span>
+                        </span>
+                      </span>
+                      <span
+                        class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                      >
+                        <div
+                          class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                          data-testid="icon"
+                        >
+                          <div />
+                        </div>
+                        <span
+                          class="text-font-secondary mr-xxs"
+                        >
+                          Deadline:
+                        </span>
+                        Jul 26, 2023
+                      </span>
+                    </section>
+                    <div
+                      class="footer px-sm py-x"
+                    >
+                      Learn more
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="menu-item-wrapper "
+                role="button"
+                style="display: inline-block;"
+                tabindex="0"
+              >
+                <a
+                  aria-label="Internship 1"
+                  class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card pending opportunityCard verticalCard expired"
+                  href="/opportunities/2"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <div
+                      class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+                    >
+                      <button
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                      <img
+                        alt="Internship 1"
+                        class="object-cover w-full h-full"
+                        src="http:/example.com/example.png"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="cardContent"
+                  >
+                    <section
+                      class="body p-x xxxl:p-sm"
+                    >
+                      <div
+                        class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                      >
+                        <div>
+                          <span
+                            data-state="closed"
+                          >
+                            <h6
+                              class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                            >
+                              Internship 1
+                            </h6>
+                          </span>
+                        </div>
+                        <div
+                          class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-neutral-200 text-font-secondary p-xxxs text-xxs rounded-xs gap-xxxs"
+                        >
+                          Expired
+                        </div>
+                      </div>
+                      <span
+                        class="metadata"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                        <span
+                          class="metadataLabel"
+                        >
+                          Type:
+                        </span>
+                        Internship
+                      </span>
+                      <span
+                        class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                      >
+                        <div
+                          class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                          data-testid="icon"
+                        >
+                          <div />
+                        </div>
+                        <span
+                          class="text-font-secondary mr-xxs"
+                        >
+                          Period:
+                        </span>
+                        <span
+                          data-state="closed"
+                        >
+                          <span
+                            class="line-clamp-1"
+                          >
+                            Mar 5, 2023 - Mar 30, 2023
+                          </span>
+                        </span>
+                      </span>
+                      <span
+                        class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                      >
+                        <div
+                          class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                          data-testid="icon"
+                        >
+                          <div />
+                        </div>
+                        <span
+                          class="text-font-secondary mr-xxs"
+                        >
+                          Deadline:
+                        </span>
+                        Feb 23, 2023
+                      </span>
+                    </section>
+                    <div
+                      class="footer px-sm py-x"
+                    >
+                      Learn more
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="menu-item-wrapper "
+                role="button"
+                style="display: inline-block;"
+                tabindex="0"
+              >
+                <a
+                  aria-label="Internship 2"
+                  class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card pending opportunityCard verticalCard"
+                  href="/opportunities/3"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <div
+                      class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+                    >
+                      <button
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                      <img
+                        alt="Internship 2"
+                        class="h-full mx-auto object-cover"
+                        src="http:/example.com/example.png"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="cardContent"
+                  >
+                    <section
+                      class="body p-x xxxl:p-sm"
+                    >
+                      <div
+                        class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                      >
+                        <div>
+                          <span
+                            data-state="closed"
+                          >
+                            <h6
+                              class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                            >
+                              Internship 2
+                            </h6>
+                          </span>
+                        </div>
+                        <div
+                          class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-info-100 text-info-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                        >
+                          Pending
+                        </div>
+                      </div>
+                      <span
+                        class="metadata"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                        <span
+                          class="metadataLabel"
+                        >
+                          Type:
+                        </span>
+                        Internship
+                      </span>
+                      <span
+                        class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                      >
+                        <div
+                          class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                          data-testid="icon"
+                        >
+                          <div />
+                        </div>
+                        <span
+                          class="text-font-secondary mr-xxs"
+                        >
+                          Period:
+                        </span>
+                        <span
+                          data-state="closed"
+                        >
+                          <span
+                            class="line-clamp-1"
+                          >
+                            Mar 5, 2100 - Mar 30, 2100
+                          </span>
+                        </span>
+                      </span>
+                      <span
+                        class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                      >
+                        <div
+                          class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                          data-testid="icon"
+                        >
+                          <div />
+                        </div>
+                        <span
+                          class="text-font-secondary mr-xxs"
+                        >
+                          Deadline:
+                        </span>
+                        Feb 23, 2100
+                      </span>
+                    </section>
+                    <div
+                      class="footer px-sm py-x"
+                    >
+                      Learn more
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="menu-item-wrapper "
+                role="button"
+                style="display: inline-block;"
+                tabindex="0"
+              >
+                <a
+                  aria-label="Internship 3"
+                  class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card accepted opportunityCard verticalCard"
+                  href="/opportunities/4"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <div
+                      class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+                    >
+                      <button
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                      <img
+                        alt="Internship 3"
+                        class="h-full mx-auto object-cover"
+                        src="http:/example.com/example.png"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="cardContent"
+                  >
+                    <section
+                      class="body p-x xxxl:p-sm"
+                    >
+                      <div
+                        class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                      >
+                        <div>
+                          <span
+                            data-state="closed"
+                          >
+                            <h6
+                              class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                            >
+                              Internship 3
+                            </h6>
+                          </span>
+                        </div>
+                        <div
+                          class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-success-100 text-success-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                        >
+                          Accepted
+                        </div>
+                      </div>
+                      <span
+                        class="metadata"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                        <span
+                          class="metadataLabel"
+                        >
+                          Type:
+                        </span>
+                        Internship
+                      </span>
+                      <span
+                        class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                      >
+                        <div
+                          class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                          data-testid="icon"
+                        >
+                          <div />
+                        </div>
+                        <span
+                          class="text-font-secondary mr-xxs"
+                        >
+                          Period:
+                        </span>
+                        <span
+                          data-state="closed"
+                        >
+                          <span
+                            class="line-clamp-1"
+                          >
+                            Mar 5, 2100 - Mar 30, 2100
+                          </span>
+                        </span>
+                      </span>
+                      <span
+                        class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                      >
+                        <div
+                          class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                          data-testid="icon"
+                        >
+                          <div />
+                        </div>
+                        <span
+                          class="text-font-secondary mr-xxs"
+                        >
+                          Deadline:
+                        </span>
+                        Feb 23, 2100
+                      </span>
+                    </section>
+                    <div
+                      class="footer px-sm py-x"
+                    >
+                      Learn more
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="menu-item-wrapper "
+                role="button"
+                style="display: inline-block;"
+                tabindex="0"
+              >
+                <a
+                  aria-label="Internship 4"
+                  class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card notAccepted opportunityCard verticalCard"
+                  href="/opportunities/15"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <div
+                      class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+                    >
+                      <button
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                      <img
+                        alt="Internship 4"
+                        class="h-full mx-auto object-cover"
+                        src="http:/example.com/example.png"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="cardContent"
+                  >
+                    <section
+                      class="body p-x xxxl:p-sm"
+                    >
+                      <div
+                        class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                      >
+                        <div>
+                          <span
+                            data-state="closed"
+                          >
+                            <h6
+                              class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                            >
+                              Internship 4
+                            </h6>
+                          </span>
+                        </div>
+                        <div
+                          class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-danger-100 text-danger-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                        >
+                          Not accepted
+                        </div>
+                      </div>
+                      <span
+                        class="metadata"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                        <span
+                          class="metadataLabel"
+                        >
+                          Type:
+                        </span>
+                        Internship
+                      </span>
+                      <span
+                        class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                      >
+                        <div
+                          class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                          data-testid="icon"
+                        >
+                          <div />
+                        </div>
+                        <span
+                          class="text-font-secondary mr-xxs"
+                        >
+                          Period:
+                        </span>
+                        <span
+                          data-state="closed"
+                        >
+                          <span
+                            class="line-clamp-1"
+                          >
+                            Mar 5, 2100 - Mar 30, 2100
+                          </span>
+                        </span>
+                      </span>
+                      <span
+                        class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                      >
+                        <div
+                          class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                          data-testid="icon"
+                        >
+                          <div />
+                        </div>
+                        <span
+                          class="text-font-secondary mr-xxs"
+                        >
+                          Deadline:
+                        </span>
+                        Feb 23, 2100
+                      </span>
+                    </section>
+                    <div
+                      class="footer px-sm py-x"
+                    >
+                      Learn more
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="menu-item-wrapper "
+                role="button"
+                style="display: inline-block;"
+                tabindex="0"
+              >
+                <a
+                  aria-label="Internship 5"
+                  class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card inProgress opportunityCard verticalCard"
+                  href="/opportunities/16"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <div
+                      class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+                    >
+                      <button
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                      <img
+                        alt="Internship 5"
+                        class="object-cover w-full h-full"
+                        src="http:/example.com/example.png"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="cardContent"
+                  >
+                    <section
+                      class="body p-x xxxl:p-sm"
+                    >
+                      <div
+                        class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                      >
+                        <div>
+                          <span
+                            data-state="closed"
+                          >
+                            <h6
+                              class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                            >
+                              Internship 5
+                            </h6>
+                          </span>
+                        </div>
+                        <div
+                          class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-secondary-200 text-secondary-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                        >
+                          In-progress
+                        </div>
+                      </div>
+                      <span
+                        class="metadata"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                        <span
+                          class="metadataLabel"
+                        >
+                          Type:
+                        </span>
+                        Internship
+                      </span>
+                      <span
+                        class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                      >
+                        <div
+                          class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                          data-testid="icon"
+                        >
+                          <div />
+                        </div>
+                        <span
+                          class="text-font-secondary mr-xxs"
+                        >
+                          Period:
+                        </span>
+                        <span
+                          data-state="closed"
+                        >
+                          <span
+                            class="line-clamp-1"
+                          >
+                            Mar 5, 2100 - Mar 30, 2100
+                          </span>
+                        </span>
+                      </span>
+                      <span
+                        class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                      >
+                        <div
+                          class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                          data-testid="icon"
+                        >
+                          <div />
+                        </div>
+                        <span
+                          class="text-font-secondary mr-xxs"
+                        >
+                          Deadline:
+                        </span>
+                        Feb 23, 2100
+                      </span>
+                    </section>
+                    <div
+                      class="footer px-sm py-x"
+                    >
+                      Continue
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="menu-item-wrapper "
+                role="button"
+                style="display: inline-block;"
+                tabindex="0"
+              >
+                <a
+                  aria-label="Internship 6"
+                  class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card completed opportunityCard verticalCard"
+                  href="/opportunities/17"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <div
+                      class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+                    >
+                      <button
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                      <img
+                        alt="Internship 6"
+                        class="object-cover w-full h-full"
+                        src="http:/example.com/example.png"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="cardContent"
+                  >
+                    <section
+                      class="body p-x xxxl:p-sm"
+                    >
+                      <div
+                        class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                      >
+                        <div>
+                          <span
+                            data-state="closed"
+                          >
+                            <h6
+                              class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                            >
+                              Internship 6
+                            </h6>
+                          </span>
+                        </div>
+                        <div
+                          class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-success-100 text-success-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                        >
+                          Completed
+                        </div>
+                      </div>
+                      <span
+                        class="metadata"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                        <span
+                          class="metadataLabel"
+                        >
+                          Type:
+                        </span>
+                        Internship
+                      </span>
+                      <span
+                        class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                      >
+                        <div
+                          class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                          data-testid="icon"
+                        >
+                          <div />
+                        </div>
+                        <span
+                          class="text-font-secondary mr-xxs"
+                        >
+                          Period:
+                        </span>
+                        <span
+                          data-state="closed"
+                        >
+                          <span
+                            class="line-clamp-1"
+                          >
+                            Mar 5, 2100 - Mar 30, 2100
+                          </span>
+                        </span>
+                      </span>
+                      <span
+                        class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                      >
+                        <div
+                          class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                          data-testid="icon"
+                        >
+                          <div />
+                        </div>
+                        <span
+                          class="text-font-secondary mr-xxs"
+                        >
+                          Deadline:
+                        </span>
+                        Feb 23, 2100
+                      </span>
+                    </section>
+                    <div
+                      class="footer px-sm py-x"
+                    >
+                      Learn more
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="scroll-menu-arrow scroll-menu-arrow--disabled"
+          >
+            <div
+              class="right-arrow relative h-full flex items-center rightArrowWrapper neutralBackgroundRight"
+            >
+              <button
+                class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md arrow"
+                data-testid="icon-button"
+                type="button"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card xxxl:p-md"
+    >
+      <h5
+        class="title sticky top-sm mb-xxs xxxl:mb-xs"
+      >
+        All Opportunities
+      </h5>
+      <p
+        class="relative text-font-secondary pb-sm border-b mb-0 border-neutral-300"
+      >
+        All available opportunities searchable by career cluster, pathway, and type.
+      </p>
+      <div
+        class="pt-base px-base xxxl:px-md -mx-base xxxl:-mx-md mb-base top-[theme(variables.headerHeight)] transition-all duration-200 ease-in flex flex-col bg-white sticky z-lower"
+      >
+        <div
+          class="flex items-end gap-sm xxxl:gap-base"
+        >
+          <div
+            class="flex items-end gap-xs xxxl:gap-sm grow"
+          >
+            <div
+              class="relative grow shrink basis-[220px] xxxl:basis-[380px]"
+            >
+              <label
+                class="flex flex-col items-start text-font-primary w-full gap-xxxs"
+              >
+                <div
+                  class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                >
+                  <div
+                    class="injected-content"
+                  >
+                    Search:
+                  </div>
+                </div>
+                <div
+                  class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs flex-row-reverse"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[14px]"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="flex gap-xxs grow"
+                  >
+                    <input
+                      aria-label="Search:"
+                      class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[14px] text-xxs"
+                      id="Search:"
+                      placeholder="Search opportunity..."
+                      type="text"
+                      value=""
+                    />
+                  </span>
+                </div>
+              </label>
+            </div>
+            <div
+              class="grow shrink basis-[140px] xxxl:basis-[220px]"
+            >
+              <label
+                class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+              >
+                <div
+                  class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                >
+                  Type:
+                </div>
+                <div
+                  class=" css-b62m3t-container"
+                >
+                  <span
+                    class="css-1f43avz-a11yText-A11yText"
+                    id="react-select-2-live-region"
+                  />
+                  <span
+                    aria-atomic="false"
+                    aria-live="polite"
+                    aria-relevant="additions text"
+                    class="css-1f43avz-a11yText-A11yText"
+                    role="log"
+                  />
+                  <div
+                    class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                  >
+                    <div
+                      class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+                    >
+                      <div
+                        class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                        id="react-select-2-placeholder"
+                      >
+                        Show All
+                      </div>
+                      <div
+                        class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                        data-value=""
+                      >
+                        <input
+                          aria-activedescendant=""
+                          aria-autocomplete="list"
+                          aria-describedby="react-select-2-placeholder"
+                          aria-expanded="false"
+                          aria-haspopup="true"
+                          autocapitalize="none"
+                          autocomplete="off"
+                          autocorrect="off"
+                          class="select__input"
+                          id="select-input-opportunityType"
+                          role="combobox"
+                          spellcheck="false"
+                          style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                          tabindex="0"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                    >
+                      <div
+                        aria-hidden="true"
+                        class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <input
+                      name="opportunityType"
+                      type="hidden"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </label>
+            </div>
+            <div
+              class="grow shrink basis-[140px] xxxl:basis-[220px]"
+            >
+              <label
+                class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+                data-testid="clusters-select"
+              >
+                <div
+                  class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                >
+                  Cluster and pathway:
+                </div>
+                <div
+                  class=" css-b62m3t-container"
+                >
+                  <span
+                    class="css-1f43avz-a11yText-A11yText"
+                    id="react-select-3-live-region"
+                  />
+                  <span
+                    aria-atomic="false"
+                    aria-live="polite"
+                    aria-relevant="additions text"
+                    class="css-1f43avz-a11yText-A11yText"
+                    role="log"
+                  />
+                  <div
+                    class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                  >
+                    <div
+                      class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+                    >
+                      <div
+                        class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                        id="react-select-3-placeholder"
+                      >
+                        Show All
+                      </div>
+                      <div
+                        class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                        data-value=""
+                      >
+                        <input
+                          aria-activedescendant=""
+                          aria-autocomplete="list"
+                          aria-describedby="react-select-3-placeholder"
+                          aria-expanded="false"
+                          aria-haspopup="true"
+                          autocapitalize="none"
+                          autocomplete="off"
+                          autocorrect="off"
+                          class="select__input"
+                          id="select-input-clusterAndPathway"
+                          role="combobox"
+                          spellcheck="false"
+                          style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                          tabindex="0"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                    >
+                      <div
+                        aria-hidden="true"
+                        class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <input
+                      name="clusterAndPathway"
+                      type="hidden"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+          <div
+            class="flex items-end gap-xs xxxl:gap-sm"
+          >
+            <button
+              aria-label="Tags"
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !p-xs -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs flex-row-reverse border"
+              data-testid="button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Tags
+              </span>
+            </button>
+            <div
+              class="invisible"
+            >
+              <span
+                data-state="closed"
+              >
+                <button
+                  aria-label="Clear all"
+                  class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-primary-500 text-primary-500 hover:bg-primary-200 outline-primary-500  w-md h-md"
+                  data-testid="icon-button"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-base w-base"
+                      />
+                    </div>
+                  </div>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul
+        class="list"
+      >
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+        <li
+          class="skeleton"
+        >
+          <div
+            class="skeleton-rectangle skeletonRectangle radius-sm height-full-height width-full-width darker animated"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+  <button
+    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] bg-primary-500 text-white hover:bg-primary-600 outline-primary-500 w-md h-md !rounded-full scrollTopButton"
+    data-testid="icon-button"
+    type="button"
+  >
+    <div
+      class="flex"
+    >
+      <div
+        class="flex align-center justify-center grow-0 shrink-0"
+        data-testid="icon"
+      >
+        <div
+          class="h-base w-base"
+        />
+      </div>
+    </div>
+  </button>
+</div>
+`;

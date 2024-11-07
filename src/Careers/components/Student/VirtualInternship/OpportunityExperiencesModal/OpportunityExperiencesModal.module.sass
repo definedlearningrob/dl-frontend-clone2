@@ -1,0 +1,155 @@
+@import '@shared/stylesheets/config.sass'
+
+$image-width: 150px
+
+$image-column-width: $image-width + 2 * $m-xs
+$name-column-width: 240px
+$select-column-width: 80px
+
+$color-primary-200-90: #EBF7FFE6
+$color-neutral-200-90: #F3F4F7E6
+
+$modal-width: 920px
+$modal-width-xxxl: 1200px
+
+// Table
+.tableWrapper
+  border: 1px solid $color-neutral-300
+  border-radius: $m-xs
+
+.table
+  overflow: hidden !important
+
+  :global(.shared-table__head),
+  :global(.shared-table__body)
+    grid-template-columns: $image-column-width $name-column-width auto $select-column-width
+
+  :global(.shared-table__column-4)
+    align-items: center !important
+    justify-content: center !important
+
+  :global(.shared-table__column)
+    padding: $m-xs
+
+    +media-breakpoint-up(xxxl)
+      padding: $m-sm
+
+  +media-breakpoint-up(xxxl)
+    height: 550px
+
+.tableHead
+  background-color: $color-neutral-200 !important
+  color: $color-neutral-800
+
+  @extend .tableColumn
+  font-size: $font-size-xs
+  font-weight: $font-weight-bold
+  line-height: $line-height-lg
+
+.tableRow
+  cursor: pointer
+
+  &:hover:not(.isDisabled)
+    background-color: $color-neutral-200
+
+    .truncatedText
+      &:after
+        background: linear-gradient(180deg, $color-neutral-200-90 50%, $color-neutral-200)
+
+  &:has(.selected)
+    background-color: $color-primary-200 !important
+
+    .truncatedText
+      &:after
+        background: linear-gradient(180deg, $color-primary-200-90 50%, $color-primary-200) !important
+
+    .title
+      color: $color-neutral-800
+
+.tableColumn
+  +flex-container(row, flex-start, flex-start)
+  padding-left: $m-sm
+  padding-right: $m-sm
+  background-color: inherit
+
+.counter
+  color: $color-primary-500
+  font-weight: $font-weight-medium
+
+.imageWrapper
+  width: $image-width
+  height: auto
+  border-radius: $m-xs
+  overflow: hidden
+
+.image
+  aspect-ratio: 16/9
+  object-fit: cover
+
+.title
+  color: $color-neutral-700
+  font-size: $font-size-xs
+  font-weight: $font-weight-bold
+  line-height: $line-height-base
+
+.description
+  +ellipsis-multiline(3)
+  font-size: $font-size-xs
+  color: $color-neutral-700
+  line-height: $line-height-lg
+
+.progressBar
+  margin-bottom: $m-xxs
+
+.selectedLabel
+  font-size: $font-size-xs
+  line-height: $line-height-lg
+  color: $color-neutral-700
+  margin-bottom: $m-sm
+
+  +media-breakpoint-up(xxxl)
+    margin-bottom: $m-md
+
+.checkboxWrapper
+  :global(.checkbox__label):before
+    margin-right: 0
+
+// Modal
+.modal
+  width: $modal-width !important
+  height: auto !important
+  max-height: 100vh !important
+  margin-top: $m-lg !important
+  margin-bottom: $m-lg !important
+  padding-bottom: $m-base
+
+  :global(.modal__body)
+    overflow: hidden !important
+
+  +media-breakpoint-up(xxxl)
+    width: $modal-width-xxxl !important
+    padding-bottom: $m-md !important
+
+.modalHeader
+  margin-bottom: $m-sm
+  padding: $m-base $m-base 0 $m-base
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-md $m-md 0 $m-md
+
+.modalHeading
+  font-size: $font-size-base
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-lg
+
+.modalBody
+  margin-top: 0 !important
+
+.modalBody,
+.modalFooter,
+.progressWrapper
+  padding: 0 $m-base
+
+  +media-breakpoint-up(xxxl)
+    padding: 0 $m-md

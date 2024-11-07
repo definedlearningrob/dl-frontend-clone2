@@ -1,0 +1,467 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VirtualInternshipContent renders correctly 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <div
+      class="flex flex-wrap gap-base xl:flex-nowrap"
+    >
+      <div
+        class="imageWrapper"
+      >
+        <img
+          alt="Test Virtual Internship"
+          class="w-full h-full object-cover"
+          src="https://picsum.photos/600/300"
+        />
+      </div>
+      <div
+        class="cardContent"
+      >
+        <div
+          class="header"
+        >
+          <div
+            class="flex flex-col gap-sm items-start"
+          >
+            <h2
+              class="text-font-primary mb-0 titleMedium mb-xs text-sm xxxl:text-lg"
+              data-testid="card-title"
+            >
+              Test Virtual Internship
+            </h2>
+          </div>
+          <div
+            class="actions"
+          />
+        </div>
+        <div
+          class="description"
+        >
+          <p>
+            Virtual internship description
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="card flex flex-col gap-base xxxl:gap-md"
+  >
+    <div
+      aria-labelledby="lesson-group-name"
+      data-testid="lesson-group"
+    >
+      <h5
+        class="text-sm xxxl:text-base mb-xxs xxxl:mb-xs"
+        id="lesson-group-name"
+      >
+        Onboarding
+      </h5>
+      <p
+        class="text-xs xxxl:text-sm leading-lg mb-base xxxl:mb-md"
+      >
+        Begin exploring a career in this cluster and understand a few soft skills that are important to succeed.
+      </p>
+      <div
+        class="flex flex-wrap gap-y-base gap-x-sm xxxl:gap-y-md"
+      >
+        <a
+          aria-label="Career Pathway: Maintenance/Operations"
+          class="card grow-0 shrink-0 basis-[calc(25%-theme(spacing.x))]"
+          href="/opportunities/1/virtual-internship/2/lessons/74"
+        >
+          <div
+            class="imageWrapper"
+          >
+            <img
+              alt="Career Pathway: Maintenance/Operations"
+              class="image"
+              src="https://picsum.photos/600/300"
+            />
+          </div>
+          <section
+            class="flex flex-col justify-between flex-1 pt-xs px-xs pb-xxs min-h-[100px]"
+          >
+            <h5
+              class="name"
+            >
+              Career Pathway: Maintenance/Operations
+            </h5>
+          </section>
+          <section
+            class="relative bg-primary-200 rounded-b-sm text-primary-500 before:h-xxxs before:bg-neutral-400 before:inset-0 before:absolute before:bg-primary-500"
+          >
+            <div
+              class="flex items-center text-xxs p-xs xxxl:text-xs xxxl:py-sm xxxl:px-xs leading-lg"
+            >
+              Show more
+              <div
+                class="icon footerIcon -xs-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </div>
+          </section>
+        </a>
+        <a
+          aria-label="Cluster Lesson"
+          class="card grow-0 shrink-0 basis-[calc(25%-theme(spacing.x))]"
+          href="/opportunities/1/virtual-internship/2/lessons/77"
+        >
+          <div
+            class="imageWrapper"
+          >
+            <img
+              alt="Cluster Lesson"
+              class="image"
+              src="https://picsum.photos/600/300"
+            />
+          </div>
+          <section
+            class="flex flex-col justify-between flex-1 pt-xs px-xs pb-xxs min-h-[100px]"
+          >
+            <h5
+              class="name"
+            >
+              Cluster Lesson
+            </h5>
+          </section>
+          <section
+            class="relative bg-primary-200 rounded-b-sm text-primary-500 before:h-xxxs before:bg-neutral-400 before:inset-0 before:absolute before:bg-primary-500"
+          >
+            <div
+              class="flex items-center text-xxs p-xs xxxl:text-xs xxxl:py-sm xxxl:px-xs leading-lg"
+            >
+              Show more
+              <div
+                class="icon footerIcon -xs-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </div>
+          </section>
+        </a>
+        <a
+          aria-label="Project Lesson"
+          class="card grow-0 shrink-0 basis-[calc(25%-theme(spacing.x))]"
+          href="/opportunities/1/virtual-internship/2/lessons/78"
+        >
+          <div
+            class="imageWrapper"
+          >
+            <img
+              alt="Project Lesson"
+              class="image"
+              src="https://picsum.photos/600/300"
+            />
+          </div>
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 absolute top-xs left-xs bg-success-500 rounded-full text-white p-xs"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          <section
+            class="flex flex-col justify-between flex-1 pt-xs px-xs pb-xxs min-h-[100px]"
+          >
+            <h5
+              class="name"
+            >
+              Project Lesson
+            </h5>
+          </section>
+          <section
+            class="relative bg-primary-200 rounded-b-sm text-primary-500 before:h-xxxs before:bg-neutral-400 before:inset-0 before:absolute before:bg-primary-500"
+          >
+            <div
+              class="flex items-center text-xxs p-xs xxxl:text-xs xxxl:py-sm xxxl:px-xs leading-lg"
+            >
+              Show more
+              <div
+                class="icon footerIcon -xs-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </div>
+          </section>
+        </a>
+        <a
+          aria-label="Pathway Lesson"
+          class="card grow-0 shrink-0 basis-[calc(25%-theme(spacing.x))]"
+          href="/opportunities/1/virtual-internship/2/lessons/69"
+        >
+          <div
+            class="imageWrapper"
+          >
+            <img
+              alt="Pathway Lesson"
+              class="image"
+              src="https://picsum.photos/600/300"
+            />
+          </div>
+          <section
+            class="flex flex-col justify-between flex-1 pt-xs px-xs pb-xxs min-h-[100px]"
+          >
+            <h5
+              class="name"
+            >
+              Pathway Lesson
+            </h5>
+          </section>
+          <section
+            class="relative bg-primary-200 rounded-b-sm text-primary-500 before:h-xxxs before:bg-neutral-400 before:inset-0 before:absolute before:bg-primary-500"
+          >
+            <div
+              class="flex items-center text-xxs p-xs xxxl:text-xs xxxl:py-sm xxxl:px-xs leading-lg"
+            >
+              Show more
+              <div
+                class="icon footerIcon -xs-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </div>
+          </section>
+        </a>
+      </div>
+    </div>
+    <div
+      class="card border border-neutral-300"
+    >
+      <div
+        aria-labelledby="lesson-group-name"
+        data-testid="lesson-group"
+      >
+        <h5
+          class="text-sm xxxl:text-base mb-xxs xxxl:mb-xs"
+          id="lesson-group-name"
+        >
+          Experiences
+        </h5>
+        <p
+          class="text-xs xxxl:text-sm leading-lg mb-base xxxl:mb-md"
+        >
+          Gain hands-on experience  by choosing 2 products from distinct careers within this cluster.
+        </p>
+        <div
+          class="flex flex-wrap gap-y-base gap-x-sm xxxl:gap-y-md justify-center"
+        >
+          <a
+            aria-label="First experience opportunity"
+            class="card grow-0 shrink-0 basis-[calc(25%-theme(spacing.x))]"
+            href="/opportunities/1/virtual-internship/2/lessons/67"
+          >
+            <div
+              class="imageWrapper"
+            >
+              <img
+                alt="First experience opportunity"
+                class="image"
+                src="https://picsum.photos/600/300"
+              />
+            </div>
+            <section
+              class="flex flex-col justify-between flex-1 pt-xs px-xs pb-xxs min-h-[100px]"
+            >
+              <h5
+                class="name"
+              >
+                First experience opportunity
+              </h5>
+            </section>
+            <section
+              class="relative bg-primary-200 rounded-b-sm text-primary-500 before:h-xxxs before:bg-neutral-400 before:inset-0 before:absolute before:bg-primary-500"
+            >
+              <div
+                class="flex items-center text-xxs p-xs xxxl:text-xs xxxl:py-sm xxxl:px-xs leading-lg"
+              >
+                Show more
+                <div
+                  class="icon footerIcon -xs-size"
+                  data-testid="icon"
+                >
+                  <div />
+                </div>
+              </div>
+            </section>
+          </a>
+          <a
+            aria-label="Second experience opportunity"
+            class="card grow-0 shrink-0 basis-[calc(25%-theme(spacing.x))]"
+            href="/opportunities/1/virtual-internship/2/lessons/68"
+          >
+            <div
+              class="imageWrapper"
+            >
+              <img
+                alt="Second experience opportunity"
+                class="image"
+                src="https://picsum.photos/600/300"
+              />
+            </div>
+            <section
+              class="flex flex-col justify-between flex-1 pt-xs px-xs pb-xxs min-h-[100px]"
+            >
+              <h5
+                class="name"
+              >
+                Second experience opportunity
+              </h5>
+            </section>
+            <section
+              class="relative bg-primary-200 rounded-b-sm text-primary-500 before:h-xxxs before:bg-neutral-400 before:inset-0 before:absolute before:bg-primary-500"
+            >
+              <div
+                class="flex items-center text-xxs p-xs xxxl:text-xs xxxl:py-sm xxxl:px-xs leading-lg"
+              >
+                Show more
+                <div
+                  class="icon footerIcon -xs-size"
+                  data-testid="icon"
+                >
+                  <div />
+                </div>
+              </div>
+            </section>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-labelledby="lesson-group-name"
+      data-testid="lesson-group"
+    >
+      <h5
+        class="text-sm xxxl:text-base mb-xxs xxxl:mb-xs"
+        id="lesson-group-name"
+      >
+        Post-Experience
+      </h5>
+      <p
+        class="text-xs xxxl:text-sm leading-lg mb-base xxxl:mb-md"
+      >
+        Reflect on the knowledge and skills acquired and understand the next steps necessary to become successful in this career cluster.
+      </p>
+      <div
+        class="flex flex-wrap gap-y-base gap-x-sm xxxl:gap-y-md"
+      >
+        <a
+          aria-label="Career Review Survey"
+          class="card grow-0 shrink-0 basis-[calc(25%-theme(spacing.x))]"
+          href="/opportunities/1/virtual-internship/2/lessons/33"
+        >
+          <div
+            class="imageWrapper"
+          >
+            <img
+              alt="Career Review Survey"
+              class="image"
+              src="https://picsum.photos/600/300"
+            />
+          </div>
+          <section
+            class="flex flex-col justify-between flex-1 pt-xs px-xs pb-xxs min-h-[100px]"
+          >
+            <h5
+              class="name"
+            >
+              Career Review Survey
+            </h5>
+          </section>
+          <section
+            class="relative bg-primary-200 rounded-b-sm text-primary-500 before:h-xxxs before:bg-neutral-400 before:inset-0 before:absolute before:bg-primary-500"
+          >
+            <div
+              class="flex items-center text-xxs p-xs xxxl:text-xs xxxl:py-sm xxxl:px-xs leading-lg"
+            >
+              Show more
+              <div
+                class="icon footerIcon -xs-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </div>
+          </section>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="card"
+  >
+    <div
+      aria-labelledby="lesson-group-name"
+      data-testid="lesson-group"
+    >
+      <h5
+        class="text-sm xxxl:text-base mb-xxs xxxl:mb-xs"
+        id="lesson-group-name"
+      >
+        Related Skills
+      </h5>
+      <p
+        class="text-xs xxxl:text-sm leading-lg mb-base xxxl:mb-md"
+      >
+        Consider these modules to help develop skills related to this career cluster.
+      </p>
+      <div
+        class="flex flex-wrap gap-y-base gap-x-sm xxxl:gap-y-md"
+      >
+        <a
+          aria-label="Readiness skills section"
+          class="card grow-0 shrink-0 basis-[calc(25%-theme(spacing.x))]"
+          href="/opportunities/1/virtual-internship/2/lessons/58"
+        >
+          <div
+            class="imageWrapper"
+          >
+            <img
+              alt="Readiness skills section"
+              class="image"
+              src="https://picsum.photos/600/300"
+            />
+          </div>
+          <section
+            class="flex flex-col justify-between flex-1 pt-xs px-xs pb-xxs min-h-[100px]"
+          >
+            <h5
+              class="name"
+            >
+              Readiness skills section
+            </h5>
+          </section>
+          <section
+            class="relative bg-primary-200 rounded-b-sm text-primary-500 before:h-xxxs before:bg-neutral-400 before:inset-0 before:absolute before:bg-primary-500"
+          >
+            <div
+              class="flex items-center text-xxs p-xs xxxl:text-xs xxxl:py-sm xxxl:px-xs leading-lg"
+            >
+              Show more
+              <div
+                class="icon footerIcon -xs-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </div>
+          </section>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

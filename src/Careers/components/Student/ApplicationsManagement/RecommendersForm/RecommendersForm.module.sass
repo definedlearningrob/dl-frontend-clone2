@@ -1,0 +1,44 @@
+@import '@shared/stylesheets/config.sass'
+
+$modal-body-height: 390px
+$value-container-height: 48px
+
+
+.modalBody
+  color: $color-font-secondary
+  height: $modal-body-height
+
+.message
+  color: $color-font-primary
+  font-weight: $font-weight-regular
+  margin-bottom: $m-base
+
+.progressBar
+  margin-bottom: $m-xxs
+
+.selectedInfo
+  color: $color-font-secondary
+  font-size: $font-size-xs
+
+  span
+    color: $color-primary-500
+
+.selectList
+  font-size: $font-size-xxs
+
+  :global(.select__value-container)
+    font-size: $font-size-xxs
+    height: $value-container-height !important
+    padding: 0 !important
+
+  :global(.select__multi-value)
+      align-items: center
+      border-radius: $border-radius-sm
+      padding: $m-xxs
+
+      > :nth-child(2)
+        line-height: $line-height-lg
+        padding: 0 0 0 $m-xs
+
+      > div[role='button']:hover
+        background-color: initial

@@ -1,0 +1,27 @@
+@import '@shared/stylesheets/config.sass'
+
+.checkInItemName
+  font-size: $font-size-sm
+  margin-bottom: $m-base
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-base
+
+.questionsWrapper
+  +flex-container(column)
+  gap: $m-base
+
+  +media-breakpoint-up(xxxl)
+    gap: $m-md
+
+.textArea
+  background-color: $color-white
+  border: 1px solid $color-border-disabled
+  border-radius: $border-radius-sm
+  padding: $m-x
+  resize: none
+  width: 100%
+
+.checkInActions
+  +flex-container(row, flex-end, center)
+  margin-top: $m-base

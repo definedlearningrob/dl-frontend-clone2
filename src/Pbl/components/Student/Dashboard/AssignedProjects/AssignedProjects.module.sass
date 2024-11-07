@@ -1,0 +1,25 @@
+@import '@shared/stylesheets/config'
+
+.wrapper
+  grid-column: span 2
+  +flex-container(column)
+
+.list
+  +flex-container(column)
+  gap: $m-sm
+  flex-grow: 1
+
+  +media-breakpoint-up(sm)
+    +flex-container(row, flex-start, stretch)
+
+.customCard
+  height: 100% 
+
+.heading
+  font-size: $font-size-sm
+  margin: 0
+
+.subHeading
+  color: $color-font-primary
+  font-size: $font-size-xs
+  margin: $m-xs 0 $m-sm 0

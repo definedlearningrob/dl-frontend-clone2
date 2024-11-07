@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeamItem should render correctly 1`] = `
+<div>
+  <div
+    class="team flex items-center relative font-bold overflow-hidden py-x px-xs xxxl:p-sm hover:bg-primary-200 border-b border-neutral-300 last:border-b-0"
+  >
+    <div
+      class="wrapper"
+    >
+      <div
+        class="teamIconWrapper"
+      >
+        <div
+          class="icon teamIcon"
+          data-testid="icon"
+        >
+          <div />
+        </div>
+      </div>
+      <div>
+        <p
+          class="memberCount"
+        >
+          2 members
+        </p>
+        <h6
+          class="teamName"
+        >
+          team name
+        </h6>
+      </div>
+    </div>
+    <div
+      class="flex items-center absolute right-xs gap-xs"
+    >
+      <div
+        class="group"
+      >
+        <div
+          class="avatarWrapper"
+        >
+          <button
+            aria-controls="radix-0"
+            aria-expanded="false"
+            aria-haspopup="dialog"
+            data-state="closed"
+            type="button"
+          >
+            <div
+              class="avatar"
+              data-testid="avatar-image"
+            >
+              <div
+                class="avatar__image sb-avatar"
+                style="display: inline-block; vertical-align: middle; width: 32px; height: 32px; border-radius: 100%; font-family: Helvetica, Arial, sans-serif;"
+              >
+                <div
+                  class="avatar__image sb-avatar__text"
+                  style="width: 32px; height: 32px; line-height: initial; text-align: center; color: rgb(116, 122, 136); background: rgb(240, 242, 247); border-radius: 100%;"
+                >
+                  <div
+                    style="display: table; table-layout: fixed; width: 100%; height: 100%;"
+                  >
+                    <span
+                      style="display: table-cell; vertical-align: middle; font-size: 100%; white-space: nowrap;"
+                    >
+                      <span />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div
+          class="avatarWrapper"
+        >
+          <button
+            aria-controls="radix-1"
+            aria-expanded="false"
+            aria-haspopup="dialog"
+            data-state="closed"
+            type="button"
+          >
+            <div
+              class="avatar"
+              data-testid="avatar-image"
+            >
+              <div
+                class="avatar__image sb-avatar"
+                style="display: inline-block; vertical-align: middle; width: 32px; height: 32px; border-radius: 100%; font-family: Helvetica, Arial, sans-serif;"
+              >
+                <div
+                  class="avatar__image sb-avatar__text"
+                  style="width: 32px; height: 32px; line-height: initial; text-align: center; color: rgb(116, 122, 136); background: rgb(240, 242, 247); border-radius: 100%;"
+                >
+                  <div
+                    style="display: table; table-layout: fixed; width: 100%; height: 100%;"
+                  >
+                    <span
+                      style="display: table-cell; vertical-align: middle; font-size: 100%; white-space: nowrap;"
+                    >
+                      <span />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        class="dropdown-portal-container"
+      >
+        <div
+          class="dropdown-portal-options__trigger"
+          data-testid="dropdown-trigger-container"
+        >
+          <button
+            class="dropdown-portal-options__trigger-icon-wrapper"
+          >
+            <div
+              class="icon dropdown-portal-options__trigger-icon -sm-size"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

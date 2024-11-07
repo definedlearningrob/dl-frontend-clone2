@@ -1,0 +1,14 @@
+@import '@shared/stylesheets/config.sass'
+
+$chips-width: 320px
+
+.tagsWrapper
+  +flex-container(row)
+
+.tag
+  &#{&}
+    font-size: $font-size-xxs
+    display: block
+    margin: 0 0 0 $m-xs
+    max-width: $chips-width
+    white-space: nowrap

@@ -1,0 +1,912 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CatalogTrack renders correctly 1`] = `
+<div>
+  <div
+    class="p-base xxxl:p-md flex gap-base xxxl:gap-md pt-xs xxxl:pt-sm"
+    id="read"
+  >
+    <div
+      class="flex-1 flex flex-col gap-base xxxl:gap-md"
+    >
+      <div
+        class="card flex gap-base xxxl:gap-md"
+        data-testid="track-summary-card"
+      >
+        <img
+          class="rounded-sm h-[120px] xxxl:h-[180px] w-[213px] xxxl:w-[320px] shrink-0 object-cover"
+          src="https://via.placeholder.com/150"
+        />
+        <div
+          class="flex flex-col gap-sm"
+        >
+          <div
+            class="flex flex-col gap-xs"
+          >
+            <div
+              class="flex gap-xs xxxl:gap-sm"
+            >
+              <span
+                class="min-w-0"
+                data-state="closed"
+              >
+                <div
+                  class="flex gap-xxs px-xs py-xxs rounded-full text-xxs font-medium leading-lg transition-all bg-neutral-200 text-font-primary"
+                >
+                  <div
+                    class="truncate"
+                  >
+                    Grades: K - 1
+                  </div>
+                </div>
+              </span>
+              <div
+                class="flex gap-xxs px-xs py-xxs rounded-full text-xxs font-medium leading-lg transition-all bg-neutral-200 text-font-primary"
+              >
+                <div
+                  class="truncate"
+                >
+                  Projects: 5
+                </div>
+              </div>
+            </div>
+            <h5
+              class="mb-0 text-sm xxxl:text-base"
+            >
+              Track
+            </h5>
+          </div>
+          <div
+            class="injected-content text-xxs xxxl:text-xs leading-lg text-font-secondary line-clamp-3"
+          >
+            Track description
+          </div>
+        </div>
+      </div>
+      <ul
+        aria-label="Unit list"
+        class="flex flex-col gap-sm"
+      >
+        <li
+          aria-label="Unit 1"
+        >
+          <div
+            class="card"
+            id="unit-111"
+          >
+            <div
+              class="flex gap-base mb-base"
+            >
+              <img
+                class="rounded-sm h-[80px] xxxl:h-[124px] w-[142px] xxxl:w-[220px] shrink-0 object-cover"
+                src="https://via.placeholder.com/150"
+              />
+              <div>
+                <div
+                  class="kicker sm default"
+                >
+                  Unit 1
+                </div>
+                <h6
+                  class="text-xs xxxl:text-sm mb-xs xxxl:mb-sm"
+                >
+                  Unit 1
+                </h6>
+                <div
+                  class="injected-content text-xxs xxxl:text-xs leading-lg text-font-secondary"
+                >
+                  Unit 1 description
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="flex gap-sm items-center text-xs xxxl:text-sm font-bold after:block after:w-full after:h-[1px] after:bg-neutral-300"
+              >
+                <span
+                  class="whitespace-nowrap"
+                >
+                  Projects 
+                  <span
+                    class="text-neutral-600"
+                  >
+                    (3)
+                  </span>
+                </span>
+              </div>
+              <ul
+                class="grid grid-cols-2 xxl:grid-cols-3 gap-sm pt-sm"
+              >
+                <li>
+                  <a
+                    class="group h-full flex flex-col rounded-sm text-font-primary hover:text-font-primary bg-white border border-neutral-300 hover:border-neutral-400 hover:shadow-300 transition-shadow"
+                    href="/courses/1111"
+                  >
+                    <div
+                      class="relative before:bg-neutral-800 before:opacity-[48%] before:absolute before:inset-0 before:rounded-t-sm group-hover:before:opacity-0 before:transition-opacity"
+                    >
+                      <img
+                        class="rounded-t-sm h-[180px] xxxl:h-[192px] w-full object-cover"
+                        src="https://via.placeholder.com/150"
+                      />
+                      <span
+                        class="absolute top-sm left-sm"
+                        data-state="closed"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 rounded-sm bg-white text-primary-500 p-xs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </span>
+                    </div>
+                    <div
+                      class="flex-1 py-xs xxxl:py-sm px-sm border-b border-neutral-300"
+                    >
+                      <div
+                        class="mb-xs max-w-fit"
+                      >
+                        <span
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex gap-xxs px-xs py-xxs rounded-full text-xxs font-medium leading-lg transition-all bg-neutral-200 text-font-primary"
+                          >
+                            <div
+                              class="flex"
+                            >
+                              <div
+                                class="flex align-center justify-center grow-0 shrink-0"
+                                data-testid="icon"
+                              >
+                                <div
+                                  class="h-sm w-sm"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              class="truncate"
+                            >
+                              Marketing Research
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                      <span
+                        data-state="closed"
+                      >
+                        <h6
+                          class="text-xs xxxl:text-sm line-clamp-2"
+                        >
+                          Course 1
+                        </h6>
+                      </span>
+                      <div
+                        class="injected-content text-xxs xxxl:text-xs leading-lg text-font-secondary group-hover:text-font-primary transition-colors line-clamp-4 xxxl:line-clamp-6"
+                      >
+                        Course 1 description
+                      </div>
+                    </div>
+                    <div
+                      class="flex items-center gap-xxs group-hover:gap-xs p-sm text-primary-500 group-hover:text-primary-600 transition-all"
+                    >
+                      <span
+                        class="text-xs xxxl:text-sm leading-lg font-medium"
+                      >
+                        View
+                      </span>
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="group h-full flex flex-col rounded-sm text-font-primary hover:text-font-primary bg-white border border-neutral-300 hover:border-neutral-400 hover:shadow-300 transition-shadow"
+                    href="/opportunities/1112"
+                  >
+                    <div
+                      class="relative before:bg-neutral-800 before:opacity-[48%] before:absolute before:inset-0 before:rounded-t-sm group-hover:before:opacity-0 before:transition-opacity"
+                    >
+                      <img
+                        class="rounded-t-sm h-[180px] xxxl:h-[192px] w-full object-cover"
+                        src="https://via.placeholder.com/150"
+                      />
+                      <span
+                        class="absolute top-sm left-sm"
+                        data-state="closed"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 rounded-sm bg-white text-primary-500 p-xs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </span>
+                    </div>
+                    <div
+                      class="flex-1 py-xs xxxl:py-sm px-sm border-b border-neutral-300"
+                    >
+                      <div
+                        class="mb-xs max-w-fit"
+                      >
+                        <span
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex gap-xxs px-xs py-xxs rounded-full text-xxs font-medium leading-lg transition-all bg-neutral-200 text-font-primary"
+                          >
+                            <div
+                              class="flex"
+                            >
+                              <div
+                                class="flex align-center justify-center grow-0 shrink-0"
+                                data-testid="icon"
+                              >
+                                <div
+                                  class="h-sm w-sm"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              class="truncate"
+                            >
+                              Animal Systems, Printing Technology
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                      <span
+                        data-state="closed"
+                      >
+                        <h6
+                          class="text-xs xxxl:text-sm line-clamp-2"
+                        >
+                          Opportunity 1
+                        </h6>
+                      </span>
+                      <div
+                        class="injected-content text-xxs xxxl:text-xs leading-lg text-font-secondary group-hover:text-font-primary transition-colors line-clamp-4 xxxl:line-clamp-6"
+                      >
+                        Opportunity 1 description
+                      </div>
+                    </div>
+                    <div
+                      class="flex items-center gap-xxs group-hover:gap-xs p-sm text-primary-500 group-hover:text-primary-600 transition-all"
+                    >
+                      <span
+                        class="text-xs xxxl:text-sm leading-lg font-medium"
+                      >
+                        View
+                      </span>
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="group h-full flex flex-col rounded-sm text-font-primary hover:text-font-primary bg-white border border-neutral-300 hover:border-neutral-400 hover:shadow-300 transition-shadow"
+                    href="/opportunities/1113"
+                  >
+                    <div
+                      class="relative before:bg-neutral-800 before:opacity-[48%] before:absolute before:inset-0 before:rounded-t-sm group-hover:before:opacity-0 before:transition-opacity"
+                    >
+                      <img
+                        class="rounded-t-sm h-[180px] xxxl:h-[192px] w-full object-cover"
+                        src="https://via.placeholder.com/150"
+                      />
+                      <span
+                        class="absolute top-sm left-sm"
+                        data-state="closed"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 rounded-sm bg-white text-primary-500 p-xs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </span>
+                    </div>
+                    <div
+                      class="flex-1 py-xs xxxl:py-sm px-sm border-b border-neutral-300"
+                    >
+                      <div
+                        class="mb-xs max-w-fit"
+                      >
+                        <span
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex gap-xxs px-xs py-xxs rounded-full text-xxs font-medium leading-lg transition-all bg-neutral-200 text-font-primary"
+                          >
+                            <div
+                              class="flex"
+                            >
+                              <div
+                                class="flex align-center justify-center grow-0 shrink-0"
+                                data-testid="icon"
+                              >
+                                <div
+                                  class="h-sm w-sm"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              class="truncate"
+                            >
+                              Environmental Service Systems
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                      <span
+                        data-state="closed"
+                      >
+                        <h6
+                          class="text-xs xxxl:text-sm line-clamp-2"
+                        >
+                          Virtual Internship 1
+                        </h6>
+                      </span>
+                      <div
+                        class="injected-content text-xxs xxxl:text-xs leading-lg text-font-secondary group-hover:text-font-primary transition-colors line-clamp-4 xxxl:line-clamp-6"
+                      >
+                        Virtual Internship 1 description
+                      </div>
+                    </div>
+                    <div
+                      class="flex items-center gap-xxs group-hover:gap-xs p-sm text-primary-500 group-hover:text-primary-600 transition-all"
+                    >
+                      <span
+                        class="text-xs xxxl:text-sm leading-lg font-medium"
+                      >
+                        View
+                      </span>
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li
+          aria-label="Unit 2"
+        >
+          <div
+            class="card"
+            id="unit-112"
+          >
+            <div
+              class="flex gap-base mb-base"
+            >
+              <img
+                class="rounded-sm h-[80px] xxxl:h-[124px] w-[142px] xxxl:w-[220px] shrink-0 object-cover"
+                src="https://via.placeholder.com/150"
+              />
+              <div>
+                <div
+                  class="kicker sm default"
+                >
+                  Unit 2
+                </div>
+                <h6
+                  class="text-xs xxxl:text-sm mb-xs xxxl:mb-sm"
+                >
+                  Unit 2
+                </h6>
+                <div
+                  class="injected-content text-xxs xxxl:text-xs leading-lg text-font-secondary"
+                >
+                  Unit 2 description
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="flex gap-sm items-center text-xs xxxl:text-sm font-bold after:block after:w-full after:h-[1px] after:bg-neutral-300"
+              >
+                <span
+                  class="whitespace-nowrap"
+                >
+                  Projects 
+                  <span
+                    class="text-neutral-600"
+                  >
+                    (2)
+                  </span>
+                </span>
+              </div>
+              <ul
+                class="grid grid-cols-2 xxl:grid-cols-3 gap-sm pt-sm"
+              >
+                <li>
+                  <a
+                    class="group h-full flex flex-col rounded-sm text-font-primary hover:text-font-primary bg-white border border-neutral-300 hover:border-neutral-400 hover:shadow-300 transition-shadow"
+                    href="/courses/1114"
+                  >
+                    <div
+                      class="relative before:bg-neutral-800 before:opacity-[48%] before:absolute before:inset-0 before:rounded-t-sm group-hover:before:opacity-0 before:transition-opacity"
+                    >
+                      <img
+                        class="rounded-t-sm h-[180px] xxxl:h-[192px] w-full object-cover"
+                        src="https://via.placeholder.com/150"
+                      />
+                      <span
+                        class="absolute top-sm left-sm"
+                        data-state="closed"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 rounded-sm bg-white text-primary-500 p-xs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </span>
+                    </div>
+                    <div
+                      class="flex-1 py-xs xxxl:py-sm px-sm border-b border-neutral-300"
+                    >
+                      <div
+                        class="mb-xs max-w-fit"
+                      >
+                        <span
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex gap-xxs px-xs py-xxs rounded-full text-xxs font-medium leading-lg transition-all bg-neutral-200 text-font-primary"
+                          >
+                            <div
+                              class="flex"
+                            >
+                              <div
+                                class="flex align-center justify-center grow-0 shrink-0"
+                                data-testid="icon"
+                              >
+                                <div
+                                  class="h-sm w-sm"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              class="truncate"
+                            >
+                              Facility and Mobile Equipment Maintenance
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                      <span
+                        data-state="closed"
+                      >
+                        <h6
+                          class="text-xs xxxl:text-sm line-clamp-2"
+                        >
+                          Course 2
+                        </h6>
+                      </span>
+                      <div
+                        class="injected-content text-xxs xxxl:text-xs leading-lg text-font-secondary group-hover:text-font-primary transition-colors line-clamp-4 xxxl:line-clamp-6"
+                      >
+                        Course 2 description
+                      </div>
+                    </div>
+                    <div
+                      class="flex items-center gap-xxs group-hover:gap-xs p-sm text-primary-500 group-hover:text-primary-600 transition-all"
+                    >
+                      <span
+                        class="text-xs xxxl:text-sm leading-lg font-medium"
+                      >
+                        View
+                      </span>
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="group h-full flex flex-col rounded-sm text-font-primary hover:text-font-primary bg-white border border-neutral-300 hover:border-neutral-400 hover:shadow-300 transition-shadow"
+                    href="/opportunities/1115"
+                  >
+                    <div
+                      class="relative before:bg-neutral-800 before:opacity-[48%] before:absolute before:inset-0 before:rounded-t-sm group-hover:before:opacity-0 before:transition-opacity"
+                    >
+                      <img
+                        class="rounded-t-sm h-[180px] xxxl:h-[192px] w-full object-cover"
+                        src="https://via.placeholder.com/150"
+                      />
+                      <span
+                        class="absolute top-sm left-sm"
+                        data-state="closed"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 rounded-sm bg-white text-primary-500 p-xs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </span>
+                    </div>
+                    <div
+                      class="flex-1 py-xs xxxl:py-sm px-sm border-b border-neutral-300"
+                    >
+                      <div
+                        class="mb-xs max-w-fit"
+                      >
+                        <span
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex gap-xxs px-xs py-xxs rounded-full text-xxs font-medium leading-lg transition-all bg-neutral-200 text-font-primary"
+                          >
+                            <div
+                              class="flex"
+                            >
+                              <div
+                                class="flex align-center justify-center grow-0 shrink-0"
+                                data-testid="icon"
+                              >
+                                <div
+                                  class="h-sm w-sm"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              class="truncate"
+                            >
+                              Transportation Operations
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                      <span
+                        data-state="closed"
+                      >
+                        <h6
+                          class="text-xs xxxl:text-sm line-clamp-2"
+                        >
+                          Opportunity 2
+                        </h6>
+                      </span>
+                      <div
+                        class="injected-content text-xxs xxxl:text-xs leading-lg text-font-secondary group-hover:text-font-primary transition-colors line-clamp-4 xxxl:line-clamp-6"
+                      >
+                        Opportunity 2 description
+                      </div>
+                    </div>
+                    <div
+                      class="flex items-center gap-xxs group-hover:gap-xs p-sm text-primary-500 group-hover:text-primary-600 transition-all"
+                    >
+                      <span
+                        class="text-xs xxxl:text-sm leading-lg font-medium"
+                      >
+                        View
+                      </span>
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="card withoutPadding basis-[318px] xxxl:basis-[512px] grow-0 shrink-0 max-h-[calc(theme(layout.containerHeight)-32px)] xxxl:max-h-[calc(theme(layout.containerHeight)-48px)] scrollbar sticky top-[56px] xxxl:top-[64px]"
+      data-testid="table-of-content"
+    >
+      <div
+        class="p-base pb-sm xxxl:p-md bg-white sticky top-0 z-lower"
+      >
+        <h5
+          class="text-sm xxxl:text-base mb-0"
+        >
+          Unit Outline
+        </h5>
+      </div>
+      <div
+        class="flex flex-col gap-md xxxl:gap-lg p-base xxxl:p-md !pt-0"
+      >
+        <div
+          class="relative flex flex-col gap-xs xxxl:gap-sm after:w-full after:h-[1px] after:bg-neutral-300 after:absolute after:-bottom-sm after:xxxl:-bottom-base last:after:content-none"
+        >
+          <button
+            class="flex gap-xs text-left"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-neutral-200 rounded-sm text-primary-500 p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="kicker sm dark !mb-xxs xxxl:!mb-xs"
+              >
+                Unit 1
+              </div>
+              <h6
+                class="text-xs xxxl:text-sm mb-0 text-primary-500"
+              >
+                Unit 1
+              </h6>
+            </div>
+          </button>
+          <ul
+            class="pt-xs px-base xxxl:px-md flex flex-col gap-xs xxxl:gap-x"
+          >
+            <li>
+              <a
+                class="flex items-center gap-xs"
+                href="/courses/1111"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-xs bg-primary-200 text-primary-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <span
+                  data-state="closed"
+                >
+                  <span
+                    class="text-xxs xxxl:text-xs font-medium leading-lg line-clamp-2"
+                  >
+                    Course 1
+                  </span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="flex items-center gap-xs"
+                href="/opportunities/1112"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-xs bg-primary-200 text-primary-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <span
+                  data-state="closed"
+                >
+                  <span
+                    class="text-xxs xxxl:text-xs font-medium leading-lg line-clamp-2"
+                  >
+                    Opportunity 1
+                  </span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="flex items-center gap-xs"
+                href="/opportunities/1113"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-xs bg-primary-200 text-primary-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <span
+                  data-state="closed"
+                >
+                  <span
+                    class="text-xxs xxxl:text-xs font-medium leading-lg line-clamp-2"
+                  >
+                    Virtual Internship 1
+                  </span>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="relative flex flex-col gap-xs xxxl:gap-sm after:w-full after:h-[1px] after:bg-neutral-300 after:absolute after:-bottom-sm after:xxxl:-bottom-base last:after:content-none"
+        >
+          <button
+            class="flex gap-xs text-left"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-neutral-200 rounded-sm text-primary-500 p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="kicker sm dark !mb-xxs xxxl:!mb-xs"
+              >
+                Unit 2
+              </div>
+              <h6
+                class="text-xs xxxl:text-sm mb-0 text-primary-500"
+              >
+                Unit 2
+              </h6>
+            </div>
+          </button>
+          <ul
+            class="pt-xs px-base xxxl:px-md flex flex-col gap-xs xxxl:gap-x"
+          >
+            <li>
+              <a
+                class="flex items-center gap-xs"
+                href="/courses/1114"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-xs bg-primary-200 text-primary-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <span
+                  data-state="closed"
+                >
+                  <span
+                    class="text-xxs xxxl:text-xs font-medium leading-lg line-clamp-2"
+                  >
+                    Course 2
+                  </span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="flex items-center gap-xs"
+                href="/opportunities/1115"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-xs bg-primary-200 text-primary-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <span
+                  data-state="closed"
+                >
+                  <span
+                    class="text-xxs xxxl:text-xs font-medium leading-lg line-clamp-2"
+                  >
+                    Opportunity 2
+                  </span>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

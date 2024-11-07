@@ -1,0 +1,49 @@
+@import '@shared/stylesheets/config.sass'
+
+$image-width: 460px
+$image-height: 260px
+
+$image-height: 180px
+$image-height-xxxl: 240px
+
+.container
+  +flex-container(row, false, flex-start)
+  flex-wrap: wrap
+  gap: $m-base
+
+  +media-breakpoint-up(xl)
+    flex-wrap: nowrap
+
+.imageWrapper
+  border-radius: $m-xs
+  overflow: hidden
+  max-height: $image-height
+  flex: 0 0 27%
+
+  +media-breakpoint-up(xxxl)
+    max-height: $image-height-xxxl
+    flex: 0 0 32%
+
+.cardContent
+  +flex-container(column)
+  flex: 1
+
+.description
+  color: $color-font-secondary
+  font-size: $font-size-xxs
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+
+.tag
+  font-size: $font-size-xs
+  color: $color-font-secondary
+  margin-bottom: $m-sm
+
+.header
+  +flex-container(row, space-between)
+  gap: $m-xs
+
+.actions
+  +flex-container(row, flex-end, flex-start)
+  gap: $m-sm

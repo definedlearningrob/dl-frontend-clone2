@@ -1,0 +1,69 @@
+@import '@shared/stylesheets/config.sass'
+
+.tablesTable
+  padding: 0
+
+.nameContainer
+  +flex-container(row, flex-start, center)
+  height: 100%
+  padding: $m-sm
+
+.name
+  margin-left: $m-sm
+  position: relative
+
+.gradingNeeded
+  border-left: 2px solid $color-secondary-500
+  color: $color-secondary-500
+  font-size: $font-size-xxs
+  left: 0
+  position: absolute
+  top: -$m-x
+  white-space: nowrap
+
+.roleBadge
+  border-radius: $border-radius-xs
+  padding: $m-xs
+  width: fit-content
+
+.admin
+  background-color: $color-secondary-200
+  color: $color-secondary-500
+
+.teacher
+  background-color: $color-primary-200
+  color: $color-primary-500
+
+.entityContainer
+  color: $color-primary-500
+  cursor: pointer
+
+.entityParent
+  font-size: $font-size-xxs
+
+.entityName
+  display: block
+
+.link
+  +link-unstyled
+  color: $color-primary-500 !important
+  margin-right: $m-sm
+
+.actions
+  +flex-container(column, center, center)
+  gap: $m-xxs
+
+.tooltip
+  font-size: $font-size-xxs
+  font-weight: $font-weight-regular
+  padding: $m-sm
+  text-align: center
+  width: 100px
+
+.reportButton
+  visibility: hidden
+
+.tablesTable
+  :global(.shared-table__row:hover)
+    .reportButton
+      visibility: visible

@@ -1,0 +1,40 @@
+@import '@shared/stylesheets/config.sass'
+
+.grading-modal-navigation
+
+  &__button
+    +button-unstyled
+    +flex-container(row, center, center)
+    background-color: $color-background
+    border-radius: $border-radius-sm
+    color: $color-primary-500
+    fill: $color-primary-500
+    font-size: $font-size-xs
+
+    height: 40px
+    transition: background-color $transition-duration * 0.5 $transition-function
+    width: 140px
+
+    &:hover
+        background-color: darken($color-background, 4%)
+
+    &:disabled
+      background-color: #f0f2f7
+      color: $color-disabled
+      cursor: not-allowed
+
+      svg
+        fill: $color-disabled
+
+      &:hover
+        background-color: lighten($color-background, 2%)
+
+    &.-previous
+      .icon
+        margin-right: $m-xs
+
+    &.-next
+      flex-direction: row-reverse
+
+      .icon
+        margin-left: $m-xs

@@ -1,0 +1,16 @@
+@import '@shared/stylesheets/config.sass'
+
+.team
+  :global(.dropdown-portal-container)
+    width: 0
+    transition: width .1s ease-out
+
+  &:hover
+    :global(.dropdown-portal-options__trigger-icon-wrapper)
+      background-color: $color-white
+
+    .teamIconWrapper
+      background-color: $color-white
+
+    :global(.dropdown-portal-container)
+      width: $m-md

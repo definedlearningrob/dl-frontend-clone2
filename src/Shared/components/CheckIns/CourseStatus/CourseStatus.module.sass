@@ -1,0 +1,60 @@
+@import '@shared/stylesheets/config'
+
+$status-wrapper-height: 128px
+
+.statusWrapper
+  background-color: $color-white
+  border-radius: $border-radius-xs
+  height: 100%
+  min-height: $status-wrapper-height
+  padding: $m-base
+  user-select: none
+  width: 100%
+
+.statusTop
+  +flex-container(row, space-between, flex-start)
+  margin-bottom: $m-base
+
+.headingStatus
+  line-height: 1.2
+  margin-bottom: $m-xxs
+
+.headingHint
+  color: $color-font-primary
+  font-size: $font-size-sm
+  font-weight: $font-weight-regular
+  letter-spacing: 0.01em
+  line-height: 150%
+  margin: 0
+
+.statusLegend
+  +flex-container(row, center, center)
+  color: $color-neutral-800
+  font-size: $font-size-xxs
+  font-weight: $font-weight-regular
+
+  p
+    margin:
+      bottom: 0
+      left: 0
+      right: $m-x
+      top: 0
+    white-space: nowrap
+
+.statusLegendIcon
+  margin:
+    bottom: 0
+    left: 0
+    right: $m-xxs
+    top: 0
+
+.statusBottom
+  +flex-container(row, flex-start, center)
+  flex-wrap: wrap
+  row-gap: $m-sm
+
+.submitted
+  color: $color-secondary-500
+
+.notStarted
+  color: $color-neutral-800

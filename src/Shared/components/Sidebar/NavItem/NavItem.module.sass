@@ -1,0 +1,46 @@
+@import '@shared/stylesheets/config.sass'
+
+$additionalBorderSize: 28px
+$additionalBorderOffset: -14px
+
+.item
+  height: $m-lg + $m-xs
+  letter-spacing: -0.28px
+  transition: background-color $transition-duration $transition-function
+
+  &:hover
+    &::after
+      animation: .2s fadeIn ease-in
+      background: $color-primary-500
+      content: ""
+      display: block
+      height: 100%
+      position: absolute
+      right: 0
+      transition: background-color $transition-duration $transition-function
+      width: 2px
+
+.item.hasChildren
+  &:hover
+    &::before
+      animation: .2s fadeIn ease-in
+      background: transparent
+      content: ""
+      display: block
+      height: $additionalBorderSize
+      width: $additionalBorderSize
+      position: absolute
+      right: $additionalBorderOffset
+      transition: background-color $transition-duration $transition-function
+      border-radius: 50%
+      border: $m-xxxs solid
+      border-right-color: transparent
+      border-top-color: transparent
+      rotate: 45deg
+
+.childItem
+  letter-spacing: -0.2px
+  transition: background-color $transition-duration $transition-function
+
+.text
+  transition: opacity $transition-duration $transition-function

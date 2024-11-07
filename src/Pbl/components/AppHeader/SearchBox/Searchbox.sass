@@ -1,0 +1,43 @@
+@import '@shared/stylesheets/config.sass'
+
+.search-box-type-more
+  bottom: $m-xxs
+  color: $color-font-secondary
+  display: block
+  font-size: $font-size-xxs
+  left: $m-xs
+  margin:
+    left: $m-xs
+    top: $m-xxs
+  visibility: hidden
+  position: absolute
+
+  &.-visible
+    visibility: visible
+
+.search-box-dropdown
+  background-color: $color-white
+  border: 1px solid $color-neutral-300
+  border-radius: $border-radius-sm
+  padding: $m-xxs
+  position: absolute
+  top: calc(100% + $m-xxs)
+  width: 100%
+
+  &__list
+    margin: 0
+    overflow: auto
+
+  &__list-item
+    color: $color-font-primary
+    padding: $m-xs $m-xxs
+
+    &.-active
+      background-color: $color-primary-200
+
+    &:hover
+      background-color: $color-primary-200
+      cursor: pointer
+
+.text-input-wrapper
+  width: 100%

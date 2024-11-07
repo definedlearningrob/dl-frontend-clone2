@@ -1,0 +1,58 @@
+@import '@shared/stylesheets/config.sass'
+
+.button
+  +transition(background-color, color)
+  letter-spacing: 0.1px
+
+  //----- color versions -----------------------------------------------------------------------------------------------
+
+  &.-link
+    color: $color-primary-500
+    fill: $color-primary-500
+    padding: 0
+
+    &:hover
+      color: $color-primary-500
+      fill: $color-primary-500
+      text-decoration: underline
+
+    &:focus-visible
+      outline: none
+      background-color: $color-warning-500
+      border-radius: 0 !important
+
+  //----- min-widths --------------------------------------------------------------------------------------------------------
+  &.-min-width-sm
+    min-width: 80px
+
+  &.-min-width-md
+    min-width: 120px
+
+  &.-min-width-lg
+    min-width: 160px
+
+  //----- type ---------------------------------------------------------------------------------------------------------
+  &.-text-icon
+    fill: $color-primary-500
+    padding: 0
+    width: fit-content
+
+    &__text
+      padding-left: $m-xs
+
+    &:hover
+      color: $color-primary-500
+
+    &.-right
+      flex-direction: row-reverse
+
+  &:disabled
+    opacity: 0.5
+    cursor: not-allowed
+
+    .loading-spinner__cube::before
+      background-color: $color-font-secondary
+
+    &:hover
+      fill: $color-disabled
+      text-decoration: none

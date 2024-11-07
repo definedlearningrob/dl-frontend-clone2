@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioProjectsCardDate should render period correctly when opportunity project 1`] = `
+<div>
+  <span
+    aria-describedby="radix-0"
+    data-state="delayed-open"
+  >
+    <div
+      class="flex items-center"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0 p-xxs"
+          data-testid="icon"
+        >
+          <div
+            class="h-sm w-sm"
+          />
+        </div>
+      </div>
+      <p
+        class="text-xs leading-lg m-0"
+      >
+        Jan 1, 2022 - Dec 31, 2022
+      </p>
+    </div>
+  </span>
+</div>
+`;
+
+exports[`PortfolioProjectsCardDate should render submitted date when not opportunity project 1`] = `
+<div>
+  <span
+    aria-describedby="radix-1"
+    data-state="delayed-open"
+  >
+    <div
+      class="flex items-center"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0 p-xxs"
+          data-testid="icon"
+        >
+          <div
+            class="h-sm w-sm"
+          />
+        </div>
+      </div>
+      <p
+        class="text-xs leading-lg m-0 whitespace-nowrap"
+      >
+        Jan 1, 2022
+      </p>
+    </div>
+  </span>
+</div>
+`;

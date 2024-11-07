@@ -1,0 +1,41 @@
+@import '@shared/stylesheets/config.sass'
+
+$opportunity-detail-width: 536px
+$opportunity-image-height: 280px
+
+.opportunityDetails
+  width: $opportunity-detail-width
+
+.opportunityDescription
+  padding-bottom: $m-base
+
+.descriptionImage
+  border-radius: $m-xs
+  width: $opportunity-detail-width
+  height: $opportunity-image-height
+  object-fit: cover
+
+.descriptionDefault
+  +flex-container(row, center)
+  border-radius: $m-xs
+
+.descriptionTitle
+  margin-top: $m-base
+  margin-bottom: $m-xs
+
+.opportunityInfo
+  +flex-container(column)
+
+.opportunityInfoWrapper
+  +flex-container(row)
+  gap: $m-xs
+  padding: $m-x 0
+  color: $color-font-secondary
+  border-bottom: 1px solid $color-neutral-300
+  font-size: $font-size-xs
+
+  &:last-of-type
+    border-bottom: none
+
+.infoLabel
+  font-weight: $font-weight-medium

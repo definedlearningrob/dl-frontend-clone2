@@ -1,0 +1,48 @@
+@import '@shared/stylesheets/config.sass'
+
+$lg-line-height: 2 * $line-height-sm + rem
+$card-image-height: 120px
+
+.courseCard
+  +flex-container(column)
+  background-color: $color-white
+  border-radius: $border-radius-xs
+  border: 1px solid $color-border
+  height: 300px
+  padding: 0
+
+.cardContent
+  +flex-container(column, false, flex-start)
+  flex: 1
+  padding: $m-sm
+  padding-top: 0
+
+.imageWrapper
+  +flex-container(row, center, center)
+  border-radius: $border-radius-xs $border-radius-xs 0 0
+  flex: 0 0 $card-image-height
+  height: $m-xl * 2
+  overflow: hidden
+
+.imageBox
+  min-height: 100%
+  min-width: 100%
+  object-fit: cover
+
+.title
+  +ellipsis-multiline(2)
+  font-size: $font-size-sm
+  margin-bottom: $m-xs
+
+.description
+  +ellipsis-multiline(3)
+  color: $color-font-secondary
+  font-size: $font-size-xs
+  margin: 0
+
+.descriptionLink
+  font-size: $font-size-xs
+  margin-top: auto
+
+.descriptionLinkIcon
+  margin-left: $m-xs

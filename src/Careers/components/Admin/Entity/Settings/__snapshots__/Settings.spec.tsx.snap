@@ -1,0 +1,598 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Admin Panel Entity Settings should render correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="card"
+    >
+      <div
+        class="mb-md"
+      >
+        <div
+          class="flex gap-sm items-center"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 bg-neutral-200 rounded-xs !text-neutral-800 p-xs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+          <h5
+            class="mb-0 text-neutral-800 text-sm xxxl:text-base"
+          >
+            Settings
+          </h5>
+        </div>
+        <div
+          class="pl-md flex justify-between"
+        >
+          <span
+            class="pl-base mb-0 font-regular text-neutral-700 text-xs xxxl:text-sm"
+          >
+            Configure entity main settings
+          </span>
+          <div
+            class="flex gap-xs"
+          />
+        </div>
+      </div>
+      <div
+        class="flex flex-col gap-sm"
+      >
+        <section
+          class="flex justify-between items-center gap-xs transition-colors border border-neutral-300 rounded-xs hover:border-neutral-400 !border-primary-500 bg-primary-200 p-sm xxxl:p-base"
+        >
+          <div
+            class="flex items-start flex-grow flex-shrink-0 basis-0 gap-sm"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm transition-colors bg-white p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <div
+              class="leading-lg"
+            >
+              <h6
+                class="flex items-center gap-xs mb-xxs text-xs xxxl:text-sm"
+              >
+                Assessment - (inherited from class or school setting)
+              </h6>
+              <span
+                class="text-xs xxxl:text-sm"
+              >
+                Availability of assessment to the student.
+              </span>
+            </div>
+          </div>
+          <label
+            class="switch"
+          >
+            <div
+              class="content"
+            >
+              <input
+                checked=""
+                class="switchInput"
+                data-testid="assessmentEnabled-switch"
+                name="assessmentEnabled"
+                role="switch"
+                type="checkbox"
+              />
+              <span
+                class="slider"
+              />
+            </div>
+          </label>
+        </section>
+        <section
+          class="flex justify-between items-center gap-xs transition-colors border border-neutral-300 rounded-xs hover:border-neutral-400 !border-primary-500 bg-primary-200 p-sm xxxl:p-base"
+        >
+          <div
+            class="flex items-start flex-grow flex-shrink-0 basis-0 gap-sm"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm transition-colors bg-white p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <div
+              class="leading-lg"
+            >
+              <h6
+                class="flex items-center gap-xs mb-xxs text-xs xxxl:text-sm"
+              >
+                Onboarding
+              </h6>
+              <span
+                class="text-xs xxxl:text-sm"
+              >
+                Student is required to take assessment upon initial launch of Defined Careers.
+              </span>
+            </div>
+          </div>
+          <label
+            class="switch"
+          >
+            <div
+              class="content"
+            >
+              <input
+                checked=""
+                class="switchInput"
+                data-testid="onboardingEnabled-switch"
+                name="onboardingEnabled"
+                role="switch"
+                type="checkbox"
+              />
+              <span
+                class="slider"
+              />
+            </div>
+          </label>
+        </section>
+        <section
+          class="flex justify-between items-center gap-xs transition-colors border border-neutral-300 rounded-xs hover:border-neutral-400 !border-primary-500 bg-primary-200 p-sm xxxl:p-base"
+        >
+          <div
+            class="flex items-start flex-grow flex-shrink-0 basis-0 gap-sm"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm transition-colors bg-white p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <div
+              class="leading-lg"
+            >
+              <h6
+                class="flex items-center gap-xs mb-xxs text-xs xxxl:text-sm"
+              >
+                Career Course & Assesment Grade Level
+              </h6>
+              <span
+                class="text-xs xxxl:text-sm"
+              >
+                Set the career course and assessment grade level for student
+              </span>
+            </div>
+          </div>
+          <label
+            class="switch"
+          >
+            <span
+              class="text-xs"
+            >
+              Middle School
+            </span>
+            <div
+              class="content"
+            >
+              <input
+                checked=""
+                class="switchInput"
+                data-testid="assessmentType-switch"
+                name="assessmentType"
+                role="switch"
+                type="checkbox"
+              />
+              <span
+                class="slider"
+              />
+            </div>
+            <span
+              class="label"
+            >
+              High School
+            </span>
+          </label>
+        </section>
+        <section
+          class="flex justify-between items-center gap-xs transition-colors border border-neutral-300 rounded-xs hover:border-neutral-400 !border-primary-500 bg-primary-200 p-sm xxxl:p-base"
+        >
+          <div
+            class="flex items-start flex-grow flex-shrink-0 basis-0 gap-sm"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm transition-colors bg-white p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <div
+              class="leading-lg"
+            >
+              <h6
+                class="flex items-center gap-xs mb-xxs text-xs xxxl:text-sm"
+              >
+                Self evaluation - (inherited from class or school setting)
+              </h6>
+              <span
+                class="text-xs xxxl:text-sm"
+              >
+                Students can self-evaluate for metrics in the custom plans section if school or district plan has been imported to Defined Careers.
+              </span>
+            </div>
+          </div>
+          <label
+            class="switch"
+          >
+            <div
+              class="content"
+            >
+              <input
+                checked=""
+                class="switchInput"
+                data-testid="selfEvaluationEnabled-switch"
+                name="selfEvaluationEnabled"
+                role="switch"
+                type="checkbox"
+              />
+              <span
+                class="slider"
+              />
+            </div>
+          </label>
+        </section>
+        <section
+          class="flex justify-between items-center gap-xs bg-white transition-colors border border-neutral-300 rounded-xs hover:border-neutral-400 p-sm xxxl:p-base"
+        >
+          <div
+            class="flex items-start flex-grow flex-shrink-0 basis-0 gap-sm"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm bg-primary-200 transition-colors p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <div
+              class="leading-lg"
+            >
+              <h6
+                class="flex items-center gap-xs mb-xxs text-xs xxxl:text-sm"
+              >
+                Enable class management
+              </h6>
+              <span
+                class="text-xs xxxl:text-sm"
+              >
+                When enabled, teachers have an additional "Manage class" button appear on the My Classes View
+              </span>
+            </div>
+          </div>
+          <label
+            class="switch"
+          >
+            <div
+              class="content"
+            >
+              <input
+                class="switchInput"
+                data-testid="classManagementEnabled-switch"
+                name="classManagementEnabled"
+                role="switch"
+                type="checkbox"
+              />
+              <span
+                class="slider"
+              />
+            </div>
+          </label>
+        </section>
+        <section
+          class="flex justify-between items-center gap-xs transition-colors border border-neutral-300 rounded-xs hover:border-neutral-400 !border-primary-500 bg-primary-200 p-sm xxxl:p-base"
+        >
+          <div
+            class="flex items-start flex-grow flex-shrink-0 basis-0 gap-sm"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm transition-colors bg-white p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <div
+              class="leading-lg"
+            >
+              <h6
+                class="flex items-center gap-xs mb-xxs text-xs xxxl:text-sm"
+              >
+                Opportunities
+              </h6>
+              <span
+                class="text-xs xxxl:text-sm"
+              >
+                Students can apply to internships or other job-related activities to give them opportunities for real-world experience to help develop them.
+              </span>
+            </div>
+          </div>
+          <label
+            class="switch"
+          >
+            <div
+              class="content"
+            >
+              <input
+                checked=""
+                class="switchInput"
+                data-testid="opportunitiesEnabled-switch"
+                name="opportunitiesEnabled"
+                role="switch"
+                type="checkbox"
+              />
+              <span
+                class="slider"
+              />
+            </div>
+          </label>
+        </section>
+        <section
+          class="flex justify-between items-center gap-xs transition-colors border border-neutral-300 rounded-xs hover:border-neutral-400 !border-primary-500 bg-primary-200 p-sm xxxl:p-base"
+        >
+          <div
+            class="flex items-start flex-grow flex-shrink-0 basis-0 gap-sm"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 text-primary-500 rounded-sm transition-colors bg-white p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <div
+              class="leading-lg"
+            >
+              <h6
+                class="flex items-center gap-xs mb-xxs text-xs xxxl:text-sm"
+              >
+                Post secondary applications
+              </h6>
+              <span
+                class="text-xs xxxl:text-sm"
+              >
+                Students can apply to universities and arrange all necessary admission documents.
+              </span>
+            </div>
+          </div>
+          <label
+            class="switch"
+          >
+            <div
+              class="content"
+            >
+              <input
+                checked=""
+                class="switchInput"
+                data-testid="postSecondaryApplicationsEnabled-switch"
+                name="postSecondaryApplicationsEnabled"
+                role="switch"
+                type="checkbox"
+              />
+              <span
+                class="slider"
+              />
+            </div>
+          </label>
+        </section>
+        <section
+          class="sectionWrapper"
+        >
+          <div
+            class="labelWrapper"
+          >
+            <label>
+              School Year Start Date
+            </label>
+          </div>
+          <div
+            class="pickersWrapper"
+          >
+            <label
+              class="flex flex-col leading-lg min-w-[120px] gap-xs"
+            >
+              <div
+                class=" css-b62m3t-container"
+              >
+                <span
+                  class="css-1f43avz-a11yText-A11yText"
+                  id="react-select-2-live-region"
+                />
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  class="css-1f43avz-a11yText-A11yText"
+                  role="log"
+                />
+                <div
+                  class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                >
+                  <div
+                    class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--has-value css-1fdsijx-ValueContainer"
+                  >
+                    <div
+                      class="!m-0 !leading-[22px] h-[22px] select__single-value css-1dimb5e-singleValue"
+                    >
+                      July
+                    </div>
+                    <div
+                      class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                      data-value=""
+                    >
+                      <input
+                        aria-activedescendant=""
+                        aria-autocomplete="list"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        autocapitalize="none"
+                        autocomplete="off"
+                        autocorrect="off"
+                        class="select__input"
+                        id="react-select-2-input"
+                        role="combobox"
+                        spellcheck="false"
+                        style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                        tabindex="0"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                  >
+                    <div
+                      aria-hidden="true"
+                      class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 text-neutral-800"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-base w-base"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label
+              class="flex flex-col leading-lg min-w-[120px] gap-xs"
+            >
+              <div
+                class=" css-b62m3t-container"
+              >
+                <span
+                  class="css-1f43avz-a11yText-A11yText"
+                  id="react-select-3-live-region"
+                />
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  class="css-1f43avz-a11yText-A11yText"
+                  role="log"
+                />
+                <div
+                  class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                >
+                  <div
+                    class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--has-value css-1fdsijx-ValueContainer"
+                  >
+                    <div
+                      class="!m-0 !leading-[22px] h-[22px] select__single-value css-1dimb5e-singleValue"
+                    >
+                      1
+                    </div>
+                    <div
+                      class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                      data-value=""
+                    >
+                      <input
+                        aria-activedescendant=""
+                        aria-autocomplete="list"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        autocapitalize="none"
+                        autocomplete="off"
+                        autocorrect="off"
+                        class="select__input"
+                        id="react-select-3-input"
+                        role="combobox"
+                        spellcheck="false"
+                        style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                        tabindex="0"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                  >
+                    <div
+                      aria-hidden="true"
+                      class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 text-neutral-800"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-base w-base"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </label>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,30 @@
+@import '@shared/stylesheets/config.sass'
+
+$lesson-item-gap: 20px
+
+.container
+  margin-top: $m-xs
+  margin-left: $m-x
+
+.lessonItem
+  +flex-container(row, false, center)
+  gap: $m-x
+  font-size: $font-size-xxs
+  color: $color-primary-500
+
+  &:not(:last-child)
+    position: relative
+    padding-bottom: $lesson-item-gap
+
+    &::after
+      position: absolute
+      content: ''
+      left: $m-xs
+      bottom: $m-xxs
+      height: $m-x
+      width: 1px
+      background-color: $color-primary-500
+
+.checkbox
+  :global(.checkbox__label::before)
+    margin-right: 0

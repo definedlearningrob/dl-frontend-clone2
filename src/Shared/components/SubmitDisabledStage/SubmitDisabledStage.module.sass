@@ -1,0 +1,38 @@
+@import '@shared/stylesheets/config'
+
+$wrapper-width-fullHD: 600px
+$icon-frame-size: 32px
+$icon-frame-gap: 10px
+
+.infoWrapper
+  +flex-container(row)
+  border-radius: $border-radius-sm
+  border: 1px solid $color-border
+  gap: $m-xs
+  max-width: $wrapper-width-fullHD
+  padding: $m-x
+
+.textWrapper
+  +flex-container(column, center)
+
+.info
+  color: $color-primary-500
+  font-size: $font-size-xxs
+  font-weight: $font-weight-medium
+  line-height: $line-height-lg
+  margin: 0
+
+.info:last-of-type
+  color: $color-font-secondary
+  font-weight: $font-weight-regular
+
+.iconFrame
+  background-color: $color-primary-200
+  border-radius: $border-radius-lg
+  gap: $icon-frame-gap
+  height: $icon-frame-size
+  padding: $m-xs
+  width: $icon-frame-size
+
+.icon
+  color: $color-primary-500

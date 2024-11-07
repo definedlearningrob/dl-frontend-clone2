@@ -1,0 +1,31 @@
+@import '@shared/stylesheets/config.sass'
+
+.loader
+  +flex-container(column)
+  height: 90vh
+  justify-content: center
+
+.headWrapper
+  +flex-container(row)
+  align-items: flex-start
+
+.mainTitle
+  padding-bottom: $m-md
+  margin-bottom: 0
+
+.chipsWrapper
+  +flex-container(row)
+
+.container
+  +scrollbar
+
+.footerContainer
+  margin-top: auto
+  padding-top: $m-sm
+  align-self: center
+
+.singleStandard
+  border: $border-width-xs $color-neutral-300 solid
+  border-radius: $m-xs
+  margin-bottom: $m-sm
+  padding: $m-sm

@@ -1,0 +1,386 @@
+@import '@shared/stylesheets/config'
+
+.presentation-main-wrapper
+  &#{&}
+    padding: 0
+
+  .theme
+    +flex-container(row, space-between, flex-start)
+    padding:
+      bottom: $m-sm !important
+      left: 0 !important
+      right: 0 !important
+      top: 0 !important
+
+  .preview
+    flex-basis: 20%
+    max-width: 240px
+    height: calc(100vh - $desktop-header-height)
+
+    .slides-list,
+    .sub-slides-list
+      +flex-container(column, flex-start, flex-end)
+      position: relative
+
+      &_add-button
+        margin: 0 $m-sm
+
+      &.-is-dragging
+        background-color: $color-primary-200
+
+      &_element
+        position: relative
+        text-align: center
+        width: 100%
+
+        &_actions-wrapper
+          +flex-container(row, flex-start, center)
+          padding: $m-sm $m-base 0 $m-base
+
+          &_slide-index
+            bottom: $m-sm
+            color: $color-font-primary
+            font-size: $font-size-xxs
+            margin-right: $m-xs
+            min-width: 16px
+            position: relative
+
+        &.-selected-slide
+          .slides-list_element_actions-wrapper
+            position: relative
+            background-color: $color-primary-200
+            &::before
+              background-color: $color-primary-500
+              content: ''
+              height: 100%
+              left: 0
+              position: absolute
+              top: 0
+              width: $m-xxs
+
+        &.-selected-sub-slide
+           .sub-slides-list_element_actions-wrapper
+            position: relative
+            background-color: $color-primary-200
+            &::before
+              background-color: $color-primary-500
+              content: ''
+              height: 100%
+              left: 0
+              position: absolute
+              top: 0
+              width: $m-xxs
+
+
+        &.-selected-sub-slide
+          .sub-slides-list_element_actions-wrapper
+            background-color: $color-primary-200
+
+        &.-is-dragging
+          border-radius: $border-radius-xs
+          outline: 1px dashed $color-primary-600
+
+        .reveal
+          cursor: pointer
+          height: 95px
+          width: 144px
+
+          &.-selected-slide
+            border-radius: $border-radius-xs
+            border: 2px solid $color-primary-600
+
+          .slides
+            background-position: center
+            background-size: cover
+            cursor: pointer
+            height: 700px
+            inset: 50% auto auto 50%
+            transform: translate(-50%, -50%) scale(0.15)
+            width: 960px
+
+            section
+              display: block
+              height: 100%
+              top: 120px
+
+              P
+                color: $color-black // default text color if not selected
+
+          .progress
+            height: 8px
+
+      &.-subslides
+        left: 0
+        padding-left: 0
+
+        .reveal
+          cursor: pointer
+          height: 60px
+          width: 104px
+
+          &.-selected-slide
+            border-radius: $border-radius-xs
+            border: 2px solid $color-primary-600
+
+          .slides
+            cursor: pointer
+            height: 700px
+            inset: 50% auto auto 50%
+            transform: translate(-50%, -50%) scale(0.1)
+            width: 960px
+
+            section
+              display: block
+              height: 100%
+              top: 160px
+
+      &.-is-shared
+        .sub-slides-list_element_actions-wrapper
+          padding-right: 40px
+
+    .slides-list_add-button
+      margin-bottom: 100px
+
+  .content
+    flex-basis: 50%
+    height: 644px
+    padding-top: $m-sm !important
+    width: 800px
+
+    .reveal > .slides
+      cursor: pointer
+
+      .selected-content
+        border: 2px dashed $color-primary-600
+        border-radius: $border-radius-xs
+        padding: $m-xs
+
+      .progress
+        height: 8px
+
+    .notes
+      background-color: $color-white
+      border: 1px solid $color-border
+      border-radius: $border-radius-xs $border-radius-xs 0px 0px
+      bottom: 0
+      height: 240px
+      position: absolute
+      width: 50%
+      z-index: $z-high
+
+      &.-close
+        border: none
+        height: 32px
+        z-index: 0
+
+      .text-editor
+        max-height: 136px
+        min-height: 100%
+        padding: $m-sm
+
+      .notes-action
+        align-items: center
+        bottom: 0
+        color: $color-primary-500
+        cursor: pointer
+        display: flex
+        height: 36px
+        margin-left: 8px
+        position: absolute
+
+    .shared-tooltip-portal__placeholder
+      margin: auto
+      width: fit-content
+
+      .sub-slide-button
+        background-color: $color-primary-500
+        border-radius: $border-radius-xs
+        height: 32px
+        margin: $m-base
+        width: 32px
+
+        svg
+          fill: $color-white
+
+    +media-breakpoint-down(xl)
+      height: 450px
+
+  .settings
+    background-color: inherit !important
+    flex-basis: 30%
+    height: 100vh
+    margin-top: $m-sm !important
+    padding:
+      bottom: $m-sm
+      right: 0
+    width: 512px
+
+    .headers
+      +flex-container(row, flex-start, center)
+      border-bottom: 1px solid $color-border
+      cursor: pointer
+      gap: $m-base
+      margin: 0
+
+      +media-breakpoint-down(xl)
+        gap: $m-x
+
+      li
+        color: $color-font-secondary
+        padding-bottom: $m-sm
+        position: relative
+        white-space: nowrap
+
+        &.-selected-setting
+          color: $color-primary-500
+
+        &.-selected-setting::after
+          background-color: $color-primary-500
+          bottom: 0
+          content: ''
+          height: 2px
+          left: 0
+          position: absolute
+          width: 100%
+
+    &__content
+      background-color: $color-white
+      color: $color-font-primary
+      height: calc(100vh - 96px)
+      padding: $m-base
+      position: relative
+      width: 100%
+      overflow: auto
+
+      &__export-pdf-button
+        font-size: $font-size-sm
+        height: 40px
+        padding: $m-xs $m-sm
+        position: absolute
+        right: $m-base
+        top: $m-xs
+        width: 128px
+
+      .text-input__label
+        margin-bottom: $m-sm
+
+      .background-styles-wrapper
+        +flex-container(row, flex-start, center)
+
+        .background-color-wrapper,
+        .background-image-wrapper
+          margin-right: $m-xs
+          position: relative
+          width: fit-content
+
+          .sketch-picker
+            position: absolute
+            top: 40px
+
+          &__action-border
+            +flex-container(row, center, center)
+            border-radius: $border-radius-xs
+            border: 1px solid $color-primary-600
+            cursor: pointer
+            height: 32px
+            width: 48px
+
+            &__body
+              background-color: $color-font-secondary
+              border-radius: $border-radius-xs * 0.5
+              height: 28px
+              width: 44px
+
+        .background-image-wrapper__action-border__body
+          background-color: $color-background
+          background-position: center
+          background-size: cover
+
+.new-slide-nav
+  +flex-container(row, flex-start, center)
+  border-bottom: 1px solid $color-neutral-300
+  border-radius: $border-radius-xs $border-radius-xs 0 0
+  width: fit-content
+
+  &_element
+    color: $color-font-secondary
+    cursor: pointer
+    font-size: $font-size-sm
+    padding-left: $m-sm
+    padding-right: $m-sm
+
+    &.-selected
+      border-bottom: 2px solid $color-primary-500
+      color: $color-primary-500
+
+.new-slide-content
+  +flex-container(row, flex-start, flex-start)
+  flex-wrap: wrap
+  gap: $m-sm
+
+  &_element
+    border-radius: $border-radius-xs
+    border: 1px solid $color-neutral-300
+    cursor: pointer
+    height: 130px
+    padding: $m-xxs
+    flex: 0 0 calc(33.33% - $m-sm)
+
+    &:hover:not(.-disabled)
+      border-color: $color-primary-500
+      box-shadow: 0 4px 8px rgba(69, 76, 102, 0.1)
+
+.new-slide-tabs.tabs
+  padding: 0
+
+.sub-slides-modal
+  margin-top: $m-md
+  min-height: 300px
+
+.sub-slide,
+.delete-slide
+  align-items: center
+  font-size: $font-size-sm
+  height: 56px
+  width: 174px
+
+  &_icon
+    margin-right: $m-xs
+
+    path
+      fill: $color-primary-500
+
+  .image-input__icon-placeholder
+    margin: 0
+
+.delete-slide
+  .image-input__icon-placeholder
+    color: $color-danger-500
+
+  &_icon path
+    fill: $color-danger-500
+
+.slides-list-dropdown
+  bottom: $m-sm
+  position: relative
+
+  .icon-button:hover
+    background-color: transparent !important
+
+.shared-slides-modal-header
+  +flex-container(row, flex-start, flex-start)
+  font-size: $font-size-base
+  margin: 0
+
+.shared-slides-modal-body
+  color: $color-font-secondary
+
+// reveal has own variables for font sizes and these styles solve the line height problem
+.reveal *
+  span
+    display: inline-block !important
+
+  li, p
+    font-size: $font-size-xl !important
+  p
+    margin: 0

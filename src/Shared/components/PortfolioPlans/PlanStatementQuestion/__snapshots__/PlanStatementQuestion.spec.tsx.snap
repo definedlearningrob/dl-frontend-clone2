@@ -1,0 +1,420 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatementQuestion Long text displays text area without initial answer 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <div
+      class="border border-neutral-300 rounded-xs"
+    >
+      <div
+        class="p-xs pt-x xxxl:p-sm xxxl:pb-x bg-neutral-200 rounded-t-xs text-xs xxxl:text-sm font-medium leading-lg"
+      >
+        Example question
+      </div>
+      <div
+        class="flex py-sm px-x xxxl:px-sm flex-col gap-xs"
+      >
+        <div
+          class="flex flex-col gap-xs"
+        >
+          <label
+            class="flex flex-col gap-xs"
+          >
+            <textarea
+              class="textarea__input !mb-0 text-xxs xxxl:text-xs !p-xs !mb-0 disabled:bg-neutral-200"
+              name="answer"
+              placeholder="Type here..."
+            />
+          </label>
+        </div>
+        <div
+          class="flex justify-end"
+        >
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] w-[80px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+            data-testid="button"
+            disabled=""
+            type="submit"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Save
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`StatementQuestion Multiple choice displays checkboxes without initial answer 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <div
+      class="border border-neutral-300 rounded-xs"
+    >
+      <div
+        class="p-xs pt-x xxxl:p-sm xxxl:pb-x bg-neutral-200 rounded-t-xs text-xs xxxl:text-sm font-medium leading-lg"
+      >
+        Example question
+      </div>
+      <div
+        class="flex py-sm px-x xxxl:px-sm flex-col gap-xs"
+      >
+        <fieldset
+          class="p-0"
+        >
+          <div
+            class="checkbox mb-xs last:mb-0 !text-xs xxxl:!text-sm"
+          >
+            <input
+              class="checkbox__input"
+              data-testid="checkbox"
+              id="1"
+              tabindex="0"
+              type="checkbox"
+              value="First option"
+            />
+            <label
+              class="checkbox__label"
+              for="1"
+            >
+              First option
+            </label>
+          </div>
+          <div
+            class="checkbox mb-xs last:mb-0 !text-xs xxxl:!text-sm"
+          >
+            <input
+              class="checkbox__input"
+              data-testid="checkbox"
+              id="2"
+              tabindex="0"
+              type="checkbox"
+              value="Second option"
+            />
+            <label
+              class="checkbox__label"
+              for="2"
+            >
+              Second option
+            </label>
+          </div>
+          <div
+            class="checkbox mb-xs last:mb-0 !text-xs xxxl:!text-sm"
+          >
+            <input
+              class="checkbox__input"
+              data-testid="checkbox"
+              id="3"
+              tabindex="0"
+              type="checkbox"
+              value="Third option"
+            />
+            <label
+              class="checkbox__label"
+              for="3"
+            >
+              Third option
+            </label>
+          </div>
+        </fieldset>
+        <div
+          class="flex justify-end"
+        >
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] w-[80px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+            data-testid="button"
+            disabled=""
+            type="submit"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Save
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`StatementQuestion Multiple choice dropdown displays select without initial answer 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <div
+      class="border border-neutral-300 rounded-xs"
+    >
+      <div
+        class="p-xs pt-x xxxl:p-sm xxxl:pb-x bg-neutral-200 rounded-t-xs text-xs xxxl:text-sm font-medium leading-lg"
+      >
+        Example question
+      </div>
+      <div
+        class="flex py-sm px-x xxxl:px-sm items-center gap-sm"
+      >
+        <label
+          class="flex flex-col leading-lg min-w-[120px] flex-1 gap-xxxs"
+        >
+          <div
+            class=" css-b62m3t-container"
+          >
+            <span
+              class="css-1f43avz-a11yText-A11yText"
+              id="react-select-2-live-region"
+            />
+            <span
+              aria-atomic="false"
+              aria-live="polite"
+              aria-relevant="additions text"
+              class="css-1f43avz-a11yText-A11yText"
+              role="log"
+            />
+            <div
+              class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+            >
+              <div
+                class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+              >
+                <div
+                  class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                  id="react-select-2-placeholder"
+                >
+                  Select...
+                </div>
+                <div
+                  class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                  data-value=""
+                >
+                  <input
+                    aria-activedescendant=""
+                    aria-autocomplete="list"
+                    aria-describedby="react-select-2-placeholder"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    autocapitalize="none"
+                    autocomplete="off"
+                    autocorrect="off"
+                    class="select__input"
+                    id="react-select-2-input"
+                    role="combobox"
+                    spellcheck="false"
+                    style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                    tabindex="0"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+              >
+                <div
+                  aria-hidden="true"
+                  class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </label>
+        <div
+          class="flex justify-end"
+        >
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] w-[80px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+            data-testid="button"
+            disabled=""
+            type="submit"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Save
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`StatementQuestion Short text displays text input without initial answer 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <div
+      class="border border-neutral-300 rounded-xs"
+    >
+      <div
+        class="p-xs pt-x xxxl:p-sm xxxl:pb-x bg-neutral-200 rounded-t-xs text-xs xxxl:text-sm font-medium leading-lg"
+      >
+        Example question
+      </div>
+      <div
+        class="flex py-sm px-x xxxl:px-sm flex-col gap-xs"
+      >
+        <label
+          class="flex flex-col items-start text-font-primary w-full gap-xxxs"
+        >
+          <div
+            class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+          >
+            <span
+              class="flex gap-xxs grow"
+            >
+              <input
+                class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[14px] text-xxs"
+                name="answer"
+                placeholder="Type here..."
+                type="text"
+                value=""
+              />
+            </span>
+          </div>
+        </label>
+        <div
+          class="flex justify-end"
+        >
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] w-[80px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+            data-testid="button"
+            disabled=""
+            type="submit"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Save
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`StatementQuestion Single choice displays radio buttons without initial answer 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <div
+      class="border border-neutral-300 rounded-xs"
+    >
+      <div
+        class="p-xs pt-x xxxl:p-sm xxxl:pb-x bg-neutral-200 rounded-t-xs text-xs xxxl:text-sm font-medium leading-lg"
+      >
+        Example question
+      </div>
+      <div
+        class="flex py-sm px-x xxxl:px-sm flex-col gap-xs"
+      >
+        <fieldset
+          class="p-0"
+          role="radiogroup"
+        >
+          <label
+            class="radioLabel mb-xs last:mb-0 text-xs xxxl:text-sm"
+          >
+            <input
+              class="radioInput"
+              name="answer"
+              type="radio"
+              value="First option"
+            />
+            <div
+              class="radioSpan"
+            >
+              <span
+                class="labelWrapper"
+              >
+                First option
+              </span>
+            </div>
+          </label>
+          <label
+            class="radioLabel mb-xs last:mb-0 text-xs xxxl:text-sm"
+          >
+            <input
+              class="radioInput"
+              name="answer"
+              type="radio"
+              value="Second option"
+            />
+            <div
+              class="radioSpan"
+            >
+              <span
+                class="labelWrapper"
+              >
+                Second option
+              </span>
+            </div>
+          </label>
+          <label
+            class="radioLabel mb-xs last:mb-0 text-xs xxxl:text-sm"
+          >
+            <input
+              class="radioInput"
+              name="answer"
+              type="radio"
+              value="Third option"
+            />
+            <div
+              class="radioSpan"
+            >
+              <span
+                class="labelWrapper"
+              >
+                Third option
+              </span>
+            </div>
+          </label>
+        </fieldset>
+        <div
+          class="flex justify-end"
+        >
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] w-[80px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+            data-testid="button"
+            disabled=""
+            type="submit"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Save
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

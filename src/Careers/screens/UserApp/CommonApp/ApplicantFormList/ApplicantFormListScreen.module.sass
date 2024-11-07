@@ -1,0 +1,20 @@
+@import '@shared/stylesheets/config.sass'
+
+.container
+  +flex-container(row, flex-start, flex-start)
+  gap: $m-base
+  height: calc(100vh - $desktop-header-height)
+
+  +media-breakpoint-up(xxxl)
+    gap: $m-md
+
+.cardSubtitle
+  +flex-container(row, center, center)
+  color: $color-font-secondary
+  font-size: $font-size-xs
+  font-weight: $font-weight-regular
+  gap: $m-xxs
+  line-height: $line-height-lg
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm

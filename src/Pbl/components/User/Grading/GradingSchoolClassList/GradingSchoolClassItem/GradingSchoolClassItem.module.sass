@@ -1,0 +1,25 @@
+@import '@shared/stylesheets/config'
+
+$indicator-size: $m-xs
+
+.projectContainer
+  border: 1px solid $color-border
+  border-radius: $border-radius-xs
+  padding: $m-sm
+
+.actions
+  +flex-container(row, flex-start, center)
+
+.gradingNeeded
+  background-color: $color-secondary-500
+  border-radius: 50%
+  height: $indicator-size
+  width: $indicator-size
+
+.header
+  +flex-container(row, space-between, center)
+  cursor: pointer
+
+.heading
+  font-size: $font-size-sm
+  margin: 0

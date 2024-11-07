@@ -1,0 +1,807 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoursesSummary should render correct summary for 0 activities 1`] = `
+<div>
+  <p
+    class="mb-0 text-xxs xxxl:text-xs text-neutral-700"
+  >
+    Here you can access your most recent activities, you can add more through courses.
+  </p>
+</div>
+`;
+
+exports[`CoursesSummary should render correct summary for 1 activities 1`] = `
+<div>
+  <p
+    class="mb-0 text-xxs xxxl:text-xs text-neutral-700"
+  >
+    Here you can access your 
+    <span
+      class="font-medium"
+    >
+      1 most recent
+    </span>
+     activity.
+  </p>
+</div>
+`;
+
+exports[`CoursesSummary should render correct summary for 2 activities 1`] = `
+<div>
+  <p
+    class="mb-0 text-xxs xxxl:text-xs text-neutral-700"
+  >
+    Here you can access your 
+    <span
+      class="font-medium"
+    >
+      2 most recent
+    </span>
+     activities.
+  </p>
+</div>
+`;
+
+exports[`CoursesSummary should render correct summary for 3 activities 1`] = `
+<div>
+  <p
+    class="mb-0 text-xxs xxxl:text-xs text-neutral-700"
+  >
+    Here you can access your 
+    <span
+      class="font-medium"
+    >
+      3 most recent
+    </span>
+     activities.
+  </p>
+</div>
+`;
+
+exports[`CoursesSummary should render correct summary for 4 activities 1`] = `
+<div>
+  <p
+    class="mb-0 text-xxs xxxl:text-xs text-neutral-700"
+  >
+    Here you can access your 
+    <span
+      class="font-medium"
+    >
+      4 most recent
+    </span>
+     activities.
+  </p>
+</div>
+`;
+
+exports[`CoursesSummary should render correct summary for 5 activities 1`] = `
+<div>
+  <p
+    class="mb-0 text-xxs xxxl:text-xs text-neutral-700"
+  >
+    Here you can access your 
+    <span
+      class="font-medium"
+    >
+      4 most recent
+    </span>
+     activities from 
+    <button
+      class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !text-xxs xxxl:!text-xs !inline-block -link py-xs px-base leading-[22px] text-white"
+      data-testid="button"
+      type="button"
+    >
+      <span
+        class="items-center flex justify-center gap-xs"
+      >
+        5 total.
+      </span>
+    </button>
+     You can add more through courses.
+  </p>
+</div>
+`;
+
+exports[`CoursesSummary should render correct summary for 15 activities 1`] = `
+<div>
+  <p
+    class="mb-0 text-xxs xxxl:text-xs text-neutral-700"
+  >
+    Here you can access your 
+    <span
+      class="font-medium"
+    >
+      4 most recent
+    </span>
+     activities from 
+    <button
+      class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !text-xxs xxxl:!text-xs !inline-block -link py-xs px-base leading-[22px] text-white"
+      data-testid="button"
+      type="button"
+    >
+      <span
+        class="items-center flex justify-center gap-xs"
+      >
+        15 total.
+      </span>
+    </button>
+     You can add more through courses.
+  </p>
+</div>
+`;
+
+exports[`CoursesSummary should render modal 1`] = `
+<div
+  aria-label="Modal"
+  aria-modal="true"
+  class="dialogContent modal bg-white flex flex-col shadow-300 pb-base xxxl:pb-md overflow-hidden my-[40px] xxxl:my-[80px] transition-[width] duration-500 ease-in-out rounded-sm outline-none w-[800px] w-[920px] xxxl:w-[1200px] !max-h-[85vh] h-[480px] xxxl:h-[690px]"
+  data-reach-dialog-content=""
+  data-state="open"
+  role="dialog"
+  tabindex="-1"
+>
+  <div
+    class="modal__header flex flex-row justify-between items-start px-base xxxl:px-md pt-base relative text-neutral-800 xxxl:pt-md xxxl:pb-0 mb-sm"
+    data-testid="modal-header"
+  >
+    <h4
+      class="modal__heading mb-0 text-lg"
+      data-testid="modal-heading"
+    >
+      All Activities 
+      <span
+        class="text-neutral-600"
+      >
+        (5)
+      </span>
+    </h4>
+    <button
+      aria-label="Modal close"
+      class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md"
+      data-testid="modal-close-button"
+      type="button"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0"
+          data-testid="icon"
+        >
+          <div
+            class="h-base w-base"
+          />
+        </div>
+      </div>
+    </button>
+  </div>
+  <div
+    class="modal__body grow text-font-primary leading-base scrollbar overflow-y-auto overflow-x-hidden py-0 px-base xxxl:px-md mb-sm xxxl:mb-base max-h-[60vh] !max-h-[80vh] !mb-0 !pe-sm"
+    data-testid="modal-body"
+  >
+    <div
+      class="bg-neutral-200 rounded-sm"
+    >
+      <div
+        class="grid grid-cols-3 xxxl:grid-cols-4 gap-sm !h-fit p-sm"
+      >
+        <div
+          class="h-[168px] xxxl:h-[268px]"
+        >
+          <a
+            href="/opportunities/1"
+          >
+            <div
+              aria-label="Test"
+              class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+              role="none"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="http://www.test.com/test.jpg"
+              />
+              <div
+                class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md"
+              >
+                <div
+                  class="relative h-full flex flex-col justify-end"
+                >
+                  <div>
+                    <div
+                      class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-center"
+                    >
+                      <div
+                        class="border border-white rounded-full overflow-hidden"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col"
+                      >
+                        <div
+                          class="w-fit"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <div
+                      class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                      >
+                        Agribusiness Systems
+                      </div>
+                    </div>
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      data-testid="text-highlighter"
+                    >
+                      <h5
+                        class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                      >
+                        Test
+                      </h5>
+                    </span>
+                  </span>
+                  <div
+                    class="w-full overflow-hidden"
+                    style="height: 0px; transform: translateY(16px) translateZ(0);"
+                  >
+                    <div
+                      class="pt-xxs flex items-center gap-xs"
+                    >
+                      <div
+                        class="ms-auto"
+                      >
+                        <span
+                          class="min-w-0"
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-white"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-base w-base"
+                              />
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="h-[168px] xxxl:h-[268px]"
+        >
+          <a
+            href="/opportunities/2"
+          >
+            <div
+              aria-label="Test"
+              class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+              role="none"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="http://www.test.com/test.jpg"
+              />
+              <div
+                class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md"
+              >
+                <div
+                  class="relative h-full flex flex-col justify-end"
+                >
+                  <div>
+                    <div
+                      class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-center"
+                    >
+                      <div
+                        class="border border-white rounded-full overflow-hidden"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col"
+                      >
+                        <div
+                          class="w-fit"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <div
+                      class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                      >
+                        Agribusiness Systems
+                      </div>
+                    </div>
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      data-testid="text-highlighter"
+                    >
+                      <h5
+                        class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                      >
+                        Test
+                      </h5>
+                    </span>
+                  </span>
+                  <div
+                    class="w-full overflow-hidden"
+                    style="height: 0px; transform: translateY(16px) translateZ(0);"
+                  >
+                    <div
+                      class="pt-xxs flex items-center gap-xs"
+                    >
+                      <div
+                        class="ms-auto"
+                      >
+                        <span
+                          class="min-w-0"
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-white"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-base w-base"
+                              />
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="h-[168px] xxxl:h-[268px]"
+        >
+          <a
+            href="/opportunities/3"
+          >
+            <div
+              aria-label="Test"
+              class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+              role="none"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="http://www.test.com/test.jpg"
+              />
+              <div
+                class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md"
+              >
+                <div
+                  class="relative h-full flex flex-col justify-end"
+                >
+                  <div>
+                    <div
+                      class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-center"
+                    >
+                      <div
+                        class="border border-white rounded-full overflow-hidden"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col"
+                      >
+                        <div
+                          class="w-fit"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <div
+                      class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                      >
+                        Agribusiness Systems
+                      </div>
+                    </div>
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      data-testid="text-highlighter"
+                    >
+                      <h5
+                        class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                      >
+                        Test
+                      </h5>
+                    </span>
+                  </span>
+                  <div
+                    class="w-full overflow-hidden"
+                    style="height: 0px; transform: translateY(16px) translateZ(0);"
+                  >
+                    <div
+                      class="pt-xxs flex items-center gap-xs"
+                    >
+                      <div
+                        class="ms-auto"
+                      >
+                        <span
+                          class="min-w-0"
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-white"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-base w-base"
+                              />
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="h-[168px] xxxl:h-[268px]"
+        >
+          <a
+            href="/opportunities/4"
+          >
+            <div
+              aria-label="Test"
+              class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+              role="none"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="http://www.test.com/test.jpg"
+              />
+              <div
+                class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md"
+              >
+                <div
+                  class="relative h-full flex flex-col justify-end"
+                >
+                  <div>
+                    <div
+                      class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-center"
+                    >
+                      <div
+                        class="border border-white rounded-full overflow-hidden"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col"
+                      >
+                        <div
+                          class="w-fit"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <div
+                      class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                      >
+                        Agribusiness Systems
+                      </div>
+                    </div>
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      data-testid="text-highlighter"
+                    >
+                      <h5
+                        class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                      >
+                        Test
+                      </h5>
+                    </span>
+                  </span>
+                  <div
+                    class="w-full overflow-hidden"
+                    style="height: 0px; transform: translateY(16px) translateZ(0);"
+                  >
+                    <div
+                      class="pt-xxs flex items-center gap-xs"
+                    >
+                      <div
+                        class="ms-auto"
+                      >
+                        <span
+                          class="min-w-0"
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-white"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-base w-base"
+                              />
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="h-[168px] xxxl:h-[268px]"
+        >
+          <a
+            href="/opportunities/5"
+          >
+            <div
+              aria-label="Test"
+              class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+              role="none"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="http://www.test.com/test.jpg"
+              />
+              <div
+                class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md"
+              >
+                <div
+                  class="relative h-full flex flex-col justify-end"
+                >
+                  <div>
+                    <div
+                      class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-center"
+                    >
+                      <div
+                        class="border border-white rounded-full overflow-hidden"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col"
+                      >
+                        <div
+                          class="w-fit"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <div
+                      class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                      >
+                        Agribusiness Systems
+                      </div>
+                    </div>
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      data-testid="text-highlighter"
+                    >
+                      <h5
+                        class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                      >
+                        Test
+                      </h5>
+                    </span>
+                  </span>
+                  <div
+                    class="w-full overflow-hidden"
+                    style="height: 0px; transform: translateY(16px) translateZ(0);"
+                  >
+                    <div
+                      class="pt-xxs flex items-center gap-xs"
+                    >
+                      <div
+                        class="ms-auto"
+                      >
+                        <span
+                          class="min-w-0"
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-white"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-base w-base"
+                              />
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,761 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PartnerCourses should render courses for student 1`] = `
+<div>
+  <div
+    class="bg-white rounded-sm max-h-full flex flex-col min-h-0 grow"
+  >
+    <div
+      class="px-base py-sm"
+    >
+      <h2
+        class="text-base xxxl:text-lg mb-0"
+      >
+        Courses 
+        <span
+          class="text-neutral-600"
+        >
+          (2)
+        </span>
+      </h2>
+    </div>
+    <div
+      class="w-full border border-neutral-300 h-[1px] rounded-full"
+    />
+    <div
+      class="h-full overflow-auto scrollbar"
+    >
+      <ul
+        class="px-base py-sm grid grid-cols-3 gap-x xxxl:gap-base"
+      >
+        <li
+          aria-label="Biomass Plant Technicians"
+          class="h-[180px] xxxl:h-[268px]"
+        >
+          <div
+            aria-label="Biomass Plant Technicians"
+            class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+            role="button"
+          >
+            <img
+              class="w-full h-full object-cover"
+              src="https://picsum.photos/600/300"
+            />
+            <div
+              class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md"
+            >
+              <div
+                class="relative h-full flex flex-col justify-end"
+              >
+                <div>
+                  <div
+                    class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-center"
+                  >
+                    <div
+                      class="border border-white rounded-full overflow-hidden"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-base w-base"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col"
+                    >
+                      <div
+                        class="w-fit"
+                      >
+                        <div
+                          class="font-medium leading-lg flex items-center bg-primary-200 text-primary-500 rounded-full px-xxs py-xxxs text-xxs gap-xxxs"
+                        >
+                          Career
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+                  data-state="closed"
+                >
+                  <div
+                    class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                    >
+                      Production
+                    </div>
+                  </div>
+                </span>
+                <span
+                  data-state="closed"
+                >
+                  <span
+                    data-testid="text-highlighter"
+                  >
+                    <h5
+                      class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                    >
+                      Biomass Plant Technicians
+                    </h5>
+                  </span>
+                </span>
+                <div
+                  class="w-full overflow-hidden"
+                  style="height: 0px; transform: translateY(16px) translateZ(0);"
+                >
+                  <div
+                    class="pt-xxs flex items-center gap-xs"
+                  >
+                    <span
+                      class="min-w-0"
+                      data-state="closed"
+                    >
+                      <h6
+                        class="mb-0 font-medium text-xs xxxl:text-base leading-lg truncate text-warning-500"
+                      >
+                        76% match
+                      </h6>
+                    </span>
+                    <div
+                      class="ms-auto"
+                    >
+                      <span
+                        class="min-w-0"
+                        data-state="closed"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-white"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          aria-label="Agricultural Technicians"
+          class="h-[180px] xxxl:h-[268px]"
+        >
+          <div
+            aria-label="Agricultural Technicians"
+            class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+            role="button"
+          >
+            <img
+              class="w-full h-full object-cover"
+              src="https://picsum.photos/600/300"
+            />
+            <div
+              class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md"
+            >
+              <div
+                class="relative h-full flex flex-col justify-end"
+              >
+                <div>
+                  <div
+                    class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-center"
+                  >
+                    <div
+                      class="border border-white rounded-full overflow-hidden"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-base w-base"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col"
+                    >
+                      <div
+                        class="w-fit"
+                      >
+                        <div
+                          class="font-medium leading-lg flex items-center bg-primary-200 text-primary-500 rounded-full px-xxs py-xxxs text-xxs gap-xxxs"
+                        >
+                          Career
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+                  data-state="closed"
+                >
+                  <div
+                    class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                    >
+                      Food Products and Processing Systems
+                    </div>
+                  </div>
+                </span>
+                <span
+                  data-state="closed"
+                >
+                  <span
+                    data-testid="text-highlighter"
+                  >
+                    <h5
+                      class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                    >
+                      Agricultural Technicians
+                    </h5>
+                  </span>
+                </span>
+                <div
+                  class="w-full overflow-hidden"
+                  style="height: 0px; transform: translateY(16px) translateZ(0);"
+                >
+                  <div
+                    class="pt-xxs flex items-center gap-xs"
+                  >
+                    <span
+                      class="min-w-0"
+                      data-state="closed"
+                    >
+                      <h6
+                        class="mb-0 font-medium text-xs xxxl:text-base leading-lg truncate text-warning-500"
+                      >
+                        69% match
+                      </h6>
+                    </span>
+                    <div
+                      class="ms-auto"
+                    >
+                      <span
+                        class="min-w-0"
+                        data-state="closed"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-white"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PartnerCourses should render courses for user 1`] = `
+<div>
+  <div
+    class="bg-white rounded-sm max-h-full flex flex-col min-h-0 grow"
+  >
+    <div
+      class="px-base py-sm"
+    >
+      <h2
+        class="text-base xxxl:text-lg mb-0"
+      >
+        Courses 
+        <span
+          class="text-neutral-600"
+        >
+          (3)
+        </span>
+      </h2>
+    </div>
+    <div
+      class="w-full border border-neutral-300 h-[1px] rounded-full"
+    />
+    <div
+      class="h-full overflow-auto scrollbar"
+    >
+      <ul
+        class="px-base py-sm grid grid-cols-3 gap-x xxxl:gap-base"
+      >
+        <li
+          aria-label="Agricultural Technicians"
+          class="h-[180px] xxxl:h-[268px]"
+        >
+          <a
+            href="/courses/255"
+          >
+            <div
+              aria-label="Agricultural Technicians"
+              class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+              role="none"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="https://picsum.photos/600/300"
+              />
+              <div
+                class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md"
+              >
+                <div
+                  class="relative h-full flex flex-col justify-end"
+                >
+                  <div>
+                    <div
+                      class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-center"
+                    >
+                      <div
+                        class="border border-white rounded-full overflow-hidden"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col"
+                      >
+                        <div
+                          class="w-fit"
+                        >
+                          <div
+                            class="font-medium leading-lg flex items-center bg-primary-200 text-primary-500 rounded-full px-xxs py-xxxs text-xxs gap-xxxs"
+                          >
+                            High School
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <div
+                      class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                      >
+                        Food Products and Processing Systems
+                      </div>
+                    </div>
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      data-testid="text-highlighter"
+                    >
+                      <h5
+                        class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                      >
+                        Agricultural Technicians
+                      </h5>
+                    </span>
+                  </span>
+                  <div
+                    class="w-full overflow-hidden"
+                    style="height: 0px; transform: translateY(16px) translateZ(0);"
+                  >
+                    <div
+                      class="pt-xxs flex items-center gap-xs"
+                    >
+                      <span
+                        class="min-w-0"
+                        data-state="closed"
+                      >
+                        <h6
+                          class="mb-0 font-medium text-xs xxxl:text-base leading-lg truncate text-warning-500"
+                        >
+                          Career
+                        </h6>
+                      </span>
+                      <div
+                        class="ms-auto"
+                      >
+                        <span
+                          class="min-w-0"
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-white"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-base w-base"
+                              />
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li
+          aria-label="Biomass Plant Technicians"
+          class="h-[180px] xxxl:h-[268px]"
+        >
+          <a
+            href="/courses/881"
+          >
+            <div
+              aria-label="Biomass Plant Technicians"
+              class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+              role="none"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="https://picsum.photos/600/300"
+              />
+              <div
+                class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md"
+              >
+                <div
+                  class="relative h-full flex flex-col justify-end"
+                >
+                  <div>
+                    <div
+                      class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-center"
+                    >
+                      <div
+                        class="border border-white rounded-full overflow-hidden"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col"
+                      >
+                        <div
+                          class="w-fit"
+                        >
+                          <div
+                            class="font-medium leading-lg flex items-center bg-primary-200 text-primary-500 rounded-full px-xxs py-xxxs text-xxs gap-xxxs"
+                          >
+                            High School
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <div
+                      class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                      >
+                        Production
+                      </div>
+                    </div>
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      data-testid="text-highlighter"
+                    >
+                      <h5
+                        class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                      >
+                        Biomass Plant Technicians
+                      </h5>
+                    </span>
+                  </span>
+                  <div
+                    class="w-full overflow-hidden"
+                    style="height: 0px; transform: translateY(16px) translateZ(0);"
+                  >
+                    <div
+                      class="pt-xxs flex items-center gap-xs"
+                    >
+                      <span
+                        class="min-w-0"
+                        data-state="closed"
+                      >
+                        <h6
+                          class="mb-0 font-medium text-xs xxxl:text-base leading-lg truncate text-warning-500"
+                        >
+                          Career
+                        </h6>
+                      </span>
+                      <div
+                        class="ms-auto"
+                      >
+                        <span
+                          class="min-w-0"
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-white"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-base w-base"
+                              />
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li
+          aria-label="Commercial Divers"
+          class="h-[180px] xxxl:h-[268px]"
+        >
+          <a
+            href="/courses/1292"
+          >
+            <div
+              aria-label="Commercial Divers"
+              class="cursor-pointer rounded-sm h-full relative overflow-hidden whitespace-normal before:absolute before:!bg-generic-card-gradient before:inset-0 hover:before:!bg-generic-card-gradient-hovered hover:before:bg-[#3c42583d] hover:shadow-300 group/card"
+              role="none"
+            >
+              <img
+                class="w-full h-full object-cover"
+                src="https://picsum.photos/600/300"
+              />
+              <div
+                class="absolute inset-0 group-hover/card:pb-sm group-hover/card:xxxl:pb-base px-sm pt-sm pb-base xxxl:px-base xxxl:pt-base xxxl:pb-md"
+              >
+                <div
+                  class="relative h-full flex flex-col justify-end"
+                >
+                  <div>
+                    <div
+                      class="flex flex-row-reverse justify-between absolute top-0 right-0 left-0 items-center"
+                    >
+                      <div
+                        class="border border-white rounded-full overflow-hidden"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 transition-colors ms-auto h-md w-md xxxl:h-lg xxxl:w-lg text-white group-hover/card:bg-white group-hover/card:text-primary-500 p-xxs"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col"
+                      >
+                        <div
+                          class="w-fit"
+                        >
+                          <div
+                            class="font-medium leading-lg flex items-center bg-secondary-200 text-secondary-500 rounded-full px-xxs py-xxxs text-xxs gap-xxxs"
+                          >
+                            Middle School
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <div
+                      class="flex text-neutral-300 items-center gap-xxs mb-xxxs"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="text-xxs xxxl:text-xs italic leading-lg truncate"
+                      >
+                        Maintenance/Operations
+                      </div>
+                    </div>
+                  </span>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      data-testid="text-highlighter"
+                    >
+                      <h5
+                        class="text-white text-xs xxxl:text-lg leading-[1.2] line-clamp-3 mb-0 highlightible"
+                      >
+                        Commercial Divers
+                      </h5>
+                    </span>
+                  </span>
+                  <div
+                    class="w-full overflow-hidden"
+                    style="height: 0px; transform: translateY(16px) translateZ(0);"
+                  >
+                    <div
+                      class="pt-xxs flex items-center gap-xs"
+                    >
+                      <span
+                        class="min-w-0"
+                        data-state="closed"
+                      >
+                        <h6
+                          class="mb-0 font-medium text-xs xxxl:text-base leading-lg truncate text-warning-500"
+                        >
+                          Career
+                        </h6>
+                      </span>
+                      <div
+                        class="ms-auto"
+                      >
+                        <span
+                          class="min-w-0"
+                          data-state="closed"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-white"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-base w-base"
+                              />
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,92 @@
+@import '@shared/stylesheets/config.sass'
+
+=choice-base
+  color: $color-font-primary
+  display: flex
+  font-size: $font-size-sm
+
+=choice-input
+  opacity: 0
+  position: absolute
+  z-index: $z-negative
+
+=choice-label
+  align-items: center
+  cursor: pointer
+  display: flex
+  width: 100%
+
+=choice-mark
+  content: ''
+  cursor: pointer
+  flex: 0 0 $checkbox-size
+  height: $checkbox-size
+  margin-right: $m-xs
+  width: $checkbox-size
+
+.checkbox
+  position: relative
+  $this: &
+  +choice-base
+
+  &__input
+    +choice-input
+
+    &:checked + #{$this}__label:before
+      box-shadow: inset 0 0 0 $m-sm $color-primary-500
+
+    &:disabled
+      & + label
+        cursor: not-allowed
+        color: $color-font-secondary
+
+        &:before
+          background-color: $color-disabled
+          box-shadow: inset 0 0 0 1px $color-background !important
+
+        &:after
+          background-image: none
+          mask-image: url('../../assets/icons/done.svg')
+          background-color: $color-neutral-700
+          cursor: not-allowed
+
+    &:checked:disabled
+      & + label
+        &::before
+          background-color: $color-disabled
+          border-color: $color-background
+
+    &:indeterminate
+      & + label::before
+        background:
+          image: url('../../assets/icons/remove.svg')
+          position: bottom
+          size: $m-sm
+
+  &__label
+    +choice-label
+    position: relative
+
+    &.-checked
+      color: $color-primary-500
+
+      &:after
+        +choice-mark
+        background:
+          image: url('../../assets/icons/done_white.svg')
+          position: bottom
+          size: $m-sm
+        left: 0
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+
+    &:before
+      +transition(box-shadow)
+      +choice-mark
+      border-radius: $m-xxs * 0.5
+      box-shadow: inset 0 0 0 1px $color-border
+      background-color: $color-white
+
+    &:hover:before
+      box-shadow: inset 0 0 0 1px $color-border-hover

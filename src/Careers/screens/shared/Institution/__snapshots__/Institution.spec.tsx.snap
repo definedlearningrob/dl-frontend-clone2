@@ -1,0 +1,411 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InstitutionCard renders correctly 1`] = `
+<div>
+  <div
+    class="p-base pt-xs xxxl:p-md xxxl:pt-sm"
+    id="read"
+  >
+    <div
+      class="wrapper"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="imageWrapper"
+          >
+            <img
+              alt="Aurora University"
+              class="image"
+              src="https://images.definedlearning.com/ipeds/177834.jpg"
+            />
+          </div>
+          <div
+            class="cardContent"
+          >
+            <div
+              class="header"
+            >
+              <div>
+                <div
+                  class="tag"
+                >
+                  Kirksville, MO
+                </div>
+                <h2
+                  class="text-font-primary mb-0 titleMedium title"
+                  data-testid="card-title"
+                >
+                  Aurora University
+                </h2>
+              </div>
+              <div
+                class="actions"
+              >
+                <button
+                  class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] button !border-neutral-300 hover:!border-danger-600 hover:!text-danger-600 hover:!bg-danger-100 focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 -default bg-white text-font-primary hover:bg-primary-200 outline-primary-500 border-white hover:border-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+                  data-testid="button"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-danger-600 h-[14px] mt-[-1px]"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <span
+                    class="items-center flex justify-center gap-xs"
+                  >
+                    Favorite
+                  </span>
+                </button>
+                <a
+                  href="https://www.atsu.edu"
+                  target="_blank"
+                >
+                  <button
+                    class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-xs -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+                    data-testid="button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="items-center flex justify-center gap-xs"
+                    >
+                      Website
+                    </span>
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              class="description"
+            >
+              <p
+                class="mb-base xxxl:mb-md"
+              >
+                Aurora University is a Private not-for-profit, 4-year or above institution. Aurora University is located in remote town. It offers certificates, master's degrees, doctoral degrees
+              </p>
+              <div
+                class=""
+              >
+                <p>
+                  Begin application process
+                  :
+                </p>
+                <a
+                  href="https://www.atsu.edu"
+                  target="_blank"
+                >
+                  <button
+                    class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+                    data-testid="button"
+                    type="button"
+                  >
+                    <span
+                      class="items-center flex justify-center gap-xs"
+                    >
+                      Direct application
+                    </span>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="tabsWrapper"
+        >
+          <ul
+            class="tabs withPadding fullWidth"
+          >
+            <li
+              class="tab tabSelected"
+              data-testid="tab-overview"
+              role="tab"
+            >
+              Overview
+            </li>
+            <li
+              class="tab"
+              data-testid="tab-admissions"
+              role="tab"
+            >
+              Admissions
+            </li>
+            <li
+              class="tab"
+              data-testid="tab-academics"
+              role="tab"
+            >
+              Academics
+            </li>
+          </ul>
+        </div>
+        <div
+          class="tabContentWrapper"
+        >
+          <div
+            class="card"
+          >
+            <div>
+              <h4
+                class="title"
+              >
+                Overview
+              </h4>
+            </div>
+            <div
+              class="grid gap-sm mb-base grid-cols-1 sm:grid-cols-2 md:grid-cols-3"
+            >
+              <div
+                class="container"
+              >
+                <div
+                  class="iconWrapper"
+                >
+                  <div
+                    class="icon icon"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                </div>
+                <h6
+                  class="title"
+                >
+                  <span
+                    class="titleItem"
+                  >
+                    Private not-for-profit, 4-year or above
+                  </span>
+                </h6>
+                <div
+                  class="content"
+                >
+                  Type
+                </div>
+              </div>
+              <div
+                class="container"
+              >
+                <div
+                  class="iconWrapper"
+                >
+                  <div
+                    class="icon icon"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                </div>
+                <h6
+                  class="title"
+                >
+                  <span
+                    class="titleItem"
+                  >
+                    Not specified
+                  </span>
+                </h6>
+                <div
+                  class="content"
+                >
+                  Size
+                </div>
+              </div>
+              <div
+                class="container"
+              >
+                <div
+                  class="iconWrapper"
+                >
+                  <div
+                    class="icon icon"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                </div>
+                <h6
+                  class="title"
+                >
+                  <span
+                    class="titleItem"
+                  >
+                    Not specified
+                  </span>
+                </h6>
+                <div
+                  class="content"
+                >
+                  Average per year after aid
+                </div>
+              </div>
+            </div>
+            <section
+              class="flex flex-col max-w-[800px] gap-base"
+            >
+              <h5
+                class="m-0 text-sm"
+              >
+                General information
+              </h5>
+              <div
+                class="flex flex-col gap-xs font-medium"
+              >
+                Address
+                <div
+                  class="flex items-center gap-xs font-regular leading-sm"
+                >
+                  <div
+                    class="icon -sm-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  800 W Jefferson, Kirksville, MO 63501
+                </div>
+              </div>
+              <div
+                class="flex flex-col gap-xs font-medium"
+              >
+                Phone number
+                <div
+                  class="flex items-center gap-xs font-regular leading-sm"
+                >
+                  <div
+                    class="icon -sm-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  6606262121
+                </div>
+              </div>
+              <div
+                class="linkWrapper"
+              >
+                Web address
+                <a
+                  class="link"
+                  href="https://www.atsu.edu"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    class="icon -sm-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  www.atsu.edu
+                </a>
+              </div>
+              <div
+                class="linkWrapper"
+              >
+                Financial aid office web address
+                <a
+                  class="link"
+                  href="https://www.atsu.edu/department-of-student-affairs/enrollment-services"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    class="icon -sm-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  www.atsu.edu/department-of-student-affairs/enrollment-services
+                </a>
+              </div>
+              <div
+                class="linkWrapper"
+              >
+                Admissions office web address
+                <a
+                  class="link"
+                  href="https://www.atsu.edu"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    class="icon -sm-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  www.atsu.edu
+                </a>
+              </div>
+              <div
+                class="linkWrapper"
+              >
+                Online application web address
+                <a
+                  class="link"
+                  href="https://www.atsu.edu"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    class="icon -sm-size"
+                    data-testid="icon"
+                  >
+                    <div />
+                  </div>
+                  www.atsu.edu
+                </a>
+              </div>
+            </section>
+          </div>
+          <div
+            class="card"
+          >
+            <div
+              class="credits"
+            >
+              <img
+                class="creditsImage"
+                src="IPEDS-logo.jpg"
+              />
+              <a
+                class="credits"
+                href="https://nces.ed.gov/ipeds/"
+                target="_blank"
+              >
+                This site incorporates information from Integrated Postsecondary Education System.
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,39 @@
+.icon
+  flex: 0 0 auto
+
+  &.-xxs-size
+    height: $icon-size-xxs
+    width: $icon-size-xxs
+
+  &.-xs-size
+    height: $icon-size-xs
+    width: $icon-size-xs
+
+  &.-sm-size
+    height: $icon-size
+    width: $icon-size
+
+  &.-md-size
+    height: $icon-size-md
+    width: $icon-size-md
+
+  &.-lg-size
+    flex: 0 0 auto
+    height: $icon-size
+    width: $icon-size
+
+  &.-negative
+    svg
+      fill: $color-white
+
+  svg
+    display: grid
+    height: 100%
+    place-items: center
+    width: 100%
+
++media-breakpoint-up(md)
+  .icon
+    &.-lg-size
+      height: $icon-size-lg
+      width: $icon-size-lg

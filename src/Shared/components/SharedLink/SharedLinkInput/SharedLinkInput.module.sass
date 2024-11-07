@@ -1,0 +1,27 @@
+@import '@shared/stylesheets/config.sass'
+
+.link
+  display: grid
+  grid-template-columns: 4fr 1fr
+  gap: $m-xs
+  margin-top: $m-sm
+  position: relative
+
+  $link: &
+
+  :global(.text-input__input)
+    border: 0 !important
+    color: $color-primary-500
+    padding:
+      left: $m-sm
+      right: $m-sm
+
+    &:focus
+      border: 0
+      #{$link}
+        border: 1px solid $color-primary-500
+
+    &:hover
+      border: 0
+      #{$link}
+        border: 1px solid $color-border-hover

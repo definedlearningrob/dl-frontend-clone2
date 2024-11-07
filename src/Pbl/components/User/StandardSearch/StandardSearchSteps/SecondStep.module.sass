@@ -1,0 +1,25 @@
+@import '@shared/stylesheets/config.sass'
+
+$insideHeight: 200px
+
+.loader
+  +flex-container(column)
+  height: 90vh
+  justify-content: center
+
+.mainTitle
+  margin-bottom: $m-md
+
+.mainContainer
+  +flex-container(row)
+  min-height: $insideHeight
+  gap: $m-md
+  flex-grow: 1
+
+  & > div
+    width: 50%
+
+.footerContainer
+  margin-top: $m-md
+  align-self: center
+

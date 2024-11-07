@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SharedTableList renders properly 1`] = `
+<table
+  class="table-list"
+  data-testid="table"
+>
+  <thead
+    data-testid="table-head"
+  >
+    <tr>
+      <th
+        data-testid="name-header"
+      >
+        name
+      </th>
+      <th
+        data-testid="description-header"
+      >
+        description
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    data-testid="table-body"
+  >
+    <tr
+      data-testid="table-row"
+    >
+      <td
+        data-testid="table-name-cell"
+      >
+        first name
+      </td>
+      <td
+        data-testid="table-description-cell"
+      >
+        first desc
+      </td>
+    </tr>
+    <tr
+      data-testid="table-row"
+    >
+      <td
+        data-testid="table-name-cell"
+      >
+        second name
+      </td>
+      <td
+        data-testid="table-description-cell"
+      >
+        second desc
+      </td>
+    </tr>
+    <tr
+      data-testid="table-row"
+    >
+      <td
+        data-testid="table-name-cell"
+      >
+        third name
+      </td>
+      <td
+        data-testid="table-description-cell"
+      >
+        third desc
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

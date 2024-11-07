@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ParticipantContextMenu should render correctly 1`] = `
+<div>
+  <button
+    aria-controls="radix-1"
+    aria-expanded="true"
+    aria-haspopup="menu"
+    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  group-hover:visible hover:bg-white visible outline outline-1 outline-primary-500"
+    data-state="open"
+    data-testid="icon-button"
+    id="radix-0"
+    type="button"
+  >
+    <div
+      class="flex"
+    >
+      <div
+        class="flex align-center justify-center grow-0 shrink-0"
+        data-testid="icon"
+      >
+        <div
+          class="h-sm w-sm"
+        />
+      </div>
+    </div>
+  </button>
+</div>
+`;

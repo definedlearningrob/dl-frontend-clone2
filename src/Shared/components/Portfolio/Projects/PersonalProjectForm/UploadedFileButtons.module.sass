@@ -1,0 +1,50 @@
+@import '@shared/stylesheets/config'
+
+.deleteFileButton
+  background-color: $color-secondary-200
+  height: $m-md
+  margin-left: $m-base * 0.5
+  min-height: $m-md
+  min-width: $m-md
+  width: $m-md
+
+  path
+    fill: $color-danger-500
+
+  &:hover
+    background-color: darken($color-secondary-200, 5%)
+
+  &:disabled
+    background-color: $color-background
+
+    path
+      fill: $color-font-secondary
+
+.uploadFileButton
+  background-color: $color-background
+  height: $m-md
+  margin-left: $m-base * 0.5
+  min-width: $m-md
+  width: $m-md
+
+  .icon
+    fill: $color-primary-500
+
+  &.-danger
+    background-color: $color-secondary-200
+
+    &:hover
+      background-color: darken($color-secondary-200, 5%)
+
+    .icon
+      fill: $color-danger-500
+
+  &.-disabled
+    background-color: $color-background
+
+    svg
+      fill: $color-font-secondary
+
+    &:hover
+      background-color: $color-border-hover
+      transform: translateY(-1px)

@@ -1,0 +1,31 @@
+@import '@shared/stylesheets/config.sass'
+
+.entityInfoContent
+  margin: 0 0 $m-base
+
+.header
+  +flex-container(row, false, center)
+  margin: 0 0 $m-base
+  gap: $m-sm
+
+  :global(.button)
+    margin-left: auto
+
+  :global(.shared-tooltip-portal__placeholder)
+    align-self: center
+    margin-right: $m-xs
+
+.labelWrapper
+  display: flex
+
+.unitsWrapper
+  display: grid
+  grid-template-columns: 1fr 1fr
+  gap: $m-sm
+  margin-bottom: $m-base
+
+.heading
+  +flex-container(row, false, center)
+  +ellipsis-multiline(2)
+  font-size: $font-size-base
+  margin: 0 $m-xs 0 0

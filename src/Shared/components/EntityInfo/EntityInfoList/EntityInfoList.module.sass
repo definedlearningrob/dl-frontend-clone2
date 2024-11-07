@@ -1,0 +1,62 @@
+@import '@shared/stylesheets/config.sass'
+
+.entityInfoList
+  margin-bottom: $m-xs
+  border: $border-width-xs solid $color-neutral-300
+  border-radius: $border-radius-xs
+
+.button
+  +flex-container(row, space-between, center)
+  +button-unstyled
+  color: $color-neutral-800
+  padding: $m-xs
+  font-size: $font-size-xs
+  transition: background-color $transition-duration * 0.5 $transition-function
+  width: 100%
+
+  &:hover
+    background-color: $color-background
+
+.buttonDisabled
+  color: $color-font-primary
+  cursor: default
+
+.icon
+  fill: $color-primary-500
+  margin-left: $m-xs
+
+.iconActive
+  transform: rotate(180deg)
+
+.iconDisabled
+  fill: $color-font-primary
+
+.list
+  margin: 0
+  max-height: 0
+  overflow: hidden
+  transition: max-height $transition-duration * 0.5 $transition-function
+
+.listActive
+  max-height: fit-content
+  padding: $m-xs
+
+.listItem
+  border-radius: $border-radius-xs
+  border: $border-width-xs solid $color-neutral-300
+  padding: $m-xs
+  font-size: $font-size-xs
+
+  &:not(:last-child)
+    margin-bottom: $m-xs
+
+.emptyList
+  +flex-container(column, center, center)
+  text-align: center
+  font-size: $font-size-xs
+
+.emptyIconWrapper
+  margin-bottom: $m-xs
+  svg
+    width: 56px
+    height: 56px

@@ -1,0 +1,17 @@
+@import '@shared/stylesheets/config.sass'
+
+.paginationBar
+  +flex-container(row, flex-end, center)
+
+.name
+  color: $color-primary-500
+  font-size: $font-size-xs
+  font-weight: $font-weight-bold
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+  &:hover
+    cursor: pointer
+
+.loaderContainer
+  height: 50vh

@@ -1,0 +1,47 @@
+@import '@shared/stylesheets/config'
+
+.table
+  width: 100%
+  border-collapse: collapse
+
+.fixed
+  table-layout: fixed
+
+  th
+    width: 100%
+
+.selectable
+  th:nth-child(1)
+    width: 10%
+
+.tableBody
+  border-top: 2px solid $color-neutral-300
+
+.tableBodyRow
+  border-bottom: 1px solid $color-neutral-300
+
+.rowClickable
+  cursor: pointer
+  
+  &:hover
+    background-color: $color-primary-200
+
+.rowSelected
+  background-color: $color-primary-200
+
+.tableCell
+  font-size: $font-size-xs
+  padding: $m-xs
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-sm
+    padding: $m-sm
+      
+.tableHeadCell
+  composes: tableCell
+  color: $color-font-secondary
+  text-align: left
+
+.tableBodyCell
+  composes: tableCell
+  color: $color-font-primary

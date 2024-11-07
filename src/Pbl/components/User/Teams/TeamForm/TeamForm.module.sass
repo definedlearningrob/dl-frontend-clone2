@@ -1,0 +1,19 @@
+@import '@shared/stylesheets/config.sass'
+
+.inputWrapper
+  :global
+    .text-input__input
+      line-height: 24px
+      padding: $m-xs
+      font-size: $font-size-xs
+
+      &--error
+        border: 1px solid $color-danger-500
+
+    .text-input__label
+      color: $color-neutral-700
+      font-size: $font-size-xs
+      margin-bottom: $m-xs
+
+    .input-error-message
+      font-size: $font-size-xxs

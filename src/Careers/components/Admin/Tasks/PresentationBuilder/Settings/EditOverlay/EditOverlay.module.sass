@@ -1,0 +1,43 @@
+@import '@shared/stylesheets/config'
+
+.overlay
+  backdrop-filter: blur($m-xxs)
+  background-color: rgba($color-background, 0.1)
+  bottom: 0
+  left: 0
+  position: absolute
+  right: 0
+  top: 0
+  z-index: $z-high
+
+.combinedIcon
+  display: inline-block
+  position: relative
+
+.sharedIcon
+  path
+    fill: $color-disabled
+
+.infoIcon
+  background-color: $color-white
+  border-radius: 50px
+  position: absolute
+  top: -$m-xxs
+  right: -$m-xxs
+
+  svg
+    fill: $color-warning-500
+
+.infoContainer
+  +flex-container(column, center, center)
+  background-color: $color-white
+  padding: $m-md
+
+.header
+  font-size: $font-size-base
+  font-weight: $font-weight-bold
+  margin-top: $m-sm
+  margin-bottom: $m-xs
+
+.info
+  color: $color-font-primary

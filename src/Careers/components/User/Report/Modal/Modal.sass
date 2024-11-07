@@ -1,0 +1,40 @@
+@import '@shared/stylesheets/config'
+
+@keyframes dropIn
+  from
+    transform: translateY(-20px)
+  to
+    transform: translateY(0px)
+
+@keyframes fadeIn
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+.user-report-modal
+  &__report-section
+    margin-top: $m-sm
+
+  &__description
+    font-weight: $font-weight-regular
+
+  &__button
+    width: 160px
+
+  &__button:first-child
+    margin-right: $m-sm
+
+  &__check-wrapper
+    +flex-container(row, flex-start, center)
+    border: 2px solid $color-background
+    padding: $m-base
+    margin-top: $m-xs
+
+  &__checkbox
+    font-weight: $font-weight-regular
+    margin: 0
+
+  &__plans-section
+    &.-loaded
+      animation: fadeIn 1000ms, dropIn 375ms ease-out

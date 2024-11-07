@@ -1,0 +1,33 @@
+@import '@shared/stylesheets/config.sass'
+
+.researchLinkList
+  +flex-container(column)
+  gap: $m-sm
+
+.researchLinkWrapper
+  +flex-container(row, space-between, center)
+  gap: $m-sm
+  padding: $m-sm
+  border: 1px solid $color-border-disabled
+  border-radius: $border-radius-sm
+  font-size: $font-size-xs
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+
+.researchLinkName
+  font-size: $font-size-xs
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+
+.researchLinkAuthor
+  color: $color-font-secondary
+  margin: $m-xs 0 0
+  font-size: $font-size-xxs
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-xs
+
+.researchLinkButton
+  white-space: nowrap

@@ -1,0 +1,50 @@
+@import '@shared/stylesheets/config'
+
+$image-height: 68px
+$image-width: 120px
+
+.backgroundImagePicker
+  +flex-container(row, flex-start, center)
+  border-radius: $border-radius-xs
+  box-shadow: rgb(0 0 0 / 15%) 0px 0px 0px 1px, rgb(0 0 0 / 15%) 0px 8px 16px
+  box-sizing: initial
+  flex-wrap: wrap
+  margin-top: $m-sm
+  padding: $m-x
+  user-select: none
+
+.defaultBackgroundImageWrapper,
+.uploadedBackgroundImageWrapper
+  position: relative
+
+.image
+  background-color: $color-background
+  background-position: center
+  background-size: cover
+  border-radius: $border-radius-xs
+  border: 1px solid $color-background
+  cursor: pointer
+  height: $image-height
+  margin: $m-sm
+  padding: $m-xxs * 0.5
+  width: $image-width
+
+.imageIsSelected
+  border: 1px solid $color-primary-600
+
+.archiveBackgroundImage
+  background-color: $color-white
+  height: 24px
+  position: absolute
+  right: 20px
+  top: 20px
+  visibility: hidden
+  width: 24px
+
+  :global
+    svg
+      fill: $color-danger-500
+
+.uploadedBackgroundImageWrapper:hover
+  .archiveBackgroundImage
+    visibility: visible

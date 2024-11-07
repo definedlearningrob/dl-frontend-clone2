@@ -1,0 +1,465 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnboardingResult renders top/bottom navigation bars and intro, components, pathways sections 1`] = `
+<div>
+  <div
+    class="assessment-result"
+    data-testid="assessment-result"
+  >
+    <nav
+      class="assessment__navbar"
+      data-testid="onboarding-result-nav"
+    >
+      <div
+        class="icon assessment__logo"
+        data-testid="icon"
+      >
+        <div />
+      </div>
+      <span
+        class="assessment__navbar-title"
+      >
+        Assessment Result
+      </span>
+      <div
+        class="flex gap-xs items-center"
+      >
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] assessment__navbar-button -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+          data-testid="button"
+          type="button"
+        >
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Back to dashboard
+          </span>
+        </button>
+      </div>
+    </nav>
+    <section
+      class="assessment-result-intro"
+      data-testid="assessment-result-intro"
+    >
+      <div
+        class="assessment-result-intro__text-wrapper"
+      >
+        <h2
+          class="assessment-result-intro__title"
+        >
+          Assessment Result
+        </h2>
+        <p
+          class="assessment-result-intro__description"
+        >
+          Great, you've finished the assessment! Now review your assessment results, view recommended career pathways, and select a career course to begin exploring and experiencing
+        </p>
+        <div
+          class="assessment-result-intro__actions"
+        >
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] assessment-result-intro__button -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+            data-testid="button"
+            type="button"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Show Results
+            </span>
+          </button>
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] whitespace-nowrap -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] border"
+            data-testid="button"
+            type="button"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Recommended Pathways
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="assessment-result-intro__illustration-wrapper"
+      >
+        <img
+          alt="Assessment result students with certificate"
+          class="assessment-result-intro__img"
+          src="illustration.png"
+        />
+      </div>
+    </section>
+    <section
+      class="assessment-component-result"
+      data-testid="assessment-result-components-section"
+    >
+      <div
+        class="assessment-component-result__content-wrapper"
+      >
+        <h2
+          class="assessment-component-result__title"
+        >
+          Component Result
+        </h2>
+        <p
+          class="assessment-component-result__description"
+        >
+          The assessment has been divided into three unique components, providing a triangulation of factors used to help recommend pathways for you. There are many different career environments which require different skill-sets and mindsets to be successful.
+        </p>
+        <div
+          class="assessment-component-result__components-wrapper"
+        >
+          <div
+            class="assessment-result-component-item"
+          >
+            <div />
+            <h3
+              class="assessment-result-component-item__name"
+            >
+              Study Preferences
+            </h3>
+            <a
+              class="assessment-result-component-item__link-button-wrapper"
+              href="/choose-pathway/components/preferences"
+            >
+              <button
+                class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] assessment-result-component-item__link-button -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] border"
+                data-testid="button"
+                type="button"
+              >
+                <span
+                  class="items-center flex justify-center gap-xs"
+                >
+                  Show Results
+                </span>
+              </button>
+            </a>
+          </div>
+          <div
+            class="assessment-result-component-item"
+          >
+            <div />
+            <h3
+              class="assessment-result-component-item__name"
+            >
+              Interests
+            </h3>
+            <a
+              class="assessment-result-component-item__link-button-wrapper"
+              href="/choose-pathway/components/interests"
+            >
+              <button
+                class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] assessment-result-component-item__link-button -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] border"
+                data-testid="button"
+                type="button"
+              >
+                <span
+                  class="items-center flex justify-center gap-xs"
+                >
+                  Show Results
+                </span>
+              </button>
+            </a>
+          </div>
+          <div
+            class="assessment-result-component-item"
+          >
+            <div />
+            <h3
+              class="assessment-result-component-item__name"
+            >
+              Work Values
+            </h3>
+            <a
+              class="assessment-result-component-item__link-button-wrapper"
+              href="/choose-pathway/components/workvalues"
+            >
+              <button
+                class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] assessment-result-component-item__link-button -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] border"
+                data-testid="button"
+                type="button"
+              >
+                <span
+                  class="items-center flex justify-center gap-xs"
+                >
+                  Show Results
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div
+      class="assessment-result__pathway-options-wrapper"
+    >
+      <div
+        class="assessment-result__pathway-options-wrapper"
+      >
+        <section
+          class="pathway-options"
+          data-testid="pathway-options"
+          id="pathway-section"
+        >
+          <div
+            class="pathway-options__content-wrapper"
+          >
+            <h2
+              class="pathway-options__title"
+            >
+              Recommended Pathways
+            </h2>
+            <p
+              class="pathway-options__description"
+            >
+              Based upon your results, the following pathways may be a good fit for you. Choose a pathway and search the available courses to continue.
+            </p>
+            <div
+              class="pathway-options__cards"
+            >
+              <div
+                class="pathway-card"
+                data-testid="pathway-card"
+              >
+                <div
+                  class="pathway-card__selected-label"
+                >
+                  <div />
+                </div>
+                <div
+                  class="pathway-card__photo-container"
+                  style="background-image: url(http://localstack.lvh.me);"
+                />
+                <div
+                  class="pathway-card__content"
+                >
+                  <h2
+                    class="pathway-card__title"
+                  >
+                    Teaching/Training
+                  </h2>
+                  <span
+                    class="pathway-card__cluster-info"
+                  >
+                    Part of the Education Training Cluster
+                  </span>
+                  <div
+                    class="pathway-card__select-button"
+                  >
+                    Select Pathway
+                    <div
+                      class="icon course-card__icon -button -sm-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pathway-card"
+                data-testid="pathway-card"
+              >
+                <div
+                  class="pathway-card__selected-label"
+                >
+                  <div />
+                </div>
+                <div
+                  class="pathway-card__photo-container"
+                  style="background-image: url(http://localstack.lvh.me);"
+                />
+                <div
+                  class="pathway-card__content"
+                >
+                  <h2
+                    class="pathway-card__title"
+                  >
+                    Counseling Mental Health Services
+                  </h2>
+                  <span
+                    class="pathway-card__cluster-info"
+                  >
+                    Part of the Human Services Cluster
+                  </span>
+                  <div
+                    class="pathway-card__select-button"
+                  >
+                    Select Pathway
+                    <div
+                      class="icon course-card__icon -button -sm-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pathway-card"
+                data-testid="pathway-card"
+              >
+                <div
+                  class="pathway-card__selected-label"
+                >
+                  <div />
+                </div>
+                <div
+                  class="pathway-card__photo-container"
+                  style="background-image: url(http://localstack.lvh.me);"
+                />
+                <div
+                  class="pathway-card__content"
+                >
+                  <h2
+                    class="pathway-card__title"
+                  >
+                    Legal Services
+                  </h2>
+                  <span
+                    class="pathway-card__cluster-info"
+                  >
+                    Part of the Law, Public Safety, Corrections Security Cluster
+                  </span>
+                  <div
+                    class="pathway-card__select-button"
+                  >
+                    Select Pathway
+                    <div
+                      class="icon course-card__icon -button -sm-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pathway-card"
+                data-testid="pathway-card"
+              >
+                <div
+                  class="pathway-card__selected-label"
+                >
+                  <div />
+                </div>
+                <div
+                  class="pathway-card__photo-container"
+                  style="background-image: url(http://localstack.lvh.me);"
+                />
+                <div
+                  class="pathway-card__content"
+                >
+                  <h2
+                    class="pathway-card__title"
+                  >
+                    Engineering and Technology
+                  </h2>
+                  <span
+                    class="pathway-card__cluster-info"
+                  >
+                    Part of the STEM Cluster
+                  </span>
+                  <div
+                    class="pathway-card__select-button"
+                  >
+                    Select Pathway
+                    <div
+                      class="icon course-card__icon -button -sm-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div
+      class="fixed bottom-lg left-xs z-high [&_a>span]:!pl-xs"
+    >
+      <div
+        class="px-xs z-highest mb-sm"
+        id="readspeaker_button1"
+      >
+        <div
+          class="rs_skip rsbtn rs_preserve read-speaker flex items-center !mb-0 !bg-neutral-200 !rounded-sm !p-xxs"
+        >
+          <a
+            accesskey="L"
+            class="rsbtn_play !flex items-center grow !bg-transparent !border-r-0 !border-t-0 !border-b-0 !rounded-none !h-base !border-l-neutral-300 !pl-xs ml-xs"
+            rel="nofollow"
+            title="Listen to this page using Read Speaker web Reader"
+          >
+            <span
+              class="rsbtn_left rsimg rspart grow block !m-0 !bg-neutral-200 hover:!bg-neutral-700 rounded-sm group !py-xxs"
+            >
+              <span
+                class="rsbtn_text before:!content-none after:!content-none !flex items-center"
+              >
+                <span
+                  class="!p-0 grow !flex items-center justify-center gap-xxxs group-hover:!text-white"
+                >
+                  <span
+                    class="!p-0 group-hover:!text-inherit !font-medium !text-xs !h-auto !leading-base"
+                  >
+                    Listen
+                  </span>
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-primary-500 grow group-hover:!text-inherit !p-xxs"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </span>
+              </span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <nav
+      class="assessment__navbar"
+      data-testid="onboarding-result-nav"
+    >
+      <div
+        class="icon assessment__logo"
+        data-testid="icon"
+      >
+        <div />
+      </div>
+      <span
+        class="assessment__navbar-title"
+      >
+        Assessment Result
+      </span>
+      <div
+        class="flex gap-xs items-center"
+      >
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] assessment__navbar-button -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+          data-testid="button"
+          type="button"
+        >
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Back to dashboard
+          </span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</div>
+`;

@@ -1,0 +1,16 @@
+@import '@shared/stylesheets/config.sass'
+
+.content
+  display: grid
+  gap: $m-sm
+  grid-template-columns: repeat(4, 1fr)
+
+  +media-breakpoint-up(xxxl)
+    gap: $m-base
+    grid-template-columns: repeat(6, 1fr)
+
+.loading
+  padding-top: $m-xs
+
+  +media-breakpoint-up(xxxl)
+    padding-top: $m-sm

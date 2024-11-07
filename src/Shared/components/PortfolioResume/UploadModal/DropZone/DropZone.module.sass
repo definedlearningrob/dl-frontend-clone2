@@ -1,0 +1,33 @@
+@import '@shared/stylesheets/config.sass'
+
+.dropZone
+  +flex-container(column, center, center)
+  background-color: $color-background
+  border-radius: $border-radius-sm
+  border: 1px dashed $color-border
+  cursor: pointer
+  min-height: $m-2xl * 2
+  padding: $m-base
+
+.icon
+  margin-bottom: $m-xs
+
+  svg
+    fill: $color-primary-500
+
+.errorMessage
+  color: $color-danger-500
+  display: block
+  font-size: $font-size-xxs
+  margin-top: $m-sm
+  text-align: center
+  width: 100%
+
+.linkText
+  color: $color-primary-500
+
+.textWrapper
+  color: $color-font-primary
+  font-weight: $font-weight-medium
+  margin: 0
+  text-transform: capitalize

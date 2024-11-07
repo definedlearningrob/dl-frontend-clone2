@@ -1,0 +1,39 @@
+@import '@shared/stylesheets/config.sass'
+
+.headingWrapper
+  margin-bottom: $m-xxs
+
+  +media-breakpoint-up(xxxl)
+    margin-bottom: $m-xs
+
+.heading
+  color: $color-neutral-800
+  margin-right: $m-xxs
+
+.counter
+  color: $color-neutral-600
+
+.heading,
+.counter
+  font-size: $font-size-sm
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-base
+
+  &.variant-sm
+    font-size: $font-size-xs
+
+    +media-breakpoint-up(xxxl)
+      font-size: $font-size-sm
+
+.description
+  font-size: $font-size-xs
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+
+  &.variant-sm
+    font-size: $font-size-xxs
+
+    +media-breakpoint-up(xxxl)
+      font-size: $font-size-xs

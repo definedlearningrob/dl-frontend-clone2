@@ -1,0 +1,26 @@
+@import '@shared/stylesheets/config.sass'
+
+$icon-size: 40px
+
+.wrapper
+  +flex-container(row, false, center)
+  background-color: $color-white
+  border: $border-width-xs $color-neutral-300 solid
+  border-radius: $m-xs
+  margin-bottom: $m-md
+  padding: $m-sm
+  gap: $m-sm
+
+.iconWrapper
+  +flex-container(row, center, center)
+  width: $icon-size
+  height: $icon-size
+  border-radius: $border-radius-sm
+  background-color: $color-info-100
+
+.icon
+  color: $color-info-500
+
+.text
+  font-size: $font-size-xs
+  margin: 0

@@ -1,0 +1,32 @@
+@import '@shared/stylesheets/config'
+
+.dropZoneWrapper
+		+flex-container(column, center, center)
+		background-color: $color-background
+		border-radius: $border-radius-sm
+		border: 1px dashed $color-border
+		cursor: pointer
+		min-height: $m-2xl
+		padding: $m-base
+
+.dropZoneIcon
+		margin-bottom: $m-xs
+
+		svg
+				fill: $color-primary-500
+
+.dropZoneText
+		color: $color-font-primary
+		margin: 0
+		text-transform: capitalize
+
+.dropZoneLink
+		color: $color-primary-500
+
+.errorMessage
+		color: $color-danger-500
+		display: block
+		font-size: $font-size-xxs
+		margin-top: $m-sm
+		text-align: center
+		width: 100%

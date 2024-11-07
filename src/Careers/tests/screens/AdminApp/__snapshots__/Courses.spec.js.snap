@@ -1,0 +1,1078 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminAppCourses renders courses list correctly 1`] = `
+<div>
+  <div
+    class="p-base pt-xs xxxl:p-md xxxl:pt-sm"
+    id="read"
+  >
+    <div
+      class="courses"
+    >
+      <div
+        class="admin-filters"
+      >
+        <label
+          class="flex flex-col leading-lg min-w-[120px] gap-xs"
+        >
+          <div
+            class="text-font-primary leading-lg flex gap-xxxs text-xs"
+          >
+            Status
+          </div>
+          <div
+            class=" css-b62m3t-container"
+          >
+            <span
+              class="css-1f43avz-a11yText-A11yText"
+              id="react-select-6-live-region"
+            />
+            <span
+              aria-atomic="false"
+              aria-live="polite"
+              aria-relevant="additions text"
+              class="css-1f43avz-a11yText-A11yText"
+              role="log"
+            />
+            <div
+              class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+            >
+              <div
+                class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--has-value css-1fdsijx-ValueContainer"
+              >
+                <div
+                  class="!m-0 !leading-[22px] h-[22px] select__single-value css-1dimb5e-singleValue"
+                >
+                  Published
+                </div>
+                <div
+                  class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                  data-value=""
+                >
+                  <input
+                    aria-activedescendant=""
+                    aria-autocomplete="list"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    autocapitalize="none"
+                    autocomplete="off"
+                    autocorrect="off"
+                    class="select__input"
+                    id="react-select-6-input"
+                    role="combobox"
+                    spellcheck="false"
+                    style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                    tabindex="0"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+              >
+                <div
+                  aria-hidden="true"
+                  class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 text-neutral-800"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-base w-base"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </label>
+        <label
+          class="flex flex-col leading-lg min-w-[120px] gap-xs"
+        >
+          <div
+            class="text-font-primary leading-lg flex gap-xxxs text-xs"
+          >
+            Type
+          </div>
+          <div
+            class=" css-b62m3t-container"
+          >
+            <span
+              class="css-1f43avz-a11yText-A11yText"
+              id="react-select-7-live-region"
+            />
+            <span
+              aria-atomic="false"
+              aria-live="polite"
+              aria-relevant="additions text"
+              class="css-1f43avz-a11yText-A11yText"
+              role="log"
+            />
+            <div
+              class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+            >
+              <div
+                class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--has-value css-1fdsijx-ValueContainer"
+              >
+                <div
+                  class="!m-0 !leading-[22px] h-[22px] select__single-value css-1dimb5e-singleValue"
+                >
+                  All
+                </div>
+                <div
+                  class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                  data-value=""
+                >
+                  <input
+                    aria-activedescendant=""
+                    aria-autocomplete="list"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    autocapitalize="none"
+                    autocomplete="off"
+                    autocorrect="off"
+                    class="select__input"
+                    id="react-select-7-input"
+                    role="combobox"
+                    spellcheck="false"
+                    style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                    tabindex="0"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+              >
+                <div
+                  aria-hidden="true"
+                  class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 text-neutral-800"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-base w-base"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </label>
+        <label
+          class="flex flex-col leading-lg min-w-[120px] gap-xs"
+        >
+          <div
+            class="text-font-primary leading-lg flex gap-xxxs text-xs"
+          >
+            Scope
+          </div>
+          <div
+            class=" css-b62m3t-container"
+          >
+            <span
+              class="css-1f43avz-a11yText-A11yText"
+              id="react-select-8-live-region"
+            />
+            <span
+              aria-atomic="false"
+              aria-live="polite"
+              aria-relevant="additions text"
+              class="css-1f43avz-a11yText-A11yText"
+              role="log"
+            />
+            <div
+              class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+            >
+              <div
+                class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--has-value css-1fdsijx-ValueContainer"
+              >
+                <div
+                  class="!m-0 !leading-[22px] h-[22px] select__single-value css-1dimb5e-singleValue"
+                >
+                  Active
+                </div>
+                <div
+                  class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                  data-value=""
+                >
+                  <input
+                    aria-activedescendant=""
+                    aria-autocomplete="list"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    autocapitalize="none"
+                    autocomplete="off"
+                    autocorrect="off"
+                    class="select__input"
+                    id="react-select-8-input"
+                    role="combobox"
+                    spellcheck="false"
+                    style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                    tabindex="0"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+              >
+                <div
+                  aria-hidden="true"
+                  class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 text-neutral-800"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-base w-base"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </label>
+        <label
+          class="flex flex-col leading-lg min-w-[120px] gap-xs"
+        >
+          <div
+            class="text-font-primary leading-lg flex gap-xxxs text-xs"
+          >
+            Collection
+          </div>
+          <div
+            class=" css-b62m3t-container"
+          >
+            <span
+              class="css-1f43avz-a11yText-A11yText"
+              id="react-select-9-live-region"
+            />
+            <span
+              aria-atomic="false"
+              aria-live="polite"
+              aria-relevant="additions text"
+              class="css-1f43avz-a11yText-A11yText"
+              role="log"
+            />
+            <div
+              class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+            >
+              <div
+                class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+              >
+                <div
+                  class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                  id="react-select-9-placeholder"
+                >
+                  Select...
+                </div>
+                <div
+                  class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                  data-value=""
+                >
+                  <input
+                    aria-activedescendant=""
+                    aria-autocomplete="list"
+                    aria-describedby="react-select-9-placeholder"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    autocapitalize="none"
+                    autocomplete="off"
+                    autocorrect="off"
+                    class="select__input"
+                    id="react-select-9-input"
+                    role="combobox"
+                    spellcheck="false"
+                    style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                    tabindex="0"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+              >
+                <div
+                  aria-hidden="true"
+                  class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-base w-base"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div
+        class="admin-filters"
+      >
+        <label
+          class="switch labelFirst"
+        >
+          <div
+            class="content"
+          >
+            <input
+              class="switchInput"
+              role="switch"
+              type="checkbox"
+            />
+            <span
+              class="slider"
+            />
+          </div>
+          <span
+            class="label"
+          >
+            Show user copies
+          </span>
+        </label>
+        <div
+          class="filter__searchbar"
+        >
+          <div
+            class="filter__search"
+          >
+            <label
+              class="flex flex-col items-start text-font-primary w-full gap-xs"
+            >
+              <div
+                class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs flex-row-reverse"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px]"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+                <span
+                  class="flex gap-xxs grow"
+                >
+                  <input
+                    class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                    data-testid="filter-search-bar-adminSearchableColumns"
+                    placeholder="Search by name..."
+                    type="text"
+                    value=""
+                  />
+                </span>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div
+          class="filter__searchbar"
+        >
+          <div
+            class="filter__search"
+          >
+            <label
+              class="flex flex-col items-start text-font-primary w-full gap-xs"
+            >
+              <div
+                class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs flex-row-reverse"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px]"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+                <span
+                  class="flex gap-xxs grow"
+                >
+                  <input
+                    class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                    data-testid="filter-search-bar-pathwayName"
+                    placeholder="Search by pathway..."
+                    type="text"
+                    value=""
+                  />
+                </span>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        class="admin-list__footer"
+      >
+        <a
+          href="//new"
+        >
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] admin-list__new-button -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+            data-testid="admin-list-new-button"
+            type="button"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              New
+            </span>
+          </button>
+        </a>
+      </div>
+      <div
+        class="admin-list"
+      >
+        <div
+          class="max-w-full overflow-auto"
+        >
+          <table
+            class="table-list"
+            data-testid="admin-list-content"
+          >
+            <thead>
+              <tr>
+                <th
+                  class="admin-list__header !w-[100px]"
+                />
+                <th
+                  class="admin-list__header !w-1/5"
+                >
+                  Name
+                </th>
+                <th
+                  class="admin-list__header !w-1/5"
+                >
+                  Display name
+                </th>
+                <th
+                  class="admin-list__header"
+                >
+                  Status
+                </th>
+                <th
+                  class="admin-list__header !w-1/5"
+                >
+                  Pathway
+                </th>
+                <th
+                  class="admin-list__header"
+                >
+                  Collection
+                </th>
+                <th
+                  class="admin-list__header"
+                >
+                  Lessons
+                </th>
+                <th
+                  class="admin-list__header"
+                >
+                  Actions
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                data-testid="courses-list-item"
+              >
+                <td>
+                  <div
+                    class="shared-tooltip-portal__placeholder recommended-card__tooltip__placeholder"
+                  >
+                    <img
+                      alt="Course image"
+                      class="w-[86px] h-lg object-cover"
+                      src="https://thumbnails.com"
+                    />
+                  </div>
+                </td>
+                <td
+                  data-testid="courses-list-item-name"
+                >
+                  <span
+                    data-testid="text-highlighter"
+                  >
+                    <span
+                      class="highlightible"
+                    >
+                      First course
+                    </span>
+                  </span>
+                </td>
+                <td
+                  data-testid="courses-list-item-displayName"
+                >
+                  <span
+                    data-testid="text-highlighter"
+                  >
+                    <span
+                      class="highlightible"
+                    >
+                      First course display name
+                    </span>
+                  </span>
+                </td>
+                <td
+                  data-testid="courses-list-item-status"
+                >
+                  draft
+                </td>
+                <td
+                  data-testid="courses-list-item-pathway"
+                >
+                  <span
+                    data-testid="text-highlighter"
+                  >
+                    <span
+                      class="highlightible"
+                    >
+                      some pathway
+                    </span>
+                  </span>
+                  some pathway
+                </td>
+                <td>
+                  Career
+                </td>
+                <td
+                  class="admin-list-item__expandable-list-container"
+                  data-testid="course-lessons"
+                >
+                  <ul
+                    class="admin-list-item__expandable-list"
+                  />
+                </td>
+                <td>
+                  <div
+                    class="flex gap-xs ml-xs"
+                  >
+                    <span
+                      data-state="closed"
+                    >
+                      <button
+                        aria-label="Show"
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-primary-500 text-primary-500 hover:bg-primary-200 outline-primary-500  w-md h-md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <button
+                        aria-label="Edit"
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-primary-500 text-primary-500 hover:bg-primary-200 outline-primary-500  w-md h-md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <button
+                        aria-label="Duplicate"
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-primary-500 text-primary-500 hover:bg-primary-200 outline-primary-500  w-md h-md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <button
+                        aria-label="Archive"
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-danger-500 text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr
+                data-testid="courses-list-item"
+              >
+                <td>
+                  <div
+                    class="shared-tooltip-portal__placeholder recommended-card__tooltip__placeholder"
+                  >
+                    <img
+                      alt="Course image"
+                      class="w-[86px] h-lg object-cover"
+                      src="https://thumbnails.com"
+                    />
+                  </div>
+                </td>
+                <td
+                  data-testid="courses-list-item-name"
+                >
+                  <span
+                    data-testid="text-highlighter"
+                  >
+                    <span
+                      class="highlightible"
+                    >
+                      Second course
+                    </span>
+                  </span>
+                </td>
+                <td
+                  data-testid="courses-list-item-displayName"
+                >
+                  <span
+                    data-testid="text-highlighter"
+                  >
+                    <span
+                      class="highlightible"
+                    />
+                  </span>
+                </td>
+                <td
+                  data-testid="courses-list-item-status"
+                >
+                  draft
+                </td>
+                <td
+                  data-testid="courses-list-item-pathway"
+                >
+                  <span
+                    data-testid="text-highlighter"
+                  >
+                    <span
+                      class="highlightible"
+                    >
+                      some pathway
+                    </span>
+                  </span>
+                  some pathway
+                </td>
+                <td>
+                  Financial Literacy
+                </td>
+                <td
+                  class="admin-list-item__expandable-list-container"
+                  data-testid="course-lessons"
+                >
+                  <ul
+                    class="admin-list-item__expandable-list"
+                  />
+                </td>
+                <td>
+                  <div
+                    class="flex gap-xs ml-xs"
+                  >
+                    <span
+                      data-state="closed"
+                    >
+                      <button
+                        aria-label="Show"
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-primary-500 text-primary-500 hover:bg-primary-200 outline-primary-500  w-md h-md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <button
+                        aria-label="Edit"
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-primary-500 text-primary-500 hover:bg-primary-200 outline-primary-500  w-md h-md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <button
+                        aria-label="Duplicate"
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-primary-500 text-primary-500 hover:bg-primary-200 outline-primary-500  w-md h-md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <button
+                        aria-label="Archive"
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-danger-500 text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+              <tr
+                data-testid="courses-list-item"
+              >
+                <td>
+                  <div
+                    class="shared-tooltip-portal__placeholder recommended-card__tooltip__placeholder"
+                  >
+                    <img
+                      alt="Course image"
+                      class="w-[86px] h-lg object-cover"
+                      src="https://thumbnails.com"
+                    />
+                  </div>
+                </td>
+                <td
+                  data-testid="courses-list-item-name"
+                >
+                  <span
+                    data-testid="text-highlighter"
+                  >
+                    <span
+                      class="highlightible"
+                    >
+                      Third course
+                    </span>
+                  </span>
+                </td>
+                <td
+                  data-testid="courses-list-item-displayName"
+                >
+                  <span
+                    data-testid="text-highlighter"
+                  >
+                    <span
+                      class="highlightible"
+                    >
+                      Third course display name
+                    </span>
+                  </span>
+                </td>
+                <td
+                  data-testid="courses-list-item-status"
+                >
+                  draft
+                </td>
+                <td
+                  data-testid="courses-list-item-pathway"
+                >
+                  <span
+                    data-testid="text-highlighter"
+                  >
+                    <span
+                      class="highlightible"
+                    >
+                      some pathway
+                    </span>
+                  </span>
+                  some pathway
+                </td>
+                <td>
+                  Soft skills
+                </td>
+                <td
+                  class="admin-list-item__expandable-list-container"
+                  data-testid="course-lessons"
+                >
+                  <ul
+                    class="admin-list-item__expandable-list"
+                  />
+                </td>
+                <td>
+                  <div
+                    class="flex gap-xs ml-xs"
+                  >
+                    <span
+                      data-state="closed"
+                    >
+                      <button
+                        aria-label="Show"
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-primary-500 text-primary-500 hover:bg-primary-200 outline-primary-500  w-md h-md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <button
+                        aria-label="Edit"
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-primary-500 text-primary-500 hover:bg-primary-200 outline-primary-500  w-md h-md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <button
+                        aria-label="Duplicate"
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-primary-500 text-primary-500 hover:bg-primary-200 outline-primary-500  w-md h-md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                    </span>
+                    <span
+                      data-state="closed"
+                    >
+                      <button
+                        aria-label="Archive"
+                        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-danger-500 text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md"
+                        data-testid="icon-button"
+                        type="button"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-base w-base"
+                            />
+                          </div>
+                        </div>
+                      </button>
+                    </span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div
+          class="bg-white justify-between text-xs py-xs border-t border-neutral-300 mt-auto"
+        >
+          <div
+            class="flex gap-xxs items-center"
+          >
+            <button
+              class="pagination__prev-page"
+              data-testid="pagination-prev-page"
+              disabled=""
+              type="button"
+            >
+              <div
+                class="icon -xs-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+              Prev
+            </button>
+            <ul
+              class="flex gap-xs"
+              data-testid="pagination-slider"
+            >
+              <li
+                class="leading-[24px] rounded-xxs text-center min-w-[24px] h-base px-xxxs pagination__paging-slider-page hover:bg-primary-200 bg-primary-200 text-primary-500"
+                data-testid="pagination-slider-item"
+              >
+                1
+              </li>
+            </ul>
+            <button
+              class="pagination__next-page"
+              data-testid="pagination-next-page"
+              disabled=""
+              type="button"
+            >
+              Next
+              <div
+                class="icon -xs-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+            </button>
+          </div>
+          <span
+            class="text-neutral-600 m-xs"
+            data-testid="pagination-records-info"
+          >
+            Results: 1 - 3 of 3
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

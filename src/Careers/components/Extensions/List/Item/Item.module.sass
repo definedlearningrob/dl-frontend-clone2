@@ -1,0 +1,92 @@
+@import '@shared/stylesheets/config.sass'
+
+.wrapper
+  +flex-container(column)
+  background-color: $color-white
+  border-radius: $border-radius-sm
+  font-size: $font-size-xs
+  padding: $m-sm
+
+.header
+  +flex-container(row, space-between, flex-start)
+
+.headerDetails
+  +flex-container(column, flex-start, flex-start)
+
+.headerRight
+  +flex-container(row, flex-end, center)
+
+.archiveButton
+  color: $color-danger-500
+
+  &:hover
+    background-color: $color-danger-100
+    color: $color-danger-500
+
+.avatar
+  flex: 0
+
+.status
+  border-radius: $border-radius-xs
+  padding: $m-xxs
+
+.statusDraft
+  background-color: $color-secondary-200
+  color: $color-secondary-500
+
+.statusPublished
+  background-color: $color-primary-200
+  color: $color-primary-500
+
+.statusArchived
+  background-color: $color-danger-100
+  color: $color-danger-500
+
+.title
+  font-size: $font-size-base
+  margin: $m-xs 0
+
+.username
+  margin: $m-xs 0 0 0
+  font-size: $font-size-sm
+  font-weight: $font-weight-regular
+
+.arrowButton
+  margin-left: $m-xxs
+
+.calendarRow
+  +flex-container(row, flex-start, center)
+
+.dates
+  margin-left: $m-xxs
+
+.detailsButton
+  margin-top: auto
+
+.footer
+  +flex-container(row)
+  margin-top: $m-sm
+  height: 100%
+
+.publishedInItem
+  pointer-events: none
+
+.showMore
+  display: inline-block
+  font-size: $font-size-xs
+  margin-left: $m-xxs
+
+.sourceItem
+  display: inline
+
+.trigger
+  margin-left: $m-xs
+
+.archiveAction
+  background-color: $color-danger-100
+  color: $color-danger-500
+
+  &:hover
+    background-color: $color-danger-100
+    color: $color-danger-500
+    opacity: 0.9

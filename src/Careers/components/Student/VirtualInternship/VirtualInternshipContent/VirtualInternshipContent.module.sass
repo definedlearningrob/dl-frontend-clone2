@@ -1,0 +1,78 @@
+@import '@shared/stylesheets/config.sass'
+
+$image-height: auto
+$image-width: 174px
+$image-width-xxxl: 426px
+
+$internship-progress-max-height: calc(100vh - $desktop-header-height - (2 * $m-xs))
+$internship-progress-max-height-xxxl: calc(100vh - $desktop-header-height - (2 * $m-md))
+
+.card
+  padding: $m-base
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-md
+
+.loaderWrapper
+  +flex-container(column, center, center)
+  height: 100%
+
+.content
+  height: 100%
+  display: grid
+  column-gap: $m-base
+  grid-template-columns: 2fr 1fr
+
+  +media-breakpoint-up(xxxl)
+    column-gap: $m-md
+
+.detailsContainer
+  +flex-container(column)
+  flex-wrap: wrap
+  gap: $m-sm
+
+  +media-breakpoint-up(xxxl)
+    gap: $m-md
+
+.badge
+  font-weight: $font-weight-bold
+  text-transform: uppercase
+  border-radius: $border-radius-lg
+  white-space: nowrap
+  width: min-content
+  font-size: $font-size-xxxs
+  padding: $m-xs
+
+.titleClassname
+  font-size: $font-size-sm
+  margin-bottom: $m-xs
+
+  +media-breakpoint-up(xxxl)
+    margin-bottom: $m-sm
+    font-size: $font-size-base
+
+.internshipDescription
+  font-size: $font-size-xxs
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-base
+
+.buttonsWrapper
+  +flex-container(row)
+  gap: $m-x
+
+.heading
+  margin-bottom: $m-base
+
+.internshipProgress
+  grid-column-start: 2
+  grid-column-end: 3
+  padding: $m-base
+  position: sticky
+  top: $desktop-header-height + $m-xs
+  max-height: $internship-progress-max-height
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-md
+    max-height: $internship-progress-max-height-xxxl
+    top: $desktop-header-height + $m-md

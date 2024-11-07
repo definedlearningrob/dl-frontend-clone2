@@ -1,0 +1,1 @@
+export { LabelWithIcon } from './LabelWithIcon';

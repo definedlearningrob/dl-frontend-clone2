@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StudentCourse renders correctly when student is enrolled 1`] = `
+<div>
+  <section
+    class="mb-md"
+  >
+    <div
+      class="flex mb-xs"
+      data-testid="course-pathway-badges"
+    >
+      <div
+        class="font-bold text-xxs py-xxs px-xs bg-white whitespace-nowrap rounded-lg radius-lg mb-xs"
+      >
+        Pathway name
+      </div>
+    </div>
+    <h3
+      data-testid="course-heading"
+    >
+      Course name
+    </h3>
+    <div
+      class="injected-content text-neutral-700 mb-base description"
+      data-testid="course-description"
+    >
+      Description
+    </div>
+    <div
+      class="flex gap-sm mb-md"
+    >
+      <a
+        href="/courses"
+      >
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] w-[180px] -secondary bg-secondary-500 hover:bg-secondary-600 outline-secondary-500 border-secondary-500 py-xs px-base leading-[22px] border text-white"
+          data-testid="button"
+          type="button"
+        >
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Continue
+          </span>
+        </button>
+      </a>
+      <button
+        class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+        data-testid="button"
+        type="button"
+      >
+        <span
+          class="items-center flex justify-center gap-xs"
+        >
+          Unenroll
+        </span>
+      </button>
+    </div>
+    <div
+      class="course-progress-bar -continue"
+    >
+      <div
+        class="course-progress-bar__header"
+      >
+        <span>
+          Course progress
+        </span>
+      </div>
+      <div
+        class="course-progress-bar__range"
+      >
+        <div
+          class="course-progress-bar__indicator"
+          data-testid="progress-indicator"
+          style="width: 50%;"
+        />
+      </div>
+    </div>
+  </section>
+  <section
+    class="course-lessons"
+  >
+    <h3>
+      Lessons
+    </h3>
+    <div
+      class="course-lessons__lessons"
+    />
+  </section>
+</div>
+`;
+
+exports[`StudentCourse renders correctly when student is not enrolled 1`] = `
+<div>
+  <section
+    class="mb-md"
+  >
+    <div
+      class="flex mb-xs"
+      data-testid="course-pathway-badges"
+    >
+      <div
+        class="font-bold text-xxs py-xxs px-xs bg-white whitespace-nowrap rounded-lg radius-lg mb-xs"
+      >
+        Pathway name
+      </div>
+    </div>
+    <h3
+      data-testid="course-heading"
+    >
+      Course name
+    </h3>
+    <div
+      class="injected-content text-neutral-700 mb-base description"
+      data-testid="course-description"
+    >
+      Description
+    </div>
+    <div
+      class="flex gap-sm mb-md"
+    >
+      <a
+        href="/courses"
+      >
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] w-[180px] -secondary bg-secondary-500 hover:bg-secondary-600 outline-secondary-500 border-secondary-500 py-xs px-base leading-[22px] border text-white"
+          data-testid="button"
+          type="button"
+        >
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Continue
+          </span>
+        </button>
+      </a>
+      <button
+        class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] border"
+        data-testid="button"
+        type="button"
+      >
+        <span
+          class="items-center flex justify-center gap-xs"
+        >
+          Enroll in Course
+        </span>
+      </button>
+    </div>
+    <div
+      class="course-progress-bar -continue"
+    >
+      <div
+        class="course-progress-bar__header"
+      >
+        <span>
+          Course progress
+        </span>
+      </div>
+      <div
+        class="course-progress-bar__range"
+      >
+        <div
+          class="course-progress-bar__indicator"
+          data-testid="progress-indicator"
+          style="width: 50%;"
+        />
+      </div>
+    </div>
+  </section>
+  <section
+    class="course-lessons"
+  >
+    <h3>
+      Lessons
+    </h3>
+    <div
+      class="course-lessons__lessons"
+    />
+  </section>
+</div>
+`;

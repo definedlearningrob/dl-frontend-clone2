@@ -1,0 +1,13 @@
+@import '@shared/stylesheets/config.sass'
+
+.container
+  display: grid
+  gap: $m-sm
+  grid-template-columns: repeat(auto-fit, minmax($course-card-width, 1fr))
+  margin-top: $m-sm
+
+  +media-breakpoint-up(md)
+    gap: $m-base
+
+  .card
+    height: $course-card-height

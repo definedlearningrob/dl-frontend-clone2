@@ -1,0 +1,20 @@
+@import '@shared/stylesheets/config.sass'
+
+$base-legend-height: calc(100vh - $desktop-header-height)
+
+.legendWrapper
+  +flex-container(column)
+  height: calc($base-legend-height - 2 * $m-base)
+  border-radius: $border-radius-sm
+  background-color: $color-white
+  padding: $m-base
+  flex: 0 0 50%
+  min-width: 0
+
+  +media-breakpoint-up(xxl)
+    height: calc($base-legend-height - 2 * $m-md)
+
+.legend
+  +scrollbar
+  flex: 1
+

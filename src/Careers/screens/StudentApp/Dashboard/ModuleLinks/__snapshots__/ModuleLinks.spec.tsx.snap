@@ -1,0 +1,411 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModuleLinks should render correctly 1`] = `
+<div>
+  <div
+    class="h-full grid gap-x xxxl:gap-base z-0 grid-cols-4"
+  >
+    <div
+      class="flex flex-col relative pb-md xxxl:pb-lg"
+    >
+      <a
+        class="text-font-primary pt-xxs pb-xs xxxl:pt-x xxxl:pb-[10px] px-x bg-white border border-neutral-300 rounded-b-sm shadow-300 transition-[all] max-h-[34px] xxxl:max-h-[48px] duration-300 hover:px-sm xxxl:hover:px-base hover:max-h-[300px] hover:text-font-primary hover:z-highest hover:left-0 hover:right-0 hover:border-secondary-500 hover:bg-secondary-200 hover:rounded-t-sm absolute -translate-y-[1px] bottom-0 left-xxs xxxl:left-x right-xxs xxxl:right-x overflow-hidden peer group/secondary-card"
+        href="/portfolio/edit"
+      >
+        <div
+          class="absolute w-0 h-0 border-l-transparent border-x-[24px] border-b-[16px] border-b-neutral-300 bottom-[-8px] left-1/2 -translate-x-1/2 border-r-transparent z-highest peer group-hover/secondary-card:top-[-8px] group-hover/secondary-card:rotate-180 group-hover/secondary-card:border-y-secondary-500"
+        />
+        <div
+          class="flex gap-xs items-center text-xxxs lg:text-xxs xxxl:text-sm relative group-hover/secondary-card:hidden leading-lg"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 text-secondary-500"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          <span
+            class="truncate"
+          >
+            Edit
+          </span>
+        </div>
+        <div
+          class="grow relative z-high transition-[all] hidden group-hover/secondary-card:block pt-x mb-xs"
+        >
+          <div
+            class="flex items-center justify-between mb-x xxxl:mb-base"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-secondary-200 text-secondary-500 rounded-sm group-hover/secondary-card:bg-[#fff] group-hover/secondary-card:text-secondary-500 p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 text-secondary-500 group-hover/secondary-card:bg-[#fff] group-hover/secondary-card:text-secondary-500 rounded-sm p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+          </div>
+          <h6
+            class="mb-xs xxxl:mb-xs text-xs xxxl:text-sm"
+          >
+            Edit
+          </h6>
+          <p
+            class="text-font-secondary text-xxs xxxl:text-xs mb-0"
+          >
+            Edit the content of your resume.
+          </p>
+        </div>
+      </a>
+      <a
+        class="text-font-primary bg-white border border-neutral-300 rounded-sm p-sm xxxl:p-base shadow-200 grow relative transition-[all] duration-300 hover:text-font-primary hover:border-primary-500 hover:bg-primary-200 peer-hover:mx-xxs xxxl:peer-hover:mx-x peer-hover:px-x xxxl:peer-hover:px-sm group/primary-card"
+        href="/portfolio"
+      >
+        <div
+          class="flex items-center justify-between mb-x xxxl:mb-base"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 bg-primary-200 text-primary-500 rounded-sm group-hover/primary-card:bg-[#fff] p-xxs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 text-primary-500 group-hover/primary-card:bg-[#fff] rounded-sm p-xxs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+        </div>
+        <h6
+          class="mb-xs xxxl:mb-xs text-xs xxxl:text-sm"
+        >
+          Portfolio
+        </h6>
+        <p
+          class="text-font-secondary text-xxs xxxl:text-xs mb-0"
+        >
+          See your current portfolio.
+        </p>
+      </a>
+    </div>
+    <div
+      class="flex flex-col relative"
+    >
+      <a
+        class="text-font-primary bg-white border border-neutral-300 rounded-sm p-sm xxxl:p-base shadow-200 grow relative transition-[all] duration-300 hover:text-font-primary hover:border-primary-500 hover:bg-primary-200 peer-hover:mx-xxs xxxl:peer-hover:mx-x peer-hover:px-x xxxl:peer-hover:px-sm group/primary-card"
+        href="/portfolio/experiences"
+      >
+        <div
+          class="flex items-center justify-between mb-x xxxl:mb-base"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 bg-primary-200 text-primary-500 rounded-sm group-hover/primary-card:bg-[#fff] p-xxs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 text-primary-500 group-hover/primary-card:bg-[#fff] rounded-sm p-xxs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+        </div>
+        <h6
+          class="mb-xs xxxl:mb-xs text-xs xxxl:text-sm"
+        >
+          Experience Summary
+        </h6>
+        <p
+          class="text-font-secondary text-xxs xxxl:text-xs mb-0"
+        >
+          See the graphical representation of completed projects across career clusters.
+        </p>
+      </a>
+    </div>
+    <div
+      class="flex flex-col relative pb-md xxxl:pb-lg"
+    >
+      <a
+        class="text-font-primary pt-xxs pb-xs xxxl:pt-x xxxl:pb-[10px] px-x bg-white border border-neutral-300 rounded-b-sm shadow-300 transition-[all] max-h-[34px] xxxl:max-h-[48px] duration-300 hover:px-sm xxxl:hover:px-base hover:max-h-[300px] hover:text-font-primary hover:z-highest hover:left-0 hover:right-0 hover:border-secondary-500 hover:bg-secondary-200 hover:rounded-t-sm absolute -translate-y-[1px] bottom-0 left-xxs xxxl:left-x right-xxs xxxl:right-x overflow-hidden peer group/secondary-card"
+        href="/opportunities?typeIn[]=VIRTUAL_INTERNSHIP"
+      >
+        <div
+          class="absolute w-0 h-0 border-l-transparent border-x-[24px] border-b-[16px] border-b-neutral-300 bottom-[-8px] left-1/2 -translate-x-1/2 border-r-transparent z-highest peer group-hover/secondary-card:top-[-8px] group-hover/secondary-card:rotate-180 group-hover/secondary-card:border-y-secondary-500"
+        />
+        <div
+          class="flex gap-xs items-center text-xxxs lg:text-xxs xxxl:text-sm relative group-hover/secondary-card:hidden leading-lg"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 text-secondary-500"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          <span
+            class="truncate"
+          >
+            Virtual Internships
+          </span>
+        </div>
+        <div
+          class="grow relative z-high transition-[all] hidden group-hover/secondary-card:block pt-x mb-xs"
+        >
+          <div
+            class="flex items-center justify-between mb-x xxxl:mb-base"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-secondary-200 text-secondary-500 rounded-sm group-hover/secondary-card:bg-[#fff] group-hover/secondary-card:text-secondary-500 p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 text-secondary-500 group-hover/secondary-card:bg-[#fff] group-hover/secondary-card:text-secondary-500 rounded-sm p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+          </div>
+          <h6
+            class="mb-xs xxxl:mb-xs text-xs xxxl:text-sm"
+          >
+            Virtual Internships
+          </h6>
+          <p
+            class="text-font-secondary text-xxs xxxl:text-xs mb-0"
+          >
+            Try online in-app opportunities!
+          </p>
+        </div>
+      </a>
+      <a
+        class="text-font-primary bg-white border border-neutral-300 rounded-sm p-sm xxxl:p-base shadow-200 grow relative transition-[all] duration-300 hover:text-font-primary hover:border-primary-500 hover:bg-primary-200 peer-hover:mx-xxs xxxl:peer-hover:mx-x peer-hover:px-x xxxl:peer-hover:px-sm group/primary-card"
+        href="/opportunities"
+      >
+        <div
+          class="flex items-center justify-between mb-x xxxl:mb-base"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 bg-primary-200 text-primary-500 rounded-sm group-hover/primary-card:bg-[#fff] p-xxs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 text-primary-500 group-hover/primary-card:bg-[#fff] rounded-sm p-xxs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+        </div>
+        <h6
+          class="mb-xs xxxl:mb-xs text-xs xxxl:text-sm"
+        >
+          Opportunities
+        </h6>
+        <p
+          class="text-font-secondary text-xxs xxxl:text-xs mb-0"
+        >
+          Look for opportunities recommended for you.
+        </p>
+      </a>
+    </div>
+    <div
+      class="flex flex-col relative pb-md xxxl:pb-lg"
+    >
+      <a
+        class="text-font-primary pt-xxs pb-xs xxxl:pt-x xxxl:pb-[10px] px-x bg-white border border-neutral-300 rounded-b-sm shadow-300 transition-[all] max-h-[34px] xxxl:max-h-[48px] duration-300 hover:px-sm xxxl:hover:px-base hover:max-h-[300px] hover:text-font-primary hover:z-highest hover:left-0 hover:right-0 hover:border-secondary-500 hover:bg-secondary-200 hover:rounded-t-sm absolute -translate-y-[1px] bottom-0 left-xxs xxxl:left-x right-xxs xxxl:right-x overflow-hidden peer group/secondary-card"
+        href="/post-secondary/manage-applications"
+      >
+        <div
+          class="absolute w-0 h-0 border-l-transparent border-x-[24px] border-b-[16px] border-b-neutral-300 bottom-[-8px] left-1/2 -translate-x-1/2 border-r-transparent z-highest peer group-hover/secondary-card:top-[-8px] group-hover/secondary-card:rotate-180 group-hover/secondary-card:border-y-secondary-500"
+        />
+        <div
+          class="flex gap-xs items-center text-xxxs lg:text-xxs xxxl:text-sm relative group-hover/secondary-card:hidden leading-lg"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 text-secondary-500"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          <span
+            class="truncate"
+          >
+            Applications
+          </span>
+        </div>
+        <div
+          class="grow relative z-high transition-[all] hidden group-hover/secondary-card:block pt-x mb-xs"
+        >
+          <div
+            class="flex items-center justify-between mb-x xxxl:mb-base"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-secondary-200 text-secondary-500 rounded-sm group-hover/secondary-card:bg-[#fff] group-hover/secondary-card:text-secondary-500 p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 text-secondary-500 group-hover/secondary-card:bg-[#fff] group-hover/secondary-card:text-secondary-500 rounded-sm p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+          </div>
+          <h6
+            class="mb-xs xxxl:mb-xs text-xs xxxl:text-sm"
+          >
+            Applications
+          </h6>
+          <p
+            class="text-font-secondary text-xxs xxxl:text-xs mb-0"
+          >
+            Track statuses of your applications.
+          </p>
+        </div>
+      </a>
+      <a
+        class="text-font-primary bg-white border border-neutral-300 rounded-sm p-sm xxxl:p-base shadow-200 grow relative transition-[all] duration-300 hover:text-font-primary hover:border-primary-500 hover:bg-primary-200 peer-hover:mx-xxs xxxl:peer-hover:mx-x peer-hover:px-x xxxl:peer-hover:px-sm group/primary-card"
+        href="/post-secondary"
+      >
+        <div
+          class="flex items-center justify-between mb-x xxxl:mb-base"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 bg-primary-200 text-primary-500 rounded-sm group-hover/primary-card:bg-[#fff] p-xxs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 text-primary-500 group-hover/primary-card:bg-[#fff] rounded-sm p-xxs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+        </div>
+        <h6
+          class="mb-xs xxxl:mb-xs text-xs xxxl:text-sm"
+        >
+          Find your Future
+        </h6>
+        <p
+          class="text-font-secondary text-xxs xxxl:text-xs mb-0"
+        >
+          Search for colleges and universities.
+        </p>
+      </a>
+    </div>
+  </div>
+</div>
+`;

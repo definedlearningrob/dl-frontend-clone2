@@ -1,0 +1,26 @@
+@import '@shared/stylesheets/config.sass'
+
+.list
+  display: grid
+  grid-template-columns: repeat(4, minmax(0, 1fr))
+  row-gap: $m-base
+  column-gap: $m-x
+  margin: 0
+
+  +media-breakpoint-up(xxxl)
+    grid-template-columns: repeat(5, minmax(0, 1fr))
+    row-gap: $m-md
+    column-gap: $m-base
+
+.emptyStateCard
+  +flex-container(column, center)
+  flex: 1
+
+.showMoreButton
+  margin: $m-base auto 0
+
+  +media-breakpoint-up(xxxl)
+    margin: $m-md auto 0
+
+.footer
+  +flex-container(row, center, center)

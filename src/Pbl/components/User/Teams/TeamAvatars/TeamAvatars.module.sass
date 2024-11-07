@@ -1,0 +1,36 @@
+@import '@shared/stylesheets/config.sass'
+
+.group
+  +flex-container(row)
+
+  :global(.avatar)
+    flex: 1 1 auto
+    z-index: $z-base
+    outline: 1px solid $color-neutral-300
+    border-radius: $border-radius-lg
+    transition-property: transform, z-index
+    transition-duration: $transition-duration, $transition-duration
+    transition-timing-function: $transition-function, $transition-function
+
+.avatarWrapper
+  &:not(:first-of-type)
+    margin-left: -$m-xs
+
+.interactiveWrapper:hover
+  :global(.avatar)
+    z-index: $z-high
+    background-color: $color-primary-500
+    transform: translateY(-$m-xs)
+
+.restListElement
+  +flex-container(row, false, center)
+  gap: $m-xs
+
+  :global(.avatar)
+    flex: 0 0 auto !important
+
+  &:not(:last-child)
+    margin-bottom: $m-sm
+
+.restListUserLabel
+  font-size: $font-size-xs

@@ -1,0 +1,52 @@
+@import '@shared/stylesheets/config.sass'
+
+$inputSize: 20px
+
+.labelWrapper
+  top: 1px
+  position: relative
+  line-height: $inputSize
+
+.radioLabel
+  +flex-container(row)
+  cursor: pointer
+  position: relative
+  color: $color-font-primary
+
+  input[type="radio"]:focus
+    outline-color: $color-primary-500
+
+  input[type="radio"]
+    margin-right: $m-xs
+    appearance: none
+    font: inherit
+    color: currentColor
+    width: $inputSize
+    height: $inputSize
+    border: $m-xxxs solid $color-neutral-300
+    border-radius: 50%
+    display: grid
+    place-content: center
+
+  input[type="radio"]:not(:disabled):hover
+    border-color: $color-neutral-400
+
+  input[type="radio"]:before
+    content: ""
+    width: $inputSize
+    height: $inputSize
+    border-radius: 50%
+    transform: scale(0)
+    box-shadow: inset 1em 1em transparent
+    border:  4px solid $color-primary-500
+    transition: all .2s ease-in
+
+  input[type="radio"]:checked:before
+    transform: scale(1)
+
+  input[type="radio"]:disabled
+    background-color: $color-neutral-300
+
+  input[type="radio"]:disabled:checked:before
+    border-color: $color-neutral-300
+    background-color: $color-neutral-200

@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LessonCheckInItems should render properly 1`] = `
+<div>
+  <div
+    class="card lessonCard"
+    data-testid="lesson-element-card"
+    id="3-CheckInGroup"
+  >
+    <h5
+      class="checkInItemName"
+    >
+      Lesson 1 Check-ins
+    </h5>
+    <div
+      class="questionsWrapper"
+    >
+      <form
+        action="#"
+      >
+        <div
+          class="textarea"
+        >
+          <label
+            class="w-full"
+          >
+            <div
+              class="text-sm xxxl:text-base mb-sm font-bold"
+            >
+              Whats your name?
+            </div>
+            <textarea
+              class="scrollbar textareaInput"
+              name="answer"
+              placeholder="Type here..."
+            />
+          </label>
+          <div
+            class="inputErrorMessage"
+          />
+        </div>
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] ms-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] -min-width-md border text-white"
+          data-testid="button"
+          type="button"
+        >
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Save
+          </span>
+        </button>
+      </form>
+      <form
+        action="#"
+      >
+        <div
+          class="textarea"
+        >
+          <label
+            class="w-full"
+          >
+            <div
+              class="text-sm xxxl:text-base mb-sm font-bold"
+            >
+              How are you?
+            </div>
+            <textarea
+              class="scrollbar textareaInput"
+              name="answer"
+              placeholder="Type here..."
+            />
+          </label>
+          <div
+            class="inputErrorMessage"
+          />
+        </div>
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] ms-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] -min-width-md border text-white"
+          data-testid="button"
+          type="button"
+        >
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Save
+          </span>
+        </button>
+      </form>
+    </div>
+  </div>
+  <div
+    class="card lessonCard"
+    data-testid="lesson-element-card"
+    id="4-CheckInQuestion"
+  >
+    <form
+      action="#"
+    >
+      <div
+        class="textarea"
+      >
+        <label
+          class="w-full"
+        >
+          <div
+            class="text-sm xxxl:text-base mb-sm font-bold"
+          >
+            Whats your question?
+          </div>
+          <textarea
+            class="scrollbar textareaInput"
+            name="answer"
+            placeholder="Type here..."
+          />
+        </label>
+        <div
+          class="inputErrorMessage"
+        />
+      </div>
+      <button
+        class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] ms-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] -min-width-md border text-white"
+        data-testid="button"
+        type="button"
+      >
+        <span
+          class="items-center flex justify-center gap-xs"
+        >
+          Save
+        </span>
+      </button>
+    </form>
+  </div>
+</div>
+`;

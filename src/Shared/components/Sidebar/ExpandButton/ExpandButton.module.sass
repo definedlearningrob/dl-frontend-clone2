@@ -1,0 +1,31 @@
+@import '@shared/stylesheets/config.sass'
+
+.expandButton
+  +sidebar-item
+  user-select: none
+  overflow: hidden
+
+.icon
+  transition: all $transition-duration $transition-function
+
+.smallIcon
+  transform-origin: 45% 50%
+  transform: rotateZ(180deg)
+
+.buttonText
+  font-weight: $font-weight-medium
+  transition: visibility 200ms $transition-function
+  white-space: nowrap
+
+.hidden
+  visibility: hidden
+
+.divider
+  border-top: 2px solid $color-background
+  margin: 0 $m-sm $m-sm
+
+.animationClose
+  transition: $sidebar-transition-close
+
+.animationOpen
+  transition: $sidebar-transition-open

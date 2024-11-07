@@ -1,0 +1,60 @@
+@import '@shared/stylesheets/config.sass'
+
+$action-button-width: 160px
+
+.details
+  +scrollbar
+  height: 100%
+  padding-right: $m-base
+  margin-bottom: $m-base
+  flex: 1 1 auto
+
+  +media-breakpoint-up(xxxl)
+    padding-right: $m-md
+
+.actionsWrapper
+  flex: 0 0
+  height: 100%
+
+.content
+  font-size: $font-size-xs
+  line-height: $line-height-lg
+  margin-bottom: $m-base
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+
+.actionButton
+  width: $action-button-width !important
+
+.rateInfoWrapper
+  +flex-container(row, false, flex-start)
+  column-gap: $m-xs
+  border: 1px solid $color-neutral-300
+  border-radius: $m-xs
+  padding: $m-xs
+
+  +media-breakpoint-up(xxxl)
+    column-gap: $m-sm
+    padding: $m-base
+
+.statusIconWrapper
+  padding: $m-xs
+  border-radius: 100%
+
+.accepted
+  color: $color-success-500
+  background-color: $color-success-100
+
+.rejected
+  color: $color-danger-500
+  background-color: $color-danger-100
+
+.rateInfoDescription
+    color: $color-neutral-700
+    font-size: $font-size-xs
+    line-height: $line-height-lg
+    margin-bottom: 0
+
+    +media-breakpoint-up(xxxl)
+        font-size: $font-size-sm

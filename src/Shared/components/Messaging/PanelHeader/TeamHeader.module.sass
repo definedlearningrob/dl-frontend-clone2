@@ -1,0 +1,80 @@
+@import '@shared/stylesheets/config.sass'
+
+$headerWrapperHeight: 104px
+$headerHeight: 40px
+
+.teamHeader
+  +flex-container(row, space-between, center)
+  height: 100%
+  width: 100%
+
+.teamDescriptionWrapper
+  :global(a.-text-icon)
+    margin-bottom: $m-xxs
+
+  :global(.button .-text-icon__text)
+    padding-top: 0
+    padding-bottom: 0
+    font-size: $font-size-xs
+
+    +media-breakpoint-up(xxl)
+      font-size: $font-size-sm
+
+.teamDescription
+  +flex-container(row, center, center)
+
+.teamIconWrapper
+  +flex-container(row, center, center)
+  width: $headerHeight
+  height: $headerHeight
+  background-color: $color-primary-200
+  border-radius: $border-radius-sm
+  margin-right: $m-xs
+
+  svg
+    path
+      fill: $color-primary-500
+
+.teamLabel
+  text-align: start
+  font-weight: $font-weight-bold
+
+.teamCount
+  color: $color-neutral-700
+  font-size: $font-size-xxxs
+  text-transform: uppercase
+  font-weight: $font-weight-bold
+  letter-spacing: 0.1em
+
+.teamName
+  font-size: $font-size-sm
+  color: $color-neutral-800
+
+.teamInfo
+  +flex-container(row, center, center)
+  height: 100%
+
+.teacherInfo
+  +flex-container(row, center, center)
+  height: $headerHeight
+  padding-right: $m-base
+  margin-right: $m-base
+  border-right: $border-width-xs solid $color-neutral-300
+
+.teacherAvatar
+  margin-right: $m-xs
+
+.teacherLabel
+  color: $color-neutral-700
+
+.teacher
+  text-align: start
+  text-transform: uppercase
+  font-size: $font-size-xxxs
+  font-weight: $font-weight-bold
+  color: $color-font-secondary
+  letter-spacing: 0.1em
+
+.teacherName
+  font-weight: $font-weight-medium
+  font-size: $font-size-xs

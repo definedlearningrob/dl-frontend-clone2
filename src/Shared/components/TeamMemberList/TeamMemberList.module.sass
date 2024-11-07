@@ -1,0 +1,19 @@
+@import '@shared/stylesheets/config'
+
+.listWrapper
+  +flex-container(row, false, center)
+  gap: $m-xs
+  font-size: $font-size-xs
+  flex-wrap: wrap
+
+.singleItem
+  +flex-container(row, false, center)
+  gap: $m-xxs
+  border-radius: $border-radius-sm
+  background-color: $color-neutral-200
+  padding: $m-xxs
+
+.avatar
+  :global( > .avatar__image)
+    background-color: $color-white
+    outline: $color-neutral-300 $border-width-xs solid

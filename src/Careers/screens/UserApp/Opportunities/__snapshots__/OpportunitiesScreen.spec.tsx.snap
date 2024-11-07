@@ -1,0 +1,1608 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OpportunitiesScreen displays proper message when data is empty 1`] = `
+<div>
+  <div
+    class="p-base pt-xs xxxl:p-md xxxl:pt-sm h-[theme(layout.containerHeight)] !pt-xs flex flex-col gap-sm"
+    id="read"
+  >
+    <div
+      class="flex items-center justify-between"
+    >
+      <h4
+        class="text-base xxxl:text-lg mb-0"
+      >
+        Work-Based Learning Opportunities
+      </h4>
+    </div>
+    <div
+      class="h-full min-h-0 flex flex-col"
+      data-orientation="horizontal"
+      dir="ltr"
+    >
+      <div
+        class="triggerListContainer"
+      >
+        <div
+          aria-orientation="horizontal"
+          class="triggerList !mb-sm withPadding fullWidth"
+          data-orientation="horizontal"
+          role="tablist"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <button
+            aria-controls="radix-16-content-opportunities"
+            aria-selected="true"
+            class="triggerListItem"
+            data-orientation="horizontal"
+            data-radix-collection-item=""
+            data-state="active"
+            id="radix-16-trigger-opportunities"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Opportunities
+          </button>
+          <button
+            aria-controls="radix-16-content-partners"
+            aria-selected="false"
+            class="triggerListItem"
+            data-orientation="horizontal"
+            data-radix-collection-item=""
+            data-state="inactive"
+            id="radix-16-trigger-partners"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Partners
+          </button>
+        </div>
+      </div>
+      <div
+        class="card withoutPadding min-h-0 h-full flex flex-col"
+        id="radix-16-content-opportunities"
+      >
+        <div
+          class="px-base py-sm rounded-t-sm top-[theme(variables.headerHeight)] transition-all duration-200 ease-in flex flex-col bg-white sticky z-lower"
+        >
+          <div
+            class="flex items-end gap-sm xxxl:gap-base"
+          >
+            <div
+              class="flex items-end gap-xs xxxl:gap-sm grow"
+            >
+              <div
+                class="relative grow shrink basis-[220px] xxxl:basis-[380px]"
+              >
+                <label
+                  class="flex flex-col items-start text-font-primary w-full gap-xxxs"
+                >
+                  <div
+                    class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                  >
+                    <div
+                      class="injected-content"
+                    >
+                      Search:
+                    </div>
+                  </div>
+                  <div
+                    class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs flex-row-reverse"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[14px]"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="flex gap-xxs grow"
+                    >
+                      <input
+                        aria-label="Search:"
+                        class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[14px] text-xxs"
+                        id="Search:"
+                        placeholder="Search opportunity..."
+                        type="text"
+                        value=""
+                      />
+                    </span>
+                  </div>
+                </label>
+              </div>
+              <div
+                class="grow shrink basis-[140px] xxxl:basis-[220px]"
+              >
+                <label
+                  class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+                >
+                  <div
+                    class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                  >
+                    Type:
+                  </div>
+                  <div
+                    class=" css-b62m3t-container"
+                  >
+                    <span
+                      class="css-1f43avz-a11yText-A11yText"
+                      id="react-select-6-live-region"
+                    />
+                    <span
+                      aria-atomic="false"
+                      aria-live="polite"
+                      aria-relevant="additions text"
+                      class="css-1f43avz-a11yText-A11yText"
+                      role="log"
+                    />
+                    <div
+                      class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                    >
+                      <div
+                        class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+                      >
+                        <div
+                          class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                          id="react-select-6-placeholder"
+                        >
+                          Show All
+                        </div>
+                        <div
+                          class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                          data-value=""
+                        >
+                          <input
+                            aria-activedescendant=""
+                            aria-autocomplete="list"
+                            aria-describedby="react-select-6-placeholder"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            autocapitalize="none"
+                            autocomplete="off"
+                            autocorrect="off"
+                            class="select__input"
+                            id="select-input-opportunityType"
+                            role="combobox"
+                            spellcheck="false"
+                            style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                            tabindex="0"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                      >
+                        <div
+                          aria-hidden="true"
+                          class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-sm w-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <input
+                        name="opportunityType"
+                        type="hidden"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </label>
+              </div>
+              <div
+                class="grow shrink basis-[140px] xxxl:basis-[220px]"
+              >
+                <label
+                  class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+                >
+                  <div
+                    class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                  >
+                    Partner:
+                  </div>
+                  <div
+                    class=" css-b62m3t-container"
+                  >
+                    <span
+                      class="css-1f43avz-a11yText-A11yText"
+                      id="react-select-7-live-region"
+                    />
+                    <span
+                      aria-atomic="false"
+                      aria-live="polite"
+                      aria-relevant="additions text"
+                      class="css-1f43avz-a11yText-A11yText"
+                      role="log"
+                    />
+                    <div
+                      class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                    >
+                      <div
+                        class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+                      >
+                        <div
+                          class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                          id="react-select-7-placeholder"
+                        >
+                          Show All
+                        </div>
+                        <div
+                          class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                          data-value=""
+                        >
+                          <input
+                            aria-activedescendant=""
+                            aria-autocomplete="list"
+                            aria-describedby="react-select-7-placeholder"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            autocapitalize="none"
+                            autocomplete="off"
+                            autocorrect="off"
+                            class="select__input"
+                            id="select-input-partner"
+                            role="combobox"
+                            spellcheck="false"
+                            style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                            tabindex="0"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                      >
+                        <div
+                          aria-hidden="true"
+                          class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-sm w-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <input
+                        name="partner"
+                        type="hidden"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </label>
+              </div>
+              <div
+                class="grow shrink basis-[140px] xxxl:basis-[220px]"
+              >
+                <label
+                  class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+                  data-testid="clusters-select"
+                >
+                  <div
+                    class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                  >
+                    Cluster and pathway:
+                  </div>
+                  <div
+                    class=" css-b62m3t-container"
+                  >
+                    <span
+                      class="css-1f43avz-a11yText-A11yText"
+                      id="react-select-8-live-region"
+                    />
+                    <span
+                      aria-atomic="false"
+                      aria-live="polite"
+                      aria-relevant="additions text"
+                      class="css-1f43avz-a11yText-A11yText"
+                      role="log"
+                    />
+                    <div
+                      class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                    >
+                      <div
+                        class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+                      >
+                        <div
+                          class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                          id="react-select-8-placeholder"
+                        >
+                          Show All
+                        </div>
+                        <div
+                          class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                          data-value=""
+                        >
+                          <input
+                            aria-activedescendant=""
+                            aria-autocomplete="list"
+                            aria-describedby="react-select-8-placeholder"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            autocapitalize="none"
+                            autocomplete="off"
+                            autocorrect="off"
+                            class="select__input"
+                            id="select-input-clusterAndPathway"
+                            role="combobox"
+                            spellcheck="false"
+                            style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                            tabindex="0"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                      >
+                        <div
+                          aria-hidden="true"
+                          class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-sm w-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <input
+                        name="clusterAndPathway"
+                        type="hidden"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </label>
+              </div>
+              <div
+                class="flex flex-col gap-xxxs xxxl:gap-xs"
+              >
+                <label
+                  class="flex items-center gap-xxs text-xxs xxxl:text-xs"
+                  for="includeGlobal"
+                >
+                  Global
+                  :
+                  <span
+                    data-state="closed"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 hover:text-primary-500 transition-colors"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                  </span>
+                </label>
+                <label
+                  class="switch h-md xxxl:h-[40px]"
+                >
+                  <div
+                    class="content"
+                  >
+                    <input
+                      checked=""
+                      class="switchInput"
+                      id="includeGlobal"
+                      role="switch"
+                      type="checkbox"
+                    />
+                    <span
+                      class="slider"
+                    />
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div
+              class="flex items-end gap-xs xxxl:gap-sm"
+            >
+              <button
+                aria-label="Tags"
+                class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !p-xs -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs flex-row-reverse border"
+                data-testid="button"
+                type="button"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <span
+                  class="items-center flex justify-center gap-xs"
+                >
+                  Tags
+                </span>
+              </button>
+              <div
+                class="invisible"
+              >
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    aria-label="Clear all"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-primary-500 text-primary-500 hover:bg-primary-200 outline-primary-500  w-md h-md"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden flex flex-col h-full min-h-0"
+        >
+          <div
+            class="grow z-lowest scrollbar"
+          >
+            <table
+              class="w-full table-fixed overflow-auto"
+            >
+              <thead
+                class="sticky top-0 bg-white z-lower tableHead"
+              >
+                <tr>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 86px;"
+                  >
+                    <div
+                      class=""
+                    >
+                      Image
+                    </div>
+                  </th>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 264px;"
+                  >
+                    <div
+                      class=""
+                    >
+                      Opportunity Name
+                    </div>
+                  </th>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 40px;"
+                  >
+                    <div
+                      class=""
+                    />
+                  </th>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 130px;"
+                  >
+                    <div
+                      class=""
+                    >
+                      Type
+                    </div>
+                  </th>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 120px;"
+                  >
+                    <div
+                      class=""
+                    >
+                      Partner
+                    </div>
+                  </th>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 120px;"
+                  >
+                    <div
+                      class=""
+                    >
+                      Pathways
+                    </div>
+                  </th>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 200px;"
+                  >
+                    <div
+                      class=""
+                    >
+                      Dates
+                    </div>
+                  </th>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 56px;"
+                  >
+                    <div
+                      class=""
+                    />
+                  </th>
+                </tr>
+              </thead>
+              <tbody />
+            </table>
+            <div
+              class="text-center py-base text-xs"
+            >
+              There are no opportunities
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`OpportunitiesScreen renders correctly 1`] = `
+<div>
+  <div
+    class="p-base pt-xs xxxl:p-md xxxl:pt-sm h-[theme(layout.containerHeight)] !pt-xs flex flex-col gap-sm"
+    id="read"
+  >
+    <div
+      class="flex items-center justify-between"
+    >
+      <h4
+        class="text-base xxxl:text-lg mb-0"
+      >
+        Work-Based Learning Opportunities
+      </h4>
+    </div>
+    <div
+      class="h-full min-h-0 flex flex-col"
+      data-orientation="horizontal"
+      dir="ltr"
+    >
+      <div
+        class="triggerListContainer"
+      >
+        <div
+          aria-orientation="horizontal"
+          class="triggerList !mb-sm withPadding fullWidth"
+          data-orientation="horizontal"
+          role="tablist"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <button
+            aria-controls="radix-2-content-opportunities"
+            aria-selected="true"
+            class="triggerListItem"
+            data-orientation="horizontal"
+            data-radix-collection-item=""
+            data-state="active"
+            id="radix-2-trigger-opportunities"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Opportunities
+          </button>
+          <button
+            aria-controls="radix-2-content-partners"
+            aria-selected="false"
+            class="triggerListItem"
+            data-orientation="horizontal"
+            data-radix-collection-item=""
+            data-state="inactive"
+            id="radix-2-trigger-partners"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Partners
+          </button>
+        </div>
+      </div>
+      <div
+        class="card withoutPadding min-h-0 h-full flex flex-col"
+        id="radix-2-content-opportunities"
+      >
+        <div
+          class="px-base py-sm rounded-t-sm top-[theme(variables.headerHeight)] transition-all duration-200 ease-in flex flex-col bg-white sticky z-lower"
+        >
+          <div
+            class="flex items-end gap-sm xxxl:gap-base"
+          >
+            <div
+              class="flex items-end gap-xs xxxl:gap-sm grow"
+            >
+              <div
+                class="relative grow shrink basis-[220px] xxxl:basis-[380px]"
+              >
+                <label
+                  class="flex flex-col items-start text-font-primary w-full gap-xxxs"
+                >
+                  <div
+                    class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                  >
+                    <div
+                      class="injected-content"
+                    >
+                      Search:
+                    </div>
+                  </div>
+                  <div
+                    class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs flex-row-reverse"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[14px]"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                    <span
+                      class="flex gap-xxs grow"
+                    >
+                      <input
+                        aria-label="Search:"
+                        class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[14px] text-xxs"
+                        id="Search:"
+                        placeholder="Search opportunity..."
+                        type="text"
+                        value=""
+                      />
+                    </span>
+                  </div>
+                </label>
+              </div>
+              <div
+                class="grow shrink basis-[140px] xxxl:basis-[220px]"
+              >
+                <label
+                  class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+                >
+                  <div
+                    class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                  >
+                    Type:
+                  </div>
+                  <div
+                    class=" css-b62m3t-container"
+                  >
+                    <span
+                      class="css-1f43avz-a11yText-A11yText"
+                      id="react-select-2-live-region"
+                    />
+                    <span
+                      aria-atomic="false"
+                      aria-live="polite"
+                      aria-relevant="additions text"
+                      class="css-1f43avz-a11yText-A11yText"
+                      role="log"
+                    />
+                    <div
+                      class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                    >
+                      <div
+                        class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+                      >
+                        <div
+                          class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                          id="react-select-2-placeholder"
+                        >
+                          Show All
+                        </div>
+                        <div
+                          class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                          data-value=""
+                        >
+                          <input
+                            aria-activedescendant=""
+                            aria-autocomplete="list"
+                            aria-describedby="react-select-2-placeholder"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            autocapitalize="none"
+                            autocomplete="off"
+                            autocorrect="off"
+                            class="select__input"
+                            id="select-input-opportunityType"
+                            role="combobox"
+                            spellcheck="false"
+                            style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                            tabindex="0"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                      >
+                        <div
+                          aria-hidden="true"
+                          class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-sm w-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <input
+                        name="opportunityType"
+                        type="hidden"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </label>
+              </div>
+              <div
+                class="grow shrink basis-[140px] xxxl:basis-[220px]"
+              >
+                <label
+                  class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+                >
+                  <div
+                    class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                  >
+                    Partner:
+                  </div>
+                  <div
+                    class=" css-b62m3t-container"
+                  >
+                    <span
+                      class="css-1f43avz-a11yText-A11yText"
+                      id="react-select-3-live-region"
+                    />
+                    <span
+                      aria-atomic="false"
+                      aria-live="polite"
+                      aria-relevant="additions text"
+                      class="css-1f43avz-a11yText-A11yText"
+                      role="log"
+                    />
+                    <div
+                      class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                    >
+                      <div
+                        class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+                      >
+                        <div
+                          class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                          id="react-select-3-placeholder"
+                        >
+                          Show All
+                        </div>
+                        <div
+                          class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                          data-value=""
+                        >
+                          <input
+                            aria-activedescendant=""
+                            aria-autocomplete="list"
+                            aria-describedby="react-select-3-placeholder"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            autocapitalize="none"
+                            autocomplete="off"
+                            autocorrect="off"
+                            class="select__input"
+                            id="select-input-partner"
+                            role="combobox"
+                            spellcheck="false"
+                            style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                            tabindex="0"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                      >
+                        <div
+                          aria-hidden="true"
+                          class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-sm w-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <input
+                        name="partner"
+                        type="hidden"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </label>
+              </div>
+              <div
+                class="grow shrink basis-[140px] xxxl:basis-[220px]"
+              >
+                <label
+                  class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+                  data-testid="clusters-select"
+                >
+                  <div
+                    class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                  >
+                    Cluster and pathway:
+                  </div>
+                  <div
+                    class=" css-b62m3t-container"
+                  >
+                    <span
+                      class="css-1f43avz-a11yText-A11yText"
+                      id="react-select-4-live-region"
+                    />
+                    <span
+                      aria-atomic="false"
+                      aria-live="polite"
+                      aria-relevant="additions text"
+                      class="css-1f43avz-a11yText-A11yText"
+                      role="log"
+                    />
+                    <div
+                      class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                    >
+                      <div
+                        class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+                      >
+                        <div
+                          class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                          id="react-select-4-placeholder"
+                        >
+                          Show All
+                        </div>
+                        <div
+                          class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                          data-value=""
+                        >
+                          <input
+                            aria-activedescendant=""
+                            aria-autocomplete="list"
+                            aria-describedby="react-select-4-placeholder"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            autocapitalize="none"
+                            autocomplete="off"
+                            autocorrect="off"
+                            class="select__input"
+                            id="select-input-clusterAndPathway"
+                            role="combobox"
+                            spellcheck="false"
+                            style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                            tabindex="0"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                      >
+                        <div
+                          aria-hidden="true"
+                          class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-sm w-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <input
+                        name="clusterAndPathway"
+                        type="hidden"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </label>
+              </div>
+              <div
+                class="grow shrink basis-[140px] xxxl:basis-[220px]"
+              >
+                <label
+                  class="flex flex-col leading-lg min-w-[120px] gap-xxxs"
+                >
+                  <div
+                    class="text-font-primary leading-lg flex gap-xxxs text-xxs"
+                  >
+                    Entity:
+                  </div>
+                  <div
+                    class=" css-b62m3t-container"
+                  >
+                    <span
+                      class="css-1f43avz-a11yText-A11yText"
+                      id="react-select-5-live-region"
+                    />
+                    <span
+                      aria-atomic="false"
+                      aria-live="polite"
+                      aria-relevant="additions text"
+                      class="css-1f43avz-a11yText-A11yText"
+                      role="log"
+                    />
+                    <div
+                      class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                    >
+                      <div
+                        class="flex gap-xxs items-center !flex-nowrap !text-xxs !p-xs !pr-0 !py-xxs h-[30px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+                      >
+                        <div
+                          class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                          id="react-select-5-placeholder"
+                        >
+                          Select Entities...
+                        </div>
+                        <div
+                          class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                          data-value=""
+                        >
+                          <input
+                            aria-activedescendant=""
+                            aria-autocomplete="list"
+                            aria-describedby="react-select-5-placeholder"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            autocapitalize="none"
+                            autocomplete="off"
+                            autocorrect="off"
+                            class="select__input"
+                            id="select-input-entityUuids"
+                            role="combobox"
+                            spellcheck="false"
+                            style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                            tabindex="0"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                      >
+                        <div
+                          aria-hidden="true"
+                          class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-sm w-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <input
+                        name="entityUuids"
+                        type="hidden"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </label>
+              </div>
+              <div
+                class="flex flex-col gap-xxxs xxxl:gap-xs"
+              >
+                <label
+                  class="flex items-center gap-xxs text-xxs xxxl:text-xs"
+                  for="includeGlobal"
+                >
+                  Global
+                  :
+                  <span
+                    data-state="closed"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 hover:text-primary-500 transition-colors"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                  </span>
+                </label>
+                <label
+                  class="switch h-md xxxl:h-[40px]"
+                >
+                  <div
+                    class="content"
+                  >
+                    <input
+                      checked=""
+                      class="switchInput"
+                      id="includeGlobal"
+                      role="switch"
+                      type="checkbox"
+                    />
+                    <span
+                      class="slider"
+                    />
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div
+              class="flex items-end gap-xs xxxl:gap-sm"
+            >
+              <button
+                aria-label="Tags"
+                class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !p-xs -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs flex-row-reverse border"
+                data-testid="button"
+                type="button"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <span
+                  class="items-center flex justify-center gap-xs"
+                >
+                  Tags
+                </span>
+              </button>
+              <div
+                class="invisible"
+              >
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    aria-label="Clear all"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-primary-500 text-primary-500 hover:bg-primary-200 outline-primary-500  w-md h-md"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden flex flex-col h-full min-h-0"
+        >
+          <div
+            class="grow z-lowest scrollbar"
+          >
+            <table
+              class="w-full table-fixed overflow-auto"
+            >
+              <thead
+                class="sticky top-0 bg-white z-lower tableHead"
+              >
+                <tr>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 86px;"
+                  >
+                    <div
+                      class=""
+                    >
+                      Image
+                    </div>
+                  </th>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 264px;"
+                  >
+                    <div
+                      class=""
+                    >
+                      Opportunity Name
+                    </div>
+                  </th>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 40px;"
+                  >
+                    <div
+                      class=""
+                    />
+                  </th>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 130px;"
+                  >
+                    <div
+                      class=""
+                    >
+                      Type
+                    </div>
+                  </th>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 120px;"
+                  >
+                    <div
+                      class=""
+                    >
+                      Partner
+                    </div>
+                  </th>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 120px;"
+                  >
+                    <div
+                      class=""
+                    >
+                      Pathways
+                    </div>
+                  </th>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 200px;"
+                  >
+                    <div
+                      class=""
+                    >
+                      Dates
+                    </div>
+                  </th>
+                  <th
+                    class="text-xxs xxxl:text-xs font-medium text-left leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                    colspan="1"
+                    style="width: 56px;"
+                  >
+                    <div
+                      class=""
+                    />
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  class="group/row border-b border-neutral-300 transition-colors cursor-pointer hover:bg-primary-200"
+                  tabindex="0"
+                >
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md relative"
+                  >
+                    <div
+                      class="max-h-[56px] max-w-[54px] xxxl:max-w-[86px] overflow-hidden flex items-center rounded-xs"
+                    >
+                      <img
+                        class="rounded-xs max-h-[54px] xxxl:max-h-[86px] mx-auto h-full object-contain"
+                        src="https://www.example.com/image.png"
+                      />
+                    </div>
+                  </td>
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                  >
+                    <span
+                      class="truncate block max-w-fit"
+                      data-state="closed"
+                    >
+                      <div>
+                        <div
+                          class="text-primary-500 font-bold text-xxs xxxl:text-xs truncate"
+                        >
+                          Opportunity 1
+                        </div>
+                      </div>
+                    </span>
+                  </td>
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                  />
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                  >
+                    <div
+                      class="font-medium leading-lg flex items-center !text-xxs xxxl:!text-xs w-fit group-hover/row:!bg-white bg-primary-200 text-primary-500 rounded-sm p-xxs text-xs gap-xxs"
+                    >
+                      Practicum
+                    </div>
+                  </td>
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                  >
+                    University of Illnois Hospital
+                  </td>
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                  >
+                    <span
+                      class="line-clamp-2"
+                      data-state="closed"
+                    >
+                      Administrative Support, Business Finance
+                    </span>
+                  </td>
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                  >
+                    <div
+                      class="flex flex-col gap-xxxs"
+                    >
+                      <span
+                        class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                        data-state="closed"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                        <span
+                          class="whitespace-nowrap"
+                        >
+                          Sep 1, 2023
+                        </span>
+                         -
+                        <span
+                          class="whitespace-nowrap"
+                        >
+                          Oct 4, 2023
+                        </span>
+                      </span>
+                      <span
+                        class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                        data-state="closed"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                        Aug 15, 2023
+                      </span>
+                    </div>
+                  </td>
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-primary-500 hidden group-hover/row:block ml-auto"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  class="group/row border-b border-neutral-300 transition-colors cursor-pointer hover:bg-primary-200"
+                  tabindex="0"
+                >
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md relative"
+                  >
+                    <div
+                      class="absolute top-0 left-0 bottom-0 w-xxxs bg-neutral-600"
+                    />
+                    <div
+                      class="max-h-[56px] max-w-[54px] xxxl:max-w-[86px] overflow-hidden flex items-center rounded-xs"
+                    >
+                      <img
+                        class="rounded-xs w-full"
+                        src="https://www.example.com/image.png"
+                      />
+                    </div>
+                  </td>
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                  >
+                    <span
+                      class="truncate block max-w-fit"
+                      data-state="closed"
+                    >
+                      <div>
+                        <div
+                          class="kicker sm default !mb-xxs"
+                        >
+                          Expired
+                        </div>
+                        <div
+                          class="text-primary-500 font-bold text-xxs xxxl:text-xs truncate"
+                        >
+                          Opportunity 2
+                        </div>
+                      </div>
+                    </span>
+                  </td>
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                  >
+                    <span
+                      class="block w-fit"
+                      data-state="closed"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 rounded-full bg-neutral-200 group-hover/row:bg-white transition-colors p-xxs"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </span>
+                  </td>
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                  >
+                    <div
+                      class="font-medium leading-lg flex items-center !text-xxs xxxl:!text-xs w-fit group-hover/row:!bg-white bg-primary-200 text-primary-500 rounded-sm p-xxs text-xs gap-xxs"
+                    >
+                      Other
+                    </div>
+                  </td>
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                  >
+                    -
+                  </td>
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                  >
+                    <span
+                      class="line-clamp-2"
+                      data-state="closed"
+                    >
+                      Animal Systems
+                    </span>
+                  </td>
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                  >
+                    <div
+                      class="flex flex-col gap-xxxs"
+                    >
+                      <span
+                        class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                        data-state="closed"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                        <span
+                          class="whitespace-nowrap"
+                        >
+                          Apr 1, 2023
+                        </span>
+                         -
+                        <span
+                          class="whitespace-nowrap"
+                        >
+                          May 1, 2023
+                        </span>
+                      </span>
+                      <span
+                        class="flex flex-wrap items-center gap-xxs xxxl:gap-xs w-fit"
+                        data-state="closed"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div
+                            class="flex align-center justify-center grow-0 shrink-0 text-font-secondary group-hover/row:text-font-primary"
+                            data-testid="icon"
+                          >
+                            <div
+                              class="h-sm w-sm"
+                            />
+                          </div>
+                        </div>
+                        Mar 15, 2023
+                      </span>
+                    </div>
+                  </td>
+                  <td
+                    class="text-xxs xxxl:text-xs leading-lg p-xs xxxl:px-x first:pl-base last:pr-base xxxl:first:pl-md xxxl:last:pr-md"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-primary-500 hidden group-hover/row:block ml-auto"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

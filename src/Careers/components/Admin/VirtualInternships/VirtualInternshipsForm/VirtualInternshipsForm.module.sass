@@ -1,0 +1,11 @@
+@import '@shared/stylesheets/config.sass'
+
+.container
+  +flex-container(row, flex-start, flex-start)
+  width: 100%
+  gap: $m-base
+  margin-bottom: $m-sm
+
+  :global(.text-input),
+  label
+    width: 100%

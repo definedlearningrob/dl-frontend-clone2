@@ -1,0 +1,34 @@
+@import '@shared/stylesheets/config.sass'
+
+$error-message-height: 16px
+$period-input-width: 392px
+
+.datesSections
+  +flex-container(row)
+  gap: $m-sm
+  width: 100%
+  color: $color-font-secondary
+
+  +media-breakpoint-up(xxxl)
+    gap: $m-base
+
+  label
+    font-weight: $font-weight-regular
+    font-size: $font-size-xs
+    line-height: 100%
+
+  input
+    background-color: $color-white
+
+.periods
+  max-width: min-content
+
+  input
+    width: $period-input-width
+
+.errorMessage
+  color: $color-danger-500
+  font-size: $font-size-xs
+  height: $error-message-height
+  margin-bottom: $m-sm
+  margin-top: $m-xs

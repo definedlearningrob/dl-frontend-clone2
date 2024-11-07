@@ -1,0 +1,45 @@
+@import '@shared/stylesheets/config.sass'
+
+.shared-table
+    +flex-container(column)
+    background-color: $color-white
+    border-radius: $border-radius-sm
+    flex: 1
+    overflow: hidden
+
+    &__table
+        +flex-container(column)
+        border-collapse: collapse
+        height: 400px
+        width: 100%
+
+    @for $i from 1 through 12
+        &__head-cols-#{$i},
+        &__body-cols-#{$i}
+            grid-template-columns: 2fr repeat(#{$i - 1}, 1fr)
+
+    &__head
+        color: $color-font-secondary
+        display: grid
+
+        .shared-table__column
+            border-bottom: 2px solid $color-border
+
+    &__body
+        +scrollbar
+        align-content: start
+        color: $color-font-primary
+        display: grid
+        flex: 1
+
+    &__row
+        display: contents
+
+        &:last-of-type:not(.shared-table__row-0)
+            .shared-table__column
+                border-bottom: none
+
+    &__column
+        border-bottom: 1px solid $color-border
+        padding: $m-sm
+        text-align: left

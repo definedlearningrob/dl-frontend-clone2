@@ -1,0 +1,748 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InstitutionFilters renders correctly with additional filters 1`] = `
+<div>
+  <div
+    class="flex items-start gap-sm xxxl:gap-base flex-grow"
+  >
+    <div
+      class="basis-[240px] shrink-0 flex flex-col gap-xs"
+    >
+      <label
+        class="flex items-center text-xs gap-xxs leading-lg text-font-secondary"
+        for="search"
+      >
+        Search
+        <span
+          data-state="closed"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+        </span>
+      </label>
+      <label
+        class="flex flex-col items-start text-font-primary w-full gap-xs"
+      >
+        <div
+          class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs flex-row-reverse"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px]"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+          <span
+            class="flex gap-xxs grow"
+          >
+            <input
+              class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+              id="search"
+              placeholder="Search by name"
+              type="text"
+              value=""
+            />
+          </span>
+        </div>
+      </label>
+    </div>
+    <div
+      class="flex-grow basis-1/4 min-w-0"
+    >
+      <label
+        class="flex flex-col leading-lg min-w-[120px] gap-xs"
+      >
+        <div
+          class="text-font-primary leading-lg flex gap-xxxs text-xs"
+        >
+          Location
+        </div>
+        <div
+          class=" css-b62m3t-container"
+        >
+          <span
+            class="css-1f43avz-a11yText-A11yText"
+            id="react-select-4-live-region"
+          />
+          <span
+            aria-atomic="false"
+            aria-live="polite"
+            aria-relevant="additions text"
+            class="css-1f43avz-a11yText-A11yText"
+            role="log"
+          />
+          <div
+            class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+          >
+            <div
+              class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+            >
+              <div
+                class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                id="react-select-4-placeholder"
+              >
+                Location
+              </div>
+              <div
+                class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                data-value=""
+              >
+                <input
+                  aria-activedescendant=""
+                  aria-autocomplete="list"
+                  aria-describedby="react-select-4-placeholder"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  autocapitalize="none"
+                  autocomplete="off"
+                  autocorrect="off"
+                  class="select__input"
+                  id="select-input-location"
+                  role="combobox"
+                  spellcheck="false"
+                  style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                  tabindex="0"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <div
+                aria-hidden="true"
+                class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input
+              name="location"
+              type="hidden"
+              value=""
+            />
+          </div>
+        </div>
+      </label>
+    </div>
+    <div
+      class="flex-grow basis-1/4 min-w-0"
+    >
+      <label
+        class="flex flex-col leading-lg min-w-[120px] gap-xs"
+      >
+        <div
+          class="text-font-primary leading-lg flex gap-xxxs text-xs"
+        >
+          Type
+        </div>
+        <div
+          class=" css-b62m3t-container"
+        >
+          <span
+            class="css-1f43avz-a11yText-A11yText"
+            id="react-select-5-live-region"
+          />
+          <span
+            aria-atomic="false"
+            aria-live="polite"
+            aria-relevant="additions text"
+            class="css-1f43avz-a11yText-A11yText"
+            role="log"
+          />
+          <div
+            class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+          >
+            <div
+              class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+            >
+              <div
+                class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                id="react-select-5-placeholder"
+              >
+                Type
+              </div>
+              <div
+                class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                data-value=""
+              >
+                <input
+                  aria-activedescendant=""
+                  aria-autocomplete="list"
+                  aria-describedby="react-select-5-placeholder"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  autocapitalize="none"
+                  autocomplete="off"
+                  autocorrect="off"
+                  class="select__input"
+                  id="select-input-type"
+                  role="combobox"
+                  spellcheck="false"
+                  style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                  tabindex="0"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <div
+                aria-hidden="true"
+                class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input
+              name="type"
+              type="hidden"
+              value=""
+            />
+          </div>
+        </div>
+      </label>
+    </div>
+    <div
+      class="flex-grow basis-1/4 min-w-0"
+    >
+      <label
+        class="flex flex-col leading-lg min-w-[120px] gap-xs"
+      >
+        <div
+          class="text-font-primary leading-lg flex gap-xxxs text-xs"
+        >
+          Size
+        </div>
+        <div
+          class=" css-b62m3t-container"
+        >
+          <span
+            class="css-1f43avz-a11yText-A11yText"
+            id="react-select-6-live-region"
+          />
+          <span
+            aria-atomic="false"
+            aria-live="polite"
+            aria-relevant="additions text"
+            class="css-1f43avz-a11yText-A11yText"
+            role="log"
+          />
+          <div
+            class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+          >
+            <div
+              class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+            >
+              <div
+                class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                id="react-select-6-placeholder"
+              >
+                Size
+              </div>
+              <div
+                class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                data-value=""
+              >
+                <input
+                  aria-activedescendant=""
+                  aria-autocomplete="list"
+                  aria-describedby="react-select-6-placeholder"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  autocapitalize="none"
+                  autocomplete="off"
+                  autocorrect="off"
+                  class="select__input"
+                  id="select-input-size"
+                  role="combobox"
+                  spellcheck="false"
+                  style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                  tabindex="0"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <div
+                aria-hidden="true"
+                class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input
+              name="size"
+              type="hidden"
+              value=""
+            />
+          </div>
+        </div>
+      </label>
+    </div>
+    <div
+      class="flex-grow basis-1/4 min-w-0"
+    >
+      <label
+        class="flex flex-col leading-lg min-w-[120px] gap-xs"
+      >
+        <div
+          class="text-font-primary leading-lg flex gap-xxxs text-xs"
+        >
+          Costs
+        </div>
+        <div
+          class=" css-b62m3t-container"
+        >
+          <span
+            class="css-1f43avz-a11yText-A11yText"
+            id="react-select-7-live-region"
+          />
+          <span
+            aria-atomic="false"
+            aria-live="polite"
+            aria-relevant="additions text"
+            class="css-1f43avz-a11yText-A11yText"
+            role="log"
+          />
+          <div
+            class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+          >
+            <div
+              class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+            >
+              <div
+                class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                id="react-select-7-placeholder"
+              >
+                Costs
+              </div>
+              <div
+                class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                data-value=""
+              >
+                <input
+                  aria-activedescendant=""
+                  aria-autocomplete="list"
+                  aria-describedby="react-select-7-placeholder"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  autocapitalize="none"
+                  autocomplete="off"
+                  autocorrect="off"
+                  class="select__input"
+                  id="select-input-costs"
+                  role="combobox"
+                  spellcheck="false"
+                  style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                  tabindex="0"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <div
+                aria-hidden="true"
+                class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input
+              name="costs"
+              type="hidden"
+              value=""
+            />
+          </div>
+        </div>
+      </label>
+    </div>
+    <div
+      class="flex-grow shrink-0 basis-[125px] min-w-0"
+    >
+      <label
+        class="text-font-secondary text-xs leading-sm flex mb-xs"
+        for="commonAppEnabledEq"
+      >
+        <div
+          class="me-xs"
+        >
+          Common App
+        </div>
+        <span
+          data-state="closed"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+        </span>
+      </label>
+      <div
+        class="flex gap-xs py-xs"
+      >
+        <div
+          class="icon h-base"
+          data-testid="icon"
+        >
+          <div />
+        </div>
+        <label
+          class="switch h-base"
+        >
+          <div
+            class="content"
+          >
+            <input
+              class="switchInput"
+              id="commonAppEnabledEq"
+              role="switch"
+              type="checkbox"
+            />
+            <span
+              class="slider"
+            />
+          </div>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`InstitutionFilters renders correctly without additional filters 1`] = `
+<div>
+  <div
+    class="flex items-start gap-sm xxxl:gap-base flex-grow"
+  >
+    <div
+      class="basis-[240px] shrink-0 flex flex-col gap-xs"
+    >
+      <label
+        class="flex items-center text-xs gap-xxs leading-lg text-font-secondary"
+        for="search"
+      >
+        Search
+        <span
+          data-state="closed"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+        </span>
+      </label>
+      <label
+        class="flex flex-col items-start text-font-primary w-full gap-xs"
+      >
+        <div
+          class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs flex-row-reverse"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px]"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+          <span
+            class="flex gap-xxs grow"
+          >
+            <input
+              class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+              id="search"
+              placeholder="Search by name"
+              type="text"
+              value=""
+            />
+          </span>
+        </div>
+      </label>
+    </div>
+    <div
+      class="flex-grow basis-1/4 min-w-0"
+    >
+      <label
+        class="flex flex-col leading-lg min-w-[120px] gap-xs"
+      >
+        <div
+          class="text-font-primary leading-lg flex gap-xxxs text-xs"
+        >
+          Location
+        </div>
+        <div
+          class=" css-b62m3t-container"
+        >
+          <span
+            class="css-1f43avz-a11yText-A11yText"
+            id="react-select-2-live-region"
+          />
+          <span
+            aria-atomic="false"
+            aria-live="polite"
+            aria-relevant="additions text"
+            class="css-1f43avz-a11yText-A11yText"
+            role="log"
+          />
+          <div
+            class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+          >
+            <div
+              class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+            >
+              <div
+                class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                id="react-select-2-placeholder"
+              >
+                Location
+              </div>
+              <div
+                class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                data-value=""
+              >
+                <input
+                  aria-activedescendant=""
+                  aria-autocomplete="list"
+                  aria-describedby="react-select-2-placeholder"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  autocapitalize="none"
+                  autocomplete="off"
+                  autocorrect="off"
+                  class="select__input"
+                  id="select-input-location"
+                  role="combobox"
+                  spellcheck="false"
+                  style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                  tabindex="0"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <div
+                aria-hidden="true"
+                class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input
+              name="location"
+              type="hidden"
+              value=""
+            />
+          </div>
+        </div>
+      </label>
+    </div>
+    <div
+      class="flex-grow basis-1/4 min-w-0"
+    >
+      <label
+        class="flex flex-col leading-lg min-w-[120px] gap-xs"
+      >
+        <div
+          class="text-font-primary leading-lg flex gap-xxxs text-xs"
+        >
+          Type
+        </div>
+        <div
+          class=" css-b62m3t-container"
+        >
+          <span
+            class="css-1f43avz-a11yText-A11yText"
+            id="react-select-3-live-region"
+          />
+          <span
+            aria-atomic="false"
+            aria-live="polite"
+            aria-relevant="additions text"
+            class="css-1f43avz-a11yText-A11yText"
+            role="log"
+          />
+          <div
+            class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+          >
+            <div
+              class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--is-multi css-1fdsijx-ValueContainer"
+            >
+              <div
+                class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                id="react-select-3-placeholder"
+              >
+                Type
+              </div>
+              <div
+                class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                data-value=""
+              >
+                <input
+                  aria-activedescendant=""
+                  aria-autocomplete="list"
+                  aria-describedby="react-select-3-placeholder"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  autocapitalize="none"
+                  autocomplete="off"
+                  autocorrect="off"
+                  class="select__input"
+                  id="select-input-type"
+                  role="combobox"
+                  spellcheck="false"
+                  style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                  tabindex="0"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+            >
+              <div
+                aria-hidden="true"
+                class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input
+              name="type"
+              type="hidden"
+              value=""
+            />
+          </div>
+        </div>
+      </label>
+    </div>
+  </div>
+</div>
+`;

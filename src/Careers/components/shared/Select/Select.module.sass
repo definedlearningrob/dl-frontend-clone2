@@ -1,0 +1,13 @@
+@import '@shared/stylesheets/config.sass'
+
+.selectContainer
+  position: relative
+  +flex-container(column)
+  gap: $m-xs
+
+.label
+  color: $color-font-secondary
+  font-size: $font-size-xs
+
+:global(.select__menu-list)
+  +scrollbar

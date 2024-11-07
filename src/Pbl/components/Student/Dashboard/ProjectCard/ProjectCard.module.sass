@@ -1,0 +1,87 @@
+@import '@shared/stylesheets/config'
+
+$wrapper-width: 280px
+$wrapper-width-sm: 240px
+$singleProject-max-width: calc(100% / 4)
+$image-height: 160px
+
+.wrapper
+  +flex-container(column)
+  background-color: $color-white
+  border-radius: $border-radius-sm
+  cursor: pointer
+  flex: 1
+  gap: $m-xs
+  max-width: $singleProject-max-width
+  overflow-wrap: break-word
+  padding: 0
+  position: relative
+  transition: box-shadow 0.2s ease-in-out
+
+  +media-breakpoint-up(xxl)
+    gap: $m-sm
+
+  &:hover
+    +box-shadow-200($color-black)
+
+.constrained
+  max-width: none
+  width: $wrapper-width-sm
+
+  +media-breakpoint-up(xxl)
+    width: $wrapper-width
+
+.container
+  padding: 0 $m-sm 0 $m-sm
+
+.imageWrapper
+  flex: 0 0 $image-height
+  max-height: $image-height
+  width: 100%
+
+.body
+  +flex-container(column)
+  font-size: $font-size-xs
+  gap: $m-sm
+  height: 100%
+
+.button
+  &#{&}
+    border-radius: unset
+    border-top: 1px solid $color-background
+    justify-content: flex-start
+    margin-top: auto
+    padding: $m-sm
+    width: 100%
+
+  :global(.button__text)
+    font-size: $font-size-xs
+
+.image
+  height: 100%
+  object-fit: cover
+  width: 100%
+  border-top-left-radius: $border-radius-sm
+  border-top-right-radius: $border-radius-sm
+
+.title
+  +ellipsis-multiline(2)
+  composes: container
+  font-size: $font-size-sm
+  font-weight: $font-weight-bold
+  line-height: $line-height-base
+  margin: 0
+  overflow-wrap: anywhere
+  white-space: normal
+
+.metadata
+  +flex-container(column)
+  composes: container
+  composes: constrained
+  gap: $m-xxs
+
+.teamName
+  +ellipsis-multiline(1)
+
+  +media-breakpoint-up(xxl)
+    +ellipsis-multiline(2)

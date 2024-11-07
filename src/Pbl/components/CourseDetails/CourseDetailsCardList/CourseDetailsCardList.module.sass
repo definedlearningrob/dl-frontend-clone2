@@ -1,0 +1,23 @@
+@import '@shared/stylesheets/config.sass'
+
+.cardsWrapper
+  display: grid
+  gap: $m-base
+  margin: $m-base 0
+
+  +media-breakpoint-up(sm)
+    grid-template-columns: repeat(2, 1fr)
+  
+  +media-breakpoint-up(xl)
+    grid-template-columns: repeat(4, 1fr)
+
+.emptyDetailsWrapper
+  +flex-container(column, center, center)
+  flex: 1
+  margin-top: $m-base
+
+.emptyDetailsImage
+  max-width: 100%
+
+.emptyDetailsTitle
+  margin-bottom: $m-xs

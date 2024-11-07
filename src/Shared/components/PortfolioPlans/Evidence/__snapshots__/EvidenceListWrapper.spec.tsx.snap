@@ -1,0 +1,1349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EvidenceListWrapper should render automatically added evidence list with add new evidence button 1`] = `
+<div>
+  <div
+    class="border border-neutral-300 rounded-xs"
+  >
+    <div
+      class="bg-neutral-200 p-x xxxl:p-sm text-xs xxxl:text-sm font-medium leading-lg border-b border-neutral-300"
+    >
+      Evidence
+       
+      <span
+        class="text-neutral-600"
+      >
+        (
+        1
+        )
+      </span>
+    </div>
+    <div
+      class="py-xxs xxxl:py-xs"
+    >
+      <button
+        aria-label="New evidence"
+        class="p-x group/add-item hover:bg-primary-200 cursor-pointer text-start w-full"
+      >
+        <div
+          class="flex gap-xs"
+        >
+          <div>
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 border border-primary-500 rounded-sm text-primary-500 group-hover/add-item:bg-white p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="leading-lg text-xxs font-medium"
+          >
+            <div
+              class="text-primary-500"
+            >
+              New evidence
+            </div>
+            <div
+              class="text-neutral-800"
+            >
+              Choose new item from portfolio to mark as an evidence
+            </div>
+          </div>
+        </div>
+      </button>
+      <ul>
+        <li
+          aria-label="Digital Journalist: The 80s Had Game-Motion Graphics"
+          class="p-x group/evidence-item hover:bg-primary-200"
+        >
+          <div
+            class="flex justify-between"
+          >
+            <div
+              class="flex gap-xs items-start"
+            >
+              <div
+                class="h-md flex justify-center items-center rounded-sm text-xs font-medium leading-lg group-hover/evidence-item:bg-white w-md bg-info-100 text-info-500"
+              >
+                DL
+              </div>
+              <div
+                class="leading-lg text-xxs font-medium"
+              >
+                <div
+                  class="text-primary-500 flex gap-xxs items-center"
+                >
+                  Digital Journalist: The 80s Had Game-Motion Graphics
+                </div>
+                <div
+                  class="text-neutral-800 flex relative"
+                >
+                  <div
+                    class="relative after:absolute pe-x xxxl:pe-[20px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xxs xxxl:after:right-xs after:top-xs"
+                  >
+                    Rubric row
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="text-neutral-600"
+                    >
+                      Nov 2, 2023
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="relative after:absolute pe-x xxxl:pe-[20px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xxs xxxl:after:right-xs flex items-center after:top-[11px] last-of-type:after:invisible last-of-type:pe-0"
+                  >
+                    <div
+                      class="bg-success-100 !text-success-500 py-xxs px-xs rounded-full me-xxs group-hover/evidence-item:bg-white transition-colors text-xxs"
+                    >
+                      70/70
+                    </div>
+                    Research
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-xs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/evidence-item:bg-white bg-primary-200 text-primary-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </span>
+              <div
+                class="invisible"
+              >
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md !bg-primary-200"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EvidenceListWrapper should render empty evidence list with add new evidence button 1`] = `
+<div>
+  <div
+    class="border border-neutral-300 rounded-xs"
+  >
+    <div
+      class="bg-neutral-200 p-x xxxl:p-sm text-xs xxxl:text-sm font-medium leading-lg border-b border-neutral-300"
+    >
+      Evidence
+       
+      <span
+        class="text-neutral-600"
+      >
+        (
+        0
+        )
+      </span>
+    </div>
+    <div
+      class="py-xxs xxxl:py-xs"
+    >
+      <button
+        aria-label="New evidence"
+        class="p-x group/add-item hover:bg-primary-200 cursor-pointer text-start w-full"
+      >
+        <div
+          class="flex gap-xs"
+        >
+          <div>
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 border border-primary-500 rounded-sm text-primary-500 group-hover/add-item:bg-white p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="leading-lg text-xxs font-medium"
+          >
+            <div
+              class="text-primary-500"
+            >
+              New evidence
+            </div>
+            <div
+              class="text-neutral-800"
+            >
+              Choose new item from portfolio to mark as an evidence
+            </div>
+          </div>
+        </div>
+      </button>
+      <ul />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EvidenceListWrapper should render manually added evidence list with add new evidence button 1`] = `
+<div>
+  <div
+    class="border border-neutral-300 rounded-xs"
+  >
+    <div
+      class="bg-neutral-200 p-x xxxl:p-sm text-xs xxxl:text-sm font-medium leading-lg border-b border-neutral-300"
+    >
+      Evidence
+       
+      <span
+        class="text-neutral-600"
+      >
+        (
+        9
+        )
+      </span>
+    </div>
+    <div
+      class="py-xxs xxxl:py-xs"
+    >
+      <button
+        aria-label="New evidence"
+        class="p-x group/add-item hover:bg-primary-200 cursor-pointer text-start w-full"
+      >
+        <div
+          class="flex gap-xs"
+        >
+          <div>
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 border border-primary-500 rounded-sm text-primary-500 group-hover/add-item:bg-white p-xxs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="leading-lg text-xxs font-medium"
+          >
+            <div
+              class="text-primary-500"
+            >
+              New evidence
+            </div>
+            <div
+              class="text-neutral-800"
+            >
+              Choose new item from portfolio to mark as an evidence
+            </div>
+          </div>
+        </div>
+      </button>
+      <ul>
+        <li
+          aria-label="Motion Graphics DL"
+          class="p-x group/evidence-item hover:bg-primary-200"
+        >
+          <div
+            class="flex justify-between"
+          >
+            <div
+              class="flex gap-xs items-start"
+            >
+              <div
+                class="h-md flex justify-center items-center rounded-sm text-xs font-medium leading-lg group-hover/evidence-item:bg-white w-md bg-info-100 text-info-500"
+              >
+                DL
+              </div>
+              <div
+                class="leading-lg text-xxs font-medium"
+              >
+                <div
+                  class="text-primary-500 flex gap-xxs items-center"
+                >
+                  Motion Graphics DL
+                </div>
+                <div
+                  class="text-neutral-800 flex relative"
+                >
+                  <div
+                    class="relative after:absolute pe-x xxxl:pe-[20px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xxs xxxl:after:right-xs after:top-xs"
+                  >
+                    Product
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="text-neutral-600"
+                    >
+                      Nov 2, 2023
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-xs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/evidence-item:bg-white bg-success-100 text-success-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </span>
+              <div
+                class="invisible group-hover/evidence-item:visible flex"
+              >
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    aria-label="Remove evidence"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md group-hover/evidence-item:bg-white"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md !bg-primary-200"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          aria-label="Motion Graphics DC"
+          class="p-x group/evidence-item hover:bg-primary-200"
+        >
+          <div
+            class="flex justify-between"
+          >
+            <div
+              class="flex gap-xs items-start"
+            >
+              <div
+                class="h-md flex justify-center items-center rounded-sm text-xs font-medium leading-lg group-hover/evidence-item:bg-white w-md bg-danger-100 text-danger-500"
+              >
+                DC
+              </div>
+              <div
+                class="leading-lg text-xxs font-medium"
+              >
+                <div
+                  class="text-primary-500 flex gap-xxs items-center"
+                >
+                  Motion Graphics DC
+                </div>
+                <div
+                  class="text-neutral-800 flex relative"
+                >
+                  <div
+                    class="relative after:absolute pe-x xxxl:pe-[20px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xxs xxxl:after:right-xs after:top-xs"
+                  >
+                    Product
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="text-neutral-600"
+                    >
+                      Nov 2, 2023
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-xs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/evidence-item:bg-white bg-success-100 text-success-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </span>
+              <div
+                class="invisible group-hover/evidence-item:visible flex"
+              >
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    aria-label="Remove evidence"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md group-hover/evidence-item:bg-white"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md !bg-primary-200"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          aria-label="Schedule "
+          class="p-x group/evidence-item hover:bg-primary-200"
+        >
+          <div
+            class="flex justify-between"
+          >
+            <div
+              class="flex gap-xs items-start"
+            >
+              <div
+                class="h-md flex justify-center items-center rounded-sm text-xs font-medium leading-lg group-hover/evidence-item:bg-white w-md bg-danger-100 text-danger-500"
+              >
+                DC
+              </div>
+              <div
+                class="leading-lg text-xxs font-medium"
+              >
+                <div
+                  class="text-primary-500 flex gap-xxs items-center"
+                >
+                  Schedule 
+                </div>
+                <div
+                  class="text-neutral-800 flex relative"
+                >
+                  <div
+                    class="relative after:absolute pe-x xxxl:pe-[20px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xxs xxxl:after:right-xs after:top-xs"
+                  >
+                    Product
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="text-neutral-600"
+                    >
+                      Nov 2, 2023
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-xs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/evidence-item:bg-white bg-success-100 text-success-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </span>
+              <div
+                class="invisible group-hover/evidence-item:visible flex"
+              >
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    aria-label="Remove evidence"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md group-hover/evidence-item:bg-white"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md !bg-primary-200"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          aria-label="Medical Supply Checklist Assignment"
+          class="p-x group/evidence-item hover:bg-primary-200"
+        >
+          <div
+            class="flex justify-between"
+          >
+            <div
+              class="flex gap-xs items-start"
+            >
+              <div
+                class="h-md flex justify-center items-center rounded-sm text-xs font-medium leading-lg group-hover/evidence-item:bg-white w-md bg-danger-100 text-danger-500"
+              >
+                DC
+              </div>
+              <div
+                class="leading-lg text-xxs font-medium"
+              >
+                <div
+                  class="text-primary-500 flex gap-xxs items-center"
+                >
+                  Medical Supply Checklist Assignment
+                </div>
+                <div
+                  class="text-neutral-800 flex relative"
+                >
+                  <div
+                    class="relative after:absolute pe-x xxxl:pe-[20px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xxs xxxl:after:right-xs after:top-xs"
+                  >
+                    Virtual Internship
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="text-neutral-600"
+                    >
+                      Nov 2, 2023
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-xs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/evidence-item:bg-white bg-primary-200 text-primary-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </span>
+              <div
+                class="invisible group-hover/evidence-item:visible flex"
+              >
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    aria-label="Remove evidence"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md group-hover/evidence-item:bg-white"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md !bg-primary-200"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          aria-label="test :)"
+          class="p-x group/evidence-item hover:bg-primary-200"
+        >
+          <div
+            class="flex justify-between"
+          >
+            <div
+              class="flex gap-xs items-start"
+            >
+              <div
+                class="h-md flex justify-center items-center rounded-sm text-xs font-medium leading-lg group-hover/evidence-item:bg-white w-md bg-danger-100 text-danger-500"
+              >
+                DC
+              </div>
+              <div
+                class="leading-lg text-xxs font-medium"
+              >
+                <div
+                  class="text-primary-500 flex gap-xxs items-center"
+                >
+                  test :)
+                </div>
+                <div
+                  class="text-neutral-800 flex relative"
+                >
+                  <div
+                    class="relative after:absolute pe-x xxxl:pe-[20px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xxs xxxl:after:right-xs after:top-xs"
+                  >
+                    Opportunity
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="text-neutral-600"
+                    >
+                      Nov 2, 2023
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-xs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/evidence-item:bg-white bg-primary-200 text-primary-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </span>
+              <div
+                class="invisible group-hover/evidence-item:visible flex"
+              >
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    aria-label="Remove evidence"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md group-hover/evidence-item:bg-white"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md !bg-primary-200"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          aria-label="Motion Graphics"
+          class="p-x group/evidence-item hover:bg-primary-200"
+        >
+          <div
+            class="flex justify-between"
+          >
+            <div
+              class="flex gap-xs items-start"
+            >
+              <div
+                class="h-md flex justify-center items-center rounded-sm text-xs font-medium leading-lg group-hover/evidence-item:bg-white w-md bg-info-100 text-info-500"
+              >
+                DL
+              </div>
+              <div
+                class="leading-lg text-xxs font-medium"
+              >
+                <div
+                  class="text-primary-500 flex gap-xxs items-center"
+                >
+                  Motion Graphics
+                </div>
+                <div
+                  class="text-neutral-800 flex relative"
+                >
+                  <div
+                    class="relative after:absolute pe-x xxxl:pe-[20px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xxs xxxl:after:right-xs after:top-xs"
+                  >
+                    Product
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="text-neutral-600"
+                    >
+                      Nov 2, 2023
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-xs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/evidence-item:bg-white bg-success-100 text-success-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </span>
+              <div
+                class="invisible group-hover/evidence-item:visible flex"
+              >
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    aria-label="Remove evidence"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md group-hover/evidence-item:bg-white"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md !bg-primary-200"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          aria-label="Family Picture Book"
+          class="p-x group/evidence-item hover:bg-primary-200"
+        >
+          <div
+            class="flex justify-between"
+          >
+            <div
+              class="flex gap-xs items-start"
+            >
+              <div
+                class="h-md flex justify-center items-center rounded-sm text-xs font-medium leading-lg group-hover/evidence-item:bg-white w-md bg-info-100 text-info-500"
+              >
+                DL
+              </div>
+              <div
+                class="leading-lg text-xxs font-medium"
+              >
+                <div
+                  class="text-primary-500 flex gap-xxs items-center"
+                >
+                  <span
+                    data-state="closed"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 rounded-full bg-primary-200 p-xxs"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                  </span>
+                  Family Picture Book
+                </div>
+                <div
+                  class="text-neutral-800 flex relative"
+                >
+                  <div
+                    class="relative after:absolute pe-x xxxl:pe-[20px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xxs xxxl:after:right-xs after:top-xs"
+                  >
+                    Product
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="text-neutral-600"
+                    >
+                      Nov 2, 2023
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-xs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/evidence-item:bg-white bg-success-100 text-success-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </span>
+              <div
+                class="invisible group-hover/evidence-item:visible flex"
+              >
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    aria-label="Remove evidence"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md group-hover/evidence-item:bg-white"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md !bg-primary-200"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          aria-label="Classroom Learning List"
+          class="p-x group/evidence-item hover:bg-primary-200"
+        >
+          <div
+            class="flex justify-between"
+          >
+            <div
+              class="flex gap-xs items-start"
+            >
+              <div
+                class="h-md flex justify-center items-center rounded-sm text-xs font-medium leading-lg group-hover/evidence-item:bg-white w-md bg-info-100 text-info-500"
+              >
+                DL
+              </div>
+              <div
+                class="leading-lg text-xxs font-medium"
+              >
+                <div
+                  class="text-primary-500 flex gap-xxs items-center"
+                >
+                  Classroom Learning List
+                </div>
+                <div
+                  class="text-neutral-800 flex relative"
+                >
+                  <div
+                    class="relative after:absolute pe-x xxxl:pe-[20px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xxs xxxl:after:right-xs after:top-xs"
+                  >
+                    Product
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="text-neutral-600"
+                    >
+                      Nov 2, 2023
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-xs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/evidence-item:bg-white bg-success-100 text-success-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </span>
+              <div
+                class="invisible group-hover/evidence-item:visible flex"
+              >
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    aria-label="Remove evidence"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md group-hover/evidence-item:bg-white"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md !bg-primary-200"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li
+          aria-label="Bike project"
+          class="p-x group/evidence-item hover:bg-primary-200"
+        >
+          <div
+            class="flex justify-between"
+          >
+            <div
+              class="flex gap-xs items-start"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 rounded-sm text-primary-500 bg-primary-200 group-hover/evidence-item:bg-white  p-xxs"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-base w-base"
+                  />
+                </div>
+              </div>
+              <div
+                class="leading-lg text-xxs font-medium"
+              >
+                <div
+                  class="text-primary-500 flex gap-xxs items-center"
+                >
+                  Bike project
+                </div>
+                <div
+                  class="text-neutral-800 flex relative"
+                >
+                  <div
+                    class="relative after:absolute pe-x xxxl:pe-[20px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xxs xxxl:after:right-xs after:top-xs"
+                  >
+                    Personal
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="text-neutral-600"
+                    >
+                      Nov 2, 2023
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-xs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/evidence-item:bg-white bg-primary-200 text-primary-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </span>
+              <div
+                class="invisible group-hover/evidence-item:visible flex"
+              >
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    aria-label="Remove evidence"
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-danger-500 hover:bg-danger-100 outline-danger-500 w-md h-md group-hover/evidence-item:bg-white"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+                <span
+                  data-state="closed"
+                >
+                  <button
+                    class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md !bg-primary-200"
+                    data-testid="icon-button"
+                    type="button"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,43 @@
+@import '@shared/stylesheets/config.sass'
+
+.standards-accordion
+  border: 1px solid $color-border
+  border-radius: $border-radius-xs
+
+  &__button
+    border: 0
+    color: $color-primary-500
+
+    &.-active
+      background: white
+      color: $color-primary-500
+      border: 0
+
+  &__title
+    font-size: $font-size-sm
+    font-weight: $font-weight-regular
+    line-height: $line-height-base
+    margin-bottom: 0
+
+    &.-active
+      color: $color-primary-500
+
+  &__content-wrapper
+    border: 0
+    padding:
+      left: $m-md
+      right: $m-md
+    
+    &.-active
+      overflow: auto
+      border: 0
+
+  &__content
+    &-item:not(:first-of-type)
+      margin-top: $m-md
+
+    &-header
+      color: $color-font-primary
+      
+    &-text
+      color: $color-font-secondary

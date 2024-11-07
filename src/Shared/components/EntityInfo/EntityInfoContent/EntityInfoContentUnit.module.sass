@@ -1,0 +1,29 @@
+@import '@shared/stylesheets/config.sass'
+
+.unit
+  +flex-container(row, flex-start, center)
+  margin-bottom: $m-x
+  font-size: $font-size-xs
+
+.icon
+  margin-right: $m-xxs
+
+  path
+    fill: $color-font-primary
+
+.infoValue
+  display: block
+  font-weight: $font-weight-bold
+  margin-left: $m-xs
+
+.infoBadge
+  border-radius: $border-radius-xs
+  display: block
+  margin-left: $m-xs
+  padding: $m-xxs $m-xs
+  background-color: $color-danger-100
+  color: $color-danger-500
+
+.badgeEnabled
+  background-color: $color-success-100
+  color: $color-success-500

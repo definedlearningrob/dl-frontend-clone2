@@ -1,0 +1,52 @@
+@import '@shared/stylesheets/config.sass'
+
+$grid-template-columns: 3fr 1fr 150px 1fr 64px
+$grid-template-columns-xxxl: 3fr 1fr 1fr 0.75fr 72px
+$custom-button-height: 32px
+
+.table
+  height: 100%
+
+  :global(.shared-table__head),
+  :global(.shared-table__body)
+    grid-template-columns: $grid-template-columns
+
+    +media-breakpoint-up(xxxl)
+      grid-template-columns: $grid-template-columns-xxxl
+
+.emptyTableWrapper
+  flex: 0 1 auto
+
+.tableHeadCell
+  color: $color-font-primary
+  font-weight: $font-weight-regular
+  line-height: $line-height-lg
+  padding: $m-xs $m-x
+  font-size: $font-size-xs
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-sm
+
+.tableRow:hover
+  :global(.tooltip-wrapper)
+    visibility: visible !important
+
+  td
+    background-color: $color-primary-200
+
+  :global(#radix-trigger)
+    visibility: visible !important
+
+.formName
+  color: $color-primary-500
+  font-weight: $font-weight-bold
+  line-height: $line-height-base
+
+.emptyFormsMessage
+  font-size: $font-size-xs
+  padding: $m-x
+  text-align: center
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+    padding: $m-sm

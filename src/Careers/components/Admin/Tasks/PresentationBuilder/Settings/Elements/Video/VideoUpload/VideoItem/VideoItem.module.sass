@@ -1,0 +1,26 @@
+@import '@shared/stylesheets/config'
+
+.input
+  height: 0
+  visibility: hidden
+  width: 0
+
+.wrapper
+  +flex-container(row, flex-start, center)
+  border: 2px solid $color-background
+  color: $color-primary-500
+  margin-top: $m-sm
+  padding: $m-sm
+
+.filenameWrapper
+  font-size: $font-size-xs
+  margin-right: auto
+  margin-left: $m-xs
+  max-width: 150px
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+.hidden
+  visibility: hidden
+  

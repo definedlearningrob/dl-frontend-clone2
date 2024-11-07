@@ -1,0 +1,26 @@
+@import '@shared/stylesheets/config.sass'
+
+.entity-admin-dashboard-tables
+    +flex-container(column)
+    background-color: $color-white
+    border-radius: $border-radius-sm
+
+    &__header
+        +flex-container(row, space-between, center)
+        padding: $m-sm
+
+        .tabs
+            padding-left: 0
+            padding-top: 0
+
+    &__table
+        +flex-container(column)
+        overflow: hidden
+
+        &.-users
+            .shared-table__column-4:not(.-header-cell)
+                +flex-container(row, flex-start, center)
+                min-width: 180px
+
+            .shared-table__column-1:not(.-header-cell)
+                padding: 0

@@ -1,0 +1,49 @@
+@import '@shared/stylesheets/config'
+
+$heading-min-height: 48px
+
+.headingWrapper
+  +flex-container(row, flex-start, center)
+  background-color: $color-white
+  border-radius: $border-radius-xs $border-radius-xs 0 0
+
+.headingTextWrapper
+  +flex-container(column, center)
+  border-left: 2px solid $color-neutral-200
+  margin: $m-base 0
+  min-height: $heading-min-height
+  padding-left: $m-base
+
+.teamIcon
+  background-color: $color-primary-200
+  border-radius: $border-radius-sm
+  margin: 0 $m-base
+  padding: $m-xs
+
+.subheading
+  color: $color-font-primary
+  font-size: $font-size-base
+  font-weight: $font-weight-regular
+  margin-bottom: 0
+
+.studentHeading
+  color: $color-font-primary
+  font-size: $font-size-lg
+  margin-bottom: 0
+
+.teamName
+  font-size: $font-size-sm
+  margin-bottom: 0
+
+.teamNameWrapper
+  +flex-container(row)
+
+.smallTeamIcon
+  margin-right: $m-xxs
+
+  * path
+    fill: $color-font-primary
+
+.name
+  color: $color-primary-500
+  margin-left: $m-xxs

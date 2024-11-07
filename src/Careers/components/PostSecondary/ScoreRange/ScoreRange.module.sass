@@ -1,0 +1,40 @@
+@import '@shared/stylesheets/config.sass'
+
+$track-height: $m-xxs
+$marker-size: $m-x
+
+.label
+  font-weight: $font-weight-medium
+
+.backgroundTrack
+  position: relative
+  height: $track-height
+  background-color: $color-neutral-300
+  border-radius: $border-radius-xxs
+
+.primaryTrack
+  height: $track-height
+  background-color: $color-primary-500
+  border-radius: $border-radius-xxs
+
+.marker
+  position: absolute
+  top: 50%
+  transform: translate(-50%, -50%)
+  height: $marker-size
+  width: $marker-size
+  border: 2px solid $color-white
+  border-radius: 100%
+  background-color: $color-primary-500
+
+.valueLabelsWrapper
+  position: relative
+  height: $m-sm
+  margin-top: $m-xs
+
+.valueLabel
+  position: absolute
+  top: 0
+  transform: translateX(-50%)
+  font-size: $font-size-xs
+  font-weight: $font-weight-bold

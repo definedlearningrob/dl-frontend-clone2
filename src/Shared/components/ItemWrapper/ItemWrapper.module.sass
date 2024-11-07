@@ -1,0 +1,14 @@
+@import '@shared/stylesheets/config'
+
+.wrapper
+  border: 1px solid $color-border
+  border-radius: $border-radius-sm
+  padding: $m-sm
+
+  +media-breakpoint-up(xxl)
+    padding: $m-base - $m-xxs
+
+.header
+  +flex-container(row, space-between, center)
+
+

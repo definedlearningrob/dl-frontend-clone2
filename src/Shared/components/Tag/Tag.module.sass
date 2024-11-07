@@ -1,0 +1,40 @@
+@import '@shared/stylesheets/config'
+
+$badge-min-width: $m-md
+$badge-max-width-small: 120px
+$badge-max-width-large: 180px
+
+.tag
+  align-items: center
+  border-radius: $border-radius-base
+  display: inline-flex
+  justify-content: center
+  min-width: $badge-min-width
+  max-width: $badge-max-width-small
+  overflow: hidden
+  padding: $m-xxs $m-xs
+  line-height: $line-height-sm
+  text-overflow: ellipsis
+
+  +media-breakpoint-up(xxl)
+    max-width: $badge-max-width-large
+
+.primary
+  background-color: $color-primary-200
+  color: $color-primary-600
+
+.secondary
+  background-color: $color-secondary-200
+  color: $color-secondary-500
+
+.default
+  background-color: $color-neutral-300
+  color: $color-neutral-700
+
+.light
+  background-color: $color-white
+  color: $color-neutral-800
+
+.neutral
+  background-color: $color-neutral-200
+  color: $color-neutral-800

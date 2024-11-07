@@ -1,0 +1,13 @@
+<svg width="380" height="224" viewBox="0 0 380 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="380" height="224" rx="8" fill="#F3F4F7"/>
+<rect x="32" y="32" width="32" height="8" rx="2" fill="#B0B5C9"/>
+<rect x="32" y="48" width="154" height="24" rx="4" fill="#DADDE6"/>
+<rect x="194" y="32" width="32" height="8" rx="2" fill="#B0B5C9"/>
+<rect x="194" y="48" width="154" height="24" rx="4" fill="#DADDE6"/>
+<rect x="32" y="88" width="32" height="8" rx="2" fill="#B0B5C9"/>
+<rect x="32" y="104" width="316" height="48" rx="4" fill="#DADDE6"/>
+<rect x="32" y="172" width="32" height="16" rx="8" fill="#B0B5C9"/>
+<circle cx="56" cy="180" r="6" fill="#FCFCFC"/>
+<rect x="324" y="168" width="24" height="24" rx="4" fill="#B0B5C9"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M341.334 175.667V175C341.334 174.816 341.184 174.667 341 174.667H338V174C338 173.632 337.702 173.333 337.334 173.333H334.667C334.299 173.333 334 173.632 334 174V174.667H331C330.816 174.667 330.667 174.816 330.667 175V175.667C330.667 175.851 330.816 176 331 176H341C341.184 176 341.334 175.851 341.334 175.667ZM333.147 184H338.854L339.334 177.333H340.667L340.1 185.427C340.051 186.127 339.468 186.669 338.767 186.667H333.247C332.546 186.669 331.963 186.127 331.914 185.427L331.334 177.333H332.667L333.147 184Z" fill="#FCFCFC"/>
+</svg>

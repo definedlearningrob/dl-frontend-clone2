@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApplicationRatingInfo should render correctly for rejected application 1`] = `
+<div>
+  <div
+    class="icon p-xs rounded-full"
+    data-testid="icon"
+  >
+    <div />
+  </div>
+  <div>
+    <h5
+      class="text-primary-500 font-medium leading-lg text-xxs xxxl:text-sm mb-0"
+    >
+      Application rejected
+    </h5>
+    <span
+      class="text-neutral-700 text-xxs leading-lg mb-0 xxxl:text-xs"
+    >
+      Applicant Student 1's application was rejected by Teacher Name.
+    </span>
+  </div>
+  <div
+    class="ms-auto hover:rounded-xs hover:border hover:border-primary-500 focus:outline-1 focus:outline-primary-500 focus:outline-offset-1"
+  >
+    <div
+      class="dropdown-portal-container"
+    >
+      <div
+        class="dropdown-portal-options__trigger"
+        data-testid="dropdown-trigger-container"
+      >
+        <button
+          class="dropdown-portal-options__trigger-icon-wrapper"
+        >
+          <div
+            class="icon dropdown-portal-options__trigger-icon -sm-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

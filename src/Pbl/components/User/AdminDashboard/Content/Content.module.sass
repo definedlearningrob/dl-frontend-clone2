@@ -1,0 +1,24 @@
+@import '@shared/stylesheets/config.sass'
+
+.header
+  +flex-container(row, space-between, center)
+  padding: 0
+  :global(.sharedTable__table),
+  :global(.sharedEmptyPlaceholder)
+    height: 75vh
+
+.tabs
+  padding-left: 0
+  padding-top: 0
+
+.filter
+  border-radius: $border-radius-sm
+  flex: 0 1 50%
+  overflow: hidden
+
+.spinner
+  +flex-container(row, center, center)
+  height: 75vh
+
+.paginationBar
+  +flex-container(row, flex-end, center)

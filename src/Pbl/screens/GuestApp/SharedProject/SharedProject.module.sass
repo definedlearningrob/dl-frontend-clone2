@@ -1,0 +1,17 @@
+@import '@shared/stylesheets/config.sass'
+
+$emptyStateWrapperHeight: 400px
+
+.sharedProject
+  background-color: $color-background
+  min-height: 100vh
+  padding: $m-sm
+
+  +media-breakpoint-up(md)
+    padding: $m-base
+
+  +media-breakpoint-up(lg)
+    padding: $m-md
+
+.studentSharedEmptyState
+  height: $emptyStateWrapperHeight

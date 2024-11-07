@@ -1,0 +1,20 @@
+@import '@shared/stylesheets/config.sass'
+
+.iconWrapper
+  +flex-container(column, center, center)
+  align-self: start
+  flex-shrink: 0
+  margin-right: $m-xs
+  background-color: $color-info-100
+  border-radius: 100%
+
+  svg
+    width: $m-sm !important
+    height: $m-sm !important
+    fill: $color-info-500
+
+.successIcon
+  background-color: $color-success-100
+
+  svg
+    fill: $color-success-500

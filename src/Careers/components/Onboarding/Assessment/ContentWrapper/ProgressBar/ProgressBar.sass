@@ -1,0 +1,21 @@
+@import '@shared/stylesheets/config'
+  
+.assessment-progress-bar
+    margin-top: $m-base * 0.5
+    width: 100%
+
+    &.-assessment
+        margin: 0 $m-md 0 0
+
+    &__range
+        background-color: $color-disabled
+        border-radius: $border-radius-sm
+        height: 2px
+        position: relative
+
+    &__indicator
+        background-color: $color-primary-500
+        border-radius: $border-radius-sm
+        height: $m-xxs
+        position: absolute
+        top: -1px

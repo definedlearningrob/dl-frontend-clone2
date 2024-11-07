@@ -1,0 +1,21 @@
+@import '@shared/stylesheets/config'
+
+.link
+  +ellipsis
+  font-size: $font-size-xs
+  color: $color-primary-500
+  text-decoration: none
+  position: relative
+
+  &:after
+    +pseudoelement
+    background: $color-neutral-300
+    border-radius: 100%
+    width: 4px
+    height: 4px
+    right: -10px
+    left: inherit
+    top: 7px
+
+  &:hover
+    color: $color-primary-600

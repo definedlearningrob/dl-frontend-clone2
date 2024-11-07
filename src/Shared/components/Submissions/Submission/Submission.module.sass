@@ -1,0 +1,85 @@
+@import '@shared/stylesheets/config'
+
+$current-user-border-color: $color-primary-600
+$user-border-color: $color-neutral-300
+
+.submission
+  display: flex
+  column-gap: $m-base
+
+.userInfo
+  +flex-container(column, false, center)
+  padding-top: $m-xxxs
+
+.userAvatar
+  margin-bottom: $m-xs
+
+  :global( > .avatar__image)
+    outline: $color-neutral-300 $border-width-xs solid
+
+.currentUserAvatar
+  :global( > .avatar__image)
+    outline: 2px solid $color-primary-500
+
+.currentUserWrapper
+  color: $color-white !important
+
+.indicator
+  +flex-container(row, center, center)
+  content: ""
+  border: $border-width-xs solid $user-border-color
+  border-radius: $border-radius-xxs
+  flex-grow: 1
+
+.currentUserIndicator
+  border-color: $color-primary-500
+
+.content
+  background-color: $color-neutral-200
+  border-radius: $m-xs
+  border: $border-width-xs solid $user-border-color
+  color: $color-primary-500
+  font-size: $font-size-xs
+  line-height: $line-height-lg
+  margin: 0 0 $m-xxs 0
+  position: relative
+
+  svg
+    fill: $color-primary-500
+
+  &:before
+    +pseudoelement
+    left: -$m-xs
+    top: $m-xs
+    width: 0
+    height: 0
+    border-style: solid
+    border-width: $border-radius-sm $border-radius-sm $border-radius-sm 0
+    border-color: transparent $user-border-color transparent transparent
+
+.lightContent
+  background-color: $color-white
+
+.currentUserContent
+  background-color: $color-primary-500
+  border-color: $current-user-border-color
+  color: $color-white
+  overflow: hidden
+
+  &:before
+    border-color: transparent $current-user-border-color transparent transparent
+
+  svg
+    fill: $color-white
+
+.fullWidth
+  width: 100%
+
+.labelsWrapper
+  display: flex
+  height: $m-sm
+  column-gap: $m-x
+
+.iconPrimaryColor
+  path
+    fill: $color-neutral-700

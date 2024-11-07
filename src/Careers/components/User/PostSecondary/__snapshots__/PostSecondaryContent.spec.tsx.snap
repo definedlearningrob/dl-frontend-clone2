@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostSecondaryContent should display disabled Common App Requests tile when counselor has no invitations 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="text-neutral-800 py-md px-0"
+    >
+      <h3
+        class="font-bold leading-base text-lg text-center mb-sm"
+      >
+        College & Future Planning
+      </h3>
+      <p
+        class="info"
+      >
+        Select an option to view available futures or manage your students
+      </p>
+    </div>
+    <div
+      class="flex justify-center items-start gap-base xxxl:gap-md"
+    >
+      <div>
+        <a
+          aria-disabled="true"
+          class="pointer-events-none"
+          href="/post-secondary/commonapp-requests"
+        >
+          <div
+            class="flex flex-col justify-center items-center py-lg px-md gap-md bg-white rounded-sm relative border border-neutral-300 text-neutral-600"
+          >
+            <div
+              class="font-medium leading-lg flex items-center absolute top-sm left-sm flex gap-xxs items-center bg-neutral-200 text-font-secondary rounded-sm p-xxs text-xs gap-xxs"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              Locked
+            </div>
+            <div
+              class="bg-neutral-200 rounded-sm bg-transparent w-full"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex-grow h-lg [&_path]:fill-neutral-600"
+                />
+              </div>
+            </div>
+            <h4
+              class="m-0 text-base leading-base font-bold text-center"
+            >
+              Common App Requests
+            </h4>
+          </div>
+        </a>
+        <div
+          class="flex mt-sm"
+        >
+          <p
+            class="flex-grow w-0 text-xxs leading-lg xxxl:text-xs"
+          >
+            You currently have no Common App invites. The tile will be enabled when a student invites you.
+          </p>
+        </div>
+      </div>
+      <a
+        href="/post-secondary/search"
+      >
+        <div
+          class="flex flex-col justify-center items-center py-lg px-md gap-md bg-white rounded-sm"
+        >
+          <div
+            class="bg-neutral-200 rounded-sm"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 text-neutral-800 p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-md w-md"
+                />
+              </div>
+            </div>
+          </div>
+          <h4
+            class="m-0 text-base leading-base font-bold text-center"
+          >
+            Postsecondary Search
+          </h4>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PostSecondaryContent should not display common app requests tile when entity has no access to it 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="text-neutral-800 py-md px-0"
+    >
+      <h3
+        class="font-bold leading-base text-lg text-center mb-sm"
+      >
+        College & Future Planning
+      </h3>
+      <p
+        class="info"
+      >
+        Select an option to view available futures or manage your students
+      </p>
+    </div>
+    <div
+      class="flex justify-center items-start gap-base xxxl:gap-md"
+    >
+      <a
+        href="/post-secondary/search"
+      >
+        <div
+          class="flex flex-col justify-center items-center py-lg px-md gap-md bg-white rounded-sm"
+        >
+          <div
+            class="bg-neutral-200 rounded-sm"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 text-neutral-800 p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-md w-md"
+                />
+              </div>
+            </div>
+          </div>
+          <h4
+            class="m-0 text-base leading-base font-bold text-center"
+          >
+            Postsecondary Search
+          </h4>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PostSecondaryContent should render correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="text-neutral-800 py-md px-0"
+    >
+      <h3
+        class="font-bold leading-base text-lg text-center mb-sm"
+      >
+        College & Future Planning
+      </h3>
+      <p
+        class="info"
+      >
+        Select an option to view available futures or manage your students
+      </p>
+    </div>
+    <div
+      class="flex justify-center items-start gap-base xxxl:gap-md"
+    >
+      <a
+        href="/post-secondary/search"
+      >
+        <div
+          class="flex flex-col justify-center items-center py-lg px-md gap-md bg-white rounded-sm"
+        >
+          <div
+            class="bg-neutral-200 rounded-sm"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 text-neutral-800 p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-md w-md"
+                />
+              </div>
+            </div>
+          </div>
+          <h4
+            class="m-0 text-base leading-base font-bold text-center"
+          >
+            Postsecondary Search
+          </h4>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

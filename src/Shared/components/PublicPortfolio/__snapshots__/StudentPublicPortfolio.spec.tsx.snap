@@ -1,0 +1,464 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StudentPublicPortfolio should render correctly 1`] = `
+<div>
+  <div
+    class="p-base xxxl:p-md flex gap-base xxxl:gap-md justify-center relative"
+    id="read"
+  >
+    <div
+      class="w-[320px] xxxl:w-[380px]"
+    >
+      <div
+        class="card p-sm xxxl:p-base w-full sticky top-base xxxl:top-md"
+      >
+        <div
+          class="flex justify-between mb-sm xxxl:mb-base"
+        >
+          <img
+            class="rounded-full w-[120px] xxxl:w-[160px] h-[120px] xxxl:h-[160px] border border-neutral-300 object-cover"
+            src="student.png"
+            title="Amanda Jewess"
+          />
+        </div>
+        <div
+          class="flex flex-col text-xxs xxxl:text-xs font-regular leading-lg text-neutral-700"
+        >
+          <div
+            class=" pb-sm"
+          >
+            <h6
+              class="mb-0 whitespace-nowrap text-neutral-800 text-xs xxxl:text-sm after:h-[1px] after:bg-neutral-300 after:grow flex justify-start items-center gap-sm"
+            >
+              <span
+                class="min-w-0 text-ellipsis overflow-hidden"
+              >
+                Amanda Jewess
+              </span>
+            </h6>
+          </div>
+          <div
+            class="pb-base xxxl:pb-md"
+          >
+            some Bio info DC Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          </div>
+        </div>
+        <div
+          class="pb-base"
+        >
+          <div
+            class="flex gap-sm items-center pb-sm"
+          >
+            <h6
+              class="mb-0 min-w-0 text-neutral-800 text-xs xxxl:text-sm"
+            >
+              Contact
+            </h6>
+            <hr
+              class="flex-1 h-px text-neutral-300"
+            />
+          </div>
+          <div
+            class="flex flex-wrap gap-xs"
+          >
+            <a
+              class="flex !p-xxs xxxl:!p-xs justify-center items-center gap-xxs bg-neutral-200 !text-neutral-800 rounded-sm text-xxs font-medium leading-lg hover:bg-primary-200 hover:!text-primary-500 !no-underline  active:bg-primary-500 active:!text-white"
+              href="mailto:amanda@dc.com"
+              target="_blank"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              amanda@dc.com
+            </a>
+            <a
+              class="flex !p-xxs xxxl:!p-xs justify-center items-center gap-xxs bg-neutral-200 !text-neutral-800 rounded-sm text-xxs font-medium leading-lg hover:bg-primary-200 hover:!text-primary-500 !no-underline  active:bg-primary-500 active:!text-white"
+              href="tel:414-313-7621"
+              target="_blank"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              414-313-7621
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="w-[640px] xxxl:w-[760px] flex flex-col gap-base xxxl:gap-md"
+    >
+      <div
+        class="card flex flex-col gap-sm xxxl:gap-base"
+      >
+        <div
+          class="flex gap-sm items-center"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 rounded-sm bg-neutral-200 text-neutral-700 p-xs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+          <h5
+            class="mb-0 leading-base text-sm xxxl:text-base"
+          >
+            Experience
+          </h5>
+        </div>
+        <div
+          class="pl-lg"
+        >
+          <div
+            class="text-xs xxxl:text-sm text-neutral-700 pl-xs pb-sm xxxl:pb-base last:pb-0"
+          >
+            <div
+              class="flex gap-xs items-center pb-xs"
+            >
+              <p
+                class="mb-0 text-neutral-800 font-medium"
+              >
+                title
+              </p>
+              <div
+                class="h-xxs w-xxs bg-neutral-300 rounded-lg"
+              />
+              <div
+                class="flex items-center gap-xxs whitespace-nowrap"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 text-neutral-700"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <p
+                  class="mb-0"
+                >
+                  Jan 2024
+                </p>
+                <p
+                  class="mb-0"
+                >
+                  - Apr 2024
+                </p>
+              </div>
+            </div>
+            <p
+              class="mb-0 ml-sm text-xxs xxxl:text-xs"
+            >
+              some experience 1
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card flex flex-col gap-sm xxxl:gap-base"
+      >
+        <div
+          class="flex gap-sm items-center"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 rounded-sm bg-neutral-200 text-neutral-700 p-xs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+          <h5
+            class="mb-0 leading-base text-sm xxxl:text-base"
+          >
+            Education
+          </h5>
+        </div>
+        <div
+          class="pl-lg"
+        >
+          <div
+            class="text-xs xxxl:text-sm text-neutral-700 pl-xs pb-sm xxxl:pb-base last:pb-0"
+          >
+            <div
+              class="flex gap-xs items-center pb-xs"
+            >
+              <p
+                class="mb-0 text-neutral-800 font-medium"
+              >
+                Education 1
+              </p>
+              <div
+                class="h-xxs w-xxs bg-neutral-300 rounded-lg"
+              />
+              <div
+                class="flex items-center gap-xxs whitespace-nowrap"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 text-neutral-700"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <p
+                  class="mb-0"
+                >
+                  Jan 2024
+                </p>
+                <p
+                  class="mb-0"
+                >
+                  - Apr 2024
+                </p>
+              </div>
+            </div>
+            <p
+              class="mb-0 ml-sm text-xxs xxxl:text-xs"
+            >
+              some Education
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card flex flex-col gap-sm xxxl:gap-base"
+      >
+        <div
+          class="flex gap-sm items-center"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 rounded-sm bg-neutral-200 text-neutral-700 p-xs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+          <h5
+            class="mb-0 leading-base text-sm xxxl:text-base"
+          >
+            Extra-Curriculars
+          </h5>
+        </div>
+        <div
+          class="pl-lg"
+        >
+          <div
+            class="text-xs xxxl:text-sm text-neutral-700 pl-xs pb-sm xxxl:pb-base last:pb-0"
+          >
+            <div
+              class="flex gap-xs items-center pb-xs"
+            >
+              <p
+                class="mb-0 text-neutral-800 font-medium"
+              >
+                Extra curriculars 1
+              </p>
+              <div
+                class="h-xxs w-xxs bg-neutral-300 rounded-lg"
+              />
+              <div
+                class="flex items-center gap-xxs whitespace-nowrap"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 text-neutral-700"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <p
+                  class="mb-0"
+                >
+                  Jan 2024
+                </p>
+                <p
+                  class="mb-0"
+                >
+                  - Jul 2024
+                </p>
+              </div>
+            </div>
+            <p
+              class="mb-0 ml-sm text-xxs xxxl:text-xs"
+            >
+              some Extra curriculars 1
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="flex justify-between w-full items-start mb-sm"
+        >
+          <div
+            class="flex items-center gap-sm"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 rounded-sm bg-neutral-200 text-neutral-700 p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <h5
+              class="mb-0 leading-base text-sm xxxl:text-base"
+            >
+              Highlighted projects
+            </h5>
+          </div>
+        </div>
+        <div
+          class="flex gap-sm xxxl:gap-base bg-white rounded-sm text-font-primary p-sm group/portfolio-project-card hover:bg-neutral-200 cursor-pointer"
+          data-testid="portfolio-project-card"
+        >
+          <div
+            class="wrapper-header basis-[170px] shrink-0 relative h-full"
+          >
+            <div
+              class="absolute bottom-xs left-xs z-lowest"
+              data-testid="project-source-badge"
+            >
+              <span
+                class="truncate"
+                data-state="closed"
+              >
+                <div
+                  class="font-medium leading-lg flex items-center !rounded-full !leading-base h-base truncate bg-secondary-200 text-secondary-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                >
+                  Careers
+                </div>
+              </span>
+            </div>
+            <div
+              class="wrapper-image group w-full flex-grow h-[100px] max-h-full max-w-[178px] relative rounded-sm overflow-hidden"
+            >
+              <div
+                class="flex gap-xs absolute left-sm top-sm"
+              />
+              <img
+                alt="project-image"
+                class="h-full w-full object-cover object-center"
+                src="someimage.png"
+              />
+            </div>
+          </div>
+          <div
+            class="grow"
+          >
+            <div
+              class="flex justify-between mb-xs"
+            >
+              <div
+                class="w-full"
+              >
+                <div
+                  class="font-xs leading-lg text-xs mb-xxs text-neutral-700"
+                >
+                  Taxi Drivers
+                </div>
+                <h6
+                  class="text-xs xxxl:text-sm mb-0"
+                  data-testid="portfolio-project-card-heading"
+                >
+                  Taxi Driver Schedule
+                </h6>
+              </div>
+            </div>
+            <div
+              class="relative"
+            >
+              <div
+                class="mb-xs text-xxs xxxl:text-xs text-neutral-700 leading-lg [&_a]:break-all line-clamp-2"
+              >
+                <p>
+                  Taxi drivers
+                </p>
+              </div>
+            </div>
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !pl-0 -link py-xs px-sm !text-xs leading-[14px] !gap-xxs flex-row-reverse text-white"
+              data-testid="button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                <span>
+                  Show Files
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

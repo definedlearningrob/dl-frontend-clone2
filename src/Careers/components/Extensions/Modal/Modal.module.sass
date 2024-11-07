@@ -1,0 +1,47 @@
+@import '@shared/stylesheets/config.sass'
+
+.topRow
+  +flex-container(row, flex-start, stretch)
+  margin-bottom: $m-sm
+
+  :global(.image-input__placeholder)
+    height: 100%
+    min-height: 0
+    margin-bottom: 0
+    width: 250px
+
+.topRowInputs
+  margin-left: $m-sm
+  flex: 1
+
+.heading
+  margin-bottom: 0
+
+.body
+  &::-webkit-scrollbar-thumb
+    background-color: $color-primary-600
+
+  +media-breakpoint-down(xl)
+    max-height: 70vh
+    margin: 0
+    padding: 0 $m-base
+
+.header
+  +media-breakpoint-down(xl)
+    padding: $m-base
+
+.footer
+  +media-breakpoint-down(xl)
+    padding: $m-base
+
+.modal
+  :global(.modal__close-btn)
+    +media-breakpoint-down(xl)
+      top: $m-base
+      right: $m-base
+
+  +media-breakpoint-down(xl)
+  margin: 0
+
+  &#{&}
+    max-height: 95vh

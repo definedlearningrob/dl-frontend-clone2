@@ -1,0 +1,49 @@
+@import '@shared/stylesheets/config'
+
+.fileItem
+  +flex-container(column, center, stretch)
+  border-radius: $border-radius-sm
+  border: 1px solid $color-border
+  margin: $m-base 0
+  min-height: $m-md * 2
+  padding: $m-sm $m-sm $m-base * 0.5
+
+.fileItemWrapper
+  +flex-container(row, flex-start, center)
+
+.loadingSpinner
+  margin-right: $m-xs
+
+.fileName
+  color: inherit
+  font-size: $font-size-xs
+  margin: 0 $m-xs
+  text-decoration: none
+  word-break: break-all
+
+  &:hover
+    color: inherit
+
+.progressContainer
+  border-radius: $border-radius-xs
+  margin-top: $m-sm
+  overflow: hidden
+
+.progressIndicator
+  background-color: $color-primary-500
+  height: 2px
+  width: 0
+
+.fileItemInfo
+  +flex-container(row, space-between, center)
+  color: $color-primary-500
+  fill: $color-primary-500
+  font-weight: $font-weight-regular
+  margin-right: auto
+  transition: all $transition-duration $transition-function
+
+.fileSuccess
+  color: $color-success-500
+
+  path
+    fill: $color-success-500

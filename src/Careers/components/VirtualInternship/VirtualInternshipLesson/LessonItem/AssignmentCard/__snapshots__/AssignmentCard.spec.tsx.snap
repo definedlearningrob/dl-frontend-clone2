@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StudentVirtualInternshipAssignment renders correctly 1`] = `
+<div>
+  <div
+    class="card lessonCard"
+    data-testid="lesson-element-card"
+    id="1-Assignment"
+  >
+    <div
+      class="cardHeader"
+    >
+      <div
+        class="flex items-center gap-x xxxl:gap-sm"
+      >
+        <h5
+          class="cardTitle"
+        >
+          Some display name
+        </h5>
+      </div>
+      <div
+        class="flex gap-xs xxxl:gap-sm items-center"
+      >
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+          data-testid="button"
+          type="button"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Rubrics
+          </span>
+        </button>
+        <span
+          data-state="closed"
+        >
+          <button
+            aria-label="Ask for guidance"
+            class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !border-primary-500 text-primary-500 hover:bg-primary-200 outline-primary-500  w-md h-md"
+            data-testid="icon-button"
+            type="button"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+          </button>
+        </span>
+      </div>
+    </div>
+    <p
+      class="assignmentDescription"
+    >
+      Some description
+    </p>
+    <div
+      class="filesUploadSection"
+    >
+      <div
+        class="dropzoneWrapper"
+      >
+        <div
+          class="wrapper"
+        >
+          <header
+            class="header"
+          >
+            <button
+              class="wrapper selected"
+              type="button"
+            >
+              <div
+                class="icon icon -sm-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+              <span
+                class="text"
+              >
+                File
+              </span>
+            </button>
+            <button
+              class="wrapper"
+              type="button"
+            >
+              <div
+                class="icon icon -sm-size"
+                data-testid="icon"
+              >
+                <div />
+              </div>
+              <span
+                class="text"
+              >
+                Google Drive
+              </span>
+            </button>
+          </header>
+          <div
+            class="bg-center bg-cover bg-white flex items-center justify-center group rounded-sm cursor-pointer border-2 border-dashed border-neutral-300 hover:bg-neutral-200 hover:border-primary-500 relative p-0 pt-[50%] text-center text-xs xxxl:text-sm !pt-0 h-[120px]"
+            data-testid="drop-container"
+            tabindex="0"
+          >
+            <div
+              class="absolute inset-0"
+            >
+              <input
+                autocomplete="off"
+                data-testid="drop-zone-input"
+                id="drop-zone-input-undefined"
+                multiple=""
+                style="display: none;"
+                tabindex="-1"
+                type="file"
+              />
+              <div
+                class="flex flex-col justify-center items-center h-full p-sm"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 p-xs mb-xs text-primary-500 bg-primary-200 rounded-full group-hover:bg-white p-sm"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+                <p
+                  class="text-primary-500 m-0 z-lowest"
+                >
+                  Drop or 
+                  <span
+                    class="text-primary-500 underline"
+                  >
+                    choose file
+                  </span>
+                   to upload
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="submissionFooter"
+    >
+      <div
+        class="submissionStatus"
+      >
+        <div
+          class="kicker md default"
+        >
+          Assignment status:
+        </div>
+        <div
+          class="submissionStatusValue"
+        >
+          <div
+            class="font-medium leading-lg flex items-center whitespace-nowrap bg-secondary-200 text-secondary-500 rounded-sm p-xxs text-xs gap-xxs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            Draft
+          </div>
+        </div>
+      </div>
+      <button
+        class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+        data-testid="status-submit-button"
+        disabled=""
+        type="button"
+      >
+        <span
+          class="items-center flex justify-center gap-xs"
+        >
+          Submit
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

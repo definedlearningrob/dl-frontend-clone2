@@ -1,0 +1,125 @@
+@import '@shared/stylesheets/config.sass'
+
+$readspeaker-widget-height: 26px
+$readspeaker-options-offset: 30px
+
+#readspeaker_button1
+  &.collapsed
+    .rsbtn_tooltoggle
+      display: none !important
+
+  .rsbtn
+    &_tooltoggle
+      border: 0
+      background: transparent
+      border-radius: $border-radius-sm
+      width: $m-md
+      height: $m-md
+      position: static !important
+      margin: 0 $m-xs 0 0 !important
+
+      .rsicn
+        font-size: $m-sm !important
+
+      &:hover
+        background: $color-neutral-700
+
+        .rsicn
+          &:before
+            color: $color-white
+
+    &_toolpanel
+      position: absolute !important
+      left: calc(100% + $m-sm) !important
+      bottom: -35px
+
+    &_tools
+      bottom: 0
+      border: 1px solid $color-neutral-300 !important
+      border-radius: $border-radius-sm
+      background: $color-white
+      box-shadow: $shadow-200
+      overflow: hidden
+
+      .rsbtn_toollist
+        padding: $m-xxs
+
+      .rsbtn_toollist li
+        height: auto !important
+        max-height: none !important
+        border: none !important
+
+      .rsbtn_btnlabel
+        margin: 0!important
+        font-size: $font-size-xs !important
+        color: $color-font-primary !important
+
+      .rsbtn_tool
+        padding: $m-xs $m-sm
+        height: auto !important
+        display: flex
+        align-items: center
+        gap: $m-xs
+        border-radius: $border-radius-xs !important
+        overflow: hidden
+
+        &:active, &:hover
+          background: $color-neutral-200
+
+        .rs_minitoggler
+          margin: 0 0 0 auto !important
+          background: $color-white !important
+          border: 1px solid $color-neutral-300
+          width: 38px !important
+
+          &:after
+            background: $color-neutral-300 !important
+
+          .off-icon
+            display: none!important
+
+          .on-icon
+            display: none!important
+
+        &.active
+          .rs_minitoggler
+            //border: 1px solid red !important
+            background: $color-primary-500 !important
+
+            &:after
+              background-color: $color-white !important
+
+        .rsicn:before
+          font-size: $font-size-sm !important
+          color: $color-font-primary !important
+
+    .rsbtn_powered
+      float: none !important
+
+      .rsbtn_btnlabel
+        font-size: $font-size-xxxs !important
+
+
+    &.rsplaying
+      .rsbtn_left
+        background-color: $color-neutral-700
+
+    &_exp
+      display: none
+
+    &_pause
+      .rsicn-pause
+        color: $color-success-500
+
+    &_stop
+      .rsicn-stop
+        color: $color-danger-500
+
+  .rsicn
+    color: $color-font-secondary
+
+  .rs-player-loadindicator
+    background-color: $color-background
+
+    .rsbtn-loading
+      background-color: $color-primary-500

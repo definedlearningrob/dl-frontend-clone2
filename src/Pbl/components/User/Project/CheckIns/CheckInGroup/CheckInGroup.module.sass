@@ -1,0 +1,53 @@
+@import '@shared/stylesheets/config'
+
+$check-in-group-heading-height: 40px
+$drag-icon-height: 32px
+$drag-icon-width: 32px
+
+.checkInGroup
+  background-color: $color-white
+  border-radius: $border-radius-xs
+  margin-bottom: $m-base
+  width: 100%
+
+.checkInGroupHeading
+  +flex-container(row, space-between, center)
+  height: $check-in-group-heading-height
+  padding:
+    bottom: $m-md
+    left: $m-md
+    right: $m-base
+    top: $m-md
+
+.checkInGroupHeader
+  font-size: $font-size-base
+  font-weight: $font-weight-bold
+  line-height: $line-height-base
+  margin: 0
+
+.grabIconWrapper
+  +flex-container(row, center, center)
+
+.editMode
+  outline: 1px dashed $color-neutral-300
+
+.draggingGroupMode
+  padding-left: $m-base
+
+.dragGroupIcon
+  +flex-container(column, center, center)
+  border-radius: $border-radius-xs
+  border: 1px solid $color-neutral-300
+  box-sizing: border-box
+  color: $color-primary-600
+  font-size: $font-size-sm
+  font-weight: $font-weight-bold
+  line-height: $line-height-base
+  margin-right: $m-xs
+  min-height: $drag-icon-height
+  min-width: $drag-icon-width
+
+  &#{&}
+    svg
+      height: 16px
+      width: 16px

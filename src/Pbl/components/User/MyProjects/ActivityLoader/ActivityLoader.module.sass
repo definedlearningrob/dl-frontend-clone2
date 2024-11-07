@@ -1,0 +1,14 @@
+@import '@shared/stylesheets/config.sass'
+
+.container
+  +flex-container(column)
+  grid-area: topright
+  height: 100%
+
+.scrollContainer
+  +flex-container(row)
+  height: 100%
+  padding-bottom: $m-xs
+
+.centerScroll
+  +flex-container(row, center, center)

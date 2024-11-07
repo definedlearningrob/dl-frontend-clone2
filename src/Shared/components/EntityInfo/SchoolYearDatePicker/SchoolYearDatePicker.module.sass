@@ -1,0 +1,31 @@
+@import '@shared/stylesheets/config.sass'
+
+.sectionWrapper
+  +flex-container(row, space-between, center)
+  border-radius: $border-radius-xs
+  border: $border-width-xs solid $color-neutral-600
+  font-size: $font-size-base
+  font-weight: $font-weight-regular
+  margin: $m-base 0
+  padding: $m-base
+
+  :global(.react-datepicker-wrapper)
+    margin-left: auto
+    width: fit-content
+
+    input
+      text-align: center
+
+.pickersWrapper
+  +flex-container(row)
+  gap: $m-base
+
+  :global(.select)
+    margin-bottom: 0
+
+.labelWrapper
+  +flex-container(row, false, center)
+  gap: $m-xs
+
+.icon svg
+  fill: $color-primary-500

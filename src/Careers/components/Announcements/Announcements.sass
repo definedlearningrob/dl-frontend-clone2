@@ -1,0 +1,101 @@
+@import '@shared/stylesheets/config.sass'
+
+.announcements
+  align-items: flex-start
+  background-color: $color-background
+  height: 100vh
+  padding-top: $desktop-header-height
+
+  &__header
+    margin-left: $m-md + $m-xs
+    margin-top: $m-base
+
+  &__header-back-button
+    justify-content: flex-start
+    margin: $m-base 0
+
+  &__body
+    +flex-container(column, flex-start, flex-start)
+    height: 100%
+    max-width: calc(100vw - #{$navbar-expand-width})
+    min-height: calc(100vh - 144px)
+    padding: 0 40px
+    width: 100%
+
+    ul
+      list-style-type: inherit
+      padding-left: $m-md
+
+    ol
+      list-style-type: decimal
+      padding-left: $m-md
+
+    .loading-spinner
+      align-self: center
+
+.announcement-container
+  background-color: $color-white
+  border-radius: $m-sm
+  height: fit-content
+  margin-bottom: $m-base
+  min-height: fit-content
+  padding: $m-md
+  width: 100%
+
+  &__header
+    align-items: center
+    display: flex
+
+  &__header-icon
+    +flex-container(row, center, center)
+    background-color: $color-secondary-200
+    border-radius: $m-x
+    color: $color-font-primary
+    height: $m-lg + $m-xs
+    width: $m-lg + $m-xs
+
+  &__header-body
+    margin-left: $m-sm
+
+  &__header-teacher-name
+    color: $color-primary-500
+    font-weight: $font-weight-regular
+    margin-bottom: $m-xs
+    text-align: left
+
+  &__header-class-name,
+  &__header-date
+    color: $color-font-secondary
+    text-align: left
+
+  &__header-middle-dot
+    color: $color-font-secondary
+    height: $m-xs
+    margin: $m-xs
+    width: $m-xs
+
+  &__header-reply-button
+    margin-left: auto
+
+  &__body
+    color: $color-font-primary
+    margin-top: $m-base
+    width: 100%
+
+.announcements__pagination-bar__controls
+  align-self: flex-end
+  display: flex
+  height: $m-md
+  margin-bottom: $m-md
+  margin-top: auto
+
+  .pagination__prev-page
+    border-radius: $m-xs 0 0 $m-xs
+
+  .pagination__next-page
+    border-radius: 0 $m-xs $m-xs 0
+
+  .pagination__prev-page,
+  .pagination__next-page
+    border: solid 1px $color-border
+    margin: 0

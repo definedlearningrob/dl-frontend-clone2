@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InstitutionCard renders correctly 1`] = `
+<div>
+  <a
+    class="institutionCard card"
+    href="/post-secondary/institutions/1"
+  >
+    <div
+      class="imageWrapper"
+    >
+      <button
+        class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton interestedButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 sm"
+        data-testid="icon-button"
+        type="button"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0"
+            data-testid="icon"
+          >
+            <div
+              class="h-sm w-sm"
+            />
+          </div>
+        </div>
+      </button>
+      <img
+        alt="Aurora University"
+        class="image"
+        src="institution-fallback-image.jpeg"
+      />
+    </div>
+    <div
+      class="cardContent"
+    >
+      <section
+        class="body"
+      >
+        <div
+          class="header"
+        >
+          <p
+            class="headerText"
+          >
+            Aurora, IL
+          </p>
+          <h5
+            class="title"
+          >
+            Aurora University
+          </h5>
+        </div>
+        <div
+          class="infoBody"
+        >
+          <div
+            class="typeWrapper"
+          >
+            <span
+              data-state="closed"
+            >
+              <span
+                class="metadata"
+              >
+                <div
+                  class="icon metadataIcon -xs-size"
+                  data-testid="icon"
+                >
+                  <div />
+                </div>
+                <div
+                  class="longTextWrapper"
+                >
+                  <span
+                    class="metadataLabel"
+                  >
+                    Type
+                    :
+                  </span>
+                  <span
+                    class="typeDescription"
+                  >
+                    Private for-profit, 2-year
+                  </span>
+                </div>
+              </span>
+            </span>
+          </div>
+          <div
+            class="typeWrapper"
+          >
+            <span
+              data-state="closed"
+            >
+              <span
+                class="metadata"
+              >
+                <div
+                  class="icon metadataIcon -xs-size"
+                  data-testid="icon"
+                >
+                  <div />
+                </div>
+                <div
+                  class="singleLineWrapper"
+                >
+                  <span
+                    class="metadataLabel"
+                  >
+                    Size
+                    :
+                  </span>
+                  <span>
+                    Medium
+                     
+                    <span
+                      class="sizeCount"
+                    >
+                      (
+                      10 000+
+                      )
+                    </span>
+                  </span>
+                </div>
+              </span>
+            </span>
+          </div>
+          <span
+            class="metadata"
+          >
+            <div
+              class="icon metadataIcon -xs-size"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+            <span
+              class="metadataLabel"
+            >
+              Costs
+              :
+            </span>
+            30K
+          </span>
+        </div>
+      </section>
+      <div
+        class="footer"
+      >
+        More details
+        <div
+          class="icon -xs-size"
+          data-testid="icon"
+        >
+          <div />
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+`;

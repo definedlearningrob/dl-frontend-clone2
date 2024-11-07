@@ -1,0 +1,54 @@
+@import '@shared/stylesheets/config.sass'
+
+.assessment-result-courses-table
+  background-color: $color-white
+  border-radius: $border-radius-sm
+  color: $color-font-primary
+  margin: auto
+  max-height: fit-content
+  padding: $m-base
+
+  &__other-divider
+    +flex-container(row, center, center)
+    color: $color-primary-500
+    cursor: pointer
+    font-size: $font-size-base
+    padding: $m-sm
+
+    &__icon
+      margin-left: $m-xs
+      transition: all $transition-duration $transition-function
+
+      svg
+        fill: $color-primary-500
+
+      &.-extended
+        transform: rotate(-180deg)
+
+  &__empty-message
+    padding: $m-md
+
+  &__other-courses
+    &.-hidden
+      display: none
+
+  .shared-table
+    &__table
+      height: fit-content
+
+    &__head,
+    &__body
+      grid-template-columns: 1fr 2fr minmax(150px, 1fr)
+
+      +media-breakpoint-down(md)
+        grid-template-columns: 1fr 2fr
+
+        .shared-table__column-1:not(.-header-cell),
+        .shared-table__column-2:not(.-header-cell)
+          border: none
+
+        .shared-table__column-3.-header-cell
+          display: none
+
+        .shared-table__column-3 // enroll button
+          grid-column: 1 / -1

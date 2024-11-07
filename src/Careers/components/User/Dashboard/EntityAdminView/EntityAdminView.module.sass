@@ -1,0 +1,32 @@
+@import '@shared/stylesheets/config.sass'
+
+$scrollbar-color: #b0c1dd
+$reports-container-max-height: 450px
+
+.entityAdminDashboard
+    display: grid
+    gap: $m-base
+    grid-template-areas: "info tables tables" "summaries summaries summaries"
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: max-content max-content
+
+    :global(.entity-admin-dashboard-tables)
+        grid-area: tables
+
+    :global(.entity-admin-dashboard-info)
+        grid-area: info
+
+    :global(.dashboard-scroll)
+        +scrollbar
+
+.reportsContainer
+    background-color: $color-white
+    border-radius: $border-radius-sm
+    display: grid
+    gap: $m-base
+    grid-area: summaries
+    grid-template-areas: "generate-area generate-area generate-area" "reports pathways clusters"
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: max-content 1fr
+    height: $reports-container-max-height
+    padding: $m-md

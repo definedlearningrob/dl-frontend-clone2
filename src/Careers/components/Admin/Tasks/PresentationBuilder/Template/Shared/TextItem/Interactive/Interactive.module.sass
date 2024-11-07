@@ -1,0 +1,27 @@
+@import '@shared/stylesheets/config'
+
+.textContainer
+  border: 2px dashed transparent
+  color: $color-black // default text color if not selected
+  padding: $m-xs
+  transform-origin: center top
+
+  * p,
+  * span
+    word-break: break-word
+
+:global
+  .textWrapper
+    +flex-container(column, center)
+    border: 2px dashed transparent
+    padding: $m-xxs
+
+.selectedContent
+  border-color: $color-primary-600
+  border-radius: $border-radius-xs
+  padding: $m-xxs
+  border-style: dashed
+  border-radius: $border-radius-sm
+
+.overflowing
+  border-color: $color-danger-500

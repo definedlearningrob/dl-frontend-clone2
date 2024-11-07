@@ -1,0 +1,30 @@
+@import '@shared/stylesheets/config.sass'
+
+.header
+  +flex-container(row, space-between, center)
+  margin-bottom: $m-base
+
+.buttonsRow
+  display: flex
+  justify-content: flex-end
+  justify-self: self-end
+  flex: 1
+
+.button
+  white-space: nowrap
+
+  &:last-of-type
+    margin-left: $m-sm
+
+  &:disabled
+    pointer-events: none
+
+.subHeading
+  color: $color-font-primary
+  font:
+    size: $font-size-base
+    weight: $font-weight-regular
+  margin-bottom: $m-xxs
+
+.title
+  flex: 2

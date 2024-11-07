@@ -1,0 +1,345 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StudentNavigation renders correctly 1`] = `
+<div>
+  <div
+    class="sidebar flex flex-col fixed top-0 z-higher bg-white shadow-200 h-screen animationOpen small"
+  >
+    <div>
+      <div>
+        Logo
+      </div>
+    </div>
+    <nav
+      class="navigation"
+    >
+      <div
+        class="relative"
+      >
+        <span
+          data-state="closed"
+        >
+          <a
+            aria-current="page"
+            class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item hasChildren text-primary-500 bg-primary-200"
+            data-testid="navigation-item-dashboard"
+            href="/"
+          >
+            <div
+              class="icon -xs-size"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+            <span
+              class="font-medium truncate text opacity-0 me-auto"
+            >
+              Dashboard
+            </span>
+          </a>
+        </span>
+        <div
+          class="transition-[right] duration-300 ease-in-out absolute top-sm right-[-20px]"
+        >
+          <div
+            aria-expanded="false"
+            aria-haspopup="menu"
+            class="relative right-xs"
+            data-state="closed"
+            id="radix-0"
+            type="button"
+          >
+            <span
+              data-state="closed"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 bg-white text-primary-500 rounded-full outline outline-transparent transition-[outline-color] ease-linear duration-200 p-xxs"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="relative"
+      >
+        <span
+          data-state="closed"
+        >
+          <a
+            class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+            data-testid="navigation-item-courses"
+            href="/courses"
+          >
+            <div
+              class="icon -xs-size"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+            <span
+              class="font-medium truncate text opacity-0"
+            >
+              Courses
+            </span>
+          </a>
+        </span>
+      </div>
+      <div
+        class="relative"
+      >
+        <span
+          data-state="closed"
+        >
+          <a
+            class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+            data-testid="navigation-item-opportunities"
+            href="/opportunities"
+          >
+            <div
+              class="icon -xs-size"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+            <span
+              class="font-medium truncate text opacity-0"
+            >
+              Opportunities
+            </span>
+          </a>
+        </span>
+      </div>
+      <div
+        class="relative"
+      >
+        <span
+          data-state="closed"
+        >
+          <a
+            class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+            data-testid="navigation-item-post-secondary"
+            href="/post-secondary"
+          >
+            <div
+              class="icon -xs-size"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+            <span
+              class="font-medium truncate text opacity-0"
+            >
+              College & Future
+            </span>
+          </a>
+        </span>
+      </div>
+      <div
+        class="relative"
+      >
+        <span
+          data-state="closed"
+        >
+          <a
+            class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+            data-testid="navigation-item-portfolio"
+            href="/portfolio"
+          >
+            <div
+              class="icon -xs-size"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+            <span
+              class="font-medium truncate text opacity-0"
+            >
+              Portfolio
+            </span>
+          </a>
+        </span>
+      </div>
+      <div
+        class="relative"
+      >
+        <span
+          data-state="closed"
+        >
+          <a
+            class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+            data-testid="navigation-item-plans"
+            href="/plans"
+          >
+            <div
+              class="icon -xs-size"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+            <span
+              class="font-medium truncate text opacity-0"
+            >
+              Plans
+            </span>
+          </a>
+        </span>
+      </div>
+      <div
+        class="relative"
+      >
+        <span
+          data-state="closed"
+        >
+          <a
+            class="flex items-center gap-xs pr-xs py-0 pl-sm text-xs text-neutral-700 no-underline pointer relative item"
+            data-testid="navigation-item-messages"
+            href="/messages"
+          >
+            <div
+              class="icon -xs-size"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+            <span
+              class="font-medium truncate text opacity-0"
+            >
+              Messages
+            </span>
+          </a>
+        </span>
+      </div>
+    </nav>
+    <div
+      class="overflow-x-hidden pt-md"
+    >
+      <div
+        class="animate-fadeDropIn w-[152px] bg-neutral-200 rounded-sm text-center p-xs mt-auto mx-xs mb-sm relative hidden"
+      >
+        <div
+          class="flex justify-center -left-[10px] absolute -top-[20px] w-full"
+        >
+          <div
+            class="icon h-[30px] w-[66px]"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+        </div>
+        <p
+          class="mb-xxs text-xxs tracking-[-0.24px] font-regular"
+        >
+          Ask teacher for help
+        </p>
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] !text-xxs mx-auto -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+          data-testid="button"
+          type="button"
+        >
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Send message
+          </span>
+        </button>
+      </div>
+      <span
+        data-state="closed"
+      >
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] questionButton -default bg-white text-font-primary hover:bg-primary-200 outline-primary-500 border-white hover:border-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+          data-testid="button"
+          type="button"
+        >
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            <div
+              class="icon -xs-size"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+          </span>
+        </button>
+      </span>
+    </div>
+    <div
+      class="px-xs z-highest mb-sm collapsed"
+      id="readspeaker_button1"
+    >
+      <div
+        class="rs_skip rsbtn rs_preserve read-speaker flex items-center !mb-0 !bg-neutral-200 !rounded-sm !p-xxs"
+      >
+        <a
+          accesskey="L"
+          class="rsbtn_play !flex items-center grow !bg-transparent !border-r-0 !border-t-0 !border-b-0 !rounded-none !h-base !border-l-0"
+          rel="nofollow"
+          title="Listen to this page using Read Speaker web Reader"
+        >
+          <span
+            class="rsbtn_left rsimg rspart grow block !m-0 !bg-neutral-200 hover:!bg-neutral-700 rounded-sm group !py-xxs"
+          >
+            <span
+              class="rsbtn_text before:!content-none after:!content-none !flex items-center"
+            >
+              <span
+                class="!p-0 grow !flex items-center justify-center gap-xxxs group-hover:!text-white"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 text-primary-500 grow group-hover:!text-inherit !p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+              </span>
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="mt-auto"
+    >
+      <div
+        class="divider"
+      />
+      <span
+        data-state="closed"
+      >
+        <div
+          class="expandButton animationOpen"
+          data-testid="sidebar-expand-button"
+        >
+          <div
+            class="icon icon smallIcon -xs-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+          <span
+            class="buttonText hidden"
+          >
+            Collapse
+          </span>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+`;

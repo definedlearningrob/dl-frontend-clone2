@@ -1,0 +1,1 @@
+export { EntityAdminDashboard } from './EntityAdminDashboard';

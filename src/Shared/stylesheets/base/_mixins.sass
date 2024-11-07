@@ -1,0 +1,202 @@
+@use "sass:math"
+
+=box-shadow-200($color)
+  box-shadow: 0 $m-xxs $m-xs rgba($color, .1)
+
+=box-shadow-300($color)
+  box-shadow: 0 $m-xxs $m-x rgba($color, .2)
+
+=box-shadow-400($color)
+  box-shadow: 0 $m-x $m-md rgba($color, .2)
+
+=sidebar-shadow($color)
+  box-shadow: $m-xxs 0 $m-sm rgba($color, .05)
+
+// DEPRECATED - you should not use floats for columns anymore
+=clearfix
+  &:after
+    clear: both
+    content: ''
+    display: table
+
+=cleared-button
+  background-color: transparent
+  border: none
+  cursor: pointer
+  outline: none
+
+=ellipsis
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+// UNOFF - watch the browser support for this one here https://caniuse.com/#search=line-clamp
+=ellipsis-multiline($lines: 3)
+  /* autoprefixer: ignore next */
+  -webkit-box-orient: vertical
+  -webkit-line-clamp: $lines
+  display: -webkit-box
+  overflow: hidden
+
+// experimental hover device detection, if you use this IE will not get any hovers
+=hover
+  @media (hover: hover) and (pointer: fine)
+    &:hover
+      @content
+
+=list-unstyled
+  list-style: none
+  padding-left: 0
+
+=pseudoelement
+  inset: 0
+  content: ''
+  position: absolute
+
+=focus
+  &:focus
+    outline: 2px dashed $color-primary-500
+    outline-offset: 2px
+
+  &:focus:not(:focus-visible)
+    outline: none
+
+  &:focus-visible
+    outline: 2px dashed $color-secondary-500
+    outline-offset: 2px
+
+=transition($property...)
+  transition-property: $property
+  transition-duration: $transition-duration
+  transition-timing-function: $transition-function
+
+=flex-container($direction, $justify-content: false, $align-items: false )
+  display: flex
+  flex-direction: $direction
+  @if $justify-content
+    justify-content: $justify-content
+  @if $align-items
+    align-items: $align-items
+
+=sidebar-item
+  +flex-container(row, flex-start, center)
+  font-size: $font-size-xs
+  color: $color-font-secondary
+  cursor: pointer
+  height: $m-lg + $m-xs
+  gap: $m-xs
+  padding-left: $m-sm
+  position: relative
+  text-decoration: none
+  transition: background-color $transition-duration $transition-function
+
+  &:not(:last-child)
+    margin-bottom: $m-xs
+
+  &::after
+    transition: background-color $transition-duration $transition-function
+    animation: 200ms fadeIn ease-in
+
+  &:hover
+    &::after
+      background: $color-primary-500
+      content: ""
+      display: block
+      height: 100%
+      position: absolute
+      right: 0
+      width: 2px
+
+  &__attention-mark
+    background-color: $color-success-500
+    border-radius: 50%
+    height: $m-x
+    left: 34px
+    position: absolute
+    top: $m-x
+    visibility: hidden
+    width: $m-x
+
+  &__icon
+    fill: $color-font-secondary
+
+    path
+      fill: $color-font-secondary
+
+  &__text
+    font-weight: $font-weight-medium
+    transition: visibility 200ms $transition-function
+    white-space: nowrap
+
+    &.-hidden
+      visibility: hidden
+
+=modal-close-button($without-padding: false)
+  border-radius: $border-radius-sm * 0.5
+  color: $color-primary-500
+  padding: 0
+
+  @if $without-padding
+    position: absolute
+    right: $m-lg
+    top: $m-lg
+
+  &:hover
+    background-color: darken($color-background, 4%)
+    transition: all $transition-duration * 0.5 $transition-function
+
+=link-unstyled
+  color: inherit
+  text-decoration: none
+
+  &:hover
+    color: inherit
+    text-decoration: none
+
+  &:active
+    color: inherit
+
+  &:visited
+    color: inherit
+
+=button-unstyled
+  border: none
+  background-color: transparent !important
+
+  &:focus
+    outline: none
+
+=scrollbar
+  overflow: auto
+  &::-webkit-scrollbar
+    width: $m-xs
+    height: $m-xxs
+
+  &::-webkit-scrollbar-track
+    background-color: transparent
+
+  &::-webkit-scrollbar-thumb
+    background-color: $color-neutral-400
+    border-radius: $m-sm
+
+  &::-webkit-scrollbar-corner
+    background-color: transparent
+
+=kicker($size: $font-size-xxs)
+  text-transform: uppercase
+  font-weight: $font-weight-bold
+  line-height: $line-height-sm
+  margin: $m-base
+  font-size: $size
+  letter-spacing: 0.1em
+
+=lists
+  ul, ol
+    padding-left: $m-md
+  ol
+    list-style-type: decimal
+  ul
+    list-style-type: disc
+  li
+    line-height: $line-height-lg
+    margin-bottom: $m-sm

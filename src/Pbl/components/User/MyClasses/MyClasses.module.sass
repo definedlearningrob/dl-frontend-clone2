@@ -1,0 +1,42 @@
+@import '@shared/stylesheets/config.sass'
+
+.container
+  :global(.shared-table__column)
+    font-size: $font-size-xs !important
+    padding: $m-sm $m-base !important
+    display: flex
+    height: 100%
+    align-items: center
+
+    &:last-child
+      justify-content: flex-end
+
+    +media-breakpoint-up(xxxl)
+      font-size: $font-size-sm !important
+      padding: $m-sm $m-md !important
+
+  :global(.shared-table__body)
+    &::-webkit-scrollbar
+      display: block
+      height: $m-xxs
+      margin: $m-xs
+      width: $m-xxs
+
+    &::-webkit-scrollbar-track
+      background-color: transparent
+      margin: $m-xxs 0
+
+    &::-webkit-scrollbar-thumb
+      background-color: $color-border
+      border-radius: $m-sm
+
+    &::-webkit-scrollbar-corner
+      background-color: transparent
+
+.tableHeading
+  font-size: $font-size-base
+  margin: $m-base 0 0 $m-base
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-xl
+    margin: $m-md 0 0 $m-md

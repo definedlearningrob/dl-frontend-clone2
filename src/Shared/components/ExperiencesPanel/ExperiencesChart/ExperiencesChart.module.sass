@@ -1,0 +1,70 @@
+@import '@shared/stylesheets/config.sass'
+
+.container
+  +flex-container(column)
+  background-color: $color-white
+  border-radius: $border-radius-sm
+
+.headContainer
+  padding: $m-base $m-base $m-sm
+
+  +media-breakpoint-up(xxl)
+    padding: $m-md $m-md $m-sm
+
+.title
+  font-size: $font-size-sm
+  margin-bottom: $m-xxs
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-lg
+
+.text
+  font-size: $font-size-xxs
+  margin-bottom: 0
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-xs
+
+.chartContainer
+  flex: 1
+  +flex-container(column, center, center)
+  padding: 0
+
+.footerContainer
+  +flex-container(row, center, center)
+
+.footerContent
+  +flex-container(row, center, center)
+  border: $border-width-xs solid $color-neutral-200
+  border-radius: $border-radius-sm
+  color: $color-font-primary
+  background-color: $color-white
+  margin-bottom: $m-x
+  padding: $m-x $m-sm $m-x $m-sm
+
+  +media-breakpoint-up(xxl)
+    border-radius: $border-radius-lg
+    margin-bottom: $m-x
+
+.icon
+  margin-right: $m-x
+  color: $color-font-secondary
+
+.footerText
+  font-size: $font-size-xxs
+  margin-bottom: 0
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-xs
+
+.studentName
+  color: $color-primary-500
+
+.studentInfo
+  font-size: $font-size-xxs
+  color: $color-font-secondary
+  font-weight: $font-weight-medium
+  
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-xs
+

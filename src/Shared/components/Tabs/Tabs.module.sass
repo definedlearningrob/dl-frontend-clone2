@@ -1,0 +1,71 @@
+
+
+@import '@shared/stylesheets/config.sass'
+
+$min-tab-width: 64px
+$icon-size: 14px
+$icon-size-xxxl: 16px
+
+$skeleton-width: 150px
+$skeleton-height: 34px
+$skeleton-height-xxxl: 34px
+
+.triggerListContainer
+  +flex-container(row)
+
+  &:has(.fullWidth)
+    width: 100%
+
+.triggerList
+  +flex-container(row)
+  column-gap: $m-xxs
+  background-color: $color-white
+  border-radius: $m-xs
+  color: $color-font-secondary
+  margin: 0
+
+.triggerListItem
+  +flex-container(row, center, center)
+  min-width: $min-tab-width
+  column-gap: $m-xs
+  border: none
+  font-size: $font-size-xxs
+  font-weight: $font-weight-medium
+  line-height: $line-height-lg
+  border-radius: $m-xs
+  padding: $m-xs $m-sm
+  color: $color-neutral-700
+
+  &:hover
+    cursor: pointer
+    background-color: $color-neutral-200
+    color: $color-neutral-800
+
+  svg
+    width: $icon-size
+    height: $icon-size
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-xs
+
+    svg
+      width: $icon-size-xxxl
+      height: $icon-size-xxxl
+
+.triggerListItem[data-state='active']
+  background-color: $color-primary-200
+  color: $color-primary-500
+
+.triggerSkeleton
+  width: $skeleton-width
+  height: $skeleton-height
+
+  +media-breakpoint-up(xxxl)
+    height: $skeleton-height-xxxl
+
+.withPadding
+  padding: $m-xs
+
+.fullWidth
+  flex-basis: 100%
+  flex-wrap: wrap

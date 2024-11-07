@@ -1,0 +1,21 @@
+@import '@shared/stylesheets/config.sass'
+
+.description
+  +lists
+  margin-bottom: $m-x
+  word-break: break-word
+
+.list
+  display: grid
+  grid-column-gap: $m-sm
+  grid-row-gap: $m-base * 0.5
+  grid-template-columns: min-content auto
+  line-height: $line-height-sm
+  margin: 0
+
+.grading
+  +flex-container(column, flex-start, flex-start)
+  border-top: 2px solid $color-background
+  gap: $m-xs
+  margin-top: $m-base
+  padding: $m-base

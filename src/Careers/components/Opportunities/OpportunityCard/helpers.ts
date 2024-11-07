@@ -1,0 +1,16 @@
+import { OPPORTUNITY_APPLICATION_STATUS, VIRTUAL_INTERNSHIP_STATUS } from '@dc/resources/enums';
+
+export const applicationStatusesKeyMap = {
+  [OPPORTUNITY_APPLICATION_STATUS.STARTED]: 'inProgress',
+  [OPPORTUNITY_APPLICATION_STATUS.ACCEPTED]: 'accepted',
+  [OPPORTUNITY_APPLICATION_STATUS.REJECTED]: 'notAccepted',
+  [OPPORTUNITY_APPLICATION_STATUS.PENDING]: 'pending',
+  [OPPORTUNITY_APPLICATION_STATUS.FINISHED]: 'completed',
+  [OPPORTUNITY_APPLICATION_STATUS.EXPIRED]: 'expired',
+} as const;
+
+export const applicationViewStatusesKeyMap = {
+  [VIRTUAL_INTERNSHIP_STATUS.NOT_STARTED]: 'notStarted',
+  [VIRTUAL_INTERNSHIP_STATUS.IN_PROGRESS]: 'inProgress',
+  [VIRTUAL_INTERNSHIP_STATUS.COMPLETED]: 'completed',
+} as const;

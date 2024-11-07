@@ -1,0 +1,19 @@
+@import '@shared/stylesheets/config'
+
+.wrapper
+  +flex-container(row, space-between)
+  border-radius: $border-radius-xs
+  border: 1px solid $color-border
+  margin-bottom: $m-xs
+  padding: $m-xs
+
+  &:last-of-type
+    margin-bottom: 0
+
+.textButton
+  flex-grow: 1
+  color: $color-primary-500
+  cursor: pointer
+
+  &:hover
+    text-decoration: underline

@@ -1,0 +1,40 @@
+@import '@shared/stylesheets/config.sass'
+
+.portfolio-resume-item
+  +flex-container(row, flex-start, center)
+  border-radius: $border-radius-sm
+  border: 1px solid $color-border
+  color: $color-primary-500
+  margin: $m-base 0
+  min-height: $m-md * 2
+  padding: $m-sm $m-sm $m-base * 0.5
+
+  path
+    fill: $color-primary-500
+
+  &__name
+    font-size: $font-size-xs
+    margin: 0 auto 0 $m-xs
+    text-decoration: none
+    word-break: break-all
+
+  &__delete-button
+    &#{&} // strengthen selector
+      background-color: $color-secondary-200
+      height: $m-md
+      margin-left: $m-base * 0.5
+      min-height: $m-md
+      min-width: $m-md
+      width: $m-md
+
+      path
+        fill: $color-danger-500
+
+      &:hover
+        background-color: darken($color-secondary-200, 5%)
+
+      &:disabled
+        background-color: $color-background
+
+        path
+          fill: $color-font-secondary

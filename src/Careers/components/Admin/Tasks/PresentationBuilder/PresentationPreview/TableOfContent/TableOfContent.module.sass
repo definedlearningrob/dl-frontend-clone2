@@ -1,0 +1,75 @@
+@import '@shared/stylesheets/config'
+
+$icon-height: 32px
+$icon-width: 32px
+$table-of-content-height: 280px
+$table-of-content-left: 36px
+$table-of-content-top: 36px
+$table-of-content-view-top: 170px
+$table-of-content-view-left: 300px
+$table-of-content-width: 258px
+
+.tableOfContentWrapper
+  left: $m-md
+  position: absolute
+  top: $m-md
+  z-index: $z-lower
+
+.tableOfContentFullScreenMode
+  top: $table-of-content-top
+
+.toggleTableOfContentIcon
+  background-color: $color-primary-500
+  border-radius: $border-radius-xs
+  height: $icon-height
+  width: $icon-width
+
+  *
+    fill: $color-white
+
+  &:hover
+    background-color: $color-primary-500
+
+.fillColorBackground
+  background-color: $color-background
+
+  *
+    fill: $color-primary-500
+
+  &:hover
+    background-color: $color-background
+
+.tableOfContentList
+  background-color: $color-background
+  border-radius: $border-radius-sm
+  box-shadow: $shadow-200
+  color: $color-primary-500
+  font-size: $font-size-sm
+  height: fit-content
+  left: -14px
+  height: $table-of-content-height
+  overflow: auto
+  padding:
+    bottom: $m-base
+    left: $m-lg
+    right: $m-md
+    top: $m-lg
+  position: absolute
+  top: -30px
+  width: $table-of-content-width
+  z-index: -1
+
+.tableOfContentSlide
+  cursor: pointer
+  margin: $m-sm 0
+
+  span:hover
+    text-decoration: underline
+
+.tableOfContentSubslide
+  @extend .tableOfContentSlide
+  margin-left: $m-sm
+
+.slideIndex
+  margin-right: $m-xxs
+

@@ -1,0 +1,68 @@
+@import '@shared/stylesheets/config'
+
+.assessment__middleSchool
+  display: flex
+
+  .splash-screen
+    &__subtitle
+      width: 45%
+
+    &__instruction-item:nth-child(1)
+      width: 95%
+
+    &__instruction-item:nth-child(2)
+      width: 90%
+
+    &__instruction-item:nth-child(3)
+      width: 85%
+
+    &__instruction-item:nth-child(4)
+      width: 65%
+
+    button
+      margin:
+        bottom: 0
+        left: 0
+        right: 0
+        top: 40px
+
+  &__steps-header
+      color: $color-font-secondary
+      font-size: $font-size-2lg
+
+      line-height: 40px
+      margin: 50px auto 0
+      text-align: center
+
+  &__step2
+    &__list
+      display: flex
+      margin-top: 0
+
+
+  +media-breakpoint-up(lg)
+    .display-only-desktop-block
+        font-size: $font-size-2xl
+        margin-bottom: 0
+        width: 65%
+
+    .assessment__step1
+      &__interactive-part
+        padding-top: 0
+
+      &__most-desired
+        &-title
+            margin-left: $m-xl
+            text-align: left
+
+      &__least-desired
+        &-title
+            margin-right: $m-xl
+            text-align: right
+
+    .assessment__progress-footer
+      padding:
+        bottom: 0
+        left: $m-base
+        right: $m-base
+        top: $m-base

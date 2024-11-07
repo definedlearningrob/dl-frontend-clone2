@@ -1,0 +1,83 @@
+@import '@shared/stylesheets/config.sass'
+
+$offset: 2px
+$slider-size: 20px
+
+.switch
+  +flex-container(row, flex-start, center)
+  gap: $m-xs
+
+.labelFirst
+  flex-direction: row-reverse
+
+.switchInput
+  height: 0
+  opacity: 0
+  width: 0
+
+  &:checked + .slider
+    background-color: $color-primary-500
+    border-color: $color-primary-500
+
+    &:hover
+      background-color: $color-primary-600
+      border-color: $color-primary-600
+
+    &:before
+      transform: translateX($slider-size - $offset)
+      background-color: $color-white
+
+.label
+  color: $color-font-primary
+  font-size: $font-size-xs
+
+.content
+  display: inline-block
+  height: $slider-size + 2 * $offset + 2
+  width: 2 * $slider-size + 2 * $offset
+  position: relative
+
+.slider
+  background-color: $color-white
+  inset: 0
+  cursor: pointer
+  position: absolute
+  transition: .4s
+  border: 1px solid $color-neutral-300
+  border-radius: $border-radius-base
+
+  &:before
+    background-color: $color-neutral-300
+    border-radius: 50%
+    top: $offset
+    content: ""
+    height: $slider-size
+    left: $offset
+    position: absolute
+    transition: $transition-duration
+    width: $slider-size
+
+  &:hover
+    border-color: $color-neutral-400
+
+    &:before
+      background-color: $color-neutral-400
+
+.disabled
+  .slider
+    background-color: $color-neutral-300
+    &:before
+      background-color: $color-white
+
+.alwaysEnabled
+
+  .slider
+    background-color: $color-primary-500
+    border-color: $color-primary-500
+
+    &:hover
+      background-color: $color-primary-600
+      border-color: $color-primary-600
+
+    &:before
+      background-color: $color-white

@@ -1,0 +1,16 @@
+@import '@shared/stylesheets/config'
+
+.headings
+  +flex-container(row)
+  margin: 0
+
+.subHeading
+  composes: headings
+  font-size: $font-size-xs
+
+.heading
+  composes: headings
+  color: $color-neutral-700
+  font-size: $font-size-base
+  gap: $m-xs
+  margin-top: $m-xs

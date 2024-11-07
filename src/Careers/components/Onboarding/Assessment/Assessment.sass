@@ -1,0 +1,450 @@
+@import '@shared/stylesheets/config'
+
+.assessment
+    +flex-container(column)
+    background-color: $color-background
+    background-image: url("../../../assets/images/assessment_step_1_bg.svg")
+    background-position: center center
+    background-size: cover
+    min-height: 100vh
+
+    &.-second-background
+        background-image: url("../../../assets/images/assessment_steps_bg.svg")
+
+    &__impersonating-header
+        +flex-container(row, center, center)
+        background-color: $color-secondary-500
+        color: $color-white
+        font-size: $font-size-sm
+        height: $m-md
+        font-weight: $font-weight-regular
+
+    &__impersonating-button
+        color: $color-primary-500
+        margin-left: $m-xs
+
+    &__navbar
+        +flex-container(row, space-between, center)
+        margin: 0 auto
+        max-width: 1200px
+        padding: $m-base
+        width: 100%
+
+    &__logo
+        height: $m-md + $m-xs
+        margin-right: $m-base
+
+    &__navbar-title
+        color: $color-primary-500
+        display: none
+
+        +media-breakpoint-up(md)
+            display: block
+
+    &__progress-footer
+        bottom: 0
+        left: 50%
+        max-width: 1200px
+        position: fixed
+        transform: translateX(-50%)
+        width: 100%
+        z-index: $z-lower
+
+        &__content
+            +flex-container(row, stretch, center)
+            background-color: $color-white
+            border-radius: $border-radius-sm
+            box-shadow: $assessment-progressbar-shadow
+            margin: auto
+            padding: $m-base * 0.5
+
+            +media-breakpoint-up(sm)
+                padding: $m-base * 0.5 $m-md
+
+        &__progress-bar
+            margin-top: 0
+
+        &__next
+            background-color: $color-font-secondary
+            flex: 0
+            font-size: $font-size-sm
+            margin-bottom: 0
+            margin-left: $m-base * 0.5
+
+            +media-breakpoint-up(sm)
+                margin-left: $m-md
+                min-width: 200px
+
+    &__steps-header
+        color: $color-font-primary
+        font-size: $font-size-lg !important
+        width: 80%
+        line-height: $line-height-base
+        margin: $m-base auto $m-xs !important
+        max-width: 1200px
+        padding: 0 $m-base
+        position: relative
+        text-align: center
+        z-index: $z-lower
+
+        +media-breakpoint-up(xxxl)
+            font-size: $font-size-xl !important
+
+        +min-width-and-max-height(md, md)
+            margin: 0 auto $m-base
+
+    &__step1
+        text-align: center
+        width: 100%
+
+        &__tooltip
+            font-size: $font-size-xs
+            padding: $m-sm
+            text-align: center
+
+            +media-breakpoint-up(md)
+                &__placeholder
+                    &.-left
+                            position: relative
+                            right: 100%
+
+                    &.-right
+                            left: 100%
+                            position: relative
+
+        &__button
+            background-color: $color-background
+            border-radius: $border-radius-sm
+
+            svg
+                fill: $color-primary-500
+
+            &:hover
+                background-color: darken($color-background, 10%)
+
+        &__preference-name
+            font-size: 14px
+
+            +media-breakpoint-up(xxxl)
+                font-size: 16px
+
+
+        &__mobile-choice-headings
+            +flex-container(row, space-between, center)
+            padding: 0 $m-base
+
+            +media-breakpoint-up(md)
+                display: none
+
+        &__interactive-part
+            padding: $m-base
+            position: relative
+            z-index: $z-lower
+            justify-content: center
+            display: flex
+
+        &__most-desired
+            display: none
+
+            +media-breakpoint-up(md)
+                display: block
+                flex: 0 0 400px
+                text-align: left
+
+        &__most-desired-title
+            color: $color-success-500
+            font-weight: bold
+            margin: 0
+            text-align: center
+            font-size: $font-size-lg
+            z-index: $z-lower
+
+            +media-breakpoint-up(xxxl)
+                text-align: left
+                font-size: $font-size-2lg
+
+        &__items-list
+            color: $color-font-primary
+            font-size: $font-size-sm
+            display: flex
+            flex-direction: column
+            gap: $m-x
+            margin-top: 32px
+            flex: 0 0 400px
+
+            +media-breakpoint-up(xxxl)
+                margin-top: 60px
+                gap: $m-sm
+
+        &__least-desired
+            display: none
+
+            +media-breakpoint-up(md)
+                display: block
+                flex: 0 0 400px
+                text-align: right
+
+        &__least-desired-title
+            color: $color-secondary-500
+            font-weight: bold
+            margin: 0
+            text-align: center
+            z-index: $z-lower
+            font-size: $font-size-lg
+
+            +media-breakpoint-up(xxxl)
+                text-align: right
+                font-size: $font-size-2lg
+
+        &__list-item
+            transition: all 0.5s linear
+
+            +media-breakpoint-down(sm)
+                &.-left
+                    .assessment__step1__list-item-content
+                        background-color: $color-success-500
+                        color: $color-white
+                        font-weight: $font-weight-bold
+
+                &.-right
+                    .assessment__step1__list-item-content
+                        background-color: $color-secondary-500
+                        color: $color-white
+                        font-weight: $font-weight-bold
+
+        &__list-item-content
+            align-items: center
+            background-color: $color-white
+            border-radius: $border-radius-sm
+            display: flex
+            justify-content: space-between
+            padding: $m-xs
+            height: 48px !important
+
+            +media-breakpoint-up(xxxl)
+                height: 56px !important
+
+            +media-breakpoint-up(xxxl)
+
+            &.-disabled
+                background-color: transparent
+                color: $color-font-primary
+                outline: 1px solid $color-neutral-300
+
+        &__list-item-icon-placeholder
+            height: 32px
+            min-width: 32px
+
+            +media-breakpoint-up(xxxl)
+                min-width: 40px
+                height: 40px
+
+    &__step2
+        &__interactive-part
+            display: flex
+            justify-content: center
+            position: relative
+            z-index: $z-lower
+
+        &__list
+            display: grid
+            grid-gap: $m-sm
+            grid-template-columns: 1fr
+            margin: 0
+            padding: $m-sm
+
+            +media-breakpoint-up(md)
+                grid-template-columns: 1fr 1fr
+                padding: $m-md
+
+            +min-width-and-min-height(md, md)
+                grid-gap: $m-md
+
+        &__list-item
+            align-items: center
+            background-color: $color-white
+            border-radius: $border-radius-sm
+            color: $color-font-primary
+            cursor: pointer
+            display: flex
+            min-height: 40px
+            padding: $m-sm
+
+            +min-width-and-max-height(md, md)
+                padding: $m-base * 0.5
+
+            svg
+                path
+                    fill: $color-font-primary
+
+            &.-checked
+                background-color: $color-primary-500
+                color: $color-white
+
+                svg
+                    path
+                        fill: $color-white
+
+        &__list-item-text
+            margin-left: $m-sm
+            text-align: left
+
+        &__sub-title
+            color: $color-font-secondary
+            display: flex
+            font-size: $font-size-sm
+            justify-content: center
+            width: 100%
+
+    &__step3
+        margin-top: 16vh
+
+        +media-breakpoint-up(xxxl)
+            margin-top: 25VH
+
+        &__controls
+            display: flex
+
+        &__interactive-part
+            +flex-container(column, center, center)
+            position: relative
+            z-index: $z-lower
+
+        &__left-indicator
+            display: flex
+            align-items: center
+
+            &.-selected-1
+                .assessment__step3__selection-token:nth-child(1)
+                    background-color: $color-primary-500
+
+            &.-selected-2
+                .assessment__step3__selection-token:nth-child(1),
+                .assessment__step3__selection-token:nth-child(2)
+                    background-color: $color-primary-500
+
+            &.-selected-3
+                .assessment__step3__selection-token:nth-child(1),
+                .assessment__step3__selection-token:nth-child(2),
+                .assessment__step3__selection-token:nth-child(3)
+                    background-color: $color-primary-500
+
+        &__option
+            background-color: $color-white
+            border-radius: $border-radius-sm
+
+            margin: 0 $m-xl
+            width: 300px
+            padding: $m-base
+            text-align: center
+            +flex-container(column, center, center)
+
+            +media-breakpoint-up(md)
+                +flex-container(row, center, center)
+                font-size: $font-size-base
+                padding: $m-md
+
+            +media-breakpoint-up(lg)
+                width: 500px
+
+            &.-left
+                +media-breakpoint-down(sm)
+                    +flex-container(column, center, center)
+
+                    .assessment__step3__option-text
+                        margin-bottom: $m-sm
+
+            &.-right
+                +media-breakpoint-down(sm)
+                    +flex-container(column-reverse, center, center)
+                    order: 2
+
+                    .assessment__step3__option-text
+                        margin-top: $m-sm
+
+        &__options
+            display: flex
+            justify-content: center
+            margin: $m-md
+            width: 100%
+
+            +media-breakpoint-down(sm)
+                display: contents
+
+        &__right-indicator
+            display: flex
+            align-items: center
+
+            &.-selected-1
+                .assessment__step3__selection-token:nth-child(1)
+                    background-color: $color-primary-500
+
+            &.-selected-2
+                .assessment__step3__selection-token:nth-child(1),
+                .assessment__step3__selection-token:nth-child(2)
+                    background-color: $color-primary-500
+
+            &.-selected-3
+                .assessment__step3__selection-token:nth-child(1),
+                .assessment__step3__selection-token:nth-child(2),
+                .assessment__step3__selection-token:nth-child(3)
+                    background-color: $color-primary-500
+
+        &__selection-token
+            border: 2px solid $color-primary-500
+            border-radius: 50px
+            height: 30px
+            margin: $m-xs
+            width: 30px
+
+        &__sub-title
+            color: $color-font-secondary
+            display: block
+            padding: 0 $m-sm
+            text-align: center
+
+        &__token
+            background-color: $color-primary-500
+            border-radius: 50px
+            height: 30px
+            margin: $m-xs
+            width: 30px
+
+        &__tokens-placeholder
+            align-items: center
+            display: flex
+            margin: $m-base 0
+
+            +media-breakpoint-up(md)
+                margin: 0 $m-xl
+
+            &.-all-taken
+                .assessment__step3__token
+                    background-color: transparent
+
+            &.-center-taken
+                .assessment__step3__token:nth-child(3)
+                    background-color: transparent
+
+            &.-left-taken
+                .assessment__step3__token:nth-child(2)
+                    background-color: transparent
+
+            &.-right-taken
+                .assessment__step3__token:nth-child(4)
+                    background-color: transparent
+
+            .icon-button
+                background-color: $color-primary-500
+                border-radius: $border-radius-sm
+                margin: 0 $m-sm
+
+                svg
+                    fill: $color-white
+
+            +media-breakpoint-down(sm)
+                .icon-button:first-of-type
+                    transform: rotate(90deg)
+
+                .icon-button:last-of-type
+                    transform: rotate(90deg)

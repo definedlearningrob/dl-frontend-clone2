@@ -1,0 +1,448 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Statement component should render required statement correctly 1`] = `
+<div>
+  <div
+    class="bg-neutral-200 rounded-sm xxxl:px-md px-base py-sm flex justify-between"
+  >
+    <div>
+      <div
+        class="kicker sm secondary !mb-xxs"
+      >
+        Required
+      </div>
+      <h6
+        class="font-bold text-xs xxxl:text-sm leading-base mb-xs"
+      >
+        Test statement
+      </h6>
+      <div
+        class="flex items-center"
+      >
+        <div
+          class="text-xs xxxl:text-sm mr-xs font-medium"
+        >
+          Status:
+        </div>
+        <div
+          class="font-medium leading-lg flex items-center inline-flex items-center gap-xxs bg-white bg-neutral-200 text-font-secondary rounded-sm p-xxs text-xs gap-xxs"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          Not started
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Statement component should render statement with evidences correctly 1`] = `
+<div>
+  <div
+    class="bg-neutral-200 rounded-sm xxxl:px-md px-base py-sm flex justify-between"
+  >
+    <div>
+      <h6
+        class="font-bold text-xs xxxl:text-sm leading-base mb-xs"
+      >
+        Test statement
+      </h6>
+      <div
+        class="flex items-center"
+      >
+        <div
+          class="text-xs xxxl:text-sm mr-xs font-medium"
+        >
+          Status:
+        </div>
+        <div
+          class="font-medium leading-lg flex items-center inline-flex items-center gap-xxs bg-white bg-neutral-200 text-font-secondary rounded-sm p-xxs text-xs gap-xxs"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          Not started
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="pl-lg xxxl:pl-2lg flex flex-col gap-sm xxxl:gap-base"
+  >
+    <div
+      class="flex flex-col gap-xxs xxxl:gap-xs"
+    >
+      <h5
+        class="mb-0 text-xxs leading-base uppercase"
+      >
+        Evidence 
+        <span
+          class="text-neutral-600"
+        >
+          (3)
+        </span>
+        :
+      </h5>
+      <ul>
+        <li
+          class="mx-sm my-x"
+        >
+          <div
+            class="flex justify-between"
+          >
+            <div
+              class="flex gap-xs items-start"
+            >
+              <div
+                class="h-md flex justify-center items-center rounded-sm text-xs font-medium leading-lg group-hover/evidence-item:bg-white w-md bg-danger-100 text-danger-500"
+              >
+                DC
+              </div>
+              <div
+                class="leading-lg text-xxs font-medium"
+              >
+                <div
+                  class="text-primary-500 flex gap-xxs items-center"
+                >
+                  Schedule 1
+                </div>
+                <div
+                  class="text-neutral-800 flex relative"
+                >
+                  <div
+                    class="relative after:absolute pe-x xxxl:pe-[20px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xxs xxxl:after:right-xs after:top-xs"
+                  >
+                    Product
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="text-neutral-600"
+                    >
+                      Dec 12, 2023
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-xs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/evidence-item:bg-white bg-success-100 text-success-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li
+          class="mx-sm my-x"
+        >
+          <div
+            class="flex justify-between"
+          >
+            <div
+              class="flex gap-xs items-start"
+            >
+              <div
+                class="h-md flex justify-center items-center rounded-sm text-xs font-medium leading-lg group-hover/evidence-item:bg-white w-md bg-danger-100 text-danger-500"
+              >
+                DC
+              </div>
+              <div
+                class="leading-lg text-xxs font-medium"
+              >
+                <div
+                  class="text-primary-500 flex gap-xxs items-center"
+                >
+                  Software Bug Feedback Form Assignment
+                </div>
+                <div
+                  class="text-neutral-800 flex relative"
+                >
+                  <div
+                    class="relative after:absolute pe-x xxxl:pe-[20px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xxs xxxl:after:right-xs after:top-xs"
+                  >
+                    Virtual Internship
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="text-neutral-600"
+                    >
+                      Aug 31, 2023
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-xs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/evidence-item:bg-white bg-primary-200 text-primary-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li
+          class="mx-sm my-x"
+        >
+          <div
+            class="flex justify-between"
+          >
+            <div
+              class="flex gap-xs items-start"
+            >
+              <div
+                class="h-md flex justify-center items-center rounded-sm text-xs font-medium leading-lg group-hover/evidence-item:bg-white w-md bg-danger-100 text-danger-500"
+              >
+                DC
+              </div>
+              <div
+                class="leading-lg text-xxs font-medium"
+              >
+                <div
+                  class="text-primary-500 flex gap-xxs items-center"
+                >
+                  Schedule 2
+                </div>
+                <div
+                  class="text-neutral-800 flex relative"
+                >
+                  <div
+                    class="relative after:absolute pe-x xxxl:pe-[20px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xxs xxxl:after:right-xs after:top-xs"
+                  >
+                    Rubric row
+                  </div>
+                  <span
+                    data-state="closed"
+                  >
+                    <span
+                      class="text-neutral-600"
+                    >
+                      Dec 12, 2023
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="relative after:absolute pe-x xxxl:pe-[20px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xxs xxxl:after:right-xs flex items-center after:top-[11px] last-of-type:after:invisible last-of-type:pe-0"
+                  >
+                    <div
+                      class="bg-success-100 !text-success-500 py-xxs px-xs rounded-full me-xxs group-hover/evidence-item:bg-white transition-colors text-xxs"
+                    >
+                      12/25
+                    </div>
+                    Sample rubric
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-xs"
+            >
+              <span
+                data-state="closed"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 rounded-sm group-hover/evidence-item:bg-white bg-primary-200 text-primary-500 p-xxs"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-base w-base"
+                    />
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Statement component should render statement with question correctly 1`] = `
+<div>
+  <div
+    class="bg-neutral-200 rounded-sm xxxl:px-md px-base py-sm flex justify-between"
+  >
+    <div>
+      <h6
+        class="font-bold text-xs xxxl:text-sm leading-base mb-xs"
+      >
+        Test statement
+      </h6>
+      <div
+        class="flex items-center"
+      >
+        <div
+          class="text-xs xxxl:text-sm mr-xs font-medium"
+        >
+          Status:
+        </div>
+        <div
+          class="font-medium leading-lg flex items-center inline-flex items-center gap-xxs bg-white bg-neutral-200 text-font-secondary rounded-sm p-xxs text-xs gap-xxs"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          Not started
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="pl-lg xxxl:pl-2lg flex flex-col gap-sm xxxl:gap-base"
+  >
+    <div>
+      <div
+        class="uppercase text-font-primary text-xxs font-bold leading-sm mb-xxs"
+      >
+        Test question
+      </div>
+      <div
+        class="mx-sm my-x flex gap-xs items-center"
+      >
+        <div>
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0 bg-neutral-200 text-font-secondary rounded-sm p-xxs"
+              data-testid="icon"
+            >
+              <div
+                class="h-base w-base"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="leading-lg text-xxs font-medium"
+        >
+          <div
+            class="text-font-primary"
+          >
+            Sample answer
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Statement component should render statement with results correctly 1`] = `
+<div>
+  <div
+    class="bg-neutral-200 rounded-sm xxxl:px-md px-base py-sm flex justify-between"
+  >
+    <div>
+      <h6
+        class="font-bold text-xs xxxl:text-sm leading-base mb-xs"
+      >
+        Test statement
+      </h6>
+      <div
+        class="flex items-center"
+      >
+        <div
+          class="text-xs xxxl:text-sm mr-xs font-medium"
+        >
+          Status:
+        </div>
+        <div
+          class="font-medium leading-lg flex items-center inline-flex items-center gap-xxs bg-white bg-success-100 text-success-500 rounded-sm p-xxs text-xs gap-xxs"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          Completed
+        </div>
+      </div>
+    </div>
+    <span
+      data-state="closed"
+    >
+      <div
+        class="text-xxs xxxl:text-xs leading-lg tracking-[0.12px] whitespace-nowrap"
+      >
+        Last updated: Sep 1, 2021
+      </div>
+    </span>
+  </div>
+</div>
+`;

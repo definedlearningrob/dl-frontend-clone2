@@ -1,0 +1,41 @@
+@import '@shared/stylesheets/config.sass'
+  
+.assignmentDescription
+  font-size: $font-size-xs
+  margin-top: -$m-xs
+  margin-bottom: $m-base
+
+  p
+    margin-bottom: 0
+
+.assignmentTypeButtonsWrapper
+  +flex-container(row)
+  gap: $m-sm
+
+.submissionStatus
+  color: $color-font-secondary
+  font-size: $font-size-xs
+  
+.submissionStatusValue
+  +flex-container(row, false, center)
+  gap: $m-xs
+
+.submissionFooter
+  +flex-container(row, space-between, flex-end)
+
+.messageButton
+  border-radius: $border-radius-xs
+
+  +media-breakpoint-up(xxxl)
+    padding: $m-xs
+
+.errorMessage
+  font-size: $font-size-xs
+  color: $color-danger-500
+  margin-top: $m-xs
+
+.dropzoneWrapper
+  margin-bottom: $m-sm
+
+.filesUploadSection
+  margin-bottom: $m-md

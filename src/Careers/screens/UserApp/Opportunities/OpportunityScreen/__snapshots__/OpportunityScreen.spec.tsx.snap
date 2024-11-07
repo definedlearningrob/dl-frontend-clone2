@@ -1,0 +1,563 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OpportunityScreen renders summary card with correct data 1`] = `
+<div>
+  <div
+    class="p-base pt-xs xxxl:p-md xxxl:pt-sm flex flex-row justify-center items-center gap-base !pt-xs px-base h-[theme(layout.containerHeight)] xxxl:p-md xxxl:gap-md"
+    id="read"
+  >
+    <div
+      class="flex flex-col h-full gap-sm basis-2/3 xxxl:gap-md"
+    >
+      <div
+        class="card flex gap-base p-base xxxl:p-md"
+        data-testid="opportunity-summary-card"
+      >
+        <div
+          class="shrink-0 grow-0 basis-[min-content] min-w-[180px] xxxl:min-w-[240px] max-h-[180px] xxxl:max-h-[240px] flex justify-center"
+        >
+          <img
+            class="object-cover rounded-sm max-w-full max-h-full m-auto"
+            src="https://picsum.photos/400/300"
+          />
+        </div>
+        <div
+          class="flex flex-col grow gap-sm"
+        >
+          <div
+            class="flex gap-xs justify-end items-end"
+          />
+          <div>
+            <h3
+              class="text-sm mb-xs xxxl:text-lg xxxl:mb-sm"
+            >
+              Avent Health Nursing Program - Intership
+            </h3>
+            <div
+              class="flex flex-col gap-xxs"
+            >
+              <div
+                class="flex items-center gap-xxs xxxl:gap-xs text-font-secondary leading-lg whitespace-pre-wrap text-xxs xxxl:text-sm"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <span
+                  class="font-medium"
+                >
+                  Type:
+                </span>
+                Internship
+              </div>
+              <div
+                class="flex items-center gap-xxs xxxl:gap-xs text-font-secondary leading-lg whitespace-pre-wrap text-xxs xxxl:text-sm font-medium"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                Partner:
+                <a
+                  href="/partner/1"
+                >
+                  <button
+                    class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-xxs xxxl:text-sm leading-lg -link py-xs px-base leading-[22px] text-white"
+                    data-testid="button"
+                    type="button"
+                  >
+                    <span
+                      class="items-center flex justify-center gap-xs"
+                    >
+                      Dunder Mifflin Paper Company, Inc.
+                    </span>
+                  </button>
+                </a>
+              </div>
+              <div
+                class="flex items-center gap-xxs xxxl:gap-xs text-font-secondary leading-lg whitespace-pre-wrap text-xxs xxxl:text-sm"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <span
+                  class="font-medium"
+                >
+                  Period:
+                </span>
+                May 30, 2023 - May 30, 2024
+              </div>
+              <div
+                class="flex items-center gap-xxs xxxl:gap-xs text-font-secondary leading-lg whitespace-pre-wrap text-xxs xxxl:text-sm"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <span
+                  class="font-medium"
+                >
+                  Deadline:
+                </span>
+                Apr 30, 2023
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="flex gap-xs xxxl:gap-sm"
+            >
+              <a
+                href="/opportunities/1/manage-applications"
+              >
+                <button
+                  class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+                  data-testid="button"
+                  type="button"
+                >
+                  <span
+                    class="items-center flex justify-center gap-xs"
+                  >
+                    Applications
+                  </span>
+                </button>
+              </a>
+              <button
+                class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+                data-testid="button"
+                type="button"
+              >
+                <span
+                  class="items-center flex justify-center gap-xs"
+                >
+                  Recommend
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="tabsContainer"
+        data-orientation="horizontal"
+        dir="ltr"
+      >
+        <div
+          class="tabsWrapper"
+        >
+          <div
+            class="triggerListContainer"
+          >
+            <div
+              aria-orientation="horizontal"
+              class="triggerList tabs withPadding fullWidth"
+              data-orientation="horizontal"
+              role="tablist"
+              style="outline: none;"
+              tabindex="0"
+            >
+              <button
+                aria-controls="radix-0-content-description"
+                aria-selected="true"
+                class="triggerListItem"
+                data-orientation="horizontal"
+                data-radix-collection-item=""
+                data-state="active"
+                id="radix-0-trigger-description"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Opportunity Details
+              </button>
+              <button
+                aria-controls="radix-0-content-location"
+                aria-selected="false"
+                class="triggerListItem"
+                data-orientation="horizontal"
+                data-radix-collection-item=""
+                data-state="inactive"
+                id="radix-0-trigger-location"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Location & Dates
+              </button>
+              <button
+                aria-controls="radix-0-content-salaryInformation"
+                aria-selected="false"
+                class="triggerListItem"
+                data-orientation="horizontal"
+                data-radix-collection-item=""
+                data-state="inactive"
+                id="radix-0-trigger-salaryInformation"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Salary Information
+              </button>
+              <button
+                aria-controls="radix-0-content-creditsOutcomes"
+                aria-selected="false"
+                class="triggerListItem"
+                data-orientation="horizontal"
+                data-radix-collection-item=""
+                data-state="inactive"
+                id="radix-0-trigger-creditsOutcomes"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Credits & Outcomes
+              </button>
+            </div>
+          </div>
+          <div
+            class="card opportunityDescription"
+            data-testid="opportunity-tab-content"
+          >
+            <h4
+              class="heading"
+            >
+              Opportunity Details
+            </h4>
+            <div
+              class="contentWrapper"
+            >
+              <div
+                class="content"
+              >
+                Opportunity description
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col h-full basis-1/3 gap-sm xxxl:gap-md"
+    >
+      <div
+        class="card flex flex-col gap-base h-full !py-base !pr-0 !pl-base xxxl:gap-md xxxl:!py-md xxxl:!pl-md"
+      >
+        <h5
+          class="mb-0 text-sm xxxl:text-lg"
+          id="participants-card-title"
+        >
+          Participant List
+        </h5>
+        <div
+          aria-labelledby="participants-card-title"
+          class="flex flex-col gap-base pr-base xxxl:gap-md xxxl:pr-md scrollbar"
+        >
+          <section
+            data-testid="school-class-section"
+          >
+            <div
+              class="kicker sm neutral sticky top-0 pb-xs mb-0 bg-white"
+            >
+              Calculus
+            </div>
+            <ul
+              class="m-0"
+            >
+              <li
+                class="flex gap-xs items-center py-x px-xs cursor-pointer border-b border-solid border-neutral-300 hover:bg-primary-200 xxxl:py-sm xxxl:px-x last:border-b-0 group"
+              >
+                <div
+                  class="avatar rounded-lg basis-auto border border-solid border-neutral-300"
+                  data-testid="avatar-image"
+                >
+                  <div
+                    class="avatar__image group-hover:!bg-white transition-colors sb-avatar"
+                    style="display: inline-block; vertical-align: middle; width: 24px; height: 24px; border-radius: 100%; font-family: Helvetica, Arial, sans-serif;"
+                  >
+                    <div
+                      class="avatar__image group-hover:!bg-white transition-colors sb-avatar__text"
+                      style="width: 24px; height: 24px; line-height: initial; text-align: center; color: rgb(116, 122, 136); background: rgb(240, 242, 247); border-radius: 100%;"
+                      title="Betty Cooper"
+                    >
+                      <div
+                        style="display: table; table-layout: fixed; width: 100%; height: 100%;"
+                      >
+                        <span
+                          style="display: table-cell; vertical-align: middle; font-size: 100%; white-space: nowrap;"
+                        >
+                          <span />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p
+                  class="flex-1 mb-0 text-neutral-700 text-xxs font-medium leading-lg xxxl:text-xs tracking-[0.01em]"
+                >
+                  Betty Cooper
+                </p>
+                <div
+                  class="font-medium leading-lg flex items-center group-hover:bg-white transition-colors bg-primary-200 text-primary-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                >
+                  Accepted
+                </div>
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="menu"
+                  class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  invisible group-hover:visible hover:bg-white"
+                  data-state="closed"
+                  data-testid="icon-button"
+                  id="radix-0"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </button>
+              </li>
+              <li
+                class="flex gap-xs items-center py-x px-xs cursor-pointer border-b border-solid border-neutral-300 hover:bg-primary-200 xxxl:py-sm xxxl:px-x last:border-b-0 group"
+              >
+                <div
+                  class="avatar rounded-lg basis-auto border border-solid border-neutral-300"
+                  data-testid="avatar-image"
+                >
+                  <div
+                    class="avatar__image group-hover:!bg-white transition-colors sb-avatar"
+                    style="display: inline-block; vertical-align: middle; width: 24px; height: 24px; border-radius: 100%; font-family: Helvetica, Arial, sans-serif;"
+                  >
+                    <div
+                      class="avatar__image group-hover:!bg-white transition-colors sb-avatar__text"
+                      style="width: 24px; height: 24px; line-height: initial; text-align: center; color: rgb(116, 122, 136); background: rgb(240, 242, 247); border-radius: 100%;"
+                      title="Jon James"
+                    >
+                      <div
+                        style="display: table; table-layout: fixed; width: 100%; height: 100%;"
+                      >
+                        <span
+                          style="display: table-cell; vertical-align: middle; font-size: 100%; white-space: nowrap;"
+                        >
+                          <span />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p
+                  class="flex-1 mb-0 text-neutral-700 text-xxs font-medium leading-lg xxxl:text-xs tracking-[0.01em]"
+                >
+                  Jon James
+                </p>
+                <div
+                  class="font-medium leading-lg flex items-center group-hover:bg-white transition-colors bg-secondary-200 text-secondary-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                >
+                  Pending
+                </div>
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="menu"
+                  class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  invisible group-hover:visible hover:bg-white"
+                  data-state="closed"
+                  data-testid="icon-button"
+                  id="radix-1"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </button>
+              </li>
+              <li
+                class="flex gap-xs items-center py-x px-xs cursor-pointer border-b border-solid border-neutral-300 hover:bg-primary-200 xxxl:py-sm xxxl:px-x last:border-b-0 group"
+              >
+                <div
+                  class="avatar rounded-lg basis-auto border border-solid border-neutral-300"
+                  data-testid="avatar-image"
+                >
+                  <div
+                    class="avatar__image group-hover:!bg-white transition-colors sb-avatar"
+                    style="display: inline-block; vertical-align: middle; width: 24px; height: 24px; border-radius: 100%; font-family: Helvetica, Arial, sans-serif;"
+                  >
+                    <div
+                      class="avatar__image group-hover:!bg-white transition-colors sb-avatar__text"
+                      style="width: 24px; height: 24px; line-height: initial; text-align: center; color: rgb(116, 122, 136); background: rgb(240, 242, 247); border-radius: 100%;"
+                      title="Lebron James"
+                    >
+                      <div
+                        style="display: table; table-layout: fixed; width: 100%; height: 100%;"
+                      >
+                        <span
+                          style="display: table-cell; vertical-align: middle; font-size: 100%; white-space: nowrap;"
+                        >
+                          <span />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p
+                  class="flex-1 mb-0 text-neutral-700 text-xxs font-medium leading-lg xxxl:text-xs tracking-[0.01em]"
+                >
+                  Lebron James
+                </p>
+                <div
+                  class="font-medium leading-lg flex items-center group-hover:bg-white transition-colors bg-danger-100 text-danger-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                >
+                  Not Accepted
+                </div>
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="menu"
+                  class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  invisible group-hover:visible hover:bg-white"
+                  data-state="closed"
+                  data-testid="icon-button"
+                  id="radix-2"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </button>
+              </li>
+            </ul>
+          </section>
+          <section
+            data-testid="school-class-section"
+          >
+            <div
+              class="kicker sm neutral sticky top-0 pb-xs mb-0 bg-white"
+            >
+              Science - Grade 7
+            </div>
+            <ul
+              class="m-0"
+            >
+              <li
+                class="flex gap-xs items-center py-x px-xs cursor-pointer border-b border-solid border-neutral-300 hover:bg-primary-200 xxxl:py-sm xxxl:px-x last:border-b-0 group"
+              >
+                <div
+                  class="avatar rounded-lg basis-auto border border-solid border-neutral-300"
+                  data-testid="avatar-image"
+                >
+                  <div
+                    class="avatar__image group-hover:!bg-white transition-colors sb-avatar"
+                    style="display: inline-block; vertical-align: middle; width: 24px; height: 24px; border-radius: 100%; font-family: Helvetica, Arial, sans-serif;"
+                  >
+                    <div
+                      class="avatar__image group-hover:!bg-white transition-colors sb-avatar__text"
+                      style="width: 24px; height: 24px; line-height: initial; text-align: center; color: rgb(116, 122, 136); background: rgb(240, 242, 247); border-radius: 100%;"
+                      title="Jon James"
+                    >
+                      <div
+                        style="display: table; table-layout: fixed; width: 100%; height: 100%;"
+                      >
+                        <span
+                          style="display: table-cell; vertical-align: middle; font-size: 100%; white-space: nowrap;"
+                        >
+                          <span />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p
+                  class="flex-1 mb-0 text-neutral-700 text-xxs font-medium leading-lg xxxl:text-xs tracking-[0.01em]"
+                >
+                  Jon James
+                </p>
+                <div
+                  class="font-medium leading-lg flex items-center group-hover:bg-white transition-colors bg-secondary-200 text-secondary-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                >
+                  Pending
+                </div>
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="menu"
+                  class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  invisible group-hover:visible hover:bg-white"
+                  data-state="closed"
+                  data-testid="icon-button"
+                  id="radix-3"
+                  type="button"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </button>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

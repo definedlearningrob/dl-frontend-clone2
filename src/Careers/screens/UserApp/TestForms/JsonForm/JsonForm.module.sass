@@ -1,0 +1,29 @@
+@import '@shared/stylesheets/config.sass'
+
+.jsonForm
+  :global(.form-group)
+    margin-bottom: $m-sm
+  :global(.form-control)
+    display: block
+  :global(.text-danger)
+    color: $color-danger-500
+  :global(.object-field-section)
+    margin-bottom: $m-sm
+    color: $color-neutral-800
+    font-size: $font-size-base
+    font-weight: $font-weight-medium
+
+  label
+    color: $color-neutral-700
+    font-size: $font-size-xs
+
+.bottomSection
+  +flex-container(row, space-between)
+  margin-top: $m-sm
+
+.actionsWrapper
+  +flex-container(row, center, space-between)
+  column-gap: $m-xs
+
+  +media-breakpoint-up(xxxl)
+    column-gap: $m-sm

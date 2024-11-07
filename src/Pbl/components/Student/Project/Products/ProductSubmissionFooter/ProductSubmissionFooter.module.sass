@@ -1,0 +1,23 @@
+@import '@shared/stylesheets/config.sass'
+
+.submissionStatusWrapper
+  +flex-container(row, space-between, center)
+
+.status
+  font-weight: $font-weight-bold
+
+.statusDraft
+  color: $color-secondary-500
+
+.statusSubmitted
+  color: $color-success-500
+
+.summary
+  margin-left: $m-xs
+
+.actions
+  +flex-container(row, false, center)
+  gap: $m-sm
+
+.submitDisabledInfo
+  margin: $m-xs 0 $m-sm

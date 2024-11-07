@@ -1,0 +1,50 @@
+@import '@shared/stylesheets/config.sass'
+
+$icon-wrapper-width: 100px
+$icon-size: 90px
+$button-width: 200px
+
+.header
+  font-size: $font-size-base
+  font-weight: $font-weight-bold
+  color: $color-font-primary
+  line-height: $line-height-base
+  margin-bottom: $m-xxs
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-lg
+    line-height: $line-height-base
+
+.management
+  +flex-container(column, center)
+  gap: $m-sm
+  flex: 1
+  min-height: 0
+
+.sectionTableWrapper
+  border-radius: $border-radius-sm $border-radius-sm 0 0
+  padding-bottom: $m-sm
+
+.sharedButton
+  font-size: $font-size-xs
+  line-height: $line-height-lg
+  padding: $m-xs $m-sm
+  width: $button-width
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+
+.iconBox
+  padding: $m-xs
+  border-radius: $border-radius-sm
+  background-color: $color-neutral-200
+
+.tableSection
+  +flex-container(column)
+  flex: 1
+  min-height: 0
+  border-radius: $border-radius-sm
+  background-color: $color-white
+
+.rotate
+  animation: spin 2s infinite linear

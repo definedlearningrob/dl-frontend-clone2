@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatementQuestion initializes with correct values 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <div
+      class="border border-neutral-300 rounded-xs"
+    >
+      <div
+        class="p-xs pt-x xxxl:p-sm xxxl:pb-x bg-neutral-200 rounded-t-xs text-xs xxxl:text-sm font-medium leading-lg"
+      >
+        Example question
+      </div>
+      <div
+        class="flex py-sm px-x xxxl:px-sm flex-col gap-xs"
+      >
+        <label
+          class="flex flex-col items-start text-font-primary w-full gap-xxxs"
+        >
+          <div
+            class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs !bg-neutral-200 !border-neutral-400"
+          >
+            <span
+              class="flex gap-xxs grow"
+            >
+              <input
+                class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[14px] text-xxs !text-font-secondary autofill:shadow-[inset_0_0_0px_1000px_theme(colors.neutral.200)]"
+                disabled=""
+                name="answer"
+                placeholder="Type here..."
+                type="text"
+                value="Initial answer"
+              />
+            </span>
+          </div>
+        </label>
+        <div
+          class="flex justify-end"
+        >
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] w-[80px] -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+            data-testid="button"
+            type="button"
+          >
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Edit
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

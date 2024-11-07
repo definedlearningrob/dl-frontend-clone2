@@ -1,0 +1,21 @@
+@import '@shared/stylesheets/config.sass'
+
+.signin-support
+  color: $color-font-primary
+  text-align: center
+
+  &__link
+    color: $color-primary-500
+    cursor: pointer
+    font-weight: $font-weight-bold
+    margin-left: $m-xs
+    text-decoration: none
+
+    &:hover
+      color: $color-primary-500
+      transition: .3s ease
+
+//----- media queries --------------------------------------------------------------------------------------------------
++media-breakpoint-up(md)
+  .signin-support
+     margin-bottom: $m-md

@@ -1,0 +1,23 @@
+@import '@shared/stylesheets/config.sass'
+
+.container
+  height: calc(100vh - $desktop-header-height)
+
+.card
+  +flex-container(column)
+  border-radius: $border-radius-sm
+  height: 100%
+
+.cardHeader
+  +flex-container(row, space-between, center)
+  margin-bottom: $m-xs
+
+  +media-breakpoint-up(xxxl)
+    margin-bottom: $m-sm
+
+.title
+  font-size: $font-size-sm
+  margin: 0
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-base

@@ -1,0 +1,26 @@
+@import '@shared/stylesheets/config.sass'
+
+.header
+  display: flex
+  flex-direction: column
+
+.image
+  max-height: 300px
+  object-fit: cover
+
+  +media-breakpoint-up(md)
+    max-height: 300px
+    width: 300px
+
+.userHeader
+  +flex-container(row, flex-start, center)
+
+.username
+  margin-left: $m-sm
+
+.title
+  font-size: $font-size-2lg
+  margin: $m-sm 0 0 0
+
+.details
+  margin-top: $m-sm

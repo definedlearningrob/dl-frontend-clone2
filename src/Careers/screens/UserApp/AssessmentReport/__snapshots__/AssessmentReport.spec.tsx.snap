@@ -1,0 +1,714 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssessmentReport should render correctly 1`] = `
+<div>
+  <div
+    class="p-base xxxl:p-md"
+    id="read"
+  >
+    <div
+      class="pb-xs mb-xs xxxl:mb-sm sticky top-lg z-high bg-neutral-200"
+    >
+      <div
+        class="flex justify-between items-center"
+      >
+        <h4
+          class="text-base xxxl:text-lg mb-0"
+        >
+          Assessment Report
+        </h4>
+        <div
+          class="flex gap-sm"
+        >
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+            data-testid="button"
+            type="button"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Generate report
+            </span>
+          </button>
+          <button
+            class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-sm !text-xs leading-[14px] !gap-xxs border text-white"
+            data-testid="button"
+            type="button"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                data-testid="icon"
+              >
+                <div
+                  class="h-sm w-sm"
+                />
+              </div>
+            </div>
+            <span
+              class="items-center flex justify-center gap-xs"
+            >
+              Change filters
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col gap-base xxxl:gap-md"
+    >
+      <div
+        class="card"
+      >
+        <h5
+          class="mb-xs xxxl:mb-sm text-sm xxxl:text-base"
+        >
+          Overall
+        </h5>
+        <div
+          class="mb-sm xxxl:mb-base text-xs xxxl:text-sm leading-lg"
+        >
+          Below you can see an overview of 
+          <div
+            class="inline"
+            data-state="closed"
+          >
+            <span
+              class="text-primary-500 font-medium cursor-default"
+            >
+              all grade levels
+            </span>
+          </div>
+           including 
+          <div
+            class="inline"
+            data-state="closed"
+          >
+            <span
+              class=""
+            >
+              300 students
+            </span>
+          </div>
+           in 
+          <div
+            class="inline"
+            data-state="closed"
+          >
+            <span
+              class=""
+            >
+              2023/2024
+            </span>
+          </div>
+          , with a specific focus on 
+          <div
+            class="inline"
+            data-state="closed"
+          >
+            <span
+              class="text-primary-500 font-medium cursor-default"
+            >
+              all teachers
+            </span>
+          </div>
+          , 
+          <div
+            class="inline"
+            data-state="closed"
+          >
+            <span
+              class="text-primary-500 font-medium cursor-default"
+            >
+              all schools
+            </span>
+          </div>
+           and 
+          <div
+            class="inline"
+            data-state="closed"
+          >
+            <span
+              class="text-primary-500 font-medium cursor-default"
+            >
+              all classes
+            </span>
+          </div>
+          .
+        </div>
+        <div
+          class="flex gap-sm xxxl:gap-base p-sm xxxl:p-base rounded-sm bg-neutral-200"
+        >
+          <div
+            class="flex-1 flex flex-col gap-xs xxxl:gap-x p-sm xxxl:p-base bg-white rounded-sm"
+            data-testid="assessment-summary-item"
+            style="opacity: 1; transform: none;"
+          >
+            <h6
+              class="text-xs xxxl:text-sm mb-0"
+            >
+              Taken assessments
+            </h6>
+            <div
+              class="flex items-center gap-xs"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 rounded-xs border border-neutral-300 text-secondary-500 p-xxs"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <span
+                class="text-2lg xxxl:text-2xl font-bold"
+              >
+                200
+              </span>
+            </div>
+            <span
+              class="text-xxs xxxl:text-xs text-font-secondary leading-lg italic"
+            >
+              Students who have started filling out an assessment.
+            </span>
+          </div>
+          <div
+            class="flex-1 flex flex-col gap-xs xxxl:gap-x p-sm xxxl:p-base bg-white rounded-sm"
+            data-testid="assessment-summary-item"
+            style="opacity: 1; transform: none;"
+          >
+            <h6
+              class="text-xs xxxl:text-sm mb-0"
+            >
+              Completed assessments
+            </h6>
+            <div
+              class="flex items-center gap-xs"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 rounded-xs border border-neutral-300 text-success-500 p-xxs"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <span
+                class="text-2lg xxxl:text-2xl font-bold"
+              >
+                100
+              </span>
+            </div>
+            <span
+              class="text-xxs xxxl:text-xs text-font-secondary leading-lg italic"
+            >
+              Students who have completed an assessment.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <h5
+          class="text-sm xxxl:text-base mb-xs xxxl:mb-sm"
+        >
+          Component Result
+        </h5>
+        <p
+          class="text-xs xxxl:text-sm leading-lg xxxl:mb-base"
+        >
+          Below you can see details about study preferences, interest and work values distribution among assessment
+        </p>
+        <div
+          data-orientation="horizontal"
+          dir="ltr"
+        >
+          <div
+            class="triggerListContainer"
+          >
+            <div
+              aria-orientation="horizontal"
+              class="triggerList !mb-base xxxl:!mb-md fullWidth"
+              data-orientation="horizontal"
+              role="tablist"
+              style="outline: none;"
+              tabindex="0"
+            >
+              <button
+                aria-controls="radix-9-content-ALL"
+                aria-selected="true"
+                class="triggerListItem"
+                data-orientation="horizontal"
+                data-radix-collection-item=""
+                data-state="active"
+                id="radix-9-trigger-ALL"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                All
+              </button>
+              <button
+                aria-controls="radix-9-content-MIDDLE_SCHOOL"
+                aria-selected="false"
+                class="triggerListItem"
+                data-orientation="horizontal"
+                data-radix-collection-item=""
+                data-state="inactive"
+                id="radix-9-trigger-MIDDLE_SCHOOL"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Middle School
+              </button>
+              <button
+                aria-controls="radix-9-content-HIGH_SCHOOL"
+                aria-selected="false"
+                class="triggerListItem"
+                data-orientation="horizontal"
+                data-radix-collection-item=""
+                data-state="inactive"
+                id="radix-9-trigger-HIGH_SCHOOL"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                High School
+              </button>
+            </div>
+          </div>
+          <div
+            class="flex flex-col gap-base"
+          >
+            <div
+              class="grid grid-cols-2 gap-lg p-base border border-neutral-300 rounded-sm rounded-b-none"
+              data-testid="component-result-section"
+            >
+              <div
+                class="col-span-2 text-center"
+              >
+                <h6
+                  class="text-xs xxxl:text-sm mb-xs"
+                >
+                  Middle School Study Preferences
+                </h6>
+                <p
+                  class="text-xxs xxxl:text-xs italic leading-lg xxxl:mb-base"
+                >
+                  Below you can see a percentage distribution of study preferences across subjects, with color density indicating ranks.
+                </p>
+                <div
+                  class="mb-sm xxxl:mb-base h-[271px] xxxl:h-[475px]"
+                >
+                  <div
+                    class="recharts-responsive-container"
+                    style="width: 100%; height: 100%; min-width: 0;"
+                  />
+                </div>
+                <div
+                  class="flex gap-sm ml-[108px] xxxl:ml-[148px]"
+                >
+                  <div
+                    class="px-xs xxxl:px-sm py-xxs xxxl:py-xs border border-neutral-200 rounded-xs flex items-center gap-xs cursor-default"
+                  >
+                    <div
+                      class="w-sm h-sm rounded-xs"
+                      style="background-color: rgb(102, 51, 0);"
+                    />
+                    <span
+                      class="text-xxs xxxl:text-xs font-medium text-font-secondary"
+                    >
+                      Rank 1st
+                    </span>
+                  </div>
+                  <div
+                    class="px-xs xxxl:px-sm py-xxs xxxl:py-xs border border-neutral-200 rounded-xs flex items-center gap-xs cursor-default"
+                  >
+                    <div
+                      class="w-sm h-sm rounded-xs"
+                      style="background-color: rgb(153, 77, 0);"
+                    />
+                    <span
+                      class="text-xxs xxxl:text-xs font-medium text-font-secondary"
+                    >
+                      Rank 2nd
+                    </span>
+                  </div>
+                  <div
+                    class="px-xs xxxl:px-sm py-xxs xxxl:py-xs border border-neutral-200 rounded-xs flex items-center gap-xs cursor-default"
+                  >
+                    <div
+                      class="w-sm h-sm rounded-xs"
+                      style="background-color: rgb(204, 102, 0);"
+                    />
+                    <span
+                      class="text-xxs xxxl:text-xs font-medium text-font-secondary"
+                    >
+                      Rank 3rd
+                    </span>
+                  </div>
+                  <div
+                    class="px-xs xxxl:px-sm py-xxs xxxl:py-xs border border-neutral-200 rounded-xs flex items-center gap-xs cursor-default"
+                  >
+                    <div
+                      class="w-sm h-sm rounded-xs"
+                      style="background-color: rgb(255, 128, 0);"
+                    />
+                    <span
+                      class="text-xxs xxxl:text-xs font-medium text-font-secondary"
+                    >
+                      Rank 4th
+                    </span>
+                  </div>
+                  <div
+                    class="px-xs xxxl:px-sm py-xxs xxxl:py-xs border border-neutral-200 rounded-xs flex items-center gap-xs cursor-default"
+                  >
+                    <div
+                      class="w-sm h-sm rounded-xs"
+                      style="background-color: rgb(255, 153, 51);"
+                    />
+                    <span
+                      class="text-xxs xxxl:text-xs font-medium text-font-secondary"
+                    >
+                      Rank 5th
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="text-center"
+              >
+                <h6
+                  class="text-xs xxxl:text-sm mb-xs"
+                >
+                  Middle School Interests
+                </h6>
+                <p
+                  class="text-xxs xxxl:text-xs italic leading-lg xxxl:mb-base"
+                >
+                  Average interest in each of the middle school interests
+                </p>
+                <div
+                  class="flex h-[194px]"
+                >
+                  <div
+                    class="relative mb-[30px] text-font-secondary text-xxs font-medium leading-sm w-sm"
+                  >
+                    <div
+                      class="absolute top-0 right-0 text-right -rotate-90 origin-top-right"
+                    >
+                      <div
+                        class="-translate-y-x"
+                      >
+                        highest
+                      </div>
+                    </div>
+                    <div
+                      class="absolute bottom-0 left-0 right-0 -rotate-90"
+                    >
+                      lowest
+                    </div>
+                  </div>
+                  <div
+                    class="recharts-responsive-container"
+                    style="width: 100%; height: 100%; min-width: 0;"
+                  />
+                </div>
+              </div>
+              <div
+                class="text-center"
+              >
+                <h6
+                  class="text-xs xxxl:text-sm mb-xs"
+                >
+                  Middle School Work Values
+                </h6>
+                <p
+                  class="text-xxs xxxl:text-xs italic leading-lg xxxl:mb-base"
+                >
+                  Average interest in each of the middle school work values
+                </p>
+                <div
+                  class="flex h-[194px]"
+                >
+                  <div
+                    class="relative mb-[30px] text-font-secondary text-xxs font-medium leading-sm w-sm"
+                  >
+                    <div
+                      class="absolute top-0 right-0 text-right -rotate-90 origin-top-right"
+                    >
+                      <div
+                        class="-translate-y-x"
+                      >
+                        highest
+                      </div>
+                    </div>
+                    <div
+                      class="absolute bottom-0 left-0 right-0 -rotate-90"
+                    >
+                      lowest
+                    </div>
+                  </div>
+                  <div
+                    class="recharts-responsive-container"
+                    style="width: 100%; height: 100%; min-width: 0;"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="grid grid-cols-2 gap-lg p-base border border-neutral-300 rounded-sm rounded-t-none"
+              data-testid="component-result-section"
+            >
+              <div
+                class="col-span-2 text-center"
+              >
+                <h6
+                  class="text-xs xxxl:text-sm mb-xs"
+                >
+                  High School Study Preferences
+                </h6>
+                <p
+                  class="text-xxs xxxl:text-xs italic leading-lg xxxl:mb-base"
+                >
+                  Below you can see a percentage distribution of study preferences across subjects, with color density indicating ranks.
+                </p>
+                <div
+                  class="mb-sm xxxl:mb-base h-[367px] xxxl:h-[511px]"
+                >
+                  <div
+                    class="recharts-responsive-container"
+                    style="width: 100%; height: 100%; min-width: 0;"
+                  />
+                </div>
+                <div
+                  class="flex gap-sm ml-[108px] xxxl:ml-[148px]"
+                >
+                  <div
+                    class="px-xs xxxl:px-sm py-xxs xxxl:py-xs border border-neutral-200 rounded-xs flex items-center gap-xs cursor-default"
+                  >
+                    <div
+                      class="w-sm h-sm rounded-xs"
+                      style="background-color: rgb(0, 61, 102);"
+                    />
+                    <span
+                      class="text-xxs xxxl:text-xs font-medium text-font-secondary"
+                    >
+                      Rank 1st
+                    </span>
+                  </div>
+                  <div
+                    class="px-xs xxxl:px-sm py-xxs xxxl:py-xs border border-neutral-200 rounded-xs flex items-center gap-xs cursor-default"
+                  >
+                    <div
+                      class="w-sm h-sm rounded-xs"
+                      style="background-color: rgb(0, 92, 153);"
+                    />
+                    <span
+                      class="text-xxs xxxl:text-xs font-medium text-font-secondary"
+                    >
+                      Rank 2nd
+                    </span>
+                  </div>
+                  <div
+                    class="px-xs xxxl:px-sm py-xxs xxxl:py-xs border border-neutral-200 rounded-xs flex items-center gap-xs cursor-default"
+                  >
+                    <div
+                      class="w-sm h-sm rounded-xs"
+                      style="background-color: rgb(0, 123, 204);"
+                    />
+                    <span
+                      class="text-xxs xxxl:text-xs font-medium text-font-secondary"
+                    >
+                      Rank 3rd
+                    </span>
+                  </div>
+                  <div
+                    class="px-xs xxxl:px-sm py-xxs xxxl:py-xs border border-neutral-200 rounded-xs flex items-center gap-xs cursor-default"
+                  >
+                    <div
+                      class="w-sm h-sm rounded-xs"
+                      style="background-color: rgb(0, 153, 255);"
+                    />
+                    <span
+                      class="text-xxs xxxl:text-xs font-medium text-font-secondary"
+                    >
+                      Rank 4th
+                    </span>
+                  </div>
+                  <div
+                    class="px-xs xxxl:px-sm py-xxs xxxl:py-xs border border-neutral-200 rounded-xs flex items-center gap-xs cursor-default"
+                  >
+                    <div
+                      class="w-sm h-sm rounded-xs"
+                      style="background-color: rgb(51, 174, 255);"
+                    />
+                    <span
+                      class="text-xxs xxxl:text-xs font-medium text-font-secondary"
+                    >
+                      Rank 5th
+                    </span>
+                  </div>
+                  <div
+                    class="px-xs xxxl:px-sm py-xxs xxxl:py-xs border border-neutral-200 rounded-xs flex items-center gap-xs cursor-default"
+                  >
+                    <div
+                      class="w-sm h-sm rounded-xs"
+                      style="background-color: rgb(102, 194, 255);"
+                    />
+                    <span
+                      class="text-xxs xxxl:text-xs font-medium text-font-secondary"
+                    >
+                      Rank 6th
+                    </span>
+                  </div>
+                  <div
+                    class="px-xs xxxl:px-sm py-xxs xxxl:py-xs border border-neutral-200 rounded-xs flex items-center gap-xs cursor-default"
+                  >
+                    <div
+                      class="w-sm h-sm rounded-xs"
+                      style="background-color: rgb(153, 214, 255);"
+                    />
+                    <span
+                      class="text-xxs xxxl:text-xs font-medium text-font-secondary"
+                    >
+                      Rank 7th
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="text-center"
+              >
+                <h6
+                  class="text-xs xxxl:text-sm mb-xs"
+                >
+                  High School Interests
+                </h6>
+                <p
+                  class="text-xxs xxxl:text-xs italic leading-lg xxxl:mb-base"
+                >
+                  Average interest in each of the high school interests
+                </p>
+                <div
+                  class="flex h-[194px]"
+                >
+                  <div
+                    class="relative mb-[30px] text-font-secondary text-xxs font-medium leading-sm w-sm"
+                  >
+                    <div
+                      class="absolute top-0 right-0 text-right -rotate-90 origin-top-right"
+                    >
+                      <div
+                        class="-translate-y-x"
+                      >
+                        highest
+                      </div>
+                    </div>
+                    <div
+                      class="absolute bottom-0 left-0 right-0 -rotate-90"
+                    >
+                      lowest
+                    </div>
+                  </div>
+                  <div
+                    class="recharts-responsive-container"
+                    style="width: 100%; height: 100%; min-width: 0;"
+                  />
+                </div>
+              </div>
+              <div
+                class="text-center"
+              >
+                <h6
+                  class="text-xs xxxl:text-sm mb-xs"
+                >
+                  High School Work Values
+                </h6>
+                <p
+                  class="text-xxs xxxl:text-xs italic leading-lg xxxl:mb-base"
+                >
+                  Average interest in each of the high school work values
+                </p>
+                <div
+                  class="flex h-[194px]"
+                >
+                  <div
+                    class="relative mb-[30px] text-font-secondary text-xxs font-medium leading-sm w-sm"
+                  >
+                    <div
+                      class="absolute top-0 right-0 text-right -rotate-90 origin-top-right"
+                    >
+                      <div
+                        class="-translate-y-x"
+                      >
+                        highest
+                      </div>
+                    </div>
+                    <div
+                      class="absolute bottom-0 left-0 right-0 -rotate-90"
+                    >
+                      lowest
+                    </div>
+                  </div>
+                  <div
+                    class="recharts-responsive-container"
+                    style="width: 100%; height: 100%; min-width: 0;"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <h5
+          class="text-sm xxxl:text-base mb-xs xxxl:mb-sm"
+        >
+          Recommended Pathways
+        </h5>
+        <p
+          class="text-xs xxxl:text-sm leading-lg xxxl:mb-base"
+        >
+          Number of pathway recommendations grouped by clusters
+        </p>
+        <div
+          class="p-md"
+        >
+          <div
+            class="recharts-responsive-container"
+            style="width: 100%; height: 166px; min-width: 0; min-height: 150px;"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

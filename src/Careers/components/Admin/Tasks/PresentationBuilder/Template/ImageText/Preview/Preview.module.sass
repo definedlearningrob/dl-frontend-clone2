@@ -1,0 +1,67 @@
+@import '@shared/stylesheets/config'
+
+.imageTextContainer
+  display: flex
+  flex-direction: column
+
+.left
+  flex-direction: row
+
+.right
+  flex-direction: row-reverse
+
+.imageWrapper
+  +flex-container(row, center, center)
+  cursor: default
+
+.iconWrapper
+  +flex-container(row, center, center)
+  background-color: $color-background
+  border: 2px dashed transparent
+  border-radius: $border-radius-xs
+  cursor: pointer
+  display: flex
+  margin-bottom: $m-xs
+  margin-top: -$m-lg
+  min-height: 310px
+  min-width: 550px
+  padding: $m-xs
+
+.left,
+.right
+  .iconWrapper
+    min-height: 600px
+    min-width: 350px
+
+  .descriptionWrapper
+    max-height: 500px
+
+.right
+  .imageWrapper
+    margin-left: $m-base
+
+.left
+  .imageWrapper
+    margin-right: $m-base
+
+.icon
+  color: $color-white
+  height: 200px
+  width: 300px
+
+.fill
+  background-position: center center
+  background-size: cover
+
+.contain
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: contain
+
+.descriptionWrapper
+  max-height: 150px
+  overflow: hidden
+  position: relative
+
+.links
+  margin-top: $m-sm

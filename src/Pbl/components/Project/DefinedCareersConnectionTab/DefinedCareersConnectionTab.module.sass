@@ -1,0 +1,18 @@
+@import '@shared/stylesheets/config.sass'
+
+.definedCareerInfo
+  margin: 0
+
+.cardsWrapper
+  display: grid
+  gap: $m-sm
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+  margin-top: $m-md
+
+  +media-breakpoint-up(md)
+      gap: $m-base
+
+.middleSchoolLabelWrapper
+  position: absolute
+  right: $m-sm
+  top: $m-sm

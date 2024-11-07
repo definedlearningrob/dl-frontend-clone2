@@ -1,0 +1,25 @@
+@import '@shared/stylesheets/config.sass'
+
+.main
+  width: 80%
+  margin: 0 auto
+
+.wrapper
+  +flex-container(column)
+  height: 100%
+  background-color: $color-white
+  border-radius: $border-radius-sm
+  padding: $m-base
+
+.top
+  +flex-container(column, center, center)
+  flex: 1
+  gap: $m-sm
+
+.icon
+  width: $icon-size-xl
+  height: $icon-size-xl
+
+.draft
+  +flex-container(column, center, center)
+  background-color: $color-neutral-200

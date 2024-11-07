@@ -1,0 +1,84 @@
+@import '@shared/stylesheets/config.sass'
+
+.user-student__info
+  background-color: $color-white
+  padding: $m-base
+
+  &__avatar-wrapper
+    height: 80px
+    margin: auto
+    position: relative
+    width: 80px
+
+  &__avatar
+    &.-archived
+      .avatar__image
+        border: 1px solid $color-danger-500
+
+      .sb-avatar
+        border-color: transparent
+
+  &__archived-icon
+      background-color: $color-danger-500
+      border-radius: 50px
+      padding: 2px
+      position: absolute
+      right: -2px
+      top: -$m-xxs
+
+      svg
+          fill: $color-white
+
+  &__educational-logo-wrapper
+    position: absolute
+    left: 0
+    top: 0
+    width: fit-content
+
+  &__additional-info
+    border-radius: $border-radius-sm
+    margin-bottom: $m-base
+    padding: $m-xs
+    text-align: center
+
+    &.-archived
+      background-color: $color-danger-100
+      color: $color-danger-500
+
+    &.-no-assesment
+      background-color: $color-secondary-200
+      color: $color-secondary-500
+
+  &__class
+    color: $color-primary-500
+    display: inline-block
+    margin-bottom: $m-sm
+    text-align: center
+    width: 100%
+
+  &__no-assesment
+    color: $color-secondary-500
+    display: inline-block
+    margin-bottom: $m-sm
+    text-align: center
+    width: 100%
+
+  &__name
+    color: $color-font-primary
+    display: inline-block
+    font-weight: $font-weight-bold
+    margin-bottom: $m-xs
+    margin-top: $m-sm
+    text-align: center
+    width: 100%
+
+  &__no-assessment
+    color: $color-font-secondary
+    display: inline-block
+    font-size: $font-size-sm
+    margin-bottom: $m-lg
+    text-align: center
+    width: 100%
+
+  &__overall-header
+    font-weight: $font-weight-bold

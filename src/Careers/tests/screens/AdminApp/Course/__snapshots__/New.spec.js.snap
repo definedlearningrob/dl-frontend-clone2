@@ -1,0 +1,1146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminAppCourseNew renders with empty data 1`] = `
+<div>
+  <div
+    class="p-base pt-xs xxxl:p-md xxxl:pt-sm"
+    id="read"
+  >
+    <form
+      action="#"
+      class="flex flex-col gap-base"
+      data-testid="courses-form"
+    >
+      <h3
+        class="capitalize mb-0"
+      >
+        New course
+      </h3>
+      <div
+        class="items-start mb-sm flex flex-row gap-lg"
+      >
+        <div
+          class="image-input"
+        >
+          <label
+            class="image-input__label"
+          />
+          <div
+            class="image-input__placeholder"
+          >
+            <div
+              class="icon"
+              data-testid="icon"
+            >
+              <div
+                data-testid="image-placeholder"
+              />
+            </div>
+          </div>
+          <input
+            accept="image/*"
+            class="image-input__input"
+            data-testid="courses-image-input"
+            name="imageData"
+            type="file"
+          />
+        </div>
+        <div
+          class="grid grid-cols-2 gap-x-md gap-y-sm  w-full z-lower"
+        >
+          <label
+            class="flex flex-col items-start text-font-primary w-full gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              <span
+                class="text-danger-600 mr-xxs"
+              >
+                *
+              </span>
+              <div
+                class="injected-content"
+              >
+                Name
+              </div>
+            </div>
+            <div
+              class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+            >
+              <span
+                class="flex gap-xxs grow"
+              >
+                <input
+                  aria-label="Name"
+                  aria-required="true"
+                  class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                  data-testid="courses-name-input"
+                  id="Name"
+                  name="name"
+                  placeholder="Type here..."
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </label>
+          <label
+            class="flex flex-col items-start text-font-primary w-full gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              <span
+                class="text-danger-600 mr-xxs"
+              >
+                *
+              </span>
+              <div
+                class="injected-content"
+              >
+                Display name
+              </div>
+            </div>
+            <div
+              class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+            >
+              <span
+                class="flex gap-xxs grow"
+              >
+                <input
+                  aria-label="Display name"
+                  aria-required="true"
+                  class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                  data-testid="courses-displayName-input"
+                  id="Display name"
+                  name="displayName"
+                  placeholder="Type here..."
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </label>
+          <label
+            class="flex flex-col items-start text-font-primary w-full gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              <div
+                class="injected-content"
+              >
+                Average Salary
+              </div>
+              <span
+                class="text-font-secondary ml-xxxs"
+              >
+                (optional)
+              </span>
+            </div>
+            <div
+              class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+            >
+              <span
+                class="flex gap-xxs grow"
+              >
+                <input
+                  aria-label="Average Salary"
+                  aria-required="false"
+                  class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                  id="Average Salary"
+                  name="averageSalary"
+                  placeholder="Type here..."
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </label>
+          <label
+            class="flex flex-col items-start text-font-primary w-full gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              <div
+                class="injected-content"
+              >
+                Outlook
+              </div>
+              <span
+                class="text-font-secondary ml-xxxs"
+              >
+                (optional)
+              </span>
+            </div>
+            <div
+              class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+            >
+              <span
+                class="flex gap-xxs grow"
+              >
+                <input
+                  aria-label="Outlook"
+                  aria-required="false"
+                  class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                  id="Outlook"
+                  name="outlook"
+                  placeholder="Type here..."
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </label>
+          <label
+            class="flex flex-col items-start text-font-primary w-full gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              <div
+                class="injected-content"
+              >
+                Job Zone
+              </div>
+              <span
+                class="text-font-secondary ml-xxxs"
+              >
+                (optional)
+              </span>
+            </div>
+            <div
+              class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+            >
+              <span
+                class="flex gap-xxs grow"
+              >
+                <input
+                  aria-label="Job Zone"
+                  aria-required="false"
+                  class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                  id="Job Zone"
+                  name="jobZone"
+                  placeholder="Type here..."
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </label>
+          <label
+            class="flex flex-col items-start text-font-primary w-full gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              <div
+                class="injected-content"
+              >
+                ONET Code
+              </div>
+              <span
+                class="text-font-secondary ml-xxxs"
+              >
+                (optional)
+              </span>
+            </div>
+            <div
+              class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs"
+            >
+              <span
+                class="flex gap-xxs grow"
+              >
+                <input
+                  aria-label="ONET Code"
+                  aria-required="false"
+                  class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                  id="ONET Code"
+                  name="onetCode"
+                  placeholder="Type here..."
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </label>
+          <label
+            class="flex flex-col leading-lg min-w-[120px] gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              <span
+                class="text-danger-600 mr-xxs"
+              >
+                *
+              </span>
+              Status
+            </div>
+            <div
+              class=" css-b62m3t-container"
+            >
+              <span
+                class="css-1f43avz-a11yText-A11yText"
+                id="react-select-2-live-region"
+              />
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                class="css-1f43avz-a11yText-A11yText"
+                role="log"
+              />
+              <div
+                class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+              >
+                <div
+                  class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container css-1fdsijx-ValueContainer"
+                >
+                  <div
+                    class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                    id="react-select-2-placeholder"
+                  >
+                    Select...
+                  </div>
+                  <div
+                    class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                    data-value=""
+                  >
+                    <input
+                      aria-activedescendant=""
+                      aria-autocomplete="list"
+                      aria-describedby="react-select-2-placeholder"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      autocapitalize="none"
+                      autocomplete="off"
+                      autocorrect="off"
+                      class="select__input"
+                      id="select-input-status"
+                      role="combobox"
+                      spellcheck="false"
+                      style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                      tabindex="0"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                >
+                  <div
+                    aria-hidden="true"
+                    class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input
+                name="status"
+                type="hidden"
+                value=""
+              />
+            </div>
+          </label>
+          <label
+            class="flex flex-col leading-lg min-w-[120px] gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              Pathway
+              <span
+                class="text-font-secondary ml-xxxs"
+              >
+                (optional)
+              </span>
+            </div>
+            <div
+              class=" css-b62m3t-container"
+            >
+              <span
+                class="css-1f43avz-a11yText-A11yText"
+                id="react-select-3-live-region"
+              />
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                class="css-1f43avz-a11yText-A11yText"
+                role="log"
+              />
+              <div
+                class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+              >
+                <div
+                  class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container css-1fdsijx-ValueContainer"
+                >
+                  <div
+                    class="!text-font-secondary !leading-[22px] h-[22px] select__placeholder css-1jqq78o-placeholder"
+                    id="react-select-3-placeholder"
+                  >
+                    Select...
+                  </div>
+                  <div
+                    class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                    data-value=""
+                  >
+                    <input
+                      aria-activedescendant=""
+                      aria-autocomplete="list"
+                      aria-describedby="react-select-3-placeholder"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      autocapitalize="none"
+                      autocomplete="off"
+                      autocorrect="off"
+                      class="select__input"
+                      id="select-input-pathway"
+                      role="combobox"
+                      spellcheck="false"
+                      style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                      tabindex="0"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                >
+                  <div
+                    aria-hidden="true"
+                    class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                  >
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0 text-neutral-400"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-base w-base"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input
+                name="pathway"
+                type="hidden"
+                value=""
+              />
+            </div>
+          </label>
+          <div
+            class="col-span-2"
+          >
+            <label
+              class="flex flex-col leading-lg min-w-[120px] gap-xs"
+            >
+              <div
+                class="text-font-primary leading-lg flex gap-xxxs text-xs"
+              >
+                <span
+                  class="text-danger-600 mr-xxs"
+                >
+                  *
+                </span>
+                Collection
+              </div>
+              <div
+                class=" css-b62m3t-container"
+              >
+                <span
+                  class="css-1f43avz-a11yText-A11yText"
+                  id="react-select-4-live-region"
+                />
+                <span
+                  aria-atomic="false"
+                  aria-live="polite"
+                  aria-relevant="additions text"
+                  class="css-1f43avz-a11yText-A11yText"
+                  role="log"
+                />
+                <div
+                  class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                >
+                  <div
+                    class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--has-value css-1fdsijx-ValueContainer"
+                  >
+                    <div
+                      class="!m-0 !leading-[22px] h-[22px] select__single-value css-1dimb5e-singleValue"
+                    >
+                      Career
+                    </div>
+                    <div
+                      class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                      data-value=""
+                    >
+                      <input
+                        aria-activedescendant=""
+                        aria-autocomplete="list"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        autocapitalize="none"
+                        autocomplete="off"
+                        autocorrect="off"
+                        class="select__input"
+                        id="select-input-collection"
+                        role="combobox"
+                        spellcheck="false"
+                        style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                        tabindex="0"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                  >
+                    <div
+                      aria-hidden="true"
+                      class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 text-neutral-800"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-base w-base"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  name="collection"
+                  type="hidden"
+                  value="1"
+                />
+              </div>
+            </label>
+          </div>
+          <section
+            class="flex justify-between items-center gap-xs bg-white transition-colors border border-neutral-300 rounded-xs hover:border-neutral-400 p-sm xxxl:p-base"
+          >
+            <div
+              class="flex items-start flex-grow flex-shrink-0 basis-0 gap-sm"
+            >
+              <div
+                class="leading-lg"
+              >
+                <h6
+                  class="flex items-center gap-xs mb-xxs text-xs xxxl:text-sm"
+                >
+                  Middle School
+                </h6>
+                <span
+                  class="text-xs xxxl:text-sm"
+                >
+                  Enable for course to be aligned with MS Course Library. Disabled defaults to HS Course Library.
+                </span>
+              </div>
+            </div>
+            <label
+              class="switch"
+            >
+              <div
+                class="content"
+              >
+                <input
+                  class="switchInput"
+                  data-testid="type-switch"
+                  name="type"
+                  role="switch"
+                  type="checkbox"
+                />
+                <span
+                  class="slider"
+                />
+              </div>
+            </label>
+          </section>
+          <section
+            class="flex justify-between items-center gap-xs bg-white transition-colors border border-neutral-300 rounded-xs hover:border-neutral-400 p-sm xxxl:p-base"
+          >
+            <div
+              class="flex items-start flex-grow flex-shrink-0 basis-0 gap-sm"
+            >
+              <div
+                class="leading-lg"
+              >
+                <h6
+                  class="flex items-center gap-xs mb-xxs text-xs xxxl:text-sm"
+                >
+                  Global Course
+                </h6>
+                <span
+                  class="text-xs xxxl:text-sm"
+                >
+                  Course is available to all student and users (content restrictions still apply). Disable for custom content.
+                </span>
+              </div>
+            </div>
+            <label
+              class="switch"
+            >
+              <div
+                class="content"
+              >
+                <input
+                  class="switchInput"
+                  data-testid="isGlobal-switch"
+                  name="isGlobal"
+                  role="switch"
+                  type="checkbox"
+                />
+                <span
+                  class="slider"
+                />
+              </div>
+            </label>
+          </section>
+        </div>
+      </div>
+      <div
+        class="flex flex-col gap-sm"
+      >
+        <div
+          class="relative"
+        >
+          <div
+            class="text-editor"
+            data-testid="courses-introduction-input"
+          >
+            <label
+              class="flex flex-col gap-xs w-full"
+            >
+              <div
+                class="text-font-primary leading-lg flex gap-xxxs text-xs"
+              >
+                Description
+                <span
+                  data-state="closed"
+                >
+                  <span
+                    class="p-xs shadow-md no-underline rounded-full bg-secondary-200 text-xxs border-secondary-500 text-secondary-500 ml-xs border"
+                  >
+                    <span
+                      class="mr-xxs inline-flex align-middle"
+                    >
+                      <div
+                        class="icon -xs-size"
+                        data-testid="icon"
+                      >
+                        <div />
+                      </div>
+                    </span>
+                    AI Assist
+                  </span>
+                </span>
+                <span
+                  class="text-font-secondary ml-xxxs"
+                >
+                  (optional)
+                </span>
+              </div>
+              <textarea
+                id="Description"
+                name="Description"
+                style="visibility: hidden;"
+              />
+            </label>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-xs"
+        >
+          <label
+            class="flex flex-col gap-xs"
+          >
+            <div
+              class="text-font-primary leading-lg flex gap-xxxs text-xs"
+            >
+              Alternative Names
+            </div>
+            <textarea
+              class="textarea__input !mb-0"
+              id="Alternative Names"
+              name="alternativeTitles"
+              placeholder="Type here..."
+            />
+          </label>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="flex justify-between w-full items-start mb-sm"
+        >
+          <div
+            class="flex items-center gap-xs"
+          >
+            <div
+              class="flex"
+            >
+              <div
+                class="flex align-center justify-center grow-0 shrink-0 bg-neutral-200 rounded-xs p-xs"
+                data-testid="icon"
+              >
+                <div
+                  class="h-base w-base"
+                />
+              </div>
+            </div>
+            <h4
+              class="m-0"
+            >
+              Lessons
+            </h4>
+          </div>
+        </div>
+        <div
+          class="flex gap-sm"
+        >
+          <section
+            class="basis-1/2 flex flex-col border border-neutral-300 rounded-sm overflow-hidden bg-white h-[635px]"
+          >
+            <div
+              class="py-xs pl-base pr-x bg-neutral-200 flex items-center justify-between min-h-[56px]"
+            >
+              <span
+                class="truncate"
+                data-state="closed"
+              >
+                <h5
+                  class="mb-0 text-sm truncate"
+                >
+                  All lessons
+                </h5>
+              </span>
+              <div
+                class="flex items-center gap-xs"
+              >
+                <div
+                  class="filter__searchbar className"
+                >
+                  <label
+                    class="flex flex-col items-start text-font-primary w-full gap-xs"
+                  >
+                    <div
+                      class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs flex-row-reverse"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px]"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-base w-base"
+                          />
+                        </div>
+                      </div>
+                      <span
+                        class="flex gap-xxs grow"
+                      >
+                        <input
+                          class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                          data-testid="filter-search-bar-name"
+                          placeholder="Search by name..."
+                          type="text"
+                          value=""
+                        />
+                      </span>
+                    </div>
+                  </label>
+                </div>
+                <label
+                  class="flex flex-col leading-lg min-w-[120px] gap-xs"
+                >
+                  <div
+                    class="w-[150px] css-b62m3t-container"
+                  >
+                    <span
+                      class="css-1f43avz-a11yText-A11yText"
+                      id="react-select-5-live-region"
+                    />
+                    <span
+                      aria-atomic="false"
+                      aria-live="polite"
+                      aria-relevant="additions text"
+                      class="css-1f43avz-a11yText-A11yText"
+                      role="log"
+                    />
+                    <div
+                      class="!rounded-sm text-font-secondary !cursor-pointer outline-none !shadow-none !min-h-0 !border-neutral-300 hover:!border-neutral-400 !bg-white select__control css-13cymwt-control"
+                    >
+                      <div
+                        class="flex gap-xxs items-center !flex-nowrap !text-xs !p-xs !pr-0 h-[38px] select__value-container select__value-container--has-value css-1fdsijx-ValueContainer"
+                      >
+                        <div
+                          class="!m-0 !leading-[22px] h-[22px] select__single-value css-1dimb5e-singleValue"
+                        >
+                          All
+                        </div>
+                        <div
+                          class="!p-0 !m-0 !leading-[22px] h-[22px] select__input-container css-qbdosj-Input"
+                          data-value=""
+                        >
+                          <input
+                            aria-activedescendant=""
+                            aria-autocomplete="list"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            autocapitalize="none"
+                            autocomplete="off"
+                            autocorrect="off"
+                            class="select__input"
+                            id="react-select-5-input"
+                            role="combobox"
+                            spellcheck="false"
+                            style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                            tabindex="0"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="!p-0 !pr-xs select__indicators css-1hb7zxy-IndicatorsContainer"
+                      >
+                        <div
+                          aria-hidden="true"
+                          class="!p-0 select__indicator select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                        >
+                          <div
+                            class="flex"
+                          >
+                            <div
+                              class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 text-neutral-800"
+                              data-testid="icon"
+                            >
+                              <div
+                                class="h-base w-base"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div
+              class="min-h-0 flex-1"
+            >
+              <ul
+                class="bg-white p-xs overflow-auto scrollbar min-h-0 h-full"
+              />
+            </div>
+          </section>
+          <section
+            class="basis-1/2 flex flex-col border border-neutral-300 rounded-sm overflow-hidden bg-white h-[635px]"
+          >
+            <div
+              class="py-xs pl-base pr-x bg-neutral-200 flex items-center justify-between min-h-[56px]"
+            >
+              <span
+                class="truncate"
+                data-state="closed"
+              >
+                <h5
+                  class="mb-0 text-sm truncate"
+                >
+                  Selected (1)
+                </h5>
+              </span>
+            </div>
+            <ul
+              class="bg-white p-xs overflow-auto scrollbar min-h-0 h-full"
+              data-rbd-droppable-context-id="0"
+              data-rbd-droppable-id="droppable"
+            >
+              <li
+                class="dc-draggable flex items-center grow-1 group pl-xxxs -disabled rounded-sm hover:bg-neutral-200"
+                data-rbd-draggable-context-id="0"
+                data-rbd-draggable-id="1"
+                data-testid="draggable-item"
+              >
+                <div
+                  class="invisible group-hover:visible"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-1 items-center gap-xs text-xxs xxxl:text-xs rounded-sm p-xs hover:bg-neutral-200 group !pl-xxxs"
+                  data-testid="selected-item"
+                >
+                  
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0 bg-neutral-200 text-neutral-800 rounded-sm group-hover:bg-white p-xs"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1 leading-lg"
+                  >
+                    <div
+                      class="kicker sm default !mb-xxs"
+                    >
+                      Career review survey
+                    </div>
+                    <span
+                      data-state="closed"
+                    >
+                      First course
+                    </span>
+                  </div>
+                  <div
+                    class="flex gap-xs"
+                  >
+                    <button
+                      aria-label="Show First course"
+                      class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  text-neutral-700"
+                      data-testid="item-more-info"
+                      type="button"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </button>
+                    <button
+                      aria-label="Edit First course"
+                      class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  text-neutral-700"
+                      data-testid="edit-button"
+                      type="button"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </button>
+                    <button
+                      aria-label="Remove First course"
+                      class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  !text-white !bg-danger-500"
+                      data-testid="remove-item"
+                      type="button"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <div>
+          <h4>
+            Badges
+          </h4>
+          <div
+            class="flex gap-base"
+          >
+            <section
+              class="basis-1/2 flex flex-col border border-neutral-300 rounded-sm overflow-hidden bg-white h-[635px]"
+            >
+              <div
+                class="py-xs pl-base pr-x bg-neutral-200 flex items-center justify-between min-h-[56px]"
+              >
+                <span
+                  class="truncate"
+                  data-state="closed"
+                >
+                  <h5
+                    class="mb-0 text-sm truncate"
+                  >
+                    All badges
+                  </h5>
+                </span>
+                <div
+                  class="filter__searchbar"
+                >
+                  <label
+                    class="flex flex-col items-start text-font-primary w-full gap-xs"
+                  >
+                    <div
+                      class="w-full flex gap-xs items-center justify-between bg-white rounded-sm border border-neutral-300 hover:border-neutral-400 group focus-within:!border-primary-500 p-xs flex-row-reverse"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 text-neutral-400 h-[22px]"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-base w-base"
+                          />
+                        </div>
+                      </div>
+                      <span
+                        class="flex gap-xxs grow"
+                      >
+                        <input
+                          class="bg-transparent text-font-primary min-w-0 w-full grow w-full outline-none transition-colors autofill:shadow-[inset_0_0_0px_1000px_rgb(252,252,252)] placeholder:text-font-secondary leading-[22px] text-xs"
+                          data-testid="filter-search-bar-name"
+                          placeholder="Enter badge name"
+                          type="text"
+                          value=""
+                        />
+                      </span>
+                    </div>
+                  </label>
+                </div>
+              </div>
+              <span
+                class="data-loader__error"
+                data-testid="loader-error"
+              >
+                There was an error during data loading
+              </span>
+            </section>
+            <section
+              class="basis-1/2 flex flex-col border border-neutral-300 rounded-sm overflow-hidden bg-white h-[635px]"
+            >
+              <div
+                class="py-xs pl-base pr-x bg-neutral-200 flex items-center justify-between min-h-[56px]"
+              >
+                <span
+                  class="truncate"
+                  data-state="closed"
+                >
+                  <h5
+                    class="mb-0 text-sm truncate"
+                  >
+                    Selected badges
+                  </h5>
+                </span>
+              </div>
+              <div
+                class="flex flex-col justify-center items-center bg-white rounded-sm height-[305px] w-full !h-full"
+              >
+                <div
+                  class="flex flex-col justify-center items-center mb-sm [&>*]:m-xxs"
+                >
+                  <div />
+                  <div />
+                </div>
+                <h6
+                  class="mb-xs"
+                >
+                  Nothing selected yet
+                </h6>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex gap-base justify-end"
+      >
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] -min-width-lg border"
+          data-testid="button"
+          type="button"
+        >
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Cancel
+          </span>
+        </button>
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] -min-width-lg border text-white"
+          data-testid="button"
+          type="submit"
+          value="Save"
+        >
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            Save
+          </span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

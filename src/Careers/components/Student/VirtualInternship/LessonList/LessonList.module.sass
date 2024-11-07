@@ -1,0 +1,21 @@
+@import '@shared/stylesheets/config.sass'
+
+.lessonList
+  +flex-container(row)
+  flex-wrap: wrap
+  gap: $m-base $m-sm
+  padding-top: $m-sm
+
+  +media-breakpoint-up(xxxl)
+    padding-top: $m-base
+    row-gap: $m-md
+
+.centerItems
+  justify-content: center
+
+.card,
+.emptyCard
+  flex: 0 0 calc(25% - $m-x)
+
+.emptyCard
+  border: 1px solid $color-neutral-200

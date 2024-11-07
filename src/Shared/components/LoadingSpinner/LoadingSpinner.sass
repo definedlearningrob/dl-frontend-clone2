@@ -1,0 +1,125 @@
+@import '@shared/stylesheets/config.sass'
+
+@keyframes fold-animation
+  0%, 10%
+    opacity: 0
+    transform: perspective(140px) rotateX(-180deg)
+  25%, 75%
+    opacity: 1
+    transform: perspective(140px) rotateX(0deg)
+  90%, 100%
+    opacity: 0
+    transform: perspective(140px) rotateY(180deg)
+
+.loading-spinner
+  +flex-container(row, center, center)
+
+  &.-size-full-screen
+    +flex-container(row, center, center)
+    background-color: $color-white
+    bottom: 0
+    left: 0
+    position: fixed
+    right: 0
+    top: 0
+    z-index: $z-higher
+
+  &.-size-full-screen &__spinner
+    height: $m-xl
+    width: $m-xl
+
+  &.-size-xs &__spinner
+    height: $m-x
+    width: $m-x
+
+  &.-size-small &__spinner
+    height: $m-sm
+    width: $m-sm
+
+  &.-size-medium &__spinner
+    height: $m-lg
+    margin: $m-base
+    width: $m-lg
+
+  &.-color-white &__cube::before
+    background-color: $color-white
+
+  &.-color-primary &__cube::before
+    background-color: $color-primary-500
+
+  &.-color-disabled &__cube::before
+    background-color: $color-font-secondary
+
+  &__spinner
+    position: relative
+    transform: rotateZ(45deg)
+
+  &__cube
+    float: left
+    height: 50%
+    position: relative
+    transform: scale(1.1)
+    width: 50%
+
+    &::before
+      animation: fold-animation 2.5s infinite linear both
+      content: ''
+      height: 100%
+      left: 0
+      position: absolute
+      top: 0
+      transform-origin: 100% 100%
+      width: 100%
+
+    &.-second
+      transform: scale(1.1) rotateZ(90deg)
+
+      &::before
+        animation-delay: 0.3s
+
+    &.-third
+      transform: scale(1.1) rotateZ(270deg)
+
+      &::before
+        animation-delay: 0.9s
+
+    &.-fourth
+      transform: scale(1.1) rotateZ(180deg)
+
+      &::before
+        animation-delay: 0.6s
+
+.loading-dots
+  position: relative
+  width: $m-xs
+  height: $m-xs
+  border-radius: $m-xxs
+  background-color: $color-border
+  animation: dotFlashing 1s infinite alternate
+  animation-delay: .5s
+
+  &::before, &::after
+    content: ''
+    display: inline-block
+    width: $m-xs
+    height: $m-xs
+    border-radius: $m-xxs
+    background-color: $color-border
+    animation: dotFlashing 1s infinite alternate
+    position: absolute
+    top: 0
+
+  &::before
+    left: -$m-sm
+    animation-delay: 0s
+
+  &::after
+    left: $m-sm
+    animation-delay: 1s
+
+@keyframes dotFlashing
+  0%
+    background-color: $color-primary-500
+  50%,
+  100%
+    background-color: $color-border

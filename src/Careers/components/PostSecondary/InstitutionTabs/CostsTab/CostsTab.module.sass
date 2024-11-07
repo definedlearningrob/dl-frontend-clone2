@@ -1,0 +1,28 @@
+@import '@shared/stylesheets/config.sass'
+
+$section-width: 800px
+
+.cardSection
+  width: 800px
+
+.heading
+  font-size: $font-size-sm
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-base
+
+.listItem
+  +flex-container(row, space-between)
+  gap: $m-md
+
+.listItemHeading
+  font-size: $font-size-sm
+
+.listItemValue
+  font-weight: $font-weight-medium
+  flex: 0
+  white-space: nowrap
+
+.additionalInfo
+  font-size: $font-size-xs
+  margin: $m-sm 0 0

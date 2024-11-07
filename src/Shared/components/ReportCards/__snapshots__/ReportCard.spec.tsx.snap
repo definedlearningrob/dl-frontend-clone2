@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportCard renders with big image when isBig is true 1`] = `
+<div>
+  <a
+    href="/reports/career-review-survey"
+  >
+    <div
+      class="card flex border border-neutral-200 !p-sm xxxl:!p-base group h-full transition-colors hover:bg-primary-200 hover:border hover:border-primary-500 focus:outline-1 focus:outline-primary-500 focus:outline-offset-1 gap-base xxxl:gap-md items-center"
+    >
+      <div
+        class="rounded-sm overflow-hidden shrink-0 relative h-[168px] w-[168px] xxxl:h-[270px] xxxl:w-[270px]"
+      >
+        <img
+          class="w-full h-full object-cover"
+          src="test.jpg"
+          title="Test Title"
+        />
+        <div
+          class="bg-gradient-neutral absolute inset-0 group-hover:opacity-0 transition-opacity"
+        />
+      </div>
+      <div
+        class="flex flex-col grow"
+      >
+        <h6
+          class="mb-xs xxxl:mb-sm text-xs xxxl:text-base font-bold leading-base"
+        >
+          Test Title
+        </h6>
+        <p
+          class="font-regular leading-lg tracking-[0.12px] text-neutral-700 text-xxs xxxl:text-sm mb-sm xxxl:mb-base"
+        >
+          Test Description
+        </p>
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] button text-xs font-medium xxxl:text-sm items-center mt-auto leading-sm -link py-xs px-base leading-[22px] text-white"
+          data-testid="button"
+          type="button"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            See more
+          </span>
+        </button>
+      </div>
+    </div>
+  </a>
+</div>
+`;
+
+exports[`ReportCard renders with icon when isBig is false 1`] = `
+<div>
+  <a
+    href="/reports/career-review-survey"
+  >
+    <div
+      class="card flex border border-neutral-200 !p-sm xxxl:!p-base group h-full transition-colors hover:bg-primary-200 hover:border hover:border-primary-500 focus:outline-1 focus:outline-primary-500 focus:outline-offset-1 !p-x flex-col"
+    >
+      <div
+        class="rounded-sm overflow-hidden shrink-0 relative mb-sm"
+      >
+        <div
+          class="bg-neutral-200 text-neutral-400 flex justify-center items-center p-sm xxxl:p-base group-hover:text-primary-500 group-hover:bg-white transition-colors"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="report-card-icon"
+            >
+              <div
+                class="h-lg w-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col grow"
+      >
+        <h6
+          class="mb-xs xxxl:mb-sm text-xs xxxl:text-base font-bold leading-base"
+        >
+          Test Title
+        </h6>
+        <p
+          class="font-regular leading-lg tracking-[0.12px] text-neutral-700 text-xxs xxxl:text-xs mb-x xxxl:mb-sm"
+        >
+          Test Description
+        </p>
+        <button
+          class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] button text-xs font-medium xxxl:text-sm items-center mt-auto leading-sm -link py-xs px-base leading-[22px] text-white"
+          data-testid="button"
+          type="button"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="flex align-center justify-center grow-0 shrink-0"
+              data-testid="icon"
+            >
+              <div
+                class="h-sm w-sm"
+              />
+            </div>
+          </div>
+          <span
+            class="items-center flex justify-center gap-xs"
+          >
+            See more
+          </span>
+        </button>
+      </div>
+    </div>
+  </a>
+</div>
+`;

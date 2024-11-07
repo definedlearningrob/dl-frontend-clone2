@@ -1,0 +1,55 @@
+@import '@shared/stylesheets/config'
+
+.wrapper
+  +flex-container(column, flex-start, center)
+  gap: $m-sm
+  overflow: hidden
+  padding: 0
+
+  +media-breakpoint-up(sm)
+    +flex-container(row)
+
+.body
+  +flex-container(column, center)
+  gap: $m-xs
+  flex: 1 1
+  padding: $m-base
+  height: 100%
+
+  +media-breakpoint-up(sm)
+    padding: $m-base $m-base $m-base 0
+
+.title
+  margin: 0
+
+.illustration
+  height: 100%
+  width: 100%
+
+.illustrationWrapper
+  height: 100%
+  width: 35%
+
+  +media-breakpoint-up(sm)
+    position: sticky
+    top: 0
+
+  +media-breakpoint-up(xxl)
+    display: block
+    height: 100%
+    width: 35%
+
+.description
+  display: none
+  font-size: $font-size-xs
+  margin: 0
+
+  +media-breakpoint-up(xl)
+    display: block
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-sm
+
+.button
+  padding: $m-x $m-x
+  width: max-content

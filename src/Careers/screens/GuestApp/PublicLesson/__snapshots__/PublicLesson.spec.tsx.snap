@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lesson renders main lesson content 1`] = `
+<div>
+  <div
+    class="p-base pt-xs xxxl:p-md xxxl:pt-sm container"
+    id="read"
+  >
+    <div>
+      <section
+        class="lesson"
+      >
+        <h2
+          class="lesson__title"
+        >
+          Career Cluster: Manufacturing
+        </h2>
+        <section
+          class="presentation"
+        >
+          <div
+            class="lesson-item-card !p-0 !p-base"
+            data-testid="lesson-item-presentation"
+            id="ExternalPresentation14"
+          >
+            <div
+              class="lesson-item-card__header"
+            >
+              <h4
+                class="lesson-item-card__title"
+              >
+                Overview
+              </h4>
+            </div>
+            <div
+              class="h-[420px] w-full transition-all relative"
+            >
+              <div
+                class="absolute inset-0 hidden"
+              />
+              <iframe
+                allowfullscreen=""
+                class="rounded-sm w-full h-full border-0"
+                sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+                src="https://slides.definedlearning.com/p/c9"
+                title="video"
+              />
+            </div>
+          </div>
+        </section>
+        <div
+          class="lesson-item-card student-check-in-question"
+          data-testid="lesson-item-check-in-question"
+          id="CheckInGroup1"
+        >
+          <div
+            class="lesson-item-card__header"
+          >
+            <h4
+              class="lesson-item-card__title"
+            >
+              Lesson 1 Check-ins
+            </h4>
+          </div>
+          <div
+            class="student-check-in-question__item"
+          >
+            <h4
+              class="student-check-in-question__title"
+            >
+              What do you like best about the careers and work done within this career cluster?
+            </h4>
+            <div
+              class="flex flex-col gap-xs student-check-in-question__textarea mb-sm"
+            >
+              <label
+                class="flex flex-col gap-xs"
+              >
+                <textarea
+                  class="textarea__input !mb-0"
+                  disabled=""
+                  name="answer"
+                  placeholder="Type here..."
+                />
+              </label>
+            </div>
+            <div
+              class="flex flex-row content-center justify-center"
+            >
+              <button
+                class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] ml-auto student-check-in-question__save-button -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+                data-testid="button"
+                disabled=""
+                type="submit"
+              >
+                <span
+                  class="items-center flex justify-center gap-xs"
+                >
+                  Save
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+`;

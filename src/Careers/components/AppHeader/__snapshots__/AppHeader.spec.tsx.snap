@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeader should render correctly for student 1`] = `
+<div>
+  <div
+    class="header-desktop -animation-open"
+    data-testid="header-desktop"
+  >
+    <div
+      class="notifications-wrapper"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="menu"
+        class="trigger"
+        data-state="closed"
+        data-testid="notifications-dropdown-trigger"
+        id="radix-0"
+        type="button"
+      >
+        <button
+          class="icon-button -size-sm -square text-font-secondary hover:!bg-transparent hover:text-primary-500"
+          data-testid="icon-button"
+          type="button"
+        >
+          <div
+            class="icon icon-button__icon -sm-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+        </button>
+      </div>
+      <div
+        aria-expanded="false"
+        aria-haspopup="menu"
+        class="trigger"
+        data-state="closed"
+        data-testid="notifications-dropdown-trigger"
+        id="radix-1"
+        type="button"
+      >
+        <button
+          class="icon-button -size-sm -square text-font-secondary hover:!bg-transparent hover:text-primary-500"
+          data-testid="icon-button"
+          type="button"
+        >
+          <div
+            class="icon icon-button__icon -sm-size"
+            data-testid="icon"
+          >
+            <div />
+          </div>
+        </button>
+      </div>
+    </div>
+    <div
+      class="header-desktop__user-dropdown-section"
+      data-testid="dropdown-section"
+    >
+      <div
+        class="avatar header-desktop__header-item"
+        data-testid="avatar-image"
+      >
+        <div
+          class="avatar__image sb-avatar"
+          style="display: inline-block; vertical-align: middle; width: 32px; height: 32px; border-radius: 100%; font-family: Helvetica, Arial, sans-serif;"
+        >
+          <div
+            class="avatar__image sb-avatar__text"
+            style="width: 32px; height: 32px; line-height: initial; text-align: center; color: rgb(106, 110, 124); background: rgb(252, 252, 252); border-radius: 100%;"
+            title="Test Man"
+          >
+            <div
+              style="display: table; table-layout: fixed; width: 100%; height: 100%;"
+            >
+              <span
+                style="display: table-cell; vertical-align: middle; font-size: 100%; white-space: nowrap;"
+              >
+                <span />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="header-desktop__user-dropdown-button"
+        data-testid="app-header-dropdown-trigger"
+      >
+        <div>
+          <span
+            data-testid="user-first-last-name"
+          >
+            Test
+             
+            Man
+          </span>
+        </div>
+        <div
+          class="icon header-desktop__dropdown-icon -xs-size"
+          data-testid="icon"
+        >
+          <div />
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AppHeader should render correctly for teacher 1`] = `
+<div>
+  <div
+    class="header-desktop -animation-open"
+    data-testid="header-desktop"
+  >
+    <div
+      class="header-desktop__user-dropdown-section"
+      data-testid="dropdown-section"
+    >
+      <div
+        class="avatar header-desktop__header-item"
+        data-testid="avatar-image"
+      >
+        <div
+          class="avatar__image sb-avatar"
+          style="display: inline-block; vertical-align: middle; width: 32px; height: 32px; border-radius: 100%; font-family: Helvetica, Arial, sans-serif;"
+        >
+          <div
+            class="avatar__image sb-avatar__text"
+            style="width: 32px; height: 32px; line-height: initial; text-align: center; color: rgb(106, 110, 124); background: rgb(252, 252, 252); border-radius: 100%;"
+            title="Test Man"
+          >
+            <div
+              style="display: table; table-layout: fixed; width: 100%; height: 100%;"
+            >
+              <span
+                style="display: table-cell; vertical-align: middle; font-size: 100%; white-space: nowrap;"
+              >
+                <span />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="header-desktop__user-dropdown-button"
+        data-testid="app-header-dropdown-trigger"
+      >
+        <div>
+          <span
+            data-testid="user-first-last-name"
+          >
+            Test
+             
+            Man
+          </span>
+        </div>
+        <div
+          class="icon header-desktop__dropdown-icon -xs-size"
+          data-testid="icon"
+        >
+          <div />
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

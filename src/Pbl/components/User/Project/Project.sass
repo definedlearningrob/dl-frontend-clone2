@@ -1,0 +1,107 @@
+@import '@shared/stylesheets/config.sass'
+
+.user-project
+  &__header
+    +flex-container(row,space-between, center)
+    margin-bottom: $m-base
+
+    &-buttons
+      display: flex
+
+      .button:not(:first-of-type)
+        margin-left: $m-sm
+
+  &__details
+    margin-top: $m-sm
+
+    .tabs
+      padding-left: 0
+
+  &__body
+    +flex-container(row)
+    gap: $m-base
+
+    +media-breakpoint-up(xxxl)
+      gap: $m-md
+
+    &-left
+      flex: 1 0 calc(66.66% - $m-x)
+
+      +media-breakpoint-up(xxxl)
+        flex: 1 0 calc(66.66% - $m-sm)
+
+    &-right
+      +flex-container(column)
+      flex: 0 1 calc(33.33% - $m-x)
+      gap: $m-base
+      min-width: 0
+
+      +media-breakpoint-up(xxxl)
+        flex-basis: calc(33.33% - $m-sm)
+        gap: $m-md
+
+  &__additional-info
+    +flex-container(column)
+    gap: $m-base
+
+    +media-breakpoint-up(xxxl)
+      gap: $m-md
+
+  &__subheading
+    font-size: $font-size-base
+    color: $color-font-primary
+    margin-bottom: $m-xxs
+    font-weight: $font-weight-medium
+
+  &__heading,
+  &__student-heading
+    color: $color-font-primary
+    font-size: $font-size-2lg
+    margin-bottom: 0
+
+  &__student-heading
+    margin-bottom: $m-base
+
+  &__list
+    margin: 0
+
+  &__cards-container
+    display: grid
+    grid-template-columns: 3fr 2fr
+    gap: $m-base
+
+  &__modal-button
+     &#{&} // strengthen selector
+      width: max-content
+
+  &__rubric
+    +flex-container(row, center)
+    flex-wrap: wrap
+
+    .rubrics-builder__criteria-label
+      &:not(.-reserved)
+        text-align: center
+
+  &__standards-buttons
+    +flex-container(row)
+    flex-wrap: wrap
+
+  &__standards-button
+    border-width: 1px
+    font-weight: $font-weight-regular
+    height: auto
+    margin:
+      right: $m-base
+      bottom: $m-sm
+    padding: $m-xs
+    width: $standard-sets-button-width
+
+    &.-primary
+      border: 1px solid transparent
+
+    &:last-child
+      margin-right: 0
+
+  &__tabs
+    &#{&}
+      border-radius: $m-xxs

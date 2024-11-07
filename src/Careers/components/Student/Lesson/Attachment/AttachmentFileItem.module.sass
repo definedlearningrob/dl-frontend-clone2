@@ -1,0 +1,28 @@
+@import '@shared/stylesheets/config.sass'
+
+.container
+  +flex-container(row, space-between, center)
+  border: 1px solid $color-border-disabled
+  border-radius: $border-radius-sm
+  padding: $m-xs $m-base
+  cursor: pointer
+  transition: background-color $transition-duration
+
+  &:hover
+    background-color: $color-primary-200
+
+.fileInfo
+  +flex-container(row, false, center)
+  color: $color-primary-500
+  gap: $m-xs
+
+.fileName
+  color: $color-primary-500
+  font-size: $font-size-xs
+  font-weight: $font-weight-medium
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-sm
+
+.downloadButton
+  background-color: transparent !important

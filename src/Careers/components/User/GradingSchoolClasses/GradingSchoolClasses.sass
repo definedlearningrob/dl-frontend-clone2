@@ -1,0 +1,27 @@
+@import '@shared/stylesheets/config.sass'
+
+.grading-schoolclasses
+    &__heading
+        color: $color-font-primary
+        font-size: $font-size-base
+        margin: 0 0 $m-sm
+
+    &__list-title
+        color: $color-font-primary
+        font-size: $font-size-sm
+
+        margin: 0 0 $m-sm
+
+    &__empty-list-container
+        height: 60vh
+        display: grid
+        place-items: center
+
+    &__empty-list
+        background-color: $color-white
+        border-radius: $border-radius-sm
+        padding: $m-lg
+
+        .shared-empty-placeholder
+            color: $color-primary-500 !important
+

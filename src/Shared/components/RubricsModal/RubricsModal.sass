@@ -1,0 +1,83 @@
+@import '@shared/stylesheets/config.sass'
+
+.rubrics-modal
+  &__body
+    margin: $m-sm 0
+    .tabs
+      overflow-y: auto
+      flex-wrap: wrap
+
+      &__tab
+        font-weight: normal
+
+  &__tabs
+    .tabs__tab:first-child
+      padding-left: 0
+
+  &__status-badge
+    +flex-container(column, center, flex-end)
+
+
+.printableRubric
+  display: none
+
+@media print
+  body
+    margin: 0 !important
+
+  html:not(.print-pdf) body
+    margin: 0 !important
+
+  *
+    font-size: $font-size-xxs !important
+
+  .modal
+    background-color: transparent !important
+
+  .modal__header
+    padding: $m-xs $m-sm 0 $m-sm
+
+  .modal__body
+    padding: 0 $m-sm
+    [class*="description"] > p
+      font-size: $font-size-xs !important
+      margin-bottom: $m-xs
+
+  .rubrics-modal
+    border-radius: 0
+    box-shadow: none
+    width: 100% !important
+    max-height: initial !important
+    height: auto !important
+
+    .modal__body
+      max-height: none !important
+      overflow: initial !important
+
+    .modal__heading
+      font-size: $font-size-sm !important
+      margin-bottom: $m-xs
+
+    .button, .icon-button
+      display: none
+
+    .modal__footer
+      padding: 0 $m-sm !important
+
+    .rubrics-builder__heading-badge
+      display: inline-block
+
+  .printableRubric
+    display: block
+    padding-bottom: $m-base
+
+    &__text
+      font-size: $font-size-xxs !important
+      vertical-align: middle
+      line-height: 1
+      padding: 0 !important
+      margin: 0 !important
+
+    &__heading
+      padding-bottom: $m-xs
+      line-height: $line-height-sm

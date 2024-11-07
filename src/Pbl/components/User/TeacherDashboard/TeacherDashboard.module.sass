@@ -1,0 +1,9 @@
+@import '@shared/stylesheets/config.sass'
+
+.container
+  +flex-container(row)
+  gap: $m-sm
+  max-height: calc(100vh - $desktop-header-height - (2 * $m-md))
+
+  +media-breakpoint-up(xxxl)
+    max-height: calc(100vh -  $desktop-header-height - (2 * $m-md))

@@ -1,0 +1,84 @@
+@import '@shared/stylesheets/config'
+
+.dropdown-container
+    align-items: center
+    display: flex
+    justify-content: center
+    position: relative
+
+    &:hover
+        cursor: pointer
+
+.dropdown-options
+    +box-shadow-300($color-black)
+    display: flex
+    justify-content: center
+    margin-top: $m-xs
+    position: absolute
+    right: 0
+    top: 100%
+    width: 240px
+    z-index: $z-lowest + 1
+
+    &:after
+        background-color: $color-white
+        content: ''
+        height: 15px
+        position: absolute
+        right: $m-x
+        top: -$m-xxs
+        transform: rotate(45deg) skew(-10deg, -10deg)
+        width: 15px
+        z-index: $z-negative
+
+    &__lists
+        background: $color-white
+        border-radius: 5px
+        list-style: none
+        margin: 0
+        padding: 0
+        width: 100%
+
+    &,
+    &__dropdowns
+        border-radius: 5px
+
+    &__dropdown
+        align-items: center
+        background-color: $color-white
+        border-radius: 3px
+        color: $color-font-secondary
+        cursor: pointer
+        display: flex
+        font-size: $font-size-sm
+        font-weight: $font-weight-medium
+        height: 40px
+        justify-content: space-between
+        margin: 0 $m-xxs
+        padding: 9px $m-x 9px 11px
+        text-align: center
+        transition: all $transition-duration * 0.5 $transition-function
+
+        &:hover
+            background-color: darken($color-white, 10%)
+
+        &:first-of-type
+            margin-top: $m-xxs
+
+        &:last-of-type
+            margin-bottom: $m-xxs
+
+    &__trigger
+        cursor: pointer
+
+    &.-size-medium
+        min-width: 164px
+        width: auto
+
+    &.-direction-top
+        bottom: 150%
+        top: unset
+
+        &:after
+            bottom: -$m-xxs
+            top: unset

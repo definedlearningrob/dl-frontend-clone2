@@ -1,0 +1,66 @@
+@import '@shared/stylesheets/config'
+
+$icon-height: 48px
+$icon-width: 48px
+
+.presentationPreview
+  position: relative
+
+  :global
+    .reveal
+      .slides
+        color: $color-black // default text color if not selected
+        width: 1200px !important
+
+        +media-breakpoint-down(xxl)
+          width: 960px !important
+
+    .reveal.center
+      min-height: calc(100vh - $desktop-header-height) !important
+
+      .navigate-left
+        animation: none
+        background-color: $color-white
+        border-radius: $border-radius-xs
+        bottom: $m-x
+        height: $icon-height
+        right: 15em
+        width: $icon-width
+
+        .controls-arrow:after,
+        .controls-arrow:before
+          background-color: $color-primary-500
+          left: 8px
+          width: 24px
+
+      .navigate-right
+        @extend .navigate-left
+        right: 8em
+
+        .controls-arrow:after,
+        .controls-arrow:before
+          left: -3px
+
+      [aria-label="previous slide"],
+      [aria-label="next slide"]
+        opacity: 1 !important
+
+
+.toggleFullScreenButton
+  background-color: $color-white
+  border-radius: $border-radius-xs
+  bottom: $m-base
+  height: $icon-height
+  position: fixed
+  right: $m-base
+  width: $icon-width
+
+@media (display-mode: fullscreen)
+  .presentationPreview
+    :global
+      .reveal
+        margin-top: 0 !important
+
+      .reveal.center
+        min-height: 100vh !important
+

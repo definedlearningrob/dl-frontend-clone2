@@ -1,0 +1,34 @@
+@import '@shared/stylesheets/config.sass'
+
+.breadcrumbs
+    +flex-container(row, center, center)
+    color: $color-primary-500
+    cursor: pointer
+    font-weight: $font-weight-medium
+    fill: $color-primary-500
+
+.buttonIcon
+    color: $color-primary-600
+
+    &#{&}
+        width: fit-content
+
+        &:hover
+            background-color: transparent
+
+.buttonText
+    color: $color-primary-500
+    font-size: $font-size-xs
+
+    +media-breakpoint-down(sm)
+        display: none
+
+.whiteText
+    .buttonIcon
+        color: $color-white
+
+    .buttonText
+        color: $color-white
+
+.divider
+    margin: 0 $m-xs

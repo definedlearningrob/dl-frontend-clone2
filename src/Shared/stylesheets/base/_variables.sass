@@ -1,0 +1,178 @@
+//----- fonts sizes ----------------------------------------------------------------------------------------------------
+$font-size-xxxs: 10px
+$font-size-xxs: 12px
+$font-size-xs: 14px
+$font-size-sm: 16px
+$font-size-base: 18px
+$font-size-lg: 20px
+$font-size-2lg: 24px
+$font-size-xl: 28px
+$font-size-2xl: 32px
+$font-size-3xl: 48px
+
+//----- spacings (margins/paddings) ------------------------------------------------------------------------------------
+$m-xxxs: 2px
+$m-xxs: 4px
+$m-xs: 8px
+$m-x: $m-xs + $m-xxs // 12px
+$m-sm: $m-xs * 2 // 16px
+$m-base: $m-xs * 3 // 24px
+$m-md: $m-sm * 2 // 32px
+$m-lg: $m-base * 2 // 48px
+$m-xl: $m-base * 3 // 72px
+$m-2xl: $m-base * 4 // 96px
+
+//----- line heights ---------------------------------------------------------------------------------------------------
+$line-height-sm: 1
+$line-height-base: 1.25
+$line-height-lg: 1.5
+
+//----- border widths ------------------------------------------------------------------------------------------------
+$border-width-xs: 1px
+
+//----- border radiuses ------------------------------------------------------------------------------------------------
+$border-radius-xxs: $m-xxxs
+$border-radius-xs: $m-xxs
+$border-radius-sm: $m-xs
+$border-radius-s: $m-sm
+$border-radius-base: $m-base
+$border-radius-lg: $m-lg
+
+//----- breakpoints ----------------------------------------------------------------------------------------------------
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440px, xxxl: 1920px)
+
+$grid-columns: 12
+$grid-gutter-width: $m-base
+
+$container: map-get($grid-breakpoints, xl)
+
+//----- colors ---------------------------------------------------------------------------------------------------------
+$color-primary-200:           #EBF7FF
+$color-primary-300:           #C2E7FF
+$color-primary-500:           #005994 //base
+$color-primary-600:           #004775
+
+$color-secondary-600:         #CC6600
+$color-secondary-500:         #ED7700 //base
+$color-secondary-300:         #FFDEBD
+$color-secondary-200:         #FFF7EE
+
+$color-white:                 #FCFCFC
+$color-neutral-200:           #F3F4F7
+$color-neutral-300:           #DADDE6
+$color-neutral-400:           #B0B5C9
+$color-neutral-500:           #9199B5
+$color-neutral-600:           #737DA0
+$color-neutral-700:           #5B6486
+$color-neutral-800:           #3C4258
+$color-black:                 #1D202A
+
+$color-success-600: #1D8764
+$color-success-500: #26B183 //base
+$color-success-100: #E8FAF4
+
+$color-warning-600: #CCAB00
+$color-warning-500: #EBC500 //base
+$color-warning-100: #FFFAE4
+
+$color-danger-600: #CD0409
+$color-danger-500: #FB3B40 //base
+$color-danger-100: #FFEBEC
+
+$color-info-500: #5985F8
+$color-info-100: #EBF1FE
+
+
+$color-font-primary: #3C4258
+$color-font-secondary: #5B6486
+
+$color-disabled: #D7DAE1
+$color-background: #F3F4F7
+$color-border: #DADDE6
+$color-border-disabled: #DADDE6
+$color-border-hover: #B0B5C9
+
+$welcome-banner-layer-color: rgba(0, 89, 148, 0.80)
+$lesson-card-action-btn-color: rgba(0, 89, 148, 0.65)
+$notification-box-shadow-color: rgba(0, 89, 148, 0.1)
+$rubrics-edit-shadow-color: rgba(69, 76, 102, 0.2)
+$modal-overlay-color: rgba(69, 76, 102, 0.65)
+
+$shadow-200: 0px 4px 8px rgba(69, 76, 102, 0.1)
+$shadow-300: 0px 4px 12px rgba(69, 76, 102, 0.2)
+
+//----- fonts ----------------------------------------------------------------------------------------------------------
+$font-family-header: 'Lora'
+$font-family-body: 'Montserrat'
+$font-stack-header: $font-family-header, sans-serif
+$font-stack-body: $font-family-body, serif
+
+$font-weight-regular: 400
+$font-weight-medium: 500
+$font-weight-bold: 700
+
+//----- transitions ----------------------------------------------------------------------------------------------------
+$transition-duration: .3s
+$transition-function: ease-in-out
+
+//----- z-indexes ------------------------------------------------------------------------------------------------------
+$z-negative: -1
+$z-lowest: 1
+$z-lower: 30
+$z-low: 40
+$z-base: 50
+$z-medium: 60
+$z-high: 70
+$z-higher: 80
+$z-highest: 90
+
+//----- Icons ----------------------------------------------------------------------------------------------------------
+$icon-size-xxs: $m-x
+$icon-size-xs: $m-sm
+$icon-size: $m-base
+$icon-size-md: $m-md
+$icon-size-lg: $m-lg
+$icon-size-xl: calc(2 * $m-xl)
+
+//----- layout ---------------------------------------------------------------------------------------------------------
+$checkbox-size: 18px
+$button-width: 160px
+$announce-button-width: 225px
+$announce-notification-width: $m-sm * 25
+$assessment-progressbar-shadow: 0px -2px 10px 0px rgba(69, 76, 102, 0.16)
+$assessment-progressbar-space: 80px
+$choose-account-margin-top: 200px
+$course-card-height: 250px
+$course-card-mask: transparent linear-gradient(221deg, #005994AA 0%, #005994CB 17%, #005994 100%) 0% 0% no-repeat padding-box
+$course-card-transition: all 300ms ease-out
+$course-card-width: 200px
+$desktop-header-height: 48px
+$entity-list-item-height: 60px
+$filtering-list-height: 300px
+$lesson-item-button-size: 56px
+$nav-item-height: 54px
+$navbar-collapse-width: 56px
+$navbar-expand-width: 168px
+$notifications-dropdown-width: 350px
+$recommended-card-mask: transparent linear-gradient(241deg, #454C6695 0%, #454C66D0 17%, #454C66 100%) 0% 0% no-repeat padding-box
+$recommended-card-min-width: 300px
+$rubrics-cell-min-width: 120px
+$rubrics-cell-max-width: 180px
+$rubrics-label-editing-min-width: 300px
+$rubrics-heading-editing-min-width: 320px
+$selected-pathway-card-label-size: 88px
+$side-panel-width: 600px
+$sidebar-transition-close: all 300ms cubic-bezier(0.4, 0, 0.6, 1)
+$sidebar-transition-open: all 200ms cubic-bezier(0.4, 0, 0.6, 1)
+$splash-video-shadow: 6px 15px 29px 0 rgba(69, 76, 102, 0.16)
+$standard-sets-button-width: 220px
+$course-button-width: 180px
+$survey-navlink-tooltip-space: 60px
+$table-of-content-connector-spacing: 28px
+$carousel-next-arrow-gradient: linear-gradient(270deg, #fff 0%, rgba(#fff, 0.65) 51.04%, rgba(255, 255, 255, 0) 100%)
+$carousel-prev-arrow-gradient: linear-gradient(90deg, #fff 0%, rgba(#fff, 0.65) 51.04%, rgba(255, 255, 255, 0) 100%)
+$container-height: calc(100vh - $desktop-header-height - 2 * $m-base)
+$container-height-xxxl: calc(100vh - $desktop-header-height - 2 * $m-md)
+
+//---chartColors--------------------------------------------------------------------------------------------------------
+$chart-colors: #003D66, #005C99, #007BCC, #0099FF, #33AEFF, #66C2FF, #99D6FF, #CCEBFF

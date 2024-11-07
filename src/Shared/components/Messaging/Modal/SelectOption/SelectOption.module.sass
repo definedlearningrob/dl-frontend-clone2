@@ -1,0 +1,30 @@
+@import '@shared/stylesheets/config.sass'
+
+:global(.dc-async-select__option)
+  &:hover
+    .teamIconWrapper
+      background-color: $color-white
+
+.itemWrapper
+  +flex-container(row, false, center)
+  gap: $m-xs
+
+.teamIconWrapper
+  +flex-container(row, center, center)
+  width: $m-base
+  height: $m-base
+  background-color: $color-primary-200
+  border-radius: 50%
+  margin-right: $m-xxs
+
+  svg
+    width: $m-sm
+    height: $m-sm
+
+.entity
+  display: block
+  color: $color-font-primary
+  font-size: $font-size-xs
+  margin-top: $m-xs
+  border: none
+  outline: none

@@ -1,0 +1,25 @@
+@import '@shared/stylesheets/config'
+
+.card
+  +flex-container(column)
+  gap: $m-base
+  margin-top: $m-sm
+
+.cardHeader
+  +flex-container(row, space-between, center)
+
+.cardFooter
+  border-top: 1px solid $color-neutral-300
+  margin-right: -$m-base
+  margin-left: -$m-base
+  padding: $m-base $m-base 0
+
+.lastSubmissionDate
+  color: $color-font-secondary
+  font-size: $font-size-xs
+
+.statusContainer
+  +flex-container(row, space-between, center)
+
+.emptyContainer
+  +flex-container(row, center, center)

@@ -1,0 +1,76 @@
+@import '@shared/stylesheets/config.sass'
+
+.message
+  +flex-container(row)
+  padding: 0 $m-base
+
+  :global(.avatar)
+    flex: 0 0 $m-base
+
+    +media-breakpoint-up(xxl)
+      flex: 0 0 $m-md
+
+.message:not(:first-of-type)
+  margin-bottom: $m-x
+
+  +media-breakpoint-up(xxl)
+    margin-bottom: $m-base
+
+.messageContentWrapper
+  +flex-container(row)
+  margin-bottom: $m-xs
+
+.messageBody
+  background-color: $color-background
+  border-radius: $border-radius-base $border-radius-base $border-radius-base 0
+  color: $color-font-primary
+  font-size: $font-size-xxs
+  font-weight: $font-weight-medium
+  max-width: 700px
+  padding: $m-x
+  word-break: break-word
+
+  +media-breakpoint-up(xxl)
+    font-size: $font-size-sm
+    padding: $m-sm
+
+.messageWrapper
+  +flex-container(row, false, flex-end)
+  gap: $m-xs
+  padding-right: $m-lg
+
+  :global(.avatar)
+    position: relative
+    top: -$m-base
+
+.footerDate
+  +flex-container(row)
+  height: $m-sm
+  column-gap: $m-x
+  color: $color-font-secondary
+  font-size: $font-size-xs
+  white-space: nowrap !important
+
+.alignRight
+  justify-content: flex-end
+
+  .messageWrapper
+    flex-direction: row-reverse
+    padding-right: 0
+    padding-left: $m-lg
+
+  .footerDate
+    justify-content: end
+    padding-left: $m-xs
+
+  .messageBody
+    border-radius: $border-radius-s $border-radius-s 0 $border-radius-s
+    word-wrap: break-word
+
+  .messageContentWrapper
+    justify-content: end
+
+.isAuthor
+  .messageBody
+    background-color: $color-primary-500
+    color: $color-white

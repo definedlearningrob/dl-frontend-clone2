@@ -1,0 +1,94 @@
+@import '@shared/stylesheets/config.sass'
+
+.inputWrapper
+  :global(.react-datepicker__input-container)
+    input
+      background-color: $color-white
+      border: 1px solid $color-border
+      border-radius: $border-radius-sm
+      color: $color-font-secondary
+      padding: $m-sm
+      width: 100%
+
+      &::placeholder
+        color: $color-neutral-400
+
+.calendarWrapper
+  font-family: 'Montserrat', "Helvetica Neue", helvetica, arial, sans-serif
+
+  :global(.react-datepicker__header)
+    border: 0
+    padding: 0
+
+  :global(.react-datepicker__month-container)
+    padding: $m-sm
+    background: $color-white
+
+  :global(.react-datepicker__month)
+    margin: 0
+
+  :global(.react-datepicker__month-text)
+    border: 1px solid transparent
+    font-size: $font-size-sm
+    color: $color-font-primary
+    padding: $m-xs
+
+    &:hover
+      background-color: transparent
+      border: 1px solid $color-neutral-300
+
+  :global(.react-datepicker__month-text--selected)
+    background-color: $color-primary-200
+    color: $color-primary-500
+    
+    &:hover
+      background-color: $color-primary-200
+      border: 1px solid $color-neutral-300
+
+  :global(.react-datepicker__month-text--keyboard-selected)
+    background-color: $color-primary-200
+    color: $color-primary-500
+
+  :global(.react-datepicker__month),
+  :global(.react-datepicker__header)
+    background-color: $color-white
+
+  :global(.react-datepicker__day-name)
+    color: $color-font-secondary
+    font-size: $font-size-xxs
+
+  :global(.react-datepicker__day)
+    font-size: $font-size-sm
+    color: $color-font-primary
+    border-radius: $border-radius-lg
+    border: 1px solid transparent
+
+    &:hover
+      border: 1px solid $color-neutral-300
+      background: none
+
+  :global(.react-datepicker__day),
+  :global(.react-datepicker__day-name)
+    height: $m-md
+    width: $m-md
+    line-height: $m-md
+    margin: 0
+
+  :global(.react-datepicker__day--selected)
+    background-color: $color-primary-200
+    color: $color-primary-500
+
+    &:hover
+      background-color: $color-primary-200
+
+  :global(.react-datepicker__day--keyboard-selected)
+    background-color: $color-primary-200
+    border-radius: $border-radius-lg
+    color: $color-primary-500
+  :global(.react-datepicker__day--outside-month)
+    color: $color-neutral-400
+  :global(.react-datepicker__day--disabled)
+    color: $color-font-secondary
+    opacity: 0.5
+  :global(.react-datepicker__day-names)
+    margin-bottom: 0

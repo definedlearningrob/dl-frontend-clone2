@@ -1,0 +1,11 @@
+@import '@shared/stylesheets/config.sass'
+
+.nameContainer
+  +flex-container(row, flex-start, center)
+  color: $color-primary-500
+  font-weight: $font-weight-bold
+
+.table
+  :global(-users)
+    :global(.shared-table__column-1)
+      padding: 0

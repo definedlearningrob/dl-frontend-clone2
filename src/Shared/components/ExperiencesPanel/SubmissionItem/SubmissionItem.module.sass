@@ -1,0 +1,56 @@
+@import '@shared/stylesheets/config.sass'
+
+$item-height: 58px
+$item-height-desktop: 72px
+$border: $border-width-xs solid $color-neutral-300
+
+.submissionItem
+  +flex-container(row, space-between, center)
+  height: $item-height
+  gap: $m-xs
+  min-width: 0
+  padding: 0 $m-base
+  line-height: $line-height-lg
+
+  &:first-child
+    border-top: $border
+
+  &:not(:last-child)
+    border-bottom: $border
+
+  +media-breakpoint-up(xxl)
+    height: $item-height-desktop
+    gap: $m-xs
+    padding: 0 $m-md
+
+.submissionTitle
+  +flex-container(row, false, center)
+  gap: $m-xxs
+  margin-bottom: 0
+  color: $color-primary-500
+  font-weight: $font-weight-medium
+
+.iconWrapper
+  +flex-container(row, center, center)
+  background-color: $color-primary-200
+  border-radius: $border-radius-base
+  padding: $m-xxs
+
+.submissionDetails
+  +flex-container(row, false, center)
+  gap: $m-xxs
+
+  +media-breakpoint-up(xxl)
+    gap: $m-xs
+
+.submissionContextTitle
+  +ellipsis
+  font-weight: $font-weight-medium
+  min-width: 0
+
+.itemContent
+  min-width: 0
+
+.date
+  color: $color-neutral-600
+  white-space: nowrap

@@ -1,0 +1,22 @@
+@import '@shared/stylesheets/config.sass'
+
+.heading
+  font-size: $font-size-sm
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-lg
+
+.contentWrapper
+  +scrollbar
+  font-size: $font-size-xs
+  line-height: $line-height-lg
+  height: 100%
+  flex-grow: 1
+  padding-right: $m-base
+
+  +media-breakpoint-up(xxxl)
+    padding-right: $m-md
+    font-size: $font-size-sm
+
+.content
+  +lists

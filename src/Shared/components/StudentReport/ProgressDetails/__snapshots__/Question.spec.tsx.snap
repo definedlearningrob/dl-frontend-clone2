@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Question component should not render options that are not in the answer 1`] = `
+<div>
+  <div>
+    <div
+      class="uppercase text-font-primary text-xxs font-bold leading-sm mb-xxs"
+    >
+      Test question
+    </div>
+    <div
+      class="mx-sm my-x flex gap-xs items-center"
+    >
+      <div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 bg-neutral-200 text-font-secondary rounded-sm p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-base w-base"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="leading-lg text-xxs font-medium"
+      >
+        <div
+          class="text-font-primary"
+        >
+          Option 1, Option 2
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Question component should render long text question correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="uppercase text-font-primary text-xxs font-bold leading-sm mb-xxs"
+    >
+      Test question
+    </div>
+    <div
+      class="mx-sm my-x flex gap-xs items-center"
+    >
+      <div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 bg-neutral-200 text-font-secondary rounded-sm p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-base w-base"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="leading-lg text-xxs font-medium"
+      >
+        <div
+          class="text-font-primary"
+        >
+          Test long answer
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Question component should render multiple choice dropdown question correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="uppercase text-font-primary text-xxs font-bold leading-sm mb-xxs"
+    >
+      Test question
+    </div>
+    <div
+      class="mx-sm my-x flex gap-xs items-center"
+    >
+      <div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 bg-neutral-200 text-font-secondary rounded-sm p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-base w-base"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="leading-lg text-xxs font-medium"
+      >
+        <div
+          class="text-font-primary"
+        >
+          Option 1, Option 2
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Question component should render multiple choice question correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="uppercase text-font-primary text-xxs font-bold leading-sm mb-xxs"
+    >
+      Test question
+    </div>
+    <div
+      class="mx-sm my-x flex gap-xs items-center"
+    >
+      <div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 bg-neutral-200 text-font-secondary rounded-sm p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-base w-base"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="leading-lg text-xxs font-medium"
+      >
+        <div
+          class="text-font-primary"
+        >
+          Option 1, Option 3, Option 4
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Question component should render nothing when question is empty 1`] = `<div />`;
+
+exports[`Question component should render placeholders if answers are not passed 1`] = `
+<div>
+  <div>
+    <div
+      class="uppercase text-font-primary text-xxs font-bold leading-sm mb-xxs"
+    >
+      Test question
+    </div>
+    <div
+      class="mx-sm my-x flex gap-xs items-center"
+    >
+      <div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 bg-neutral-200 text-font-secondary rounded-sm p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-base w-base"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="leading-lg text-xxs font-medium"
+      >
+        <div
+          class="text-font-primary"
+        >
+          <span
+            class="italic text-font-secondary font-medium"
+          >
+            This question has not been answered yet.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Question component should render short text question correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="uppercase text-font-primary text-xxs font-bold leading-sm mb-xxs"
+    >
+      Test question
+    </div>
+    <div
+      class="mx-sm my-x flex gap-xs items-center"
+    >
+      <div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 bg-neutral-200 text-font-secondary rounded-sm p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-base w-base"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="leading-lg text-xxs font-medium"
+      >
+        <div
+          class="text-font-primary"
+        >
+          Test short answer
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Question component should render single choice question correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="uppercase text-font-primary text-xxs font-bold leading-sm mb-xxs"
+    >
+      Test question
+    </div>
+    <div
+      class="mx-sm my-x flex gap-xs items-center"
+    >
+      <div>
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 bg-neutral-200 text-font-secondary rounded-sm p-xxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-base w-base"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="leading-lg text-xxs font-medium"
+      >
+        <div
+          class="text-font-primary"
+        >
+          Option 2
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

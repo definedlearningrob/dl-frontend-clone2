@@ -1,0 +1,19 @@
+@import '@shared/stylesheets/config'
+
+.parsedDate
+  font-size: $font-size-xs
+  line-height: $line-height-lg
+  margin: 0
+
+.dateWrapper
+  +flex-container(row, center, center)
+  min-width: fit-content
+
+.cardHeading
+  +ellipsis-multiline(1)
+  font-size: $font-size-sm
+  line-height: $line-height-base
+  margin-bottom: $m-xxs
+
+  &:disabled
+    background-color: $color-background

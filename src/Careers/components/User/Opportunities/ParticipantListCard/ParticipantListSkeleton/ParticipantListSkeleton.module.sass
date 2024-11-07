@@ -1,0 +1,32 @@
+@import '@shared/stylesheets/config.sass'
+
+$list-item-height: 30px
+$list-item-height-xxxl: 38px
+
+.skeletonCard
+  +flex-container(column)
+  gap: $m-base
+  padding: $m-base
+
+  +media-breakpoint-up(xxxl)
+    gap: $m-md
+    padding: $m-md
+
+.cardTitle
+  font-size: $font-size-sm
+  margin-bottom: 0
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-lg
+    margin-bottom: $m-xs
+
+.listHeading
+  height: $m-x
+  padding: 0
+
+.listItem
+  height: $list-item-height
+  padding: 0
+
+  +media-breakpoint-up(xxxl)
+    height: $list-item-height-xxxl

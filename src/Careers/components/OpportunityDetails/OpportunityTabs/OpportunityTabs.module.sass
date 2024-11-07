@@ -1,0 +1,42 @@
+@import '@shared/stylesheets/config.sass'
+
+.tab
+  &#{&}
+    border: none
+    font-size: $font-size-xxs
+    font-weight: $font-weight-medium
+    line-height: $line-height-lg
+    border-radius: $m-xs
+    padding: $m-xs $m-sm
+
+    +media-breakpoint-up(xxxl)
+      font-size: $font-size-xs
+
+.selectedTab
+  background-color: $color-primary-200
+
+.tabsContainer
+  min-height: 0
+  flex: 1 1 auto
+
+.tabsWrapper
+  +flex-container(column)
+  height: 100%
+
+.tabs
+  &#{&}
+    margin-bottom: $m-sm
+
+    +media-breakpoint-up(xxxl)
+      margin-bottom: $m-base
+
+.opportunityDescription
+  +flex-container(column)
+  flex-basis: 100%
+  min-height: 0
+
+  &#{&}
+    padding: $m-base 0 $m-base $m-base
+
+    +media-breakpoint-up(xxxl)
+      padding: $m-md 0 $m-md $m-md

@@ -1,0 +1,106 @@
+@import '@shared/stylesheets/config.sass'
+
+@keyframes toast-in-right
+  0%
+    transform: translateX(100%)
+  100%
+    translate: translateX(0)
+
+@keyframes toast-in-left
+  0%
+    transform: translateX(-100%)
+  100%
+    translate: translateX(0)
+
+.notification-container
+  animation: toast-in-right 1.1s
+  cursor: auto
+  min-height: $m-xl * 2
+  padding: 0
+  position: fixed
+  right: 115px
+  top: 65px
+  width: $announce-notification-width
+  z-index: $z-highest
+
+  &.-hide
+    display: none
+
+.notification
+  +box-shadow-400($color-black)
+  background-color: $color-white
+  border-radius: $m-xxs
+  border: solid 1px $color-border
+  cursor: pointer
+  height: 100%
+  margin: 0
+  overflow: hidden
+  padding: 0
+  pointer-events: auto
+  position: relative
+  text-align: center
+  transition: 0.3s ease
+  width: 100%
+
+.toast
+  background-color: $color-white
+  color: $color-primary-500
+  height: 100%
+  margin-bottom: $m-x
+  padding: $m-base
+  width: $announce-notification-width
+
+.push-notification
+  &__container
+    height: 100%
+    padding: $m-base
+    width: 100%
+
+  &__text
+    align-items: center
+    justify-content: center
+    margin-bottom: $m-xxs
+
+  &__header
+    align-items: center
+    display: flex
+    font-size: $font-size-base
+    margin-bottom: $m-x
+
+  &__header-icon
+    color: $color-primary-500
+    margin-right: $m-xs
+
+  &__body-option
+    +ellipsis-multiline(2)
+    color: $color-font-primary
+    line-height: $line-height-lg
+    text-align: left
+
+    &.-center
+      text-align: center
+
+  &__body-read-more
+    color: $color-primary-500
+    display: flex
+    justify-content: flex-end
+    margin-top: $m-x
+    width: 100%
+
+  &__body-read-more-icon
+    margin-left: $m-xxs
+
+  &__body-button-wrapper
+    +flex-container(row, center, center)
+    margin-top: $m-xs
+
+  &__body-button
+    border-radius: $m-xxs
+    display: flex
+    justify-content: center
+    padding: $m-xs 14px $m-xs 17px
+    width: $course-card-width
+
+    span
+      align-items: center
+      justify-content: center

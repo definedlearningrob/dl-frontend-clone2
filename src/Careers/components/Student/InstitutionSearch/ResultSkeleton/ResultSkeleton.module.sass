@@ -1,0 +1,20 @@
+@import '@shared/stylesheets/config.sass'
+
+$skeleton-height: 357px
+$skeleton-height-xxl: 382px
+
+.skeletonContainer
+  display: grid
+  gap: $m-sm
+  grid-template-columns: repeat(4, 1fr)
+  margin-top: $m-sm
+
+  +media-breakpoint-up(xxxl)
+    gap: $m-base
+    grid-template-columns: repeat(6, 1fr)
+
+.skeletonWrapper
+  height: $skeleton-height
+
+  +media-breakpoint-up(xxxl)
+    height: $skeleton-height-xxl

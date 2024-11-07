@@ -1,0 +1,416 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VirtualInternshipLessonContent renders correctly 1`] = `
+<div>
+  <div>
+    <p
+      class="resourceName"
+    >
+      Test opportunity
+    </p>
+    <h4
+      class="lessonName"
+    >
+      Virtual internship lesson
+    </h4>
+    <div
+      class="presentationsWrapper"
+    >
+      <div
+        class="card lessonCard"
+        data-testid="lesson-element-card"
+        id="1146-ExternalPresentation"
+      >
+        <div
+          class="cardHeader"
+        >
+          <div
+            class="flex items-center gap-x xxxl:gap-sm"
+          >
+            <h5
+              class="cardTitle"
+            >
+              Overview
+            </h5>
+          </div>
+        </div>
+        <div
+          class="lesson-item-card !p-0 !mb-0"
+          data-testid="lesson-item-presentation"
+          id="ExternalPresentation1146"
+        >
+          <div
+            class="h-[420px] w-full transition-all relative"
+          >
+            <div
+              class="absolute inset-0 hidden"
+            />
+            <iframe
+              allowfullscreen=""
+              class="rounded-sm w-full h-full border-0"
+              sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+              src="http://definedlearning.com/"
+              title="video"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class=""
+    >
+      <div
+        class="lessonItems"
+      >
+        <div
+          class="card lessonCard"
+          data-testid="lesson-element-card"
+          id="1202-Assignment"
+        >
+          <div
+            class="cardHeader"
+          >
+            <div
+              class="flex items-center gap-x xxxl:gap-sm"
+            >
+              <h5
+                class="cardTitle"
+              >
+                Ice Breaker Assignment
+              </h5>
+            </div>
+            <div
+              class="flex gap-xs xxxl:gap-sm items-center"
+            >
+              <button
+                class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+                data-testid="button"
+                type="button"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <span
+                  class="items-center flex justify-center gap-xs"
+                >
+                  Rubrics
+                </span>
+              </button>
+            </div>
+          </div>
+          <p
+            class="assignmentDescription"
+          >
+            <p>
+              We all know how important personal interaction and tight bonds are in our lives. Getting to know each other is important for children and teens so they can better play and problem solve together.  Ice breakers can be an invaluable activity for any group to help build relationships.
+            </p>
+            
+
+            <p>
+              <br />
+              You are to create an ice breaker activity or game for the 10-15 year olds that would allow them to get to know each other.  Be sure that it is interactive and allows each person to get to know many of the others.
+            </p>
+          </p>
+          <div
+            class="filesUploadSection"
+          >
+            <div
+              class="dropzoneWrapper"
+            >
+              <div
+                class="wrapper"
+              >
+                <header
+                  class="header"
+                >
+                  <button
+                    class="wrapper selected"
+                    type="button"
+                  >
+                    <div
+                      class="icon icon -sm-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text"
+                    >
+                      File
+                    </span>
+                  </button>
+                  <button
+                    class="wrapper"
+                    type="button"
+                  >
+                    <div
+                      class="icon icon -sm-size"
+                      data-testid="icon"
+                    >
+                      <div />
+                    </div>
+                    <span
+                      class="text"
+                    >
+                      Google Drive
+                    </span>
+                  </button>
+                </header>
+                <div
+                  class="bg-center bg-cover bg-white flex items-center justify-center group rounded-sm cursor-pointer border-2 border-dashed border-neutral-300 hover:bg-neutral-200 hover:border-primary-500 relative p-0 pt-[50%] text-center text-xs xxxl:text-sm !pt-0 h-[120px]"
+                  data-testid="drop-container"
+                >
+                  <div
+                    class="absolute inset-0"
+                  >
+                    <input
+                      autocomplete="off"
+                      data-testid="drop-zone-input"
+                      id="drop-zone-input-undefined"
+                      multiple=""
+                      style="display: none;"
+                      tabindex="-1"
+                      type="file"
+                    />
+                    <div
+                      class="flex flex-col justify-center items-center h-full p-sm"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 p-xs mb-xs text-primary-500 bg-primary-200 rounded-full group-hover:bg-white p-sm"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-base w-base"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        class="text-primary-500 m-0 z-lowest"
+                      >
+                        Drop or 
+                        <span
+                          class="text-primary-500 underline"
+                        >
+                          choose file
+                        </span>
+                         to upload
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="submissionFooter"
+          >
+            <div
+              class="submissionStatus"
+            >
+              <div
+                class="kicker md default"
+              >
+                Assignment status:
+              </div>
+              <div
+                class="submissionStatusValue"
+              >
+                <div
+                  class="font-medium leading-lg flex items-center whitespace-nowrap bg-neutral-200 text-font-secondary rounded-sm p-xxs text-xs gap-xxs"
+                >
+                  <div
+                    class="flex"
+                  >
+                    <div
+                      class="flex align-center justify-center grow-0 shrink-0"
+                      data-testid="icon"
+                    >
+                      <div
+                        class="h-sm w-sm"
+                      />
+                    </div>
+                  </div>
+                  Not started
+                </div>
+              </div>
+            </div>
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+              data-testid="status-submit-button"
+              disabled=""
+              type="button"
+            >
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Submit
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="card lessonCard"
+          data-testid="lesson-element-card"
+          id="2003-Text"
+        >
+          <div
+            class="cardHeader"
+          >
+            <div
+              class="flex items-center gap-x xxxl:gap-sm"
+            >
+              <h5
+                class="cardTitle"
+              >
+                Knowledge
+              </h5>
+            </div>
+          </div>
+          <p
+            class="textContent"
+          >
+            <div>
+              Important knowledge needed to succeed in this career
+            </div>
+            <ul>
+              <li>
+                <b>
+                  Computers and Electronics - 
+                </b>
+                Knowledge of circuit boards, processors, chips, electronic equipment, and computer hardware and software, including applications and programming.
+              </li>
+              <li>
+                <b>
+                  English Language - 
+                </b>
+                Knowledge of the structure and content of the English language including the meaning and spelling of words, rules of composition, and grammar.
+              </li>
+              <li>
+                <b>
+                  Mathematics - 
+                </b>
+                Knowledge of arithmetic, algebra, geometry, calculus, statistics, and their applications.
+              </li>
+              <li>
+                <b>
+                  Communications and Media - 
+                </b>
+                Knowledge of media production, communication, and dissemination techniques and methods. This includes alternative ways to inform and entertain via written, oral, and visual media.
+              </li>
+              <li>
+                <b>
+                  Customer and Personal Service - 
+                </b>
+                Knowledge of principles and processes for providing customer and personal services. This includes customer needs assessment, meeting quality standards for services, and evaluation of customer satisfaction.
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div
+          class="card lessonCard"
+          data-testid="lesson-element-card"
+          id="4-CheckInGroup"
+        >
+          <h5
+            class="checkInItemName"
+          >
+            GRAS Check-In Questions 
+          </h5>
+          <div
+            class="questionsWrapper"
+          >
+            <form
+              action="#"
+            >
+              <div
+                class="textarea"
+              >
+                <label
+                  class="w-full"
+                >
+                  <div
+                    class="text-sm xxxl:text-base mb-sm font-bold"
+                  >
+                    What is the problem we are trying to solve?
+                  </div>
+                  <textarea
+                    class="scrollbar textareaInput"
+                    disabled=""
+                    name="answer"
+                    placeholder="Type here..."
+                  />
+                </label>
+                <div
+                  class="inputErrorMessage"
+                />
+              </div>
+              <button
+                class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] ms-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] -min-width-md border text-white"
+                data-testid="button"
+                disabled=""
+                type="button"
+              >
+                <span
+                  class="items-center flex justify-center gap-xs"
+                >
+                  Save
+                </span>
+              </button>
+            </form>
+            <form
+              action="#"
+            >
+              <div
+                class="textarea"
+              >
+                <label
+                  class="w-full"
+                >
+                  <div
+                    class="text-sm xxxl:text-base mb-sm font-bold"
+                  >
+                    How might you solve the problem?
+                  </div>
+                  <textarea
+                    class="scrollbar textareaInput"
+                    disabled=""
+                    name="answer"
+                    placeholder="Type here..."
+                  />
+                </label>
+                <div
+                  class="inputErrorMessage"
+                />
+              </div>
+              <button
+                class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] ms-auto -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] -min-width-md border text-white"
+                data-testid="button"
+                disabled=""
+                type="button"
+              >
+                <span
+                  class="items-center flex justify-center gap-xs"
+                >
+                  Save
+                </span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

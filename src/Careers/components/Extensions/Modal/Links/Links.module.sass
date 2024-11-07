@@ -1,0 +1,34 @@
+@import '@shared/stylesheets/config.sass'
+
+.linkRow
+  +flex-container(row, flex-start, center)
+
+.linkName
+  flex: 2
+
+.linkUrl
+  flex: 4
+  margin-left: $m-xs
+
+.linkRemove
+  flex: 1
+  margin-left: $m-xs
+
+.title
+  display: inline-block
+  margin-bottom: $m-sm
+
+.wrapper
+  margin: 0
+  h4
+    margin: 0
+    font-size: $font-size-base
+
+:global(.accordion__button)
+  &#{&}
+    border: 1px solid $color-border
+  &:global(.-active)
+    border-color: transparent
+
+.links
+  margin-top: $m-sm

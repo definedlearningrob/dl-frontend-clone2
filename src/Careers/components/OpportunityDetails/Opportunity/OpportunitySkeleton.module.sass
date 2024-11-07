@@ -1,0 +1,45 @@
+@import '@shared/stylesheets/config.sass'
+
+$labels-wrapper-width: 360px
+$opportunity-image-height: 144px
+$opportunity-image-height-xxl: 240px
+
+.card
+  +flex-container(row)
+  gap: $m-base
+  padding: $m-base
+
+  +media-breakpoint-up(xxxl)
+    gap: $m-md
+    padding: $m-md
+
+  .image
+    width: 100%
+
+.imageWrapper
+  height: $opportunity-image-height
+  flex: 0 0 37%
+
+  +media-breakpoint-up(xxxl)
+    height: $opportunity-image-height-xxl
+
+.header
+  +flex-container(row, space-between, flex-end)
+  margin-bottom: $m-sm
+
+.opportunityDetails
+  flex: 1
+
+.heading
+  margin-bottom: $m-xs
+
+  +media-breakpoint-up(xxxl)
+    margin-bottom: $m-sm
+
+.labelsWrapper
+  margin-bottom: $m-sm
+  width: $labels-wrapper-width
+
+.metadata
+  +flex-container(row, false, center)
+  margin-bottom: $m-xxs

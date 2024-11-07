@@ -1,0 +1,30 @@
+@import '@shared/stylesheets/config'
+
+$input-min-height: 96px
+
+.textarea
+  composes: textarea from global
+
+.textareaInput
+  composes: textarea__input from global
+  margin-bottom: $m-xs
+  min-height: $input-min-height
+
+  &:disabled
+    background-color: $color-background
+    cursor: not-allowed
+
+.inputErrorMessage
+  color: $color-danger-500
+  font-size: $font-size-xs
+  height: $m-sm
+  margin: 0
+
+.textAreaLabel
+  font-size: $font-size-sm
+  font-weight: $font-weight-bold
+  text-transform: initial
+  margin-bottom: $m-base
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-base

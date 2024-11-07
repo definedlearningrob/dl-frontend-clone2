@@ -1,0 +1,47 @@
+@import '@shared/stylesheets/config'
+
+$image-width: 150px
+$image-height: 100px
+
+.imageWrapper
+  +flex-container(row, center, center)
+  cursor: default
+
+.iconWrapper
+  +flex-container(row, center, center)
+  background-color: $color-background
+  border: 2px dashed transparent
+  border-radius: $border-radius-xs
+  cursor: pointer
+  min-height: $image-height
+  max-height: $image-height
+  max-width: $image-width
+  min-width: $image-width
+  padding: $m-xs
+
+.icon
+  color: $color-white
+  height: 50%
+  width: 50%
+
+.selectedContent
+  border-color: $color-primary-600
+
+.fill
+  background-position: center center
+  background-size: cover
+
+.contain
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: contain
+
+.progressWrapper
+  margin: auto
+  width: 550px
+
+.hiddenBackground
+  background-color: transparent
+
+.imageDetector
+  display: none

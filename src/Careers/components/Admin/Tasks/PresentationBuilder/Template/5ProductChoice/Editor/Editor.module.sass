@@ -1,0 +1,51 @@
+@import '@shared/stylesheets/config'
+
+.contentWrapper
+  flex: 1 0 50%
+
+.title
+  :global(.presentation-textcontainer)
+    margin-left: 0 !important
+    margin-right: 0 !important
+    margin-bottom: $m-md !important
+
+.onDark
+  background-color: $color-white !important
+  border-color: $color-primary-500
+
+.btnWrapper
+  border: 2px dashed transparent
+  border-radius: $border-radius-sm
+  padding: $m-xxs
+  align-self: center
+
+.textWrapper
+  height: 100%
+
+  :global(.presentation-textcontainer)
+    margin: 0!important
+    height: 100%
+
+.noMargin
+  h4
+    margin-bottom: 0
+
+.description
+  height: 100%
+
+.button
+  white-space: nowrap
+  width: 100%
+
+.selectedOnDark
+  border-color: $color-white
+
+.selectedOnLight
+  border-color: $color-primary-500
+
+.alignLeft
+  text-align: left
+
+.flex
+  +flex-container(row, space-between, stretch)
+  margin-bottom: $m-sm

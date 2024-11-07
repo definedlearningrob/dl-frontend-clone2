@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lessons should render a list of lessons correctly 1`] = `
+<div>
+  <section
+    class="course-lessons"
+  >
+    <h3>
+      Lessons
+    </h3>
+    <div
+      class="course-lessons__lessons"
+    >
+      <a
+        aria-label="Lesson name"
+        class="card"
+        href="/courses/123/lessons/1"
+      >
+        <div
+          class="step started"
+        >
+          1
+        </div>
+        <div
+          class="imageWrapper"
+        >
+          <img
+            alt="Lesson name"
+            class="image"
+            src="thumbnail-url"
+          />
+        </div>
+        <section
+          class="flex flex-col justify-between flex-1 pt-xs px-xs pb-xxs min-h-[100px]"
+        >
+          <h5
+            class="name"
+          >
+            Lesson name
+          </h5>
+          <p
+            class="progressValue"
+          >
+            50%
+          </p>
+        </section>
+        <section
+          class="relative bg-primary-200 rounded-b-sm text-primary-500 before:h-xxxs before:bg-neutral-400 before:inset-0 before:absolute bg-secondary-200 text-secondary-500"
+        >
+          <div
+            class="progressBar started"
+            style="width: 50%;"
+          />
+          <div
+            class="flex items-center text-xxs p-xs xxxl:text-xs xxxl:py-sm xxxl:px-xs leading-lg"
+          >
+            Continue
+            <div
+              class="icon footerIcon -xs-size"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+          </div>
+        </section>
+      </a>
+      <a
+        aria-label="Lesson name 2"
+        class="card"
+        href="/courses/123/lessons/2"
+      >
+        <div
+          class="step started"
+        >
+          2
+        </div>
+        <div
+          class="imageWrapper"
+        >
+          <img
+            alt="Lesson name 2"
+            class="image"
+            src="thumbnail-url"
+          />
+        </div>
+        <section
+          class="flex flex-col justify-between flex-1 pt-xs px-xs pb-xxs min-h-[100px]"
+        >
+          <h5
+            class="name"
+          >
+            Lesson name 2
+          </h5>
+          <p
+            class="progressValue"
+          >
+            50%
+          </p>
+        </section>
+        <section
+          class="relative bg-primary-200 rounded-b-sm text-primary-500 before:h-xxxs before:bg-neutral-400 before:inset-0 before:absolute bg-secondary-200 text-secondary-500"
+        >
+          <div
+            class="progressBar started"
+            style="width: 50%;"
+          />
+          <div
+            class="flex items-center text-xxs p-xs xxxl:text-xs xxxl:py-sm xxxl:px-xs leading-lg"
+          >
+            Continue
+            <div
+              class="icon footerIcon -xs-size"
+              data-testid="icon"
+            >
+              <div />
+            </div>
+          </div>
+        </section>
+      </a>
+    </div>
+  </section>
+</div>
+`;

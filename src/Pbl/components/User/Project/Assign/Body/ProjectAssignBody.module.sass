@@ -1,0 +1,30 @@
+@import '@shared/stylesheets/config.sass'
+
+.sectionWrapper
+  color: $color-primary-500
+
+.header
+  +flex-container(row, space-between, flex-start)
+
+.checkbox
+  display: inline-block
+  margin: 0
+  padding: 0
+
+.listItem
+  +flex-container(row, flex-start, center)
+  margin-bottom: $m-sm + $m-xxs
+
+  svg
+    color: $color-primary-500
+
+.highlight
+  background-color: $color-danger-500
+
+.footer
+  +flex-container(row, center, center)
+  gap: $m-sm
+  margin-top: $m-sm
+
+.unorderedList
+  padding-left: $m-lg + $m-xs

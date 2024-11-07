@@ -1,0 +1,730 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OpportunitiesCarousel should render properly with empty state 1`] = `
+<div>
+  <div
+    class="opportunitiesCarousel emptyState"
+  >
+    <div
+      class="flex flex-col justify-center items-center bg-white rounded-sm height-[305px] w-full"
+    >
+      <div
+        class="flex flex-col justify-center items-center mb-sm [&>*]:m-xxs"
+      >
+        <div
+          data-testid="empty-state-icon"
+        />
+      </div>
+      <h6
+        class="mb-xs"
+      >
+        Current and Favorites area is empty
+      </h6>
+      <p>
+        There is no data in this section yet.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`OpportunitiesCarousel should render properly with passed data 1`] = `
+<div>
+  <div
+    class="opportunitiesCarousel"
+  >
+    <h5
+      class="cardHeader"
+    >
+      Current and Favorites
+      <span
+        class="opportunitiesCounter"
+      >
+         (
+        4
+        )
+      </span>
+    </h5>
+    <p
+      class="subHeading"
+    >
+      All In-progress and favorited opportunities
+    </p>
+    <div
+      class="list"
+    >
+      <div
+        class="horizontal-menu"
+        style="align-items: center; display: flex; user-select: none;"
+      >
+        <div
+          class="scroll-menu-arrow scroll-menu-arrow--disabled"
+        >
+          <div
+            class="left-arrow relative h-full flex items-center leftArrowWrapper neutralBackgroundLeft"
+          >
+            <button
+              class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md arrow"
+              data-testid="icon-button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-base w-base"
+                  />
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          class="menu-wrapper"
+          style="overflow: hidden; user-select: none;"
+        >
+          <div
+            class="menu-wrapper--inner"
+            style="transform: translate3d(0px, 0, 0); transition: transform 0.4s; white-space: nowrap; text-align: left;"
+          >
+            <div
+              class="menu-item-wrapper "
+              role="button"
+              style="display: inline-block;"
+              tabindex="0"
+            >
+              <a
+                aria-label="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+                class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card notAccepted opportunityCard verticalCard"
+                href="/opportunities/1"
+              >
+                <div
+                  class="relative"
+                >
+                  <div
+                    class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+                  >
+                    <button
+                      class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                      data-testid="icon-button"
+                      type="button"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </button>
+                    <img
+                      alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+                      class="h-full mx-auto object-cover"
+                      src="https://picsum.photos/600/300"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="cardContent"
+                >
+                  <section
+                    class="body p-x xxxl:p-sm"
+                  >
+                    <div
+                      class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                    >
+                      <div>
+                        <span
+                          data-state="closed"
+                        >
+                          <h6
+                            class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                          >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                          </h6>
+                        </span>
+                      </div>
+                      <div
+                        class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-danger-100 text-danger-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                      >
+                        Not accepted
+                      </div>
+                    </div>
+                    <span
+                      class="metadata"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                      <span
+                        class="metadataLabel"
+                      >
+                        Type:
+                      </span>
+                      Internship
+                    </span>
+                    <span
+                      class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                    >
+                      <div
+                        class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                        data-testid="icon"
+                      >
+                        <div />
+                      </div>
+                      <span
+                        class="text-font-secondary mr-xxs"
+                      >
+                        Period:
+                      </span>
+                      <span
+                        data-state="closed"
+                      >
+                        <span
+                          class="line-clamp-1"
+                        >
+                          Feb 3, 2023 - Apr 3, 2023
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                    >
+                      <div
+                        class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                        data-testid="icon"
+                      >
+                        <div />
+                      </div>
+                      <span
+                        class="text-font-secondary mr-xxs"
+                      >
+                        Deadline:
+                      </span>
+                      Mar 3, 2023
+                    </span>
+                  </section>
+                  <div
+                    class="footer px-sm py-x"
+                  >
+                    Learn more
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div
+              class="menu-item-wrapper "
+              role="button"
+              style="display: inline-block;"
+              tabindex="0"
+            >
+              <a
+                aria-label="Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel risus commodo viverra maecenas"
+                class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card inProgress opportunityCard verticalCard"
+                href="/opportunities/2"
+              >
+                <div
+                  class="relative"
+                >
+                  <div
+                    class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+                  >
+                    <button
+                      class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                      data-testid="icon-button"
+                      type="button"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </button>
+                    <img
+                      alt="Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel risus commodo viverra maecenas"
+                      class="object-cover w-full h-full"
+                      src="https://picsum.photos/600/300"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="cardContent"
+                >
+                  <section
+                    class="body p-x xxxl:p-sm"
+                  >
+                    <div
+                      class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                    >
+                      <div>
+                        <span
+                          data-state="closed"
+                        >
+                          <h6
+                            class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                          >
+                            Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel risus commodo viverra maecenas
+                          </h6>
+                        </span>
+                      </div>
+                      <div
+                        class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-secondary-200 text-secondary-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                      >
+                        In-progress
+                      </div>
+                    </div>
+                    <span
+                      class="metadata"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                      <span
+                        class="metadataLabel"
+                      >
+                        Type:
+                      </span>
+                      Internship
+                    </span>
+                    <span
+                      class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                    >
+                      <div
+                        class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                        data-testid="icon"
+                      >
+                        <div />
+                      </div>
+                      <span
+                        class="text-font-secondary mr-xxs"
+                      >
+                        Period:
+                      </span>
+                      <span
+                        data-state="closed"
+                      >
+                        <span
+                          class="line-clamp-1"
+                        >
+                          Feb 3, 2023 - Apr 3, 2023
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                    >
+                      <div
+                        class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                        data-testid="icon"
+                      >
+                        <div />
+                      </div>
+                      <span
+                        class="text-font-secondary mr-xxs"
+                      >
+                        Deadline:
+                      </span>
+                      Mar 3, 2023
+                    </span>
+                  </section>
+                  <div
+                    class="footer px-sm py-x"
+                  >
+                    Continue
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div
+              class="menu-item-wrapper "
+              role="button"
+              style="display: inline-block;"
+              tabindex="0"
+            >
+              <a
+                aria-label="Libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam"
+                class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card accepted opportunityCard verticalCard"
+                href="/opportunities/3"
+              >
+                <div
+                  class="relative"
+                >
+                  <div
+                    class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+                  >
+                    <button
+                      class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                      data-testid="icon-button"
+                      type="button"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </button>
+                    <img
+                      alt="Libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam"
+                      class="h-full mx-auto object-cover"
+                      src="https://picsum.photos/600/300"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="cardContent"
+                >
+                  <section
+                    class="body p-x xxxl:p-sm"
+                  >
+                    <div
+                      class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                    >
+                      <div>
+                        <span
+                          data-state="closed"
+                        >
+                          <h6
+                            class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                          >
+                            Libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam
+                          </h6>
+                        </span>
+                      </div>
+                      <div
+                        class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-success-100 text-success-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                      >
+                        Accepted
+                      </div>
+                    </div>
+                    <span
+                      class="metadata"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                      <span
+                        class="metadataLabel"
+                      >
+                        Type:
+                      </span>
+                      Internship
+                    </span>
+                    <span
+                      class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                    >
+                      <div
+                        class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                        data-testid="icon"
+                      >
+                        <div />
+                      </div>
+                      <span
+                        class="text-font-secondary mr-xxs"
+                      >
+                        Period:
+                      </span>
+                      <span
+                        data-state="closed"
+                      >
+                        <span
+                          class="line-clamp-1"
+                        >
+                          Feb 3, 2023 - Apr 3, 2023
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                    >
+                      <div
+                        class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                        data-testid="icon"
+                      >
+                        <div />
+                      </div>
+                      <span
+                        class="text-font-secondary mr-xxs"
+                      >
+                        Deadline:
+                      </span>
+                      Mar 3, 2023
+                    </span>
+                  </section>
+                  <div
+                    class="footer px-sm py-x"
+                  >
+                    Learn more
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div
+              class="menu-item-wrapper "
+              role="button"
+              style="display: inline-block;"
+              tabindex="0"
+            >
+              <a
+                aria-label="Turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod"
+                class="bg-white rounded-sm border border-neutral-300 text-font-primary transition-[box-shadow] hover:shadow-300 hover:text-font-primary group/card focus-visible:outline focus-visible:outline-1 focus-visible:outline-primary-500 card notAccepted opportunityCard verticalCard"
+                href="/opportunities/4"
+              >
+                <div
+                  class="relative"
+                >
+                  <div
+                    class="rounded-t-sm overflow-hidden shrink-0 grow-0 before:absolute before:bg-neutral-800/[32%] before:inset-0 before:group-focus-visible/card:!bg-neutral-800/[16%] before:group-hover/card:!bg-neutral-800/[16%] aspect-[2.45/1] xxxl:aspect-[2.54/1] relative"
+                  >
+                    <button
+                      class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 h-base w-base  iconButton favoriteButton focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 md"
+                      data-testid="icon-button"
+                      type="button"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                    </button>
+                    <img
+                      alt="Turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod"
+                      class="h-full mx-auto object-cover"
+                      src="https://picsum.photos/600/300"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="cardContent"
+                >
+                  <section
+                    class="body p-x xxxl:p-sm"
+                  >
+                    <div
+                      class="flex justify-between gap-xxs mb-x xxxl:mb-sm"
+                    >
+                      <div>
+                        <span
+                          data-state="closed"
+                        >
+                          <h6
+                            class="line-clamp-2 text-xs mb-0 whitespace-break-spaces"
+                          >
+                            Turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod
+                          </h6>
+                        </span>
+                      </div>
+                      <div
+                        class="font-medium leading-lg flex items-center whitespace-nowrap self-start bg-danger-100 text-danger-500 p-xxxs text-xxs rounded-xs gap-xxxs"
+                      >
+                        Not accepted
+                      </div>
+                    </div>
+                    <span
+                      class="metadata"
+                    >
+                      <div
+                        class="flex"
+                      >
+                        <div
+                          class="flex align-center justify-center grow-0 shrink-0 text-font-secondary mr-xxs xxxl:mr-xs"
+                          data-testid="icon"
+                        >
+                          <div
+                            class="h-sm w-sm"
+                          />
+                        </div>
+                      </div>
+                      <span
+                        class="metadataLabel"
+                      >
+                        Type:
+                      </span>
+                      Internship
+                    </span>
+                    <span
+                      class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                    >
+                      <div
+                        class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                        data-testid="icon"
+                      >
+                        <div />
+                      </div>
+                      <span
+                        class="text-font-secondary mr-xxs"
+                      >
+                        Period:
+                      </span>
+                      <span
+                        data-state="closed"
+                      >
+                        <span
+                          class="line-clamp-1"
+                        >
+                          Feb 3, 2023 - Apr 3, 2023
+                        </span>
+                      </span>
+                    </span>
+                    <span
+                      class="flex items-center text-xxs mb-xxs last:mb-0 xxxl:text-xs"
+                    >
+                      <div
+                        class="icon text-font-secondary mr-xxs xxxl:mr-xs -xs-size"
+                        data-testid="icon"
+                      >
+                        <div />
+                      </div>
+                      <span
+                        class="text-font-secondary mr-xxs"
+                      >
+                        Deadline:
+                      </span>
+                      Mar 3, 2023
+                    </span>
+                  </section>
+                  <div
+                    class="footer px-sm py-x"
+                  >
+                    Learn more
+                    <div
+                      class="flex"
+                    >
+                      <div
+                        class="flex align-center justify-center grow-0 shrink-0"
+                        data-testid="icon"
+                      >
+                        <div
+                          class="h-sm w-sm"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="scroll-menu-arrow scroll-menu-arrow--disabled"
+        >
+          <div
+            class="right-arrow relative h-full flex items-center rightArrowWrapper neutralBackgroundRight"
+          >
+            <button
+              class="flex items-center justify-center transition-colors rounded-sm border border-transparent cursor-pointer focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-primary-500 bg-white hover:bg-primary-200 w-md h-md arrow"
+              data-testid="icon-button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-base w-base"
+                  />
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

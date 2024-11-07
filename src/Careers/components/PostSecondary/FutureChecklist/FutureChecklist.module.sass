@@ -1,0 +1,31 @@
+@import '@shared/stylesheets/config.sass'
+
+$marker-size: 32px
+$marker-size-xxl: 40px
+
+.list
+  +scrollbar
+  padding-right: $m-x
+  margin-bottom: 0
+
+  +media-breakpoint-up(xxl)
+    padding-right: $m-sm
+
+.listDivider
+  +kicker($font-size-xxs)
+  margin: $m-base 0 $m-sm 0
+  color: $color-neutral-800
+  font-weight: $font-weight-bold
+
+.customMarker
+  flex: 0 0 $marker-size
+  align-self: start
+  border-radius: $border-radius-sm
+  text-align: center
+  line-height: $marker-size
+  background-color: $color-neutral-200
+  margin-right: $m-sm
+
+  +media-breakpoint-up(xxl)
+    line-height: $marker-size-xxl
+    flex-basis: $marker-size-xxl

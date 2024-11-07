@@ -1,0 +1,120 @@
+@import '@shared/stylesheets/config.sass'
+
+@media screen and (max-height: 960px)
+  .dc-async-select
+    &__menu
+      &-list
+        &#{&}
+          max-height: 160px
+
+.dc-async-select
+  $this: &
+  border: none
+  font:
+    weight: $font-weight-regular
+    size: $font-size-sm
+    family: $font-family-body
+  margin:
+    bottom: $m-md
+    top: $m-xs
+  outline: none
+  line-height: $line-height-sm
+
+  &__menu
+    border-radius: $border-radius-sm
+    border: solid 1px $color-border
+    box-shadow: none
+
+    &-list
+      &::-webkit-scrollbar
+          display: block
+          height: $m-xxs
+          margin: $m-xs
+          width: $m-xxs
+
+      &::-webkit-scrollbar-track
+          background-color: transparent
+          margin: $m-xs 0
+
+      &::-webkit-scrollbar-thumb
+          background-color: $color-border
+          border-radius: $m-sm
+          padding-top: $m-sm
+
+      &::-webkit-scrollbar-corner
+          background-color: transparent
+
+      &::-webkit-scrollbar-track-piece:start
+          margin-top: $m-sm
+
+  &__custom-multi-value
+    background-color: $color-background
+    border-radius: $border-radius-sm
+    border: solid 1px $color-primary-500
+    color: $color-primary-500
+    font-weight: $font-weight-medium
+    margin: $m-xxs
+    padding: $m-xs
+
+  &__custom-single-value
+    color: $color-primary-500
+    display: block
+    font-size: $font-size-sm
+    font-weight: $font-weight-medium
+    grid-area: 1 / 1 / 2 / 3
+
+  &__label
+    padding-bottom: $m-xs
+
+  #{$this}__value-container
+    padding: $m-x
+
+  #{$this}__placeholder
+    color: $color-font-secondary
+
+  &__value-container--has-value
+    &:hover
+      border: none
+      box-shadow: none
+
+  #{$this}__control
+    +transition(border-color)
+    border-radius: $border-radius-sm
+    border: solid 1px $color-border
+    outline: none
+    background-color: $color-white
+
+    &:hover
+      border-color: $color-border-hover
+      box-shadow: none
+      cursor: pointer
+
+    &:focus-within
+      border-color: $color-primary-500
+      box-shadow: none
+
+    &--is-disabled
+      background-color: $color-neutral-200
+      border-color: $color-neutral-400
+
+  &__option
+    align-items: center
+    background-color: $color-white
+    color: $color-primary-500
+    cursor: pointer
+    display: flex
+    fill: $color-success-500
+    justify-content: space-between
+    padding: $m-sm
+
+    &--is-focused
+      background-color: $color-primary-200
+
+    &--is-selected
+      background-color: $color-white
+
+  &.-disabled
+    .dc-async-select__input-container
+      display: none
+
+

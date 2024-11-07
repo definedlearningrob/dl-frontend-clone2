@@ -1,0 +1,34 @@
+@import '@shared/stylesheets/config'
+
+.recommended-list-skeleton
+  +flex-container(row)
+
+  .recommended-card-skeleton
+    align-items: stretch
+    height: 100%
+
+    &__container
+      align-self: stretch
+      min-height: 200px
+
+.wrapper
+  margin-bottom: $m-lg
+
+.header
+  color: $color-font-primary
+  margin-bottom: $m-sm
+
+.heading
+  font-size: $font-size-base
+  margin: 0
+
+.subHeading
+  color: $color-font-secondary
+  font-size: $font-size-base
+  font-weight: $font-weight-regular
+  margin-top: $m-xs
+
+.cardInList
+  +flex-container(row)
+  margin-right: $m-sm
+  width: 300px

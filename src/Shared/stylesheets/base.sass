@@ -1,0 +1,90 @@
+@use "sass:math"
+$sinOfFortyFiveDegrees: math.sin(45deg)
+$cosOfFortyFiveDegrees: math.cos(45deg)
+
+*
+  box-sizing: border-box
+
+body
+  color: $color-font-primary
+  font:
+    family: $font-stack-body
+    size: $font-size-sm
+
+b,
+strong
+  font-weight: $font-weight-bold
+
+a,
+button,
+input[type='button'],
+input[type='submit']
+  cursor: pointer
+
+a
+  color: $color-primary-500
+  cursor: pointer
+
+  +hover
+    color: $color-primary-500
+
+img
+  display: block
+  max-width: 100%
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  font-family: $font-stack-body
+  font-weight: $font-weight-bold
+  margin:
+    bottom: $m-base
+    top: 0
+
+h4,
+h5,
+h6
+  margin:
+    bottom: $m-sm
+
+h1
+  font-size: $font-size-3xl
+
+h2
+  font-size: $font-size-2xl
+
+h3
+  font-size: $font-size-2lg
+
+h4
+  font-size: $font-size-lg
+
+h5
+  font-size: $font-size-base
+
+h6
+  font-size: $font-size-sm
+
+p
+  margin:
+    bottom: $m-sm
+    top: 0
+  line-height: $line-height-lg
+
+button
+  appearance: none
+  background-color: transparent
+  padding: 0
+
+textarea
+  resize: vertical
+
+.experiencesContainer
+  height: calc(100vh - $desktop-header-height)
+
+.custom-icon-transform
+  left: calc(50% + 50% * $cosOfFortyFiveDegrees)
+  bottom: calc(50% + 50% * $sinOfFortyFiveDegrees)

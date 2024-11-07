@@ -1,0 +1,55 @@
+@import '@shared/stylesheets/config.sass'
+
+$grid-template-columns: 1fr 168px 168px
+$grid-template-columns-xxxl: 1fr 192px 176px
+
+.studentNameWrapper
+  +flex-container(row, flex-start, center)
+  column-gap: $m-xs
+
+.table
+  :global(.shared-table__column-1)
+    padding-left: $m-base
+
+    +media-breakpoint-up(xxxl)
+      padding-left: $m-md
+
+  :global(.shared-table__column-3)
+    padding-right: $m-base
+
+    +media-breakpoint-up(xxxl)
+      padding-right: $m-md
+
+  :global(.shared-table__head),
+  :global(.shared-table__body)
+    grid-template-columns: $grid-template-columns
+
+    +media-breakpoint-up(xxxl)
+      grid-template-columns: $grid-template-columns-xxxl
+
+.table,
+.tableWrapper
+  height: 100% !important
+
+.tableColumn
+  +flex-container(row, false, center)
+  background-color: inherit
+
+.tableHead
+  padding-top: $m-md
+  color: $color-neutral-700
+
+  @extend .tableColumn
+  font-size: $font-size-xxs
+  font-weight: $font-weight-medium
+  line-height: $line-height-lg
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-xs
+
+.status
+  display: inline-block
+
+.emptyApplicationListWrapper
+  +flex-container(column, center)
+  height: 100%

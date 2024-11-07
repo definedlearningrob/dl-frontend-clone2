@@ -1,0 +1,39 @@
+@import '@shared/stylesheets/config'
+
+$icon-size: $m-md + $m-xs
+
+.item
+  +flex-container(row, flex-start, center)
+  gap: $m-sm
+
+  &:not(:first-of-type)
+    border-top: 1px solid $color-neutral-300
+    padding-top: $m-sm
+
+.icon
+  +flex-container(row, center, center)
+  background-color: $color-secondary-200
+  border-radius: $border-radius-sm
+  height: $icon-size
+  width: $icon-size
+
+.svg
+  color: $color-secondary-500
+
+  &#{&}
+    height: $m-base
+    width: $m-base
+
+.header
+  margin: 0
+
+.subTitle
+  color: $color-font-secondary
+  composes: header
+  font-size: $font-size-xxs
+  font-weight: $font-weight-regular
+
+.title
+  composes: header
+  font-size: $font-size-xxs
+  font-weight: $font-weight-bold

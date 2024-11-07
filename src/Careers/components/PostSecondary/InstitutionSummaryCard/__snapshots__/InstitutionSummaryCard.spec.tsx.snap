@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InstitutionSummaryCard should always display apply buttons 1`] = `
+[
+  <button
+    class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] button !border-neutral-300 hover:!border-danger-600 hover:!text-danger-600 hover:!bg-danger-100 focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 !text-danger-600 !border-danger-600 -default bg-white text-font-primary hover:bg-primary-200 outline-primary-500 border-white hover:border-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+    data-testid="button"
+    type="button"
+  >
+    <div
+      class="flex"
+    >
+      <div
+        class="flex align-center justify-center grow-0 shrink-0 text-danger-600 h-[14px] mt-[-1px]"
+        data-testid="icon"
+      >
+        <div
+          class="h-sm w-sm"
+        />
+      </div>
+    </div>
+    <span
+      class="items-center flex justify-center gap-xs"
+    >
+      Favorite
+    </span>
+  </button>,
+  <button
+    class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-xs -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+    data-testid="button"
+    type="button"
+  >
+    <div
+      class="flex"
+    >
+      <div
+        class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+        data-testid="icon"
+      >
+        <div
+          class="h-sm w-sm"
+        />
+      </div>
+    </div>
+    <span
+      class="items-center flex justify-center gap-xs"
+    >
+      Website
+    </span>
+  </button>,
+  <button
+    class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline py-xs px-sm !text-xs leading-[14px] !gap-xxs border -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+    data-testid="button"
+    type="button"
+  >
+    <span
+      class="items-center flex justify-center gap-xs"
+    >
+      Common App application
+    </span>
+  </button>,
+  <button
+    class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline py-xs px-sm !text-xs leading-[14px] !gap-xxs border -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] border"
+    data-testid="button"
+    type="button"
+  >
+    <span
+      class="items-center flex justify-center gap-xs"
+    >
+      Direct application
+    </span>
+  </button>,
+]
+`;
+
+exports[`InstitutionSummaryCard should render correctly 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="imageWrapper"
+      >
+        <div
+          class="absolute left-base top-base rounded-xs px-xs py-xxs bg-white"
+        >
+          <div />
+        </div>
+        <img
+          alt="University of Idaho"
+          class="image"
+          src="image-url"
+        />
+      </div>
+      <div
+        class="cardContent"
+      >
+        <div
+          class="header"
+        >
+          <div>
+            <div
+              class="tag"
+            >
+              Moscow, ID
+            </div>
+            <h2
+              class="text-font-primary mb-0 titleMedium title"
+              data-testid="card-title"
+            >
+              University of Idaho
+            </h2>
+          </div>
+          <div
+            class="actions"
+          >
+            <button
+              class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] button !border-neutral-300 hover:!border-danger-600 hover:!text-danger-600 hover:!bg-danger-100 focus-visible:outline focus-visible:!outline-danger-600 focus-visible:!outline-1 focus-visible:!outline-offset-2 !text-danger-600 !border-danger-600 -default bg-white text-font-primary hover:bg-primary-200 outline-primary-500 border-white hover:border-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+              data-testid="button"
+              type="button"
+            >
+              <div
+                class="flex"
+              >
+                <div
+                  class="flex align-center justify-center grow-0 shrink-0 text-danger-600 h-[14px] mt-[-1px]"
+                  data-testid="icon"
+                >
+                  <div
+                    class="h-sm w-sm"
+                  />
+                </div>
+              </div>
+              <span
+                class="items-center flex justify-center gap-xs"
+              >
+                Favorite
+              </span>
+            </button>
+            <a
+              href="https://www.uidaho.edu"
+              target="_blank"
+            >
+              <button
+                class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] text-xs -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-sm !text-xs leading-[14px] !gap-xxs border"
+                data-testid="button"
+                type="button"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex align-center justify-center grow-0 shrink-0 h-[14px] mt-[-1px]"
+                    data-testid="icon"
+                  >
+                    <div
+                      class="h-sm w-sm"
+                    />
+                  </div>
+                </div>
+                <span
+                  class="items-center flex justify-center gap-xs"
+                >
+                  Website
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          class="description"
+        >
+          <p
+            class="mb-base xxxl:mb-md"
+          >
+            University of Idaho is a medium, Public, 4-year or above institution. University of Idaho is located in distant town. It offers certificates, bachelor's degrees, master's degrees, doctoral degrees.
+          </p>
+          <div
+            class=""
+          >
+            <p>
+              Begin application process
+              :
+            </p>
+            <div
+              class="flex gap-xs xxxl:gap-sm"
+            >
+              <a
+                href="https://url-for-application"
+                target="_blank"
+              >
+                <button
+                  class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline py-xs px-sm !text-xs leading-[14px] !gap-xxs border -primary bg-primary-500 hover:bg-primary-600 outline-primary-500 border-primary-500 py-xs px-base leading-[22px] border text-white"
+                  data-testid="button"
+                  type="button"
+                >
+                  <span
+                    class="items-center flex justify-center gap-xs"
+                  >
+                    Common App application
+                  </span>
+                </button>
+              </a>
+              <a
+                href="https://www.uidaho.edu"
+                target="_blank"
+              >
+                <button
+                  class="button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-[3px] button flex items-center justify-center gap-xs rounded-sm cursor-pointer text-sm font-medium no-underline py-xs px-sm !text-xs leading-[14px] !gap-xxs border -primary-outlined text-primary-500 hover:bg-primary-200 py-xs px-base leading-[22px] border"
+                  data-testid="button"
+                  type="button"
+                >
+                  <span
+                    class="items-center flex justify-center gap-xs"
+                  >
+                    Direct application
+                  </span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

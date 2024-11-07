@@ -1,0 +1,48 @@
+@import '@shared/stylesheets/config'
+
+$status-divider-width: 24px
+$status-icon-height: 13px
+$status-icon-width: 13px
+$status-item-height: 32px
+$status-item-width: 32px
+
+.statusWrapper
+  +flex-container(row, center, center)
+  position: relative
+
+.statusTooltip
+  text-align: center
+  white-space: pre-line
+
+.statusIndex
+  +flex-container(column, center, center)
+  border-radius: $border-radius-xs
+  border: 1px solid $color-neutral-300
+  box-sizing: border-box
+  color: $color-primary-600
+  cursor: pointer
+  font-size: $font-size-sm
+  font-weight: $font-weight-bold
+  height: $status-item-height
+  line-height: 1.2
+  width: $status-item-width
+
+.statusDivider
+  background-color: $color-neutral-300
+  border-radius: 1px
+  height: 1px
+  margin: 0 $m-xs
+  width: $status-divider-width
+
+.statusIcon
+  background-color: $color-white
+  bottom: 26px
+  height: $status-icon-height
+  left: 25px
+  position: absolute
+  width: $status-icon-width
+  color: $color-neutral-800
+
+.submitted,
+.re_submitted
+  color: $color-secondary-500

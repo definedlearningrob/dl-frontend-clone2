@@ -1,0 +1,28 @@
+@import '@shared/stylesheets/config.sass'
+
+.heading
+  +flex-container(row, false, center)
+  gap: $m-sm
+  color: $color-font-primary
+  font-size: $font-size-2lg
+  margin-bottom: 0
+
+.displayNameInput
+  flex-grow: 1
+
+  :global(input)
+    padding: $m-x $m-base
+
+  :global(.input-error-message)
+    display: none
+
+.displayNameInput input
+  margin-bottom: 0
+
+.buttonsWrapper
+  +flex-container(row, false, center)
+  gap: $m-sm
+  width: 100%
+
+.button
+  width: $button-width

@@ -1,0 +1,24 @@
+@import '@shared/stylesheets/config'
+
+$common-gap: $m-base
+
+.wrapper
+  +flex-container(column)
+  gap: $common-gap
+  height: fit-content
+
+  +media-breakpoint-up(lg)
+    flex: 2
+
+  +media-breakpoint-up(xxl)
+    flex: 1
+
+.header
+  align-items: center
+
+.heading
+  margin: 0
+
+.body
+  +flex-container(column)
+  gap: $common-gap

@@ -1,0 +1,52 @@
+@import '@shared/stylesheets/config'
+
+.portfolioHeader
+  +flex-container(row, space-between, flex-start)
+  margin-bottom: $m-sm
+
+.portfolioHeading
+  color: $color-font-primary
+  font-size: $font-size-base
+  margin: 0
+
+.portfolioSubHeading
+  color: $color-font-secondary
+  margin-top: $m-xs
+
+.portfolioLink
+  color: $color-primary-500
+  cursor: pointer
+  font-size: $font-size-sm
+  font-weight: $font-weight-medium
+
+.portfolioContainer
+  +flex-container(row, space-between, flex-start)
+
+.portfolioContent
+  +flex-container(column, space-between, flex-start)
+  align-self: stretch
+  flex: 0 1 50%
+  margin-right: $m-sm
+
+  +media-breakpoint-up(xl)
+    flex: 0 1 60%
+    margin-right: $m-base
+
+.portfolioText
+  color: $color-font-primary
+  font-size: $font-size-sm
+  font-weight: $font-weight-medium
+  line-height: 1.7
+  margin-bottom: $m-md
+
+.portfolioIllustrationWrapper
+  align-self: stretch
+  margin-left: auto
+
+  +media-breakpoint-up(sm)
+    flex: 0 1 40%
+
+.portfolioIllustration
+  margin-left: auto
+  max-height: 300px
+  object-fit: cover

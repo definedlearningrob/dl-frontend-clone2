@@ -1,0 +1,56 @@
+@import '@shared/stylesheets/config.sass'
+
+$min-tab-width: 64px
+
+.tabs
+  +flex-container(row)
+  column-gap: $m-xxs
+  background-color: $color-white
+  border-radius: $m-xs
+  color: $color-font-secondary
+  margin: 0
+
+.tab
+  +flex-container(row, center, center)
+  min-width: $min-tab-width
+  column-gap: $m-xs
+  border: none
+  font-size: $font-size-xxs
+  font-weight: $font-weight-medium
+  line-height: $line-height-lg
+  border-radius: $m-xs
+  padding: $m-xs $m-sm
+  color: $color-neutral-700
+
+  &:hover
+    cursor: pointer
+
+    &:not(.tabSelected)
+      background-color: $color-neutral-200
+      color: $color-neutral-800
+
+  svg
+    width: 14px
+    height: 14px
+
+  +media-breakpoint-up(xxxl)
+    font-size: $font-size-xs
+
+    svg
+      width: 16px
+      height: 16px
+
+.tabSelected
+  background-color: $color-primary-200
+  color: $color-primary-500
+
+.withPadding
+  padding: $m-xs
+
+.fullWidth
+  flex-basis: 100%
+  flex-wrap: wrap
+
+.tabsWrapper
+  +flex-container(row)
+  width: 100%

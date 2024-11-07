@@ -1,0 +1,33 @@
+@import '@shared/stylesheets/config.sass'
+
+.rubrics-builder
+  &__header
+    +flex-container(row, space-between, flex-start)
+
+  &__header-actions
+    +flex-container(row, false, center)
+
+  &__delete-icon
+    fill: $color-danger-500
+
+  &__duplicate-icon
+    color: $color-primary-500
+
+  &__errors
+    color: $color-danger-500
+
+  &__cell
+    max-width: $rubrics-cell-max-width
+    min-width: $rubrics-cell-min-width
+
+  &__criteria-label
+    @extend .rubrics-builder__cell
+
+  &__new-cell
+    color: $color-primary-500
+
+  &__heading
+
+    &.-center
+      text-align: center
+

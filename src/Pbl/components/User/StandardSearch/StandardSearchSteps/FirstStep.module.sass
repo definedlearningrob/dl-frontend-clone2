@@ -1,0 +1,19 @@
+@import '@shared/stylesheets/config.sass'
+
+$innerHeight: 20%
+
+.mainContainer
+  +scrollbar
+  max-height: $innerHeight
+  flex-grow: 1
+  margin-bottom: $m-x
+
+.mainTitle
+  margin-bottom: $m-sm
+
+.standardSet
+  &:not(:last-child)
+    margin-bottom: $m-sm
+
+.footerContainer
+  align-self: center

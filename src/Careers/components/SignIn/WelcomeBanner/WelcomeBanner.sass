@@ -1,0 +1,77 @@
+@import '@shared/stylesheets/config.sass'
+
+$choose-account-bg: url('../../../assets/images/student-login.jpg')
+$signin-form-bg: url('../../../assets/images/schoolgirl-login.jpg')
+
+.signin-banner
+  display: none
+
+  &__logo
+    fill: $color-white
+    margin-bottom: auto
+    width: 70%
+
+    path
+      fill: $color-white
+
+  &__heading
+    font-size: $font-size-3xl
+    margin-bottom: 0
+
+  &__hint
+    font-size: $font-size-2lg
+
+    &__link
+      color: $color-white
+
+      &:hover
+        color: $color-white
+        font-weight: $font-weight-medium
+
+  &__footer
+    margin-top: auto
+    padding: 0
+    text-align: center
+    width: 100%
+
+  &__social-media-link
+    display: inline-block
+    margin: $m-xs
+    padding: $m-xs
+
+  &__social-media-icon
+    fill: $color-white
+
+  &__copyright-text
+    margin: 0
+
+//----- media queries --------------------------------------------------------------------------------------------------
++media-breakpoint-up(lg)
+  .signin-banner
+    +flex-container(column, space-between, flex-start)
+    background-size: cover
+    color: $color-white
+    flex: 0 0 30%
+    padding: $m-lg $m-lg $m-md
+
+    &-bg-choose-account
+      background-image: linear-gradient($welcome-banner-layer-color, $welcome-banner-layer-color), $choose-account-bg
+
+    &-bg-signin-form
+      background-image: linear-gradient($welcome-banner-layer-color, $welcome-banner-layer-color), $signin-form-bg
+
++min-width-and-max-height(lg, md)
+  .signin-banner
+    &__heading
+      font-size: $font-size-xl
+
+    &__hint
+      font-size: $font-size-base
+
++media-breakpoint-up(xl)
+  .signin-banner
+    &__hint
+      font-size: $font-size-lg
+      
+    &__heading
+      font-size: $font-size-2xl

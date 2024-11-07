@@ -1,0 +1,15 @@
+@import '@shared/stylesheets/config'
+
+.questionButton
+  +button-unstyled
+  +sidebar-item
+  padding-left: $m-sm !important
+  animation: fadeIn 250ms ease-in 100ms 1 normal forwards
+  opacity: 0
+  width: 100%
+
+  &:hover
+    box-shadow: none !important
+
+  svg
+    fill: $color-font-secondary !important

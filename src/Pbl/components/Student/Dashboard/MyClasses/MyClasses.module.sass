@@ -1,0 +1,28 @@
+@import '@shared/stylesheets/config'
+
+$gradient-height: 50px
+
+.wrapper
+  +flex-container(column)
+  padding: 0 0 $m-xxxs 0
+  position: relative
+
+  &::after
+    content: ""
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 16%, rgba(255, 255, 255, 0) 100%)
+    bottom: 0
+    height: $gradient-height
+    position: absolute
+    width: calc(100% - $m-base)
+
+.header
+  padding: $m-base $m-base 0 $m-base
+  font-size: $font-size-sm
+
+.list
+  +flex-container(column)
+  gap: $m-sm
+  height: 100%
+  overflow-y: auto
+  margin: 0
+  padding: 0 $m-base $m-base $m-base

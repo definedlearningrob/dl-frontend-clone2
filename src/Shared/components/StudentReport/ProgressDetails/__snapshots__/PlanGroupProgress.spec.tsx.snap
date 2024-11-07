@@ -1,0 +1,448 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanGroupProgress component renders loading state correctly when isLoading is true 1`] = `
+<div>
+  <div
+    class="flex"
+  >
+    <div
+      class="flex items-center justify-center relative after:absolute pe-[20px] xxxl:pe-[28px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xs xxxl:after:right-x last-of-type:after:hidden last-of-type:pe-0"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0 bg-white outline outline-1 outline-neutral-300 rounded-xs mr-xxs text-neutral-700 p-xxs"
+          data-testid="icon"
+        >
+          <div
+            class="h-sm w-sm"
+          />
+        </div>
+      </div>
+      <div
+        class="w-lg"
+      >
+        <div
+          class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+        />
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center relative after:absolute pe-[20px] xxxl:pe-[28px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xs xxxl:after:right-x last-of-type:after:hidden last-of-type:pe-0"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0 bg-white outline outline-1 outline-neutral-300 rounded-xs mr-xxs text-secondary-500 p-xxs"
+          data-testid="icon"
+        >
+          <div
+            class="h-sm w-sm"
+          />
+        </div>
+      </div>
+      <div
+        class="w-lg"
+      >
+        <div
+          class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+        />
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center relative after:absolute pe-[20px] xxxl:pe-[28px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xs xxxl:after:right-x last-of-type:after:hidden last-of-type:pe-0"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0 bg-white outline outline-1 outline-neutral-300 rounded-xs mr-xxs text-success-500 p-xxs"
+          data-testid="icon"
+        >
+          <div
+            class="h-sm w-sm"
+          />
+        </div>
+      </div>
+      <div
+        class="w-lg"
+      >
+        <div
+          class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+        />
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center relative after:absolute pe-[20px] xxxl:pe-[28px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xs xxxl:after:right-x last-of-type:after:hidden last-of-type:pe-0"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0 bg-white outline outline-1 outline-neutral-300 rounded-xs mr-xxs text-danger-500 p-xxs"
+          data-testid="icon"
+        >
+          <div
+            class="h-sm w-sm"
+          />
+        </div>
+      </div>
+      <div
+        class="w-lg"
+      >
+        <div
+          class="skeleton-rectangle skeletonRectangle radius-md height-auto width-full-width darker animated"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PlanGroupProgress component renders progress correctly when isLoading is false 1`] = `
+<div>
+  <div
+    class="flex"
+  >
+    <div
+      class="flex items-center justify-center relative after:absolute pe-[20px] xxxl:pe-[28px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xs xxxl:after:right-x last-of-type:after:hidden last-of-type:pe-0"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0 bg-white outline outline-1 outline-neutral-300 rounded-xs mr-xxs text-neutral-700 p-xxs"
+          data-testid="icon"
+        >
+          <div
+            class="h-sm w-sm"
+          />
+        </div>
+      </div>
+      <div
+        class="font-medium leading-lg mr-xxxs text-xxs xxxl:text-xs"
+      >
+        20
+        %
+      </div>
+      <div
+        class="text-xxs xxxl:text-xs leading-sm flex items-center text-font-secondary"
+      >
+        (
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 mr-xxxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-x w-x"
+            />
+          </div>
+        </div>
+        2
+        )
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center relative after:absolute pe-[20px] xxxl:pe-[28px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xs xxxl:after:right-x last-of-type:after:hidden last-of-type:pe-0"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0 bg-white outline outline-1 outline-neutral-300 rounded-xs mr-xxs text-secondary-500 p-xxs"
+          data-testid="icon"
+        >
+          <div
+            class="h-sm w-sm"
+          />
+        </div>
+      </div>
+      <div
+        class="font-medium leading-lg mr-xxxs text-xxs xxxl:text-xs"
+      >
+        20
+        %
+      </div>
+      <div
+        class="text-xxs xxxl:text-xs leading-sm flex items-center text-font-secondary"
+      >
+        (
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 mr-xxxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-x w-x"
+            />
+          </div>
+        </div>
+        2
+        )
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center relative after:absolute pe-[20px] xxxl:pe-[28px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xs xxxl:after:right-x last-of-type:after:hidden last-of-type:pe-0"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0 bg-white outline outline-1 outline-neutral-300 rounded-xs mr-xxs text-success-500 p-xxs"
+          data-testid="icon"
+        >
+          <div
+            class="h-sm w-sm"
+          />
+        </div>
+      </div>
+      <div
+        class="font-medium leading-lg mr-xxxs text-xxs xxxl:text-xs"
+      >
+        30
+        %
+      </div>
+      <div
+        class="text-xxs xxxl:text-xs leading-sm flex items-center text-font-secondary"
+      >
+        (
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 mr-xxxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-x w-x"
+            />
+          </div>
+        </div>
+        3
+        )
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center relative after:absolute pe-[20px] xxxl:pe-[28px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xs xxxl:after:right-x last-of-type:after:hidden last-of-type:pe-0"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0 bg-white outline outline-1 outline-neutral-300 rounded-xs mr-xxs text-danger-500 p-xxs"
+          data-testid="icon"
+        >
+          <div
+            class="h-sm w-sm"
+          />
+        </div>
+      </div>
+      <div
+        class="font-medium leading-lg mr-xxxs text-xxs xxxl:text-xs"
+      >
+        30
+        %
+      </div>
+      <div
+        class="text-xxs xxxl:text-xs leading-sm flex items-center text-font-secondary"
+      >
+        (
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 mr-xxxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-x w-x"
+            />
+          </div>
+        </div>
+        3
+        )
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PlanGroupProgress component renders progress when all progress values are zero and isLoading is false 1`] = `
+<div>
+  <div
+    class="flex"
+  >
+    <div
+      class="flex items-center justify-center relative after:absolute pe-[20px] xxxl:pe-[28px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xs xxxl:after:right-x last-of-type:after:hidden last-of-type:pe-0"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0 bg-white outline outline-1 outline-neutral-300 rounded-xs mr-xxs text-neutral-700 p-xxs"
+          data-testid="icon"
+        >
+          <div
+            class="h-sm w-sm"
+          />
+        </div>
+      </div>
+      <div
+        class="font-medium leading-lg mr-xxxs text-xxs xxxl:text-xs"
+      >
+        0
+        %
+      </div>
+      <div
+        class="text-xxs xxxl:text-xs leading-sm flex items-center text-font-secondary"
+      >
+        (
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 mr-xxxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-x w-x"
+            />
+          </div>
+        </div>
+        0
+        )
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center relative after:absolute pe-[20px] xxxl:pe-[28px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xs xxxl:after:right-x last-of-type:after:hidden last-of-type:pe-0"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0 bg-white outline outline-1 outline-neutral-300 rounded-xs mr-xxs text-secondary-500 p-xxs"
+          data-testid="icon"
+        >
+          <div
+            class="h-sm w-sm"
+          />
+        </div>
+      </div>
+      <div
+        class="font-medium leading-lg mr-xxxs text-xxs xxxl:text-xs"
+      >
+        0
+        %
+      </div>
+      <div
+        class="text-xxs xxxl:text-xs leading-sm flex items-center text-font-secondary"
+      >
+        (
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 mr-xxxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-x w-x"
+            />
+          </div>
+        </div>
+        0
+        )
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center relative after:absolute pe-[20px] xxxl:pe-[28px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xs xxxl:after:right-x last-of-type:after:hidden last-of-type:pe-0"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0 bg-white outline outline-1 outline-neutral-300 rounded-xs mr-xxs text-success-500 p-xxs"
+          data-testid="icon"
+        >
+          <div
+            class="h-sm w-sm"
+          />
+        </div>
+      </div>
+      <div
+        class="font-medium leading-lg mr-xxxs text-xxs xxxl:text-xs"
+      >
+        0
+        %
+      </div>
+      <div
+        class="text-xxs xxxl:text-xs leading-sm flex items-center text-font-secondary"
+      >
+        (
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 mr-xxxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-x w-x"
+            />
+          </div>
+        </div>
+        0
+        )
+      </div>
+    </div>
+    <div
+      class="flex items-center justify-center relative after:absolute pe-[20px] xxxl:pe-[28px] after:bg-neutral-300 after:h-xxs after:w-xxs after:rounded-full after:right-xs xxxl:after:right-x last-of-type:after:hidden last-of-type:pe-0"
+    >
+      <div
+        class="flex"
+      >
+        <div
+          class="flex align-center justify-center grow-0 shrink-0 bg-white outline outline-1 outline-neutral-300 rounded-xs mr-xxs text-danger-500 p-xxs"
+          data-testid="icon"
+        >
+          <div
+            class="h-sm w-sm"
+          />
+        </div>
+      </div>
+      <div
+        class="font-medium leading-lg mr-xxxs text-xxs xxxl:text-xs"
+      >
+        0
+        %
+      </div>
+      <div
+        class="text-xxs xxxl:text-xs leading-sm flex items-center text-font-secondary"
+      >
+        (
+        <div
+          class="flex"
+        >
+          <div
+            class="flex align-center justify-center grow-0 shrink-0 mr-xxxs"
+            data-testid="icon"
+          >
+            <div
+              class="h-x w-x"
+            />
+          </div>
+        </div>
+        0
+        )
+      </div>
+    </div>
+  </div>
+</div>
+`;

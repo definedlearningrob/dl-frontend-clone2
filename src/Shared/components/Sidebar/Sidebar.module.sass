@@ -1,0 +1,35 @@
+@import '@shared/stylesheets/config.sass'
+
+.sidebar
+  width: $navbar-expand-width
+
+.overlay
+  &::after
+    +pseudoelement()
+    background-color: transparent
+    z-index: $z-higher
+
+.logoIcon
+  +flex-container(row, center, center)
+  cursor: pointer
+  height: $m-md + $m-xs
+  margin: $m-sm 0 $m-md
+  padding: 0 $m-sm
+  width: $navbar-expand-width
+
+.small
+  width: $navbar-collapse-width
+
+.smallLogo
+  :global(.logotype-text)
+    path
+      fill: none
+
+.hidden
+  display: none
+
+.animationClose
+  transition: $sidebar-transition-close
+
+.animationOpen
+  transition: $sidebar-transition-open
